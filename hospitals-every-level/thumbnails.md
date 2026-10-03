@@ -1,0 +1,33 @@
+# How Hospitals Treat You at Every Level of Wealth: Thumbnails
+
+Shared base for every thumbnail prompt: YouTube thumbnail, 16:9, 1280x720. Flat 2D cartoon webcomic illustration with bold clean black outlines, flat cel shading, bright detailed background and high contrast. The protagonist is a young man with an oversized round head, short dark-brown side-parted hair, thin rectangular glasses, large half-lidded unimpressed eyes and a small flat mouth, always deadpan. Keep the bottom-right corner clear.
+
+## 1. Two Floors
+- **Visual concept:** a split-level cutaway of a hospital. The top half is a golden luxury suite where the protagonist relaxes in a dark tailored jacket with a menu and a river view. The bottom half is a crowded, cold-blue ER full of exhausted patients in plastic chairs, one clutching his side.
+- **Text overlay:** "$0 → $50M" (top-left)
+- **Emotion trigger:** injustice, plus curiosity about the hidden floor
+- **Prompt:** YouTube thumbnail, 16:9. A vertical cutaway cross-section of a hospital building. Top half: a warm golden private suite with hardwood floors, a river view and a silver room-service dome, where the protagonist sits up in a crisp hospital bed wearing a dark tailored jacket, holding a leather-bound menu and staring straight at the viewer with a deadpan side-eye. Bottom half: a crowded emergency waiting room in cold blue fluorescent light, packed with exhausted, expressive patients in blue plastic chairs, a man clutching his side and a tired nurse at a plexiglass window. Bold cream all-caps text with a thick black outline in the top-left: "$0 → $50M". Flat 2D cartoon webcomic illustration, bold clean black outlines, flat cel shading, strong warm-gold versus cold-blue contrast. The protagonist is the darkest, sharpest shape in the frame. Bottom-right corner kept clear.
+
+## 2. The $38,000 Bill
+- **Visual concept:** the protagonist in a charcoal hoodie, sitting in a plastic ER chair, holding up a long itemized bill that unrolls to the floor. Behind him, a man in a camel coat with a leather wallet is waved past the line by a smiling nurse.
+- **Text overlay:** "$38,000" with a small red arrow pointing to the bill
+- **Emotion trigger:** shock and outrage at absurd prices, and the unfairness of the line-cutter
+- **Prompt:** YouTube thumbnail, 16:9. The protagonist in a plain charcoal hoodie sits in a blue plastic emergency-room chair, chest-up and left of center, holding up a hospital bill so long it unrolls down to the floor, with readable lines "Pill $19" and "Gown $112". He stares at the viewer with a flat, unimpressed side-eye. Behind him, a smiling nurse in light-blue scrubs waves a well-dressed man in a camel overcoat, flashing a leather wallet, through the triage doors while other exhausted patients glare. A flickering fluorescent light overhead. Bold cream all-caps text with a thick black outline in the top-left: "$38,000", with a small hand-drawn red arrow pointing to the bill. Flat 2D cartoon webcomic illustration, bold black outlines, flat cel shading, cool blue-gray background with red accents. Bottom-right corner kept clear.
+
+## 3. Name on the Wall
+- **Visual concept:** the protagonist in a dark coat stands calmly in front of a grand hospital wing with his initials carved in stone. Hospital executives in suits bow and applaud behind him, and a nurse hands him flowers.
+- **Text overlay:** "THEY BOW NOW"
+- **Emotion trigger:** status reversal and vindication (the hospital that billed you now honors you)
+- **Prompt:** YouTube thumbnail, 16:9. The protagonist in a long dark tailored coat stands chest-up, center-left, in front of a grand granite hospital entrance with large carved letters above the doors, giving the viewer a calm, deadpan side-eye. Behind him, a crowd of hospital executives in suits applaud and bow eagerly, a red ribbon is being cut, and a smiling nurse holds out a bouquet, all with exaggerated, eager expressions. Golden late-afternoon light. Bold cream all-caps text with a thick black outline at top-center: "THEY BOW NOW". Flat 2D cartoon webcomic illustration, bold black outlines, flat cel shading, bright warm palette with gold accents. The protagonist is the darkest shape in the frame. Bottom-right corner kept clear.
+
+## 4. The VIP Elevator
+- **Visual concept:** the protagonist inside a warm, wood-paneled private elevator. The doors are half open onto the chaotic ER below, and he presses a glowing gold button with no label.
+- **Text overlay:** "SECRET FLOOR"
+- **Emotion trigger:** exclusivity and forbidden-knowledge curiosity
+- **Prompt:** YouTube thumbnail, 16:9. The protagonist in a dark tailored jacket stands inside a luxurious wood-paneled private elevator lit with warm gold light, pressing a glowing gold button with no label, and looks at the viewer with a knowing deadpan side-eye. The elevator doors are half open, revealing a chaotic, cold-blue emergency room outside: crowded plastic chairs, a flickering fluorescent tube, patients holding their sides and a frazzled nurse. Bold cream all-caps text with a thick black outline in the top-left: "SECRET FLOOR", with a small red arrow pointing to the gold button. Flat 2D cartoon webcomic illustration, bold black outlines, flat cel shading, strong warm-inside versus cold-outside contrast. Bottom-right corner kept clear.
+
+## 5. Same Patient, Two Lives
+- **Visual concept:** a side-by-side split. On the left, the younger protagonist in a hoodie sits in an ER plastic chair and a nurse turns away. On the right, the same protagonist in a suit is in a luxury suite while three doctors and a chef attend to him.
+- **Text overlay:** "$0" (left) and "$50M" (right)
+- **Emotion trigger:** before-and-after comparison, and the unfairness of how the same person is treated
+- **Prompt:** YouTube thumbnail, 16:9, split vertically down the middle with a jagged divider. Left half, cold blue fluorescent light: the protagonist in a plain charcoal hoodie, slumped in a blue plastic emergency chair clutching his side while a nurse in light-blue scrubs turns her back and a wall clock shows hours passing. Right half, warm gold lamp light: the same protagonist in a dark tailored jacket reclines in a luxurious private suite while three eager doctors in white coats and a chef with a menu crowd around him smiling. In both halves he gives the viewer the same flat, half-lidded deadpan stare. Bold cream all-caps text with thick black outlines: "$0" at the top of the left half and "$50M" at the top of the right half. Flat 2D cartoon webcomic illustration, bold black outlines, flat cel shading, high contrast. Bottom-right corner kept clear.
