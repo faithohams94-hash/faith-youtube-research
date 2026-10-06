@@ -15,8 +15,9 @@ VIDEO TITLE: [PASTE TITLE]
 SCRIPT OR KEY MOMENTS (optional): [PASTE SCRIPT OR 3–5 KEY SCENES]
 
 LOCKED PROTAGONIST (describe him fully in every prompt)
-A young man with an oversized round head, short dark-brown side-parted hair, thin rectangular glasses, large half-lidded unimpressed eyes and a small flat mouth. He is ALWAYS deadpan, giving a calm, knowing side-eye straight at the viewer, and is always the darkest, sharpest shape in the frame.
-Outfit by wealth tier: plain charcoal hoodie (broke) → charcoal crewneck sweater (middle) → dark tailored jacket over a charcoal tee (rich).
+A young man with an oversized head, messy curly jet-black hair, thick black rectangular glasses, heavy half-lidded tired eyes with faint dark under-eye lines, thick slightly furrowed black eyebrows, pale off-white skin and a small flat frowning mouth. He is ALWAYS deadpan, giving a calm, knowing side-eye straight at the viewer, and is always the darkest, sharpest shape in the frame.
+Signature look (matches the channel logo, brand/protagonist-reference.webp): black hoodie with the hood up. Attach that image as a character reference whenever your generator allows it.
+Outfit by wealth tier: plain black hoodie with the hood up (broke) → black crewneck sweater (middle) → dark tailored jacket over a black tee (rich).
 
 THE THUMBNAIL FORMULA (every concept must follow it)
 1. ANCHOR: the protagonist is chest-up, takes up 35–45% of the frame on the left or center, and faces the viewer.
@@ -53,7 +54,7 @@ After the 5 concepts, recommend the strongest one in a single line.
 ## PART B: Single thumbnail template
 
 ```
-YouTube thumbnail, 16:9, 1280x720. The protagonist, a young man with an oversized round head, short dark-brown side-parted hair, thin rectangular glasses, large half-lidded unimpressed eyes and a small flat mouth, wearing [OUTFIT], is chest-up on the [left/center], giving the viewer a calm deadpan side-eye, and is the darkest shape in the frame.
+YouTube thumbnail, 16:9, 1280x720. The protagonist, a young man with an oversized head, messy curly jet-black hair, thick black rectangular glasses, heavy half-lidded tired eyes with faint dark under-eye lines, thick slightly furrowed black eyebrows, pale off-white skin and a small flat frowning mouth, wearing [OUTFIT], is chest-up on the [left/center], giving the viewer a calm deadpan side-eye, and is the darkest shape in the frame.
 [PROP] in his hand or beside him.
 Behind him: [BUSY PREMISE SCENE] with hyper-expressive [shocked/angry/envious/bowing] background characters.
 Lighting: [warm gold / cold blue / split warm vs cold].

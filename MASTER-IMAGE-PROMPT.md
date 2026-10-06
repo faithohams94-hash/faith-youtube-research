@@ -21,13 +21,14 @@ LOCKED VISUAL STYLE (put it inside EVERY prompt)
 Flat 2D cartoon webcomic illustration, bold clean black outlines, flat cel shading, desaturated slate-blue and gray palette with muted olive, rust, mustard and maroon accents, detailed lived-in background, semi-chibi characters with oversized heads, layered foreground, mid-ground and background, 16:9 frame with the bottom 15% kept clear of important detail (for captions).
 
 LOCKED PROTAGONIST (describe him fully in EVERY prompt he appears in)
-A young man with an oversized round head, short dark-brown side-parted hair, thin rectangular glasses, large half-lidded unimpressed eyes and a small flat mouth, always deadpan. He is always the darkest value in the frame.
+A young man with an oversized head, messy curly jet-black hair, thick black rectangular glasses, heavy half-lidded tired eyes with faint dark under-eye lines, thick slightly furrowed black eyebrows, pale off-white skin and a small flat frowning mouth, always deadpan. He is always the darkest value in the frame.
+Signature look (matches the channel logo, brand/protagonist-reference.webp): black hoodie with the hood up. Attach that image as a character reference whenever your generator allows it.
 Outfit by wealth tier:
-- Broke or low: plain charcoal hoodie
-- Middle: charcoal crewneck sweater
-- Upper-middle: charcoal quarter-zip pullover
-- Rich and above: dark tailored jacket over a charcoal tee
-Flashbacks to his poor past show him in the charcoal hoodie, thinner and more tired.
+- Broke or low: plain black hoodie with the hood up
+- Middle: black crewneck sweater
+- Upper-middle: black quarter-zip pullover
+- Rich and above: dark tailored jacket over a black tee
+Flashbacks to his poor past show him in the black hoodie, thinner and more tired.
 
 LIGHTING BY TIER (it warms as wealth rises)
 - Lowest: harsh cool fluorescent light with a faint flicker, blue-gray shadows
@@ -71,7 +72,7 @@ SCRIPT:
 
 ```
 [SCENE: subject + action + environment + story props, with exact numbers or text if any].
-The protagonist is a young man with an oversized round head, short dark-brown side-parted hair, thin rectangular glasses, large half-lidded unimpressed eyes and a small flat mouth, always deadpan, wearing [OUTFIT FOR TIER], and is the darkest value in the frame.
+The protagonist is a young man with an oversized head, messy curly jet-black hair, thick black rectangular glasses, heavy half-lidded tired eyes with faint dark under-eye lines, thick slightly furrowed black eyebrows, pale off-white skin and a small flat frowning mouth, always deadpan, wearing [OUTFIT FOR TIER], and is the darkest value in the frame.
 [Character notes for anyone else in the frame.]
 Style: flat 2D cartoon webcomic illustration, bold clean black outlines, flat cel shading, desaturated slate-blue and gray palette with muted olive, rust, mustard and maroon accents, detailed lived-in background, semi-chibi characters with oversized heads, layered foreground, mid-ground and background, 16:9 frame with the bottom 15% kept clear.
 Camera: [SHOT + ANGLE]. Lighting: [TIER LIGHTING]. Mood: [2–3 WORDS].

@@ -21,7 +21,8 @@ LOCKED STYLE (put it in every prompt)
 Flat 2D cartoon webcomic animation, bold clean black outlines, flat cel shading, desaturated slate-blue and gray palette with muted warm accents, 16:9. Limited, subtle, intentional motion. No morphing, no warping, no extra limbs, no lip-sync talking; characters stay on-model and the outlines stay crisp.
 
 LOCKED PROTAGONIST (describe him in every clip he appears in)
-A young man with an oversized round head, short dark-brown side-parted hair, thin rectangular glasses, large half-lidded unimpressed eyes and a small flat mouth, always deadpan. Outfit by tier: charcoal hoodie (broke) → charcoal crewneck sweater (middle) → charcoal quarter-zip (upper-middle) → dark tailored jacket (rich).
+A young man with an oversized head, messy curly jet-black hair, thick black rectangular glasses, heavy half-lidded tired eyes with faint dark under-eye lines, thick slightly furrowed black eyebrows, pale off-white skin and a small flat frowning mouth, always deadpan. Outfit by tier: black hoodie (broke) → black crewneck sweater (middle) → black quarter-zip (upper-middle) → dark tailored jacket (rich).
+Signature look (matches the channel logo, brand/protagonist-reference.webp): black hoodie with the hood up. Attach that image as a character reference whenever your generator allows it.
 How he moves: minimal. Slow blinks, a small head turn, eyes flicking to the side, a slight tightening of the jaw, lowering an object. He never smiles widely or gestures big. His stillness is the point.
 
 MOTION RULES
@@ -49,7 +50,7 @@ Duration: [X]s
 
 ```
 [STARTING SCENE: setting + who is in frame + key props].
-The protagonist is a young man with an oversized round head, short dark-brown side-parted hair, thin rectangular glasses, large half-lidded unimpressed eyes and a small flat mouth, always deadpan, wearing [OUTFIT].
+The protagonist is a young man with an oversized head, messy curly jet-black hair, thick black rectangular glasses, heavy half-lidded tired eyes with faint dark under-eye lines, thick slightly furrowed black eyebrows, pale off-white skin and a small flat frowning mouth, always deadpan, wearing [OUTFIT].
 Main action: [ONE SUBTLE ACTION, e.g. "he blinks slowly and lowers the bill"].
 Ambient motion: [e.g. "the fluorescent light flickers twice" / "steam rises" / "background patients shift"].
 Camera: [slow push-in / slow pull-back / slow pan / slow tilt / rack focus / static].
