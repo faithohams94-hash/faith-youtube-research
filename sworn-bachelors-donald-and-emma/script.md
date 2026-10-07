@@ -7,7 +7,7 @@
 
 ## THE BIG IDEA
 
-Three boys from Ajegunle swore on a rooftop that they would never fall in love. Twenty-three years later, all three of them have, at the same time, and none of them will admit it. This story follows Donald. While he is hiding Emma from his brothers, Michael and Geoffrey are hiding something too, so nobody can question anybody without exposing himself.
+Three poor boys grew up as neighbours in Ajegunle, went their separate ways, and met again fifteen years later as millionaires. That night, on their childhood rooftop, they swore they would never fall in love. Seven years later, all three of them have, at the same time, and none of them will admit it. This story follows Donald. While he is hiding Emma from his brothers, Michael and Geoffrey are hiding something too, so nobody can question anybody without exposing himself.
 
 ## CAST
 
@@ -24,7 +24,8 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 - **MALLAM ISA** (60s). Suya seller near the old Ebute-Metta railway yard. He has fed Donald since Donald was a boy.
 - **JAMES REARDON** (31). Emma's older brother, a musician the family pushed out.
 - **DR. & MRS. REARDON**. Emma's parents, both doctors.
-- **YOUNG DONALD, YOUNG MICHAEL, YOUNG GEOFFREY** (12–14). **MR. IRWIN**, Donald's father. **INSPECTOR BELLO**. **NARRATOR**.
+- **YOUNG DONALD, YOUNG MICHAEL, YOUNG GEOFFREY** (ages 9–15). Neighbours in one Ajegunle compound.
+- **MAMA McCLAREN**. Michael's mother, the compound's loudest voice. **TUNDE**. The school bully from Primary 5B. **MR. IRWIN**, Donald's father. **INSPECTOR BELLO**. **NARRATOR**.
 
 ## THE THREE SECRETS RUNNING AT THE SAME TIME
 
@@ -36,7 +37,8 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ## RECURRING DETAILS TO KEEP CONSISTENT
 
-- **The ₦3,000 share certificate.** "Three Boys Ventures", their first company, is framed in three pieces, one piece each. Whoever falls in love first must hand his piece to the other two on the rooftop and confess.
+- **The ₦3,000 share certificate.** "Three Boys Ventures" was the boys' savings from selling pure water and recharge cards. Donald tore it into three when they separated at fifteen, and the pieces fit back together at the reunion. Whoever falls in love first must hand his piece to the other two on the rooftop and confess.
+- **"We protect each other."** The boys promise it on the rooftop the dawn after Donald's father dies. It becomes rule number five of the vow and saves Emma's life.
 - **"Still sworn?"** The three ask it every Rooftop Night, and every year they say "Still sworn." This year all three are lying.
 - **Mallam Isa's suya.** Donald ate it as a boy, he brings it to Emma, and it saves her life.
 - **Page eleven.** Emma's margin note starts everything. It becomes her secret code to Donald.
@@ -44,123 +46,277 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 1 — STILL SWORN
-**EXT. ROOFTOP, AJEGUNLE — NIGHT — PRESENT DAY**
-*(~0:00–1:00)*
+## SCENE 1 — PREAMBLE: ONE WALL, ONE BALL
+**EXT. FACE-ME-I-FACE-YOU COMPOUND, AJEGUNLE — EVENING — THIRTY YEARS AGO**
+*(~0:00–1:42)*
 
-*The rusty rooftop of an old face-me-I-face-you building. It is cleaned up now, with fairy lights, three leather chairs and a small table with three glasses. Below, generators hum. Far away, Victoria Island glitters. Three powerful men in expensive clothes sit where they once sat as hungry boys: DONALD IRWIN, MICHAEL McCLAREN and GEOFFREY DUROSE.*
+**NARRATOR:** Before the billions, the towers and the lies, there were three poor boys, one thin wall and one football made of nylon bags.
 
-**MICHAEL:** *(raising his glass)* Twenty-three years, gentlemen. Twenty-three years, and not one woman has caught us.
+*A crowded compound. Washing hangs on lines, a single tap drips, children everywhere and a kerosene stove smokes. Three doors stand side by side: the IRWINS, the McCLARENS and the DUROSES. Three nine-year-old boys, barefoot, kick a ball made of nylon bags tied with rubber bands between two bricks for a goal: YOUNG DONALD, YOUNG MICHAEL and YOUNG GEOFFREY.*
 
-**GEOFFREY:** Not one.
+**YOUNG MICHAEL:** *(commentating like a TV presenter)* Michael McClaren has the ball! He passes one! He passes two! The crowd is going crazy! It's a GOAAAL!
 
-**DONALD:** Not one.
+**YOUNG DONALD:** That's not a goal. The ball went over the brick.
 
-*They clink. Then, by tradition, Michael asks it.*
+**YOUNG MICHAEL:** The brick is short! It's a goal in my heart!
 
-**MICHAEL:** Still sworn?
+**YOUNG GEOFFREY:** *(writing in a tattered exercise book)* That's the fourth goal you've scored "in your heart" today. In real life, Donald is winning three-nil.
 
-**GEOFFREY:** *(a tiny pause)* Still sworn.
+*The ball flies and lands in a pot of stew outside Mama Michael's door. Silence. MAMA McCLAREN appears with a wooden spoon.*
 
-**DONALD:** *(without blinking)* Still sworn.
+**MAMA McCLAREN:** WHO KICKED THIS BALL?!
 
-**MICHAEL:** Still sworn!
+*Michael and Geoffrey immediately point at Donald. Donald steps forward without hesitation.*
 
-*They drink. Donald's phone vibrates in his pocket and he doesn't check it. Michael's phone vibrates and he flips it face down. Geoffrey glances at a folded paper in his jacket and buttons the jacket.*
+**YOUNG DONALD:** It was me, Ma. I'll fetch water for you for one week.
 
-**NARRATOR:** Three best friends. Three promises. And that night, on the rooftop where it all began, three lies. *(beat)* To understand how the most powerful men in Lagos ended up lying to each other, you have to go back to the night they made the promise.
+**MAMA McCLAREN:** *(softening)* …Two weeks. And bring back my spoon.
+
+*She goes in. The boys burst out laughing.*
+
+**YOUNG GEOFFREY:** Why do you always take the blame?
+
+**YOUNG DONALD:** *(shrugging)* Somebody has to be in charge.
+
+*NEPA takes the light. The whole compound shouts "Ahhh!" in the dark. The three boys sit on the step together, shoulder to shoulder.*
+
+**YOUNG GEOFFREY:** My papa says one day he'll build something so big we'll never sleep in the dark again.
+
+**YOUNG MICHAEL:** My papa says I talk too much.
+
+**YOUNG DONALD:** *(looking at his own door)* My papa says if you're poor, you have to be twice as careful. *(beat)* I'm going to be three times.
 
 ---
 
-## SCENE 2 — PREAMBLE: THREE BOYS, ONE VOW
-**EXT. SAME ROOFTOP, AJEGUNLE — NIGHT — TWENTY-THREE YEARS AGO**
-*(~1:00–2:29)*
+## SCENE 2 — PREAMBLE: BREAK TIME
+**EXT. AJEGUNLE COMMUNITY PRIMARY SCHOOL — DUSTY FIELD — DAY**
+*(~1:42–3:06)*
 
-*Rusty zinc, no lights, no chairs. YOUNG DONALD (14), YOUNG MICHAEL (14) and YOUNG GEOFFREY (14) share one bottle of Fanta. In front of them on a flattened carton is a handwritten "share certificate": THREE BOYS VENTURES, CAPITAL: ₦3,000.*
+*A school bell clangs. Dozens of children in faded brown-and-cream uniforms pour onto a dusty field. The three boys, now eleven, rush out with an old leather ball. Their opponents, PRIMARY 5B, are bigger, with a giant boy called TUNDE as captain.*
 
-**YOUNG MICHAEL:** Three thousand naira. We're officially businessmen.
+**TUNDE:** Ajegunle Three! Today we'll beat you like a drum!
 
-**YOUNG GEOFFREY:** We're officially boys who sold recharge cards for four months.
+**YOUNG MICHAEL:** *(through a rolled-up paper "microphone")* Ladies and gentlemen, the big boys are talking! But talking doesn't score goals!
 
-**YOUNG DONALD:** It's a start. *(He tears the certificate carefully into three pieces and hands one to each of them.)* One for each of us. Nobody can ever say this company belongs to one person.
+*The match. Donald plays in defence, shouting orders at everybody, even his own goalkeeper.*
 
-**YOUNG MICHAEL:** So what are the rules, Chairman?
+**YOUNG DONALD:** Michael, LEFT! Geoffrey, stay back! Nobody moves until I say!
 
-**YOUNG DONALD:** One. We become successful. Two. We take care of our families. Three. We never come back to this. *(He looks at the zinc and the darkness.)* Never.
+**YOUNG MICHAEL:** Who made you coach?
 
-**YOUNG MICHAEL:** And four. No girls. Girls make men stupid. My uncle sold his shop for a girl in Ibadan. Now he sells pure water.
+**YOUNG DONALD:** I did!
 
-**YOUNG GEOFFREY:** *(laughing)* Fine. No girls. And whoever falls in love first?
+*Tunde shoves Geoffrey into the dust. Geoffrey's exercise book flies out of his pocket and lands open, full of numbers. Tunde laughs and stamps on it. Donald walks straight up to Tunde, who is a head taller.*
 
-**YOUNG DONALD:** He comes back to this rooftop, hands his piece of the company to the other two, and confesses. Out loud. Like a fool.
+**YOUNG DONALD:** Pick it up.
 
-**YOUNG DONALD:** And five. We protect each other. Whatever it costs.
+**TUNDE:** Or what?
 
-**YOUNG MICHAEL:** Deal! Because it won't be me.
+**YOUNG DONALD:** *(not blinking)* Or you'll find out what "or" means.
 
-**YOUNG GEOFFREY:** It won't be me.
+*A long stare. The crowd of kids goes "Ooooh!" Tunde blinks first, picks up the book and dusts it off. Michael whoops. The bell rings. The three boys sit under the mango tree sharing one meat pie, carefully broken into three exact pieces by Geoffrey.*
 
-**YOUNG DONALD:** *(very serious)* It will never be me.
+**YOUNG GEOFFREY:** One meat pie. Three boys. Thirty-three point three percent each.
 
-*Hands stacked together.*
+**YOUNG MICHAEL:** One day, I'll buy you each a whole meat pie factory.
 
-**ALL THREE:** Sworn.
+**YOUNG DONALD:** One day, nobody will push any of us again.
 
-*Young Geoffrey looks down at his piece of paper, suddenly quiet.*
-
-**YOUNG GEOFFREY:** My father says we're moving next month. To Ikoyi. He says "something happened" and now we're rich. *(beat)* He won't tell me what happened.
-
-*Michael and Donald exchange a look. Nobody knows what to say.*
+**NARRATOR:** Donald was the protector. Michael was the dreamer. Geoffrey was the brain. And between the three of them, they had exactly one meat pie.
 
 ---
 
 ## SCENE 3 — PREAMBLE: THE NIGHT THAT MADE DONALD
-**INT. ONE-ROOM APARTMENT, AJEGUNLE — NIGHT — TWO YEARS EARLIER**
-*(~2:29–3:35)*
+**INT. IRWIN ROOM, AJEGUNLE COMPOUND — NIGHT / EXT. ROOFTOP — DAWN**
+*(~3:06–4:32)*
 
-*A kerosene lamp. YOUNG DONALD (12) does homework on the floor. His MOTHER, young and beautiful, stirs a pot of stew. MR. IRWIN's empty chair waits at the small table.*
+*A kerosene lamp. YOUNG DONALD (12) does homework on the floor. His MOTHER stirs stew. MR. IRWIN's chair is empty.*
 
 **MOTHER:** Your papa promised meat today. It's payday. The company pays at night, he said.
 
-**YOUNG DONALD:** Papa said when I'm big, I'll have a company that pays in the day. So nobody walks home in the dark.
+**YOUNG DONALD:** When I'm big, my company will pay in the day. So nobody walks home in the dark.
 
 *A hard knock. Two POLICEMEN stand at the door, hats in their hands. The spoon falls.*
 
 **POLICEMAN:** Madam… your husband. By the bus stop. Robbers. They took everything he was carrying.
 
-*His mother screams and folds to the floor. Young Donald doesn't cry. He stares at the empty chair. The lamp flickers.*
+*His mother screams and collapses. Neighbours rush out of every door. Young Donald doesn't cry. He stares at the empty chair.*
 
-**YOUNG DONALD:** *(whispering)* Nobody will ever take from me again. Never again will I be powerless. Never.
+**YOUNG DONALD:** *(whispering)* Never again. Never again will I be powerless.
 
-**NARRATOR:** That night, a boy stopped crying. Over the years, he also stopped trusting, stopped resting and stopped letting anything happen that he didn't control. *(beat)* It made him rich. It also made him very, very hard to love.
+*DAWN. The rusty compound rooftop. Donald sits alone at the edge with dry, red eyes. The zinc creaks. Michael climbs up, then Geoffrey. Nobody says anything. They just sit down on either side of him.*
 
----
+*After a long time, Michael takes out a sachet of biscuits, his only breakfast, and puts it in Donald's hand.*
 
-## SCENE 4 — PREAMBLE: BUILDING THE EMPIRE
-**MONTAGE — LAGOS — TWENTY YEARS IN TWO MINUTES**
-*(~3:35–4:44)*
+**YOUNG MICHAEL:** *(quietly)* You don't have to talk.
 
-*Quick cuts. Fifteen-year-old Donald sells recharge cards in Lagos traffic, sweating. Michael films a wedding with a borrowed camera. Geoffrey counts their money by candlelight in a notebook.*
+**YOUNG GEOFFREY:** We'll just sit.
 
-**YOUNG MICHAEL:** *(holding up a rusty yellow danfo bus key)* We bought a bus! An actual bus!
+*Donald's chin trembles, but he doesn't cry. He leans his shoulder against Michael's.*
 
-**YOUNG GEOFFREY:** We bought a bus that doesn't have brakes.
+**YOUNG DONALD:** *(barely audible)* Promise me something. Whatever happens, we protect each other.
 
-*The bus breaks down on Third Mainland Bridge in the rain. The three young men push it, laughing and crying at the same time.*
+**YOUNG MICHAEL & YOUNG GEOFFREY:** We protect each other.
 
-**NARRATOR:** They failed together. They recovered together. When one rose, he pulled the others up.
-
-*Twenty-two-year-old Donald signs a lease for a tiny logistics office. Michael's first film premieres in a half-empty cinema, and Donald and Geoffrey sit in the front row clapping like a stadium. Geoffrey, now in a suit, takes over his father's company, Durose Holdings, and looks lonely in a huge office.*
-
-*Then the EVERYS CONGLOMERATE tower rises over Victoria Island. Logos appear one after another: EVERYS PORTS. EVERYS TELECOM. EVERYPAY. EVERYS EKO ATLANTIC.*
-
-**NARRATOR:** By thirty-seven, Donald Irwin owned ports, phone networks, a fintech that moved half of Lagos's money and a skyline in Eko Atlantic. He kept every promise he made on that rooftop. *(beat)* Until a girl with a red pen walked into his life.
+**NARRATOR:** That night, a boy stopped crying. Over the years, he also stopped trusting, stopped resting and stopped letting anything happen that he didn't control. *(beat)* It would make him very rich. It would also make him very, very hard to love.
 
 ---
 
-## SCENE 5 — THE MAN WHO CONTROLS EVERYTHING
-**INT. EVERYS TOWER — BOARDROOM, 40TH FLOOR — DAY**
-*(~4:44–5:43)*
+## SCENE 4 — PREAMBLE: THE GOODBYE
+**EXT. COMPOUND ROOFTOP, AJEGUNLE — NIGHT — THREE YEARS LATER**
+*(~4:32–5:55)*
+
+*The boys are fifteen. Below, a battered lorry is being loaded with the McClarens' few belongings. A shiny black Mercedes, completely out of place, waits at the gate for the Duroses. The three boys sit on the roof one last time. Between them is a handwritten paper: THREE BOYS VENTURES — CAPITAL: ₦3,000. Their savings from four years of selling pure water and recharge cards.*
+
+**YOUNG MICHAEL:** Enugu. My papa's company transferred him to Enugu. I don't even know anybody in Enugu.
+
+**YOUNG GEOFFREY:** *(staring at the Mercedes)* My papa came home last week and said "something happened." Now we have a car with a driver and a house in Ikoyi. *(beat)* He won't tell me what happened. He just says, "Don't ask, Geoffrey."
+
+**YOUNG DONALD:** *(very quiet)* And I'm staying. Mama can't move. Not like this.
+
+*Silence. Then Donald picks up the share certificate and tears it carefully into three pieces. He hands one to each of them.*
+
+**YOUNG DONALD:** Nobody can ever say this company belongs to one person. Keep your piece. Whatever happens, whoever becomes what… one day we put it back together.
+
+**YOUNG MICHAEL:** *(voice cracking, trying to joke)* When I'm a famous director, I'll come back in a Ferrari.
+
+**YOUNG GEOFFREY:** You can't even ride a bicycle.
+
+**YOUNG MICHAEL:** I'll have a driver!
+
+*They laugh, and then they hug, three skinny boys holding on too tight. Below, a horn honks twice from the Mercedes.*
+
+**MAMA McCLAREN (O.S.):** Michael! The lorry is leaving!
+
+*One by one, they climb down. Donald stays on the roof alone, holding his piece of paper, and watches the lorry and the Mercedes drive away in opposite directions.*
+
+---
+
+## SCENE 5 — PREAMBLE: SEPARATE ROADS
+**MONTAGE — FIFTEEN YEARS IN TWO MINUTES**
+*(~5:55–7:04)*
+
+**NARRATOR:** Phones got lost. Numbers changed. Pride made each of them wait for the other to call first. For fifteen years, three brothers became three strangers.
+
+*Quick cuts.*
+
+*LAGOS. Sixteen-year-old Donald sells recharge cards in traffic in the rain, then hauls goods at Apapa port at night. At twenty-two, he signs the lease for a tiny logistics office with one truck. At twenty-seven, he stands in front of a fleet of fifty trucks with IRWIN LOGISTICS painted on the side, and he isn't smiling, just counting.*
+
+*ENUGU. Michael films weddings with a borrowed camera and gets chased out of one by an angry bride's mother. In a half-empty Lagos cinema, his first film premieres. Then a packed premiere, red carpet, flashes. MICHAEL McCLAREN, DIRECTOR.*
+
+*LONDON. Geoffrey graduates top of his class, alone, with no family in the audience. Then he is in Lagos in his father JACOB DUROSE's huge cold office, taking over Durose Holdings after the old man's funeral. He opens a drawer, finds his old piece of the ₦3,000 certificate and stares at it.*
+
+*Three men, in three cities, each take out a torn piece of paper on a lonely night and put it away again.*
+
+**NARRATOR:** By thirty, all three were millionaires. All three were alone. And not one of them knew the other two had made it.
+
+---
+
+## SCENE 6 — PREAMBLE: THE REUNION
+**EXT. AJEGUNLE — STREET OUTSIDE THE OLD COMPOUND — DAY — SEVEN YEARS AGO**
+*(~7:04–8:56)*
+
+*Busy Ajegunle street. Okadas, hawkers, children. A black Range Rover pulls up outside the old face-me-I-face-you compound, now crumbling, with a FOR SALE sign on the gate. DONALD (30) steps out in a sharp suit and sunglasses. Kids crowd around the car.*
+
+**KID:** Oga! Range Rover! Na your own?
+
+**DONALD:** *(handing out naira notes)* It's mine. Don't touch the mirror.
+
+*He looks up at the old rooftop. Then a deafening horn. A white G-Wagon with music blasting screeches to a stop behind him. MICHAEL (30), in designer shades and a flowery shirt, jumps out and doesn't notice Donald.*
+
+**MICHAEL:** *(to the agent at the gate)* Who's selling this compound? I want to buy it! I grew up here! I want to shoot a film on that roof!
+
+*Donald slowly turns around and takes off his sunglasses.*
+
+**DONALD:** You'll have to outbid me first.
+
+*Michael turns. He freezes. His mouth falls open.*
+
+**MICHAEL:** …Chairman?
+
+**DONALD:** *(a slow smile)* Commentator.
+
+**MICHAEL:** DONALD IRWIN?! *(He screams and runs at Donald, lifting him off the ground.)* Look at you! Look at this suit! Who are you now? Governor?!
+
+**DONALD:** *(laughing, being shaken)* Logistics. Put me down!
+
+**MICHAEL:** Logistics with a RANGE ROVER?! Mama Michael said you'd end up a teacher!
+
+*Before Donald can answer, a long silver Rolls-Royce glides silently to the kerb. A uniformed driver opens the back door. GEOFFREY (30), in a perfect three-piece suit and glasses, steps out with a folder labelled "PROPERTY PURCHASE: OLD AJEGUNLE COMPOUND." He looks up from the folder at the other two and stops dead.*
+
+**GEOFFREY:** *(very calm)* Statistically, this is impossible.
+
+**MICHAEL:** GEOFFREY?!
+
+**GEOFFREY:** Hello, Michael. Hello, Donald. *(beat)* I assume you're both also here to buy this building.
+
+**DONALD & MICHAEL:** Yes.
+
+**GEOFFREY:** *(a long, wobbly breath)* Fifteen years. And we all came back on the same day.
+
+*He drops the folder. The three of them crash together in the middle of the street in a tight, shouting, laughing hug. The kids cheer, the hawkers clap and an okada man honks along.*
+
+**MICHAEL:** *(wiping tears)* I told you I'd come back with a driver!
+
+**GEOFFREY:** That's a G-Wagon. You promised a Ferrari.
+
+**MICHAEL:** The Ferrari is at home! It's resting!
+
+*Donald looks from one to the other. For the first time in fifteen years, his face is completely open.*
+
+**DONALD:** So. Who's buying the building?
+
+**GEOFFREY:** *(picking up the folder)* Three boys. Thirty-three point three percent each.
+
+---
+
+## SCENE 7 — PREAMBLE: THE VOW
+**EXT. THE OLD ROOFTOP, AJEGUNLE — NIGHT — SEVEN YEARS AGO**
+*(~8:56–11:07)*
+
+*The same rusty rooftop, now with three expensive suit jackets thrown over the zinc. The three thirty-year-old millionaires sit where they sat as boys and pass around a bottle of cold Fanta, for old times' sake. Each of them has taken out his torn piece of paper. Donald puts the three pieces together on the zinc. They fit perfectly: THREE BOYS VENTURES — ₦3,000.*
+
+**MICHAEL:** *(softly)* Fifteen years in my wallet. Through two cities and one very bad divorce scare.
+
+**GEOFFREY:** Divorce scare? You were never married.
+
+**MICHAEL:** That's the scare! She nearly made me! *(beat)* She left me for a man with a bigger yacht. A yacht, Geoffrey. I don't even like water.
+
+**GEOFFREY:** *(quietly)* My father never loved anybody. Not my mother. Not me. Only his company. I don't think I know how.
+
+*They both look at Donald.*
+
+**DONALD:** I don't have time for love. Love means somebody can walk out of your door and never come back. *(beat)* I've had enough of that.
+
+*Silence.*
+
+**MICHAEL:** Then let's make it official. Like we're fifteen again.
+
+**DONALD:** *(standing, taking charge as always)* One. We grow what we've built, together this time. Two. We take care of our families. Three. We never, ever come back to poverty.
+
+**MICHAEL:** Four! No women. No love. No marriage. Love makes a man stupid. I have the yacht to prove it.
+
+**GEOFFREY:** And whoever falls in love first?
+
+**DONALD:** He comes back to this rooftop, hands his piece of the company to the other two and confesses. Out loud. Like a fool.
+
+**GEOFFREY:** And five. The one we already made. We protect each other. Whatever it costs.
+
+*Three hands stack on top of the three pieces of paper.*
+
+**ALL THREE:** Sworn.
+
+*They frame the three pieces separately, one each. Below them, Ajegunle hums and shines.*
+
+**NARRATOR:** They merged their companies that year. Irwin Logistics, McClaren Studios and Durose Holdings, each standing beside the others. Donald's company grew into Everys Conglomerate, and in seven years three millionaires became three billionaires. *(beat)* And every year, on the anniversary of the vow, they climbed back onto this rooftop and asked one question. *"Still sworn?"*
+
+---
+
+## SCENE 8 — THE MAN WHO CONTROLS EVERYTHING
+**INT. EVERYS TOWER — BOARDROOM, 40TH FLOOR — DAY — SEVEN YEARS LATER, PRESENT DAY**
+*(~11:07–12:09)*
+
+**NARRATOR:** Seven years later.
 
 *Glass walls over the lagoon. Twelve executives sit in silence. DONALD stands at the head of the table and doesn't sit, because sitting is for people who have time.*
 
@@ -186,9 +342,9 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 6 — MAMA
+## SCENE 9 — MAMA
 **INT. MAMA IRWIN'S HOUSE, IKEJA GRA — EVENING**
-*(~5:43–6:36)*
+*(~12:09–13:02)*
 
 *A comfortable, quiet home Donald bought for her. MAMA IRWIN (64), gentle and a little fragile, sits on a sofa shelling egusi seeds. Donald sits beside her and takes his shoes off. Here, and only here, he looks like somebody's son.*
 
@@ -210,9 +366,9 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 7 — THE DAUGHTER WHO SAID NO
+## SCENE 10 — THE DAUGHTER WHO SAID NO
 **INT. REARDON FAMILY HOME, IKOYI — DINING ROOM — NIGHT**
-*(~6:36–7:24)*
+*(~13:02–13:50)*
 
 *Elegant. Both parents still wear their hospital lanyards. EMMA pushes jollof rice around her plate.*
 
@@ -236,9 +392,9 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 8 — THE MENTOR'S GIFT
+## SCENE 11 — THE MENTOR'S GIFT
 **INT. EVERYS — FINANCE OPERATIONS FLOOR, 14TH FLOOR — MORNING**
-*(~7:24–8:12)*
+*(~13:50–14:57)*
 
 *ROSS (45), kind and fatherly, packs a box. Emma watches, nervous. TOBI hovers with tea.*
 
@@ -262,13 +418,7 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 **TOBI:** Yes, but his own is sweating.
 
----
-
-## SCENE 9 — THE EMAIL
-**INT. EVERYS — EMMA'S DESK — NIGHT**
-*(~8:12–8:36)*
-
-*11:47 p.m. Files pile up, red deadline alerts glow and cold coffee sits on the desk. Emma rubs her eyes. Tobi is half asleep on a chair.*
+*Three weeks later. 11:47 p.m. Files pile up, red deadline alerts glow and cold coffee sits on the desk. Emma rubs her eyes. Tobi is half asleep on a chair.*
 
 **TOBI:** Emma, go home. Even the generator has gone home.
 
@@ -282,9 +432,9 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 10 — PAGE ELEVEN
+## SCENE 12 — PAGE ELEVEN
 **INT. DONALD'S OFFICE, 40TH FLOOR — 9:58 AM**
-*(~8:36–10:00)*
+*(~14:57–16:21)*
 
 *Cold, huge, perfect. Donald reads her report, which is already bleeding red ink. He doesn't look up.*
 
@@ -324,9 +474,9 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 11 — ASKING FOR A FRIEND
+## SCENE 13 — ASKING FOR A FRIEND
 **INT. DONALD'S CAR, THIRD MAINLAND BRIDGE / INT. MICHAEL'S FILM SET — NIGHT — INTERCUT**
-*(~10:00–10:57)*
+*(~16:21–17:18)*
 
 *Donald sits in the back of his car, staring at page eleven again. He calls Michael. Michael answers on a busy film set, with lights and crew everywhere.*
 
@@ -358,9 +508,9 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 12 — QUIETLY
+## SCENE 14 — QUIETLY
 **INT. EVERYS — FINANCE FLOOR — 8:30 PM**
-*(~10:57–11:42)*
+*(~17:18–18:04)*
 
 *The floor is empty. Emma packs up. Expensive footsteps approach. Donald stands there with her report.*
 
@@ -386,15 +536,15 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 13 — MALLAM ISA'S SUYA
+## SCENE 15 — MALLAM ISA'S SUYA
 **INT. EVERYS — SMALL CONFERENCE ROOM — MIDNIGHT — ONE WEEK LATER**
-*(~11:42–12:53)*
+*(~18:04–19:14)*
 
 *Papers everywhere. Emma is barefoot and drawing arrows on a whiteboard. Donald enters with a parcel wrapped in old newspaper, and the smell of suya fills the room.*
 
 **EMMA:** You brought suya? Billionaires eat suya?
 
-**DONALD:** Not this suya. This is Mallam Isa's. Ebute-Metta, by the old railway yard. Best in Lagos. *(He sits and unwraps it.)* When I was fifteen, he gave me suya on credit for a whole year. Never wrote it down.
+**DONALD:** Not this suya. This is Mallam Isa's. Ebute-Metta, by the old railway yard. Best in Lagos. *(He sits and unwraps it.)* When I was sixteen, he gave me suya on credit for a whole year. Never wrote it down.
 
 **EMMA:** Did you pay him back?
 
@@ -418,9 +568,9 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 14 — THE MAN IN THE WHITE SUIT
+## SCENE 16 — THE MAN IN THE WHITE SUIT
 **INT. MARCUS VANE'S MANSION, BANANA ISLAND — STUDY — NIGHT**
-*(~12:53–13:33)*
+*(~19:14–19:54)*
 
 *Dark wood, a chessboard and an old framed photo of a trucking company sign: VANE HAULAGE, EST. 1979. MARCUS VANE (52), silver-haired and in a silk robe, makes a call on a burner phone.*
 
@@ -436,11 +586,31 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 15 — ROOFTOP NIGHT
-**EXT. AJEGUNLE ROOFTOP — NIGHT — (THE COLD OPEN, CONTINUED)**
-*(~13:33–14:34)*
+## SCENE 17 — ROOFTOP NIGHT: STILL SWORN?
+**EXT. ROOFTOP, AJEGUNLE — NIGHT — THE ANNIVERSARY OF THE VOW**
+*(~19:54–21:35)*
 
-*We are back in Scene 1, right after "Still sworn." The glasses go down.*
+*The rusty rooftop of an old face-me-I-face-you building. It is cleaned up now, with fairy lights, three leather chairs and a small table with three glasses. Below, generators hum. Far away, Victoria Island glitters. Three powerful men in expensive clothes sit where they once sat as hungry boys: DONALD IRWIN, MICHAEL McCLAREN and GEOFFREY DUROSE.*
+
+**MICHAEL:** *(raising his glass)* Seven years since the vow, gentlemen. Seven years, and not one woman has caught us.
+
+**GEOFFREY:** Not one.
+
+**DONALD:** Not one.
+
+*They clink. Then, by tradition, Michael asks it.*
+
+**MICHAEL:** Still sworn?
+
+**GEOFFREY:** *(a tiny pause)* Still sworn.
+
+**DONALD:** *(without blinking)* Still sworn.
+
+**MICHAEL:** Still sworn!
+
+*They drink. Donald's phone vibrates in his pocket and he doesn't check it. Michael's phone vibrates and he flips it face down. Geoffrey glances at a folded paper in his jacket and buttons the jacket.*
+
+**NARRATOR:** Three best friends. Three promises. And that night, on the rooftop where it all began, three lies.
 
 **MICHAEL:** *(leaning in)* So, Donald. Who's the report?
 
@@ -478,9 +648,9 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 16 — THE OTHER SECRET
+## SCENE 18 — THE OTHER SECRET
 **INT. DUROSE HOLDINGS — JACOB DUROSE'S OLD OFFICE — SAME NIGHT**
-*(~14:34–15:10)*
+*(~21:35–22:11)*
 
 **MEANWHILE:** *Same night. Across the lagoon.*
 
@@ -496,9 +666,9 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 17 — THE FIRST WARNING
+## SCENE 19 — THE FIRST WARNING
 **INT. EMMA'S CAR — EVERYS CAR PARK — NIGHT**
-*(~15:10–15:29)*
+*(~22:11–22:30)*
 
 *Emma throws her bag on the seat. Her phone buzzes with an UNKNOWN NUMBER.*
 
@@ -512,9 +682,9 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 18 — "YOU'RE MY RESPONSIBILITY"
+## SCENE 20 — "YOU'RE MY RESPONSIBILITY"
 **INT. DONALD'S OFFICE — NEXT MORNING**
-*(~15:29–17:08)*
+*(~22:30–24:09)*
 
 *Emma walks in without knocking. Adaeze fails to stop her. Emma puts the phone on his desk. As Donald reads it, a second message arrives with PHOTOGRAPHS: Emma at her door, Emma at the supermarket, Emma asleep in traffic.*
 
@@ -566,9 +736,9 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 19 — THE MIRROR
+## SCENE 21 — THE MIRROR
 **INT. DONALD'S MANSION, LEKKI — MASTER BATHROOM — NIGHT**
-*(~17:08–17:57)*
+*(~24:09–24:57)*
 
 *Donald stands at the mirror in a white vest and practises, like a man rehearsing a lie for court.*
 
@@ -584,9 +754,9 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 20 — TWO PLATES OF JOLLOF
+## SCENE 22 — TWO PLATES OF JOLLOF
 **INT. DONALD'S MANSION — KITCHEN — NIGHT**
-*(~17:57–19:12)*
+*(~24:57–26:12)*
 
 *Emma and Donald have papers spread over the kitchen island, with two plates of jollof and two glasses of zobo. She's laughing at something he said. The intercom buzzes. SECURITY (V.O.): "Sir, Mr. McClaren is at the gate. He says he's already inside."*
 
@@ -630,9 +800,9 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 21 — THE PANTRY
+## SCENE 23 — THE PANTRY
 **INT. DONALD'S MANSION — PANTRY / KITCHEN — CONTINUOUS**
-*(~19:12–20:13)*
+*(~26:12–27:14)*
 
 **EMMA:** *(wiping her tears)* You hid me. In a pantry. Next to the Indomie.
 
@@ -642,7 +812,7 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 *He stops smiling.*
 
-**DONALD:** *(slowly)* When I was fourteen, I swore on a rooftop that I'd never fall in love. Michael and Geoffrey swore too. Twenty-three years. I've never broken a promise in my life.
+**DONALD:** *(slowly)* Seven years ago, on the rooftop where I grew up, I swore I'd never fall in love. Michael and Geoffrey swore too. I've never broken a promise in my life.
 
 **EMMA:** *(quietly)* So what am I?
 
@@ -658,13 +828,13 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 **EMMA:** And you owe me a shoe. Michael stole it.
 
-**NARRATOR:** That night, Donald Irwin broke the promise he'd kept for twenty-three years. And he told nobody. Not his mother. Not his brothers. Not even himself.
+**NARRATOR:** That night, Donald Irwin broke the promise he'd kept for seven years. And he told nobody. Not his mother. Not his brothers. Not even himself.
 
 ---
 
-## SCENE 22 — A VISIT TO ROSS
+## SCENE 24 — A VISIT TO ROSS
 **INT. ROSS'S HOUSE, SURULERE — DAY**
-*(~20:13–20:52)*
+*(~27:14–27:53)*
 
 *The house is half empty, with pale squares on the walls where pictures used to hang. Ross is thin, unshaven and jumpy. Emma has brought oranges.*
 
@@ -688,9 +858,9 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 23 — FRAMED
+## SCENE 25 — FRAMED
 **INT. EVERYS — BOARDROOM — MORNING**
-*(~20:52–21:32)*
+*(~27:53–28:33)*
 
 *An emergency board meeting. The screen reads: "LOGIN 2:14 A.M. — ₦600 MILLION MOVED TO CRESTLINE — USER: E.REARDON." Emma stands frozen while the board whispers.*
 
@@ -712,9 +882,9 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 24 — "YOU DECIDE EVERYTHING"
+## SCENE 26 — "YOU DECIDE EVERYTHING"
 **INT. EVERYS — STAIRWELL — MOMENTS LATER**
-*(~21:32–22:25)*
+*(~28:33–29:26)*
 
 *Emma runs down the stairs. Donald catches up and takes her arm.*
 
@@ -736,9 +906,9 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 25 — THE TRACKER
+## SCENE 27 — THE TRACKER
 **INT. EMMA'S APARTMENT, LEKKI — NIGHT**
-*(~22:25–23:16)*
+*(~29:26–30:17)*
 
 *A knock. Emma opens the door. JAMES (31) stands there with a guitar on his back.*
 
@@ -758,9 +928,9 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 26 — THE BREAKUP
+## SCENE 28 — THE BREAKUP
 **EXT. DONALD'S MANSION — GATE — NIGHT — HEAVY RAIN**
-*(~23:16–24:33)*
+*(~30:17–31:34)*
 
 *Emma stands in the rain. Donald rushes out with an umbrella, and she pushes it away. She holds up the phone with SysLoc on the screen.*
 
@@ -788,9 +958,9 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 27 — GEOFFREY KNOWS
+## SCENE 29 — GEOFFREY KNOWS
 **INT. DONALD'S MANSION — STUDY — LATER THAT NIGHT**
-*(~24:33–25:32)*
+*(~31:34–32:33)*
 
 *Donald sits in the dark, still wet. Geoffrey lets himself in and turns on one lamp.*
 
@@ -820,21 +990,15 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 28 — THE NOTEBOOK
+## SCENE 30 — THE CONFESSION
 **INT. EVERYS — ROSS'S OFFICE — 2 AM**
-*(~25:32–25:49)*
+*(~32:33–33:45)*
 
 *Emma sneaks in with Tobi's borrowed badge and a phone torch. Under the bottom drawer, taped flat, she finds a black notebook full of dates and amounts, with "CRESTLINE" written again and again in Ross's handwriting.*
 
 **EMMA:** *(breaking)* No. Not you. Not you, Ross.
 
----
-
-## SCENE 29 — THE CONFESSION
-**EXT. ROSS'S HOUSE, SURULERE — RAIN — NIGHT**
-*(~25:49–26:47)*
-
-*Emma bangs on the door. Ross opens it, sees the notebook and seems to shrink.*
+*Later that night, in pouring rain outside Ross's house in Surulere, Emma bangs on the door. Ross opens it, sees the notebook and seems to shrink.*
 
 **EMMA:** Look at me and say it wasn't you.
 
@@ -858,9 +1022,9 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 30 — ON HER TERMS
+## SCENE 31 — ON HER TERMS
 **INT. DONALD'S OFFICE — MORNING**
-*(~26:47–27:39)*
+*(~33:45–34:37)*
 
 *Donald is at the window. The door opens. Emma walks in with Ross behind her. Donald's face moves through relief, longing and then confusion when he sees Ross.*
 
@@ -884,9 +1048,9 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 31 — WHO MARCUS IS
+## SCENE 32 — WHO MARCUS IS
 **INT. DONALD'S OFFICE — CONTINUOUS**
-*(~27:39–28:21)*
+*(~34:37–35:18)*
 
 **ROSS:** Marcus has waited twenty years. You bought his father's company.
 
@@ -904,9 +1068,9 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 32 — THE PLAN
+## SCENE 33 — THE PLAN
 **INT. DONALD'S MANSION — STUDY — NIGHT**
-*(~28:21–29:11)*
+*(~35:18–36:08)*
 
 *Donald, Emma, Michael, Geoffrey and Ross sit around the table. Michael keeps looking from Emma to Donald with an enormous grin.*
 
@@ -936,13 +1100,13 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ---
 
-## SCENE 33 — SUYA AND TRAINS
+## SCENE 34 — SUYA AND TRAINS
 **EXT. MALLAM ISA'S SUYA STAND, EBUTE-METTA — NIGHT — THURSDAY**
-*(~29:11–30:11)*
+*(~36:08–37:23)*
 
 *Smoke and orange coals under a faded umbrella, with old train tracks behind. Emma sits on a bench beside MALLAM ISA (60s).*
 
-**MALLAM ISA:** So you are the one. *(He laughs.)* Donald has been coming here for twenty-two years. Always alone. Last month, he ordered two.
+**MALLAM ISA:** So you are the one. *(He laughs.)* Donald has been coming here for twenty-one years. Always alone. Last month, he ordered two.
 
 **EMMA:** *(smiling sadly)* What was he like? When he was a boy?
 
@@ -960,12 +1124,6 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 **NARRATOR:** Mallam Isa had watched a hungry boy become a billionaire. He was about to watch that billionaire's whole world taken from his bench.
 
----
-
-## SCENE 34 — TAKEN
-**EXT. EBUTE-METTA STREET — CONTINUOUS**
-*(~30:11–30:30)*
-
 *Emma walks to her car holding a wrapped parcel of suya. The SUV screeches up and three masked men jump out. She screams and swings the bag. Mallam Isa runs out shouting and is shoved to the ground. Emma's phone falls in the gutter. The SUV door slams. Tyres scream.*
 
 *The suya parcel lies on the road, smoke still rising.*
@@ -974,7 +1132,7 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ## SCENE 35 — FRIDAY
 **INT. EVERYS — GRAND HALL — SHAREHOLDERS' MEETING — DAY**
-*(~30:30–31:15)*
+*(~37:23–38:07)*
 
 *Hundreds of shareholders, TV cameras and flashes. MARCUS VANE walks in wearing a white suit and an easy smile. Donald stands at the podium. Emma's seat is empty, and Donald keeps looking at it.*
 
@@ -992,7 +1150,7 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ## SCENE 36 — POWERLESS
 **INT. EVERYS — BACKSTAGE — CONTINUOUS**
-*(~31:15–32:19)*
+*(~38:07–39:11)*
 
 *Donald stumbles through a door and braces himself against the wall. He can't breathe. Flashback: the kerosene lamp, the policemen, his mother on the floor.*
 
@@ -1028,7 +1186,7 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ## SCENE 37 — THE MESSAGE IN THE VIDEO
 **INT. EVERYS — BACKSTAGE — MOMENTS LATER**
-*(~32:19–33:29)*
+*(~39:11–40:21)*
 
 *Ross bursts in, bloodied and panting.*
 
@@ -1054,7 +1212,7 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ## SCENE 38 — SIGN IT
 **INT. MICHAEL'S RANGE ROVER — NIGHT — SPEEDING**
-*(~33:29–34:24)*
+*(~40:21–41:16)*
 
 *Rain and wipers. Michael drives like a madman. Geoffrey has a laptop on his knees. Donald is on the phone with Marcus.*
 
@@ -1066,7 +1224,7 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 *A document pops up on Donald's tablet: TRANSFER OF ALL SHARES — EVERYS HOLDINGS LIMITED — TO VANE CAPITAL — CONSIDERATION: ₦1.*
 
-*Donald hesitates. He's looking at twenty-three years of his life. Then he signs it without another word.*
+*Donald hesitates. He's looking at twenty years of his life. Then he signs it without another word.*
 
 **DONALD:** It's done. Everys is yours. Now let her go.
 
@@ -1078,13 +1236,13 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 **DONALD:** *(staring at the rain)* I gave away a company. I can build another one. *(beat)* I can't build another Emma.
 
-**NARRATOR:** Twenty-three years earlier, a boy swore he would never be powerless again. Tonight he gave away everything he had, and for the first time in his life, he felt free.
+**NARRATOR:** Twenty-five years earlier, a boy swore he would never be powerless again. Tonight he gave away everything he had, and for the first time in his life, he felt free.
 
 ---
 
 ## SCENE 39 — WHAT HIS FATHER WAS CARRYING
 **INT. SHED 11, RAILWAY GOODS YARD — NIGHT**
-*(~34:24–36:05)*
+*(~41:16–42:57)*
 
 *A huge, dark train shed with rusted carriages. Emma is tied to a chair, and DEBBY is tied up beside her. Emma has been quietly sawing her rope against a sharp edge of a rail spike for an hour. MARCUS VANE enters, triumphant, holding his phone.*
 
@@ -1110,7 +1268,7 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ## SCENE 40 — SHE DOESN'T WAIT TO BE SAVED
 **INT. SHED 11 — CONTINUOUS**
-*(~36:05–36:48)*
+*(~42:57–43:41)*
 
 *Emma swings the broken chair leg and smashes the only hanging work lamp. The shed goes PITCH BLACK.*
 
@@ -1134,7 +1292,7 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ## SCENE 41 — THE EMPTY BOX
 **INT. SHED 11 — MOMENTS LATER**
-*(~36:48–37:50)*
+*(~43:41–44:43)*
 
 **MARCUS:** *(on his knees, cuffed, laughing)* Arrest me, then! I'll get bail by morning! And when I get out, I'll still own Everys! He signed it! On camera!
 
@@ -1154,13 +1312,13 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 *Michael bursts out laughing. Even Donald, after a moment, laughs. Then he runs to Emma.*
 
-**NARRATOR:** Three boys had torn one piece of paper into three. Twenty-three years later, that piece of paper had just saved all of them.
+**NARRATOR:** Three boys had torn one piece of paper into three. Twenty-two years later, that piece of paper had just saved all of them.
 
 ---
 
 ## SCENE 42 — THE TRUTH ABOUT PAPA
 **EXT. RAILWAY GOODS YARD — AMBULANCE LIGHTS — NIGHT**
-*(~37:50–38:43)*
+*(~44:43–45:35)*
 
 *Paramedics load Ross onto a stretcher, and Debby holds his hand. Emma, wrapped in a blanket, catches Ross's hand as he passes.*
 
@@ -1188,7 +1346,7 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ## SCENE 43 — THE PROPOSAL THAT WENT WRONG
 **EXT. EKO ATLANTIC — PRIVATE HELIPAD — SUNSET — ONE MONTH LATER**
-*(~38:43–39:41)*
+*(~45:35–46:34)*
 
 *Everything is perfect, because Donald planned it to the second. There are rose petals, a string quartet, a helicopter waiting, a photographer in the bushes and fireworks timed on a tablet Adaeze is holding. Emma steps out of a car, and her jaw drops.*
 
@@ -1214,7 +1372,7 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ## SCENE 44 — THE SECOND ASK
 **EXT. MALLAM ISA'S SUYA STAND, EBUTE-METTA — NIGHT — SAME EVENING**
-*(~39:41–40:58)*
+*(~46:34–47:51)*
 
 *Smoke, coals and a train horn in the distance. Donald, still in his proposal suit, sits alone on the bench, defeated. Mallam Isa silently hands him a stick of suya.*
 
@@ -1250,7 +1408,7 @@ Three boys from Ajegunle swore on a rooftop that they would never fall in love. 
 
 ## SCENE 45 — THE FOOL ON THE ROOFTOP
 **EXT. AJEGUNLE ROOFTOP — NIGHT — ROOFTOP NIGHT, ONE YEAR LATER**
-*(~40:58 — END)*
+*(~47:51 — END)*
 
 *The fairy lights and three leather chairs are back. Michael and Geoffrey sit and wait. Donald comes up the stairs holding his torn, framed piece of the old ₦3,000 share certificate. Emma waits by the stairs, smiling.*
 
