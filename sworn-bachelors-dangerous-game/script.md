@@ -1,4 +1,6 @@
-# SWORN BACHELORS — Book One: DANGEROUS GAME
+# HE CONTROLLED A BILLION-DOLLAR EMPIRE… BUT HE COULDN'T CONTROL HER
+
+*A complete, standalone Nigerian romance-suspense drama*
 
 **Format:** AI cinematic Nigerian drama (romance + suspense)
 **Target runtime:** about 35 minutes
@@ -27,9 +29,9 @@
 
 ## RECURRING DETAILS TO KEEP CONSISTENT
 
-- **The fountain pen.** Ross gives it to Emma in Scene 6. It comes back in Scenes 31 and 41.
+- **The fountain pen.** Ross gives it to Emma in Scene 6. It comes back in Scenes 31 and 41, where Emma signs her promotion with it.
 - **"Numbers don't lie. People do."** Ross's lesson. It turns against him in Scene 24 and is redeemed in Scene 38.
-- **The rooftop.** The boys make their pact on a rooftop in Scene 2. Donald proposes on a rooftop in Scene 40.
+- **The rooftop.** The boys make their pact on a rooftop in Scene 2. Donald proposes on a rooftop in Scene 40 and brings Emma and his mother back to the original rooftop in Scene 42.
 - **"Powerless."** Donald's deepest fear, set up in Scene 3 and paid off in Scenes 32 and 37.
 
 ---
@@ -58,7 +60,7 @@
 
 *SMASH CUT TO BLACK.*
 
-**TITLE CARD:** *SWORN BACHELORS — DANGEROUS GAME*
+**TITLE CARD:** *HE CONTROLLED A BILLION-DOLLAR EMPIRE… BUT HE COULDN'T CONTROL HER*
 
 ---
 
@@ -1156,42 +1158,64 @@
 
 ---
 
-## SCENE 41 — ONE DOWN
+## SCENE 41 — THE FIRST BIG WIN
 **EXT. EVERYS ROOFTOP — CONTINUOUS — SUNSET**
 *(~34:42–35:00)*
 
-*The four of them laugh. Charles, Tobi and Adaeze come up the stairs clapping. Emma looks at her ring, then at the silver fountain pen in her other hand. Ross sent it back to her from the hospital with a note: "Sign your first big win with it."*
+*Charles, Tobi and Adaeze come up the stairs clapping. Behind them, slowly, comes ROSS, with his arm in a sling and DEBBY at his side. The laughter fades. Emma and Ross look at each other.*
 
-**MICHAEL:** *(raising his glass)* To Donald. The first of us to fall.
+**ROSS:** *(quietly)* I didn't think I'd be welcome.
 
-**GEOFFREY:** One down. Two to go.
+**EMMA:** *(walking to him)* You took a bullet for me, Ross. You're always welcome.
 
-**MICHAEL:** *(laughing)* Two? No, no, no. One down, and that's the end. Love is not for me. I'm a free man. Free like a bird.
+*She hugs him gently around his sling. Debby wipes her eyes.*
 
-*His phone pings. He glances at it, still smiling. Then the smile freezes.*
+**DONALD:** *(taking an envelope from his jacket)* Since we're all here. Charles?
 
-**ON SCREEN:** *Email. FROM: Sophia Bennett. SUBJECT: "Your studio stole my story. I'll be in your office tomorrow at 9. Don't be late, Mr. McClaren."*
+**CHARLES:** *(reading it out)* "Emma Reardon. Head of Finance Operations, Everys Conglomerate. Effective immediately."
+
+**EMMA:** *(stunned)* Donald… if this is because of the ring—
+
+**DONALD:** It's because of page eleven. The ring is because of everything else.
+
+*Everyone laughs. Donald takes the silver fountain pen from his pocket, the one Emma left on his desk with her note, and hands it to Ross. Ross holds it out to Emma with his good hand.*
+
+**ROSS:** I believe you were told to sign your first big win with this.
+
+*Emma takes the pen, presses the letter against Donald's back and signs it. Everyone cheers.*
+
+**MICHAEL:** *(raising his glass)* To Donald. The first of us to fall. And the last! Because love is not for me. I'm a free man. Free like a bird.
+
+**GEOFFREY:** *(dry)* That's exactly what Donald said.
+
+*Everyone bursts out laughing, Michael loudest of all.*
 
 ---
 
-## SCENE 42 — NEXT
-**EXT. ROOFTOP — CONTINUOUS**
+## SCENE 42 — WHERE IT STARTED
+**EXT. ROOFTOP OF THE OLD FACE-ME-I-FACE-YOU BUILDING, AJEGUNLE — NIGHT**
 *(~35:00 — END)*
 
-*Michael stares at the email. Donald reads it over his shoulder and slowly starts to grin.*
+*The same rusty rooftop from Scene 2. Generators hum below. Far away, the lights of Victoria Island shine. Donald helps an older woman up the last step: his MOTHER, grey-haired now and walking with a cane. Emma follows.*
 
-**DONALD:** Who's Sophia Bennett?
+**MOTHER:** Donald, why did you drag an old woman up here at night?
 
-**MICHAEL:** *(pocketing the phone fast)* Nobody. A writer. Small problem. I'll handle it in five minutes.
+**DONALD:** Because I wanted you both to see where I started.
 
-**GEOFFREY:** *(sipping champagne)* That's exactly what Donald said.
+*He looks at the skyline, then at the spot where three boys once sat.*
 
-*Everyone bursts out laughing. Michael doesn't.*
+**DONALD:** Mama, Papa never came home with his wages. I spent twenty-five years making sure nobody could ever take anything from me again. I built walls. Towers. An empire. *(He takes Emma's hand.)* And the only thing that ever made me feel safe was the one thing I couldn't control.
 
-**NARRATOR:** One brother has fallen. But the game is far from over. Because the most dangerous thing in the world… is a man who believes he can't be caught.
+*His mother looks at Emma for a long moment, then takes her face in both hands.*
 
-*The camera pulls away from the rooftop and out over the Lagos skyline at dusk.*
+**MOTHER:** *(softly)* My son has carried that night on his back since he was twelve years old. *(beat)* Thank you for helping him put it down.
 
-**TITLE CARD:** *SWORN BACHELORS — BOOK TWO: WINGS UNCLIPPED. Coming soon.*
+*Emma cries. Donald puts his arms around both of them. Far below, a bus pulls up at the old bus stop. A tired man steps off with his wages in his pocket and walks home safely to his family.*
+
+**NARRATOR:** He controlled a billion-dollar empire. He controlled boardrooms, banks and bad men. But he couldn't control her. *(beat)* And that was the only thing that ever set him free.
+
+*The camera rises away from the rooftop, over Ajegunle and across the lagoon to the shining towers of Victoria Island.*
+
+**TITLE CARD:** *HE CONTROLLED A BILLION-DOLLAR EMPIRE… BUT HE COULDN'T CONTROL HER*
 
 **END.**
