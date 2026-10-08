@@ -1,0 +1,154 @@
+<section class="q" id="q138">
+  <div class="q-head">
+    <div class="q-num">Q138</div>
+    <div class="q-body-head">
+      <div class="q-meta"><span class="tag course">Biochemistry · BCM 301</span><span class="tag year">2015</span><span class="tag marks">Essay</span><span class="tag freq">Source: Satyanarayana &amp; Vasudevan — Recombinant DNA / molecular techniques (PCR)</span></div>
+      <h3 class="q-title">Discuss the advantages and limitations of real-time polymerase chain reaction (PCR).</h3>
+      <div class="revise">Revision tracker: <span class="cb"></span>Read <span class="cb"></span>Drew diagram <span class="cb"></span>Wrote from memory</div>
+    </div>
+  </div>
+
+  <div class="box examiner"><span class="box-t">What the examiner wants</span> Define PCR and real-time (quantitative, qPCR) PCR; explain the principle (fluorescence read every cycle, <b>threshold cycle, Ct</b>); name the detection chemistries (SYBR Green, TaqMan probe); then a clearly numbered list of <b>advantages</b> and <b>limitations</b>, with applications. The amplification plot is the marks-winning diagram.</div>
+
+  <div class="answer">
+    <h4>1. Introduction / Definitions</h4>
+    <p><span class="kw">Polymerase chain reaction (PCR)</span> is an in-vitro technique (Kary Mullis, 1983) for the enzymatic amplification of a specific DNA segment using two oligonucleotide primers that flank the target, deoxynucleotides (dNTPs), Mg<sup>2+</sup> and a <b>heat-stable DNA polymerase (Taq polymerase</b> from <i>Thermus aquaticus</i>). Each cycle has three steps — <b>denaturation</b> (~94 °C), <b>annealing</b> of primers (~50–60 °C) and <b>extension</b> (72 °C) — and the product theoretically doubles each cycle (2<sup>n</sup> copies after n cycles).</p>
+    <p><span class="kw">Real-time PCR</span> (quantitative PCR, qPCR) is a modification in which the accumulation of PCR product is <b>measured during each cycle, as it happens</b>, by a fluorescent signal, instead of only at the end on an agarose gel. When combined with a reverse-transcription step (RT-qPCR) it quantifies RNA (e.g., mRNA expression, RNA viruses).</p>
+
+    <h4>2. Principle</h4>
+    <ol>
+      <li>A fluorescent reporter is included in the reaction; fluorescence increases in proportion to the amount of double-stranded product.</li>
+      <li>An instrument (thermocycler with an optical detector) reads fluorescence at the end of every cycle and plots fluorescence against cycle number — the <b>amplification plot</b>.</li>
+      <li>The plot has four phases: <b>baseline</b> → <b>exponential</b> → <b>linear</b> → <b>plateau</b> (reagents exhausted).</li>
+      <li>The <span class="kw">threshold cycle (Ct, Cq)</span> is the cycle at which fluorescence first rises above a set threshold. <b>Ct is inversely proportional to the log of the starting amount of target</b>: the more template present, the earlier (lower) the Ct. Each 1-cycle difference ≈ 2-fold difference in starting template.</li>
+      <li>Quantification is done in the exponential phase, either <b>absolute</b> (standard curve of known copy numbers) or <b>relative</b> (compared with a reference/housekeeping gene, the ΔΔCt method).</li>
+    </ol>
+
+    <figure class="diagram">
+      <svg viewBox="0 0 680 320" width="680" xmlns="http://www.w3.org/2000/svg" font-family="Inter, sans-serif" font-size="11">
+        <defs>
+          <marker id="q138-arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#1b2330"/></marker>
+          <marker id="q138-arrb" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#c2410c"/></marker>
+        </defs>
+        <text x="235" y="20" text-anchor="middle" font-weight="700" font-size="12" fill="#1b2330">A. Amplification plot</text>
+        <!-- axes -->
+        <line x1="70" y1="250" x2="410" y2="250" stroke="#1b2330" stroke-width="1.4" marker-end="url(#q138-arr)"/>
+        <line x1="70" y1="250" x2="70" y2="35" stroke="#1b2330" stroke-width="1.4" marker-end="url(#q138-arr)"/>
+        <text x="240" y="302" text-anchor="middle">Cycle number</text>
+        <text x="30" y="150" text-anchor="middle" transform="rotate(-90 30 150)">Fluorescence (product)</text>
+        <g font-size="10" fill="#5b6676" text-anchor="middle">
+          <text x="70" y="264">0</text><text x="152.5" y="264">10</text><text x="235" y="264">20</text><text x="317.5" y="264">30</text><text x="400" y="264">40</text>
+        </g>
+        <!-- threshold -->
+        <line x1="70" y1="226.5" x2="400" y2="226.5" stroke="#b42318" stroke-width="1.2" stroke-dasharray="5 3"/>
+        <text x="345" y="221" fill="#b42318" font-size="10">threshold</text>
+        <!-- curves -->
+        <polyline fill="none" stroke="#0b5cad" stroke-width="2" points="70.0,245.0 78.3,245.0 86.5,245.0 94.8,245.0 103.0,245.0 111.3,244.9 119.5,244.9 127.8,244.8 136.0,244.6 144.3,244.3 152.5,243.8 160.8,242.7 169.0,240.7 177.3,237.2 185.5,231.0 193.8,220.4 202.0,203.8 210.3,180.5 218.5,152.5 226.8,124.5 235.0,101.2 243.3,84.6 251.5,74.0 259.8,67.8 268.0,64.3 276.3,62.3 284.5,61.2 292.8,60.7 301.0,60.4 309.3,60.2 317.5,60.1 325.8,60.1 334.0,60.0 342.3,60.0 350.5,60.0 358.8,60.0 367.0,60.0 375.3,60.0 383.5,60.0 391.8,60.0 400.0,60.0"/>
+        <polyline fill="none" stroke="#0f8a7e" stroke-width="2" points="70.0,245.0 78.3,245.0 86.5,245.0 94.8,245.0 103.0,245.0 111.3,245.0 119.5,245.0 127.8,245.0 136.0,245.0 144.3,245.0 152.5,244.9 160.8,244.9 169.0,244.8 177.3,244.6 185.5,244.3 193.8,243.8 202.0,242.7 210.3,240.7 218.5,237.2 226.8,231.0 235.0,220.4 243.3,203.8 251.5,180.5 259.8,152.5 268.0,124.5 276.3,101.2 284.5,84.6 292.8,74.0 301.0,67.8 309.3,64.3 317.5,62.3 325.8,61.2 334.0,60.7 342.3,60.4 350.5,60.2 358.8,60.1 367.0,60.1 375.3,60.0 383.5,60.0 391.8,60.0 400.0,60.0"/>
+        <polyline fill="none" stroke="#6d28d9" stroke-width="2" points="70.0,245.0 78.3,245.0 86.5,245.0 94.8,245.0 103.0,245.0 111.3,245.0 119.5,245.0 127.8,245.0 136.0,245.0 144.3,245.0 152.5,245.0 160.8,245.0 169.0,245.0 177.3,245.0 185.5,245.0 193.8,244.9 202.0,244.9 210.3,244.8 218.5,244.6 226.8,244.3 235.0,243.8 243.3,242.7 251.5,240.7 259.8,237.2 268.0,231.0 276.3,220.4 284.5,203.8 292.8,180.5 301.0,152.5 309.3,124.5 317.5,101.2 325.8,84.6 334.0,74.0 342.3,67.8 350.5,64.3 358.8,62.3 367.0,61.2 375.3,60.7 383.5,60.4 391.8,60.2 400.0,60.1"/>
+        <!-- Ct marks -->
+        <g stroke="#c2410c" stroke-width="1" stroke-dasharray="2 2">
+          <line x1="189.6" y1="226.5" x2="189.6" y2="250"/><line x1="230.9" y1="226.5" x2="230.9" y2="250"/><line x1="272.1" y1="226.5" x2="272.1" y2="250"/>
+        </g>
+        <text x="160" y="280" fill="#c2410c" font-size="10">Ct values (A &lt; B &lt; C)</text>
+        <!-- curve labels -->
+        <text x="150" y="88" fill="#0b5cad" font-size="10">A: most template</text>
+        <line x1="208" y1="92" x2="222" y2="130" stroke="#0b5cad" stroke-width="0.8"/>
+        <text x="300" y="120" fill="#0f8a7e" font-size="10">B</text>
+        <line x1="298" y1="117" x2="272" y2="116" stroke="#0f8a7e" stroke-width="0.8"/>
+        <text x="330" y="160" fill="#6d28d9" font-size="10">C: least template</text>
+        <line x1="328" y1="157" x2="304" y2="150" stroke="#6d28d9" stroke-width="0.8"/>
+        <!-- phases -->
+        <g font-size="9.5" fill="#5b6676">
+          <text x="85" y="238">baseline</text>
+          <text x="340" y="50">plateau</text>
+        </g>
+        <!-- TaqMan panel -->
+        <text x="555" y="20" text-anchor="middle" font-weight="700" font-size="12" fill="#1b2330">B. TaqMan (hydrolysis) probe</text>
+        <rect x="440" y="32" width="230" height="270" rx="8" fill="#fcfdff" stroke="#d9dee6"/>
+        <text x="452" y="52" font-size="10.5" font-weight="600">1. Intact probe — no signal</text>
+        <line x1="455" y1="95" x2="655" y2="95" stroke="#1b2330" stroke-width="2"/>
+        <text x="455" y="110" font-size="9.5" fill="#5b6676">template strand</text>
+        <line x1="545" y1="87" x2="625" y2="87" stroke="#0f8a7e" stroke-width="3"/>
+        <circle cx="545" cy="78" r="7" fill="#fff4ec" stroke="#c2410c"/><text x="545" y="82" text-anchor="middle" font-size="9" font-weight="700" fill="#c2410c">R</text>
+        <circle cx="625" cy="78" r="7" fill="#f2f4f7" stroke="#1b2330"/><text x="625" y="82" text-anchor="middle" font-size="9" font-weight="700">Q</text>
+        <line x1="460" y1="87" x2="496" y2="87" stroke="#0b5cad" stroke-width="3"/><path d="M494,82 L504,87 L494,92 z" fill="#0b5cad"/>
+        <text x="460" y="74" font-size="9.5" fill="#0b5cad">primer</text>
+        <text x="585" y="70" text-anchor="middle" font-size="9.5" fill="#0f8a7e">probe</text>
+        <text x="452" y="132" font-size="9.5" fill="#5b6676">Q quenches R (close together)</text>
+        <line x1="450" y1="148" x2="660" y2="148" stroke="#d9dee6"/>
+        <text x="452" y="168" font-size="10.5" font-weight="600">2. Extension — probe cleaved</text>
+        <line x1="455" y1="225" x2="655" y2="225" stroke="#1b2330" stroke-width="2"/>
+        <line x1="460" y1="217" x2="570" y2="217" stroke="#0b5cad" stroke-width="3"/>
+        <ellipse cx="575" cy="205" rx="20" ry="13" fill="#eef5fc" stroke="#0b5cad"/>
+        <text x="575" y="209" text-anchor="middle" font-size="9" fill="#0b5cad">Taq</text>
+        <line x1="600" y1="217" x2="625" y2="217" stroke="#0f8a7e" stroke-width="3"/>
+        <circle cx="625" cy="208" r="7" fill="#f2f4f7" stroke="#1b2330"/><text x="625" y="212" text-anchor="middle" font-size="9" font-weight="700">Q</text>
+        <circle cx="530" cy="194" r="7" fill="#fff4ec" stroke="#c2410c"/><text x="530" y="198" text-anchor="middle" font-size="9" font-weight="700" fill="#c2410c">R</text>
+        <g stroke="#c2410c" stroke-width="1.2"><line x1="520" y1="186" x2="514" y2="181"/><line x1="530" y1="183" x2="530" y2="177"/><line x1="540" y1="186" x2="546" y2="181"/></g><text x="470" y="198" font-size="9.5" fill="#c2410c">free R</text>
+        <text x="452" y="246" font-size="9.5" fill="#5b6676">5′→3′ exonuclease of Taq frees R</text>
+        <text x="452" y="262" font-size="9.5" fill="#5b6676">from Q → R fluoresces; signal</text>
+        <text x="452" y="278" font-size="9.5" fill="#5b6676">rises each cycle in proportion</text>
+        <text x="452" y="294" font-size="9.5" fill="#5b6676">to the product made</text>
+      </svg>
+      <figcaption><b>Fig 138.1</b> (A) Real-time PCR amplification plot: the sample with the most starting template (A) crosses the threshold first (lowest Ct). (B) TaqMan probe chemistry: reporter (R) and quencher (Q) on a sequence-specific probe. <span class="draw-tip">Exam drawing tip: draw the S-curve three times, shifted to the right, a dashed horizontal threshold and drop lines to the x-axis labelled Ct — 3 minutes.</span></figcaption>
+    </figure>
+
+    <h4>3. Detection chemistries</h4>
+    <table>
+      <tr><th>Chemistry</th><th>How it works</th><th>Comment</th></tr>
+      <tr><td><b>SYBR Green</b> (DNA-binding dye)</td><td>Binds the minor groove of any double-stranded DNA; fluorescence increases as product accumulates</td><td>Cheap, any primer pair; but <b>non-specific</b> — also detects primer-dimers. A <b>melting-curve</b> analysis is run to check a single product.</td></tr>
+      <tr><td><b>TaqMan (hydrolysis) probe</b></td><td>Sequence-specific probe with reporter + quencher; cleaved by 5′→3′ exonuclease activity of Taq during extension</td><td><b>Highly specific</b>; different dyes allow multiplexing; costlier</td></tr>
+      <tr><td>Molecular beacons / FRET probes</td><td>Hairpin probe opens on hybridising to target, separating reporter from quencher</td><td>Specific; good for detecting point mutations (SNPs)</td></tr>
+    </table>
+
+    <h4>4. Advantages of real-time PCR</h4>
+    <ol>
+      <li><b>Quantitative</b> — measures the starting amount of DNA/RNA (copy number, viral load, gene expression), whereas conventional end-point PCR is only qualitative/semi-quantitative.</li>
+      <li><b>Wide dynamic range</b> — accurate over about 7–8 log units of template concentration, because measurement is made in the exponential phase, not at the plateau.</li>
+      <li><b>High sensitivity</b> — can detect very few (theoretically single) copies of a target.</li>
+      <li><b>High specificity</b> — with probes, the signal comes only from the intended sequence; melt curves confirm product identity with SYBR Green.</li>
+      <li><b>Speed</b> — results in 1–2 hours; no post-PCR gel electrophoresis, staining or blotting.</li>
+      <li><b>Closed-tube system</b> — tubes are not opened after amplification, so <b>less carry-over contamination</b> and less exposure to ethidium bromide.</li>
+      <li><b>Multiplexing</b> — several targets (each with a different coloured probe) in one tube, including an internal control.</li>
+      <li><b>Automation and reproducibility</b> — high throughput (96–384 wells), computer analysis, objective numerical results.</li>
+      <li><b>RT-qPCR</b> for RNA — measures mRNA levels (gene expression) and RNA viruses (HIV, hepatitis C, SARS-CoV-2).</li>
+      <li><b>Genotyping</b> — detection of point mutations/SNPs (e.g., sickle-cell mutation) with allele-specific probes or melt-curve analysis.</li>
+    </ol>
+
+    <h4>5. Limitations</h4>
+    <ol>
+      <li><b>Cost</b> — expensive instrument, fluorescent probes and reagents; needs trained personnel and stable electricity (relevant in our setting).</li>
+      <li><b>Sequence must be known</b> — primers and probes can only be designed for known targets; it cannot discover unknown sequences.</li>
+      <li><b>Non-specific signal with SYBR Green</b> — primer-dimers and non-specific products give false fluorescence.</li>
+      <li><b>No information on product size or sequence</b> beyond the melt curve (needs gel or sequencing for that).</li>
+      <li><b>Dependence on amplification efficiency</b> — inhibitors in the sample (heme, heparin, ethanol, phenol) and differences in efficiency between targets distort quantification; standard curves and reference genes are required.</li>
+      <li><b>Normalisation problems</b> — relative quantification assumes the reference (housekeeping) gene is constant, which is not always true.</li>
+      <li><b>Limited multiplexing</b> — restricted by the number of fluorescent dyes the optical system can distinguish.</li>
+      <li><b>Contamination still possible</b> — extremely sensitive, so any contaminating template gives a false positive.</li>
+      <li><b>Detects nucleic acid, not viability</b> — DNA from dead organisms is also amplified; a positive result does not always mean active infection.</li>
+      <li>Short amplicons are preferred (about 70–200 bp); long targets amplify poorly.</li>
+    </ol>
+
+    <h4>6. Applications (brief)</h4>
+    <p>Viral load monitoring (HIV, HBV, HCV); diagnosis of infections (tuberculosis, SARS-CoV-2); gene expression studies; detection of mutations and SNPs; quantification of oncogene amplification and minimal residual disease (e.g., BCR-ABL in CML); prenatal diagnosis; food/GMO testing.</p>
+
+    <h4>7. Conclusion</h4>
+    <p>Real-time PCR converts PCR from a yes/no test into a fast, sensitive, closed-tube, quantitative assay based on the Ct value; its main drawbacks are cost, the need for known sequences, and sensitivity to inhibitors and contamination.</p>
+  </div>
+
+  <div class="box understand"><span class="box-t">Understand it (plain English)</span> Imagine three photocopiers all doubling pages every minute. The one that started with the most pages fills the room to a "notice it" level first. Real-time PCR simply watches for when each tube "lights up" — the earlier it lights up (lower Ct), the more target it started with. Conventional PCR only looks at the end, when every tube is full (plateau) and they all look the same.</div>
+  <div class="box mnemonic"><span class="box-t">Memory trick</span> Advantages = <b>"QUICK S"</b>: <b>Q</b>uantitative, <b>U</b>nopened (closed tube), <b>I</b>ncreased sensitivity, <b>C</b>ombined targets (multiplex), <b>K</b>eeps time (fast), <b>S</b>pecific. Limitations = <b>"CASH"</b>: <b>C</b>ost, <b>A</b>mplification inhibitors/efficiency, <b>S</b>equence must be known, <b>H</b>igh contamination risk (false positives). And: "<b>Low Ct = Lots of template.</b>"</div>
+  <div class="box exam-tip"><span class="box-t">How to write this in the exam</span> (1) Two-line definition of PCR and qPCR (2 min). (2) Principle with the word <b>Ct</b> and the amplification plot (5 min). (3) Small table of SYBR vs TaqMan (3 min). (4) Advantages — at least 8 numbered points; Limitations — at least 6 (10 min). (5) Applications and conclusion. Using the phrases "exponential phase", "closed-tube" and "inversely proportional to log of initial template" signals mastery.</div>
+  <div class="box pitfall"><span class="box-t">Mistakes that cost marks</span> Saying a <i>higher</i> Ct means more template (it is the opposite). Describing only ordinary PCR steps and forgetting "real-time". Writing advantages of PCR in general (e.g., "amplifies DNA") instead of advantages over conventional PCR. Forgetting that SYBR Green is non-specific.</div>
+
+  <div class="selftest"><div class="st-t">Quick self-test — cover the right column</div>
+    <table><tr><th>Question</th><th>Answer</th></tr>
+      <tr><td>What is Ct?</td><td class="ans">Cycle at which fluorescence crosses the threshold; inversely related to log of starting template</td></tr>
+      <tr><td>Enzyme activity that cleaves a TaqMan probe</td><td class="ans">5′→3′ exonuclease of Taq polymerase</td></tr>
+      <tr><td>Why run a melt curve with SYBR Green?</td><td class="ans">Dye binds any dsDNA; melt curve confirms a single specific product (no primer-dimers)</td></tr>
+      <tr><td>Which phase is used for quantification?</td><td class="ans">Exponential phase</td></tr>
+      <tr><td>qPCR for RNA virus load needs which extra step?</td><td class="ans">Reverse transcription (RT-qPCR)</td></tr>
+    </table></div>
+  <div class="related">Related: <a href="#q140">Q140 Gene markers &amp; replication fork</a> · <a href="#q139">Q139 Mutation, repair, gene therapy</a> · <a href="#q142">Q142 DNA secondary structure</a></div>
+</section>

@@ -1,0 +1,124 @@
+<section class="q" id="q203">
+  <div class="q-head">
+    <div class="q-num">Q203</div>
+    <div class="q-body-head">
+      <div class="q-meta"><span class="tag course">Biochemistry · BCM 307</span><span class="tag year">3rd In-course · 07/11/2025</span><span class="tag marks">Essay</span><span class="tag freq">Source: Vasudevan — Recombinant DNA technology; Satyanarayana — Genetic engineering</span></div>
+      <h3 class="q-title">What is Recombinant DNA technology?</h3>
+      <div class="revise">Revision tracker: <span class="cb"></span>Read <span class="cb"></span>Drew diagram <span class="cb"></span>Wrote from memory</div>
+    </div>
+  </div>
+
+  <div class="box examiner"><span class="box-t">What the examiner wants</span> A precise definition, the <b>tools</b> (enzymes, vectors, hosts), the <b>steps</b> (isolate → cut → join → introduce → select/screen → express) with the classic labelled diagram, and a short list of applications. This is the core diagram of the whole course — draw it well.</div>
+
+  <div class="answer">
+    <h4>Definition</h4>
+    <p><b>Recombinant DNA (rDNA) technology</b> (genetic engineering, gene cloning) is the set of techniques by which a <b>DNA fragment (gene) from one source is cut out and joined in vitro to a vector DNA</b>, forming a new combination — <span class="kw">recombinant DNA</span> (chimeric DNA) — which is then introduced into a <b>host cell</b> where it replicates (cloning) and may be expressed to give a useful product.</p>
+    <p>History: restriction enzymes discovered (Arber, Smith, Nathans — Nobel 1978); <b>Paul Berg (1972)</b> made the first recombinant DNA (SV40 + λ DNA); <b>Stanley Cohen and Herbert Boyer (1973)</b> cloned recombinant plasmid in <i>E. coli</i>.</p>
+
+    <h4>Tools of recombinant DNA technology</h4>
+    <table>
+      <tr><th>Tool</th><th>Examples / role</th></tr>
+      <tr><td><b>Restriction endonucleases</b> ("molecular scissors")</td><td>Cut DNA at specific palindromic sites — EcoRI (G↓AATTC), BamHI, HindIII; give sticky or blunt ends</td></tr>
+      <tr><td><b>DNA ligase</b> ("molecular glue")</td><td>T4 DNA ligase seals phosphodiester bonds between insert and vector</td></tr>
+      <tr><td>Other enzymes</td><td>Reverse transcriptase (mRNA → cDNA), DNA polymerase (Klenow, Taq for PCR), alkaline phosphatase (prevents vector self-ligation), terminal transferase (homopolymer tails), S1 nuclease</td></tr>
+      <tr><td><b>Vectors</b> ("vehicles")</td><td>Plasmids (pBR322, pUC), bacteriophage λ, cosmids, BAC, YAC, viral vectors (retro-, adeno-viruses) — <a href="#q205">Q205</a></td></tr>
+      <tr><td><b>Host cells</b></td><td><i>E. coli</i> (commonest), <i>Bacillus subtilis</i>, yeast (<i>Saccharomyces cerevisiae</i>), mammalian cells (CHO cells), plant cells</td></tr>
+      <tr><td>Gene of interest (insert)</td><td>From genomic DNA, cDNA (via reverse transcriptase), chemical synthesis, or PCR</td></tr>
+      <tr><td>Probes and markers</td><td>Labelled DNA/RNA probes; antibiotic resistance genes, lacZ for selection</td></tr>
+    </table>
+
+    <h4>Steps of recombinant DNA technology</h4>
+    <figure class="diagram">
+      <svg viewBox="0 0 660 375" width="660" font-family="Inter, sans-serif" font-size="11">
+        <defs><marker id="q203-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1b2330"/></marker></defs>
+        <!-- donor DNA -->
+        <text x="20" y="18" font-weight="700" fill="#c2410c">1. Donor (human) DNA</text>
+        <line x1="20" y1="40" x2="240" y2="40" stroke="#1b2330" stroke-width="4"/>
+        <rect x="100" y="34" width="60" height="12" fill="#c2410c"/>
+        <text x="130" y="62" text-anchor="middle" fill="#c2410c">gene of interest</text>
+        <line x1="100" y1="26" x2="100" y2="52" stroke="#b42318" stroke-dasharray="3 2"/><line x1="160" y1="26" x2="160" y2="52" stroke="#b42318" stroke-dasharray="3 2"/>
+        <text x="100" y="22" text-anchor="middle" font-size="10" fill="#b42318">EcoRI</text><text x="160" y="22" text-anchor="middle" font-size="10" fill="#b42318">EcoRI</text>
+        <!-- plasmid -->
+        <text x="420" y="18" font-weight="700" fill="#0b5cad">2. Vector (plasmid)</text>
+        <circle cx="490" cy="60" r="32" fill="none" stroke="#0b5cad" stroke-width="4"/>
+        <rect x="472" y="22" width="12" height="10" fill="#15803d"/>
+        <text x="540" y="40" fill="#15803d">amp<tspan baseline-shift="super" font-size="8">R</tspan></text>
+        <text x="540" y="78" fill="#0b5cad">ori</text>
+        <line x1="490" y1="92" x2="490" y2="104" stroke="#b42318" stroke-dasharray="3 2"/><text x="500" y="110" font-size="10" fill="#b42318">EcoRI site</text>
+        <!-- arrows to cut -->
+        <line x1="130" y1="70" x2="130" y2="100" stroke="#1b2330" stroke-width="1.4" marker-end="url(#q203-arr)"/>
+        <line x1="490" y1="114" x2="490" y2="128" stroke="#1b2330" stroke-width="1.4" marker-end="url(#q203-arr)"/>
+        <text x="150" y="90" font-size="10">3. Cut with same restriction enzyme</text>
+        <!-- cut fragment -->
+        <rect x="100" y="112" width="60" height="12" fill="#c2410c"/>
+        <text x="94" y="122" text-anchor="end" font-family="monospace" font-size="10">AATT-</text><text x="166" y="122" font-family="monospace" font-size="10">-TTAA</text>
+        <text x="130" y="140" text-anchor="middle">insert with sticky ends</text>
+        <!-- opened plasmid -->
+        <path d="M478,160 A30,30 0 1,1 502,160" fill="none" stroke="#0b5cad" stroke-width="4"/>
+        <text x="490" y="180" text-anchor="middle">opened vector</text>
+        <!-- ligation -->
+        <line x1="180" y1="132" x2="290" y2="200" stroke="#1b2330" stroke-width="1.4" marker-end="url(#q203-arr)"/>
+        <line x1="460" y1="165" x2="370" y2="200" stroke="#1b2330" stroke-width="1.4" marker-end="url(#q203-arr)"/>
+        <text x="330" y="168" text-anchor="middle" font-weight="700">4. Anneal + DNA ligase</text>
+        <circle cx="330" cy="230" r="28" fill="none" stroke="#0b5cad" stroke-width="4"/>
+        <path d="M309,212 A28,28 0 0,1 351,212" fill="none" stroke="#c2410c" stroke-width="5"/>
+        <text x="370" y="236" fill="#6d28d9" font-weight="700">recombinant DNA</text>
+        <text x="370" y="250" fill="#6d28d9">(chimeric plasmid)</text>
+        <!-- transformation -->
+        <line x1="300" y1="250" x2="200" y2="285" stroke="#1b2330" stroke-width="1.4" marker-end="url(#q203-arr)"/>
+        <text x="120" y="262">5. Transformation</text><text x="120" y="276">(CaCl₂ / heat shock,</text><text x="120" y="290">electroporation)</text>
+        <rect x="40" y="298" width="150" height="50" rx="24" fill="#edfaf7" stroke="#0f8a7e" stroke-width="1.5"/>
+        <circle cx="80" cy="323" r="9" fill="none" stroke="#0b5cad" stroke-width="2"/>
+        <path d="M74,316 A9,9 0 0,1 86,316" fill="none" stroke="#c2410c" stroke-width="3"/>
+        <text x="140" y="327" text-anchor="middle">E. coli host</text>
+        <line x1="192" y1="323" x2="250" y2="323" stroke="#1b2330" stroke-width="1.4" marker-end="url(#q203-arr)"/>
+        <!-- selection plate -->
+        <ellipse cx="320" cy="323" rx="62" ry="28" fill="#fff7e0" stroke="#a16207" stroke-width="1.5"/>
+        <g fill="#0f8a7e"><circle cx="296" cy="314" r="5"/><circle cx="330" cy="332" r="5"/><circle cx="348" cy="312" r="5"/></g>
+        <text x="320" y="365" text-anchor="middle" font-size="10">6. Select on ampicillin plate</text>
+        <line x1="384" y1="323" x2="440" y2="323" stroke="#1b2330" stroke-width="1.4" marker-end="url(#q203-arr)"/>
+        <!-- clone & express -->
+        <rect x="444" y="290" width="206" height="66" rx="8" fill="#f5f0ff" stroke="#6d28d9" stroke-width="1.5"/>
+        <text x="547" y="308" text-anchor="middle" font-weight="700">7. Clone → express</text>
+        <text x="547" y="325" text-anchor="middle">fermenter culture</text>
+        <text x="547" y="342" text-anchor="middle">→ purify product (e.g. insulin)</text>
+      </svg>
+      <figcaption><b>Fig 203.1</b> Steps of recombinant DNA technology: cut donor DNA and vector with the same restriction enzyme → join with ligase → transform host → select → clone and express. <span class="draw-tip">Exam drawing tip: this is THE diagram of BCM 307 — practise it until you can draw it in 4 minutes.</span></figcaption>
+    </figure>
+    <ol>
+      <li><b>Isolation of the gene of interest</b> — extract DNA from donor cells; or isolate mRNA and convert it to <b>cDNA</b> with reverse transcriptase (cDNA has no introns, so bacteria can express it); or amplify by PCR; or synthesise chemically.</li>
+      <li><b>Isolation of the vector</b> — e.g. plasmid from bacteria.</li>
+      <li><b>Cutting</b> — both donor DNA and vector are digested with the <b>same restriction endonuclease</b> to produce complementary <b>sticky (cohesive) ends</b>.</li>
+      <li><b>Joining (ligation)</b> — the insert and opened vector are mixed; sticky ends base-pair (anneal) and <b>DNA ligase</b> seals the nicks → <b>recombinant DNA</b>. (Blunt ends are joined using linkers, adaptors or homopolymer tailing — <a href="#q215">Q215</a>.)</li>
+      <li><b>Introduction into host</b> — <b>transformation</b> (CaCl<sub>2</sub>-treated competent cells + heat shock at 42 °C), <b>electroporation</b>, <b>transfection</b>, transduction by phage, microinjection, gene gun, liposomes.</li>
+      <li><b>Selection and screening of recombinants</b> — host cells are grown on antibiotic medium: only cells with the plasmid survive. Recombinant vs non-recombinant is distinguished by <b>insertional inactivation</b> (e.g. loss of tetracycline resistance in pBR322) or <b>blue–white screening</b> (lacZ in pUC — white colonies carry the insert). Confirmed by colony hybridisation with labelled probes, PCR, restriction analysis or sequencing.</li>
+      <li><b>Cloning and expression</b> — selected cells multiply into a clone; with an expression vector (strong promoter, ribosome binding site) the gene is transcribed and translated. The protein is harvested from large fermenters and purified (downstream processing).</li>
+    </ol>
+
+    <h4>Applications (brief)</h4>
+    <ol>
+      <li>Recombinant drugs: insulin, growth hormone, erythropoietin, interferons, tPA, factor VIII.</li>
+      <li>Vaccines: hepatitis B (HBsAg in yeast), HPV.</li>
+      <li>Diagnosis: DNA probes, prenatal diagnosis of sickle cell disease and thalassaemia, PCR for infections.</li>
+      <li>Gene therapy (ADA-SCID), transgenic animals and plants (Bt cotton, golden rice), forensic DNA fingerprinting, and research on gene structure and function.</li>
+    </ol>
+
+    <h4>Conclusion</h4>
+    <p>Recombinant DNA technology cuts, pastes and multiplies genes using restriction enzymes, ligase, vectors and hosts. It has transformed medicine by making human proteins, vaccines and molecular diagnostics available on a large scale.</p>
+  </div>
+
+  <div class="box understand"><span class="box-t">Understand it (plain English)</span> It is "cut-and-paste" for DNA. The restriction enzyme is the scissors that always cuts at the same "word", leaving sticky ends like Velcro. Cut the human gene and the plasmid with the same scissors and their Velcro ends match; ligase is the glue. Put the new plasmid into bacteria, which copy it every time they divide — billions of copies, and the bacteria make the human protein for you.</div>
+  <div class="box mnemonic"><span class="box-t">Memory trick</span> Steps: <b>"I Cut, Join, Transform, Select, Express"</b> → <b>"I Can Join The Shy Elephant"</b>. Tools: <b>"SLV-H"</b> — Scissors (restriction enzyme), Ligase, Vector, Host.</div>
+  <div class="box exam-tip"><span class="box-t">How to write this in the exam</span> Definition (with "chimeric" and "in vitro") → history line → tools table → diagram → numbered steps → applications → conclusion. Draw the diagram before the steps so you can refer to it. 25 minutes.</div>
+  <div class="box pitfall"><span class="box-t">Mistakes that cost marks</span> Cutting donor and vector with different enzymes (ends won't match); calling DNA ligase a "polymerase"; forgetting the selection/screening step; saying bacteria can splice introns (they cannot — hence cDNA).</div>
+
+  <div class="selftest"><div class="st-t">Quick self-test — cover the right column</div>
+    <table><tr><th>Question</th><th>Answer</th></tr>
+      <tr><td>Enzyme that makes cDNA from mRNA?</td><td class="ans">Reverse transcriptase</td></tr>
+      <tr><td>Why use cDNA for bacterial expression?</td><td class="ans">No introns — bacteria cannot splice</td></tr>
+      <tr><td>Who first cloned a recombinant plasmid in E. coli?</td><td class="ans">Cohen and Boyer, 1973</td></tr>
+      <tr><td>Chemical treatment making E. coli competent?</td><td class="ans">Ice-cold CaCl₂ then heat shock at 42 °C</td></tr>
+      <tr><td>White colonies in blue–white screening mean?</td><td class="ans">Recombinant (lacZ disrupted by insert)</td></tr>
+    </table></div>
+  <div class="related">Related: <a href="#q211">Q211 Definition</a> · <a href="#q217">Q217 Applications in medicine</a> · <a href="#q215">Q215 DNA chimeras</a> · <a href="#q205">Q205 Vectors</a> · <a href="#q219">Q219 Restriction endonucleases</a></div>
+</section>

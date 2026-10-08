@@ -1,0 +1,111 @@
+<section class="q" id="q173">
+  <div class="q-head">
+    <div class="q-num">Q173</div>
+    <div class="q-body-head">
+      <div class="q-meta"><span class="tag course">Biochemistry · BCM 305</span><span class="tag year">3rd In-course · 30/10/2025</span><span class="tag marks">Calculation</span><span class="tag freq">Source: Vasudevan; Satyanarayana — BMR</span></div>
+      <h3 class="q-title">A 30yr old male, weight 70kg and height 170cm consumed 1.2L of O2 under basal conditions. Calculate the BMR (Add a note on the clinical aspect).</h3>
+      <div class="revise">Revision tracker: <span class="cb"></span>Read <span class="cb"></span>Drew diagram <span class="cb"></span>Wrote from memory</div>
+    </div>
+  </div>
+
+  <div class="box examiner"><span class="box-t">What the examiner wants</span> A clearly stated assumption about the recording time → O<sub>2</sub>/h → kcal/h (× 4.825) → kcal/day → surface area by DuBois → kcal/m²/h → % deviation from the normal (≈ 40 kcal/m²/h for a 30-yr male) → interpretation and clinical note. Units at every line.</div>
+
+  <div class="answer">
+    <h4>Data given</h4>
+    <ul>
+      <li>Male, age 30 years; W = 70 kg; H = 170 cm.</li>
+      <li>O<sub>2</sub> consumed under basal conditions = 1.2 L.</li>
+      <li>Constants: calorific value of O<sub>2</sub> (mixed diet, RQ ≈ 0.82) = <b>4.825 kcal/L</b>; normal BMR for a 30-year-old male ≈ <b>40 kcal/m²/h</b> (normal range ±15%).</li>
+    </ul>
+
+    <h4>Assumption (state it in the script)</h4>
+    <p>The question gives the volume but not the time. In the standard Benedict–Roth test, O<sub>2</sub> consumption is recorded for <b>6 minutes</b> (and the volume is taken as already corrected to STP). <b>I therefore take 1.2 L as the O<sub>2</sub> consumed in 6 minutes.</b> (1.2 L per <i>minute</i> is impossible at rest — it would give ≈ 347 kcal/h, a level seen only during exercise — so the 6-min interpretation is the sensible one.)</p>
+
+    <h4>Step 1 — O<sub>2</sub> consumed per hour</h4>
+    <p>O<sub>2</sub>/h = 1.2 L × (60 ÷ 6) = 1.2 × 10 = <b>12.0 L/h</b> (= 200 mL/min).</p>
+
+    <h4>Step 2 — Heat produced (energy expenditure)</h4>
+    <p>Per hour = 12.0 L/h × 4.825 kcal/L = <b>57.9 kcal/h</b><br>
+    Per day = 57.9 × 24 = <b>1389.6 kcal/day</b> (≈ 1390 kcal/day ≈ 5.8 MJ/day).</p>
+
+    <h4>Step 3 — Body surface area (DuBois formula)</h4>
+    <p>A = W<sup>0.425</sup> × H<sup>0.725</sup> × 0.007184</p>
+    <table>
+      <tr><th>Term</th><th>Working (logarithms)</th><th>Value</th></tr>
+      <tr><td>W<sup>0.425</sup></td><td>log 70 = 1.8451; × 0.425 = 0.7842; antilog</td><td>6.084</td></tr>
+      <tr><td>H<sup>0.725</sup></td><td>log 170 = 2.2304; × 0.725 = 1.6171; antilog</td><td>41.41</td></tr>
+      <tr><td>Product × 0.007184</td><td>6.084 × 41.41 = 251.9; × 0.007184</td><td><b>1.81 m²</b></td></tr>
+    </table>
+
+    <h4>Step 4 — BMR</h4>
+    <p>BMR = 57.9 kcal/h ÷ 1.81 m² = <b>32.0 kcal/m²/h</b><br>
+    (per day per m²: 32.0 × 24 ≈ 768 kcal/m²/day)</p>
+
+    <h4>Step 5 — Compare with normal</h4>
+    <p>% deviation = (observed − normal) ÷ normal × 100 = (32.0 − 40) ÷ 40 × 100 = <b>−20%</b></p>
+
+    <figure class="diagram">
+      <svg viewBox="0 0 680 180" width="680" font-family="Inter, sans-serif" font-size="11">
+        <line x1="60" y1="150" x2="660" y2="150" stroke="#1b2330"/>
+        <!-- scale 20..60 kcal => x 60..660 : 15 px per kcal -->
+        <rect x="270" y="40" width="180" height="110" fill="#edfaf7" stroke="none"/>
+        <text x="360" y="34" text-anchor="middle" fill="#15803d" font-weight="700">Normal range 34–46 (±15%)</text>
+        <line x1="360" y1="40" x2="360" y2="150" stroke="#15803d" stroke-width="2"/>
+        <text x="365" y="62" fill="#15803d">Normal 40</text>
+        <rect x="60" y="85" width="180" height="30" fill="#fff1f0" stroke="#b42318"/>
+        <text x="150" y="104" text-anchor="middle" fill="#b42318" font-weight="700" font-size="10">This man: 32.0 (−20%)</text>
+        <line x1="240" y1="78" x2="240" y2="150" stroke="#b42318" stroke-dasharray="4 3"/>
+        <g font-size="10" fill="#5b6676" text-anchor="middle">
+          <text x="60" y="166">20</text><text x="135" y="166">25</text><text x="210" y="166">30</text><text x="285" y="166">35</text><text x="360" y="166">40</text>
+          <text x="435" y="166">45</text><text x="510" y="166">50</text><text x="585" y="166">55</text><text x="660" y="166">60</text>
+        </g>
+        <text x="60" y="178" font-size="10" fill="#5b6676">kcal/m²/h</text>
+      </svg>
+      <figcaption><b>Fig 173.1</b> Observed BMR against the normal band for a 30-year-old male. <span class="draw-tip">Exam drawing tip: optional — a single number line with a shaded ±15% band makes the interpretation obvious.</span></figcaption>
+    </figure>
+    <p>(Fig 173.1 axis: each tick = 5 kcal/m²/h; the shaded band is 34–46; the red bar ends at 32.)</p>
+
+    <h4>Answer</h4>
+    <table>
+      <tr><th>Quantity</th><th>Result</th></tr>
+      <tr><td>O<sub>2</sub> consumption</td><td>12 L/h</td></tr>
+      <tr><td>Energy expenditure</td><td>57.9 kcal/h; ≈ 1390 kcal/day</td></tr>
+      <tr><td>Body surface area</td><td>1.81 m²</td></tr>
+      <tr><td><b>BMR</b></td><td><b>32.0 kcal/m²/h</b> (≈ 768 kcal/m²/day)</td></tr>
+      <tr><td>Deviation from normal</td><td><b>−20%</b> → below the normal range (hypometabolic)</td></tr>
+    </table>
+    <p><i>Cross-check:</i> a rough rule of 1 kcal/kg/h predicts 70 × 24 ≈ 1680 kcal/day for this man; 1390 kcal/day is clearly lower, confirming a reduced BMR.</p>
+
+    <h4>If the examiner meant a different time interval</h4>
+    <table>
+      <tr><th>1.2 L consumed in</th><th>L/h</th><th>kcal/h</th><th>kcal/m²/h</th><th>Deviation</th></tr>
+      <tr><td>5 min</td><td>14.4</td><td>69.5</td><td>38.4</td><td>−4% (normal)</td></tr>
+      <tr><td><b>6 min (standard)</b></td><td><b>12.0</b></td><td><b>57.9</b></td><td><b>32.0</b></td><td><b>−20%</b></td></tr>
+      <tr><td>10 min</td><td>7.2</td><td>34.7</td><td>19.2</td><td>−52%</td></tr>
+    </table>
+    <p>The method is identical — only the factor in Step 1 changes (60 ÷ minutes recorded).</p>
+
+    <h4>Clinical aspect</h4>
+    <ol>
+      <li><b>Interpretation</b> — a BMR of −20% lies outside the normal ±15%, so the man is <b>hypometabolic</b>.</li>
+      <li><b>Causes of low BMR</b> (to consider): <b>hypothyroidism/myxoedema</b> (classically −30 to −50%), prolonged <b>starvation/undernutrition</b> (adaptive fall in BMR, ↓ T<sub>3</sub>), Addison's disease, hypopituitarism, and technical error (subject asleep, wrong STP correction, leak in the circuit).</li>
+      <li><b>Causes of high BMR</b> (for contrast): hyperthyroidism (+50 to +100%), fever (≈ +12% per °C), pregnancy, leukaemia, phaeochromocytoma, anxiety.</li>
+      <li><b>Uses of BMR</b> — calculating daily energy requirement for diet planning (BMR + SDA ≈ 10% + activity); BMR was historically the main test of thyroid function, now replaced by serum TSH, T<sub>3</sub>, T<sub>4</sub>. A low BMR in this man should therefore be followed by thyroid function tests.</li>
+      <li><b>Nutritional significance</b> — a lower BMR means fewer calories needed; if intake is not reduced, weight gain follows (one reason hypothyroid patients gain weight).</li>
+    </ol>
+  </div>
+
+  <div class="box understand"><span class="box-t">Understand it (plain English)</span> Four multiplications and a division: minutes → hour (×10), litres → kcal (×4.825), then share it out per square metre of skin (÷1.81). Then ask: is 32 close to 40? It is 8 units short — that is 20% short — too low to be normal.</div>
+  <div class="box mnemonic"><span class="box-t">Memory trick</span> "<b>Ten, Four-point-eight, DuBois, Forty</b>" — the four numbers that solve every BMR question: ×10 (6-min test), ×4.825, ÷ DuBois area, compare with 40 (male) / 37 (female).</div>
+  <div class="box exam-tip"><span class="box-t">How to write this in the exam</span> Write "Data", "Assumption", Steps 1–5 as headings, each with its formula then the numbers then units. Box the final answer. Put the clinical note last. If allowed a calculator, still show the DuBois formula; if not, log tables (as shown) earn full method marks.</div>
+  <div class="box pitfall"><span class="box-t">Mistakes that cost marks</span> Not stating the time assumption. Dividing by body weight instead of surface area. Reporting kcal/day as "BMR" without the per-m² figure. Forgetting to say whether the result is normal.</div>
+
+  <div class="selftest"><div class="st-t">Quick self-test — cover the right column</div>
+    <table><tr><th>Question</th><th>Answer</th></tr>
+      <tr><td>DuBois formula?</td><td class="ans">A = W<sup>0.425</sup> × H<sup>0.725</sup> × 0.007184 (kg, cm → m²)</td></tr>
+      <tr><td>BSA for 70 kg, 170 cm?</td><td class="ans">≈ 1.81 m²</td></tr>
+      <tr><td>Female, 1.0 L/6 min, BSA 1.6 m² — BMR?</td><td class="ans">10 L/h × 4.825 = 48.25 kcal/h ÷ 1.6 = 30.2 kcal/m²/h (≈ −18% vs 37)</td></tr>
+      <tr><td>Most likely endocrine cause of −20% BMR?</td><td class="ans">Hypothyroidism</td></tr>
+    </table></div>
+  <div class="related">Related: <a href="#q172">Q172 Determination of BMR</a> · <a href="#q183">Q183 Calorific value, BMI</a></div>
+</section>

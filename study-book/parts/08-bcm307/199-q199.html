@@ -1,0 +1,118 @@
+<section class="q" id="q199">
+  <div class="q-head">
+    <div class="q-num">Q199</div>
+    <div class="q-body-head">
+      <div class="q-meta"><span class="tag course">Biochemistry · BCM 307</span><span class="tag year">3rd In-course · 07/11/2025</span><span class="tag marks">Essay</span><span class="tag freq">Source: Vasudevan — Human Genome Project / molecular diagnostics; Satyanarayana — Genetic engineering</span></div>
+      <h3 class="q-title">Discuss gene mapping and its applications.</h3>
+      <div class="revise">Revision tracker: <span class="cb"></span>Read <span class="cb"></span>Drew diagram <span class="cb"></span>Wrote from memory</div>
+    </div>
+  </div>
+
+  <div class="box examiner"><span class="box-t">What the examiner wants</span> Definition; the two kinds of map (<b>genetic/linkage</b> in centiMorgans vs <b>physical</b> in base pairs); the principle of linkage (recombination frequency); methods (pedigree/linkage with markers, somatic cell hybrids, FISH, restriction mapping, sequencing); markers (RFLP, VNTR, STR, SNP); and a good list of applications with examples (Huntington, cystic fibrosis, DMD, Human Genome Project).</div>
+
+  <div class="answer">
+    <h4>Definition</h4>
+    <p><b>Gene mapping</b> is the determination of the <b>position (locus) of a gene on a chromosome</b> and of the <b>relative distances</b> between genes (or between a gene and DNA markers). The result, a <b>gene map</b>, is like a road map of the genome. The final, highest-resolution map is the complete DNA sequence — achieved for humans by the <b>Human Genome Project (1990–2003)</b>.</p>
+
+    <h4>Types of gene maps</h4>
+    <table>
+      <tr><th>Feature</th><th>Genetic (linkage) map</th><th>Physical map</th></tr>
+      <tr><td>Based on</td><td>Frequency of <b>recombination (crossing over)</b> between loci in meiosis</td><td>Actual physical location measured on the DNA/chromosome</td></tr>
+      <tr><td>Unit</td><td><b>centiMorgan (cM)</b>: 1 cM = 1% recombination (≈ 1 million bp in humans)</td><td>Base pairs (bp, kb, Mb) or chromosome bands</td></tr>
+      <tr><td>Data source</td><td>Family/pedigree studies; breeding experiments</td><td>Cytogenetics, FISH, somatic cell hybrids, restriction maps, sequencing</td></tr>
+      <tr><td>Resolution</td><td>Low (~1 Mb)</td><td>From whole band (cytogenetic) to single base (sequence)</td></tr>
+      <tr><td>Gives</td><td>Order of genes and relative distance</td><td>Exact position and distance</td></tr>
+    </table>
+
+    <h4>Principle of linkage mapping</h4>
+    <ol>
+      <li>Genes on <b>different chromosomes</b> assort independently (Mendel's 2nd law) — 50% recombinants.</li>
+      <li>Genes on the <b>same chromosome</b> are <b>linked</b> and tend to be inherited together.</li>
+      <li>During meiosis I, <b>crossing over</b> between homologous chromatids can separate linked genes. The <b>farther apart</b> two loci are, the <b>more often</b> a crossover occurs between them.</li>
+      <li>So <b>recombination frequency</b> (recombinant offspring ÷ total offspring × 100) is a measure of distance. First used by <b>Sturtevant (1913)</b> in <i>Drosophila</i>.</li>
+      <li>In humans, linkage is tested statistically with the <b>LOD score</b> (log of the odds); <b>LOD ≥ 3</b> (odds 1000:1) = significant linkage; LOD ≤ −2 excludes linkage.</li>
+    </ol>
+    <figure class="diagram">
+      <svg viewBox="0 0 660 250" width="660" font-family="Inter, sans-serif" font-size="11">
+        <text x="10" y="18" font-weight="700" fill="#0b5cad">A. Linkage map from recombination frequency</text>
+        <line x1="40" y1="60" x2="620" y2="60" stroke="#1b2330" stroke-width="3"/>
+        <g fill="#0b5cad"><circle cx="80" cy="60" r="6"/><circle cx="380" cy="60" r="6"/><circle cx="560" cy="60" r="6"/></g>
+        <text x="80" y="45" text-anchor="middle" font-weight="700">A</text>
+        <text x="380" y="45" text-anchor="middle" font-weight="700">B</text>
+        <text x="560" y="45" text-anchor="middle" font-weight="700">C</text>
+        <line x1="80" y1="78" x2="380" y2="78" stroke="#c2410c"/><text x="230" y="92" text-anchor="middle" fill="#c2410c">A–B: 10% recombinants = 10 cM</text>
+        <line x1="380" y1="78" x2="560" y2="78" stroke="#15803d"/><text x="470" y="92" text-anchor="middle" fill="#15803d">B–C: 6 cM</text>
+        <line x1="80" y1="102" x2="560" y2="102" stroke="#6d28d9"/><text x="320" y="116" text-anchor="middle" fill="#6d28d9">A–C: 16 cM → order is A – B – C</text>
+        <text x="10" y="148" font-weight="700" fill="#0f8a7e">B. Levels of mapping (low → high resolution)</text>
+        <g stroke="#0f8a7e" stroke-width="1.4">
+          <rect x="10" y="160" width="150" height="70" rx="8" fill="#edfaf7"/>
+          <rect x="175" y="160" width="150" height="70" rx="8" fill="#edfaf7"/>
+          <rect x="340" y="160" width="150" height="70" rx="8" fill="#edfaf7"/>
+          <rect x="505" y="160" width="145" height="70" rx="8" fill="#edfaf7"/>
+        </g>
+        <text x="85" y="180" text-anchor="middle" font-weight="700">Cytogenetic map</text>
+        <text x="85" y="198" text-anchor="middle">G-bands, karyotype</text>
+        <text x="85" y="214" text-anchor="middle">e.g. CFTR at 7q31</text>
+        <text x="250" y="180" text-anchor="middle" font-weight="700">Linkage map</text>
+        <text x="250" y="198" text-anchor="middle">markers, families</text>
+        <text x="250" y="214" text-anchor="middle">unit: cM</text>
+        <text x="415" y="180" text-anchor="middle" font-weight="700">Physical map</text>
+        <text x="415" y="198" text-anchor="middle">FISH, STS, contigs</text>
+        <text x="415" y="214" text-anchor="middle">unit: kb / Mb</text>
+        <text x="577" y="180" text-anchor="middle" font-weight="700">Sequence map</text>
+        <text x="577" y="198" text-anchor="middle">every base</text>
+        <text x="577" y="214" text-anchor="middle">unit: bp</text>
+        <g fill="#0f8a7e"><path d="M160,195 l12,0 l-5,-4 M172,195 l-5,4" stroke="#0f8a7e" stroke-width="1.6"/><path d="M325,195 l12,0 l-5,-4 M337,195 l-5,4" stroke="#0f8a7e" stroke-width="1.6"/><path d="M490,195 l12,0 l-5,-4 M502,195 l-5,4" stroke="#0f8a7e" stroke-width="1.6"/></g>
+      </svg>
+      <figcaption><b>Fig 199.1</b> (A) Recombination frequencies give gene order and distance (1% = 1 cM). (B) Increasing resolution of human gene maps. <span class="draw-tip">Exam drawing tip: a straight chromosome line with 3 dots and distances — 1 minute.</span></figcaption>
+    </figure>
+
+    <h4>Methods (techniques) of gene mapping</h4>
+    <h5>A. Genetic (linkage) mapping</h5>
+    <ol>
+      <li><b>Pedigree / family linkage analysis</b> — follow co-inheritance of a disease with a polymorphic marker through several generations; compute recombination fraction and LOD score.</li>
+      <li><b>DNA markers used</b>: <b>RFLP</b> (restriction fragment length polymorphism — first-generation), <b>VNTR/minisatellites</b>, <b>STR/microsatellites</b> (e.g. (CA)<sub>n</sub> repeats — highly informative) and <b>SNPs</b> (single nucleotide polymorphisms — used in genome-wide association studies).</li>
+    </ol>
+    <h5>B. Physical mapping</h5>
+    <ol>
+      <li><b>Cytogenetic mapping</b> — chromosome banding (G-banding); deletions or translocations seen in patients point to the gene's region (e.g. DMD at Xp21 found from X-autosome translocations in affected girls).</li>
+      <li><b>Somatic cell hybridisation</b> — human × mouse cells are fused; hybrids randomly lose human chromosomes. If a human protein is produced only when a particular human chromosome is retained, the gene is on that chromosome (synteny). <b>Radiation hybrids</b> refine this.</li>
+      <li><b>In situ hybridisation / FISH</b> — a labelled (fluorescent) DNA probe hybridises to its complementary sequence on metaphase chromosomes on a slide; the fluorescent spot shows the gene's band.</li>
+      <li><b>Restriction mapping</b> — cutting DNA with several restriction enzymes and measuring fragment sizes to locate cut sites.</li>
+      <li><b>Sequence-tagged sites (STS) and contig mapping</b> — overlapping clones (YAC, BAC) are ordered into continuous stretches (contigs).</li>
+      <li><b>DNA sequencing</b> — Sanger (dideoxy chain termination) and next-generation sequencing — the ultimate physical map.</li>
+      <li><b>Positional cloning</b> — once a disease gene is mapped near markers, chromosome walking/jumping isolates the gene itself (used for CFTR, 1989).</li>
+    </ol>
+
+    <h4>Applications</h4>
+    <ol>
+      <li><b>Identification of disease genes</b>: Huntington disease (chromosome 4, mapped by RFLP linkage in 1983), cystic fibrosis (CFTR, 7q31), Duchenne muscular dystrophy (dystrophin, Xp21), BRCA1/BRCA2 in breast cancer, retinoblastoma (RB1, 13q14).</li>
+      <li><b>Prenatal diagnosis and carrier detection</b>: linked markers or the mutation itself are tested in chorionic villus or amniotic cells (e.g. sickle cell, thalassaemia, haemophilia).</li>
+      <li><b>Pre-symptomatic (predictive) diagnosis</b> of late-onset disease (Huntington, familial cancers) and genetic counselling.</li>
+      <li><b>Understanding disease mechanisms</b> — once found, the gene's protein can be studied (e.g. CFTR as a chloride channel).</li>
+      <li><b>Gene therapy and drug design</b> — mapped and cloned genes are the raw material for gene therapy and recombinant drugs.</li>
+      <li><b>Pharmacogenomics</b> — mapping of drug-metabolising enzyme variants (e.g. cytochrome P450 polymorphisms) to personalise treatment.</li>
+      <li><b>Cancer genetics</b> — mapping of oncogenes and tumour suppressor genes; chromosomal translocations (Philadelphia chromosome t(9;22) in CML).</li>
+      <li><b>Forensic science and paternity testing</b> — mapped STR/VNTR loci used for DNA fingerprinting.</li>
+      <li><b>Evolution and population studies</b>, and in <b>agriculture</b> — marker-assisted breeding of disease-resistant crops and livestock.</li>
+    </ol>
+
+    <h4>Conclusion</h4>
+    <p>Gene mapping places genes on chromosomes, first approximately by recombination (linkage map, cM) and then precisely by physical methods ending in the DNA sequence. It made possible the discovery of disease genes, molecular diagnosis, genetic counselling and gene therapy.</p>
+  </div>
+
+  <div class="box understand"><span class="box-t">Understand it (plain English)</span> Think of two passengers sitting in a bus (a chromosome). At each meiosis the bus is "cut and re-joined" somewhere at random. Passengers sitting close together almost always stay in the same half; passengers at opposite ends are often separated. So by counting how often two genes get separated, you know how far apart they sit. Physical mapping is simply measuring the bus seat numbers directly.</div>
+  <div class="box mnemonic"><span class="box-t">Memory trick</span> Markers in order of history: <b>"R-V-S-S"</b> — RFLP, VNTR, STR, SNP. Physical methods: <b>"C-SoFiR-SS"</b> — Cytogenetic, Somatic cell hybrid, FISH, Restriction map, STS/contigs, Sequencing. "1% = 1 cM = 1 Mb".</div>
+  <div class="box exam-tip"><span class="box-t">How to write this in the exam</span> Definition → table genetic vs physical map → principle with the A–B–C diagram → methods (headings A and B) → applications (at least 7, with named gene examples) → conclusion. 25 minutes. Always mention the Human Genome Project.</div>
+  <div class="box pitfall"><span class="box-t">Mistakes that cost marks</span> Confusing gene mapping with DNA fingerprinting; saying recombination frequency can exceed 50% (maximum for unlinked genes is 50%); not giving the unit centiMorgan.</div>
+
+  <div class="selftest"><div class="st-t">Quick self-test — cover the right column</div>
+    <table><tr><th>Question</th><th>Answer</th></tr>
+      <tr><td>Unit of genetic map distance?</td><td class="ans">centiMorgan (1% recombination)</td></tr>
+      <tr><td>LOD score that proves linkage?</td><td class="ans">≥ 3 (1000 : 1 odds)</td></tr>
+      <tr><td>Who made the first linkage map?</td><td class="ans">Alfred Sturtevant, 1913 (Drosophila)</td></tr>
+      <tr><td>Technique using fluorescent probe on metaphase chromosomes?</td><td class="ans">FISH</td></tr>
+      <tr><td>First human disease gene mapped by RFLP linkage?</td><td class="ans">Huntington disease, chromosome 4 (1983)</td></tr>
+    </table></div>
+  <div class="related">Related: <a href="#q210">Q210 Principle and techniques of gene mapping</a> · <a href="#q220">Q220 Hybridization</a> · <a href="#q202">Q202 Forensic biochemistry</a></div>
+</section>
