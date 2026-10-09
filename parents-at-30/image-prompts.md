@@ -1,6 +1,6 @@
 # POV: You Still Live With Your Parents at 30 — Production Prompts (5-second beats)
 
-288 beats · 11 stages · ~24 min · ~5.0s per beat
+288 beats · 11 stages · ~25 min · ~5.3s per beat
 
 ## Step 1: Character prompts (generate these first)
 
@@ -117,7 +117,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Stage 1: The Rooftop
 *Age 30 · The secret in his pocket*
 
-### Beat 1 · 00:00 (~4.8s)
+### Beat 1 · 00:00 (~4.9s)
 
 **Characters:** The Protagonist
 
@@ -130,7 +130,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** stylish, quietly detached
 - **Action:** holding his drink, observing the party
 
-### Beat 2 · 00:04 (~5.6s)
+### Beat 2 · 00:04 (~7.2s)
 
 **Characters:** The Protagonist, Marcus
 
@@ -143,7 +143,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** celebratory, ironic
 - **Action:** glancing at the banner
 
-### Beat 3 · 00:10 (~5.2s)
+### Beat 3 · 00:12 (~6.0s)
 
 **Characters:** Marcus
 
@@ -156,7 +156,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** showy, affluent
 - **Action:** Marcus spreading his arms proudly
 
-### Beat 4 · 00:15 (~4.8s)
+### Beat 4 · 00:18 (~4.6s)
 
 **Characters:** The Protagonist
 
@@ -169,7 +169,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** knowing, private
 - **Action:** not reaching for the phone
 
-### Beat 5 · 00:20 (~5.6s)
+### Beat 5 · 00:22 (~7.2s)
 
 **Characters:** The Protagonist
 
@@ -182,7 +182,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** mysterious
 - **Action:** the notification hovering faintly
 
-### Beat 6 · 00:25 (~4.8s)
+### Beat 6 · 00:29 (~4.2s)
 
 **Characters:** The Protagonist, Marcus, Theo, Jenna, Priya
 
@@ -195,7 +195,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** familiar, nostalgic
 - **Action:** the friends clinking glasses
 
-### Beat 7 · 00:30 (~4.8s)
+### Beat 7 · 00:34 (~4.2s)
 
 **Characters:** Marcus
 
@@ -208,7 +208,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** flashy, careless
 - **Action:** adjusting his collar without noticing the tag
 
-### Beat 8 · 00:35 (~4.1s)
+### Beat 8 · 00:38 (~4.0s)
 
 **Characters:** Theo, Jenna
 
@@ -221,7 +221,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** settled, weary pride
 - **Action:** leaning into each other
 
-### Beat 9 · 00:39 (~4.1s)
+### Beat 9 · 00:42 (~3.7s)
 
 **Characters:** Theo, Jenna
 
@@ -234,7 +234,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** proud, slightly strained
 - **Action:** smiling politely
 
-### Beat 10 · 00:43 (~5.9s)
+### Beat 10 · 00:45 (~6.6s)
 
 **Characters:** The Protagonist, Priya
 
@@ -247,7 +247,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** observant, quiet
 - **Action:** watching silently
 
-### Beat 11 · 00:49 (~5.9s)
+### Beat 11 · 00:52 (~6.0s)
 
 **Characters:** Marcus
 
@@ -260,7 +260,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** triumphant, showy
 - **Action:** gesturing grandly
 
-### Beat 12 · 00:55 (~5.9s)
+### Beat 12 · 00:58 (~6.1s)
 
 **Characters:** Marcus, Theo, Jenna
 
@@ -273,7 +273,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** celebratory, self-congratulatory
 - **Action:** sweeping his glass across the room
 
-### Beat 13 · 01:01 (~4.8s)
+### Beat 13 · 01:04 (~4.4s)
 
 **Characters:** The Protagonist, Marcus
 
@@ -286,7 +286,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** awkward, subtle exclusion
 - **Action:** the glass pausing near him
 
-### Beat 14 · 01:06 (~5.6s)
+### Beat 14 · 01:08 (~5.9s)
 
 **Characters:** Marcus, The Waiter
 
@@ -299,7 +299,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** generous, showy
 - **Action:** Marcus waving off the bill
 
-### Beat 15 · 01:11 (~5.6s)
+### Beat 15 · 01:14 (~5.1s)
 
 **Characters:** The Protagonist, Marcus
 
@@ -312,7 +312,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** teasing, friendly
 - **Action:** throwing an arm around him
 
-### Beat 16 · 01:17 (~6.3s)
+### Beat 16 · 01:20 (~5.1s)
 
 **Characters:** The Protagonist
 
@@ -325,7 +325,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** embarrassing, nostalgic
 - **Action:** everyone imagining the bedroom
 
-### Beat 17 · 01:23 (~4.8s)
+### Beat 17 · 01:25 (~7.6s)
 
 **Characters:** The Protagonist
 
@@ -338,7 +338,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** light teasing, hidden sting
 - **Action:** everyone laughing
 
-### Beat 18 · 01:28 (~5.2s)
+### Beat 18 · 01:32 (~3.9s)
 
 **Characters:** The Protagonist, Jenna
 
@@ -351,7 +351,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** kind, pitying
 - **Action:** Jenna resting her hand on his arm
 
-### Beat 19 · 01:33 (~4.1s)
+### Beat 19 · 01:36 (~7.0s)
 
 **Characters:** The Protagonist, Jenna
 
@@ -364,7 +364,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** grateful, quiet
 - **Action:** nodding thanks
 
-### Beat 20 · 01:37 (~5.9s)
+### Beat 20 · 01:43 (~4.8s)
 
 **Characters:** The Protagonist
 
@@ -377,7 +377,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** ironic, intimate
 - **Action:** standing still at the railing
 
-### Beat 21 · 01:43 (~5.2s)
+### Beat 21 · 01:48 (~5.8s)
 
 **Characters:** The Protagonist, Marcus, Theo, Jenna, Priya
 
@@ -390,7 +390,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** secret wealth, quiet power
 - **Action:** gazing at the city
 
-### Beat 22 · 01:48 (~5.2s)
+### Beat 22 · 01:54 (~7.3s)
 
 **Characters:** The Protagonist, Marcus, Theo, Jenna, Priya
 
@@ -403,7 +403,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** secret, ironic
 - **Action:** friends laughing unaware
 
-### Beat 23 · 01:54 (~5.2s)
+### Beat 23 · 02:01 (~6.1s)
 
 **Characters:** The Protagonist
 
@@ -416,7 +416,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** introspective, revealing
 - **Action:** standing still in the spotlight
 
-### Beat 24 · 01:59 (~6.3s)
+### Beat 24 · 02:07 (~5.7s)
 
 **Characters:** The Protagonist, Marcus, Theo, Jenna, Priya
 
@@ -429,7 +429,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** weary, repetitive
 - **Action:** raising his hand apologetically
 
-### Beat 25 · 02:05 (~4.1s)
+### Beat 25 · 02:13 (~3.7s)
 
 **Characters:** The Protagonist, Marcus, Theo, Jenna, Priya
 
@@ -442,7 +442,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** misjudged
 - **Action:** sitting calmly on the stool
 
-### Beat 26 · 02:09 (~4.1s)
+### Beat 26 · 02:17 (~3.5s)
 
 **Characters:** The Protagonist, Marcus, Theo, Jenna, Priya
 
@@ -455,7 +455,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** revealing, ironic
 - **Action:** the protagonist standing apart
 
-### Beat 27 · 02:13 (~3.3s)
+### Beat 27 · 02:20 (~4.0s)
 
 **Characters:** The Protagonist
 
@@ -471,7 +471,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Stage 2: The Driveway and the Rule
 *Age 22 · Four boxes and one decision*
 
-### Beat 28 · 02:17 (~3.7s)
+### Beat 28 · 02:24 (~4.6s)
 
 **Characters:** The Protagonist (younger)
 
@@ -484,7 +484,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** tired beginnings
 - **Action:** standing in the driveway
 
-### Beat 29 · 02:20 (~4.4s)
+### Beat 29 · 02:29 (~5.1s)
 
 **Characters:** None (environment or insert shot)
 
@@ -497,7 +497,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** sparse, humble
 - **Action:** boxes sitting on the concrete
 
-### Beat 30 · 02:25 (~3.7s)
+### Beat 30 · 02:34 (~5.1s)
 
 **Characters:** The Protagonist (younger)
 
@@ -510,7 +510,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** modest achievement
 - **Action:** holding up the papers
 
-### Beat 31 · 02:28 (~4.8s)
+### Beat 31 · 02:39 (~6.9s)
 
 **Characters:** None (environment or insert shot)
 
@@ -523,7 +523,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** heavy, sobering
 - **Action:** the numbers glowing on screen
 
-### Beat 32 · 02:33 (~5.2s)
+### Beat 32 · 02:46 (~5.9s)
 
 **Characters:** None (environment or insert shot)
 
@@ -536,7 +536,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** bleak
 - **Action:** the bar sitting below the line
 
-### Beat 33 · 02:38 (~3.7s)
+### Beat 33 · 02:52 (~4.1s)
 
 **Characters:** The Protagonist (younger)
 
@@ -549,7 +549,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** reassuring, unconvincing
 - **Action:** talking on the phone
 
-### Beat 34 · 02:42 (~4.4s)
+### Beat 34 · 02:56 (~4.2s)
 
 **Characters:** Mother
 
@@ -562,7 +562,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** caring, nostalgic
 - **Action:** his mother smoothing the comforter
 
-### Beat 35 · 02:47 (~5.6s)
+### Beat 35 · 03:00 (~6.0s)
 
 **Characters:** None (environment or insert shot)
 
@@ -575,7 +575,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** nostalgic, small
 - **Action:** the stars on the ceiling
 
-### Beat 36 · 02:52 (~4.1s)
+### Beat 36 · 03:06 (~3.8s)
 
 **Characters:** The Protagonist (younger)
 
@@ -588,7 +588,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** quiet, nostalgic
 - **Action:** the lamp clicking off
 
-### Beat 37 · 02:56 (~6.3s)
+### Beat 37 · 03:10 (~5.4s)
 
 **Characters:** None (environment or insert shot)
 
@@ -601,7 +601,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** homey, symbolic
 - **Action:** the key hanging on the hook
 
-### Beat 38 · 03:02 (~5.9s)
+### Beat 38 · 03:15 (~5.3s)
 
 **Characters:** The Protagonist (younger), Mother
 
@@ -614,7 +614,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** warm, matter-of-fact
 - **Action:** placing the key in his hand
 
-### Beat 39 · 03:08 (~4.8s)
+### Beat 39 · 03:20 (~4.2s)
 
 **Characters:** The Protagonist (younger)
 
@@ -627,7 +627,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** curious, wistful
 - **Action:** scrolling the app
 
-### Beat 40 · 03:13 (~5.2s)
+### Beat 40 · 03:25 (~9.8s)
 
 **Characters:** None (environment or insert shot)
 
@@ -640,7 +640,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** tempting
 - **Action:** the listing on screen
 
-### Beat 41 · 03:18 (~6.3s)
+### Beat 41 · 03:34 (~6.1s)
 
 **Characters:** None (environment or insert shot)
 
@@ -653,7 +653,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** sobering
 - **Action:** the total glowing
 
-### Beat 42 · 03:25 (~5.9s)
+### Beat 42 · 03:41 (~7.0s)
 
 **Characters:** The Protagonist (younger)
 
@@ -666,7 +666,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** quiet decision
 - **Action:** his eyes narrowing in thought
 
-### Beat 43 · 03:31 (~5.9s)
+### Beat 43 · 03:48 (~6.4s)
 
 **Characters:** The Protagonist (younger)
 
@@ -679,7 +679,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** parallel, deliberate
 - **Action:** dropping money into the jar
 
-### Beat 44 · 03:37 (~3.7s)
+### Beat 44 · 03:54 (~4.5s)
 
 **Characters:** The Protagonist (younger), Mother, Father
 
@@ -692,7 +692,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** warm, stubborn
 - **Action:** his parents refusing
 
-### Beat 45 · 03:40 (~5.9s)
+### Beat 45 · 03:59 (~5.7s)
 
 **Characters:** Mother
 
@@ -705,7 +705,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** loving resistance
 - **Action:** sliding the envelope back
 
-### Beat 46 · 03:46 (~5.2s)
+### Beat 46 · 04:04 (~4.4s)
 
 **Characters:** Mother
 
@@ -718,7 +718,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** reluctant, unfinished
 - **Action:** lifting the envelope
 
-### Beat 47 · 03:51 (~5.9s)
+### Beat 47 · 04:09 (~8.5s)
 
 **Characters:** None (environment or insert shot)
 
@@ -731,7 +731,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** automatic, quiet
 - **Action:** the notification lighting up
 
-### Beat 48 · 03:57 (~5.6s)
+### Beat 48 · 04:17 (~6.5s)
 
 **Characters:** The Protagonist (younger)
 
@@ -744,7 +744,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** simple, firm
 - **Action:** looking at the note
 
-### Beat 49 · 04:03 (~6.3s)
+### Beat 49 · 04:24 (~5.0s)
 
 **Characters:** The Protagonist (younger)
 
@@ -757,7 +757,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** awkward, unexplainable
 - **Action:** trying to find words
 
-### Beat 50 · 04:09 (~5.2s)
+### Beat 50 · 04:29 (~6.4s)
 
 **Characters:** Marcus, Theo, Jenna, Priya
 
@@ -770,7 +770,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** dismissive
 - **Action:** the bubble shrinking
 
-### Beat 51 · 04:14 (~6.3s)
+### Beat 51 · 04:35 (~5.7s)
 
 **Characters:** The Protagonist (younger), Father
 
@@ -783,7 +783,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** ordinary, quiet
 - **Action:** his father sipping coffee
 
-### Beat 52 · 04:21 (~5.6s)
+### Beat 52 · 04:41 (~5.2s)
 
 **Characters:** The Protagonist (younger), Father
 
@@ -796,7 +796,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** frugal, observed
 - **Action:** snapping the lid shut
 
-### Beat 53 · 04:26 (~4.8s)
+### Beat 53 · 04:46 (~5.3s)
 
 **Characters:** Father
 
@@ -809,7 +809,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** curious, protective
 - **Action:** lowering the paper
 
-### Beat 54 · 04:31 (~6.3s)
+### Beat 54 · 04:51 (~5.1s)
 
 **Characters:** Father
 
@@ -822,7 +822,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** puzzled
 - **Action:** thinking
 
-### Beat 55 · 04:37 (~5.9s)
+### Beat 55 · 04:56 (~8.1s)
 
 **Characters:** Father
 
@@ -838,7 +838,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Stage 3: "So When Are You Moving Out?"
 *Age 22–23 · The question that never stops*
 
-### Beat 56 · 04:43 (~4.8s)
+### Beat 56 · 05:04 (~5.6s)
 
 **Characters:** Marcus
 
@@ -851,7 +851,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** trendy, social
 - **Action:** Marcus welcoming guests
 
-### Beat 57 · 04:48 (~5.2s)
+### Beat 57 · 05:10 (~6.3s)
 
 **Characters:** None (environment or insert shot)
 
@@ -864,7 +864,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** ironic, stylish
 - **Action:** guests stepping onto the balcony
 
-### Beat 58 · 04:53 (~4.4s)
+### Beat 58 · 05:16 (~5.7s)
 
 **Characters:** None (environment or insert shot)
 
@@ -877,7 +877,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** proud, competitive
 - **Action:** glasses raising
 
-### Beat 59 · 04:58 (~4.4s)
+### Beat 59 · 05:22 (~4.2s)
 
 **Characters:** The Protagonist (younger)
 
@@ -890,7 +890,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** expectant
 - **Action:** heads turning
 
-### Beat 60 · 05:02 (~5.6s)
+### Beat 60 · 05:26 (~5.8s)
 
 **Characters:** Marcus, Theo, Jenna, Priya
 
@@ -903,7 +903,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** awkward, careful
 - **Action:** everyone going still
 
-### Beat 61 · 05:08 (~5.9s)
+### Beat 61 · 05:32 (~6.0s)
 
 **Characters:** Marcus, Theo, Jenna, Priya
 
@@ -916,7 +916,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** careful, avoidant
 - **Action:** tiptoeing
 
-### Beat 62 · 05:14 (~5.6s)
+### Beat 62 · 05:38 (~7.7s)
 
 **Characters:** Theo
 
@@ -929,7 +929,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** innocent curiosity
 - **Action:** asking the question
 
-### Beat 63 · 05:19 (~5.9s)
+### Beat 63 · 05:46 (~8.2s)
 
 **Characters:** The Protagonist (younger), Marcus, Theo, Jenna, Priya
 
@@ -942,7 +942,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** brushed off
 - **Action:** the conversation moving on
 
-### Beat 64 · 05:25 (~5.2s)
+### Beat 64 · 05:54 (~5.5s)
 
 **Characters:** The Protagonist (younger)
 
@@ -955,7 +955,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** judgmental
 - **Action:** relatives leaning in
 
-### Beat 65 · 05:30 (~4.4s)
+### Beat 65 · 06:00 (~3.8s)
 
 **Characters:** The Protagonist (younger), Aunt Denise
 
@@ -968,7 +968,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** nosy, sugary
 - **Action:** setting down the dish
 
-### Beat 66 · 05:35 (~5.2s)
+### Beat 66 · 06:03 (~4.8s)
 
 **Characters:** Aunt Denise
 
@@ -981,7 +981,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** prying
 - **Action:** asking
 
-### Beat 67 · 05:40 (~5.6s)
+### Beat 67 · 06:08 (~5.7s)
 
 **Characters:** Cousin Kyle
 
@@ -994,7 +994,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** shifting, judgmental
 - **Action:** glances traded
 
-### Beat 68 · 05:45 (~4.1s)
+### Beat 68 · 06:14 (~5.7s)
 
 **Characters:** Cousin Kyle
 
@@ -1007,7 +1007,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** showy, financed
 - **Action:** showing the photo
 
-### Beat 69 · 05:49 (~5.6s)
+### Beat 69 · 06:20 (~5.0s)
 
 **Characters:** Cousin Kyle
 
@@ -1020,7 +1020,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** boastful
 - **Action:** raising the key fob
 
-### Beat 70 · 05:55 (~5.9s)
+### Beat 70 · 06:25 (~4.5s)
 
 **Characters:** The Protagonist (younger), The Uncle
 
@@ -1033,7 +1033,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** withheld approval
 - **Action:** the hand not coming
 
-### Beat 71 · 06:01 (~5.9s)
+### Beat 71 · 06:29 (~7.4s)
 
 **Characters:** The Protagonist (younger)
 
@@ -1046,7 +1046,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** dismissed
 - **Action:** passing the rolls
 
-### Beat 72 · 06:07 (~5.6s)
+### Beat 72 · 06:36 (~5.8s)
 
 **Characters:** The Protagonist (younger), Cousin Kyle
 
@@ -1059,7 +1059,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** ignored
 - **Action:** eating silently
 
-### Beat 73 · 06:12 (~4.1s)
+### Beat 73 · 06:42 (~5.9s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1072,7 +1072,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** focused, erasing
 - **Action:** the bar shrinking
 
-### Beat 74 · 06:17 (~4.8s)
+### Beat 74 · 06:48 (~10.0s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1085,7 +1085,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** steady progress
 - **Action:** statements laid out
 
-### Beat 75 · 06:21 (~6.3s)
+### Beat 75 · 06:58 (~5.8s)
 
 **Characters:** The Protagonist (younger)
 
@@ -1098,7 +1098,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** quiet triumph
 - **Action:** the engine off
 
-### Beat 76 · 06:28 (~4.8s)
+### Beat 76 · 07:04 (~4.7s)
 
 **Characters:** The Protagonist (younger)
 
@@ -1111,7 +1111,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** quiet triumph
 - **Action:** the engine off
 
-### Beat 77 · 06:32 (~5.6s)
+### Beat 77 · 07:09 (~5.9s)
 
 **Characters:** The Protagonist (younger)
 
@@ -1124,7 +1124,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** humble, ordinary
 - **Action:** eating quietly
 
-### Beat 78 · 06:38 (~4.4s)
+### Beat 78 · 07:14 (~5.0s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1137,7 +1137,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** new beginning
 - **Action:** the transfer going through
 
-### Beat 79 · 06:42 (~4.4s)
+### Beat 79 · 07:20 (~4.9s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1153,7 +1153,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Stage 4: The Invisible Years
 *Age 23–24 · Everyone else's life, in pictures*
 
-### Beat 80 · 06:47 (~4.4s)
+### Beat 80 · 07:24 (~3.3s)
 
 **Characters:** The Protagonist (younger)
 
@@ -1166,7 +1166,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** stuck, doubtful
 - **Action:** standing still
 
-### Beat 81 · 06:51 (~3.7s)
+### Beat 81 · 07:28 (~5.2s)
 
 **Characters:** The Protagonist (younger), Marcus, Theo, Jenna, Priya
 
@@ -1179,7 +1179,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** envious, public
 - **Action:** scrolling the feed
 
-### Beat 82 · 06:55 (~3.7s)
+### Beat 82 · 07:33 (~4.5s)
 
 **Characters:** Theo, Jenna
 
@@ -1192,7 +1192,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** proud, milestone
 - **Action:** holding up the sign
 
-### Beat 83 · 06:59 (~5.6s)
+### Beat 83 · 07:37 (~4.7s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1205,7 +1205,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** foreshadowing
 - **Action:** rain pooling in the yard
 
-### Beat 84 · 07:04 (~3.7s)
+### Beat 84 · 07:42 (~3.9s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1218,7 +1218,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** cheerful, domestic
 - **Action:** new photos popping in
 
-### Beat 85 · 07:08 (~4.8s)
+### Beat 85 · 07:46 (~4.5s)
 
 **Characters:** Jenna
 
@@ -1231,7 +1231,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** celebratory
 - **Action:** the key photo appearing
 
-### Beat 86 · 07:13 (~4.4s)
+### Beat 86 · 07:50 (~6.9s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1244,7 +1244,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** validating, social
 - **Action:** hearts piling up
 
-### Beat 87 · 07:17 (~5.9s)
+### Beat 87 · 07:57 (~6.7s)
 
 **Characters:** Marcus
 
@@ -1257,7 +1257,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** status, expensive
 - **Action:** the doorman tipping his hat
 
-### Beat 88 · 07:23 (~5.9s)
+### Beat 88 · 08:04 (~6.1s)
 
 **Characters:** Marcus, Theo, Jenna, Priya
 
@@ -1270,7 +1270,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** braggy
 - **Action:** tapping his watch
 
-### Beat 89 · 07:29 (~5.6s)
+### Beat 89 · 08:10 (~5.5s)
 
 **Characters:** The Protagonist (younger)
 
@@ -1283,7 +1283,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** invisible
 - **Action:** the cursor blinking
 
-### Beat 90 · 07:35 (~4.1s)
+### Beat 90 · 08:16 (~4.8s)
 
 **Characters:** The Protagonist (younger), Alana
 
@@ -1296,7 +1296,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** hopeful
 - **Action:** both smiling over menus
 
-### Beat 91 · 07:39 (~4.8s)
+### Beat 91 · 08:20 (~4.4s)
 
 **Characters:** The Protagonist (younger), Alana
 
@@ -1309,7 +1309,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** easy chemistry
 - **Action:** laughing together
 
-### Beat 92 · 07:44 (~4.8s)
+### Beat 92 · 08:25 (~4.4s)
 
 **Characters:** The Protagonist (younger), Alana
 
@@ -1322,7 +1322,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** honest, risky
 - **Action:** talking over dinner
 
-### Beat 93 · 07:48 (~5.6s)
+### Beat 93 · 08:29 (~6.9s)
 
 **Characters:** Alana
 
@@ -1335,7 +1335,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** cooling
 - **Action:** her smile stiffening
 
-### Beat 94 · 07:54 (~5.2s)
+### Beat 94 · 08:36 (~4.7s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1348,7 +1348,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** soft finality
 - **Action:** the door clicking shut
 
-### Beat 95 · 07:59 (~5.6s)
+### Beat 95 · 08:41 (~4.8s)
 
 **Characters:** The Protagonist (younger), Alana
 
@@ -1361,7 +1361,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** efficient, distant
 - **Action:** her card going in first
 
-### Beat 96 · 08:05 (~5.6s)
+### Beat 96 · 08:46 (~6.0s)
 
 **Characters:** The Protagonist (younger), Alana
 
@@ -1374,7 +1374,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** final, lonely
 - **Action:** Alana walking away
 
-### Beat 97 · 08:10 (~4.4s)
+### Beat 97 · 08:52 (~3.7s)
 
 **Characters:** The Protagonist (younger), Mother, Father
 
@@ -1387,7 +1387,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** routine, quiet
 - **Action:** the car pulling in
 
-### Beat 98 · 08:15 (~5.9s)
+### Beat 98 · 08:55 (~6.5s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1400,7 +1400,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** welcoming, steady
 - **Action:** the porch light shining
 
-### Beat 99 · 08:21 (~5.9s)
+### Beat 99 · 09:02 (~11.3s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1413,7 +1413,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** growing quietly
 - **Action:** the numbers rising
 
-### Beat 100 · 08:27 (~5.2s)
+### Beat 100 · 09:13 (~4.2s)
 
 **Characters:** The Protagonist (younger)
 
@@ -1426,7 +1426,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** routine, unremarkable
 - **Action:** tapping and returning to work
 
-### Beat 101 · 08:32 (~6.3s)
+### Beat 101 · 09:17 (~6.4s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1439,7 +1439,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** everyday, comparative
 - **Action:** coworkers talking
 
-### Beat 102 · 08:38 (~5.9s)
+### Beat 102 · 09:24 (~9.6s)
 
 **Characters:** The Coworker
 
@@ -1452,7 +1452,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** excited
 - **Action:** holding up the listing
 
-### Beat 103 · 08:44 (~5.6s)
+### Beat 103 · 09:33 (~4.8s)
 
 **Characters:** Greg
 
@@ -1465,7 +1465,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** wholesome, suburban
 - **Action:** Greg chuckling
 
-### Beat 104 · 08:50 (~3.3s)
+### Beat 104 · 09:38 (~3.0s)
 
 **Characters:** The Protagonist (younger), Greg
 
@@ -1478,7 +1478,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** curious
 - **Action:** leaning toward him
 
-### Beat 105 · 08:53 (~4.8s)
+### Beat 105 · 09:41 (~4.4s)
 
 **Characters:** The Protagonist (younger), Greg
 
@@ -1491,7 +1491,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** polite pity
 - **Action:** nodding
 
-### Beat 106 · 08:58 (~5.6s)
+### Beat 106 · 09:45 (~4.6s)
 
 **Characters:** Greg
 
@@ -1504,7 +1504,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** rewarding
 - **Action:** handing the paper
 
-### Beat 107 · 09:03 (~4.4s)
+### Beat 107 · 09:50 (~4.1s)
 
 **Characters:** Greg
 
@@ -1517,7 +1517,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** kind, assuming
 - **Action:** leaning in
 
-### Beat 108 · 09:08 (~3.7s)
+### Beat 108 · 09:54 (~3.5s)
 
 **Characters:** The Protagonist (younger), Greg
 
@@ -1530,7 +1530,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** well-meaning
 - **Action:** the shoulder pat
 
-### Beat 109 · 09:11 (~4.8s)
+### Beat 109 · 09:58 (~4.5s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1546,7 +1546,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Stage 5: The Loft and the Mortgage
 *Age 25 · The pen, the envelope, the $800*
 
-### Beat 110 · 09:16 (~4.4s)
+### Beat 110 · 10:02 (~4.9s)
 
 **Characters:** The Protagonist
 
@@ -1559,7 +1559,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** foreshadowing
 - **Action:** looking up
 
-### Beat 111 · 09:21 (~4.8s)
+### Beat 111 · 10:07 (~6.1s)
 
 **Characters:** The Protagonist
 
@@ -1572,7 +1572,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** weary
 - **Action:** walking toward the building
 
-### Beat 112 · 09:25 (~4.4s)
+### Beat 112 · 10:13 (~4.9s)
 
 **Characters:** The Protagonist
 
@@ -1585,7 +1585,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** aspirational
 - **Action:** looking around
 
-### Beat 113 · 09:30 (~5.6s)
+### Beat 113 · 10:18 (~4.6s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1598,7 +1598,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** tempting, hollow
 - **Action:** the empty shelf
 
-### Beat 114 · 09:35 (~4.8s)
+### Beat 114 · 10:23 (~6.8s)
 
 **Characters:** The Protagonist
 
@@ -1611,7 +1611,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** conflicted
 - **Action:** weighing the papers
 
-### Beat 115 · 09:40 (~3.7s)
+### Beat 115 · 10:29 (~4.5s)
 
 **Characters:** The Protagonist, The Leasing Agent
 
@@ -1624,7 +1624,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** professional, persuasive
 - **Action:** the agent greeting him
 
-### Beat 116 · 09:44 (~4.1s)
+### Beat 116 · 10:34 (~3.7s)
 
 **Characters:** The Leasing Agent
 
@@ -1637,7 +1637,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** polished, persuasive
 - **Action:** presenting the brochure
 
-### Beat 117 · 09:48 (~5.9s)
+### Beat 117 · 10:38 (~4.5s)
 
 **Characters:** The Leasing Agent
 
@@ -1650,7 +1650,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** decisive
 - **Action:** the lease sliding forward
 
-### Beat 118 · 09:54 (~4.8s)
+### Beat 118 · 10:42 (~4.9s)
 
 **Characters:** The Protagonist
 
@@ -1663,7 +1663,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** tempted
 - **Action:** lifting the pen
 
-### Beat 119 · 09:59 (~6.3s)
+### Beat 119 · 10:47 (~5.5s)
 
 **Characters:** The Protagonist, The Leasing Agent
 
@@ -1676,7 +1676,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** tense, hesitant
 - **Action:** hovering the pen
 
-### Beat 120 · 10:05 (~5.9s)
+### Beat 120 · 10:53 (~6.2s)
 
 **Characters:** The Protagonist, The Leasing Agent
 
@@ -1689,7 +1689,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** pressure resisted
 - **Action:** standing up
 
-### Beat 121 · 10:11 (~5.2s)
+### Beat 121 · 10:59 (~5.5s)
 
 **Characters:** Marcus
 
@@ -1702,7 +1702,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** envious
 - **Action:** the photo appearing
 
-### Beat 122 · 10:16 (~4.8s)
+### Beat 122 · 11:04 (~5.2s)
 
 **Characters:** The Protagonist
 
@@ -1715,7 +1715,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** lonely, reflective
 - **Action:** lying still
 
-### Beat 123 · 10:21 (~5.9s)
+### Beat 123 · 11:10 (~6.2s)
 
 **Characters:** The Protagonist
 
@@ -1728,7 +1728,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** avoidant, uncertain
 - **Action:** pulling the blanket up
 
-### Beat 124 · 10:27 (~5.9s)
+### Beat 124 · 11:16 (~6.8s)
 
 **Characters:** The Protagonist, Priya
 
@@ -1741,7 +1741,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** observant, caring
 - **Action:** watching quietly
 
-### Beat 125 · 10:33 (~4.4s)
+### Beat 125 · 11:23 (~3.4s)
 
 **Characters:** The Protagonist, Priya
 
@@ -1754,7 +1754,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** frugal, noticed
 - **Action:** holding the water glass
 
-### Beat 126 · 10:37 (~5.2s)
+### Beat 126 · 11:26 (~5.2s)
 
 **Characters:** The Protagonist, Marcus, Theo, Jenna, Priya
 
@@ -1767,7 +1767,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** contrast
 - **Action:** glasses being refilled
 
-### Beat 127 · 10:42 (~5.9s)
+### Beat 127 · 11:31 (~4.7s)
 
 **Characters:** Priya
 
@@ -1780,7 +1780,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** quiet kindness
 - **Action:** sliding the fries
 
-### Beat 128 · 10:48 (~5.2s)
+### Beat 128 · 11:36 (~5.1s)
 
 **Characters:** The Protagonist, Priya
 
@@ -1793,7 +1793,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** concerned
 - **Action:** leaning against the car
 
-### Beat 129 · 10:54 (~4.8s)
+### Beat 129 · 11:41 (~4.5s)
 
 **Characters:** The Protagonist, Priya
 
@@ -1806,7 +1806,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** honest concern
 - **Action:** shrugging
 
-### Beat 130 · 10:58 (~3.7s)
+### Beat 130 · 11:45 (~3.5s)
 
 **Characters:** The Protagonist, Priya
 
@@ -1819,7 +1819,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** skeptical, kind
 - **Action:** looking at the car
 
-### Beat 131 · 11:02 (~5.2s)
+### Beat 131 · 11:49 (~5.4s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1832,7 +1832,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** memorable, quiet
 - **Action:** the lot sitting empty
 
-### Beat 132 · 11:07 (~4.8s)
+### Beat 132 · 11:54 (~6.0s)
 
 **Characters:** Father
 
@@ -1845,7 +1845,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** worried pride
 - **Action:** staring at the schedule
 
-### Beat 133 · 11:12 (~5.2s)
+### Beat 133 · 12:00 (~5.5s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1858,7 +1858,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** financial strain
 - **Action:** the red marks
 
-### Beat 134 · 11:17 (~4.8s)
+### Beat 134 · 12:06 (~4.2s)
 
 **Characters:** The Protagonist
 
@@ -1871,7 +1871,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** discovery
 - **Action:** lifting the envelope
 
-### Beat 135 · 11:22 (~6.3s)
+### Beat 135 · 12:10 (~9.7s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1884,7 +1884,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** heavy
 - **Action:** the creases visible
 
-### Beat 136 · 11:28 (~5.9s)
+### Beat 136 · 12:20 (~7.8s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1897,7 +1897,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** generous, silent
 - **Action:** the number changing
 
-### Beat 137 · 11:34 (~4.8s)
+### Beat 137 · 12:28 (~3.5s)
 
 **Characters:** The Protagonist, Mother
 
@@ -1910,7 +1910,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** playful excuse
 - **Action:** handing the envelope
 
-### Beat 138 · 11:39 (~3.7s)
+### Beat 138 · 12:31 (~4.0s)
 
 **Characters:** The Protagonist, Mother
 
@@ -1923,7 +1923,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** understanding
 - **Action:** accepting the envelope
 
-### Beat 139 · 11:43 (~4.4s)
+### Beat 139 · 12:35 (~4.8s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1936,7 +1936,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** redirected
 - **Action:** the envelope bypassing the groceries
 
-### Beat 140 · 11:47 (~5.6s)
+### Beat 140 · 12:40 (~4.9s)
 
 **Characters:** Mother
 
@@ -1949,7 +1949,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** secret devotion
 - **Action:** writing on the slip
 
-### Beat 141 · 11:53 (~4.4s)
+### Beat 141 · 12:45 (~4.3s)
 
 **Characters:** The Protagonist
 
@@ -1962,7 +1962,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** unsatisfied
 - **Action:** staring at the calendar
 
-### Beat 142 · 11:57 (~4.8s)
+### Beat 142 · 12:49 (~4.3s)
 
 **Characters:** The Protagonist, Marcus, Theo, Jenna, Priya
 
@@ -1975,7 +1975,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** left behind
 - **Action:** scrolling his phone
 
-### Beat 143 · 12:02 (~5.2s)
+### Beat 143 · 12:53 (~6.0s)
 
 **Characters:** The Protagonist, Marcus, Theo, Jenna, Priya
 
@@ -1991,7 +1991,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Stage 6: The Crash
 *Age 26 · When fear doesn't get a vote*
 
-### Beat 144 · 12:07 (~4.8s)
+### Beat 144 · 12:59 (~5.4s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2004,7 +2004,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** alarming
 - **Action:** the line falling
 
-### Beat 145 · 12:12 (~4.4s)
+### Beat 145 · 13:05 (~3.6s)
 
 **Characters:** Mother, Father
 
@@ -2017,7 +2017,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** anxious
 - **Action:** the news playing
 
-### Beat 146 · 12:17 (~4.8s)
+### Beat 146 · 13:08 (~4.3s)
 
 **Characters:** The Protagonist, Father
 
@@ -2030,7 +2030,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** grim
 - **Action:** shaking his head
 
-### Beat 147 · 12:21 (~5.9s)
+### Beat 147 · 13:13 (~6.1s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2043,7 +2043,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** panicked
 - **Action:** pointing at the screen
 
-### Beat 148 · 12:27 (~3.3s)
+### Beat 148 · 13:19 (~3.0s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2056,7 +2056,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** grave
 - **Action:** whispering
 
-### Beat 149 · 12:31 (~5.6s)
+### Beat 149 · 13:22 (~5.6s)
 
 **Characters:** The Coworker
 
@@ -2069,7 +2069,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** defeated
 - **Action:** walking out
 
-### Beat 150 · 12:36 (~5.2s)
+### Beat 150 · 13:28 (~4.7s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2082,7 +2082,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** painful, stark
 - **Action:** the number falling
 
-### Beat 151 · 12:41 (~5.2s)
+### Beat 151 · 13:32 (~9.3s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2095,7 +2095,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** painful, stark
 - **Action:** the number falling
 
-### Beat 152 · 12:47 (~4.4s)
+### Beat 152 · 13:41 (~4.5s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2108,7 +2108,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** frustrating
 - **Action:** the chart ending lower
 
-### Beat 153 · 12:51 (~5.2s)
+### Beat 153 · 13:46 (~6.3s)
 
 **Characters:** Marcus, Theo, Jenna
 
@@ -2121,7 +2121,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** stable for others
 - **Action:** both scenes calm
 
-### Beat 154 · 12:56 (~4.1s)
+### Beat 154 · 13:52 (~4.8s)
 
 **Characters:** The Protagonist
 
@@ -2134,7 +2134,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** tempted
 - **Action:** hovering
 
-### Beat 155 · 13:00 (~4.4s)
+### Beat 155 · 13:57 (~4.4s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2147,7 +2147,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** automated discipline
 - **Action:** the setting locked in
 
-### Beat 156 · 13:05 (~5.2s)
+### Beat 156 · 14:01 (~4.8s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2160,7 +2160,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** opportunity
 - **Action:** shares going into the cart
 
-### Beat 157 · 13:10 (~4.1s)
+### Beat 157 · 14:06 (~3.8s)
 
 **Characters:** The Protagonist
 
@@ -2173,7 +2173,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** discouraged
 - **Action:** staring blankly
 
-### Beat 158 · 13:14 (~5.6s)
+### Beat 158 · 14:10 (~6.3s)
 
 **Characters:** The Protagonist
 
@@ -2186,7 +2186,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** steady, lonely
 - **Action:** pointing at each star
 
-### Beat 159 · 13:20 (~5.2s)
+### Beat 159 · 14:16 (~5.3s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2199,7 +2199,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** constant
 - **Action:** the stars glowing
 
-### Beat 160 · 13:25 (~6.3s)
+### Beat 160 · 14:22 (~5.5s)
 
 **Characters:** The Protagonist
 
@@ -2212,7 +2212,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** nostalgic, noticed
 - **Action:** the lanyard hanging out
 
-### Beat 161 · 13:31 (~4.1s)
+### Beat 161 · 14:27 (~3.9s)
 
 **Characters:** Marcus
 
@@ -2225,7 +2225,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** teasing
 - **Action:** laughing
 
-### Beat 162 · 13:35 (~5.2s)
+### Beat 162 · 14:31 (~4.3s)
 
 **Characters:** Marcus
 
@@ -2238,7 +2238,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** flashy, condescending
 - **Action:** offering the key ring
 
-### Beat 163 · 13:40 (~4.4s)
+### Beat 163 · 14:35 (~5.1s)
 
 **Characters:** The Protagonist
 
@@ -2251,7 +2251,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** stressful
 - **Action:** smoke rising from the hood
 
-### Beat 164 · 13:45 (~4.4s)
+### Beat 164 · 14:40 (~5.1s)
 
 **Characters:** The Protagonist
 
@@ -2264,7 +2264,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** daunting
 - **Action:** holding the estimate
 
-### Beat 165 · 13:49 (~6.3s)
+### Beat 165 · 14:45 (~5.5s)
 
 **Characters:** The Protagonist
 
@@ -2277,7 +2277,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** steady
 - **Action:** standing at the counter
 
-### Beat 166 · 13:55 (~5.9s)
+### Beat 166 · 14:51 (~5.4s)
 
 **Characters:** The Mechanic
 
@@ -2290,7 +2290,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** curious
 - **Action:** wiping his hands
 
-### Beat 167 · 14:01 (~5.2s)
+### Beat 167 · 14:56 (~5.4s)
 
 **Characters:** The Protagonist, The Mechanic
 
@@ -2303,7 +2303,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** respectful
 - **Action:** raising an eyebrow
 
-### Beat 168 · 14:07 (~4.8s)
+### Beat 168 · 15:02 (~4.7s)
 
 **Characters:** The Protagonist
 
@@ -2316,7 +2316,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** surprised calm
 - **Action:** stopping mid-step
 
-### Beat 169 · 14:11 (~3.7s)
+### Beat 169 · 15:06 (~3.7s)
 
 **Characters:** The Protagonist
 
@@ -2329,7 +2329,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** freed
 - **Action:** standing still
 
-### Beat 170 · 14:15 (~4.8s)
+### Beat 170 · 15:10 (~5.4s)
 
 **Characters:** The Protagonist
 
@@ -2342,7 +2342,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** quiet transformation
 - **Action:** the ghost fading
 
-### Beat 171 · 14:20 (~4.4s)
+### Beat 171 · 15:16 (~3.6s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2355,7 +2355,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** growth
 - **Action:** plants sprouting
 
-### Beat 172 · 14:24 (~4.4s)
+### Beat 172 · 15:19 (~6.4s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2368,7 +2368,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** rewarding
 - **Action:** the number climbing
 
-### Beat 173 · 14:29 (~5.6s)
+### Beat 173 · 15:26 (~7.9s)
 
 **Characters:** The Protagonist
 
@@ -2384,7 +2384,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Stage 7: The Reversal
 *Age 27 · Lives that have to be fed*
 
-### Beat 174 · 14:34 (~3.7s)
+### Beat 174 · 15:33 (~6.4s)
 
 **Characters:** The Protagonist, Marcus, Theo, Jenna, Priya
 
@@ -2397,7 +2397,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** turning point
 - **Action:** the seesaw tipping
 
-### Beat 175 · 14:38 (~4.4s)
+### Beat 175 · 15:40 (~6.3s)
 
 **Characters:** Theo, Jenna
 
@@ -2410,7 +2410,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** stressed
 - **Action:** holding the letter
 
-### Beat 176 · 14:42 (~4.8s)
+### Beat 176 · 15:46 (~4.8s)
 
 **Characters:** Cousin Kyle
 
@@ -2423,7 +2423,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** ironic parallel
 - **Action:** both numbers matching
 
-### Beat 177 · 14:47 (~5.2s)
+### Beat 177 · 15:51 (~6.2s)
 
 **Characters:** Theo, Jenna
 
@@ -2436,7 +2436,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** disaster
 - **Action:** water rising
 
-### Beat 178 · 14:52 (~4.4s)
+### Beat 178 · 15:57 (~4.5s)
 
 **Characters:** Theo, Jenna
 
@@ -2449,7 +2449,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** strained
 - **Action:** Jenna forcing a laugh
 
-### Beat 179 · 14:57 (~5.9s)
+### Beat 179 · 16:02 (~5.4s)
 
 **Characters:** Theo, Jenna
 
@@ -2462,7 +2462,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** ironic ownership
 - **Action:** the shadow covering the door
 
-### Beat 180 · 15:03 (~5.6s)
+### Beat 180 · 16:07 (~4.9s)
 
 **Characters:** Theo
 
@@ -2475,7 +2475,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** preoccupied
 - **Action:** staring at the grill
 
-### Beat 181 · 15:08 (~3.7s)
+### Beat 181 · 16:12 (~4.2s)
 
 **Characters:** The Protagonist, Theo
 
@@ -2488,7 +2488,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** confessional
 - **Action:** Theo lowering his voice
 
-### Beat 182 · 15:12 (~4.4s)
+### Beat 182 · 16:16 (~3.6s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2501,7 +2501,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** resigned
 - **Action:** the paper flapping in the breeze
 
-### Beat 183 · 15:17 (~5.9s)
+### Beat 183 · 16:20 (~5.4s)
 
 **Characters:** Theo
 
@@ -2514,7 +2514,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** wry, sad
 - **Action:** grinning
 
-### Beat 184 · 15:22 (~4.1s)
+### Beat 184 · 16:25 (~4.6s)
 
 **Characters:** The Protagonist, Theo
 
@@ -2527,7 +2527,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** heavy, unspoken
 - **Action:** staring at the grill
 
-### Beat 185 · 15:27 (~5.2s)
+### Beat 185 · 16:30 (~7.3s)
 
 **Characters:** Theo
 
@@ -2540,7 +2540,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** lingering damage
 - **Action:** chairs sinking slightly
 
-### Beat 186 · 15:32 (~4.1s)
+### Beat 186 · 16:37 (~3.3s)
 
 **Characters:** Marcus
 
@@ -2553,7 +2553,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** uneasy
 - **Action:** bending to pick it up
 
-### Beat 187 · 15:36 (~5.2s)
+### Beat 187 · 16:40 (~3.9s)
 
 **Characters:** The Protagonist, Marcus
 
@@ -2566,7 +2566,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** forced calm
 - **Action:** holding out the phone
 
-### Beat 188 · 15:41 (~4.8s)
+### Beat 188 · 16:44 (~4.6s)
 
 **Characters:** Marcus
 
@@ -2579,7 +2579,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** denial
 - **Action:** waving his hand
 
-### Beat 189 · 15:46 (~5.6s)
+### Beat 189 · 16:49 (~6.3s)
 
 **Characters:** The Protagonist
 
@@ -2592,7 +2592,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** calculating
 - **Action:** doing math silently
 
-### Beat 190 · 15:51 (~5.2s)
+### Beat 190 · 16:55 (~5.4s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2605,7 +2605,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** ironic
 - **Action:** money flowing away
 
-### Beat 191 · 15:57 (~3.7s)
+### Beat 191 · 17:00 (~3.6s)
 
 **Characters:** Marcus
 
@@ -2618,7 +2618,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** hollow
 - **Action:** Marcus leaning on the wall
 
-### Beat 192 · 16:00 (~4.8s)
+### Beat 192 · 17:04 (~6.2s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2631,7 +2631,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** ironic success
 - **Action:** shaking hands
 
-### Beat 193 · 16:05 (~5.2s)
+### Beat 193 · 17:10 (~4.4s)
 
 **Characters:** Marcus, Theo, Jenna, Priya
 
@@ -2644,7 +2644,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** draining
 - **Action:** the creatures waiting to be fed
 
-### Beat 194 · 16:10 (~3.7s)
+### Beat 194 · 17:15 (~6.0s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2660,7 +2660,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Stage 8: The Nine Seconds
 *Age 28 · What the rent money really bought*
 
-### Beat 195 · 16:14 (~4.1s)
+### Beat 195 · 17:21 (~3.7s)
 
 **Characters:** The Protagonist
 
@@ -2673,7 +2673,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** surprised
 - **Action:** reading closely
 
-### Beat 196 · 16:18 (~5.2s)
+### Beat 196 · 17:24 (~6.0s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2686,7 +2686,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** passive reward
 - **Action:** the number glowing
 
-### Beat 197 · 16:23 (~3.3s)
+### Beat 197 · 17:31 (~3.4s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2699,7 +2699,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** passive reward
 - **Action:** the number glowing
 
-### Beat 198 · 16:27 (~6.3s)
+### Beat 198 · 17:34 (~5.8s)
 
 **Characters:** Father
 
@@ -2712,7 +2712,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** humorous, domestic
 - **Action:** pointing outside
 
-### Beat 199 · 16:33 (~5.6s)
+### Beat 199 · 17:40 (~5.5s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2725,7 +2725,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** compounding
 - **Action:** the rivers merging
 
-### Beat 200 · 16:38 (~4.4s)
+### Beat 200 · 17:45 (~4.8s)
 
 **Characters:** Father
 
@@ -2738,7 +2738,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** sudden, painful
 - **Action:** falling backward
 
-### Beat 201 · 16:43 (~5.2s)
+### Beat 201 · 17:50 (~6.7s)
 
 **Characters:** Father
 
@@ -2751,7 +2751,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** serious
 - **Action:** lying in bed
 
-### Beat 202 · 16:48 (~5.2s)
+### Beat 202 · 17:57 (~5.7s)
 
 **Characters:** The Protagonist
 
@@ -2764,7 +2764,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** present, dependable
 - **Action:** stepping forward
 
-### Beat 203 · 16:53 (~5.9s)
+### Beat 203 · 18:02 (~5.0s)
 
 **Characters:** The Protagonist
 
@@ -2777,7 +2777,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** urgent
 - **Action:** running down the stairs
 
-### Beat 204 · 16:59 (~5.6s)
+### Beat 204 · 18:07 (~5.2s)
 
 **Characters:** The Protagonist, Father
 
@@ -2790,7 +2790,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** urgent, caring
 - **Action:** gripping the wheel
 
-### Beat 205 · 17:05 (~6.3s)
+### Beat 205 · 18:12 (~5.7s)
 
 **Characters:** The Protagonist, Father
 
@@ -2803,7 +2803,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** caring, steady
 - **Action:** lifting under his arm
 
-### Beat 206 · 17:11 (~5.6s)
+### Beat 206 · 18:18 (~4.4s)
 
 **Characters:** The Protagonist
 
@@ -2816,7 +2816,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** unexpected value
 - **Action:** holding the gift
 
-### Beat 207 · 17:17 (~5.9s)
+### Beat 207 · 18:23 (~5.8s)
 
 **Characters:** The Protagonist
 
@@ -2829,7 +2829,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** quiet realization
 - **Action:** looking outside
 
-### Beat 208 · 17:22 (~5.9s)
+### Beat 208 · 18:28 (~6.5s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2842,7 +2842,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** meaningful
 - **Action:** the stopwatch side tipping down
 
-### Beat 209 · 17:28 (~6.3s)
+### Beat 209 · 18:35 (~5.8s)
 
 **Characters:** The Protagonist, Mother
 
@@ -2855,7 +2855,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** intimate
 - **Action:** sitting down
 
-### Beat 210 · 17:35 (~4.1s)
+### Beat 210 · 18:41 (~3.8s)
 
 **Characters:** Mother
 
@@ -2868,7 +2868,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** open, trusting
 - **Action:** placing them down
 
-### Beat 211 · 17:39 (~4.4s)
+### Beat 211 · 18:44 (~5.1s)
 
 **Characters:** Mother
 
@@ -2881,7 +2881,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** emotional, proud
 - **Action:** tapping the circle
 
-### Beat 212 · 17:43 (~6.3s)
+### Beat 212 · 18:50 (~5.6s)
 
 **Characters:** Mother
 
@@ -2894,7 +2894,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** grateful, unspoken
 - **Action:** eyes lowered
 
-### Beat 213 · 17:50 (~5.6s)
+### Beat 213 · 18:55 (~4.3s)
 
 **Characters:** Mother
 
@@ -2907,7 +2907,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** tender
 - **Action:** finger pressing down
 
-### Beat 214 · 17:55 (~3.0s)
+### Beat 214 · 18:59 (~3.3s)
 
 **Characters:** Mother
 
@@ -2923,7 +2923,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Stage 9: The Cost of Silence
 *Age 29 · When the secret becomes a wall*
 
-### Beat 215 · 17:58 (~4.8s)
+### Beat 215 · 19:03 (~5.7s)
 
 **Characters:** The Protagonist
 
@@ -2936,7 +2936,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** unease
 - **Action:** frowning
 
-### Beat 216 · 18:03 (~5.9s)
+### Beat 216 · 19:08 (~5.1s)
 
 **Characters:** The Protagonist
 
@@ -2949,7 +2949,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** eavesdropping
 - **Action:** listening
 
-### Beat 217 · 18:09 (~4.8s)
+### Beat 217 · 19:13 (~4.9s)
 
 **Characters:** Mother
 
@@ -2962,7 +2962,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** defensive, loving
 - **Action:** talking on the phone
 
-### Beat 218 · 18:14 (~5.2s)
+### Beat 218 · 19:18 (~5.1s)
 
 **Characters:** Mother
 
@@ -2975,7 +2975,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** protective
 - **Action:** speaking firmly
 
-### Beat 219 · 18:19 (~5.9s)
+### Beat 219 · 19:23 (~6.0s)
 
 **Characters:** The Protagonist, Mother
 
@@ -2988,7 +2988,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** loyal, unaware
 - **Action:** holding up a shield
 
-### Beat 220 · 18:25 (~4.8s)
+### Beat 220 · 19:29 (~4.5s)
 
 **Characters:** The Protagonist
 
@@ -3001,7 +3001,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** torn
 - **Action:** standing still
 
-### Beat 221 · 18:30 (~3.7s)
+### Beat 221 · 19:34 (~4.0s)
 
 **Characters:** The Protagonist
 
@@ -3014,7 +3014,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** retreating
 - **Action:** climbing the stairs
 
-### Beat 222 · 18:33 (~5.2s)
+### Beat 222 · 19:38 (~5.8s)
 
 **Characters:** None (environment or insert shot)
 
@@ -3027,7 +3027,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** uncomfortable truth
 - **Action:** the signs merging
 
-### Beat 223 · 18:38 (~4.8s)
+### Beat 223 · 19:44 (~6.6s)
 
 **Characters:** The Protagonist, Marcus
 
@@ -3040,7 +3040,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** humbling
 - **Action:** Marcus taping a box
 
-### Beat 224 · 18:43 (~4.8s)
+### Beat 224 · 19:50 (~3.8s)
 
 **Characters:** Marcus
 
@@ -3053,7 +3053,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** embarrassed
 - **Action:** pacing
 
-### Beat 225 · 18:48 (~4.4s)
+### Beat 225 · 19:54 (~4.5s)
 
 **Characters:** Marcus
 
@@ -3066,7 +3066,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** eager
 - **Action:** gesturing
 
-### Beat 226 · 18:52 (~5.9s)
+### Beat 226 · 19:59 (~6.7s)
 
 **Characters:** Marcus
 
@@ -3079,7 +3079,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** sincere
 - **Action:** smiling
 
-### Beat 227 · 18:58 (~6.3s)
+### Beat 227 · 20:05 (~6.0s)
 
 **Characters:** Marcus
 
@@ -3092,7 +3092,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** ironic
 - **Action:** tossing the ring
 
-### Beat 228 · 19:05 (~4.4s)
+### Beat 228 · 20:11 (~4.8s)
 
 **Characters:** The Protagonist
 
@@ -3105,7 +3105,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** hidden capability
 - **Action:** imagining paying
 
-### Beat 229 · 19:09 (~5.2s)
+### Beat 229 · 20:16 (~4.4s)
 
 **Characters:** The Protagonist
 
@@ -3118,7 +3118,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** evasive
 - **Action:** speaking calmly
 
-### Beat 230 · 19:14 (~5.6s)
+### Beat 230 · 20:20 (~5.1s)
 
 **Characters:** The Protagonist
 
@@ -3131,7 +3131,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** disturbing self-awareness
 - **Action:** smiling faintly
 
-### Beat 231 · 19:20 (~4.8s)
+### Beat 231 · 20:26 (~6.0s)
 
 **Characters:** The Protagonist
 
@@ -3144,7 +3144,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** unsettling
 - **Action:** staring at his reflection
 
-### Beat 232 · 19:25 (~5.9s)
+### Beat 232 · 20:32 (~6.4s)
 
 **Characters:** The Protagonist
 
@@ -3157,7 +3157,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** possessive
 - **Action:** resting a hand on the chest
 
-### Beat 233 · 19:31 (~5.9s)
+### Beat 233 · 20:38 (~4.8s)
 
 **Characters:** The Protagonist
 
@@ -3170,7 +3170,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** seductive isolation
 - **Action:** sitting comfortably
 
-### Beat 234 · 19:37 (~4.4s)
+### Beat 234 · 20:43 (~4.2s)
 
 **Characters:** The Protagonist, Marcus, Theo, Jenna, Priya
 
@@ -3183,7 +3183,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** controlled
 - **Action:** strings tugging
 
-### Beat 235 · 19:41 (~4.4s)
+### Beat 235 · 20:47 (~4.5s)
 
 **Characters:** None (environment or insert shot)
 
@@ -3196,7 +3196,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** ironic
 - **Action:** strings reversing
 
-### Beat 236 · 19:45 (~4.4s)
+### Beat 236 · 20:52 (~4.7s)
 
 **Characters:** The Protagonist
 
@@ -3209,7 +3209,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** principled
 - **Action:** pushing it away
 
-### Beat 237 · 19:50 (~5.9s)
+### Beat 237 · 20:56 (~7.0s)
 
 **Characters:** The Protagonist, Priya
 
@@ -3222,7 +3222,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** caring
 - **Action:** the phone lighting up
 
-### Beat 238 · 19:56 (~5.2s)
+### Beat 238 · 21:03 (~6.7s)
 
 **Characters:** The Protagonist
 
@@ -3235,7 +3235,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** vulnerable
 - **Action:** typing quickly
 
-### Beat 239 · 20:01 (~5.2s)
+### Beat 239 · 21:10 (~4.9s)
 
 **Characters:** The Protagonist
 
@@ -3248,7 +3248,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** hesitant
 - **Action:** staring
 
-### Beat 240 · 20:06 (~4.4s)
+### Beat 240 · 21:15 (~4.9s)
 
 **Characters:** The Protagonist
 
@@ -3264,7 +3264,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Stage 10: Back on the Rooftop
 *Age 30 · Paid in full*
 
-### Beat 241 · 20:11 (~4.4s)
+### Beat 241 · 21:20 (~5.8s)
 
 **Characters:** The Protagonist
 
@@ -3277,7 +3277,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** return to present
 - **Action:** standing at the railing
 
-### Beat 242 · 20:15 (~5.2s)
+### Beat 242 · 21:25 (~4.5s)
 
 **Characters:** The Waiter
 
@@ -3290,7 +3290,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** unseen
 - **Action:** the waiter walking off
 
-### Beat 243 · 20:20 (~4.4s)
+### Beat 243 · 21:30 (~4.9s)
 
 **Characters:** The Protagonist
 
@@ -3303,7 +3303,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** heavy secret
 - **Action:** his hand resting
 
-### Beat 244 · 20:25 (~4.4s)
+### Beat 244 · 21:35 (~7.3s)
 
 **Characters:** None (environment or insert shot)
 
@@ -3316,7 +3316,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** triumphant
 - **Action:** the check mark glowing
 
-### Beat 245 · 20:29 (~4.4s)
+### Beat 245 · 21:42 (~6.7s)
 
 **Characters:** None (environment or insert shot)
 
@@ -3329,7 +3329,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** triumphant
 - **Action:** the check mark glowing
 
-### Beat 246 · 20:34 (~5.6s)
+### Beat 246 · 21:49 (~4.9s)
 
 **Characters:** None (environment or insert shot)
 
@@ -3342,7 +3342,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** purposeful
 - **Action:** envelopes landing
 
-### Beat 247 · 20:39 (~5.6s)
+### Beat 247 · 21:54 (~4.8s)
 
 **Characters:** None (environment or insert shot)
 
@@ -3355,7 +3355,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** vindicated
 - **Action:** the house standing
 
-### Beat 248 · 20:45 (~4.4s)
+### Beat 248 · 21:59 (~4.0s)
 
 **Characters:** Mother, Father
 
@@ -3368,7 +3368,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** deserved peace
 - **Action:** sitting together
 
-### Beat 249 · 20:49 (~4.4s)
+### Beat 249 · 22:03 (~5.2s)
 
 **Characters:** The Protagonist
 
@@ -3381,7 +3381,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** vindicated
 - **Action:** looking out at the city
 
-### Beat 250 · 20:54 (~4.1s)
+### Beat 250 · 22:08 (~4.0s)
 
 **Characters:** None (environment or insert shot)
 
@@ -3394,7 +3394,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** winding down
 - **Action:** guests leaving
 
-### Beat 251 · 20:58 (~5.6s)
+### Beat 251 · 22:12 (~6.2s)
 
 **Characters:** Theo, Jenna
 
@@ -3407,7 +3407,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** tired, warm
 - **Action:** waving
 
-### Beat 252 · 21:03 (~3.7s)
+### Beat 252 · 22:18 (~2.8s)
 
 **Characters:** The Protagonist, Priya
 
@@ -3420,7 +3420,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** intimate
 - **Action:** leaning on the railing
 
-### Beat 253 · 21:07 (~5.2s)
+### Beat 253 · 22:21 (~5.2s)
 
 **Characters:** None (environment or insert shot)
 
@@ -3433,7 +3433,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** vast, quiet
 - **Action:** the lights glittering
 
-### Beat 254 · 21:12 (~5.2s)
+### Beat 254 · 22:26 (~5.9s)
 
 **Characters:** Priya
 
@@ -3446,7 +3446,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** recurring question
 - **Action:** the bubble appearing
 
-### Beat 255 · 21:17 (~5.9s)
+### Beat 255 · 22:32 (~6.8s)
 
 **Characters:** The Protagonist
 
@@ -3459,7 +3459,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** habitual
 - **Action:** the bubbles stacked
 
-### Beat 256 · 21:23 (~5.2s)
+### Beat 256 · 22:39 (~5.4s)
 
 **Characters:** The Protagonist
 
@@ -3472,7 +3472,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** decisive
 - **Action:** opening the app
 
-### Beat 257 · 21:28 (~5.2s)
+### Beat 257 · 22:44 (~4.6s)
 
 **Characters:** The Protagonist
 
@@ -3485,7 +3485,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** vulnerable
 - **Action:** setting the phone down
 
-### Beat 258 · 21:34 (~4.8s)
+### Beat 258 · 22:49 (~7.3s)
 
 **Characters:** None (environment or insert shot)
 
@@ -3498,7 +3498,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** stunning reveal
 - **Action:** the number glowing
 
-### Beat 259 · 21:38 (~4.4s)
+### Beat 259 · 22:56 (~3.5s)
 
 **Characters:** Priya
 
@@ -3511,7 +3511,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** reflective
 - **Action:** standing still
 
-### Beat 260 · 21:43 (~5.2s)
+### Beat 260 · 22:59 (~4.6s)
 
 **Characters:** The Protagonist, Priya
 
@@ -3524,7 +3524,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** reframing
 - **Action:** silent together
 
-### Beat 261 · 21:48 (~5.2s)
+### Beat 261 · 23:04 (~6.2s)
 
 **Characters:** The Protagonist
 
@@ -3537,7 +3537,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** origin
 - **Action:** remembering
 
-### Beat 262 · 21:53 (~4.4s)
+### Beat 262 · 23:10 (~4.2s)
 
 **Characters:** The Protagonist, Priya, Mother, Father
 
@@ -3550,7 +3550,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** deepening
 - **Action:** showing the notice
 
-### Beat 263 · 21:58 (~3.7s)
+### Beat 263 · 23:14 (~3.8s)
 
 **Characters:** Mother
 
@@ -3563,7 +3563,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** emotional
 - **Action:** the memories appearing
 
-### Beat 264 · 22:01 (~4.8s)
+### Beat 264 · 23:18 (~4.3s)
 
 **Characters:** Priya
 
@@ -3576,7 +3576,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** moved
 - **Action:** looking out
 
-### Beat 265 · 22:06 (~5.2s)
+### Beat 265 · 23:23 (~5.1s)
 
 **Characters:** The Protagonist, Priya
 
@@ -3589,7 +3589,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** admiring
 - **Action:** speaking softly
 
-### Beat 266 · 22:11 (~4.8s)
+### Beat 266 · 23:28 (~3.9s)
 
 **Characters:** Priya
 
@@ -3602,7 +3602,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** tender
 - **Action:** laughing
 
-### Beat 267 · 22:16 (~4.8s)
+### Beat 267 · 23:32 (~4.6s)
 
 **Characters:** The Protagonist, Priya
 
@@ -3615,7 +3615,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** honest
 - **Action:** meeting her eyes
 
-### Beat 268 · 22:21 (~2.6s)
+### Beat 268 · 23:36 (~3.6s)
 
 **Characters:** The Protagonist
 
@@ -3631,7 +3631,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Stage 11: Moving Out
 *After · The last star*
 
-### Beat 269 · 22:24 (~4.8s)
+### Beat 269 · 23:40 (~4.0s)
 
 **Characters:** None (environment or insert shot)
 
@@ -3644,7 +3644,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** accomplished
 - **Action:** the sign in the yard
 
-### Beat 270 · 22:28 (~4.8s)
+### Beat 270 · 23:44 (~5.2s)
 
 **Characters:** The Protagonist
 
@@ -3657,7 +3657,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** smart, stable
 - **Action:** both halves lived in
 
-### Beat 271 · 22:33 (~4.4s)
+### Beat 271 · 23:49 (~4.4s)
 
 **Characters:** The Protagonist, The Loan Officer
 
@@ -3670,7 +3670,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** professional
 - **Action:** reading the file
 
-### Beat 272 · 22:38 (~5.9s)
+### Beat 272 · 23:53 (~4.7s)
 
 **Characters:** The Loan Officer
 
@@ -3683,7 +3683,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** newfound respect
 - **Action:** adjusting his tie
 
-### Beat 273 · 22:44 (~4.4s)
+### Beat 273 · 23:58 (~5.5s)
 
 **Characters:** Mother, Father
 
@@ -3696,7 +3696,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** assumption
 - **Action:** the address highlighted
 
-### Beat 274 · 22:48 (~5.2s)
+### Beat 274 · 24:04 (~4.7s)
 
 **Characters:** The Protagonist, The Loan Officer
 
@@ -3709,7 +3709,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** deferential
 - **Action:** holding out the coffee
 
-### Beat 275 · 22:53 (~5.9s)
+### Beat 275 · 24:08 (~5.1s)
 
 **Characters:** The Loan Officer
 
@@ -3722,7 +3722,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** exclusive
 - **Action:** handing the card
 
-### Beat 276 · 22:59 (~5.9s)
+### Beat 276 · 24:13 (~5.2s)
 
 **Characters:** None (environment or insert shot)
 
@@ -3735,7 +3735,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** tender
 - **Action:** the last star clinging
 
-### Beat 277 · 23:05 (~5.6s)
+### Beat 277 · 24:19 (~6.8s)
 
 **Characters:** None (environment or insert shot)
 
@@ -3748,7 +3748,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** tender
 - **Action:** the last star clinging
 
-### Beat 278 · 23:11 (~5.9s)
+### Beat 278 · 24:25 (~5.7s)
 
 **Characters:** Mother
 
@@ -3761,7 +3761,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** nostalgic
 - **Action:** holding the key
 
-### Beat 279 · 23:17 (~5.2s)
+### Beat 279 · 24:31 (~4.4s)
 
 **Characters:** The Protagonist, Mother
 
@@ -3774,7 +3774,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** letting go
 - **Action:** offering the key
 
-### Beat 280 · 23:22 (~4.1s)
+### Beat 280 · 24:35 (~3.9s)
 
 **Characters:** The Protagonist, Mother
 
@@ -3787,7 +3787,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** loving
 - **Action:** speaking gently
 
-### Beat 281 · 23:26 (~6.7s)
+### Beat 281 · 24:39 (~4.8s)
 
 **Characters:** Father
 
@@ -3800,7 +3800,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** contrast
 - **Action:** struggling to rise
 
-### Beat 282 · 23:32 (~6.3s)
+### Beat 282 · 24:44 (~5.5s)
 
 **Characters:** The Protagonist, Father
 
@@ -3813,7 +3813,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** respect
 - **Action:** shaking hands
 
-### Beat 283 · 23:39 (~5.9s)
+### Beat 283 · 24:50 (~6.1s)
 
 **Characters:** Father
 
@@ -3826,7 +3826,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** constant
 - **Action:** the light coming on
 
-### Beat 284 · 23:45 (~4.8s)
+### Beat 284 · 24:56 (~4.3s)
 
 **Characters:** Father
 
@@ -3839,7 +3839,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** loving
 - **Action:** his father screwing in the timer
 
-### Beat 285 · 23:49 (~4.4s)
+### Beat 285 · 25:00 (~5.2s)
 
 **Characters:** None (environment or insert shot)
 
@@ -3852,7 +3852,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** origin
 - **Action:** the number fading
 
-### Beat 286 · 23:54 (~3.3s)
+### Beat 286 · 25:05 (~2.9s)
 
 **Characters:** The Protagonist
 
@@ -3865,7 +3865,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** freedom
 - **Action:** walking up the path
 
-### Beat 287 · 23:57 (~3.3s)
+### Beat 287 · 25:08 (~2.9s)
 
 **Characters:** The Protagonist
 
@@ -3878,7 +3878,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** reserved
 - **Action:** standing still
 
-### Beat 288 · 24:01 (~5.2s)
+### Beat 288 · 25:11 (~4.8s)
 
 **Characters:** None (environment or insert shot)
 
