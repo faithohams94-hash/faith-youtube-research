@@ -1,0 +1,2019 @@
+<title>Face &amp; Scalp Tracer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,700&family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: atlas plate (left, sticky) + dissection notes (right); tabs across the top. Colours follow anatomical convention. */
+:root{
+  --bg:#EDF1EF; --panel:#F8FAF9; --ink:#15201E; --muted:#566763; --line:#C9D4D0;
+  --accent:#0E6B66; --accent-ink:#FFFFFF; --stage:#DCE3E0; --stage2:#C7D2CE;
+  --artery:#C41E2C; --artery-dk:#7A0C16; --vein:#2756C9; --vein-dk:#11307A;
+  --nerve:#E3B000; --nerve-dk:#7C5F00; --muscle:#B0493F; --muscle-dk:#6E2620;
+  --bone:#E9E0C8; --bone-dk:#9C8F6E; --gland:#E2C27A; --fascia:#E7C6B3;
+  --skin:#E2AE8E; --skin-dk:#B98466; --hair:#2B1E18;
+  --good:#1F7A3A; --bad:#B3261E; --warn:#9A6400;
+  --f-display:"Literata", Georgia, "Times New Roman", serif;
+  --f-body:"Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono:"JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D1413; --panel:#131D1C; --ink:#E4ECEA; --muted:#91A49F; --line:#27403B;
+  --accent:#4CC3B5; --accent-ink:#06201D; --stage:#0A100F; --stage2:#16211F;
+  --artery:#FF4B57; --artery-dk:#8E1320; --vein:#5D8DFF; --vein-dk:#1B3A8F;
+  --nerve:#FFD23A; --nerve-dk:#806200; --muscle:#C3574C; --muscle-dk:#5E1F19;
+  --bone:#CDBF9C; --bone-dk:#7B6F52; --gland:#C9A660; --fascia:#8E6A5A;
+  --skin:#C9967A; --skin-dk:#8F634D; --hair:#1A1210;
+  --good:#5BD07A; --bad:#FF7A70; --warn:#F0B44C; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0D1413; --panel:#131D1C; --ink:#E4ECEA; --muted:#91A49F; --line:#27403B;
+  --accent:#4CC3B5; --accent-ink:#06201D; --stage:#0A100F; --stage2:#16211F;
+  --artery:#FF4B57; --artery-dk:#8E1320; --vein:#5D8DFF; --vein-dk:#1B3A8F;
+  --nerve:#FFD23A; --nerve-dk:#806200; --muscle:#C3574C; --muscle-dk:#5E1F19;
+  --bone:#CDBF9C; --bone-dk:#7B6F52; --gland:#C9A660; --fascia:#8E6A5A;
+  --skin:#C9967A; --skin-dk:#8F634D; --hair:#1A1210;
+  --good:#5BD07A; --bad:#FF7A70; --warn:#F0B44C; color-scheme:dark}
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5;padding-inline:16px;padding-block:0 40px}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;line-height:1.2}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1360px;margin-inline:auto}
+
+header.top{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:12px;padding-block:18px 10px;border-bottom:1px solid var(--line)}
+header.top h1{font-size:clamp(1.5rem,3vw,2.1rem);font-weight:700;letter-spacing:-.01em}
+header.top p{margin:4px 0 0;color:var(--muted);max-width:62ch}
+.legend{display:flex;flex-wrap:wrap;gap:10px;font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:22px;height:4px;border-radius:2px;display:inline-block}
+
+nav.tabs{display:flex;gap:4px;overflow-x:auto;padding-block:10px;position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:20;scrollbar-width:thin}
+nav.tabs button{white-space:nowrap;border:1px solid var(--line);background:transparent;border-radius:999px;padding:6px 14px;font-weight:700;font-size:14px;color:var(--muted)}
+nav.tabs button[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+section.tab{padding-block:8px}
+
+/* explorer */
+.explorer{display:grid;grid-template-columns:240px minmax(0,1fr) minmax(0,400px);gap:14px;align-items:start}
+.side,.info{min-width:0}
+.stagecol{min-width:0;position:sticky;top:60px}
+.toolbar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:8px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.seg button{border:0;background:transparent;padding:5px 10px;font-size:13px;font-weight:700;color:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.chip{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:4px 10px;font-size:12.5px;font-weight:700;display:inline-flex;align-items:center;gap:6px;color:var(--ink)}
+#layers .chip[aria-pressed="false"]{opacity:.45;text-decoration:line-through}
+#t-derm[aria-pressed="true"],#t-lbl[aria-pressed="true"],#t-quiz[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.chip i{width:10px;height:10px;border-radius:50%;display:inline-block}
+.slider{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;color:var(--muted);font-weight:700}
+.slider input{width:110px;accent-color:var(--accent)}
+.stage{background:radial-gradient(ellipse at 40% 35%,var(--stage2),var(--stage) 70%);border:1px solid var(--line);border-radius:14px;position:relative;overflow:hidden;touch-action:manipulation}
+.stage svg{display:block;width:100%;height:auto;max-height:calc(100vh - 170px)}
+.tip{position:absolute;pointer-events:none;background:var(--ink);color:var(--bg);font-size:12.5px;font-weight:700;padding:3px 8px;border-radius:6px;transform:translate(-50%,-130%);white-space:nowrap;opacity:0;transition:opacity .12s}
+.quizbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;background:var(--ink);color:var(--bg);border-radius:10px;padding:8px 12px;margin-bottom:8px;font-weight:700}
+.quizbar button{background:var(--bg);color:var(--ink);border:0;border-radius:6px;padding:4px 10px;font-weight:700}
+.quizbar .q{font-family:var(--f-display);font-size:1.05rem}
+.caption{font-size:12px;color:var(--muted);margin-top:6px}
+
+.side input[type=search]{width:100%;border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:7px 10px;margin-bottom:8px}
+.side details{border-top:1px solid var(--line);padding-block:4px}
+.side summary{cursor:pointer;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);padding-block:6px;display:flex;align-items:center;gap:8px}
+.side summary i{width:10px;height:10px;border-radius:50%}
+.side ul{list-style:none;margin:0;padding:0 0 6px}
+.side li button{width:100%;text-align:left;border:0;background:transparent;padding:4px 8px;border-radius:6px;font-size:14px}
+.side li button:hover{background:var(--stage)}
+.side li button.on{background:var(--accent);color:var(--accent-ink)}
+.side .listscroll{max-height:calc(100vh - 210px);overflow:auto;padding-right:4px}
+
+.info{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.info .kind{font-family:var(--f-mono);font-size:11.5px;text-transform:uppercase;letter-spacing:.1em;display:inline-flex;align-items:center;gap:6px;color:var(--muted)}
+.info .kind i{width:10px;height:10px;border-radius:50%}
+.info h2{font-size:1.5rem;margin-block:4px 6px}
+.info .sum{color:var(--ink);margin:0 0 10px}
+.info dl{margin:0;display:grid;gap:10px}
+.info dt{font-family:var(--f-mono);font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--accent);font-weight:600}
+.info dd{margin:2px 0 0}
+.info dd.clin{border-left:3px solid var(--bad);padding-left:10px}
+.info .links{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px;padding-top:12px;border-top:1px dashed var(--line)}
+.info .links a{font-size:13px;font-weight:700;color:var(--accent);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:3px 10px}
+.info .links a:hover{border-color:var(--accent)}
+.info .empty h2{font-size:1.25rem}
+.info .empty ol{padding-left:20px;margin:8px 0 0}
+.trace{margin-block:10px 14px;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.trace .bar{display:flex;align-items:center;gap:6px;background:var(--stage);padding:6px 8px}
+.trace .bar b{font-size:13px;flex:1}
+.trace .bar button{border:1px solid var(--line);background:var(--panel);border-radius:6px;padding:3px 9px;font-weight:700;font-size:13px}
+.trace .bar button.play{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.trace ol{margin:0;padding:6px 8px 8px 30px;max-height:300px;overflow:auto}
+.trace li{padding:5px 6px;border-radius:6px;cursor:pointer;font-size:14px}
+.trace li.cur{background:color-mix(in srgb,var(--accent) 18%,transparent);font-weight:700}
+.trace li.done{color:var(--muted)}
+
+/* svg structure styling */
+svg .s{cursor:pointer}
+svg .s .hit{stroke:transparent;fill:none}
+svg.has-sel .s:not(.sel):not(.ctx){opacity:.16}
+svg.has-sel .s.ctx{opacity:1}
+svg .s.sel .core{filter:url(#glow)}
+svg .s.sel:not(.musc) .core{stroke-width:calc(var(--w) * 1.7px) !important}
+svg .s.sel.musc path.fill{stroke:var(--ink);stroke-width:2}
+svg .s.ctx .core, svg .s.ctx path.fill{animation:pulse 1.2s ease-in-out infinite}
+svg .s.flash .core, svg .s.flash path.fill, svg .s.flash circle{animation:pulse .5s ease-in-out 4}
+@keyframes pulse{50%{opacity:.35}}
+svg .s.deep{opacity:.72}
+svg.has-sel .s.deep.sel{opacity:1}
+svg .s:hover .case{stroke:var(--ink)}
+svg .lbl{font-family:var(--f-body);font-size:11px;font-weight:700;paint-order:stroke;stroke:var(--stage);stroke-width:3px;fill:var(--ink);pointer-events:none}
+svg .marker{pointer-events:none}
+svg .trail{fill:none;stroke-linecap:round;pointer-events:none}
+@media (prefers-reduced-motion: reduce){svg .s.ctx .core,svg .s.ctx path.fill,svg .s.flash *{animation:none}}
+
+/* generic content */
+.two{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:16px;align-items:start}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;min-width:0}
+.card h3{font-size:1.15rem;margin-bottom:6px}
+.lead{color:var(--muted);max-width:70ch;margin:0 0 12px}
+.sec-h{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px;margin-block:6px 12px}
+.sec-h h2{font-size:1.5rem}
+.tablewrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--f-mono);font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:600}
+td .a{color:var(--artery);font-weight:700}
+td .v{color:var(--vein);font-weight:700}
+td .n{color:var(--nerve-dk);font-weight:700}
+:root[data-theme="dark"] td .n{color:var(--nerve)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) td .n{color:var(--nerve)}}
+.pill{display:inline-block;font-family:var(--f-mono);font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;border:1px solid currentColor}
+.pill.lost{color:var(--bad)} .pill.spared{color:var(--good)} .pill.var{color:var(--warn)}
+.diagram{background:radial-gradient(ellipse at 50% 40%,var(--stage2),var(--stage) 75%);border:1px solid var(--line);border-radius:14px;overflow-x:auto}
+.diagram svg{display:block;width:100%;min-width:560px;height:auto}
+.btnrow{display:flex;flex-wrap:wrap;gap:6px;margin-block:8px}
+.btn{border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:6px 12px;font-weight:700;font-size:13.5px}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.btn.on{outline:2px solid var(--accent)}
+.note{font-size:13.5px;color:var(--muted)}
+.mgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px}
+.mcard{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.mcard h4{margin:0;font-family:var(--f-display);font-size:1.05rem}
+.mcard .row{font-size:13.5px}
+.mcard .row b{font-family:var(--f-mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);display:block}
+.mcard .br{font-family:var(--f-mono);font-size:11px;color:var(--nerve-dk);border:1px solid var(--nerve);border-radius:999px;padding:1px 8px;align-self:flex-start}
+.mcard button{align-self:flex-start;margin-top:auto}
+.grp-h{font-family:var(--f-mono);font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin:18px 0 8px;border-bottom:1px solid var(--line);padding-bottom:4px}
+.qcard{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:12px}
+.qcard .opts{display:grid;gap:6px;margin-top:8px}
+.qcard .opts button{text-align:left;border:1px solid var(--line);background:transparent;border-radius:8px;padding:7px 10px}
+.qcard .opts button.right{border-color:var(--good);background:color-mix(in srgb,var(--good) 15%,transparent)}
+.qcard .opts button.wrong{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 15%,transparent)}
+.qcard .exp{margin-top:8px;font-size:14px;border-left:3px solid var(--accent);padding-left:10px}
+.order{display:grid;gap:6px}
+.order button{text-align:left;border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:8px 10px;font-size:14px;display:flex;gap:10px;align-items:flex-start}
+.order button .num{font-family:var(--f-mono);font-weight:600;min-width:22px;color:var(--accent)}
+.order button.ok{border-color:var(--good)} .order button.no{border-color:var(--bad)}
+.plan{display:grid;gap:10px}
+.block{display:grid;grid-template-columns:110px minmax(0,1fr);gap:12px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.block .t{font-family:var(--f-mono);font-size:13px;color:var(--accent);font-weight:600}
+.block h4{margin:0 0 4px;font-family:var(--f-display);font-size:1.05rem}
+.block label{display:flex;gap:8px;align-items:flex-start;font-size:14px;padding-block:2px}
+.block input{accent-color:var(--accent);margin-top:4px}
+.progress{height:8px;background:var(--stage2);border-radius:99px;overflow:hidden;margin-block:6px 14px}
+.progress div{height:100%;background:var(--accent);width:0;transition:width .3s}
+.mn{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}
+.mn div{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:14px}
+.mn b{font-family:var(--f-display);display:block;font-size:1rem}
+.deficit td:first-child{font-weight:700}
+.kbd{font-family:var(--f-mono);font-size:12px;border:1px solid var(--line);border-radius:4px;padding:0 5px}
+
+@media (max-width:1180px){
+  .explorer{grid-template-columns:minmax(0,1fr) minmax(0,380px)}
+  .side{grid-column:1/-1;order:3}
+  .side .listscroll{max-height:none}
+}
+@media (max-width:820px){
+  .explorer,.two{grid-template-columns:minmax(0,1fr)}
+  .stagecol{position:static}
+  .stage svg{max-height:none}
+  .block{grid-template-columns:minmax(0,1fr)}
+}
+</style>
+
+<div class="wrap">
+<header class="top">
+  <div>
+    <h1>Face &amp; Scalp Tracer</h1>
+    <p>Trace every artery, vein and nerve of the face and scalp from origin to termination, layer by layer, with the muscles of facial expression. Click anything on the plate.</p>
+  </div>
+  <div class="legend" aria-label="Colour key">
+    <span><i style="background:var(--artery)"></i>Artery</span>
+    <span><i style="background:var(--vein)"></i>Vein</span>
+    <span><i style="background:var(--nerve)"></i>Nerve</span>
+    <span><i style="background:var(--muscle)"></i>Muscle</span>
+    <span><i style="background:repeating-linear-gradient(90deg,var(--muted) 0 5px,transparent 5px 8px)"></i>Deep course</span>
+  </div>
+</header>
+
+<nav class="tabs" role="tablist" aria-label="Sections">
+  <button role="tab" data-tab="explore" aria-selected="true">Atlas &amp; tracer</button>
+  <button role="tab" data-tab="cn7" aria-selected="false">Facial nerve lesions</button>
+  <button role="tab" data-tab="scalp" aria-selected="false">Scalp layers</button>
+  <button role="tab" data-tab="veins" aria-selected="false">Venous danger routes</button>
+  <button role="tab" data-tab="muscles" aria-selected="false">Facial expression muscles</button>
+  <button role="tab" data-tab="quiz" aria-selected="false">Test yourself</button>
+  <button role="tab" data-tab="plan" aria-selected="false">One-day plan</button>
+</nav>
+
+<!-- ATLAS -->
+<section class="tab" id="tab-explore">
+  <div class="explorer">
+    <aside class="side">
+      <input type="search" id="filter" placeholder="Find a structure…" aria-label="Find a structure">
+      <div class="listscroll" id="list"></div>
+    </aside>
+    <div class="stagecol">
+      <div class="toolbar">
+        <div class="seg" role="group" aria-label="View">
+          <button id="v-lat" aria-pressed="true">Lateral</button>
+          <button id="v-ant" aria-pressed="false">Anterior</button>
+        </div>
+        <span id="layers" style="display:contents"></span>
+      </div>
+      <div class="toolbar">
+        <label class="slider" for="skin">Skin <input type="range" id="skin" min="0" max="100" value="30"></label>
+        <button class="chip" id="t-derm" aria-pressed="false">Sensory map</button>
+        <button class="chip" id="t-lbl" aria-pressed="false">Labels</button>
+        <button class="chip" id="t-quiz" aria-pressed="false" style="text-decoration:none">Quiz: find it</button>
+      </div>
+      <div class="quizbar" id="quizbar" hidden><span>Click: <span class="q" id="q-target"></span></span><span id="q-score">0 / 0</span><span><button id="q-skip">Skip</button> <button id="q-stop">Stop</button></span></div>
+      <div class="stage" id="stage"><div class="tip" id="tip"></div></div>
+      <div class="caption">Drawn schematic plate, not a photograph. Dashed lines run deep (inside the parotid, infratemporal fossa, orbit or bone). Each structure links to real dissection images.</div>
+    </div>
+    <article class="info" id="info" aria-live="polite"></article>
+  </div>
+</section>
+
+<!-- FACIAL NERVE -->
+<section class="tab" id="tab-cn7" hidden>
+  <div class="sec-h"><h2>Facial nerve (CN VII): place the lesion</h2><span class="note">Click a station on the nerve. The deficit table updates.</span></div>
+  <p class="lead">Localising a facial palsy is a classic bedside skill. Each branch leaves the nerve at a fixed point, so which functions survive tells you where the lesion sits.</p>
+  <div class="two">
+    <div class="diagram" id="cn7diagram"></div>
+    <div class="card" id="cn7out"></div>
+  </div>
+</section>
+
+<!-- SCALP -->
+<section class="tab" id="tab-scalp" hidden>
+  <div class="sec-h"><h2>Scalp: S · C · A · L · P</h2><span class="note">Click a layer. Toggle the fluid collections.</span></div>
+  <div class="two">
+    <div>
+      <div class="diagram" id="scalpdiagram"></div>
+      <div class="btnrow" id="scalpbtns"></div>
+    </div>
+    <div class="card" id="scalpout"></div>
+  </div>
+  <div class="card" style="margin-top:16px">
+    <h3>Scalp neurovascular map, front to back</h3>
+    <p class="note" style="margin-top:0">Arteries, veins and nerves travel together in layer C. Learn them as five territories.</p>
+    <div class="tablewrap"><table id="scalptable"></table></div>
+  </div>
+</section>
+
+<!-- VEINS -->
+<section class="tab" id="tab-veins" hidden>
+  <div class="sec-h"><h2>Venous drainage and the danger routes</h2><span class="note">The facial veins have no effective valves, so blood can flow either way.</span></div>
+  <div class="btnrow" id="vroutes"></div>
+  <div class="two">
+    <div class="diagram" id="vdiagram"></div>
+    <div class="card" id="vout"></div>
+  </div>
+</section>
+
+<!-- MUSCLES -->
+<section class="tab" id="tab-muscles" hidden>
+  <div class="sec-h"><h2>Muscles of facial expression</h2><span class="note">All from the 2nd pharyngeal arch, all supplied by the facial nerve.</span></div>
+  <p class="lead">They lie in the superficial fascia, arise mostly from bone and insert into skin. Click “Show on plate” to see one on the anterior view.</p>
+  <div id="mgrid"></div>
+</section>
+
+<!-- QUIZ -->
+<section class="tab" id="tab-quiz" hidden>
+  <div class="sec-h"><h2>Test yourself</h2><span class="note">Also try “Quiz: find it” on the atlas.</span></div>
+  <div class="two">
+    <div class="card">
+      <h3>Put the course in order</h3>
+      <p class="note" style="margin-top:0">Click the steps in the order the structure travels.</p>
+      <div class="btnrow"><select id="ordsel" class="btn" aria-label="Pathway"></select><button class="btn" id="ordnew">Shuffle</button></div>
+      <div class="order" id="ordlist"></div>
+      <p id="ordres" class="note"></p>
+    </div>
+    <div>
+      <div class="sec-h" style="margin-top:0"><h3>Clinical questions</h3><span class="note" id="mcqscore"></span></div>
+      <div id="mcq"></div>
+    </div>
+  </div>
+</section>
+
+<!-- PLAN -->
+<section class="tab" id="tab-plan" hidden>
+  <div class="sec-h"><h2>Trace it all in one day</h2><span class="note" id="planpct"></span></div>
+  <div class="progress"><div id="planbar"></div></div>
+  <div class="plan" id="plan"></div>
+  <h3 style="margin-block:22px 10px">Mnemonics that work at the bedside</h3>
+  <div class="mn" id="mnem"></div>
+</section>
+</div>
+<script>
+// ---------- geometry helpers ----------
+function ring(cx,cy,rx,ry,irx,iry){
+  return `M${cx-rx} ${cy} A${rx} ${ry} 0 1 0 ${cx+rx} ${cy} A${rx} ${ry} 0 1 0 ${cx-rx} ${cy} Z M${cx-irx} ${cy} A${irx} ${iry} 0 1 1 ${cx+irx} ${cy} A${irx} ${iry} 0 1 1 ${cx-irx} ${cy} Z`;
+}
+function oval(cx,cy,rx,ry){return `M${cx-rx} ${cy} A${rx} ${ry} 0 1 0 ${cx+rx} ${cy} A${rx} ${ry} 0 1 0 ${cx-rx} ${cy} Z`;}
+
+// Systems: artery, vein, nerve, muscle (expression), ref (other muscle/gland), bone, derm
+// lat / ant: arrays of path strings. Leading "~" = deep course (dashed).
+// f: o origin, c course, r relations, b branches/tributaries, e termination, s supplies/drains/innervates, p palpate/surface, k clinical
+// muscles: o origin, i insertion, a action, n nerve, t test, k clinical
+// steps: [x, y, text, [ids to highlight]]
+const S = {
+
+/* ===================== ARTERIES ===================== */
+cca:{n:"Common carotid artery",sys:"artery",w:"Common_carotid_artery",wd:6,grp:"Carotid system",
+ lat:["M300 720 C 302 650, 306 600, 310 560"],
+ sum:"Ascends in the carotid sheath and divides at the upper border of the thyroid cartilage (C3/C4) into external and internal carotid arteries.",
+ f:{r:"In the carotid sheath with the internal jugular vein (lateral) and vagus nerve (posterior, between them).",p:"Carotid pulse at the anterior border of sternocleidomastoid at the level of the thyroid cartilage.",k:"Carotid sinus (baroreceptor, CN IX) sits at the bifurcation. Never massage both sides."}},
+
+eca:{n:"External carotid artery",sys:"artery",w:"External_carotid_artery",wd:5,grp:"Carotid system",
+ lat:["M310 560 C 315 530, 320 500, 335 460 C 348 425, 358 395, 362 362"],
+ sum:"The artery of the face and scalp. Eight branches; ends in the parotid gland behind the neck of the mandible.",
+ f:{o:"Common carotid bifurcation, upper border of thyroid cartilage (C3/C4).",
+  c:"Begins anteromedial to the ICA in the carotid triangle, then inclines backwards to lie lateral to it. Passes deep to the posterior belly of digastric and stylohyoid, then enters the parotid gland.",
+  r:"Within the parotid it is the deepest of the three structures: facial nerve (superficial) → retromandibular vein → external carotid (deep). Separated from the ICA by styloglossus, stylopharyngeus, glossopharyngeal nerve and pharyngeal branch of vagus.",
+  b:"Anterior: superior thyroid, lingual, facial. Posterior: occipital, posterior auricular. Medial: ascending pharyngeal. Terminal: maxillary and superficial temporal. Mnemonic: Some Anatomists Like Freaking Out Poor Medical Students.",
+  e:"Divides behind the neck of the mandible into the superficial temporal and maxillary arteries.",
+  k:"Can be ligated to control haemorrhage (e.g. severe posterior epistaxis or tongue bleeding) because of rich collateral flow across the midline and from the ICA via the ophthalmic artery."},
+ steps:[[310,560,"Arises at the carotid bifurcation, upper border of the thyroid cartilage, in the carotid triangle.",["cca","ica"]],
+  [312,545,"Gives the superior thyroid (anterior) and the ascending pharyngeal (medial) arteries near its origin.",["sup_thyroid_a"]],
+  [316,528,"Gives the lingual artery (loops up at the greater horn of hyoid), then the facial artery just above.",["lingual_a","facial_a"]],
+  [320,505,"Occipital artery leaves the posterior surface. The ECA passes deep to posterior belly of digastric and stylohyoid; hypoglossal nerve crosses it here.",["occipital_a","digastric_post"]],
+  [336,456,"Posterior auricular artery leaves above the digastric. The ECA now enters the parotid gland, deep to the retromandibular vein and facial nerve.",["post_auricular_a","parotid","rmv","cn7"]],
+  [362,362,"Behind the neck of the mandible it ends by dividing into the superficial temporal and maxillary arteries.",["sta","maxillary_a","mandible"]]]},
+
+ica:{n:"Internal carotid artery",sys:"artery",w:"Internal_carotid_artery",wd:5,grp:"Carotid system",
+ lat:["~M310 560 C 318 520, 330 480, 345 425"],
+ sum:"No branches in the neck. Enters the skull through the carotid canal. Its ophthalmic branch reaches the forehead and front of the scalp.",
+ f:{c:"Ascends in the carotid sheath to the carotid canal in the petrous temporal bone, through the cavernous sinus, then gives the ophthalmic artery.",
+  b:"Relevant here: ophthalmic artery → supratrochlear, supraorbital, dorsal nasal, lacrimal (zygomatic branches), external nasal (from anterior ethmoidal).",
+  k:"The ICA–ECA anastomoses (angular ↔ dorsal nasal; supraorbital/supratrochlear ↔ superficial temporal) are a collateral route when one carotid is occluded."}},
+
+sup_thyroid_a:{n:"Superior thyroid artery",sys:"artery",w:"Superior_thyroid_artery",wd:2.2,grp:"Carotid system",
+ lat:["M311 548 C 296 560, 282 576, 272 600"],
+ sum:"First anterior branch of the ECA. Runs down to the upper pole of the thyroid gland with the external laryngeal nerve.",
+ f:{k:"Ligate it close to the gland during thyroidectomy to protect the external laryngeal nerve (voice pitch)."}},
+
+lingual_a:{n:"Lingual artery",sys:"artery",w:"Lingual_artery",wd:2.2,grp:"Carotid system",
+ lat:["~M315 535 C 300 520, 282 528, 262 524 C 245 520, 232 515, 220 512"],
+ sum:"Loops upward at the greater horn of the hyoid, passes deep to hyoglossus and supplies the tongue.",
+ f:{r:"Deep to hyoglossus, whereas the hypoglossal nerve and lingual vein lie superficial to hyoglossus.",k:"Often arises with the facial artery as a linguofacial trunk."}},
+
+facial_a:{n:"Facial artery",sys:"artery",w:"Facial_artery",wd:3.6,grp:"Facial artery & branches",
+ lat:["M310 525 C 300 498, 290 478, 278 486 C 268 494, 262 506, 255 508 C 246 494, 238 482, 226 470 C 212 456, 198 458, 188 444 C 178 430, 160 436, 150 424 C 140 410, 136 395, 129 380 C 122 364, 126 350, 131 334 C 137 314, 142 298, 150 285"],
+ ant:["M214 506 C 222 486, 236 470, 238 452 C 240 430, 256 414, 264 394 C 270 368, 274 330, 279 296"],
+ sum:"Main artery of the face. Tortuous course from the carotid triangle, around the mandible, to the medial angle of the eye.",
+ f:{o:"Anterior surface of the ECA just above the lingual artery, in the carotid triangle (often a linguofacial trunk).",
+  c:"Cervical part: up deep to posterior belly of digastric and stylohyoid, arches over and grooves the submandibular gland. Facial part: hooks round the inferior border of the mandible at the anterior border of masseter, then runs tortuously upward and forward, about 1 cm lateral to the angle of the mouth, along the side of the nose to the medial angle of the eye.",
+  r:"Deep to: platysma, risorius, zygomaticus major and minor (and skin). Superficial to: buccinator, levator anguli oris, the mandible. The facial vein lies posterior to it, with a straighter course.",
+  b:"Cervical: ascending palatine, tonsillar, glandular (submandibular), submental. Facial: inferior labial, superior labial, lateral nasal, angular (terminal).",
+  e:"Becomes the angular artery at the medial canthus and anastomoses with the dorsal nasal branch of the ophthalmic artery (ECA ↔ ICA).",
+  s:"Face below the eye: lips, cheek, side of nose, chin; also tonsil, soft palate and submandibular gland.",
+  p:"Pulse is palpable where it crosses the inferior border of the mandible at the anterior border of masseter. Clench the teeth to make the masseter edge stand out.",
+  k:"Tonsillar branch is the main source of post-tonsillectomy bleeding. Tortuosity allows stretch during mouth opening and facial movement. Labial branches anastomose across the midline, so compress both sides of a cut lip. Cut facial wounds bleed freely because of the rich anastomoses."},
+ steps:[[310,525,"Arises from the front of the ECA in the carotid triangle, just above the lingual artery.",["eca","lingual_a"]],
+  [293,490,"Runs up deep to the posterior belly of digastric and stylohyoid. Gives ascending palatine and tonsillar branches (tonsillectomy bleeding).",["digastric_post"]],
+  [270,497,"Arches over and grooves the posterior surface of the submandibular gland. Gives glandular branches and the submental artery.",["submand_gland","submental_a"]],
+  [255,508,"Hooks round the inferior border of the mandible at the anterior border of masseter. Palpate the pulse here. The facial vein crosses just behind it.",["masseter","mandible","facial_v"]],
+  [214,459,"Ascends tortuously across the cheek, deep to platysma, risorius and zygomaticus major and minor, superficial to buccinator and levator anguli oris.",["platysma","risorius","zyg_major","zyg_minor","buccinator","lao"]],
+  [152,426,"About 1 cm lateral to the angle of the mouth it gives the inferior and superior labial arteries, which run between orbicularis oris and the mucosa.",["inf_labial_a","sup_labial_a","orb_oris"]],
+  [127,372,"Runs along the side of the nose and gives the lateral nasal branch to the ala and dorsum.",["lat_nasal_a","llsan"]],
+  [150,285,"Ends as the angular artery at the medial angle of the eye and anastomoses with the dorsal nasal branch of the ophthalmic artery (ECA ↔ ICA).",["angular_a","dorsal_nasal_a"]]]},
+
+submental_a:{n:"Submental artery",sys:"artery",w:"Submental_artery",wd:2,grp:"Facial artery & branches",
+ lat:["M266 502 C 240 512, 205 518, 165 516"],
+ sum:"Largest cervical branch of the facial artery. Runs forward on mylohyoid below the mandible to the chin.",
+ f:{s:"Submandibular and sublingual glands, mylohyoid, skin of chin.",r:"Accompanied by the submental vein and the nerve to mylohyoid."}},
+
+inf_labial_a:{n:"Inferior labial artery",sys:"artery",w:"Inferior_labial_artery",wd:2,grp:"Facial artery & branches",
+ lat:["M150 430 C 135 437, 118 438, 103 436"],
+ ant:["M240 452 C 255 458, 278 458, 300 458"],
+ sum:"Arises near the angle of the mouth and runs medially in the lower lip.",
+ f:{r:"Between orbicularis oris and the labial mucosa (you can feel it pulsate when you grip the lip between finger and thumb).",k:"Anastomoses with the opposite side, so a lip laceration bleeds from both ends."}},
+
+sup_labial_a:{n:"Superior labial artery",sys:"artery",w:"Superior_labial_artery",wd:2.2,grp:"Facial artery & branches",
+ lat:["M148 420 C 132 412, 118 406, 102 404"],
+ ant:["M240 446 C 255 438, 278 434, 300 436"],
+ sum:"Runs in the upper lip and gives the septal branch to the nasal septum.",
+ f:{b:"Septal and alar branches. The septal branch joins Kiesselbach's plexus (Little's area).",k:"Contributes to anterior epistaxis from Little's area."}},
+
+lat_nasal_a:{n:"Lateral nasal artery",sys:"artery",w:"Lateral_nasal_artery",wd:1.8,grp:"Facial artery & branches",
+ lat:["M128 372 C 120 362, 112 352, 104 346"],
+ sum:"Supplies the ala and dorsum of the nose. Anastomoses with the dorsal nasal artery and the septal branch."},
+
+angular_a:{n:"Angular artery",sys:"artery",w:"Angular_artery",wd:2.6,grp:"Facial artery & branches",
+ lat:["M131 334 C 137 314, 142 298, 150 285"],
+ ant:["M270 360 C 274 330, 276 312, 279 296"],
+ sum:"Terminal part of the facial artery at the side of the nose and medial angle of the eye.",
+ f:{r:"Lies in the fibres of levator labii superioris alaeque nasi. The angular vein lies just lateral to it.",e:"Anastomoses with the dorsal nasal branch of the ophthalmic artery: an ECA–ICA link.",k:"Surgical landmark for dacryocystorhinostomy: keep the incision medial to the angular vessels."}},
+
+occipital_a:{n:"Occipital artery",sys:"artery",w:"Occipital_artery",wd:3.2,grp:"Scalp arteries",
+ lat:["M318 520 C 340 485, 380 445, 418 428 C 448 416, 470 400, 478 370 C 486 330, 486 280, 480 240 C 476 210, 468 180, 455 150"],
+ sum:"Posterior branch of the ECA. Supplies the back of the scalp up to the vertex.",
+ f:{o:"Posterior surface of the ECA, opposite the facial artery. The hypoglossal nerve hooks round its origin.",
+  c:"Runs backwards along the lower border of the posterior belly of digastric, crossing the ICA, IJV and CN X, XI and XII. Grooves the mastoid part of the temporal bone (occipital groove, medial to the mastoid notch) deep to SCM, splenius capitis and longissimus capitis. Crosses the apex of the suboccipital triangle, then pierces the deep fascia between the attachments of SCM and trapezius to enter the scalp.",
+  r:"In the scalp it runs with the greater occipital nerve, which lies medial to it, in the dense connective tissue layer.",
+  b:"Sternocleidomastoid branches, mastoid, auricular, meningeal, descending branch (anastomoses with deep cervical artery; collateral round the shoulder), occipital (scalp) branches.",
+  s:"Posterior scalp to the vertex, SCM, and some upper neck muscles.",
+  p:"About 2.5 cm lateral to the external occipital protuberance on the superior nuchal line.",
+  k:"Occipital nerve blocks for occipital neuralgia are given just medial to the palpable occipital pulse."},
+ steps:[[318,520,"Leaves the back of the ECA opposite the facial artery. The hypoglossal nerve hooks round it here.",["eca"]],
+  [372,452,"Runs backwards along the lower border of the posterior belly of digastric, crossing the IJV and CN X, XI, XII.",["digastric_post","ijv"]],
+  [430,423,"Grooves the temporal bone medial to the mastoid process, deep to SCM, splenius and longissimus capitis.",["mastoid","scm"]],
+  [480,355,"Pierces the deep fascia between SCM and trapezius, about 2.5 cm lateral to the external occipital protuberance.",[]],
+  [478,240,"Climbs the back of the scalp in the dense connective tissue with the greater occipital nerve, branching up to the vertex.",["greater_occipital_n","occipitalis"]]]},
+
+post_auricular_a:{n:"Posterior auricular artery",sys:"artery",w:"Posterior_auricular_artery",wd:2.4,grp:"Scalp arteries",
+ lat:["M338 452 C 360 420, 395 402, 418 388 C 428 362, 430 330, 428 300"],
+ sum:"Small posterior branch of the ECA. Supplies the scalp behind the ear and the auricle.",
+ f:{o:"ECA within or just below the parotid, above the posterior belly of digastric.",
+  c:"Ascends along the upper border of digastric, between the mastoid process and the cartilage of the ear.",
+  b:"Stylomastoid artery (enters the stylomastoid foramen and supplies the facial nerve in its canal, middle ear and mastoid cells), auricular and occipital branches.",
+  s:"Scalp behind the auricle, the auricle, parotid, facial nerve in its canal.",
+  k:"Its stylomastoid branch is one reason facial nerve ischaemia/oedema in the canal matters in Bell's palsy."},
+ steps:[[338,452,"Arises from the ECA in the parotid region, above the posterior belly of digastric.",["eca","parotid","digastric_post"]],
+  [400,400,"Ascends between the mastoid process and ear cartilage. Gives the stylomastoid artery into the facial canal.",["mastoid","cn7"]],
+  [428,320,"Supplies the scalp behind the ear and the back of the auricle.",["auricularis"]]]},
+
+sta:{n:"Superficial temporal artery",sys:"artery",w:"Superficial_temporal_artery",wd:3.4,grp:"Scalp arteries",
+ lat:["M362 362 C 368 340, 372 315, 372 280 C 372 255, 371 240, 370 230 C 385 180, 395 130, 395 85","M370 230 C 330 190, 270 160, 190 135"],
+ sum:"Smaller terminal branch of the ECA. The large artery of the side of the scalp; its pulse is felt in front of the tragus.",
+ f:{o:"Terminal branch of the ECA within the parotid gland, behind the neck of the mandible.",
+  c:"Ascends through the parotid, crosses the posterior root of the zygomatic arch just in front of the tragus, then runs up over the temporal fascia in the dense connective tissue layer of the scalp. About 5 cm above the arch it divides into frontal and parietal branches.",
+  r:"In front of the ear, from anterior to posterior: temporal branch of facial nerve, superficial temporal artery, superficial temporal vein, auriculotemporal nerve.",
+  b:"Transverse facial, middle temporal, zygomatico-orbital, auricular, frontal and parietal (terminal) branches.",
+  s:"Side of the scalp, temporalis (middle temporal), parotid, skin of face (transverse facial) and lateral orbit.",
+  p:"Pulse just anterior to the tragus over the posterior root of the zygomatic arch. Used by anaesthetists to monitor pulse during head and neck surgery.",
+  k:"Giant cell (temporal) arteritis: tender, thickened, pulseless STA with headache and jaw claudication in patients over 50. Biopsy the STA; treat early to save vision (ophthalmic artery involvement). Used as a donor in STA–MCA bypass."},
+ steps:[[362,362,"Begins in the parotid gland behind the neck of the mandible as the smaller terminal branch of the ECA.",["eca","parotid","mandible"]],
+  [366,348,"Gives the transverse facial artery, which runs forward across masseter between the zygomatic arch and parotid duct.",["transverse_facial_a","parotid_duct","masseter"]],
+  [372,318,"Crosses the posterior root of the zygomatic arch in front of the tragus. Palpate here. The auriculotemporal nerve is just behind it; the temporal branch of CN VII crosses the arch in front.",["zyg_arch","auriculotemporal_n","cn7_temporal"]],
+  [372,270,"Ascends over the temporal fascia in the dense connective tissue (layer C) of the scalp, with the superficial temporal vein.",["stv","temporalis"]],
+  [370,230,"About 5 cm above the arch it divides: the frontal branch runs forward to anastomose with the supraorbital and supratrochlear arteries (ICA).",["supraorbital_a","supratrochlear_a"]],
+  [395,85,"The parietal branch runs back and up over the parietal region, anastomosing with the occipital and posterior auricular arteries and across the midline.",["occipital_a","post_auricular_a"]]]},
+
+transverse_facial_a:{n:"Transverse facial artery",sys:"artery",w:"Transverse_facial_artery",wd:2,grp:"Scalp arteries",
+ lat:["M366 350 C 320 344, 280 343, 238 342"],
+ sum:"Branch of the superficial temporal artery in the parotid. Runs forward across masseter.",
+ f:{r:"Between the zygomatic arch above and the parotid duct below, alongside the zygomatic branches of the facial nerve.",s:"Parotid gland and duct, masseter, skin of the cheek."}},
+
+maxillary_a:{n:"Maxillary artery",sys:"artery",w:"Maxillary_artery",wd:3.6,grp:"Maxillary artery",
+ lat:["~M362 362 C 340 360, 310 365, 285 360 C 265 355, 250 340, 238 332"],
+ sum:"Larger terminal branch of the ECA. Runs deep through the infratemporal fossa to the pterygopalatine fossa; 3 parts, about 15 branches.",
+ f:{o:"Terminal branch of the ECA behind the neck of the mandible, within the parotid.",
+  c:"Runs forward medial to the neck of the mandible (1st part), then superficial or deep to the lower head of lateral pterygoid (2nd part), then through the pterygomaxillary fissure into the pterygopalatine fossa (3rd part).",
+  b:"1st (mandibular) part: deep auricular, anterior tympanic, middle meningeal, accessory meningeal, inferior alveolar. 2nd (pterygoid) part: deep temporal, pterygoid, masseteric, buccal. 3rd (pterygopalatine) part: posterior superior alveolar, infraorbital, descending (greater) palatine, artery of pterygoid canal, pharyngeal, sphenopalatine.",
+  s:"Both jaws and teeth, muscles of mastication, palate, nose, dura (middle meningeal), part of the face via infraorbital, buccal and mental arteries.",
+  k:"Sphenopalatine artery = 'artery of epistaxis' (posterior bleeds). Middle meningeal artery under the pterion → extradural haematoma. Inferior alveolar block targets the nerve running with its artery: aspirate first."},
+ steps:[[360,362,"1st (mandibular) part: passes forward medial to the neck of the mandible, between it and the sphenomandibular ligament.",["mandible"]],
+  [326,363,"From the 1st part: middle meningeal artery (up through foramen spinosum) and inferior alveolar artery (down into the mandibular foramen), plus deep auricular, anterior tympanic and accessory meningeal.",["middle_meningeal_a","inf_alveolar_a"]],
+  [286,360,"2nd (pterygoid) part: runs along the lower head of lateral pterygoid and gives deep temporal, pterygoid, masseteric and buccal branches to muscles of mastication and cheek.",["temporalis","masseter","buccinator"]],
+  [240,333,"3rd (pterygopalatine) part: enters the pterygopalatine fossa. Gives posterior superior alveolar, infraorbital, descending palatine, artery of pterygoid canal, pharyngeal and sphenopalatine (nose) branches.",["infraorbital_a"]]]},
+
+middle_meningeal_a:{n:"Middle meningeal artery",sys:"artery",w:"Middle_meningeal_artery",wd:2.2,grp:"Maxillary artery",
+ lat:["~M322 363 C 320 345, 322 320, 326 292 C 330 270, 335 255, 345 240"],
+ sum:"From the 1st part of the maxillary artery. Enters the skull through the foramen spinosum to supply the dura and skull.",
+ f:{r:"Passes between the two roots of the auriculotemporal nerve before entering the foramen spinosum.",k:"Its anterior branch runs under the pterion, the thinnest part of the lateral skull. A blow here tears it: extradural haematoma with a lucid interval."}},
+
+inf_alveolar_a:{n:"Inferior alveolar artery",sys:"artery",w:"Inferior_alveolar_artery",wd:2,grp:"Maxillary artery",
+ lat:["~M332 364 C 328 385, 322 405, 316 425 C 290 455, 235 468, 178 468"],
+ sum:"From the 1st part of the maxillary artery. Runs with the inferior alveolar nerve through the mandibular canal to the mental foramen.",
+ f:{b:"Mylohyoid branch, dental branches to lower teeth, mental artery (through the mental foramen), incisive branch.",k:"Inferior alveolar nerve block sits next to this artery; always aspirate before injecting."}},
+
+mental_a:{n:"Mental artery",sys:"artery",w:"Mental_artery",wd:1.8,grp:"Maxillary artery",
+ lat:["M178 468 C 160 466, 142 466, 126 470"],
+ sum:"Terminal branch of the inferior alveolar artery. Leaves the mental foramen to supply the chin and lower lip."},
+
+infraorbital_a:{n:"Infraorbital artery",sys:"artery",w:"Infraorbital_artery",wd:2,grp:"Maxillary artery",
+ lat:["~M238 333 C 215 331, 195 329, 173 327","M173 327 C 162 332, 150 340, 140 346"],
+ ant:["M257 337 C 262 352, 268 366, 272 378"],
+ sum:"From the 3rd part of the maxillary artery. Runs in the infraorbital groove and canal and emerges at the infraorbital foramen with the nerve.",
+ f:{b:"Anterior and middle superior alveolar arteries to the upper teeth; facial branches to lower eyelid, cheek, upper lip.",s:"Lower eyelid, cheek, side of nose, upper lip; maxillary teeth."}},
+
+supraorbital_a:{n:"Supraorbital artery",sys:"artery",w:"Supraorbital_artery",wd:2.2,grp:"Scalp arteries",
+ lat:["M184 252 C 191 208, 210 155, 242 92"],
+ ant:["M254 257 C 252 220, 248 180, 244 126"],
+ sum:"Branch of the ophthalmic artery (ICA). Leaves the orbit through the supraorbital notch or foramen to supply the forehead and scalp.",
+ f:{o:"Ophthalmic artery in the orbit (branch of the ICA).",c:"Passes forward above levator palpebrae superioris, exits at the supraorbital notch/foramen with the supraorbital nerve, then ascends deep to frontalis before entering the dense connective tissue of the scalp.",s:"Forehead and anterior scalp to the vertex, upper eyelid, frontal sinus.",e:"Anastomoses with the frontal branch of the superficial temporal artery and the supratrochlear artery.",p:"Supraorbital notch: junction of the medial third and lateral two thirds of the supraorbital margin."},
+ steps:[[184,252,"Leaves the orbit through the supraorbital notch with the supraorbital nerve.",["f_supraorbital","supraorbital_n"]],
+  [196,190,"Ascends deep to frontalis, then pierces it to lie in the dense connective tissue of the scalp.",["frontalis"]],
+  [242,92,"Supplies the scalp up to the vertex and anastomoses with the frontal branch of the superficial temporal artery (ICA ↔ ECA).",["sta"]]]},
+
+supratrochlear_a:{n:"Supratrochlear artery",sys:"artery",w:"Supratrochlear_artery",wd:2,grp:"Scalp arteries",
+ lat:["M156 255 C 160 220, 166 182, 170 140"],
+ ant:["M282 258 C 282 222, 281 190, 279 150"],
+ sum:"Terminal branch of the ophthalmic artery (ICA). Leaves the superomedial angle of the orbit and supplies the medial forehead.",
+ f:{c:"Exits the orbit about 1 cm from the midline with the supratrochlear nerve, pierces the orbital septum and runs up the forehead.",k:"Basis of the paramedian forehead flap used for nasal reconstruction. Locate it with Doppler at the medial brow."}},
+
+dorsal_nasal_a:{n:"Dorsal nasal artery",sys:"artery",w:"Dorsal_nasal_artery",wd:1.8,grp:"Scalp arteries",
+ lat:["M152 282 C 140 290, 128 300, 116 310"],
+ ant:["M281 298 C 286 310, 290 325, 292 340"],
+ sum:"Terminal branch of the ophthalmic artery. Joins the angular artery on the side of the nose: the key ICA–ECA anastomosis on the face."},
+
+/* ===================== VEINS ===================== */
+supratrochlear_v:{n:"Supratrochlear vein",sys:"vein",w:"Supratrochlear_veins",wd:2.2,grp:"Veins of the face",
+ lat:["M163 140 C 160 190, 157 240, 152 280"],
+ ant:["M286 140 C 286 190, 285 240, 283 288"],
+ sum:"Begins on the forehead from a venous network, descends near the midline and joins the supraorbital vein at the medial canthus to form the angular vein.",
+ f:{k:"The two supratrochlear veins may unite as a single midline frontal vein."}},
+
+supraorbital_v:{n:"Supraorbital vein",sys:"vein",w:"Supraorbital_vein",wd:2.2,grp:"Veins of the face",
+ lat:["M218 110 C 203 160, 188 220, 175 255 C 168 268, 160 276, 152 281"],
+ ant:["M238 126 C 244 180, 250 240, 262 268 C 270 280, 278 286, 283 290"],
+ sum:"Runs down the forehead lateral to the supratrochlear vein, joins it at the medial angle of the eye to form the angular vein.",
+ f:{b:"Communicates with the superficial temporal vein and, through the supraorbital notch, with the superior ophthalmic vein; a diploic vein from the frontal bone may join it."}},
+
+angular_v:{n:"Angular vein",sys:"vein",w:"Angular_vein",wd:2.8,grp:"Veins of the face",
+ lat:["M152 281 C 146 292, 140 302, 137 314"],
+ ant:["M283 290 C 280 310, 276 330, 271 352"],
+ sum:"Formed at the medial angle of the eye by the supratrochlear and supraorbital veins. Becomes the facial vein at the lower margin of the orbit.",
+ f:{r:"Lies lateral to the angular artery on the side of the nose.",b:"Communicates with the superior ophthalmic vein, which drains to the cavernous sinus.",k:"The key link in the 'danger triangle': infection from the upper lip or nose can pass by the angular vein → superior ophthalmic vein → cavernous sinus, causing cavernous sinus thrombosis."},
+ steps:[[152,281,"Formed at the medial angle of the eye by the union of the supratrochlear and supraorbital veins.",["supratrochlear_v","supraorbital_v"]],
+  [146,292,"Communicates through the orbit with the superior ophthalmic vein, which drains straight into the cavernous sinus.",["sup_ophthalmic_v","cavernous_sinus"]],
+  [137,314,"Continues below the orbit as the facial vein.",["facial_v"]]]},
+
+facial_v:{n:"Facial vein",sys:"vein",w:"Facial_vein",wd:3.6,grp:"Veins of the face",
+ lat:["M137 314 C 135 340, 140 380, 160 410 C 185 445, 220 470, 250 500 C 258 510, 265 522, 275 530 C 288 540, 296 545, 305 548"],
+ ant:["M271 352 C 262 380, 250 410, 240 440 C 232 465, 224 486, 220 510"],
+ sum:"Main vein of the face. Runs a straighter course behind the facial artery and drains to the internal jugular vein via the common facial vein.",
+ f:{o:"Continuation of the angular vein at the lower margin of the orbit.",
+  c:"Runs downward and backward, posterior to the facial artery, deep to zygomaticus major and minor and risorius, superficial to buccinator and masseter. Crosses the inferior border of the mandible at the anterior border of masseter, just behind the facial artery. Runs superficial to the submandibular gland and joins the anterior division of the retromandibular vein below the angle of the mandible.",
+  r:"Posterior to the facial artery throughout; much less tortuous. Crossed by the marginal mandibular branch of the facial nerve near the mandible.",
+  b:"Supratrochlear, supraorbital (via angular), external nasal, palpebral, superior and inferior labial, deep facial vein (from the pterygoid plexus), submental, tonsillar, external palatine, submandibular veins.",
+  e:"Joins the anterior division of the retromandibular vein to form the common facial vein, which enters the internal jugular vein at about the level of the hyoid bone.",
+  s:"Anterior face: forehead, eyelids, nose, lips, cheek, chin.",
+  k:"No effective valves. Two routes to the cavernous sinus: angular → superior ophthalmic vein, and deep facial vein → pterygoid plexus → emissary veins. Do not squeeze boils in the danger triangle (nasal bridge to the corners of the mouth)."},
+ steps:[[137,314,"Begins as the continuation of the angular vein at the inferior orbital margin.",["angular_v"]],
+  [139,372,"Descends behind the facial artery on a straighter course, deep to zygomaticus major and minor.",["facial_a","zyg_major","zyg_minor"]],
+  [168,420,"Receives the deep facial vein from the pterygoid plexus: the second route to the cavernous sinus.",["deep_facial_v","pterygoid_plexus"]],
+  [230,481,"Passes back across the cheek, superficial to buccinator and masseter, receiving labial and submental tributaries.",["buccinator","masseter","inf_labial_a"]],
+  [258,509,"Crosses the inferior border of the mandible at the anterior border of masseter, just posterior to the facial artery. The marginal mandibular nerve crosses superficial to it.",["mandible","facial_a","cn7_marginal"]],
+  [305,548,"Joins the anterior division of the retromandibular vein to form the common facial vein, which enters the IJV near the hyoid.",["rmv","common_facial_v","ijv"]]]},
+
+common_facial_v:{n:"Common facial vein",sys:"vein",w:"Facial_vein",wd:4,grp:"Veins of the face",
+ lat:["M305 548 C 309 551, 314 554, 318 557"],
+ sum:"Short trunk formed by the facial vein and the anterior division of the retromandibular vein. Drains into the internal jugular vein at about the level of the hyoid bone.",
+ f:{k:"A landmark in carotid endarterectomy: it is ligated to expose the carotid bifurcation just deep to it."}},
+
+deep_facial_v:{n:"Deep facial vein",sys:"vein",w:"Deep_facial_vein",wd:2.2,grp:"Veins of the face",
+ lat:["~M168 404 C 200 394, 245 382, 286 372"],
+ sum:"Connects the facial vein to the pterygoid venous plexus, running deep to masseter on buccinator.",
+ f:{k:"Second route for spread of facial infection to the cavernous sinus: facial vein → deep facial vein → pterygoid plexus → emissary veins (foramen ovale, foramen of Vesalius) → cavernous sinus."}},
+
+pterygoid_plexus:{n:"Pterygoid venous plexus",sys:"vein",w:"Pterygoid_plexus",wd:2,grp:"Veins of the face",
+ lat:["~M268 366 C 276 352, 284 382, 292 364 C 300 348, 306 384, 314 366 C 320 354, 326 378, 332 368","~M276 382 C 286 372, 296 392, 306 380 C 314 370, 322 388, 330 378"],
+ sum:"Network of veins around the lateral pterygoid in the infratemporal fossa. Its tributaries match the branches of the maxillary artery.",
+ f:{b:"Receives veins matching the maxillary artery branches. Drains to the maxillary vein (posteriorly) and the deep facial vein (anteriorly).",
+  e:"Communicates with the cavernous sinus via emissary veins through foramen ovale and the sphenoidal emissary foramen (of Vesalius), and with the inferior ophthalmic vein through the inferior orbital fissure.",
+  k:"A posterior superior alveolar nerve block needle can puncture it, producing a rapid haematoma in the cheek. Infection from upper molars can spread by this route to the cavernous sinus."}},
+
+sup_ophthalmic_v:{n:"Superior ophthalmic vein",sys:"vein",w:"Superior_ophthalmic_vein",wd:2.2,grp:"Veins of the face",
+ lat:["~M152 281 C 185 280, 235 288, 292 300"],
+ sum:"Begins at the medial angle of the eye by communicating with the angular vein. Runs back through the orbit and the superior orbital fissure to the cavernous sinus.",
+ f:{k:"This is the valveless conduit that lets infection from the face reach the cavernous sinus."}},
+
+cavernous_sinus:{n:"Cavernous sinus",sys:"vein",w:"Cavernous_sinus",wd:2,grp:"Veins of the face",
+ lat:["~"+oval(306,302,16,9)],
+ sum:"Dural venous sinus on each side of the sella turcica. The face drains into it by the ophthalmic veins and the pterygoid plexus.",
+ f:{r:"Within it: internal carotid artery and abducens nerve (CN VI). In its lateral wall, top to bottom: oculomotor (III), trochlear (IV), ophthalmic (V1), maxillary (V2).",
+  k:"Cavernous sinus thrombosis: fever, headache, proptosis, chemosis, periorbital oedema, ophthalmoplegia (CN VI usually first: lateral gaze), V1/V2 sensory loss. It can spread to the opposite side via the intercavernous sinuses."}},
+
+stv:{n:"Superficial temporal vein",sys:"vein",w:"Superficial_temporal_vein",wd:2.8,grp:"Veins of the scalp",
+ lat:["M402 85 C 398 140, 386 200, 380 240 C 379 280, 377 320, 371 350 C 368 365, 365 372, 362 380","M199 146 C 270 172, 330 200, 380 240"],
+ sum:"Drains the side of the scalp. Descends in front of the ear and joins the maxillary vein in the parotid to form the retromandibular vein.",
+ f:{c:"Frontal and parietal tributaries unite above the zygomatic arch; the vein descends in front of the tragus with the artery (artery in front, auriculotemporal nerve behind) and enters the parotid gland.",
+  b:"Frontal and parietal tributaries, middle temporal vein, transverse facial vein, parotid and articular veins.",
+  e:"Joins the maxillary vein within the parotid to form the retromandibular vein."},
+ steps:[[402,85,"Begins from the venous network on the side of the scalp, which communicates with the supraorbital, posterior auricular and occipital veins.",["supraorbital_v","post_auricular_v"]],
+  [380,240,"The frontal and parietal tributaries unite above the zygomatic arch.",[]],
+  [374,330,"Descends in front of the tragus, crossing the zygomatic arch with the superficial temporal artery.",["sta","zyg_arch"]],
+  [362,380,"Enters the parotid gland and joins the maxillary vein to form the retromandibular vein.",["maxillary_v","rmv","parotid"]]]},
+
+maxillary_v:{n:"Maxillary vein",sys:"vein",w:"Maxillary_vein",wd:2.4,grp:"Veins of the face",
+ lat:["~M330 372 C 340 376, 352 378, 362 380"],
+ sum:"Short vein draining the pterygoid plexus. Runs back with the 1st part of the maxillary artery, medial to the neck of the mandible, and joins the superficial temporal vein.",
+ f:{e:"Unites with the superficial temporal vein in the parotid to form the retromandibular vein."}},
+
+rmv:{n:"Retromandibular vein",sys:"vein",w:"Retromandibular_vein",wd:3.4,grp:"Veins of the face",
+ lat:["M362 380 C 360 410, 356 440, 352 462","M352 462 C 335 490, 316 520, 305 548","M352 462 C 358 470, 365 478, 372 485"],
+ sum:"Formed in the parotid by the superficial temporal and maxillary veins. Divides into anterior and posterior divisions at the lower pole of the gland.",
+ f:{o:"Union of the superficial temporal and maxillary veins in the parotid gland, behind the neck of the mandible.",
+  c:"Descends through the parotid, behind the ramus of the mandible.",
+  r:"In the parotid: facial nerve branches superficial, retromandibular vein in the middle, external carotid artery deep. During parotidectomy the vein marks the plane between the superficial and deep parts of the gland, just deep to the nerve.",
+  b:"Anterior division joins the facial vein to form the common facial vein → IJV. Posterior division joins the posterior auricular vein to form the external jugular vein.",
+  k:"An important landmark for finding the facial nerve in parotid surgery: the nerve lies superficial to the vein."},
+ steps:[[362,380,"Formed within the parotid by the superficial temporal vein and maxillary vein.",["stv","maxillary_v","parotid"]],
+  [357,425,"Descends through the parotid behind the ramus, deep to the facial nerve and superficial to the external carotid artery.",["cn7","eca","mandible"]],
+  [352,462,"Divides at the lower pole of the parotid.",[]],
+  [318,525,"Anterior division joins the facial vein → common facial vein → internal jugular vein.",["facial_v","common_facial_v","ijv"]],
+  [372,485,"Posterior division joins the posterior auricular vein to form the external jugular vein.",["post_auricular_v","ejv"]]]},
+
+post_auricular_v:{n:"Posterior auricular vein",sys:"vein",w:"Posterior_auricular_vein",wd:2.4,grp:"Veins of the scalp",
+ lat:["M436 300 C 438 340, 428 380, 408 420 C 395 450, 382 470, 372 485"],
+ sum:"Drains the scalp behind the ear. Descends behind the auricle and joins the posterior division of the retromandibular vein to form the external jugular vein.",
+ f:{b:"Receives the mastoid emissary vein (connects with the sigmoid sinus)."}},
+
+ejv:{n:"External jugular vein",sys:"vein",w:"External_jugular_vein",wd:3.6,grp:"Veins of the scalp",
+ lat:["M372 485 C 380 540, 392 610, 405 720"],
+ sum:"Formed near the angle of the mandible by the posterior auricular vein and the posterior division of the retromandibular vein. Crosses SCM superficially to drain into the subclavian vein.",
+ f:{c:"Runs vertically down across the superficial surface of sternocleidomastoid, deep to platysma, from the angle of the mandible to the middle of the clavicle.",p:"Visible on a line from the angle of the mandible to the midpoint of the clavicle, especially when the patient strains or lies flat.",k:"Used to judge venous pressure and for emergency venous access. If cut, the deep fascia holds it open: risk of air embolism."}},
+
+ijv:{n:"Internal jugular vein",sys:"vein",w:"Internal_jugular_vein",wd:5,grp:"Veins of the face",
+ lat:["~M345 420 C 335 480, 325 530, 318 557 C 314 600, 312 650, 312 720"],
+ sum:"Continuation of the sigmoid sinus at the jugular foramen. Receives the common facial vein and drains the brain, face and neck.",
+ f:{r:"In the carotid sheath, lateral to the internal and common carotid arteries, with the vagus posterior between them.",k:"Central venous access: apex of the triangle between the two heads of SCM, lateral to the carotid pulse."}},
+
+occipital_v:{n:"Occipital vein",sys:"vein",w:"Occipital_veins",wd:2.4,grp:"Veins of the scalp",
+ lat:["M462 150 C 476 210, 486 280, 482 360","~M482 360 C 478 400, 470 430, 462 455"],
+ sum:"Drains the back of the scalp. Pierces trapezius to drain into the suboccipital venous plexus (to the vertebral and deep cervical veins); it may also join the posterior auricular or internal jugular vein.",
+ f:{b:"Receives the parietal emissary vein (from the superior sagittal sinus) and the occipital diploic vein."}},
+
+emissary_v:{n:"Emissary veins",sys:"vein",w:"Emissary_veins",wd:2,grp:"Veins of the scalp",
+ lat:["~"+oval(398,100,6,6),"~"+oval(424,398,5,5)],
+ sum:"Valveless veins passing through skull foramina, linking the scalp veins with the dural venous sinuses.",
+ f:{b:"Parietal emissary (parietal foramen → superior sagittal sinus). Mastoid emissary (mastoid foramen → sigmoid sinus). Also condylar, and those through foramen ovale and the foramen of Vesalius (pterygoid plexus → cavernous sinus).",
+  k:"Infection in the loose areolar tissue (layer L, 'the danger area' of the scalp) can spread through emissary veins to the dural sinuses: meningitis, sinus thrombosis, brain abscess."}},
+
+/* ===================== NERVES: facial nerve ===================== */
+cn7:{n:"Facial nerve (CN VII), trunk",sys:"nerve",w:"Facial_nerve",wd:3.2,grp:"Facial nerve (motor)",
+ lat:["M390 390 C 380 393, 362 397, 346 401"],
+ sum:"Nerve of the 2nd pharyngeal arch. Leaves the skull at the stylomastoid foramen and divides in the parotid into five motor branches to the muscles of facial expression.",
+ f:{o:"Pons (facial motor nucleus). Enters the internal acoustic meatus with CN VIII, runs through the facial canal in the temporal bone.",
+  c:"Exits the stylomastoid foramen between the mastoid and styloid processes. Immediately gives the posterior auricular nerve, a branch to the posterior belly of digastric and to stylohyoid. Then enters the posteromedial surface of the parotid and runs forward, superficial to the retromandibular vein and external carotid artery.",
+  b:"In the parotid it divides (pes anserinus) into temporofacial and cervicofacial divisions, then five terminal branches: Temporal, Zygomatic, Buccal, Marginal mandibular, Cervical. ('To Zanzibar By Motor Car'.)",
+  s:"Motor: muscles of facial expression, posterior belly of digastric, stylohyoid, stapedius. (Taste and secretomotor fibres leave inside the skull: see the Facial nerve lesions tab.)",
+  p:"In parotid surgery find the trunk about 1 cm deep and inferior to the tragal pointer, or follow the tympanomastoid suture.",
+  k:"The nerve does not supply the parotid gland, even though it runs through it (the gland is supplied by CN IX via the otic ganglion and auriculotemporal nerve). Parotid tumours or surgery can damage branches. In infants the mastoid process is absent, so the nerve is superficial and at risk from forceps delivery."},
+ steps:[[390,390,"Emerges from the stylomastoid foramen, between the mastoid and styloid processes.",["f_stylomastoid","mastoid"]],
+  [378,393,"Gives the posterior auricular nerve (to occipitalis and auricular muscles) and branches to the posterior belly of digastric and stylohyoid.",["post_auricular_n","digastric_post","occipitalis"]],
+  [362,397,"Enters the posteromedial surface of the parotid gland and passes forward superficial to the retromandibular vein and external carotid artery.",["parotid","rmv","eca"]],
+  [346,401,"Pes anserinus: divides into temporal, zygomatic, buccal, marginal mandibular and cervical branches.",["cn7_temporal","cn7_zygomatic","cn7_buccal","cn7_marginal","cn7_cervical"]]]},
+
+cn7_temporal:{n:"Temporal branch of CN VII",sys:"nerve",w:"Temporal_branches_of_the_facial_nerve",wd:2.2,grp:"Facial nerve (motor)",
+ lat:["M346 400 C 345 370, 338 340, 322 320 C 300 295, 275 270, 245 245"],
+ sum:"Leaves the upper border of the parotid, crosses the zygomatic arch and supplies frontalis, upper orbicularis oculi, corrugator and the anterior and superior auricular muscles.",
+ f:{c:"Crosses the zygomatic arch superficially, in the superficial temporal fascia, about halfway between the tragus and lateral canthus.",
+  p:"Pitanguy's line: from 0.5 cm below the tragus to 1.5 cm above the lateral end of the eyebrow.",
+  t:"Raise the eyebrows and wrinkle the forehead.",
+  k:"Most at risk in facelift and temporal artery biopsy because it is superficial over the arch. Injury: ipsilateral brow ptosis and inability to wrinkle the forehead."},
+ steps:[[346,400,"Leaves the upper border of the parotid.",["parotid"]],
+  [322,320,"Crosses the zygomatic arch superficially, the most vulnerable point.",["zyg_arch"]],
+  [245,245,"Supplies frontalis, upper orbicularis oculi and corrugator supercilii.",["frontalis","orb_oculi","corrugator"]]]},
+
+cn7_zygomatic:{n:"Zygomatic branch of CN VII",sys:"nerve",w:"Zygomatic_branches_of_the_facial_nerve",wd:2.2,grp:"Facial nerve (motor)",
+ lat:["M346 400 C 320 380, 290 350, 255 332 C 235 322, 220 312, 205 304"],
+ sum:"Crosses the zygomatic bone to supply orbicularis oculi (lower part). Essential for eye closure.",
+ f:{t:"Close the eyes tightly; try to open them against resistance.",k:"Injury causes incomplete eye closure (lagophthalmos), with exposure keratitis risk. Protect the cornea."}},
+
+cn7_buccal:{n:"Buccal branch of CN VII",sys:"nerve",w:"Buccal_branches_of_the_facial_nerve",wd:2.2,grp:"Facial nerve (motor)",
+ lat:["M346 402 C 310 395, 260 392, 215 400 C 195 405, 175 412, 160 418"],
+ sum:"Runs forward with the parotid duct to buccinator, the upper lip muscles and the nasal muscles.",
+ f:{r:"Travels close to the parotid duct across masseter. Do not confuse with the buccal nerve of V3, which is sensory.",t:"Puff out the cheeks; show the upper teeth.",k:"Multiple interconnections with the zygomatic branch, so isolated injury often recovers."}},
+
+cn7_marginal:{n:"Marginal mandibular branch of CN VII",sys:"nerve",w:"Marginal_mandibular_branch_of_the_facial_nerve",wd:2.2,grp:"Facial nerve (motor)",
+ lat:["M346 404 C 340 440, 330 480, 300 505 C 280 515, 250 512, 225 497 C 205 486, 185 478, 165 475"],
+ sum:"Runs along or just below the inferior border of the mandible, crosses superficial to the facial vessels, and supplies the lower lip and chin muscles.",
+ f:{r:"Deep to platysma, superficial to the facial artery and vein where they cross the mandible. Can dip up to 1–2 cm below the border, especially with the neck extended.",t:"Show the lower teeth; pull the corners of the mouth down.",
+  k:"At risk in submandibular gland excision: make the incision 2 fingerbreadths (3–4 cm) below the mandible. Injury gives an asymmetric smile with the lower lip drawn up on the affected side."}},
+
+cn7_cervical:{n:"Cervical branch of CN VII",sys:"nerve",w:"Cervical_branch_of_the_facial_nerve",wd:2.2,grp:"Facial nerve (motor)",
+ lat:["M346 406 C 345 450, 340 500, 330 560"],
+ sum:"Leaves the lower pole of the parotid and descends to supply platysma.",
+ f:{t:"Grimace forcefully: the platysma stands out in the neck."}},
+
+post_auricular_n:{n:"Posterior auricular nerve (CN VII)",sys:"nerve",w:"Posterior_auricular_nerve",wd:2,grp:"Facial nerve (motor)",
+ lat:["M386 391 C 405 380, 425 362, 448 342 C 465 328, 480 312, 495 300"],
+ sum:"First extracranial branch of the facial nerve. Runs behind the ear to supply occipitalis and the posterior and superior auricular muscles."},
+
+/* ===================== NERVES: trigeminal ===================== */
+supraorbital_n:{n:"Supraorbital nerve (V1)",sys:"nerve",w:"Supraorbital_nerve",wd:2.4,grp:"Trigeminal (sensory)",
+ lat:["M179 251 C 186 206, 204 152, 234 86"],
+ ant:["M249 258 C 246 220, 242 180, 236 120"],
+ sum:"Larger terminal branch of the frontal nerve (V1). Exits the supraorbital notch and supplies the forehead and scalp back to the vertex.",
+ f:{o:"Frontal nerve, branch of the ophthalmic division (V1).",c:"Runs forward above levator palpebrae superioris, exits the supraorbital notch/foramen with its artery, divides into medial and lateral branches that ascend deep to frontalis and pierce it to reach the scalp.",s:"Upper eyelid, conjunctiva, frontal sinus, forehead and scalp up to the vertex.",p:"Supraorbital notch, medial third of the orbital margin; a vertical line through it passes the pupil, the infraorbital foramen and the mental foramen.",k:"Supraorbital nerve block for forehead lacerations. Pressure here tests a painful stimulus in GCS assessment. Shingles of V1 (herpes zoster ophthalmicus): look for Hutchinson's sign on the nose tip."},
+ steps:[[179,251,"Leaves the orbit through the supraorbital notch with its artery.",["f_supraorbital","supraorbital_a"]],
+  [192,190,"Divides into medial and lateral branches that ascend deep to frontalis, then pierce it.",["frontalis"]],
+  [234,86,"Supplies the forehead and scalp as far back as the vertex.",["d_v1"]]]},
+
+supratrochlear_n:{n:"Supratrochlear nerve (V1)",sys:"nerve",w:"Supratrochlear_nerve",wd:2,grp:"Trigeminal (sensory)",
+ lat:["M151 254 C 154 216, 159 180, 162 148"],
+ ant:["M277 260 C 276 222, 274 190, 272 152"],
+ sum:"Smaller branch of the frontal nerve (V1). Exits the orbit above the trochlea and supplies the medial forehead, medial upper eyelid and the bridge of the nose."},
+
+infratrochlear_n:{n:"Infratrochlear nerve (V1)",sys:"nerve",w:"Infratrochlear_nerve",wd:1.8,grp:"Trigeminal (sensory)",
+ lat:["M150 290 C 140 296, 132 302, 124 308"],
+ sum:"Branch of the nasociliary nerve (V1). Exits below the trochlea to supply the medial canthus, lacrimal sac and upper side of the nose."},
+
+external_nasal_n:{n:"External nasal nerve (V1)",sys:"nerve",w:"External_nasal_nerve",wd:1.8,grp:"Trigeminal (sensory)",
+ lat:["M98 326 C 90 334, 82 340, 74 346"],
+ sum:"Terminal branch of the anterior ethmoidal nerve (V1). Emerges between the nasal bone and lateral nasal cartilage to supply the skin of the nasal dorsum down to the tip.",
+ f:{k:"Hutchinson's sign: vesicles on the tip of the nose in shingles mean the nasociliary nerve is involved, so the eye is likely affected too."}},
+
+lacrimal_n:{n:"Lacrimal nerve (V1)",sys:"nerve",w:"Lacrimal_nerve",wd:1.8,grp:"Trigeminal (sensory)",
+ lat:["M206 268 C 212 262, 218 255, 223 248"],
+ sum:"Smallest branch of V1. Supplies the lateral upper eyelid and conjunctiva; carries postganglionic parasympathetic fibres to the lacrimal gland (from CN VII via the zygomatic nerve)."},
+
+infraorbital_n:{n:"Infraorbital nerve (V2)",sys:"nerve",w:"Infraorbital_nerve",wd:2.6,grp:"Trigeminal (sensory)",
+ lat:["~M240 336 C 216 334, 196 331, 172 328","M172 328 C 175 316, 178 306, 182 298","M172 328 C 156 336, 136 345, 115 352","M172 328 C 156 356, 136 380, 116 398"],
+ ant:["M255 335 C 255 322, 252 312, 249 304","M255 335 C 264 350, 272 364, 278 378","M255 335 C 257 368, 262 400, 268 430"],
+ sum:"Continuation of the maxillary nerve (V2). Runs through the floor of the orbit and emerges at the infraorbital foramen, fanning out to the lower lid, side of the nose and upper lip.",
+ f:{o:"Maxillary nerve (V2) in the pterygopalatine fossa.",c:"Enters the orbit through the inferior orbital fissure, runs in the infraorbital groove and canal in the orbital floor, emerges at the infraorbital foramen deep to levator labii superioris.",
+  b:"Middle and anterior superior alveolar nerves (upper premolar, canine and incisor teeth) inside the canal. On the face: palpebral, nasal and superior labial branches.",
+  s:"Lower eyelid, cheek, side of the nose, upper lip, upper anterior teeth and gums.",
+  p:"Infraorbital foramen: about 1 cm below the infraorbital margin, in line with the pupil.",
+  k:"Orbital floor (blow-out) fracture: numb cheek and upper lip, with diplopia on upward gaze from inferior rectus entrapment. Infraorbital block for upper-lip repair."},
+ steps:[[240,336,"The maxillary nerve leaves the pterygopalatine fossa and enters the orbit through the inferior orbital fissure as the infraorbital nerve.",[]],
+  [205,332,"Runs forward in the infraorbital groove and canal in the floor of the orbit, giving the middle and anterior superior alveolar nerves.",["infraorbital_a"]],
+  [172,328,"Emerges at the infraorbital foramen, deep to levator labii superioris.",["f_infraorbital","lls"]],
+  [130,385,"Fans out: palpebral (lower lid), nasal (side of nose), superior labial (upper lip).",["d_v2"]]]},
+
+zygomaticofacial_n:{n:"Zygomaticofacial nerve (V2)",sys:"nerve",w:"Zygomaticofacial_nerve",wd:1.6,grp:"Trigeminal (sensory)",
+ lat:["M214 322 C 211 330, 208 336, 204 343"],
+ sum:"Small branch of the zygomatic nerve (V2). Emerges from the zygomaticofacial foramen to supply the skin over the prominence of the cheek."},
+
+zygomaticotemporal_n:{n:"Zygomaticotemporal nerve (V2)",sys:"nerve",w:"Zygomaticotemporal_nerve",wd:1.6,grp:"Trigeminal (sensory)",
+ lat:["M238 302 C 245 286, 252 270, 260 252"],
+ sum:"Branch of the zygomatic nerve (V2). Emerges in the temporal fossa and pierces the temporal fascia to supply the hairless skin of the anterior temple. One of the four nerves of the scalp in front of the ear."},
+
+auriculotemporal_n:{n:"Auriculotemporal nerve (V3)",sys:"nerve",w:"Auriculotemporal_nerve",wd:2.2,grp:"Trigeminal (sensory)",
+ lat:["~M330 368 C 345 362, 360 356, 380 348","M380 348 C 384 320, 385 280, 383 230 C 382 200, 381 175, 379 150"],
+ sum:"Branch of the posterior division of V3. Runs behind the TMJ, emerges from the upper parotid and ascends behind the superficial temporal artery to the temple.",
+ f:{o:"Posterior division of the mandibular nerve (V3), by two roots that encircle the middle meningeal artery.",c:"Passes backward deep to lateral pterygoid, between the sphenomandibular ligament and the neck of the mandible, turns up through the upper part of the parotid behind the TMJ, crosses the root of the zygomatic arch behind the superficial temporal vessels.",
+  s:"Sensory to the tragus, upper auricle, external acoustic meatus, tympanic membrane, TMJ, temple and side of scalp. Carries parasympathetic secretomotor fibres from the otic ganglion (CN IX) to the parotid gland.",
+  k:"Frey syndrome after parotidectomy: severed parasympathetic fibres regrow into sweat glands of the skin, causing gustatory sweating and flushing over the cheek while eating. Pain from the TMJ and lower teeth can be referred to the ear through this nerve."},
+ steps:[[330,368,"Arises from the posterior division of V3 by two roots that encircle the middle meningeal artery; runs back deep to lateral pterygoid.",["middle_meningeal_a"]],
+  [372,352,"Passes behind the neck of the mandible and TMJ, through the upper parotid, giving secretomotor fibres to the gland (otic ganglion, CN IX).",["parotid","mandible"]],
+  [383,300,"Crosses the posterior root of the zygomatic arch just behind the superficial temporal artery and vein.",["sta","stv","zyg_arch"]],
+  [380,170,"Supplies the auricle, external acoustic meatus, tympanic membrane and the skin of the temple.",["d_v3"]]]},
+
+buccal_n:{n:"Buccal nerve (V3)",sys:"nerve",w:"Buccal_nerve",wd:2,grp:"Trigeminal (sensory)",
+ lat:["~M300 392 C 280 396, 262 400, 248 404","M248 404 C 230 410, 212 416, 192 422"],
+ sum:"Sensory branch of the anterior division of V3 (the only sensory branch of that division). Emerges between the two heads of lateral pterygoid, runs on buccinator and supplies the skin and mucosa of the cheek.",
+ f:{k:"It pierces buccinator but does not supply it: buccinator is supplied by the buccal branch of the facial nerve."}},
+
+mental_n:{n:"Mental nerve (V3)",sys:"nerve",w:"Mental_nerve",wd:2.2,grp:"Trigeminal (sensory)",
+ lat:["M176 470 C 160 462, 140 455, 120 448","M176 470 C 160 476, 142 485, 128 494"],
+ ant:["M260 480 C 268 472, 275 465, 283 459","M260 480 C 266 490, 274 498, 286 504"],
+ sum:"Terminal branch of the inferior alveolar nerve (V3). Leaves the mental foramen below the second premolar to supply the lower lip and chin.",
+ f:{p:"Mental foramen: below the second lower premolar, midway between the alveolar margin and the lower border of the mandible (in adults).",k:"Numb chin syndrome can be the first sign of metastatic disease or lymphoma involving the mandible or skull base."}},
+
+inf_alveolar_n:{n:"Inferior alveolar nerve (V3)",sys:"nerve",w:"Inferior_alveolar_nerve",wd:2,grp:"Trigeminal (sensory)",
+ lat:["~M326 368 C 322 392, 317 412, 312 430 C 285 458, 232 472, 176 472"],
+ sum:"Largest branch of the posterior division of V3. Enters the mandibular foramen, runs in the mandibular canal and ends as the mental and incisive nerves.",
+ f:{b:"Nerve to mylohyoid (motor to mylohyoid and anterior belly of digastric) before entering the foramen; dental branches; mental and incisive nerves.",k:"Inferior alveolar block: needle at the mandibular foramen (lingula), medial to the ramus. The lingual nerve is usually anaesthetised at the same time."}},
+
+/* ===================== NERVES: cervical plexus & dorsal rami ===================== */
+greater_occipital_n:{n:"Greater occipital nerve (C2)",sys:"nerve",w:"Greater_occipital_nerve",wd:2.4,grp:"Cervical nerves (scalp)",
+ lat:["M466 472 C 472 432, 474 400, 472 370 C 470 320, 466 270, 456 220 C 449 190, 441 165, 427 132"],
+ sum:"Medial branch of the dorsal ramus of C2. Supplies most of the back of the scalp up to the vertex.",
+ f:{o:"Dorsal ramus of C2.",c:"Emerges below the inferior oblique, curves round it, crosses the suboccipital triangle, ascends on semispinalis capitis, pierces semispinalis capitis and trapezius about 2 cm below and lateral to the external occipital protuberance.",r:"Runs with the occipital artery, the nerve being medial.",s:"Skin of the back of the scalp up to the vertex.",k:"Occipital neuralgia: shooting pain over the back of the head. Treated with a greater occipital nerve block medial to the occipital artery pulse."}},
+
+lesser_occipital_n:{n:"Lesser occipital nerve (C2)",sys:"nerve",w:"Lesser_occipital_nerve",wd:2,grp:"Cervical nerves (scalp)",
+ lat:["M420 525 C 425 482, 432 442, 440 402 C 446 370, 450 340, 452 298"],
+ sum:"Cervical plexus (ventral ramus of C2). Hooks round the accessory nerve and runs up the posterior border of SCM to the scalp behind the ear.",
+ f:{p:"Emerges at the nerve point of the neck (Erb's point), the midpoint of the posterior border of SCM.",s:"Scalp behind and above the ear, upper part of the back of the auricle."}},
+
+great_auricular_n:{n:"Great auricular nerve (C2, C3)",sys:"nerve",w:"Great_auricular_nerve",wd:2.4,grp:"Cervical nerves (scalp)",
+ lat:["M410 565 C 402 522, 394 472, 387 420 C 387 408, 389 398, 391 388","M394 470 C 378 470, 362 472, 346 470"],
+ sum:"Cervical plexus (C2, C3). Ascends obliquely across SCM toward the ear lobule and the angle of the mandible.",
+ f:{c:"Winds round the posterior border of SCM at the nerve point and ascends across the muscle, parallel to and behind the external jugular vein, beneath platysma.",s:"Skin over the parotid and angle of the mandible, the lobule and lower auricle, and the parotid sheath.",k:"The angle of the mandible is supplied by C2/C3, NOT by the trigeminal nerve. Useful to spot non-organic sensory loss and to remember why trigeminal neuralgia never involves the angle. Often sacrificed in parotidectomy (numb ear lobe). Used as a nerve graft."}},
+
+third_occipital_n:{n:"Third occipital nerve (C3)",sys:"nerve",w:"Third_occipital_nerve",wd:1.8,grp:"Cervical nerves (scalp)",
+ lat:["M484 486 C 487 460, 489 432, 490 404"],
+ sum:"Medial branch of the dorsal ramus of C3. Supplies a strip of skin of the lower occiput near the midline and the C2–3 facet joint."},
+
+/* ===================== MUSCLES OF FACIAL EXPRESSION ===================== */
+frontalis:{n:"Occipitofrontalis: frontal belly",sys:"muscle",ang:90,grp:"Scalp",w:"Occipitofrontalis_muscle",br:"Temporal",
+ lat:["M150 172 C 168 128, 206 100, 258 90 L 292 150 C 255 166, 218 200, 194 244 C 178 248, 160 249, 142 246 C 143 220, 146 194, 150 172 Z"],
+ ant:["M296 128 C 262 118, 222 128, 198 152 C 196 190, 200 225, 206 252 C 230 246, 262 250, 290 262 L 296 262 Z"],
+ sum:"Raises the eyebrows and wrinkles the forehead. Has no bony origin.",
+ f:{o:"Galea aponeurotica.",i:"Skin and superficial fascia of the eyebrows; blends with orbicularis oculi and procerus.",a:"Raises the eyebrows, wrinkles the forehead transversely (surprise); with occipitalis, moves the scalp.",n:"Temporal branch of the facial nerve.",t:"Ask the patient to look up and wrinkle the forehead.",k:"In UMN (stroke) palsy the forehead is spared because its motor neurons receive bilateral cortical input; in LMN (Bell's) palsy the whole half of the face, forehead included, is paralysed."}},
+
+occipitalis:{n:"Occipitofrontalis: occipital belly",sys:"muscle",ang:80,grp:"Scalp",w:"Occipitofrontalis_muscle",br:"Posterior auricular",
+ lat:["M488 152 C 512 190, 528 240, 532 292 L 506 302 C 500 262, 490 222, 470 186 Z"],
+ sum:"Pulls the scalp backward. Anchors the galea aponeurotica behind.",
+ f:{o:"Lateral two-thirds of the superior nuchal line and mastoid part of the temporal bone.",i:"Galea aponeurotica.",a:"Pulls the scalp back; steadies the galea so frontalis can act.",n:"Posterior auricular branch of the facial nerve."}},
+
+galea:{n:"Galea aponeurotica",sys:"muscle",ang:0,grp:"Scalp",w:"Epicranial_aponeurosis",br:"(aponeurosis)",flat:true,
+ lat:["M258 90 C 330 58, 432 70, 488 152 L 470 186 C 424 126, 344 104, 292 150 Z"],
+ ant:["M300 66 C 240 66, 200 95, 196 150 C 222 126, 262 118, 300 126 Z"],
+ sum:"The tough aponeurosis (layer A of the scalp) joining the frontal and occipital bellies.",
+ f:{o:"Between frontalis and occipitalis; laterally thins into the temporal fascia.",i:"Bound tightly to the skin above by the dense connective tissue; separated from the pericranium below by loose areolar tissue.",a:"Transmits the pull of the two bellies.",n:"(Aponeurosis, no nerve.)",k:"A scalp wound only gapes if the galea is cut, especially transversely, because the bellies pull the edges apart. Close the galea in deep scalp wounds."}},
+
+auricularis:{n:"Auricular muscles",sys:"muscle",ang:0,grp:"Ear",w:"Auricular_muscles",br:"Temporal + posterior auricular",
+ lat:["M346 302 L 375 309 L 372 321 L 342 315 Z","M398 244 L 414 282 L 396 284 Z","M438 336 L 462 328 L 464 342 L 440 348 Z"],
+ sum:"Anterior, superior and posterior auricular muscles. Vestigial in humans.",
+ f:{o:"Anterior: temporal fascia. Superior: galea aponeurotica. Posterior: mastoid process.",i:"Auricle.",a:"Move the auricle slightly (some people can wiggle their ears).",n:"Anterior and superior: temporal branch. Posterior: posterior auricular nerve."}},
+
+orb_oculi:{n:"Orbicularis oculi",sys:"muscle",ang:0,grp:"Orbit",w:"Orbicularis_oculi_muscle",br:"Temporal + zygomatic",
+ lat:[ring(182,286,38,32,22,10)],
+ ant:[ring(245,292,54,44,30,13)],
+ sum:"Sphincter of the eyelids. Orbital part closes the eye tightly; palpebral part blinks; lacrimal part drains tears.",
+ f:{o:"Orbital part: nasal part of the frontal bone, frontal process of the maxilla, medial palpebral ligament. Palpebral part: medial palpebral ligament. Lacrimal part: posterior lacrimal crest.",
+  i:"Orbital part: encircles the orbit and returns to its origin. Palpebral part: lateral palpebral raphe. Lacrimal part: lateral palpebral raphe and tarsal plates.",
+  a:"Palpebral: gentle closure (blinking, sleep). Orbital: forced closure (squinting). Lacrimal: dilates the lacrimal sac and draws the puncta medially to drain tears.",
+  n:"Temporal (upper part) and zygomatic (lower part) branches of the facial nerve.",t:"Close the eyes tightly; try to prise them open. Bell's phenomenon: in palsy the eyeball rolls up when the patient tries to close the eye.",
+  k:"Paralysis: cannot close the eye, lower lid falls away (ectropion), tears spill onto the cheek (epiphora), cornea dries. Tape or patch the eye at night."}},
+
+corrugator:{n:"Corrugator supercilii",sys:"muscle",ang:15,grp:"Orbit",w:"Corrugator_supercilii_muscle",br:"Temporal",
+ lat:["M128 262 C 145 254, 165 250, 186 250 L 186 257 C 166 258, 146 262, 130 270 Z"],
+ ant:["M290 268 C 275 262, 255 256, 238 256 L 240 263 C 258 264, 274 270, 288 276 Z"],
+ sum:"Draws the eyebrows down and medially: the frowning muscle.",
+ f:{o:"Medial end of the superciliary arch.",i:"Skin of the middle of the eyebrow.",a:"Pulls the eyebrows medially and down, producing vertical frown lines (glabellar lines).",n:"Temporal branch of the facial nerve.",t:"Frown.",k:"A target for botulinum toxin for glabellar lines. The supratrochlear nerve passes through or near it: a cause of migraine trigger-point treatment."}},
+
+procerus:{n:"Procerus",sys:"muscle",ang:90,grp:"Nose",w:"Procerus_muscle",br:"Buccal (and temporal)",
+ lat:["M117 268 L 131 266 L 128 302 L 111 304 Z"],
+ ant:["M290 258 L 301 258 L 301 316 L 292 316 Z"],
+ sum:"Pulls the medial eyebrow down, making transverse wrinkles over the bridge of the nose.",
+ f:{o:"Fascia over the nasal bone and upper lateral nasal cartilage.",i:"Skin between the eyebrows.",a:"Draws down the medial angle of the eyebrows; transverse wrinkles at the root of the nose (frowning in bright light, disgust).",n:"Buccal branches (some texts: temporal) of the facial nerve.",t:"Wrinkle the bridge of the nose."}},
+
+nasalis:{n:"Nasalis",sys:"muscle",ang:30,grp:"Nose",w:"Nasalis_muscle",br:"Buccal",
+ lat:["M84 330 C 95 320, 110 318, 118 330 L 112 350 C 100 352, 90 350, 84 344 Z"],
+ ant:["M282 340 C 290 335, 298 336, 301 338 L 301 356 C 292 356, 284 360, 276 372 C 274 360, 276 348, 282 340 Z"],
+ sum:"Transverse part compresses the nostril; alar part flares it.",
+ f:{o:"Maxilla over the canine and incisor teeth.",i:"Transverse part: aponeurosis over the nasal dorsum. Alar part: alar cartilage.",a:"Compresses (transverse) or widens (alar) the nasal aperture.",n:"Buccal branch of the facial nerve.",t:"Flare the nostrils."}},
+
+llsan:{n:"Levator labii superioris alaeque nasi",sys:"muscle",ang:80,grp:"Mouth",w:"Levator_labii_superioris_alaeque_nasi_muscle",br:"Zygomatic + buccal",
+ lat:["M136 300 L 146 302 L 129 396 L 118 393 Z"],
+ ant:["M288 300 L 296 304 L 284 384 L 276 430 L 268 430 L 274 384 Z"],
+ sum:"Raises the upper lip and flares the nostril (the 'Elvis sneer').",
+ f:{o:"Frontal process of the maxilla.",i:"Alar cartilage and skin of the nose; upper lip.",a:"Elevates the upper lip and dilates the nostril.",n:"Zygomatic and buccal branches of the facial nerve.",t:"Sneer.",k:"Has the longest name of any muscle in the body. The angular vessels lie in or near it."}},
+
+lls:{n:"Levator labii superioris",sys:"muscle",ang:80,grp:"Mouth",w:"Levator_labii_superioris",br:"Zygomatic + buccal",
+ lat:["M160 322 L 181 325 L 141 401 L 129 398 Z"],
+ ant:["M245 334 L 268 334 L 276 432 L 262 432 Z"],
+ sum:"Elevates and everts the upper lip. Covers the infraorbital foramen.",
+ f:{o:"Infraorbital margin of the maxilla, just above the infraorbital foramen.",i:"Upper lip.",a:"Raises the upper lip; deepens the nasolabial fold (sadness).",n:"Zygomatic and buccal branches of the facial nerve.",t:"Show the upper teeth.",k:"The infraorbital nerve and vessels emerge deep to it."}},
+
+zyg_minor:{n:"Zygomaticus minor",sys:"muscle",ang:65,grp:"Mouth",w:"Zygomaticus_minor_muscle",br:"Zygomatic + buccal",
+ lat:["M205 330 L 216 337 L 145 406 L 136 400 Z"],
+ ant:["M218 338 L 232 334 L 264 434 L 254 436 Z"],
+ sum:"Elevates the upper lip, deepening the nasolabial fold.",
+ f:{o:"Zygomatic bone, anterior to zygomaticus major.",i:"Upper lip.",a:"Raises the upper lip; shows the upper teeth (smiling, sadness).",n:"Zygomatic and buccal branches of the facial nerve.",t:"Show the upper teeth."}},
+
+zyg_major:{n:"Zygomaticus major",sys:"muscle",ang:55,grp:"Mouth",w:"Zygomaticus_major_muscle",br:"Zygomatic + buccal",
+ lat:["M228 340 L 241 350 L 151 426 L 140 418 Z"],
+ ant:["M190 342 L 204 336 L 256 440 L 246 446 Z"],
+ sum:"The smiling muscle. Draws the angle of the mouth up and back.",
+ f:{o:"Lateral surface of the zygomatic bone, in front of the zygomaticotemporal suture.",i:"Modiolus at the angle of the mouth.",a:"Draws the angle of the mouth upward and laterally (smiling, laughing).",n:"Zygomatic and buccal branches of the facial nerve.",t:"Smile broadly.",k:"A bifid zygomaticus major produces a cheek dimple. The facial artery and vein pass deep to it."}},
+
+lao:{n:"Levator anguli oris",sys:"muscle",ang:80,grp:"Mouth",w:"Levator_anguli_oris",br:"Buccal",deep:true,
+ lat:["M165 360 L 176 362 L 149 418 L 138 414 Z"],
+ ant:["M262 372 L 272 372 L 256 444 L 248 442 Z"],
+ sum:"Deep muscle that raises the angle of the mouth.",
+ f:{o:"Canine fossa of the maxilla, below the infraorbital foramen.",i:"Modiolus at the angle of the mouth.",a:"Elevates the angle of the mouth (deepens the nasolabial furrow).",n:"Buccal branch of the facial nerve.",t:"Smile.",k:"The infraorbital nerve and vessels lie between it (deep) and levator labii superioris (superficial)."}},
+
+risorius:{n:"Risorius",sys:"muscle",ang:0,grp:"Mouth",w:"Risorius",br:"Buccal",
+ lat:["M238 420 L 240 433 L 146 428 L 147 420 Z"],
+ ant:["M188 440 C 210 436, 230 440, 248 444 L 248 452 C 228 452, 208 454, 190 456 Z"],
+ sum:"Retracts the angle of the mouth laterally (grimace).",
+ f:{o:"Parotid fascia and fascia over masseter.",i:"Modiolus at the angle of the mouth.",a:"Pulls the angle of the mouth laterally (grinning, grimacing).",n:"Buccal branch of the facial nerve.",t:"Grin with closed lips."}},
+
+buccinator:{n:"Buccinator",sys:"muscle",ang:0,grp:"Mouth",w:"Buccinator",br:"Buccal",deep:true,
+ lat:["M150 395 L 250 386 L 252 452 L 150 442 Z"],
+ ant:["M200 400 C 220 395, 240 405, 252 425 L 252 466 C 238 470, 218 470, 202 462 Z"],
+ sum:"Muscle of the cheek. Keeps food between the teeth and presses the cheek against the teeth when blowing.",
+ f:{o:"Outer surfaces of the alveolar processes of the maxilla and mandible opposite the molars, and the pterygomandibular raphe.",i:"Modiolus and orbicularis oris; fibres decussate at the angle of the mouth.",a:"Compresses the cheek against the teeth (chewing, blowing, whistling, sucking).",n:"Buccal branch of the facial nerve (NOT the buccal nerve of V3, which only pierces it).",t:"Puff out the cheeks, then tap them: air leaks on the weak side.",
+  k:"The parotid duct pierces it opposite the upper 2nd molar. In facial palsy food collects in the vestibule between cheek and gum."}},
+
+orb_oris:{n:"Orbicularis oris",sys:"muscle",ang:0,grp:"Mouth",w:"Orbicularis_oris_muscle",br:"Buccal + marginal mandibular",mid:true,
+ lat:[ring(120,421,27,30,14,3)],
+ ant:[ring(300,448,62,34,34,4)],
+ sum:"Sphincter of the mouth. Closes and protrudes the lips.",
+ f:{o:"Maxilla and mandible near the midline, and fibres from buccinator and other muscles converging at the modiolus.",i:"Skin and mucous membrane of the lips.",a:"Closes the lips, compresses and protrudes them (kissing, whistling, speech).",n:"Buccal and marginal mandibular branches of the facial nerve.",t:"Whistle; press the lips together against resistance.",
+  k:"The labial arteries run between it and the mucosa. Weakness causes drooling and difficulty with labial consonants (p, b, m)."}},
+
+dao:{n:"Depressor anguli oris",sys:"muscle",ang:70,grp:"Mouth",w:"Depressor_anguli_oris_muscle",br:"Marginal mandibular + buccal",
+ lat:["M141 426 L 153 431 L 191 506 L 150 509 Z"],
+ ant:["M246 452 L 256 456 L 262 512 L 222 498 Z"],
+ sum:"Pulls the angle of the mouth down (sadness).",
+ f:{o:"Oblique line of the mandible.",i:"Modiolus at the angle of the mouth.",a:"Depresses the angle of the mouth (frowning, sadness).",n:"Marginal mandibular and buccal branches of the facial nerve.",t:"Pull the corners of the mouth down."}},
+
+dli:{n:"Depressor labii inferioris",sys:"muscle",ang:75,grp:"Mouth",w:"Depressor_labii_inferioris_muscle",br:"Marginal mandibular",
+ lat:["M118 440 L 132 442 L 160 506 L 135 508 Z"],
+ ant:["M262 462 L 280 462 L 288 515 L 268 515 Z"],
+ sum:"Pulls the lower lip down and laterally.",
+ f:{o:"Oblique line of the mandible, between the symphysis and the mental foramen.",i:"Skin of the lower lip.",a:"Depresses and everts the lower lip (pouting, irony).",n:"Marginal mandibular branch of the facial nerve.",t:"Show the lower teeth.",k:"Marginal mandibular nerve injury paralyses it: asymmetric smile, lower lip cannot be pulled down on that side."}},
+
+mentalis:{n:"Mentalis",sys:"muscle",ang:90,grp:"Mouth",w:"Mentalis_muscle",br:"Marginal mandibular",
+ lat:["M111 458 L 125 460 L 132 500 L 119 502 Z"],
+ ant:["M288 470 L 301 470 L 301 515 L 292 515 Z"],
+ sum:"Raises and wrinkles the skin of the chin; protrudes the lower lip (pouting, doubt).",
+ f:{o:"Incisive fossa of the mandible.",i:"Skin of the chin.",a:"Elevates and protrudes the lower lip; wrinkles the chin.",n:"Marginal mandibular branch of the facial nerve.",t:"Pout."}},
+
+platysma:{n:"Platysma",sys:"muscle",ang:100,grp:"Neck",w:"Platysma",br:"Cervical",flat:true,
+ lat:["M150 512 C 200 502, 280 492, 332 482 L 372 720 L 262 720 C 262 640, 258 570, 236 525 Z"],
+ ant:["M222 492 C 245 515, 270 528, 300 532 L 300 720 L 222 720 C 230 640, 236 560, 222 492 Z"],
+ sum:"Thin sheet in the superficial fascia of the neck. Tenses the neck skin and pulls the lower lip and mouth angle down.",
+ f:{o:"Fascia over the upper pectoralis major and deltoid.",i:"Inferior border of the mandible, skin of the lower face, modiolus.",a:"Tenses the skin of the neck (grimace, sudden fear); depresses the mandible and the angle of the mouth.",n:"Cervical branch of the facial nerve.",t:"Grimace with clenched teeth.",k:"Close it as a separate layer in neck incisions to give a neat scar. The EJV and cutaneous nerves lie deep to it."}},
+
+/* ===================== OTHER MUSCLES & GLANDS (landmarks) ===================== */
+temporalis:{n:"Temporalis (mastication)",sys:"ref",ang:85,grp:"Landmarks",w:"Temporalis_muscle",br:"V3",deep:true,
+ lat:["M250 212 C 300 176, 380 182, 410 230 C 420 262, 400 292, 360 302 L 300 318 L 262 312 C 242 290, 236 240, 250 212 Z"],
+ ant:["M165 200 L 190 200 L 195 330 L 170 330 Z"],
+ sum:"Muscle of mastication in the temporal fossa, deep to the temporal fascia. Supplied by V3, not CN VII.",
+ f:{o:"Floor of the temporal fossa and temporal fascia.",i:"Coronoid process and anterior border of the ramus of the mandible.",a:"Elevates (anterior fibres) and retracts (posterior fibres) the mandible.",n:"Deep temporal nerves (anterior division of V3).",t:"Clench the teeth and feel the temple."}},
+
+masseter:{n:"Masseter (mastication)",sys:"ref",ang:80,grp:"Landmarks",w:"Masseter_muscle",br:"V3",deep:true,
+ lat:["M228 322 L 362 324 C 360 380, 355 430, 350 468 C 320 480, 285 490, 252 500 C 245 440, 238 380, 228 322 Z"],
+ ant:["M168 345 L 192 342 L 214 478 L 196 478 C 182 440, 172 395, 168 345 Z"],
+ sum:"Muscle of mastication over the ramus. Its anterior border is where you feel the facial artery and where the parotid duct turns in.",
+ f:{o:"Zygomatic arch and maxillary process of the zygomatic bone.",i:"Lateral surface of the ramus and angle of the mandible.",a:"Elevates the mandible (closes the jaw).",n:"Masseteric nerve (anterior division of V3).",t:"Clench the teeth: the anterior border becomes a palpable ridge.",
+  k:"Landmark: the facial artery pulse is felt where its anterior border meets the lower border of the mandible; the parotid duct turns medially round its anterior border."}},
+
+scm:{n:"Sternocleidomastoid",sys:"ref",ang:60,grp:"Landmarks",w:"Sternocleidomastoid_muscle",br:"CN XI",
+ lat:["M408 388 C 424 394, 434 406, 432 422 C 402 502, 342 602, 304 720 L 262 720 C 300 600, 360 492, 394 410 Z"],
+ sum:"Key landmark of the neck. Its posterior border at its midpoint is the nerve point (Erb's point) where the cutaneous branches of the cervical plexus emerge.",
+ f:{o:"Manubrium of sternum and medial third of the clavicle.",i:"Mastoid process and lateral half of the superior nuchal line.",a:"One side: tilts the head to the same side and turns the face to the opposite side. Both: flex the neck.",n:"Spinal accessory nerve (CN XI); proprioception from C2–C3."}},
+
+digastric_post:{n:"Digastric: posterior belly",sys:"ref",ang:40,grp:"Landmarks",w:"Digastric_muscle",br:"CN VII",
+ lat:["M400 410 C 360 440, 300 500, 260 552 L 252 545 C 290 494, 350 430, 392 400 Z"],
+ sum:"The 'key landmark' of the upper neck. Most major vessels and nerves pass deep to it; the facial nerve supplies it.",
+ f:{o:"Mastoid notch of the temporal bone.",i:"Intermediate tendon, held to the hyoid by a fibrous sling.",a:"Raises the hyoid; helps open the mouth.",n:"Facial nerve (posterior belly). The anterior belly is supplied by the nerve to mylohyoid (V3).",
+  k:"Structures deep to it: ECA, ICA, IJV, CN IX–XII. The facial and occipital arteries begin near it. Occipital artery runs along its lower border; posterior auricular along its upper border."}},
+
+parotid:{n:"Parotid gland",sys:"ref",ang:0,grp:"Landmarks",w:"Parotid_gland",br:"Gland",
+ lat:["M335 330 C 360 325, 385 335, 392 360 C 398 400, 380 440, 358 472 C 345 480, 334 472, 335 460 C 340 420, 335 382, 330 350 Z"],
+ sum:"Largest salivary gland, wedged between the ramus of the mandible and the mastoid. Three structures pass through it.",
+ f:{r:"Through the gland, superficial to deep: facial nerve and its branches → retromandibular vein → external carotid artery. Also the auriculotemporal nerve in its upper part, and the intraparotid lymph nodes.",
+  n:"Secretomotor: CN IX → tympanic nerve → lesser petrosal nerve → otic ganglion → auriculotemporal nerve. Sensory to the capsule: great auricular nerve.",
+  k:"Mumps or parotitis is very painful because the dense parotid fascia (from the investing layer) cannot stretch. A parotid tumour with facial palsy suggests malignancy."}},
+
+parotid_duct:{n:"Parotid (Stensen's) duct",sys:"ref",grp:"Landmarks",w:"Parotid_duct",br:"Duct",line:true,
+ lat:["M335 360 C 300 362, 270 365, 250 368 C 245 372, 240 378, 238 386"],
+ sum:"Runs forward across masseter about a fingerbreadth below the zygomatic arch, turns round its anterior border and pierces buccinator to open opposite the upper 2nd molar.",
+ f:{p:"Surface marking: middle third of a line from the tragus to the midpoint between the ala of the nose and the upper lip. Roll it against the clenched masseter.",r:"Accompanied by the buccal branches of the facial nerve and the transverse facial artery above it.",k:"Cheek lacerations along this line may cut the duct (salivary fistula) and the buccal branch of CN VII."}},
+
+submand_gland:{n:"Submandibular gland",sys:"ref",grp:"Landmarks",w:"Submandibular_gland",br:"Gland",
+ lat:[oval(276,522,30,15)],
+ sum:"Salivary gland in the digastric triangle. The facial artery grooves its posterior and upper surface; the facial vein runs superficial to it.",
+ f:{k:"Excision risks the marginal mandibular branch of CN VII (stay low and deep to the fascia), lingual nerve and hypoglossal nerve."}},
+
+/* ===================== BONE & FORAMINA ===================== */
+skull:{n:"Cranium",sys:"bone",grp:"Bone & foramina",w:"Skull",
+ lat:["M152 262 C 148 190, 210 80, 330 72 C 430 70, 500 120, 525 190 C 540 240, 538 300, 520 350 C 508 385, 480 405, 440 405 L 420 400 C 412 380, 405 365, 395 352 L 368 336 L 250 332 C 230 345, 205 352, 190 352 C 175 362, 160 382, 150 398 L 138 398 C 126 384, 118 372, 108 365 C 110 340, 124 302, 132 286 C 136 276, 145 268, 152 262 Z"],
+ sum:"The bony vault and face. Layer 5 of the scalp, the pericranium, is its periosteum."},
+mandible:{n:"Mandible",sys:"bone",grp:"Bone & foramina",w:"Mandible",
+ lat:["M366 330 C 373 335, 373 346, 367 352 C 361 390, 357 430, 352 470 C 340 480, 300 490, 255 500 C 210 508, 172 512, 141 508 C 127 500, 119 488, 119 470 L 123 430 L 141 432 C 200 430, 260 420, 300 400 C 314 390, 320 376, 326 360 L 340 352 C 346 344, 353 334, 366 330 Z"],
+ sum:"Its inferior border, angle and ramus are the landmarks for the facial artery, vein, marginal mandibular nerve, and parotid gland."},
+zyg_arch:{n:"Zygomatic bone & arch",sys:"bone",grp:"Bone & foramina",w:"Zygomatic_arch",
+ lat:["M215 318 C 260 312, 320 318, 368 324 L 368 334 C 320 330, 260 326, 215 332 Z","M200 300 C 215 300, 228 310, 230 330 L 205 345 C 195 335, 192 315, 200 300 Z"],
+ sum:"Palpable bar from the cheek to the front of the ear. The temporal branch of CN VII crosses it superficially; the superficial temporal artery and auriculotemporal nerve cross its posterior root."},
+mastoid:{n:"Mastoid process",sys:"bone",grp:"Bone & foramina",w:"Mastoid_part_of_the_temporal_bone",
+ lat:["M404 378 C 416 384, 422 400, 413 416 C 405 420, 397 410, 397 394 Z"],
+ sum:"Attachment of SCM. The stylomastoid foramen, where the facial nerve exits, lies just in front and medial to it.",
+ f:{k:"Absent at birth (develops in the first 2 years), so the facial nerve is superficial in infants."}},
+f_supraorbital:{n:"Supraorbital notch / foramen",sys:"bone",grp:"Bone & foramina",w:"Supraorbital_foramen",pt:true,
+ lat:[oval(181,252,4.5,4.5)],ant:[oval(251,258,4.5,4.5)],
+ sum:"Junction of medial third and lateral two-thirds of the supraorbital margin. Transmits the supraorbital nerve and vessels.",
+ f:{p:"On a vertical line through the pupil, with the infraorbital and mental foramina."}},
+f_infraorbital:{n:"Infraorbital foramen",sys:"bone",grp:"Bone & foramina",w:"Infraorbital_foramen",pt:true,
+ lat:[oval(172,327,4.5,4.5)],ant:[oval(255,335,4.5,4.5)],
+ sum:"About 1 cm below the infraorbital margin in line with the pupil. Transmits the infraorbital nerve and vessels."},
+f_mental:{n:"Mental foramen",sys:"bone",grp:"Bone & foramina",w:"Mental_foramen",pt:true,
+ lat:[oval(176,470,4.5,4.5)],ant:[oval(260,480,4.5,4.5)],
+ sum:"Below the lower 2nd premolar. Transmits the mental nerve and vessels.",
+ f:{k:"Position changes with age: near the lower border in infants, mid-height in adults, near the alveolar margin after tooth loss in the elderly."}},
+f_stylomastoid:{n:"Stylomastoid foramen",sys:"bone",grp:"Bone & foramina",w:"Stylomastoid_foramen",pt:true,
+ lat:[oval(390,390,4.5,4.5)],
+ sum:"Between the styloid and mastoid processes. The facial nerve leaves the skull here; the stylomastoid artery enters."},
+
+/* ===================== SENSORY TERRITORIES ===================== */
+d_v1:{n:"Ophthalmic division (V1) territory",sys:"derm",grp:"Sensory territories",w:"Ophthalmic_nerve",col:"#7B61FF",
+ lat:["M330 58 C 230 55, 160 100, 145 170 C 138 205, 130 235, 122 255 C 118 262, 120 268, 118 272 C 110 300, 90 325, 70 345 C 64 352, 68 362, 80 365 L 112 300 L 150 290 L 210 268 L 255 225 C 290 170, 330 110, 360 60 Z"],
+ ant:["M300 50 C 220 50, 160 110, 160 205 C 175 240, 205 262, 245 268 C 265 273, 280 285, 286 300 L 292 385 L 302 395 L 302 50 Z"],
+ sum:"Forehead, scalp to the vertex, upper eyelid, cornea and conjunctiva, and the dorsum of the nose to its tip.",
+ f:{b:"Supraorbital, supratrochlear, infratrochlear, lacrimal, external nasal nerves.",k:"Corneal reflex: afferent V1 (nasociliary), efferent CN VII. Herpes zoster ophthalmicus follows this territory."}},
+d_v2:{n:"Maxillary division (V2) territory",sys:"derm",grp:"Sensory territories",w:"Maxillary_nerve",col:"#1FA37A",
+ lat:["M80 365 C 90 368, 100 372, 104 378 C 100 390, 98 398, 100 405 C 104 412, 110 415, 108 420 L 160 420 L 230 355 L 268 290 L 255 225 L 210 268 L 150 290 L 112 300 Z"],
+ ant:["M160 205 C 158 260, 160 300, 168 340 C 190 360, 215 400, 245 432 L 302 432 L 302 395 L 292 385 L 286 300 C 280 285, 265 273, 245 268 C 205 262, 175 240, 160 205 Z"],
+ sum:"Lower eyelid, cheek, side of the nose (ala), upper lip, and the anterior temple.",
+ f:{b:"Infraorbital, zygomaticofacial, zygomaticotemporal nerves."}},
+d_v3:{n:"Mandibular division (V3) territory",sys:"derm",grp:"Sensory territories",w:"Mandibular_nerve",col:"#E07A1F",
+ lat:["M108 420 C 104 428, 100 436, 104 444 C 110 452, 116 458, 114 466 C 110 480, 116 500, 132 512 C 150 524, 180 520, 205 515 L 255 505 L 300 485 L 340 440 L 362 370 L 375 330 L 390 230 L 400 58 L 360 60 C 330 110, 290 170, 255 225 L 268 290 L 230 355 L 160 420 Z"],
+ ant:["M168 340 C 172 380, 185 420, 205 458 C 225 490, 260 520, 302 532 L 302 432 L 245 432 C 215 400, 190 360, 168 340 Z"],
+ sum:"Lower lip, chin, lower jaw (except the angle), cheek over buccinator, and a strip of skin in front of the ear running up to the temporal scalp.",
+ f:{b:"Mental, buccal, auriculotemporal nerves.",k:"The angle of the mandible is NOT V3: it is great auricular (C2, C3)."}},
+d_c23:{n:"Great auricular (C2, C3) territory",sys:"derm",grp:"Sensory territories",w:"Great_auricular_nerve",col:"#D94F8A",
+ lat:["M255 505 L 300 485 L 340 440 L 362 370 L 395 400 L 410 470 L 380 560 L 258 560 C 255 540, 250 520, 205 515 Z"],
+ ant:["M168 380 C 175 420, 188 452, 206 478 L 180 482 C 170 450, 166 415, 168 380 Z","M206 478 C 230 505, 262 524, 302 532 L 302 720 L 222 720 C 232 640, 236 560, 206 478 Z"],
+ sum:"Angle of the mandible, skin over the parotid, the ear lobe and the neck (C2, C3 via great auricular and transverse cervical nerves)."},
+d_lo:{n:"Lesser occipital (C2) territory",sys:"derm",grp:"Sensory territories",w:"Lesser_occipital_nerve",col:"#8C6BB1",
+ lat:["M390 230 L 375 330 L 395 400 L 440 420 L 470 330 L 455 230 Z"],
+ sum:"Scalp behind and above the ear."},
+d_go:{n:"Greater (C2) & third (C3) occipital territory",sys:"derm",grp:"Sensory territories",w:"Greater_occipital_nerve",col:"#2B8CBE",
+ lat:["M400 58 L 390 230 L 455 230 L 470 330 L 440 420 L 476 520 C 486 470, 520 430, 535 370 C 552 300, 545 220, 505 150 C 470 90, 410 58, 400 58 Z"],
+ sum:"Back of the scalp up to the vertex (greater occipital, C2 dorsal ramus) and the lower occiput near the midline (third occipital, C3)."}
+};
+
+// order of the trace-able pathways for the course-ordering game
+const ORDER_PATHS = ["facial_a","sta","occipital_a","maxillary_a","eca","facial_v","rmv","stv","angular_v","cn7","infraorbital_n","auriculotemporal_n","supraorbital_a","supraorbital_n","post_auricular_a"];
+
+// ================= utilities =================
+const NS = "http://www.w3.org/2000/svg";
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+function sv(tag, attrs = {}, parent) {
+  const e = document.createElementNS(NS, tag);
+  for (const k in attrs) {
+    if (k === "style") Object.assign(e.style, attrs.style);
+    else if (k === "text") e.textContent = attrs.text;
+    else e.setAttribute(k, attrs[k]);
+  }
+  if (parent) parent.appendChild(e);
+  return e;
+}
+function h(tag, attrs = {}, html) {
+  const e = document.createElement(tag);
+  for (const k in attrs) e.setAttribute(k, attrs[k]);
+  if (html != null) e.innerHTML = html;
+  return e;
+}
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const store = {
+  get(k, d) { try { const v = localStorage.getItem("fst:" + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
+  set(k, v) { try { localStorage.setItem("fst:" + k, JSON.stringify(v)); } catch (e) {} }
+};
+const reduceMotion = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+// mirror an absolute path (M L C A Z) across x = 300
+function mirrorPath(d, W = 600) {
+  const toks = d.match(/[MLCAZ]|-?\d*\.?\d+/g);
+  const out = []; let cmd = null, args = [];
+  const counts = { M: 2, L: 2, C: 6, A: 7, Z: 0 };
+  const flush = () => {
+    if (!cmd || !args.length) return;
+    if (cmd === "A") { args[4] = 1 - +args[4]; args[5] = W - args[5]; }
+    else if (cmd !== "Z") for (let i = 0; i < args.length; i += 2) args[i] = W - args[i];
+    out.push(cmd + args.join(" "));
+  };
+  for (const t of toks) {
+    if (/[MLCAZ]/.test(t)) { flush(); cmd = t; args = []; if (t === "Z") { out.push("Z"); cmd = null; } }
+    else { args.push(+t); if (args.length === counts[cmd]) { flush(); args = []; } }
+  }
+  return out.join(" ");
+}
+
+const SYS = {
+  artery: { label: "Artery", col: "var(--artery)", dk: "var(--artery-dk)" },
+  vein: { label: "Vein", col: "var(--vein)", dk: "var(--vein-dk)" },
+  nerve: { label: "Nerve", col: "var(--nerve)", dk: "var(--nerve-dk)" },
+  muscle: { label: "Muscle of facial expression", col: "var(--muscle)", dk: "var(--muscle-dk)" },
+  ref: { label: "Landmark muscle / gland", col: "var(--gland)", dk: "var(--bone-dk)" },
+  bone: { label: "Bone / foramen", col: "var(--bone)", dk: "var(--bone-dk)" },
+  derm: { label: "Sensory territory", col: "var(--accent)", dk: "var(--accent)" }
+};
+const FIELD = {
+  o: "Origin", c: "Course", r: "Relations", b: "Branches", e: "Termination", s: "Supplies",
+  p: "Palpate / surface marking", i: "Insertion", a: "Action", n: "Nerve supply", t: "Test it at the bedside", k: "Clinical"
+};
+function fieldLabel(key, sys) {
+  if (sys === "vein") return { b: "Tributaries / connections", s: "Drains", e: "Ends in", o: "Formed by" }[key] || FIELD[key];
+  if (sys === "nerve") return { s: "Innervates / skin supplied", o: "Arises from" }[key] || FIELD[key];
+  if (sys === "derm") return { b: "Nerves" }[key] || FIELD[key];
+  return FIELD[key];
+}
+
+// ================= head drawings (skin layer) =================
+const LAT_HEAD = "M330 58 C 230 55, 160 100, 145 170 C 138 205, 130 235, 122 255 C 118 262, 120 268, 118 272 C 110 300, 90 325, 70 345 C 64 352, 68 362, 80 365 C 90 368, 100 372, 104 378 C 100 390, 98 398, 100 405 C 104 412, 110 415, 108 420 C 104 428, 100 436, 104 444 C 110 452, 116 458, 114 466 C 110 480, 116 500, 132 512 C 150 524, 180 520, 205 515 C 235 510, 250 520, 255 540 C 262 580, 262 640, 258 720 L 478 720 C 470 640, 468 580, 476 520 C 486 470, 520 430, 535 370 C 552 300, 545 220, 505 150 C 470 90, 410 58, 330 58 Z";
+const LAT_EAR = "M386 274 C 412 262, 440 282, 438 322 C 436 356, 422 376, 412 396 C 405 410, 391 411, 386 399 C 382 386, 383 370, 380 360 C 372 345, 375 300, 386 274 Z";
+const LAT_HAIR = "M150 172 C 166 110, 240 60, 330 58 C 410 58, 470 90, 505 150 C 545 220, 552 300, 535 370 C 526 400, 512 420, 500 440 L 472 420 C 482 360, 470 300, 442 272 L 410 262 C 392 242, 372 232, 352 228 L 334 232 C 302 202, 262 184, 222 176 C 196 172, 172 170, 150 172 Z";
+const ANT_HALF = "M301 62 C 225 62, 170 110, 163 200 C 160 240, 158 280, 162 320 C 166 380, 185 440, 215 480 C 225 495, 232 505, 234 520 C 236 580, 232 650, 222 720 L 301 720 Z";
+const ANT_EAR = "M165 298 C 150 292, 140 308, 142 334 C 144 360, 150 380, 163 386 Z";
+const ANT_HAIR = "M301 62 C 225 62, 170 110, 163 200 L 171 206 C 186 150, 232 120, 301 118 Z";
+
+function drawSkin(g, view) {
+  if (view === "lat") {
+    sv("path", { d: LAT_HEAD, fill: "url(#skinGrad)" }, g);
+    sv("path", { d: LAT_HAIR, style: { fill: "var(--hair)", opacity: .82 } }, g);
+    sv("path", { d: LAT_EAR, fill: "url(#skinGrad)", style: { stroke: "var(--skin-dk)", strokeWidth: 1.2 } }, g);
+    sv("path", { d: "M394 300 C 412 294, 422 316, 414 340 C 407 356, 393 352, 389 340 C 386 326, 388 308, 394 300 Z", style: { fill: "var(--skin-dk)", opacity: .55 } }, g);
+    sv("ellipse", { cx: 392, cy: 336, rx: 5, ry: 6, style: { fill: "var(--hair)", opacity: .6 } }, g);
+    sv("path", { d: "M168 280 C 178 272, 195 274, 206 282 C 195 290, 178 290, 168 284 Z", style: { fill: "#F4EEE8", stroke: "var(--skin-dk)", strokeWidth: 1 } }, g);
+    sv("ellipse", { cx: 176, cy: 281, rx: 4.5, ry: 6, style: { fill: "#3B2A20" } }, g);
+    sv("path", { d: "M150 256 C 175 244, 205 247, 226 258", style: { fill: "none", stroke: "var(--hair)", strokeWidth: 5, strokeLinecap: "round", opacity: .8 } }, g);
+    sv("path", { d: "M100 405 C 112 400, 128 410, 140 420 C 126 418, 113 416, 107 420 Z", style: { fill: "#B5615A", opacity: .85 } }, g);
+    sv("path", { d: "M107 420 C 113 424, 126 424, 140 420 C 128 432, 113 440, 103 440 Z", style: { fill: "#C0706A", opacity: .85 } }, g);
+    sv("path", { d: "M94 360 C 100 355, 110 355, 113 362 C 108 367, 100 367, 94 360 Z", style: { fill: "var(--skin-dk)" } }, g);
+    sv("path", { d: "M113 338 C 124 347, 126 362, 113 369", style: { fill: "none", stroke: "var(--skin-dk)", strokeWidth: 1.5 } }, g);
+    sv("path", { d: "M118 372 C 128 385, 135 400, 140 418", style: { fill: "none", stroke: "var(--skin-dk)", strokeWidth: 1.2, opacity: .7 } }, g);
+  } else {
+    for (const flip of [false, true]) {
+      const m = d => flip ? mirrorPath(d) : d;
+      sv("path", { d: m(ANT_HALF), fill: "url(#skinGradA)" }, g);
+      sv("path", { d: m(ANT_HAIR), style: { fill: "var(--hair)", opacity: .82 } }, g);
+      sv("path", { d: m(ANT_EAR), fill: "url(#skinGradA)", style: { stroke: "var(--skin-dk)", strokeWidth: 1.2 } }, g);
+      sv("path", { d: m("M215 291 C 230 276, 260 276, 276 292 C 260 303, 230 303, 215 291 Z"), style: { fill: "#F4EEE8", stroke: "var(--skin-dk)", strokeWidth: 1 } }, g);
+      sv("circle", { cx: flip ? 355 : 245, cy: 290, r: 9, style: { fill: "#4A3326" } }, g);
+      sv("circle", { cx: flip ? 355 : 245, cy: 290, r: 4, style: { fill: "#140C08" } }, g);
+      sv("path", { d: m("M206 262 C 228 249, 264 251, 287 261"), style: { fill: "none", stroke: "var(--hair)", strokeWidth: 6, strokeLinecap: "round", opacity: .8 } }, g);
+      sv("path", { d: m("M290 292 C 288 330, 283 360, 275 380"), style: { fill: "none", stroke: "var(--skin-dk)", strokeWidth: 1.3, opacity: .7 } }, g);
+      sv("path", { d: m("M272 372 C 260 380, 264 396, 282 397 C 290 398, 296 398, 301 397"), style: { fill: "none", stroke: "var(--skin-dk)", strokeWidth: 1.6 } }, g);
+      sv("path", { d: m("M252 446 C 268 434, 286 430, 301 436 L 301 447 C 285 446, 268 446, 252 446 Z"), style: { fill: "#B5615A", opacity: .85 } }, g);
+      sv("path", { d: m("M252 446 C 268 448, 285 448, 301 447 L 301 463 C 282 463, 265 457, 252 446 Z"), style: { fill: "#C0706A", opacity: .85 } }, g);
+      sv("path", { d: m("M268 392 C 258 410, 252 425, 250 440"), style: { fill: "none", stroke: "var(--skin-dk)", strokeWidth: 1.2, opacity: .6 } }, g);
+    }
+  }
+}
+
+// ================= stage construction =================
+const state = { view: "lat", sel: null, hide: new Set(["derm"]), labels: false, skin: 30, trace: null, quiz: null };
+const stages = {};
+
+function buildDefs(svg, view) {
+  const defs = sv("defs", {}, svg);
+  const rg = (id, cx, cy, stops) => {
+    const g = sv("radialGradient", { id, cx, cy, r: "75%" }, defs);
+    stops.forEach(([o, c, op]) => sv("stop", { offset: o, style: { stopColor: c, stopOpacity: op ?? 1 } }, g));
+  };
+  rg("skinGrad", "35%", "40%", [["0%", "var(--skin)"], ["70%", "var(--skin)"], ["100%", "var(--skin-dk)"]]);
+  rg("skinGradA", "50%", "40%", [["0%", "var(--skin)"], ["65%", "var(--skin)"], ["100%", "var(--skin-dk)"]]);
+  rg("fasciaGrad", "40%", "40%", [["0%", "var(--fascia)"], ["100%", "var(--skin-dk)"]]);
+  rg("shade", "35%", "30%", [["0%", "#FFFFFF", .32], ["60%", "#FFFFFF", 0], ["100%", "#000000", .28]]);
+  const f = sv("filter", { id: "glow", x: "-50%", y: "-50%", width: "200%", height: "200%" }, defs);
+  sv("feGaussianBlur", { stdDeviation: 2.5, result: "b" }, f);
+  const mg = sv("feMerge", {}, f);
+  sv("feMergeNode", { in: "b" }, mg); sv("feMergeNode", { in: "SourceGraphic" }, mg);
+  // gland lobules
+  const p = sv("pattern", { id: "lobule-" + view, width: 9, height: 9, patternUnits: "userSpaceOnUse" }, defs);
+  sv("rect", { width: 9, height: 9, style: { fill: "var(--gland)" } }, p);
+  sv("circle", { cx: 4.5, cy: 4.5, r: 3.4, style: { fill: "none", stroke: "var(--bone-dk)", strokeWidth: .6, opacity: .55 } }, p);
+  // bone texture
+  const bp = sv("pattern", { id: "bonetex-" + view, width: 14, height: 14, patternUnits: "userSpaceOnUse" }, defs);
+  sv("rect", { width: 14, height: 14, style: { fill: "var(--bone)" } }, bp);
+  sv("circle", { cx: 3, cy: 4, r: .8, style: { fill: "var(--bone-dk)", opacity: .35 } }, bp);
+  sv("circle", { cx: 10, cy: 11, r: .6, style: { fill: "var(--bone-dk)", opacity: .3 } }, bp);
+  const cp = sv("clipPath", { id: "headclip-" + view }, defs);
+  if (view === "lat") sv("path", { d: LAT_HEAD }, cp);
+  else { sv("path", { d: ANT_HALF }, cp); sv("path", { d: mirrorPath(ANT_HALF) }, cp); }
+  return defs;
+}
+
+function fiberPattern(defs, view, id, ang, sys) {
+  const pid = `fib-${view}-${id}`;
+  const p = sv("pattern", { id: pid, width: 5, height: 5, patternUnits: "userSpaceOnUse", patternTransform: `rotate(${ang || 0})` }, defs);
+  sv("rect", { width: 5, height: 5, style: { fill: sys === "ref" ? "var(--muscle)" : "var(--muscle)", opacity: sys === "ref" ? .55 : 1 } }, p);
+  sv("rect", { y: 0, width: 5, height: 1.3, style: { fill: "var(--muscle-dk)", opacity: .55 } }, p);
+  sv("rect", { y: 2.8, width: 5, height: .7, style: { fill: "#FFFFFF", opacity: .16 } }, p);
+  return pid;
+}
+
+function buildStage(view) {
+  const svg = sv("svg", { viewBox: "0 0 600 720", role: "img", "aria-label": view === "lat" ? "Lateral view of head and neck" : "Anterior view of face" });
+  const defs = buildDefs(svg, view);
+  const L = {};
+  ["base", "bone", "refdeep", "musdeep", "ref", "mus", "skin", "vein", "artery", "nerve", "derm", "pts", "labels", "trace"].forEach(k => L[k] = sv("g", { "data-layer": k }, svg));
+  // base tissue
+  if (view === "lat") sv("path", { d: LAT_HEAD, fill: "url(#fasciaGrad)" }, L.base);
+  else { sv("path", { d: ANT_HALF, fill: "url(#fasciaGrad)" }, L.base); sv("path", { d: mirrorPath(ANT_HALF), fill: "url(#fasciaGrad)" }, L.base); }
+  // skin
+  drawSkin(L.skin, view);
+  L.skin.style.opacity = state.skin / 100;
+  L.skin.style.pointerEvents = "none";
+  L.derm.setAttribute("clip-path", `url(#headclip-${view})`);
+
+  for (const id in S) {
+    const o = S[id];
+    const paths = o[view];
+    if (!paths) continue;
+    const both = view === "ant" && !o.mid && o.sys !== "derm" ? [false, true] : [false];
+    if (view === "ant" && o.sys === "derm") both.push(true);
+    for (const flip of both) {
+      const list = paths.map(d => flip ? (d[0] === "~" ? "~" + mirrorPath(d.slice(1)) : mirrorPath(d)) : d);
+      drawStructure(id, o, list, view, L, defs);
+    }
+  }
+  // head outline always visible
+  const outline = view === "lat" ? [LAT_HEAD] : [ANT_HALF, mirrorPath(ANT_HALF)];
+  outline.forEach(d => sv("path", { d, style: { fill: "none", stroke: "var(--skin-dk)", strokeWidth: 1.4, opacity: .8, pointerEvents: "none" } }, L.skin.parentNode.insertBefore(sv("g"), L.vein)));
+  // trace overlay
+  stages[view] = { svg, L, defs };
+  return svg;
+}
+
+function drawStructure(id, o, list, view, L, defs) {
+  const sys = o.sys;
+  let layer;
+  if (sys === "muscle") layer = o.deep ? L.musdeep : L.mus;
+  else if (sys === "ref") layer = o.deep ? L.refdeep : L.ref;
+  else if (sys === "bone") layer = o.pt ? L.pts : L.bone;
+  else layer = L[sys];
+  const g = sv("g", { class: "s", "data-id": id, "data-sys": sys, tabindex: "-1" }, layer);
+  const w = o.wd || 2.4;
+  g.style.setProperty("--w", w);
+  if (sys === "artery" || sys === "vein" || sys === "nerve" || (sys === "ref" && o.line)) {
+    const col = sys === "ref" ? "var(--gland)" : SYS[sys].col, dk = sys === "ref" ? "var(--bone-dk)" : SYS[sys].dk;
+    for (const raw of list) {
+      const deep = raw[0] === "~", d = deep ? raw.slice(1) : raw;
+      const isClosed = /Z\s*$/.test(d);
+      const sub = sv("g", { class: deep ? "deepseg" : "" }, g);
+      sv("path", { d, class: "hit", style: { strokeWidth: 14, fill: isClosed ? "transparent" : "none" } }, sub);
+      const dash = deep ? (sys === "nerve" ? "5 4" : "7 4") : null;
+      sv("path", { d, class: "case", style: { fill: isClosed ? (sys === "vein" ? "var(--vein)" : "none") : "none", fillOpacity: isClosed ? .25 : 0, stroke: dk, strokeWidth: w + 2.2, strokeLinecap: "round", strokeLinejoin: "round", strokeDasharray: dash, opacity: deep ? .7 : 1 } }, sub);
+      sv("path", { d, class: "core", style: { fill: "none", stroke: col, strokeWidth: "calc(var(--w) * 1px)", strokeLinecap: "round", strokeLinejoin: "round", strokeDasharray: dash } }, sub);
+      if (!deep) sv("path", { d, style: { fill: "none", stroke: "#FFFFFF", strokeOpacity: .35, strokeWidth: Math.max(.6, w * .28), strokeLinecap: "round", pointerEvents: "none" } }, sub);
+    }
+    if (list.some(r => r[0] === "~") && list.every(r => r[0] === "~")) g.classList.add("deep");
+  } else if (sys === "muscle" || sys === "ref") {
+    g.classList.add("musc");
+    let fill;
+    if (id === "parotid" || id === "submand_gland") fill = `url(#lobule-${view})`;
+    else if (o.flat) fill = null;
+    else fill = `url(#${fiberPattern(defs, view, id, o.ang, sys)})`;
+    for (const d of list) {
+      const p = sv("path", { d, class: "fill core", "fill-rule": "evenodd", style: { stroke: sys === "ref" && !fill?.includes("lobule") ? "var(--muscle-dk)" : "var(--muscle-dk)", strokeWidth: .8, strokeOpacity: .7 } }, g);
+      if (fill) p.setAttribute("fill", fill);
+      else Object.assign(p.style, { fill: id === "galea" ? "var(--bone)" : "var(--muscle)", fillOpacity: id === "galea" ? .55 : .35 });
+      if (id === "parotid" || id === "submand_gland") Object.assign(p.style, { stroke: "var(--bone-dk)", strokeWidth: 1 });
+      if (sys === "ref" && id !== "parotid" && id !== "submand_gland") p.style.opacity = .78;
+      sv("path", { d, "fill-rule": "evenodd", fill: "url(#shade)", style: { pointerEvents: "none" } }, g);
+    }
+    if (o.deep) g.classList.add("deep");
+  } else if (sys === "bone") {
+    for (const d of list) {
+      if (o.pt) {
+        sv("path", { d, class: "core", style: { fill: "var(--ink)", stroke: "var(--bone)", strokeWidth: 2 } }, g);
+        sv("path", { d, class: "hit", style: { strokeWidth: 12, fill: "transparent" } }, g);
+      } else sv("path", { d, class: "core fill", fill: `url(#bonetex-${view})`, style: { stroke: "var(--bone-dk)", strokeWidth: 1.2, opacity: .9 } }, g);
+    }
+  } else if (sys === "derm") {
+    for (const d of list) sv("path", { d, class: "fill core", style: { fill: o.col, fillOpacity: .38, stroke: o.col, strokeWidth: 1.5 } }, g);
+  }
+}
+
+// ================= stage view & interaction =================
+const stageEl = $("#stage"), tip = $("#tip");
+function applyHide() {
+  for (const v in stages) {
+    const { svg, L } = stages[v];
+    svg.setAttribute("data-hide", [...state.hide].join(" "));
+    L.skin.style.opacity = state.skin / 100;
+  }
+}
+// css for hiding layers (ctx/sel exempt)
+(function () {
+  const st = document.createElement("style");
+  st.textContent = ["artery", "vein", "nerve", "muscle", "ref", "bone", "derm"].map(s => `svg[data-hide~="${s}"] .s[data-sys="${s}"]:not(.ctx):not(.sel){display:none}`).join("\n");
+  document.head.appendChild(st);
+})();
+
+function setView(v) {
+  state.view = v;
+  $("#v-lat").setAttribute("aria-pressed", v === "lat");
+  $("#v-ant").setAttribute("aria-pressed", v === "ant");
+  if (!stages[v]) buildStage(v);
+  $$("svg", stageEl).forEach(s => s.remove());
+  stageEl.appendChild(stages[v].svg);
+  applyHide(); renderLabels(); applySelection();
+}
+
+const LAYERS = [["artery", "Arteries", "var(--artery)"], ["vein", "Veins", "var(--vein)"], ["nerve", "Nerves", "var(--nerve)"], ["muscle", "Expression muscles", "var(--muscle)"], ["ref", "Glands & landmarks", "var(--gland)"], ["bone", "Bone", "var(--bone-dk)"]];
+function buildLayerChips() {
+  const box = $("#layers");
+  for (const [k, lab, col] of LAYERS) {
+    const b = h("button", { class: "chip", "aria-pressed": "true", "data-layer": k }, `<i style="background:${col}"></i>${lab}`);
+    b.onclick = () => {
+      state.hide.has(k) ? state.hide.delete(k) : state.hide.add(k);
+      b.setAttribute("aria-pressed", !state.hide.has(k));
+      applyHide(); renderLabels();
+    };
+    box.appendChild(b);
+  }
+}
+
+function svgPoint(svg, evt) {
+  const pt = svg.createSVGPoint(); pt.x = evt.clientX; pt.y = evt.clientY;
+  return pt.matrixTransform(svg.getScreenCTM().inverse());
+}
+stageEl.addEventListener("pointermove", e => {
+  const g = e.target.closest && e.target.closest(".s");
+  if (!g || state.quiz) { tip.style.opacity = 0; return; }
+  const r = stageEl.getBoundingClientRect();
+  tip.textContent = S[g.dataset.id].n;
+  tip.style.left = (e.clientX - r.left) + "px"; tip.style.top = (e.clientY - r.top) + "px";
+  tip.style.opacity = 1;
+});
+stageEl.addEventListener("pointerleave", () => tip.style.opacity = 0);
+stageEl.addEventListener("click", e => {
+  const g = e.target.closest && e.target.closest(".s");
+  if (state.quiz) { quizAnswer(g ? g.dataset.id : null); return; }
+  if (!g) { select(null); return; }
+  select(g.dataset.id);
+});
+
+function applySelection() {
+  const st = stages[state.view]; if (!st) return;
+  const { svg } = st;
+  $$(".s.sel", svg).forEach(e => e.classList.remove("sel"));
+  svg.classList.toggle("has-sel", !!state.sel);
+  if (state.sel) $$(`.s[data-id="${state.sel}"]`, svg).forEach(e => { e.classList.add("sel"); e.parentNode.appendChild(e); });
+  renderLabels();
+}
+
+function select(id, opts = {}) {
+  stopTrace();
+  state.sel = id;
+  if (id) {
+    const o = S[id];
+    if (!o[state.view]) setView(state.view === "lat" ? "ant" : "lat");
+    if (state.hide.has(o.sys)) {
+      state.hide.delete(o.sys);
+      const chip = $(`#layers [data-layer="${o.sys}"]`); if (chip) chip.setAttribute("aria-pressed", "true");
+      if (o.sys === "derm") $("#t-derm").setAttribute("aria-pressed", "true");
+      applyHide();
+    }
+    try { history.replaceState(null, "", "#" + id); } catch (e) {}
+  }
+  applySelection();
+  renderInfo(id);
+  $$("#list li button").forEach(b => b.classList.toggle("on", b.dataset.id === id));
+  if (opts.trace && id && S[id].steps) startTrace(id);
+}
+
+// ---------- labels ----------
+function labelPoint(g) {
+  try {
+    const p = g.querySelector(".core");
+    if (!p) return null;
+    if (g.classList.contains("musc") || g.dataset.sys === "derm" || g.dataset.sys === "bone") {
+      const b = p.getBBox(); return { x: b.x + b.width / 2, y: b.y + b.height / 2 };
+    }
+    const len = p.getTotalLength(); return p.getPointAtLength(len * .55);
+  } catch (e) { return null; }
+}
+function renderLabels() {
+  const st = stages[state.view]; if (!st) return;
+  const lg = st.L.labels; lg.innerHTML = "";
+  const want = new Set();
+  if (state.labels) $$(".s", st.svg).forEach(g => { if (!state.hide.has(g.dataset.sys) || g.classList.contains("ctx")) want.add(g); });
+  if (state.sel) $$(`.s[data-id="${state.sel}"]`, st.svg).forEach(g => want.add(g));
+  $$(".s.ctx", st.svg).forEach(g => want.add(g));
+  const seen = new Set();
+  for (const g of want) {
+    const id = g.dataset.id;
+    if (seen.has(id) && !state.labels) continue;
+    seen.add(id);
+    const pt = labelPoint(g); if (!pt) continue;
+    if (state.view === "ant" && pt.x > 300 && !state.sel) continue;
+    const name = S[id].n.replace(/ \((mastication|V1|V2|V3|C2|C3|C2, C3)\)$/, "");
+    sv("text", { x: pt.x + 6, y: pt.y - 6, class: "lbl", text: name.length > 34 ? name.slice(0, 32) + "…" : name }, lg);
+  }
+}
+
+// ================= info panel =================
+const info = $("#info");
+function wikiLink(o) { return `https://en.wikipedia.org/wiki/${o.w}`; }
+function photoLink(o) {
+  const q = o.n.replace(/\(.*?\)/g, "").replace(/[:,]/g, " ").trim();
+  return `https://commons.wikimedia.org/w/index.php?search=${encodeURIComponent(q + " dissection")}&title=Special:MediaSearch&type=image`;
+}
+function cadaverLink(o) {
+  const q = o.n.replace(/\(.*?\)/g, "").replace(/[:,]/g, " ").trim();
+  return `https://www.google.com/search?tbm=isch&q=${encodeURIComponent(q + " cadaver dissection")}`;
+}
+function renderInfo(id) {
+  if (!id) {
+    info.innerHTML = `<div class="empty">
+      <span class="kind">Start here</span>
+      <h2>Click any structure on the plate</h2>
+      <p class="sum">Each one opens its origin, course, relations, branches, termination and clinical notes. Arteries, veins and nerves have a <b>Trace course</b> button that walks a marker along the structure, step by step, lighting up everything it passes.</p>
+      <ol>
+        <li>Turn layers on and off with the chips. Drag the <b>Skin</b> slider to peel the face.</li>
+        <li>Switch to <b>Anterior</b> for the muscles of facial expression and the V1/V2/V3 map.</li>
+        <li>Use <b>Quiz: find it</b> once a system feels familiar.</li>
+      </ol>
+      <p class="note" style="margin-top:12px">Suggested first traces:</p>
+      <div class="btnrow">${["facial_a", "sta", "facial_v", "cn7", "infraorbital_n", "occipital_a"].map(k => `<button class="btn" data-go="${k}">${esc(S[k].n)}</button>`).join("")}</div>
+    </div>`;
+    $$("[data-go]", info).forEach(b => b.onclick = () => select(b.dataset.go, { trace: true }));
+    return;
+  }
+  const o = S[id], sy = SYS[o.sys];
+  const dot = o.sys === "derm" ? o.col : sy.col;
+  let html = `<span class="kind"><i style="background:${dot}"></i>${sy.label}${o.grp ? " · " + esc(o.grp) : ""}${o.br ? " · " + esc(o.br) : ""}</span>
+    <h2>${esc(o.n)}</h2><p class="sum">${esc(o.sum || "")}</p>`;
+  if (o.steps) html += `<div class="trace" id="tracebox">
+      <div class="bar"><b>Trace the course</b>
+        <button id="tr-prev" aria-label="Previous step">◀</button>
+        <button id="tr-play" class="play">▶ Play</button>
+        <button id="tr-next" aria-label="Next step">▶|</button></div>
+      <ol>${o.steps.map((s, i) => `<li data-i="${i}">${esc(s[2])}</li>`).join("")}</ol></div>`;
+  const keys = o.sys === "muscle" || (o.sys === "ref" && o.f && o.f.i) ? ["o", "i", "a", "n", "t", "r", "k"] : ["o", "c", "r", "b", "e", "s", "n", "p", "t", "k"];
+  const f = o.f || {};
+  const rows = keys.filter(k => f[k]).map(k => `<div><dt>${fieldLabel(k, o.sys)}</dt><dd class="${k === "k" ? "clin" : ""}">${esc(f[k])}</dd></div>`).join("");
+  if (rows) html += `<dl>${rows}</dl>`;
+  html += `<div class="links">
+    <a href="${photoLink(o)}" target="_blank" rel="noopener">Real dissection photos ↗</a>
+    <a href="${cadaverLink(o)}" target="_blank" rel="noopener">Cadaver images ↗</a>
+    <a href="${wikiLink(o)}" target="_blank" rel="noopener">Gray's plates (Wikipedia) ↗</a></div>`;
+  info.innerHTML = html;
+  if (o.steps) {
+    $("#tr-play").onclick = () => state.trace && state.trace.playing ? pauseTrace() : (state.trace ? playTrace() : startTrace(id, true));
+    $("#tr-next").onclick = () => { if (!state.trace) startTrace(id); else gotoStep(state.trace.i + 1); };
+    $("#tr-prev").onclick = () => { if (state.trace) gotoStep(state.trace.i - 1); };
+    $$("#tracebox li").forEach(li => li.onclick = () => { if (!state.trace) startTrace(id); gotoStep(+li.dataset.i); });
+  }
+}
+
+// ================= trace engine =================
+function tracePathEl(id) {
+  const svg = stages[state.view].svg;
+  const g = svg.querySelector(`.s[data-id="${id}"]`);
+  return g ? g.querySelector(".core") : null;
+}
+function lenAt(path, x, y) {
+  const total = path.getTotalLength(); let best = 0, bd = Infinity;
+  for (let i = 0; i <= 400; i++) {
+    const l = total * i / 400, p = path.getPointAtLength(l), d = (p.x - x) ** 2 + (p.y - y) ** 2;
+    if (d < bd) { bd = d; best = l; }
+  }
+  return best;
+}
+function startTrace(id, autoplay = false) {
+  stopTrace();
+  if (S[id].lat && state.view !== "lat") setView("lat");
+  if (state.sel !== id) { state.sel = id; applySelection(); }
+  const path = tracePathEl(id); if (!path) return;
+  const st = stages[state.view], tg = st.L.trace;
+  const total = path.getTotalLength();
+  const col = SYS[S[id].sys].col;
+  const trail = sv("path", { d: path.getAttribute("d"), class: "trail", style: { stroke: col, strokeWidth: (S[id].wd || 2.4) + 7, strokeOpacity: .35, strokeDasharray: `0 ${total}` } }, tg);
+  const marker = sv("g", { class: "marker" }, tg);
+  sv("circle", { r: 11, style: { fill: "none", stroke: "var(--ink)", strokeWidth: 2 } }, marker);
+  sv("circle", { r: 4.5, style: { fill: "var(--ink)" } }, marker);
+  const steps = S[id].steps.map(s => ({ len: lenAt(path, s[0], s[1]), s }));
+  state.trace = { id, path, total, trail, marker, steps, i: -1, cur: 0, playing: false, timer: null, raf: null };
+  gotoStep(0);
+  if (autoplay) playTrace();
+}
+function gotoStep(i) {
+  const t = state.trace; if (!t) return;
+  i = Math.max(0, Math.min(t.steps.length - 1, i));
+  t.i = i;
+  const target = t.steps[i].len, from = t.cur;
+  const animate = (now0) => {
+    const dur = reduceMotion ? 1 : 900;
+    const tick = now => {
+      const k = Math.min(1, (now - now0) / dur), e = k < .5 ? 2 * k * k : 1 - (-2 * k + 2) ** 2 / 2;
+      const l = from + (target - from) * e;
+      setMarker(l);
+      if (k < 1) t.raf = requestAnimationFrame(tick); else t.cur = target;
+    };
+    t.raf = requestAnimationFrame(tick);
+  };
+  cancelAnimationFrame(t.raf);
+  animate(performance.now());
+  // context highlight
+  const svg = stages[state.view].svg;
+  $$(".s.ctx", svg).forEach(e => e.classList.remove("ctx"));
+  (t.steps[i].s[3] || []).forEach(h => $$(`.s[data-id="${h}"]`, svg).forEach(e => e.classList.add("ctx")));
+  renderLabels();
+  $$("#tracebox li").forEach((li, k) => { li.classList.toggle("cur", k === i); li.classList.toggle("done", k < i); });
+  const cur = $(`#tracebox li[data-i="${i}"]`);
+  if (cur) cur.scrollIntoView({ block: "nearest", behavior: reduceMotion ? "auto" : "smooth" });
+}
+function setMarker(l) {
+  const t = state.trace; if (!t) return;
+  const p = t.path.getPointAtLength(l);
+  t.marker.setAttribute("transform", `translate(${p.x} ${p.y})`);
+  t.trail.style.strokeDasharray = `${l} ${t.total}`;
+}
+function playTrace() {
+  const t = state.trace; if (!t) return;
+  t.playing = true; $("#tr-play") && ($("#tr-play").textContent = "❚❚ Pause");
+  if (t.i >= t.steps.length - 1) gotoStep(0);
+  clearInterval(t.timer);
+  t.timer = setInterval(() => {
+    if (t.i >= t.steps.length - 1) { pauseTrace(); return; }
+    gotoStep(t.i + 1);
+  }, 4200);
+}
+function pauseTrace() {
+  const t = state.trace; if (!t) return;
+  t.playing = false; clearInterval(t.timer);
+  $("#tr-play") && ($("#tr-play").textContent = "▶ Play");
+}
+function stopTrace() {
+  const t = state.trace; if (!t) return;
+  clearInterval(t.timer); cancelAnimationFrame(t.raf);
+  t.trail.remove(); t.marker.remove();
+  for (const v in stages) $$(".s.ctx", stages[v].svg).forEach(e => e.classList.remove("ctx"));
+  state.trace = null;
+}
+
+// ================= side list =================
+const GROUP_ORDER = ["Carotid system", "Facial artery & branches", "Maxillary artery", "Scalp arteries", "Veins of the face", "Veins of the scalp", "Facial nerve (motor)", "Trigeminal (sensory)", "Cervical nerves (scalp)", "Scalp", "Orbit", "Nose", "Mouth", "Ear", "Neck", "Landmarks", "Bone & foramina", "Sensory territories"];
+const GROUP_TITLE = { Scalp: "Muscles: scalp", Orbit: "Muscles: around the eye", Nose: "Muscles: nose", Mouth: "Muscles: mouth", Ear: "Muscles: ear", Neck: "Muscles: neck" };
+function buildList() {
+  const box = $("#list"); box.innerHTML = "";
+  const q = ($("#filter").value || "").toLowerCase();
+  for (const grp of GROUP_ORDER) {
+    const ids = Object.keys(S).filter(k => S[k].grp === grp && (!q || S[k].n.toLowerCase().includes(q)));
+    if (!ids.length) continue;
+    const sys = S[ids[0]].sys;
+    const d = h("details", q || ["Facial artery & branches", "Facial nerve (motor)"].includes(grp) ? { open: "" } : {});
+    d.innerHTML = `<summary><i style="background:${SYS[sys].col}"></i>${esc(GROUP_TITLE[grp] || grp)}</summary>`;
+    const ul = h("ul");
+    ids.forEach(k => {
+      const li = h("li"); const b = h("button", { "data-id": k }, esc(S[k].n));
+      b.onclick = () => select(k, { trace: !!S[k].steps });
+      if (k === state.sel) b.classList.add("on");
+      li.appendChild(b); ul.appendChild(li);
+    });
+    d.appendChild(ul); box.appendChild(d);
+  }
+}
+
+// ================= find-it quiz =================
+function quizPool() {
+  const svg = stages[state.view].svg;
+  const ids = new Set();
+  $$(".s", svg).forEach(g => { if (!state.hide.has(g.dataset.sys) && !["skull"].includes(g.dataset.id)) ids.add(g.dataset.id); });
+  return [...ids];
+}
+function quizNext() {
+  const pool = quizPool();
+  if (!pool.length) { $("#q-target").textContent = "Turn on a layer first"; return; }
+  let id; do { id = pool[Math.floor(Math.random() * pool.length)]; } while (pool.length > 1 && id === state.quiz.last);
+  state.quiz.target = id; state.quiz.last = id;
+  $("#q-target").textContent = S[id].n;
+}
+function quizStart() {
+  select(null);
+  state.quiz = { right: 0, total: 0, target: null };
+  $("#quizbar").hidden = false; $("#t-quiz").setAttribute("aria-pressed", "true");
+  quizUpdate(); quizNext();
+}
+function quizStop() {
+  state.quiz = null; $("#quizbar").hidden = true; $("#t-quiz").setAttribute("aria-pressed", "false");
+}
+function quizUpdate() { $("#q-score").textContent = `${state.quiz.right} / ${state.quiz.total}`; }
+function flash(id) {
+  const svg = stages[state.view].svg;
+  $$(`.s[data-id="${id}"]`, svg).forEach(e => { e.classList.remove("flash"); void e.getBBox(); e.classList.add("flash"); setTimeout(() => e.classList.remove("flash"), 2100); });
+}
+function quizAnswer(id) {
+  const q = state.quiz; if (!q || !q.target || q.lock) return;
+  q.total++;
+  const ok = id === q.target;
+  if (ok) q.right++;
+  quizUpdate();
+  $("#q-target").textContent = ok ? `Correct: ${S[q.target].n}` : `That was ${id ? S[id].n : "nothing"}. Here is ${S[q.target].n}`;
+  flash(q.target);
+  q.lock = true;
+  setTimeout(() => { if (state.quiz) { state.quiz.lock = false; quizNext(); } }, ok ? 1100 : 2300);
+}
+
+// ================= init atlas =================
+function initAtlas() {
+  buildLayerChips();
+  buildStage("lat");
+  setView("lat");
+  buildList();
+  $("#filter").addEventListener("input", buildList);
+  $("#v-lat").onclick = () => { stopTrace(); setView("lat"); };
+  $("#v-ant").onclick = () => { stopTrace(); setView("ant"); };
+  $("#skin").addEventListener("input", e => { state.skin = +e.target.value; applyHide(); });
+  $("#t-derm").onclick = () => {
+    const on = state.hide.has("derm");
+    on ? state.hide.delete("derm") : state.hide.add("derm");
+    $("#t-derm").setAttribute("aria-pressed", on); applyHide(); renderLabels();
+  };
+  $("#t-lbl").onclick = () => { state.labels = !state.labels; $("#t-lbl").setAttribute("aria-pressed", state.labels); renderLabels(); };
+  $("#t-quiz").onclick = () => state.quiz ? quizStop() : quizStart();
+  $("#q-skip").onclick = () => { if (state.quiz) { flash(state.quiz.target); quizNext(); } };
+  $("#q-stop").onclick = quizStop;
+  const hash = location.hash.slice(1);
+  if (S[hash]) select(hash); else renderInfo(null);
+}
+
+// ================= tabs =================
+function showTab(name) {
+  $$("nav.tabs button").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === name));
+  $$("section.tab").forEach(s => s.hidden = s.id !== "tab-" + name);
+  store.set("tab", name);
+  if (name !== "explore") { stopTrace(); }
+}
+$$("nav.tabs button").forEach(b => b.onclick = () => showTab(b.dataset.tab));
+
+// ================= facial nerve lesion tab =================
+const CN7_ST = [
+  { id: "umn", x: 70, y: 52, n: "Upper motor neuron (cortex / corticobulbar tract)", ex: "Stroke, tumour in the motor cortex or internal capsule. Deficit is on the OPPOSITE side." },
+  { id: "nuc", x: 70, y: 150, n: "Facial motor nucleus (pons)", ex: "Pontine infarct or demyelination. Fibres loop round the abducens nucleus (facial colliculus), so a lateral gaze palsy often comes with it. Taste and secretomotor nuclei are separate, so they are spared." },
+  { id: "cpa", x: 175, y: 168, n: "Cerebellopontine angle / internal acoustic meatus", ex: "Vestibular schwannoma (acoustic neuroma), meningioma. CN VIII travels with it: hearing loss, tinnitus, imbalance." },
+  { id: "lab", x: 268, y: 150, n: "Labyrinthine segment (narrowest part of the canal)", ex: "The canal is tightest here: inflammatory swelling in Bell's palsy is thought to compress the nerve at this point. Everything distal is affected." },
+  { id: "gen", x: 320, y: 120, n: "Geniculate ganglion", ex: "Ramsay Hunt syndrome (herpes zoster oticus): vesicles in the ear canal and auricle, severe pain, often with vertigo and hearing loss. GSPN leaves here." },
+  { id: "tym", x: 405, y: 140, n: "Tympanic segment (after GSPN, before nerve to stapedius)", ex: "Middle ear disease (cholesteatoma, otitis media with a dehiscent canal), middle ear surgery, temporal bone fracture." },
+  { id: "mas", x: 472, y: 258, n: "Mastoid segment (between nerve to stapedius and chorda tympani)", ex: "Mastoid surgery, longitudinal temporal bone fracture." },
+  { id: "sty", x: 472, y: 342, n: "Stylomastoid foramen (distal to chorda tympani)", ex: "Trauma, forceps delivery (no mastoid process in the newborn), deep facial lacerations. Pure motor palsy of the whole half of the face." },
+  { id: "par", x: 472, y: 418, n: "Within the parotid / terminal branches", ex: "Parotid malignancy, parotidectomy, facial lacerations. Only the muscles of the injured branches are weak." }
+];
+const CN7_FX = [
+  ["Forehead (frontalis)", { umn: "spared", nuc: "lost", cpa: "lost", lab: "lost", gen: "lost", tym: "lost", mas: "lost", sty: "lost", par: "var" }],
+  ["Eye closure, lower face", { umn: "lost*", nuc: "lost", cpa: "lost", lab: "lost", gen: "lost", tym: "lost", mas: "lost", sty: "lost", par: "var" }],
+  ["Tear secretion (GSPN)", { umn: "spared", nuc: "spared", cpa: "lost", lab: "lost", gen: "lost", tym: "spared", mas: "spared", sty: "spared", par: "spared" }],
+  ["Stapedius: hyperacusis if lost", { umn: "spared", nuc: "spared", cpa: "lost", lab: "lost", gen: "lost", tym: "lost", mas: "spared", sty: "spared", par: "spared" }],
+  ["Taste, anterior 2/3 tongue (chorda)", { umn: "spared", nuc: "spared", cpa: "lost", lab: "lost", gen: "lost", tym: "lost", mas: "lost", sty: "spared", par: "spared" }],
+  ["Submandibular & sublingual saliva", { umn: "spared", nuc: "spared", cpa: "lost", lab: "lost", gen: "lost", tym: "lost", mas: "lost", sty: "spared", par: "spared" }],
+  ["Hearing (CN VIII)", { umn: "spared", nuc: "spared", cpa: "lost", lab: "spared", gen: "var", tym: "spared", mas: "spared", sty: "spared", par: "spared" }],
+  ["Lateral gaze (CN VI)", { umn: "spared", nuc: "lost", cpa: "spared", lab: "spared", gen: "spared", tym: "spared", mas: "spared", sty: "spared", par: "spared" }]
+];
+function buildCN7() {
+  const svg = sv("svg", { viewBox: "0 0 640 560", role: "img", "aria-label": "Course of the facial nerve" });
+  const defs = sv("defs", {}, svg);
+  const mk = sv("marker", { id: "arr7", viewBox: "0 0 10 10", refX: 8, refY: 5, markerWidth: 6, markerHeight: 6, orient: "auto-start-reverse" }, defs);
+  sv("path", { d: "M0 0 L10 5 L0 10 Z", style: { fill: "var(--nerve-dk)" } }, mk);
+  const T = (x, y, t, o = {}) => sv("text", { x, y, text: t, style: Object.assign({ fontFamily: "var(--f-body)", fontSize: "12.5px", fill: "var(--ink)", fontWeight: 700 }, o) }, svg);
+  const tm = (x, y, t, o = {}) => T(x, y, t, Object.assign({ fontWeight: 400, fill: "var(--muted)", fontSize: "11.5px" }, o));
+  // regions
+  sv("rect", { x: 20, y: 95, width: 120, height: 85, rx: 14, style: { fill: "var(--stage2)", stroke: "var(--line)" } }, svg);
+  tm(30, 112, "Brainstem (pons)");
+  sv("rect", { x: 225, y: 82, width: 280, height: 290, rx: 14, style: { fill: "var(--bone)", fillOpacity: .28, stroke: "var(--bone-dk)", strokeDasharray: "4 4" } }, svg);
+  tm(400, 365, "Facial canal, temporal bone");
+  sv("ellipse", { cx: 472, cy: 470, rx: 120, ry: 66, style: { fill: "var(--gland)", fillOpacity: .3, stroke: "var(--bone-dk)" } }, svg);
+  tm(372, 455, "Parotid gland");
+  // CN VIII
+  sv("path", { d: "M90 172 C 130 185, 170 188, 240 186", style: { fill: "none", stroke: "var(--muted)", strokeWidth: 3, strokeDasharray: "6 4" } }, svg);
+  tm(150, 200, "CN VIII alongside");
+  // UMN
+  sv("path", { d: "M70 52 L 70 150", style: { fill: "none", stroke: "var(--nerve-dk)", strokeWidth: 2.5, strokeDasharray: "5 5" } }, svg);
+  tm(84, 98, "corticobulbar fibres");
+  // main nerve
+  const main = "M70 150 C 110 152, 140 164, 175 168 L 240 168 C 252 166, 262 158, 268 150 C 282 136, 300 124, 320 120 C 360 125, 405 140, 440 150 C 462 158, 472 172, 472 192 L 472 342 L 472 418";
+  sv("path", { d: main, style: { fill: "none", stroke: "var(--nerve-dk)", strokeWidth: 9, strokeLinecap: "round", strokeLinejoin: "round" } }, svg);
+  sv("path", { d: main, style: { fill: "none", stroke: "var(--nerve)", strokeWidth: 6, strokeLinecap: "round", strokeLinejoin: "round" } }, svg);
+  // branches
+  const br = (d, label, lx, ly, lines) => {
+    sv("path", { d, "marker-end": "url(#arr7)", style: { fill: "none", stroke: "var(--nerve-dk)", strokeWidth: 3 } }, svg);
+    sv("path", { d, style: { fill: "none", stroke: "var(--nerve)", strokeWidth: 1.6 } }, svg);
+    T(lx, ly, label); (lines || []).forEach((l, i) => tm(lx, ly + 15 + i * 14, l));
+  };
+  br("M320 120 C 300 90, 270 60, 230 44", "Greater petrosal n.", 92, 24, ["→ pterygopalatine ganglion → lacrimal,", "nasal & palatine glands"]);
+  br("M472 215 L 560 215", "Nerve to stapedius", 520, 200, []);
+  br("M472 298 C 515 292, 552 278, 590 262", "Chorda tympani", 520, 244, []);
+  tm(500, 318, "→ lingual n.: taste ant. 2/3,");
+  tm(500, 332, "submandibular & sublingual glands");
+  br("M472 360 C 500 360, 525 352, 548 340", "Post. auricular, digastric, stylohyoid", 430, 382, []);
+  const fan = [["Temporal", 370], ["Zygomatic", 420], ["Buccal", 472], ["Marg. mand.", 524], ["Cervical", 586]];
+  fan.forEach(([n, x]) => { sv("path", { d: `M472 418 C 472 455, ${x} 470, ${x} 515`, style: { fill: "none", stroke: "var(--nerve-dk)", strokeWidth: 3 } }, svg); sv("path", { d: `M472 418 C 472 455, ${x} 470, ${x} 515`, style: { fill: "none", stroke: "var(--nerve)", strokeWidth: 1.6 } }, svg); T(x - 28, 533, n, { fontSize: "11px" }); });
+  // station labels
+  const lbl = { umn: [84, 40, "Motor cortex"], nuc: [84, 140, "Nucleus"], cpa: [150, 158, "CPA"], lab: [232, 142, ""], gen: [330, 108, "Geniculate"], tym: [385, 128, "Tympanic"], mas: [482, 262, "Mastoid"], sty: [482, 346, "Stylomastoid foramen"], par: [486, 410, ""] };
+  CN7_ST.forEach(s => {
+    const g = sv("g", { class: "st", "data-st": s.id, tabindex: "0", role: "button", "aria-label": s.n, style: { cursor: "pointer" } }, svg);
+    sv("circle", { cx: s.x, cy: s.y, r: 15, style: { fill: "transparent" } }, g);
+    sv("circle", { cx: s.x, cy: s.y, r: 8, class: "dot", style: { fill: "var(--panel)", stroke: "var(--ink)", strokeWidth: 2 } }, g);
+    const L = lbl[s.id]; if (L[2]) T(L[0], L[1], L[2], { fontSize: "11.5px" });
+    g.onclick = () => setLesion(s.id);
+    g.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); setLesion(s.id); } };
+  });
+  const x = sv("g", { id: "lesionX", style: { pointerEvents: "none" } }, svg);
+  sv("path", { d: "M-11 -11 L11 11 M11 -11 L-11 11", style: { stroke: "var(--bad)", strokeWidth: 5, strokeLinecap: "round" } }, x);
+  $("#cn7diagram").appendChild(svg);
+  setLesion("sty");
+}
+function setLesion(id) {
+  const s = CN7_ST.find(z => z.id === id);
+  $("#lesionX").setAttribute("transform", `translate(${s.x} ${s.y})`);
+  $$("#cn7diagram .dot").forEach(d => d.style.fill = d.parentNode.dataset.st === id ? "var(--bad)" : "var(--panel)");
+  const pill = v => v === "var" ? `<span class="pill var">depends on branch</span>` : v.startsWith("lost") ? `<span class="pill lost">${id === "umn" && v === "lost*" ? "weak (opposite side)" : "lost"}</span>` : `<span class="pill spared">spared</span>`;
+  $("#cn7out").innerHTML = `<span class="note" style="font-family:var(--f-mono);text-transform:uppercase;letter-spacing:.1em;font-size:11px">Lesion at</span>
+   <h3>${esc(s.n)}</h3><p style="margin-top:0">${esc(s.ex)}</p>
+   <div class="tablewrap"><table class="deficit"><thead><tr><th>Function</th><th>Result</th></tr></thead><tbody>
+   ${CN7_FX.map(([n, m]) => `<tr><td>${esc(n)}</td><td>${pill(m[id])}</td></tr>`).join("")}</tbody></table></div>
+   <p class="note" style="margin-bottom:0"><b>Rule:</b> a function is lost only if its branch leaves the nerve <i>distal</i> to the lesion. Order of branches: GSPN (geniculate) → nerve to stapedius → chorda tympani → stylomastoid foramen → 5 motor branches. ${id === "umn" ? "UMN lesions spare the forehead because the upper face receives cortical input from both hemispheres." : ""}</p>`;
+}
+
+// ================= scalp tab =================
+const SCALP_L = [
+  { id: "S", y: 30, h: 50, n: "Skin", col: "var(--skin)", t: "Thick, hair-bearing, rich in sebaceous and sweat glands.", k: "The commonest site of sebaceous cysts. Hair follicles extend into layer C." },
+  { id: "C", y: 80, h: 64, n: "Connective tissue (dense)", col: "var(--fascia)", t: "Dense fibro-fatty tissue with fibrous septa binding skin to the galea. Carries the arteries, veins, nerves and lymphatics of the scalp.", k: "Vessel walls are anchored to the septa, so cut vessels cannot retract or constrict: scalp wounds bleed profusely. Infection here stays localised and is very painful (tension in the septa). Layers S, C and A move together as one: the 'scalp proper'." },
+  { id: "A", y: 144, h: 30, n: "Aponeurosis (galea aponeurotica)", col: "var(--bone)", t: "Tough tendinous sheet joining frontalis and occipitalis; laterally becomes the temporal fascia.", k: "A wound gapes only if the galea is divided (especially transversely), because frontalis and occipitalis pull the edges apart. Suture the galea in deep wounds to stop bleeding and close dead space." },
+  { id: "L", y: 174, h: 52, n: "Loose areolar tissue: the 'danger area'", col: "var(--stage2)", t: "Loose, spongy tissue that lets the scalp proper slide over the pericranium. Crossed by the emissary veins.", k: "Infection spreads easily here and can reach the dural venous sinuses through valveless emissary veins (meningitis, sinus thrombosis). Blood collects here in a subgaleal haemorrhage, which crosses sutures and can track forward into the eyelids (frontalis inserts into skin, not bone) → 'black eyes'. Scalping injuries tear through this plane." },
+  { id: "P", y: 226, h: 18, n: "Pericranium", col: "var(--muscle)", t: "Periosteum of the skull bones. Dips into the sutures to become continuous with the endosteal dura.", k: "Because it is fixed at the sutures, a subperiosteal collection (cephalhaematoma in the newborn) is limited to one bone and does not cross suture lines." }
+];
+const SCALP_X = [
+  { id: "bone", y: 244, h: 80, n: "Skull: outer table, diploë, inner table", col: "var(--bone)", t: "The diploë between the tables holds red marrow and valveless diploic veins that connect scalp veins with the dural sinuses.", k: "Diploic veins are another route for infection to spread inward (osteomyelitis of the skull)." },
+  { id: "dura", y: 324, h: 16, n: "Dura mater & superior sagittal sinus", col: "var(--vein)", t: "Endosteal and meningeal layers separate in the midline to enclose the superior sagittal sinus, which receives emissary veins from the scalp.", k: "Scalp infection → emissary vein → superior sagittal sinus thrombosis." }
+];
+const FLUID = {
+  caput: { n: "Caput succedaneum", d: "M90 112 C 170 92, 520 92, 610 112 C 520 140, 170 140, 90 112 Z", col: "var(--warn)", t: "Serosanguineous oedema of the skin and subcutaneous tissue (layers S–C) from pressure during delivery. Crosses sutures; present at birth; resolves in days." },
+  subgaleal: { n: "Subgaleal haemorrhage", d: "M50 200 C 150 168, 550 168, 650 200 C 550 232, 150 232, 50 200 Z", col: "var(--bad)", t: "Bleeding into the loose areolar layer (L). Not limited by sutures; can hold a large blood volume and cause shock in a newborn (e.g. after vacuum delivery). Fluctuant, shifts with position." },
+  cephal: { n: "Cephalhaematoma", d: "M140 244 C 200 214, 300 214, 345 244 Z", col: "var(--artery)", t: "Subperiosteal bleed, between pericranium and bone. Limited by suture lines because the pericranium is attached there. Appears hours after birth; may calcify; risk of jaundice." }
+};
+let scalpFluid = null;
+function buildScalp() {
+  const svg = sv("svg", { viewBox: "0 0 700 430", role: "img", "aria-label": "Layers of the scalp in section" });
+  const defs = sv("defs", {}, svg);
+  const all = [...SCALP_L, ...SCALP_X];
+  // layer bands
+  all.forEach(l => {
+    const g = sv("g", { class: "sl", "data-l": l.id, style: { cursor: "pointer" }, tabindex: "0", role: "button", "aria-label": l.n }, svg);
+    if (l.id === "bone") {
+      sv("rect", { x: 20, y: l.y, width: 660, height: 22, style: { fill: "var(--bone)" } }, g);
+      sv("rect", { x: 20, y: l.y + 22, width: 660, height: 36, style: { fill: "var(--bone)", opacity: .6 } }, g);
+      for (let i = 0; i < 90; i++) sv("circle", { cx: 25 + (i * 73) % 650, cy: l.y + 26 + (i * 29) % 30, r: 2 + (i % 3), style: { fill: "var(--bone-dk)", opacity: .4 } }, g);
+      sv("rect", { x: 20, y: l.y + 58, width: 660, height: 22, style: { fill: "var(--bone)" } }, g);
+      sv("ellipse", { cx: 520, cy: l.y + 40, rx: 26, ry: 7, style: { fill: "var(--vein)", opacity: .85 } }, g);
+      sv("text", { x: 552, y: l.y + 44, text: "diploic v.", style: { fontSize: "11px", fill: "var(--ink)", fontFamily: "var(--f-body)" } }, g);
+      // suture gap
+      sv("rect", { x: 346, y: l.y, width: 8, height: 80, style: { fill: "var(--muscle)" } }, g);
+    } else if (l.id === "dura") {
+      sv("rect", { x: 20, y: l.y, width: 660, height: l.h, style: { fill: "var(--muted)", opacity: .5 } }, g);
+      sv("path", { d: `M310 ${l.y} L 390 ${l.y} L 350 ${l.y + 50} Z`, style: { fill: "var(--vein)", opacity: .9 } }, g);
+      sv("text", { x: 395, y: l.y + 40, text: "superior sagittal sinus", style: { fontSize: "11px", fill: "var(--ink)", fontFamily: "var(--f-body)", fontWeight: 700 } }, g);
+    } else {
+      sv("rect", { x: 20, y: l.y, width: 660, height: l.h, style: { fill: l.col, opacity: l.id === "L" ? .6 : .92 } }, g);
+    }
+    sv("rect", { x: 20, y: l.y, width: 660, height: l.h, class: "slhl", style: { fill: "none", stroke: "var(--ink)", strokeWidth: 0 } }, g);
+    g.onclick = () => scalpShow(l.id);
+    g.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); scalpShow(l.id); } };
+  });
+  // hair
+  for (let x = 30; x < 680; x += 14) sv("path", { d: `M${x} 70 C ${x + 2} 50, ${x - 3} 30, ${x + 4} 6`, style: { fill: "none", stroke: "var(--hair)", strokeWidth: 1.4, opacity: .8, pointerEvents: "none" } }, svg);
+  // septa in C
+  for (let x = 40; x < 680; x += 46) sv("path", { d: `M${x} 80 C ${x + 8} 100, ${x - 6} 120, ${x + 4} 144`, style: { fill: "none", stroke: "var(--skin-dk)", strokeWidth: 1.2, pointerEvents: "none" } }, svg);
+  // vessels in C
+  [[130, "a"], [158, "v"], [182, "n"], [440, "a"], [468, "v"], [492, "n"], [600, "a"], [626, "v"]].forEach(([x, k]) => {
+    const c = k === "a" ? "var(--artery)" : k === "v" ? "var(--vein)" : "var(--nerve)";
+    sv("circle", { cx: x, cy: 113, r: k === "n" ? 6 : 8, style: { fill: c, stroke: "var(--ink)", strokeWidth: .8, pointerEvents: "none" } }, svg);
+  });
+  // loose areolar fibres
+  for (let x = 30; x < 680; x += 26) sv("path", { d: `M${x} 186 q 8 10 0 18 q -8 8 4 16`, style: { fill: "none", stroke: "var(--muted)", strokeWidth: .8, opacity: .6, pointerEvents: "none" } }, svg);
+  // emissary vein
+  sv("path", { d: "M310 113 C 312 150, 330 190, 338 230 C 344 270, 346 300, 350 340", style: { fill: "none", stroke: "var(--vein)", strokeWidth: 5, strokeLinecap: "round", pointerEvents: "none" } }, svg);
+  sv("text", { x: 200, y: 214, text: "emissary vein", style: { fontSize: "11.5px", fill: "var(--ink)", fontWeight: 700, fontFamily: "var(--f-body)", pointerEvents: "none" } }, svg);
+  sv("text", { x: 360, y: 260, text: "suture", style: { fontSize: "11px", fill: "var(--ink)", fontFamily: "var(--f-body)", pointerEvents: "none" } }, svg);
+  sv("rect", { x: 20, y: 380, width: 660, height: 40, rx: 6, style: { fill: "var(--muscle)", opacity: .25, pointerEvents: "none" } }, svg);
+  sv("text", { x: 30, y: 404, text: "Arachnoid, pia, brain", style: { fontSize: "11.5px", fill: "var(--muted)", fontFamily: "var(--f-body)" } }, svg);
+  // layer letters
+  all.forEach(l => sv("text", { x: 690, y: l.y + Math.min(l.h, 40) / 2 + 5, "text-anchor": "end", text: l.id.length === 1 ? l.id : "", style: { fontFamily: "var(--f-display)", fontWeight: 700, fontSize: "18px", fill: "var(--ink)", pointerEvents: "none" } }, svg));
+  // fluids
+  const fg = sv("g", { id: "fluid", style: { pointerEvents: "none" } }, svg);
+  $("#scalpdiagram").appendChild(svg);
+  const btns = $("#scalpbtns");
+  for (const k in FLUID) {
+    const b = h("button", { class: "btn", "data-f": k }, esc(FLUID[k].n));
+    b.onclick = () => {
+      scalpFluid = scalpFluid === k ? null : k;
+      $$("#scalpbtns .btn").forEach(x => x.classList.toggle("on", x.dataset.f === scalpFluid));
+      fg.innerHTML = "";
+      if (scalpFluid) {
+        sv("path", { d: FLUID[k].d, style: { fill: FLUID[k].col, fillOpacity: .55, stroke: FLUID[k].col, strokeWidth: 2 } }, fg);
+        $("#scalpout").innerHTML = `<h3>${esc(FLUID[k].n)}</h3><p>${esc(FLUID[k].t)}</p><p class="note">Compare the three: caput lies above the galea; subgaleal is in layer L; cephalhaematoma is under the pericranium, stopping at the suture.</p>`;
+      } else scalpShow("L");
+    };
+    btns.appendChild(b);
+  }
+  scalpShow("L");
+  // table
+  $("#scalptable").innerHTML = `<thead><tr><th>Region</th><th>Artery</th><th>Vein drains to</th><th>Sensory nerve</th><th>Lymph nodes</th></tr></thead><tbody>
+   <tr><td>Medial forehead</td><td><span class="a">Supratrochlear</span> (ophthalmic ← ICA)</td><td><span class="v">Supratrochlear v.</span> → angular → facial v.</td><td><span class="n">Supratrochlear</span> (V1)</td><td>Submandibular, parotid</td></tr>
+   <tr><td>Forehead to vertex</td><td><span class="a">Supraorbital</span> (ophthalmic ← ICA)</td><td><span class="v">Supraorbital v.</span> → angular → facial v.</td><td><span class="n">Supraorbital</span> (V1)</td><td>Parotid (preauricular)</td></tr>
+   <tr><td>Anterior temple</td><td>Zygomatico-orbital (STA)</td><td>Superficial temporal v.</td><td><span class="n">Zygomaticotemporal</span> (V2)</td><td>Parotid</td></tr>
+   <tr><td>Temple & side of scalp</td><td><span class="a">Superficial temporal</span> (ECA)</td><td><span class="v">Superficial temporal v.</span> → retromandibular</td><td><span class="n">Auriculotemporal</span> (V3)</td><td>Parotid (preauricular)</td></tr>
+   <tr><td>Behind the ear</td><td><span class="a">Posterior auricular</span> (ECA)</td><td><span class="v">Posterior auricular v.</span> → EJV</td><td><span class="n">Lesser occipital</span> (C2), <span class="n">great auricular</span> (C2, C3)</td><td>Mastoid (retroauricular)</td></tr>
+   <tr><td>Back of scalp</td><td><span class="a">Occipital</span> (ECA)</td><td><span class="v">Occipital v.</span> → suboccipital plexus</td><td><span class="n">Greater occipital</span> (C2), <span class="n">third occipital</span> (C3)</td><td>Occipital</td></tr>
+   <tr><td>Motor</td><td colspan="4">Frontalis: temporal branch of CN VII. Occipitalis: posterior auricular branch of CN VII. Auricular muscles: temporal & posterior auricular branches.</td></tr></tbody>`;
+}
+function scalpShow(id) {
+  const l = [...SCALP_L, ...SCALP_X].find(z => z.id === id);
+  $$("#scalpdiagram .slhl").forEach(r => r.style.strokeWidth = r.parentNode.dataset.l === id ? 3 : 0);
+  $("#scalpout").innerHTML = `<span class="note" style="font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase">${id.length === 1 ? "Layer " + id : "Beneath the scalp"}</span>
+   <h3>${esc(l.n)}</h3><p>${esc(l.t)}</p><p style="border-left:3px solid var(--bad);padding-left:10px">${esc(l.k)}</p>
+   <p class="note">S-C-A-L-P: Skin, Connective tissue, Aponeurosis, Loose areolar tissue, Pericranium.</p>`;
+}
+
+// ================= venous routes tab =================
+const VN = {
+  st: [80, 46, "Supratrochlear v.", "supratrochlear_v"], so: [230, 46, "Supraorbital v.", "supraorbital_v"],
+  ang: [150, 130, "Angular v.", "angular_v"], sov: [370, 130, "Sup. ophthalmic v.", "sup_ophthalmic_v"], cs: [620, 130, "Cavernous sinus", "cavernous_sinus"],
+  fv: [150, 250, "Facial v.", "facial_v"], dfv: [370, 250, "Deep facial v.", "deep_facial_v"], pp: [620, 250, "Pterygoid plexus", "pterygoid_plexus"],
+  mxv: [620, 340, "Maxillary v.", "maxillary_v"], stv: [760, 340, "Sup. temporal v.", "stv"],
+  cfv: [370, 430, "Common facial v.", "common_facial_v"], rmv: [690, 430, "Retromandibular v.", "rmv"], pav: [840, 430, "Post. auricular v.", "post_auricular_v"],
+  ijv: [370, 520, "Internal jugular v.", "ijv"], ejv: [760, 520, "External jugular v.", "ejv"],
+  scalp: [840, 46, "Scalp veins", null], sss: [620, 46, "Dural venous sinuses", "emissary_v"]
+};
+const VE = [
+  ["st", "ang"], ["so", "ang"], ["ang", "fv"], ["ang", "sov", "", "danger"], ["sov", "cs", "", "danger"], ["fv", "dfv", "", "danger"], ["dfv", "pp", "", "danger"],
+  ["pp", "cs", "emissary veins (foramen ovale, Vesalius)", "danger"], ["pp", "mxv"], ["mxv", "rmv"], ["stv", "rmv"], ["fv", "cfv"], ["rmv", "cfv", "anterior division"],
+  ["rmv", "ejv", "posterior division"], ["pav", "ejv"], ["cfv", "ijv"], ["scalp", "sss", "", "danger"], ["so", "stv", "scalp network"]
+];
+const VROUTES = {
+  normal: { n: "Normal drainage of the face", seq: [["st", "ang"], ["so", "ang"], ["ang", "fv"], ["fv", "cfv"], ["stv", "rmv"], ["pp", "mxv"], ["mxv", "rmv"], ["rmv", "cfv"], ["rmv", "ejv"], ["pav", "ejv"], ["cfv", "ijv"]], t: "Superficial face → angular → facial vein → common facial → IJV. Side of scalp and deep face → superficial temporal + maxillary → retromandibular, which splits: anterior division joins the facial vein, posterior division joins the posterior auricular to form the EJV → subclavian vein." },
+  danger1: { n: "Danger triangle → cavernous sinus (via orbit)", seq: [["ang", "fv"], ["ang", "sov"], ["sov", "cs"]], t: "A squeezed boil on the upper lip or nose: flow reverses, against the normal arrows, and infected thrombus passes up the valveless facial vein to the angular vein, into the superior ophthalmic vein, through the superior orbital fissure into the cavernous sinus. Signs: fever, proptosis, chemosis, ptosis, ophthalmoplegia (CN III, IV, VI), V1/V2 numbness. Can spread to the other eye." },
+  danger2: { n: "Deep route via pterygoid plexus", seq: [["fv", "dfv"], ["dfv", "pp"], ["pp", "cs"]], t: "Infection of the cheek, upper molars or a needle-track: facial vein → deep facial vein → pterygoid plexus → emissary veins through foramen ovale and the sphenoidal emissary foramen (of Vesalius) → cavernous sinus." },
+  scalp: { n: "Scalp infection → dural sinus", seq: [["scalp", "sss"]], t: "Infection in the loose areolar tissue (layer L) spreads along emissary veins (parietal, mastoid) to the superior sagittal and sigmoid sinuses: venous sinus thrombosis, meningitis or abscess." }
+};
+let vSvg;
+function buildVeins() {
+  vSvg = sv("svg", { viewBox: "0 0 920 570", role: "img", "aria-label": "Venous drainage flow diagram" });
+  const defs = sv("defs", {}, vSvg);
+  [["arrV", "var(--vein)"], ["arrD", "var(--bad)"]].forEach(([id, c]) => { const m = sv("marker", { id, viewBox: "0 0 10 10", refX: 9, refY: 5, markerWidth: 11, markerHeight: 11, markerUnits: "userSpaceOnUse", orient: "auto" }, defs); sv("path", { d: "M0 0 L10 5 L0 10 Z", style: { fill: c } }, m); });
+  const eg = sv("g", {}, vSvg), ng = sv("g", {}, vSvg);
+  VE.forEach(([a, b, lab, kind]) => {
+    const A = VN[a], B = VN[b];
+    const dx = B[0] - A[0], dy = B[1] - A[1], len = Math.hypot(dx, dy);
+    const ux = dx / len, uy = dy / len;
+    const off = (n) => Math.abs(ux) > Math.abs(uy) * 2.2 ? 64 : 20;
+    const x1 = A[0] + ux * off(), y1 = A[1] + uy * (Math.abs(uy) > .3 ? 20 : off()), x2 = B[0] - ux * off(), y2 = B[1] - uy * (Math.abs(uy) > .3 ? 22 : off());
+    const p = sv("path", { d: `M${x1} ${y1} L${x2} ${y2}`, "data-e": a + ">" + b, "marker-end": kind === "danger" ? "url(#arrD)" : "url(#arrV)", style: { stroke: kind === "danger" ? "var(--bad)" : "var(--vein)", strokeWidth: 2.4, fill: "none", strokeDasharray: kind === "danger" ? "6 4" : null, opacity: .75 } }, eg);
+    if (lab) sv("text", { x: (x1 + x2) / 2 + 6, y: (y1 + y2) / 2 - 6, text: lab, style: { fontSize: "11px", fill: "var(--muted)", fontFamily: "var(--f-body)" } }, eg);
+  });
+  for (const k in VN) {
+    const [x, y, n, ref] = VN[k];
+    const g = sv("g", { "data-n": k, style: { cursor: "pointer" }, tabindex: "0", role: "button", "aria-label": n }, ng);
+    sv("rect", { x: x - 66, y: y - 18, width: 132, height: 36, rx: 18, class: "vb", style: { fill: k === "cs" || k === "sss" ? "var(--vein-dk)" : "var(--panel)", stroke: "var(--vein)", strokeWidth: 2 } }, g);
+    sv("text", { x, y: y + 4.5, "text-anchor": "middle", text: n, style: { fontSize: "12.5px", fontWeight: 700, fontFamily: "var(--f-body)", fill: k === "cs" || k === "sss" ? "#FFFFFF" : "var(--ink)" } }, g);
+    g.onclick = () => vInfo(k);
+    g.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); vInfo(k); } };
+  }
+  sv("text", { x: 760, y: 560, "text-anchor": "middle", text: "→ subclavian vein", style: { fontSize: "11px", fill: "var(--muted)", fontFamily: "var(--f-body)" } }, vSvg);
+  sv("text", { x: 370, y: 560, "text-anchor": "middle", text: "→ brachiocephalic vein", style: { fontSize: "11px", fill: "var(--muted)", fontFamily: "var(--f-body)" } }, vSvg);
+  $("#vdiagram").appendChild(vSvg);
+  const box = $("#vroutes");
+  for (const k in VROUTES) { const b = h("button", { class: "btn" + (k === "normal" ? "" : ""), "data-r": k }, (k === "normal" ? "▶ " : "⚠ ") + esc(VROUTES[k].n)); b.onclick = () => playRoute(k); box.appendChild(b); }
+  vInfo("cs");
+}
+let routeTimers = [];
+function playRoute(k) {
+  routeTimers.forEach(clearTimeout); routeTimers = [];
+  const r = VROUTES[k];
+  $$("#vroutes .btn").forEach(b => b.classList.toggle("on", b.dataset.r === k));
+  $$("path[data-e]", vSvg).forEach(p => { p.style.opacity = .15; p.style.strokeWidth = 2.4; });
+  $$("[data-n] .vb", vSvg).forEach(b => b.style.strokeWidth = 2);
+  $("#vout").innerHTML = `<h3>${esc(r.n)}</h3><p>${esc(r.t)}</p>`;
+  r.seq.forEach(([a, b], i) => routeTimers.push(setTimeout(() => {
+    let p = vSvg.querySelector(`path[data-e="${a}>${b}"]`) || vSvg.querySelector(`path[data-e="${b}>${a}"]`);
+    if (p) { p.style.opacity = 1; p.style.strokeWidth = 5; }
+    [a, b].forEach(n => { const bx = vSvg.querySelector(`[data-n="${n}"] .vb`); if (bx) bx.style.strokeWidth = 4.5; });
+  }, reduceMotion ? 0 : i * 650)));
+}
+function vInfo(k) {
+  const [, , n, ref] = VN[k];
+  const o = ref && S[ref];
+  const extra = { scalp: "Veins of the scalp run in layer C with the arteries and drain to the facial, superficial temporal, posterior auricular and occipital veins. They connect inward through emissary and diploic veins.", sss: "Dural venous sinuses receive emissary veins from the scalp (parietal emissary to the superior sagittal sinus; mastoid emissary to the sigmoid sinus)." };
+  $("#vout").innerHTML = `<h3>${esc(n)}</h3><p>${esc(o ? o.sum : extra[k])}</p>${o && o.f && o.f.k ? `<p style="border-left:3px solid var(--bad);padding-left:10px">${esc(o.f.k)}</p>` : ""}${o ? `<button class="btn primary" data-open="${ref}">Trace it on the atlas</button>` : ""}`;
+  const b = $("[data-open]", $("#vout")); if (b) b.onclick = () => { showTab("explore"); select(ref, { trace: !!S[ref].steps }); };
+}
+
+// ================= muscles tab =================
+function buildMuscles() {
+  const box = $("#mgrid");
+  const groups = [["Scalp", "Scalp (epicranius)"], ["Orbit", "Around the eye"], ["Nose", "Around the nose"], ["Mouth", "Around the mouth"], ["Ear", "Around the ear"], ["Neck", "Neck"]];
+  let html = "";
+  for (const [g, title] of groups) {
+    const ids = Object.keys(S).filter(k => S[k].sys === "muscle" && S[k].grp === g);
+    html += `<div class="grp-h">${esc(title)}</div><div class="mgrid">` + ids.map(k => {
+      const o = S[k], f = o.f || {};
+      return `<div class="mcard"><h4>${esc(o.n)}</h4><span class="br">CN VII: ${esc(o.br)}</span>
+       ${f.o ? `<div class="row"><b>Origin</b>${esc(f.o)}</div>` : ""}${f.i ? `<div class="row"><b>Insertion</b>${esc(f.i)}</div>` : ""}
+       ${f.a ? `<div class="row"><b>Action</b>${esc(f.a)}</div>` : ""}${f.t ? `<div class="row"><b>Test</b>${esc(f.t)}</div>` : ""}
+       <button class="btn" data-m="${k}">Show on plate</button></div>`;
+    }).join("") + `</div>`;
+  }
+  html += `<div class="card" style="margin-top:18px"><h3>Bedside examination of the facial nerve (motor)</h3>
+   <div class="tablewrap"><table><thead><tr><th>Ask the patient to…</th><th>Muscle</th><th>Branch</th></tr></thead><tbody>
+   <tr><td>Raise the eyebrows</td><td>Frontalis</td><td>Temporal</td></tr>
+   <tr><td>Screw the eyes shut (try to open them)</td><td>Orbicularis oculi</td><td>Temporal + zygomatic</td></tr>
+   <tr><td>Frown</td><td>Corrugator supercilii</td><td>Temporal</td></tr>
+   <tr><td>Wrinkle the nose / flare nostrils</td><td>Procerus, nasalis, LLSAN</td><td>Buccal</td></tr>
+   <tr><td>Puff out the cheeks</td><td>Buccinator, orbicularis oris</td><td>Buccal</td></tr>
+   <tr><td>Show the teeth / smile</td><td>Zygomaticus major & minor, levators, risorius</td><td>Zygomatic + buccal</td></tr>
+   <tr><td>Pull the mouth down / show lower teeth</td><td>Depressors, mentalis</td><td>Marginal mandibular</td></tr>
+   <tr><td>Grimace, tense the neck</td><td>Platysma</td><td>Cervical</td></tr></tbody></table></div></div>`;
+  box.innerHTML = html;
+  $$("[data-m]", box).forEach(b => b.onclick = () => { showTab("explore"); setView("ant"); select(b.dataset.m); window.scrollTo({ top: 0, behavior: reduceMotion ? "auto" : "smooth" }); });
+}
+
+// ================= quiz tab =================
+const MCQ = [
+  ["A 72-year-old has a new headache, jaw pain on chewing and a tender, thickened, pulseless artery in front of the tragus. Which artery is biopsied?", ["Facial artery", "Superficial temporal artery", "Occipital artery", "Posterior auricular artery"], 1, "Giant cell (temporal) arteritis. The STA crosses the posterior root of the zygomatic arch in front of the tragus, where it is biopsied. Start steroids promptly to protect vision."],
+  ["Where do you feel the facial artery pulse?", ["In front of the tragus", "At the medial canthus", "On the lower border of the mandible at the anterior border of masseter", "Below the angle of the mandible"], 2, "It hooks around the inferior border of the mandible at the anterior edge of masseter. Clench the teeth to find the edge."],
+  ["Right facial weakness including the forehead. Taste, tears and hearing are normal; no hyperacusis. Where is the lesion?", ["Internal acoustic meatus", "Geniculate ganglion", "Between nerve to stapedius and chorda tympani", "At or distal to the stylomastoid foramen"], 3, "All intracranial branches (GSPN, stapedius, chorda) are intact, so the lesion lies after they leave: at the stylomastoid foramen or beyond."],
+  ["After a stroke, the left lower face droops but the patient can wrinkle the forehead on both sides. Where is the lesion?", ["Left facial nucleus", "Right motor cortex / corticobulbar fibres", "Left stylomastoid foramen", "Right parotid gland"], 1, "UMN lesion: contralateral lower face weakness with forehead sparing, because the upper face motor neurons receive input from both hemispheres."],
+  ["A patient squeezes a boil beside the nose. Days later there is proptosis, chemosis and a lateral gaze palsy. The route of spread was most likely…", ["Facial vein → EJV", "Angular vein → superior ophthalmic vein → cavernous sinus", "Retromandibular vein → IJV", "Occipital vein → suboccipital plexus"], 1, "The valveless facial–angular–ophthalmic route carries infection to the cavernous sinus. CN VI, free in the sinus beside the ICA, is often affected first."],
+  ["Which nerve supplies the skin over the angle of the mandible?", ["Mandibular division (V3)", "Great auricular nerve (C2, C3)", "Buccal branch of facial nerve", "Lesser occipital nerve"], 1, "The angle is not trigeminal. Sensory loss that includes the angle should make you doubt a trigeminal lesion."],
+  ["Which layer of the scalp is called the 'danger area'?", ["Dense connective tissue", "Galea aponeurotica", "Loose areolar tissue", "Pericranium"], 2, "Infection spreads freely in layer L and can pass through emissary veins to the dural venous sinuses."],
+  ["Why do scalp lacerations bleed so much?", ["The scalp has no veins", "Vessels are held open by the dense connective tissue and cannot retract or constrict", "Platelets do not work in the scalp", "The arteries come only from the ICA"], 1, "Vessel walls are fixed to the fibrous septa of layer C. Firm pressure, or suturing including the galea, controls it."],
+  ["Buccinator is supplied by…", ["Buccal nerve (V3)", "Buccal branch of the facial nerve", "Nerve to mylohyoid", "Hypoglossal nerve"], 1, "The buccal nerve of V3 only pierces buccinator to carry sensation from the cheek; motor supply is CN VII."],
+  ["Inside the parotid gland, which order is correct from superficial to deep?", ["ECA → retromandibular vein → facial nerve", "Facial nerve → retromandibular vein → ECA", "Retromandibular vein → facial nerve → ECA", "Facial nerve → ECA → retromandibular vein"], 1, "Nerve, vein, artery from superficial to deep. The vein is the surgeon's landmark: the nerve lies just superficial to it."],
+  ["Gustatory sweating over the cheek after parotidectomy (Frey syndrome) involves misdirected fibres in the…", ["Great auricular nerve", "Auriculotemporal nerve", "Chorda tympani", "Buccal branch of CN VII"], 1, "Parasympathetic fibres for the parotid (CN IX → otic ganglion) run in the auriculotemporal nerve and regrow into the sweat glands of the skin."],
+  ["A blow to the forehead causes bruising that appears in both upper eyelids a day later. Why?", ["Fracture of the orbital roof", "Blood in the loose areolar layer tracks forward because frontalis attaches to skin, not bone", "Damage to the supraorbital artery inside the orbit", "Blood under the pericranium crosses sutures"], 1, "Layer L has no bony attachment anteriorly, so blood tracks into the eyelids. A subperiosteal bleed would stop at the sutures."],
+  ["The facial vein ends by…", ["Joining the EJV directly", "Joining the anterior division of the retromandibular vein to form the common facial vein → IJV", "Draining into the subclavian vein", "Entering the pterygoid plexus"], 1, "Common facial vein → internal jugular vein near the level of the hyoid bone."],
+  ["After a punch to the eye: numb cheek and upper lip, and double vision looking up. Which nerve is injured?", ["Supraorbital", "Infraorbital", "Zygomaticotemporal", "Mental"], 1, "Blow-out fracture of the orbital floor injures the infraorbital nerve in its canal and may trap inferior rectus."],
+  ["Hyperacusis and loss of taste, but tear production is normal. The lesion is…", ["Proximal to the geniculate ganglion", "Between the geniculate ganglion and the nerve to stapedius", "Between stapedius and chorda tympani", "In the parotid"], 1, "GSPN (tears) leaves at the geniculate, so it is spared. Stapedius and chorda leave further down, so both are affected."],
+  ["Which scalp arteries come from the internal carotid system?", ["Superficial temporal and occipital", "Supratrochlear and supraorbital", "Posterior auricular and occipital", "Transverse facial and supraorbital"], 1, "Both are branches of the ophthalmic artery. The other three scalp arteries are from the ECA."]
+];
+let mcqRight = 0, mcqDone = 0;
+function buildMCQ() {
+  const box = $("#mcq"); box.innerHTML = "";
+  MCQ.forEach(([q, opts, ans, exp], qi) => {
+    const c = h("div", { class: "qcard" }, `<b>${qi + 1}.</b> ${esc(q)}<div class="opts">${opts.map((o, i) => `<button data-i="${i}">${esc(o)}</button>`).join("")}</div>`);
+    $$(".opts button", c).forEach(b => b.onclick = () => {
+      if (c.dataset.done) return; c.dataset.done = 1; mcqDone++;
+      const i = +b.dataset.i; if (i === ans) mcqRight++;
+      $$(".opts button", c).forEach((x, k) => { if (k === ans) x.classList.add("right"); else if (k === i) x.classList.add("wrong"); });
+      c.appendChild(h("div", { class: "exp" }, esc(exp)));
+      $("#mcqscore").textContent = `${mcqRight} / ${mcqDone} correct`;
+    });
+    box.appendChild(c);
+  });
+}
+let ordState = null;
+function buildOrder() {
+  const sel = $("#ordsel");
+  ORDER_PATHS.forEach(k => sel.appendChild(h("option", { value: k }, esc(S[k].n))));
+  sel.onchange = newOrder; $("#ordnew").onclick = newOrder;
+  newOrder();
+}
+function newOrder() {
+  const id = $("#ordsel").value, steps = S[id].steps.map((s, i) => ({ i, t: s[2] }));
+  for (let i = steps.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [steps[i], steps[j]] = [steps[j], steps[i]]; }
+  ordState = { id, picked: [], steps };
+  const list = $("#ordlist"); list.innerHTML = ""; $("#ordres").textContent = "";
+  steps.forEach(s => {
+    const b = h("button", {}, `<span class="num"></span><span>${esc(s.t)}</span>`);
+    b.onclick = () => {
+      if (b.dataset.n) return;
+      ordState.picked.push(s.i); b.dataset.n = ordState.picked.length;
+      $(".num", b).textContent = ordState.picked.length;
+      if (ordState.picked.length === steps.length) {
+        let ok = 0;
+        $$("button", list).forEach((x, k) => { const n = +x.dataset.n - 1, good = steps[k].i === n; if (good) ok++; x.classList.add(good ? "ok" : "no"); if (!good) $(".num", x).textContent = `${x.dataset.n}→${steps[k].i + 1}`; });
+        $("#ordres").innerHTML = `${ok} of ${steps.length} in the right place. ${ok === steps.length ? "You can trace it." : "Red items show your position → the correct position."} <button class="btn" id="ordtrace">Watch it on the atlas</button>`;
+        $("#ordtrace").onclick = () => { showTab("explore"); select(id, { trace: true }); };
+      }
+    };
+    list.appendChild(b);
+  });
+}
+
+// ================= plan tab =================
+const PLAN = [
+  ["08:00", "Orientation: bones, foramina, layers", ["Find the supraorbital, infraorbital and mental foramina on the plate; confirm they line up through the pupil", "Learn S-C-A-L-P and click every layer in the Scalp tab", "Palpate on yourself: zygomatic arch, angle of mandible, mastoid, anterior border of masseter (clench)"]],
+  ["09:00", "Arteries", ["Recite the 8 ECA branches in order (Some Anatomists Like Freaking Out Poor Medical Students)", "Trace the facial artery: all 8 steps without looking", "Trace the superficial temporal artery; feel your own pulse in front of the tragus", "Learn the 3 parts of the maxillary artery and the branches of each", "Trace occipital and posterior auricular arteries; name the 5 scalp arteries and which come from the ICA"]],
+  ["10:45", "Veins", ["Trace supratrochlear + supraorbital → angular → facial → common facial → IJV", "Trace the retromandibular vein and both divisions; form the EJV", "Play both danger routes in the Venous tab and explain cavernous sinus thrombosis", "Draw the venous flow chart from memory"]],
+  ["13:00", "Facial nerve", ["Intracranial course: IAM → labyrinthine → geniculate → tympanic → mastoid → stylomastoid foramen", "Place the lesion at every station in the Facial nerve tab and predict the table before clicking", "Trace the extracranial trunk and the 5 branches (To Zanzibar By Motor Car)", "State the parotid relations: nerve → vein → artery"]],
+  ["14:30", "Muscles of facial expression", ["Go through every muscle card; perform each bedside test in a mirror", "Switch the atlas to Anterior with skin at 0% and name each muscle", "Link each muscle to its CN VII branch"]],
+  ["15:45", "Sensory supply", ["Turn on the sensory map; trace V1, V2, V3 boundaries in both views", "Trace infraorbital, supraorbital and auriculotemporal nerves", "Name the 4 nerves in front of the ear and the 4 behind for the scalp", "Remember: the angle of the mandible is C2/C3"]],
+  ["17:00", "Integration", ["Run 'Quiz: find it' on the lateral view with all layers on until you score 20/25", "Do the course-ordering game for at least 6 pathways", "Answer all clinical questions"]],
+  ["19:30", "Teach it back", ["Without notes, draw a lateral head and trace the facial artery, facial vein and facial nerve branches in three colours", "Explain to someone (or out loud) the danger triangle and the scalp danger area"]]
+];
+function buildPlan() {
+  const done = store.get("plan", {});
+  const box = $("#plan");
+  PLAN.forEach(([t, title, items], bi) => {
+    const b = h("div", { class: "block" }, `<div class="t">${t}</div><div><h4>${esc(title)}</h4>${items.map((it, ii) => { const id = `p${bi}-${ii}`; return `<label for="${id}"><input type="checkbox" id="${id}" ${done[id] ? "checked" : ""}> <span>${esc(it)}</span></label>`; }).join("")}</div>`);
+    box.appendChild(b);
+  });
+  const upd = () => {
+    const all = $$("#plan input"), n = all.filter(x => x.checked).length;
+    $("#planbar").style.width = (100 * n / all.length) + "%";
+    $("#planpct").textContent = `${n} of ${all.length} done`;
+  };
+  $$("#plan input").forEach(x => x.onchange = () => { const d = store.get("plan", {}); d[x.id] = x.checked; store.set("plan", d); upd(); });
+  upd();
+  const MN = [
+    ["ECA branches", "Some Anatomists Like Freaking Out Poor Medical Students: Superior thyroid, Ascending pharyngeal, Lingual, Facial, Occipital, Posterior auricular, Maxillary, Superficial temporal."],
+    ["Facial nerve branches", "To Zanzibar By Motor Car: Temporal, Zygomatic, Buccal, Marginal mandibular, Cervical."],
+    ["Scalp layers", "SCALP: Skin, Connective tissue, Aponeurosis, Loose areolar tissue (danger), Pericranium."],
+    ["Parotid, superficial → deep", "Nerve, Vein, Artery: facial nerve → retromandibular vein → external carotid artery."],
+    ["Maxillary artery, 1st part", "DAM I AM: Deep auricular, Anterior tympanic, Middle meningeal, Inferior alveolar, Accessory Meningeal."],
+    ["Cavernous sinus", "O TOM CAT: lateral wall Oculomotor, Trochlear, Ophthalmic, Maxillary; inside Carotid and Abducens (the T's are trochlear)."],
+    ["Foramina in a line", "Supraorbital, infraorbital and mental foramina sit on one vertical line through the pupil: same line for nerve blocks of V1, V2, V3."],
+    ["Artery vs vein on the face", "Artery: tortuous and in front. Vein: straight and behind. Both cross the mandible at the anterior border of masseter."],
+    ["Scalp nerves", "Four in front of the ear (supratrochlear, supraorbital, zygomaticotemporal, auriculotemporal: V1, V1, V2, V3) and four behind (great auricular, lesser occipital, greater occipital, third occipital: C2–C3)."],
+    ["Scalp arteries", "Two from the ICA in front (supratrochlear, supraorbital); three from the ECA (superficial temporal, posterior auricular, occipital)."],
+    ["UMN vs LMN facial palsy", "UMN: lower face only, opposite side, forehead spared. LMN: whole half of the face, same side, forehead involved."],
+    ["Facial nerve branch order in the bone", "Tears (GSPN) → Hearing dampening (stapedius) → Taste (chorda) → Face. A lesion loses everything after it."]
+  ];
+  $("#mnem").innerHTML = MN.map(([a, b]) => `<div><b>${esc(a)}</b>${esc(b)}</div>`).join("");
+}
+
+// ================= boot =================
+initAtlas();
+buildCN7();
+buildScalp();
+buildVeins();
+buildMuscles();
+buildMCQ();
+buildOrder();
+buildPlan();
+</script>
