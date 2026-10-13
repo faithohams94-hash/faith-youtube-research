@@ -1,1 +1,3 @@
-parents-at-30/voiceover/**/*.mp3
+**/voiceover/**/*.mp3
+**/voiceover/*.mp3
+**/voiceover/*.wav
