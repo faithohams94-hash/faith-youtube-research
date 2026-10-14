@@ -1,3 +1,6 @@
+document.documentElement.classList.add("js");
+// remove the no-JavaScript fallback (still picture, notes, banner) once scripts run
+["#nojs", "#static-plate", "#static-notes"].forEach(sel => { const e = document.querySelector(sel); if (e) e.remove(); });
 // ================= utilities =================
 const NS = "http://www.w3.org/2000/svg";
 const $ = (s, r = document) => r.querySelector(s);

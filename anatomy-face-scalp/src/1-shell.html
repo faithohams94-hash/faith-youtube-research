@@ -41,6 +41,18 @@ button,input,select{font:inherit;color:inherit}
 button{cursor:pointer}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .wrap{max-width:1360px;margin-inline:auto}
+.nojs{margin-top:14px;background:var(--ink);color:var(--bg);border-radius:12px;padding:12px 14px;font-size:14.5px;line-height:1.45}
+.nojs-url{display:block;margin-top:6px;font-family:var(--f-mono);font-size:13px;word-break:break-all;-webkit-user-select:all;user-select:all}
+svg[data-hide~="derm"] .s[data-sys="derm"]:not(.ctx):not(.sel){display:none}
+html:not(.js) nav.tabs,html:not(.js) .stagecol .toolbar,html:not(.js) .zoombar,html:not(.js) .side input,html:not(.js) .info,html:not(.js) .caption{display:none}
+html:not(.js) .stagecol{position:static}
+.static-notes{margin-top:16px}
+.static-notes h3{font-size:1.2rem;margin-bottom:8px}
+.static-notes details{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px 12px;margin-bottom:8px}
+.static-notes summary{font-weight:700;cursor:pointer}
+.static-notes h4{font-family:var(--f-display);margin:12px 0 2px;font-size:1.02rem}
+.static-notes p,.static-notes li{font-size:14px;margin:4px 0}
+.static-notes ol{padding-left:20px;margin:4px 0}
 
 header.top{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:12px;padding-block:18px 10px;border-bottom:1px solid var(--line)}
 header.top h1{font-size:clamp(1.5rem,3vw,2.1rem);font-weight:700;letter-spacing:-.01em}
@@ -223,6 +235,10 @@ td .n{color:var(--nerve-dk);font-weight:700}
 </style>
 
 <div class="wrap">
+<div class="nojs" id="nojs">
+  <b>You're seeing a preview.</b> The iPhone Files preview only shows a still picture and the notes. To tap, zoom and trace, open the online page in Safari:
+  <span class="nojs-url">https://claude.ai/artifact/5qY2iWSYZrmzj4eSkUvrNx</span>
+</div>
 <header class="top">
   <div>
     <h1>Faith's Face &amp; Scalp Tracer</h1>
@@ -269,7 +285,7 @@ td .n{color:var(--nerve-dk);font-weight:700}
         <button class="chip" id="t-quiz" aria-pressed="false" style="text-decoration:none">Quiz: find it</button>
       </div>
       <div class="quizbar" id="quizbar" hidden><span>Click: <span class="q" id="q-target"></span></span><span id="q-score">0 / 0</span><span><button id="q-skip">Skip</button> <button id="q-stop">Stop</button></span></div>
-      <div class="stage" id="stage"><div class="tip" id="tip"></div>
+      <div class="stage" id="stage"><!--STATIC_PLATE--><div class="tip" id="tip"></div>
         <div class="zoombar"><button id="z-in" aria-label="Zoom in">+</button><button id="z-out" aria-label="Zoom out">−</button><button id="z-reset" aria-label="Reset zoom">⟲</button></div>
         <div class="alsohere" id="also" hidden></div></div>
       <div class="caption">Pinch or use + to zoom, drag to move. Drawn schematic plate, not a photograph. Dashed lines run deep (inside the parotid, infratemporal fossa, orbit or bone). Each structure links to real dissection images.</div>
@@ -278,6 +294,7 @@ td .n{color:var(--nerve-dk);font-weight:700}
   </div>
 </section>
 
+<!--STATIC_NOTES-->
 <!-- FACIAL NERVE -->
 <section class="tab" id="tab-cn7" hidden>
   <div class="sec-h"><h2>Facial nerve (CN VII): place the lesion</h2><span class="note">Click a station on the nerve. The deficit table updates.</span></div>
