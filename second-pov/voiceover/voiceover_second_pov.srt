@@ -1,1519 +1,1524 @@
 1
-00:00:00,000 --> 00:00:03,843
+00:00:00,000 --> 00:00:04,014
 Courtroom 4B smells like carpet cleaner and old coffee.
 
 2
-00:00:04,163 --> 00:00:07,027
+00:00:04,334 --> 00:00:07,292
 It's 9:52 on a Tuesday morning in May.
 
 3
-00:00:07,347 --> 00:00:12,826
+00:00:07,612 --> 00:00:13,417
 You are fifty-five years old, sitting at a wooden table with a crack running through the varnish.
 
 4
-00:00:13,596 --> 00:00:16,057
+00:00:14,187 --> 00:00:16,830
 Across the aisle, Renée doesn't look at you.
 
 5
-00:00:16,377 --> 00:00:21,295
+00:00:17,150 --> 00:00:22,322
 Twenty-nine years of marriage, and she's found something very interesting on the ceiling.
 
 6
-00:00:22,065 --> 00:00:24,530
+00:00:23,092 --> 00:00:25,738
 The clerk slides a stack of paper toward you.
 
 7
-00:00:24,850 --> 00:00:26,180
+00:00:26,058 --> 00:00:27,448
 Forty-one pages.
 
 8
-00:00:26,500 --> 00:00:28,864
+00:00:27,768 --> 00:00:30,196
 A yellow tab everywhere your name goes.
 
 9
-00:00:29,184 --> 00:00:30,129
+00:00:30,516 --> 00:00:31,483
 Then a pen.
 
 10
-00:00:30,449 --> 00:00:32,741
+00:00:31,803 --> 00:00:34,252
 A cheap blue court pen with a chewed cap.
 
 11
-00:00:33,061 --> 00:00:34,431
+00:00:34,572 --> 00:00:36,013
 Belonging to nobody.
 
 12
-00:00:35,201 --> 00:00:35,981
+00:00:36,783 --> 00:00:37,580
 The house.
 
 13
-00:00:36,301 --> 00:00:36,954
+00:00:37,900 --> 00:00:38,613
 Hers.
 
 14
-00:00:37,274 --> 00:00:38,225
+00:00:38,933 --> 00:00:39,928
 The savings.
 
 15
-00:00:38,545 --> 00:00:39,242
+00:00:40,248 --> 00:00:40,980
 Split.
 
 16
-00:00:39,562 --> 00:00:40,899
+00:00:41,300 --> 00:00:42,663
 The business accounts.
 
 17
-00:00:41,219 --> 00:00:42,794
+00:00:42,983 --> 00:00:44,656
 Frozen, then divided.
 
 18
-00:00:43,114 --> 00:00:48,539
+00:00:44,976 --> 00:00:50,764
 When the lawyers finish the math, she walks out with a little over $500,000.
 
 19
-00:00:48,859 --> 00:00:53,870
+00:00:51,084 --> 00:00:56,323
 You walk out with a 2014 pickup, a storage unit, and the legal fees.
 
 20
-00:00:54,640 --> 00:00:56,127
+00:00:57,093 --> 00:00:58,602
 Sign here, the clerk says.
 
 21
-00:00:56,447 --> 00:00:57,195
+00:00:58,922 --> 00:00:59,690
 And here.
 
 22
-00:00:57,515 --> 00:00:58,264
+00:01:00,010 --> 00:01:00,778
 And here.
 
 23
-00:00:59,034 --> 00:01:00,415
+00:01:01,548 --> 00:01:02,994
 Your hand doesn't shake.
 
 24
-00:01:00,735 --> 00:01:02,015
+00:01:03,314 --> 00:01:04,596
 That surprises you.
 
 25
-00:01:02,785 --> 00:01:06,774
+00:01:05,366 --> 00:01:09,529
 Everybody in this room thinks they're watching a man lose everything.
 
 26
-00:01:07,094 --> 00:01:08,307
+00:01:09,849 --> 00:01:11,104
 Her lawyer thinks it.
 
 27
-00:01:08,627 --> 00:01:10,699
+00:01:11,424 --> 00:01:13,600
 Her sister in the second row thinks it.
 
 28
-00:01:11,469 --> 00:01:13,258
+00:01:14,370 --> 00:01:16,249
 Renée thinks it most of all.
 
 29
-00:01:14,028 --> 00:01:19,148
+00:01:17,019 --> 00:01:22,222
 But there's an envelope in a lawyer's safe across town, in a name that isn't yours.
 
 30
-00:01:19,468 --> 00:01:22,058
+00:01:22,542 --> 00:01:25,220
 And nobody in this room knows it exists.
 
 31
-00:01:22,828 --> 00:01:23,908
+00:01:25,990 --> 00:01:27,143
 Not the lawyers.
 
 32
-00:01:24,228 --> 00:01:25,274
+00:01:27,463 --> 00:01:28,591
 Not the judge.
 
 33
-00:01:25,594 --> 00:01:26,285
+00:01:28,911 --> 00:01:29,685
 Not her.
 
 34
-00:01:27,055 --> 00:01:31,407
+00:01:30,455 --> 00:01:35,061
 Here's what nobody tells you about losing half your life at fifty-five.
 
 35
-00:01:31,727 --> 00:01:33,588
+00:01:35,381 --> 00:01:37,400
 The divorce is the easy part.
 
 36
-00:01:33,908 --> 00:01:35,016
+00:01:37,720 --> 00:01:38,917
 It's a signature.
 
 37
-00:01:35,336 --> 00:01:36,424
+00:01:39,237 --> 00:01:40,333
 It's ten minutes.
 
 38
-00:01:36,744 --> 00:01:40,980
+00:01:40,653 --> 00:01:45,021
 It's what comes after that takes you apart, one quiet piece at a time.
 
 39
-00:01:41,300 --> 00:01:46,093
+00:01:45,341 --> 00:01:50,293
 This is how you hit the bottom while the whole town watched you start over from nothing.
 
 40
-00:01:46,413 --> 00:01:53,556
+00:01:50,613 --> 00:01:58,065
 And how, sixteen months later, she sat in this same courtroom asking for half of a fortune she never knew existed.
 
 41
-00:01:54,326 --> 00:01:55,790
+00:01:58,835 --> 00:02:00,349
 You sign the last page.
 
 42
-00:01:57,060 --> 00:01:58,627
+00:02:01,119 --> 00:02:02,743
 The clerk takes the pen back.
 
 43
-00:01:59,397 --> 00:02:02,703
+00:02:03,513 --> 00:02:07,162
 The first thing nobody warns you about is the quiet.
 
 44
-00:02:03,473 --> 00:02:08,399
+00:02:07,932 --> 00:02:12,943
 Three weeks later, you're standing in the doorway of a rented house on Calloway Street.
 
 45
-00:02:08,719 --> 00:02:10,532
+00:02:13,263 --> 00:02:15,135
 Built in 1961.
 
 46
-00:02:10,852 --> 00:02:13,760
+00:02:15,455 --> 00:02:18,161
 $1,150 a month.
 
 47
-00:02:14,080 --> 00:02:17,892
+00:02:18,481 --> 00:02:22,419
 The porch sags in the middle like it's tired of holding itself up.
 
 48
-00:02:18,212 --> 00:02:20,187
+00:02:22,739 --> 00:02:24,803
 The kitchen has one working burner.
 
 49
-00:02:20,507 --> 00:02:25,640
+00:02:25,123 --> 00:02:30,448
 The bathroom faucet drips every four seconds, and by the second night, you're counting.
 
 50
-00:02:26,410 --> 00:02:28,842
+00:02:31,218 --> 00:02:33,794
 There's a water stain on the bedroom ceiling.
 
 51
-00:02:29,162 --> 00:02:29,845
+00:02:34,114 --> 00:02:34,848
 Brown.
 
 52
-00:02:30,165 --> 00:02:31,778
+00:02:35,168 --> 00:02:36,921
 Shaped almost like a hand.
 
 53
-00:02:32,548 --> 00:02:35,187
+00:02:37,691 --> 00:02:40,461
 You lie on a mattress on the floor and stare at it.
 
 54
-00:02:35,507 --> 00:02:38,321
+00:02:40,781 --> 00:02:43,669
 Twenty-nine years, you slept next to someone.
 
 55
-00:02:38,641 --> 00:02:42,526
+00:02:43,989 --> 00:02:48,004
 Now you sleep next to a box labeled MISC in your own handwriting.
 
 56
-00:02:43,296 --> 00:02:45,116
+00:02:48,774 --> 00:02:50,677
 You used to own two businesses.
 
 57
-00:02:45,436 --> 00:02:50,554
+00:02:50,997 --> 00:02:56,566
 A flooring company with eleven employees and three vans with your name on the side.
 
 58
-00:02:50,874 --> 00:02:55,349
+00:02:56,886 --> 00:03:01,607
 And a car wash out on Route 9 you bought the year your son was born.
 
 59
-00:02:56,119 --> 00:02:58,278
+00:03:02,377 --> 00:03:04,707
 You thought the divorce would take the money.
 
 60
-00:02:58,598 --> 00:03:00,686
+00:03:05,027 --> 00:03:07,211
 You didn't think it would take your mind.
 
 61
-00:03:01,456 --> 00:03:02,357
+00:03:07,981 --> 00:03:08,882
 But it does.
 
 62
-00:03:02,677 --> 00:03:04,324
+00:03:09,202 --> 00:03:10,934
 You forget a supplier meeting.
 
 63
-00:03:04,644 --> 00:03:05,996
+00:03:11,254 --> 00:03:12,683
 Then a payroll date.
 
 64
-00:03:06,316 --> 00:03:12,808
+00:03:13,003 --> 00:03:19,781
 You sit in the truck outside the warehouse for forty minutes, engine off, unable to make yourself walk in.
 
 65
-00:03:13,128 --> 00:03:18,397
+00:03:20,101 --> 00:03:25,522
 Your foreman, Luis, who's worked for you since he was nineteen, starts covering for you.
 
 66
-00:03:19,167 --> 00:03:20,872
+00:03:26,292 --> 00:03:28,071
 Boss, he says one Friday.
 
 67
-00:03:21,192 --> 00:03:21,994
+00:03:28,391 --> 00:03:29,237
 Go home.
 
 68
-00:03:22,314 --> 00:03:23,163
+00:03:29,557 --> 00:03:30,432
 We got it.
 
 69
-00:03:23,933 --> 00:03:24,992
+00:03:31,202 --> 00:03:32,287
 They don't got it.
 
 70
-00:03:25,312 --> 00:03:26,418
+00:03:32,607 --> 00:03:33,778
 Nobody does.
 
 71
-00:03:27,188 --> 00:03:29,448
+00:03:34,548 --> 00:03:37,019
 The flooring company closes in August.
 
 72
-00:03:29,768 --> 00:03:34,244
+00:03:37,339 --> 00:03:42,151
 You lay off eleven people at a folding table in the back of the warehouse.
 
 73
-00:03:34,564 --> 00:03:35,909
+00:03:42,471 --> 00:03:43,868
 Luis shakes your hand.
 
 74
-00:03:36,229 --> 00:03:37,622
+00:03:44,188 --> 00:03:45,611
 He doesn't say anything.
 
 75
-00:03:37,942 --> 00:03:39,118
+00:03:45,931 --> 00:03:47,146
 He doesn't have to.
 
 76
-00:03:39,888 --> 00:03:41,826
+00:03:47,916 --> 00:03:49,949
 The car wash goes in October.
 
 77
-00:03:42,146 --> 00:03:45,187
+00:03:50,269 --> 00:03:53,416
 The buyer pays $140,000.
 
 78
-00:03:45,507 --> 00:03:50,466
+00:03:53,736 --> 00:03:58,960
 After the lender, the lawyers and the back taxes, you clear $9,000.
 
 79
-00:03:51,236 --> 00:03:52,230
+00:03:59,730 --> 00:04:00,780
 Not a crash.
 
 80
-00:03:52,550 --> 00:03:53,803
+00:04:01,100 --> 00:04:02,445
 Just a slow leak.
 
 81
-00:03:54,123 --> 00:03:55,210
+00:04:02,765 --> 00:04:03,916
 Like the faucet.
 
 82
-00:03:55,980 --> 00:03:57,936
+00:04:04,686 --> 00:04:06,738
 Meanwhile, Renée buys a car.
 
 83
-00:03:59,206 --> 00:04:02,355
+00:04:07,508 --> 00:04:10,913
 You find out the way everyone finds out anything now.
 
 84
-00:04:02,675 --> 00:04:03,532
+00:04:11,233 --> 00:04:12,117
 A photo.
 
 85
-00:04:03,852 --> 00:04:08,378
+00:04:12,437 --> 00:04:17,203
 Your daughter's phone, face-up on the counter, at the one dinner she comes for.
 
 86
-00:04:08,698 --> 00:04:13,434
+00:04:17,523 --> 00:04:22,571
 Renée at a dealership, holding a giant red bow over a white SUV.
 
 87
-00:04:13,754 --> 00:04:15,495
+00:04:22,891 --> 00:04:24,688
 $68,000.
 
 88
-00:04:15,815 --> 00:04:17,087
+00:04:25,008 --> 00:04:26,344
 Caption: New chapter.
 
 89
-00:04:17,857 --> 00:04:20,104
+00:04:27,114 --> 00:04:29,393
 Three hundred and twelve people liked it.
 
 90
-00:04:20,424 --> 00:04:24,202
+00:04:29,713 --> 00:04:33,628
 Some of them used to come to your Fourth of July barbecues.
 
 91
-00:04:24,972 --> 00:04:26,901
+00:04:34,398 --> 00:04:36,461
 Six weeks later, a second car.
 
 92
-00:04:27,221 --> 00:04:28,224
+00:04:36,781 --> 00:04:37,815
 A convertible.
 
 93
-00:04:28,544 --> 00:04:29,268
+00:04:38,135 --> 00:04:38,850
 Silver.
 
 94
-00:04:29,588 --> 00:04:30,794
+00:04:39,170 --> 00:04:40,363
 Caption: Why not.
 
 95
-00:04:31,564 --> 00:04:35,204
+00:04:41,133 --> 00:04:44,988
 She redoes the kitchen in the house that used to be yours.
 
 96
-00:04:35,524 --> 00:04:37,771
+00:04:45,308 --> 00:04:47,654
 Takes a trip to Portugal with her sister.
 
 97
-00:04:38,091 --> 00:04:39,353
+00:04:47,974 --> 00:04:49,272
 Gets her teeth done.
 
 98
-00:04:40,123 --> 00:04:41,194
+00:04:50,042 --> 00:04:51,171
 You're not angry.
 
 99
-00:04:41,514 --> 00:04:42,905
+00:04:51,491 --> 00:04:52,986
 That's the strange part.
 
 100
-00:04:43,225 --> 00:04:44,296
+00:04:53,306 --> 00:04:54,447
 You're just tired.
 
 101
-00:04:44,616 --> 00:04:51,045
+00:04:54,767 --> 00:05:01,513
 Tired the way you get after carrying something heavy so long you forget your arms are allowed to rest.
 
 102
-00:04:51,815 --> 00:04:53,448
+00:05:02,283 --> 00:05:03,964
 The town notices you, too.
 
 103
-00:04:53,768 --> 00:04:54,881
+00:05:04,284 --> 00:05:05,438
 Just differently.
 
 104
-00:04:55,651 --> 00:05:00,344
+00:05:06,208 --> 00:05:11,055
 At the hardware store, the guy who used to call you sir starts calling you buddy.
 
 105
-00:05:00,664 --> 00:05:11,908
+00:05:11,375 --> 00:05:23,141
 Your old golf partner, Greg, sees you in the checkout line with a cart of canned soup and store-brand coffee, and you watch him decide, in real time, not to come over.
 
 106
-00:05:12,678 --> 00:05:16,225
+00:05:23,911 --> 00:05:27,607
 At church, a woman you barely know presses a hand on your arm.
 
 107
-00:05:16,545 --> 00:05:18,777
+00:05:27,927 --> 00:05:30,289
 Starting over at fifty-five, she says.
 
 108
-00:05:19,097 --> 00:05:20,245
+00:05:30,609 --> 00:05:31,804
 You're so brave.
 
 109
-00:05:21,015 --> 00:05:21,725
+00:05:32,574 --> 00:05:33,318
 Brave.
 
 110
-00:05:22,045 --> 00:05:25,875
+00:05:33,638 --> 00:05:37,720
 That's the word people use when they've already decided you lost.
 
 111
-00:05:26,645 --> 00:05:30,852
+00:05:38,490 --> 00:05:42,800
 At a graduation party, somebody says it loud enough for you to hear.
 
 112
-00:05:31,172 --> 00:05:32,339
+00:05:43,120 --> 00:05:44,305
 Back to square one.
 
 113
-00:05:32,659 --> 00:05:33,695
+00:05:44,625 --> 00:05:45,702
 Back to zero.
 
 114
-00:05:34,465 --> 00:05:35,815
+00:05:46,472 --> 00:05:47,945
 You don't correct anyone.
 
 115
-00:05:37,085 --> 00:05:39,856
+00:05:48,715 --> 00:05:51,634
 The children are the part that actually breaks you.
 
 116
-00:05:40,626 --> 00:05:42,020
+00:05:52,404 --> 00:05:53,859
 Dana is twenty-six.
 
 117
-00:05:42,340 --> 00:05:46,502
+00:05:54,179 --> 00:05:58,514
 She drives in from the city once a month, then once every two months.
 
 118
-00:05:46,822 --> 00:05:54,390
+00:05:58,834 --> 00:06:06,868
 She walks into the house on Calloway Street, and you watch her eyes go to the porch, the stain, the one working burner.
 
 119
-00:05:54,710 --> 00:05:57,207
+00:06:07,188 --> 00:06:09,815
 She tries not to let her face do anything.
 
 120
-00:05:57,527 --> 00:05:58,639
+00:06:10,135 --> 00:06:11,348
 It does anyway.
 
 121
-00:05:59,409 --> 00:06:00,460
+00:06:12,118 --> 00:06:13,199
 Dad, she says.
 
 122
-00:06:00,780 --> 00:06:01,766
+00:06:13,519 --> 00:06:14,583
 Are you okay?
 
 123
-00:06:02,086 --> 00:06:03,102
+00:06:14,903 --> 00:06:15,995
 Like, actually?
 
 124
-00:06:03,872 --> 00:06:05,108
+00:06:16,765 --> 00:06:18,027
 You say you're fine.
 
 125
-00:06:05,428 --> 00:06:07,676
+00:06:18,347 --> 00:06:20,690
 She stays an hour and forty minutes.
 
 126
-00:06:07,996 --> 00:06:09,651
+00:06:21,010 --> 00:06:22,649
 She never takes her coat off.
 
 127
-00:06:10,421 --> 00:06:11,565
+00:06:23,419 --> 00:06:24,622
 Eli is sixteen.
 
 128
-00:06:11,885 --> 00:06:14,616
+00:06:24,942 --> 00:06:27,755
 Every other weekend is supposed to be yours.
 
 129
-00:06:14,936 --> 00:06:16,047
+00:06:28,075 --> 00:06:29,200
 He comes twice.
 
 130
-00:06:16,367 --> 00:06:17,979
+00:06:29,520 --> 00:06:31,189
 The third time, he texts.
 
 131
-00:06:18,299 --> 00:06:19,186
+00:06:31,509 --> 00:06:32,396
 Got a thing.
 
 132
-00:06:19,506 --> 00:06:20,185
+00:06:32,716 --> 00:06:33,409
 Sorry.
 
 133
-00:06:20,505 --> 00:06:22,712
+00:06:33,729 --> 00:06:35,978
 The fourth time, he doesn't text at all.
 
 134
-00:06:23,482 --> 00:06:25,043
+00:06:36,748 --> 00:06:38,448
 Later, you find out why.
 
 135
-00:06:25,363 --> 00:06:29,264
+00:06:38,768 --> 00:06:42,882
 A friend dropped him off once and said, Bro, your dad lives here?
 
 136
-00:06:29,584 --> 00:06:30,411
+00:06:43,202 --> 00:06:44,067
 Like, here?
 
 137
-00:06:30,731 --> 00:06:31,886
+00:06:44,387 --> 00:06:45,612
 Eli laughed it off.
 
 138
-00:06:32,206 --> 00:06:34,412
+00:06:45,932 --> 00:06:48,265
 Then he stopped letting anyone drive him.
 
 139
-00:06:35,182 --> 00:06:37,043
+00:06:49,035 --> 00:06:50,975
 Sixteen-year-olds don't hate you.
 
 140
-00:06:37,363 --> 00:06:40,759
+00:06:51,295 --> 00:06:54,912
 They just don't want to be seen standing next to what happened to you.
 
 141
-00:06:41,529 --> 00:06:42,638
+00:06:55,682 --> 00:06:56,804
 You understand.
 
 142
-00:06:42,958 --> 00:06:44,177
+00:06:57,124 --> 00:06:58,398
 That's the worst part.
 
 143
-00:06:44,497 --> 00:06:46,496
+00:06:58,718 --> 00:07:00,891
 At sixteen, you'd have done the same.
 
 144
-00:06:47,266 --> 00:06:48,927
+00:07:01,661 --> 00:07:03,437
 The bottom isn't dramatic.
 
 145
-00:06:49,247 --> 00:06:50,868
+00:07:03,757 --> 00:07:05,508
 It's a Thursday in November.
 
 146
-00:06:51,638 --> 00:06:54,420
+00:07:06,278 --> 00:07:09,133
 The furnace makes a sound like a cough and quits.
 
 147
-00:06:54,740 --> 00:06:56,370
+00:07:09,453 --> 00:07:11,145
 The landlord doesn't pick up.
 
 148
-00:06:56,690 --> 00:06:58,706
+00:07:11,465 --> 00:07:13,595
 It's thirty-four degrees outside.
 
 149
-00:06:59,026 --> 00:07:05,332
+00:07:13,915 --> 00:07:20,512
 You sit at the kitchen table in your coat, eating crackers out of the sleeve, and you open your banking app.
 
 150
-00:07:05,652 --> 00:07:08,113
+00:07:20,832 --> 00:07:23,802
 $2,316.
 
 151
-00:07:08,433 --> 00:07:10,216
+00:07:24,122 --> 00:07:26,027
 Rent is due in nine days.
 
 152
-00:07:10,986 --> 00:07:11,805
+00:07:26,797 --> 00:07:27,679
 You look up.
 
 153
-00:07:12,125 --> 00:07:14,032
+00:07:27,999 --> 00:07:29,980
 The stain on the ceiling looks bigger.
 
 154
-00:07:14,352 --> 00:07:15,480
+00:07:30,300 --> 00:07:31,475
 Maybe it is.
 
 155
-00:07:16,250 --> 00:07:20,817
+00:07:32,245 --> 00:07:37,209
 And for the first time in a long time, you let yourself think about the envelope.
 
 156
-00:07:21,137 --> 00:07:24,288
+00:07:37,529 --> 00:07:40,782
 And the question you'll keep asking yourself for months.
 
 157
-00:07:25,058 --> 00:07:26,541
+00:07:41,552 --> 00:07:43,120
 Why didn't you ever tell her?
 
 158
-00:07:27,311 --> 00:07:30,273
+00:07:43,890 --> 00:07:46,942
 You were thirty-one the year your grandfather died.
 
 159
-00:07:30,593 --> 00:07:31,343
+00:07:47,262 --> 00:07:48,038
 Walter.
 
 160
-00:07:31,663 --> 00:07:33,027
+00:07:48,358 --> 00:07:49,754
 Retired machinist.
 
 161
-00:07:33,347 --> 00:07:36,219
+00:07:50,074 --> 00:07:53,026
 Wore the same brown cardigan for twenty years.
 
 162
-00:07:36,539 --> 00:07:39,280
+00:07:53,346 --> 00:07:56,226
 Drove a Buick until the floor rusted through.
 
 163
-00:07:39,600 --> 00:07:44,272
+00:07:56,546 --> 00:08:01,438
 Everyone in the family assumed he had just enough to pay for his own funeral.
 
 164
-00:07:45,042 --> 00:07:48,335
+00:08:02,208 --> 00:08:05,703
 Two weeks before he passed, he called you to his bedside.
 
 165
-00:07:48,655 --> 00:07:49,522
+00:08:06,023 --> 00:08:06,899
 Only you.
 
 166
-00:07:49,842 --> 00:07:53,494
+00:08:07,219 --> 00:08:11,016
 He pressed an envelope into your palm with a lawyer's name on it.
 
 167
-00:07:53,814 --> 00:07:54,883
+00:08:11,336 --> 00:08:12,432
 Thomas Hollis.
 
 168
-00:07:55,653 --> 00:07:56,771
+00:08:13,202 --> 00:08:14,398
 He held your wrist.
 
 169
-00:07:57,091 --> 00:07:58,571
+00:08:14,718 --> 00:08:16,324
 His grip was still strong.
 
 170
-00:07:59,341 --> 00:08:01,122
+00:08:17,094 --> 00:08:18,931
 It stays in my name, he said.
 
 171
-00:08:01,442 --> 00:08:02,442
+00:08:19,251 --> 00:08:20,280
 Not yours.
 
 172
-00:08:02,762 --> 00:08:03,404
+00:08:20,600 --> 00:08:21,285
 Mine.
 
 173
-00:08:03,724 --> 00:08:05,178
+00:08:21,605 --> 00:08:23,197
 Until you're fifty-six.
 
 174
-00:08:05,498 --> 00:08:06,465
+00:08:23,517 --> 00:08:24,491
 You don't touch it.
 
 175
-00:08:06,785 --> 00:08:08,057
+00:08:24,811 --> 00:08:26,154
 You don't tell anyone.
 
 176
-00:08:08,377 --> 00:08:09,493
+00:08:26,474 --> 00:08:27,582
 Not your wife.
 
 177
-00:08:09,813 --> 00:08:10,944
+00:08:27,902 --> 00:08:29,053
 Not your friends.
 
 178
-00:08:11,264 --> 00:08:12,350
+00:08:29,373 --> 00:08:30,542
 Not your kids.
 
 179
-00:08:13,120 --> 00:08:14,167
-Why? you asked.
+00:08:31,312 --> 00:08:31,915
+Why?
 
 180
-00:08:15,437 --> 00:08:17,177
-He looked at you for a long time.
+00:08:32,235 --> 00:08:33,097
+you asked.
 
 181
-00:08:17,497 --> 00:08:20,930
-Because money people know about stops being yours, he said.
+00:08:33,867 --> 00:08:35,722
+He looked at you for a long time.
 
 182
-00:08:21,250 --> 00:08:23,289
-It becomes everybody's opinion.
+00:08:36,042 --> 00:08:39,644
+Because money people know about stops being yours, he said.
 
 183
-00:08:24,059 --> 00:08:25,583
-Then he closed his eyes.
+00:08:39,964 --> 00:08:42,070
+It becomes everybody's opinion.
 
 184
-00:08:26,853 --> 00:08:28,193
-You never told Renée.
+00:08:42,840 --> 00:08:44,463
+Then he closed his eyes.
 
 185
-00:08:28,513 --> 00:08:30,312
-Not because you planned for this.
+00:08:45,233 --> 00:08:46,655
+You never told Renée.
 
 186
-00:08:30,632 --> 00:08:31,470
-You didn't.
+00:08:46,975 --> 00:08:48,923
+Not because you planned for this.
 
 187
-00:08:31,790 --> 00:08:40,127
-You made a promise to a dying man in a brown cardigan, and then twenty-four years went by, and the promise turned into furniture.
+00:08:49,243 --> 00:08:50,093
+You didn't.
 
 188
-00:08:40,447 --> 00:08:41,862
-Something you stopped seeing.
+00:08:50,413 --> 00:08:59,129
+You made a promise to a dying man in a brown cardigan, and then twenty-four years went by, and the promise turned into furniture.
 
 189
-00:08:42,632 --> 00:08:45,366
-Sitting in that cold kitchen, you do the math.
+00:08:59,449 --> 00:09:00,935
+Something you stopped seeing.
 
 190
-00:08:45,686 --> 00:08:47,582
-Your birthday is in seven weeks.
+00:09:01,705 --> 00:09:04,553
+Sitting in that cold kitchen, you do the math.
 
 191
-00:08:48,352 --> 00:08:51,219
-On January 14th, you turn fifty-six.
+00:09:04,873 --> 00:09:06,866
+Your birthday is in seven weeks.
 
 192
-00:08:51,989 --> 00:08:56,499
-On January 16th, you sit in an office above a bakery downtown.
+00:09:07,636 --> 00:09:10,603
+On January 14th, you turn fifty-six.
 
 193
-00:08:56,819 --> 00:08:58,848
-Thomas Hollis is eighty-one now.
+00:09:11,373 --> 00:09:16,037
+On January 16th, you sit in an office above a bakery downtown.
 
 194
-00:08:59,168 --> 00:09:01,826
-His son, Martin, handles the paperwork.
+00:09:16,357 --> 00:09:18,434
+Thomas Hollis is eighty-one now.
 
 195
-00:09:02,146 --> 00:09:04,331
-He slides a folder across the desk.
+00:09:18,754 --> 00:09:21,459
+His son, Martin, handles the paperwork.
 
 196
-00:09:05,101 --> 00:09:11,832
-Your grandfather placed $310,000 into this trust in 1999, Martin says.
+00:09:21,779 --> 00:09:24,061
+He slides a folder across the desk.
 
 197
-00:09:12,152 --> 00:09:13,681
-Managed conservatively.
+00:09:24,831 --> 00:09:32,012
+Your grandfather placed $310,000 into this trust in 1999, Martin says.
 
 198
-00:09:14,001 --> 00:09:15,066
-Index funds.
+00:09:32,332 --> 00:09:33,935
+Managed conservatively.
 
 199
-00:09:15,386 --> 00:09:16,486
-Treasury bonds.
+00:09:34,255 --> 00:09:35,338
+Index funds.
 
 200
-00:09:16,806 --> 00:09:17,630
-Untouched.
+00:09:35,658 --> 00:09:36,807
+Treasury bonds.
 
 201
-00:09:18,400 --> 00:09:20,356
-He turns the last page toward you.
+00:09:37,127 --> 00:09:37,995
+Untouched.
 
 202
-00:09:21,126 --> 00:09:22,178
-Current value.
+00:09:38,765 --> 00:09:40,871
+He turns the last page toward you.
 
 203
-00:09:22,498 --> 00:09:24,890
-$1,046,000.
+00:09:41,641 --> 00:09:42,695
+Current value.
 
 204
-00:09:26,160 --> 00:09:27,604
-You read it three times.
+00:09:43,015 --> 00:09:45,529
+$1,046,000.
 
 205
-00:09:27,924 --> 00:09:29,358
-The number doesn't change.
+00:09:46,299 --> 00:09:47,814
+You read it three times.
 
 206
-00:09:30,128 --> 00:09:33,330
-It was held in his name the entire time, Martin says.
+00:09:48,134 --> 00:09:49,648
+The number doesn't change.
 
 207
-00:09:33,650 --> 00:09:35,590
-It was never part of your marriage.
+00:09:50,418 --> 00:09:53,822
+It was held in his name the entire time, Martin says.
 
 208
-00:09:35,910 --> 00:09:37,501
-Never part of your settlement.
+00:09:54,142 --> 00:09:56,202
+It was never part of your marriage.
 
 209
-00:09:37,821 --> 00:09:39,414
-Today, it becomes yours.
+00:09:56,522 --> 00:09:58,207
+Never part of your settlement.
 
 210
-00:09:39,734 --> 00:09:41,094
-You just have to sign.
+00:09:58,527 --> 00:10:00,251
+Today, it becomes yours.
 
 211
-00:09:41,864 --> 00:09:43,207
-He offers you a pen.
+00:10:00,571 --> 00:10:01,992
+You just have to sign.
 
 212
-00:09:43,527 --> 00:09:44,124
-Heavy.
+00:10:02,762 --> 00:10:04,160
+He offers you a pen.
 
 213
-00:09:44,444 --> 00:09:45,120
-Black.
+00:10:04,480 --> 00:10:05,089
+Heavy.
 
 214
-00:09:45,440 --> 00:09:46,370
-Expensive.
-
-215
-00:09:46,690 --> 00:09:52,692
-Then old Thomas reaches over, with a hand that shakes worse than yours ever did, and stops him.
-
-216
-00:09:53,462 --> 00:09:55,022
-He gives you a different pen.
-
-217
-00:09:55,342 --> 00:09:56,315
-Worn gold.
-
-218
-00:09:56,635 --> 00:09:57,813
-A little scratched.
-
-219
-00:09:58,583 --> 00:10:00,226
-This was Walter's, he says.
-
-220
-00:10:00,546 --> 00:10:01,861
-He left it with me.
-
-221
-00:10:02,181 --> 00:10:03,637
-Said you'd need it on the day.
-
-222
-00:10:04,407 --> 00:10:05,212
-You sign.
-
-223
-00:10:05,532 --> 00:10:07,627
-Your hand doesn't shake this time either.
-
-224
-00:10:07,947 --> 00:10:09,422
-But for a different reason.
-
-225
-00:10:10,192 --> 00:10:11,470
-You don't buy a mansion.
-
-226
-00:10:11,790 --> 00:10:13,092
-You don't post anything.
-
-227
-00:10:13,862 --> 00:10:17,291
-The first thing you buy is the house on Calloway Street.
-
-228
-00:10:17,611 --> 00:10:19,028
-The landlord wants out.
-
-229
-00:10:19,348 --> 00:10:21,839
-$189,000.
-
-230
-00:10:22,159 --> 00:10:22,783
-Cash.
-
-231
-00:10:23,103 --> 00:10:24,935
-He looks at you like he misheard.
-
-232
-00:10:25,705 --> 00:10:26,964
-Then a new furnace.
-
-233
-00:10:27,284 --> 00:10:28,933
-$4,800.
-
-234
-00:10:29,253 --> 00:10:30,774
-Installed the next morning.
-
-235
-00:10:31,094 --> 00:10:32,478
-Then you fix the porch.
-
-236
-00:10:32,798 --> 00:10:33,660
-The faucet.
-
-237
-00:10:33,980 --> 00:10:34,733
-The burner.
-
-238
-00:10:35,053 --> 00:10:36,794
-You leave the stain on the ceiling.
-
-239
-00:10:37,114 --> 00:10:38,218
-You're not sure why.
-
-240
-00:10:38,988 --> 00:10:40,604
-In March, you buy a truck.
-
-241
-00:10:40,924 --> 00:10:41,599
+00:10:05,409 --> 00:10:06,063
 Black.
 
+215
+00:10:06,383 --> 00:10:07,365
+Expensive.
+
+216
+00:10:07,685 --> 00:10:13,981
+Then old Thomas reaches over, with a hand that shakes worse than yours ever did, and stops him.
+
+217
+00:10:14,751 --> 00:10:16,371
+He gives you a different pen.
+
+218
+00:10:16,691 --> 00:10:17,732
+Worn gold.
+
+219
+00:10:18,052 --> 00:10:19,224
+A little scratched.
+
+220
+00:10:19,994 --> 00:10:21,716
+This was Walter's, he says.
+
+221
+00:10:22,036 --> 00:10:23,378
+He left it with me.
+
+222
+00:10:23,698 --> 00:10:25,294
+Said you'd need it on the day.
+
+223
+00:10:26,064 --> 00:10:26,896
+You sign.
+
+224
+00:10:27,216 --> 00:10:29,443
+Your hand doesn't shake this time either.
+
+225
+00:10:29,763 --> 00:10:31,400
+But for a different reason.
+
+226
+00:10:32,170 --> 00:10:33,483
+You don't buy a mansion.
+
+227
+00:10:33,803 --> 00:10:35,184
+You don't post anything.
+
+228
+00:10:35,954 --> 00:10:39,455
+The first thing you buy is the house on Calloway Street.
+
+229
+00:10:39,775 --> 00:10:41,327
+The landlord wants out.
+
+230
+00:10:41,647 --> 00:10:44,234
+$189,000.
+
+231
+00:10:44,554 --> 00:10:45,201
+Cash.
+
+232
+00:10:45,521 --> 00:10:47,404
+He looks at you like he misheard.
+
+233
+00:10:48,174 --> 00:10:49,482
+Then a new furnace.
+
+234
+00:10:49,802 --> 00:10:51,521
+$4,800.
+
+235
+00:10:51,841 --> 00:10:53,422
+Installed the next morning.
+
+236
+00:10:53,742 --> 00:10:55,180
+Then you fix the porch.
+
+237
+00:10:55,500 --> 00:10:56,399
+The faucet.
+
+238
+00:10:56,719 --> 00:10:57,501
+The burner.
+
+239
+00:10:57,821 --> 00:10:59,696
+You leave the stain on the ceiling.
+
+240
+00:11:00,016 --> 00:11:01,171
+You're not sure why.
+
+241
+00:11:01,941 --> 00:11:03,560
+In March, you buy a truck.
+
 242
-00:10:41,919 --> 00:10:42,485
-New.
+00:11:03,880 --> 00:11:04,533
+Black.
 
 243
-00:10:42,805 --> 00:10:46,203
-Then, in May, something you've wanted since you were nineteen.
+00:11:04,853 --> 00:11:05,462
+New.
 
 244
-00:10:46,523 --> 00:10:52,880
-A dark green 1967 coupe, restored, chrome so clean you can see your face in it.
+00:11:05,782 --> 00:11:09,369
+Then, in May, something you've wanted since you were nineteen.
 
 245
-00:10:53,200 --> 00:10:54,952
-$92,000.
+00:11:09,689 --> 00:11:16,259
+A dark green 1967 coupe, restored, chrome so clean you can see your face in it.
 
 246
-00:10:55,272 --> 00:10:58,659
-You park it in the driveway of the house everyone pitied.
+00:11:16,579 --> 00:11:18,488
+$92,000.
 
 247
-00:10:59,429 --> 00:11:01,097
-That's when the town notices.
+00:11:18,808 --> 00:11:22,533
+You park it in the driveway of the house everyone pitied.
 
 248
-00:11:02,367 --> 00:11:05,446
-At the hardware store, buddy turns back into sir.
+00:11:23,303 --> 00:11:25,024
+That's when the town notices.
 
 249
-00:11:05,766 --> 00:11:08,960
-Greg from golf crosses the whole parking lot this time.
+00:11:25,794 --> 00:11:29,045
+At the hardware store, buddy turns back into sir.
 
 250
-00:11:09,280 --> 00:11:10,841
-Hey, stranger, he says.
+00:11:29,365 --> 00:11:32,720
+Greg from golf crosses the whole parking lot this time.
 
 251
-00:11:11,161 --> 00:11:12,676
-Heard things are looking up.
+00:11:33,040 --> 00:11:34,618
+Hey, stranger, he says.
 
 252
-00:11:13,446 --> 00:11:14,520
-You call Luis.
+00:11:34,938 --> 00:11:36,535
+Heard things are looking up.
 
 253
-00:11:14,840 --> 00:11:17,262
-You ask if he wants to start something small.
+00:11:37,305 --> 00:11:38,386
+You call Luis.
 
 254
-00:11:17,582 --> 00:11:18,817
-Just the two of you.
+00:11:38,706 --> 00:11:41,284
+You ask if he wants to start something small.
 
 255
-00:11:19,137 --> 00:11:19,881
-Flooring.
+00:11:41,604 --> 00:11:42,851
+Just the two of you.
 
 256
-00:11:20,201 --> 00:11:22,396
-He's quiet on the phone for a long time.
+00:11:43,171 --> 00:11:43,955
+Flooring.
 
 257
-00:11:22,716 --> 00:11:26,008
-Then he says, Boss, I've been waiting a year for this call.
+00:11:44,275 --> 00:11:46,515
+He's quiet on the phone for a long time.
 
 258
-00:11:26,778 --> 00:11:29,543
-Eli shows up on a Saturday without being asked.
+00:11:46,835 --> 00:11:50,250
+Then he says, Boss, I've been waiting a year for this call.
 
 259
-00:11:29,863 --> 00:11:31,627
-He walks around the coupe twice.
+00:11:51,020 --> 00:11:53,876
+Eli shows up on a Saturday without being asked.
 
 260
-00:11:31,947 --> 00:11:33,030
-Can I drive it?
+00:11:54,196 --> 00:11:55,985
+He walks around the coupe twice.
 
 261
-00:11:33,800 --> 00:11:34,748
-No, you say.
+00:11:56,305 --> 00:11:57,424
+Can I drive it?
 
 262
-00:11:35,068 --> 00:11:36,666
-But you can wash it with me.
-
-263
-00:11:37,436 --> 00:11:38,930
-He stays until dark.
-
-264
-00:11:39,250 --> 00:11:40,912
-He doesn't check his phone once.
-
-265
-00:11:41,682 --> 00:11:43,632
-Dana notices the porch first.
-
-266
-00:11:43,952 --> 00:11:44,953
-Then the paint.
-
-267
-00:11:45,273 --> 00:11:46,062
-Then you.
-
-268
-00:11:46,382 --> 00:11:48,209
-Dad, she says, you look different.
-
-269
-00:11:48,529 --> 00:11:50,187
-You don't tell her about the money.
-
-270
-00:11:50,507 --> 00:11:51,354
-Not yet.
-
-271
-00:11:51,674 --> 00:11:52,913
-She stays for dinner.
-
-272
-00:11:53,233 --> 00:11:54,589
-She takes her coat off.
-
-273
-00:11:55,359 --> 00:11:57,473
-Renée's first text comes in June.
-
-274
-00:11:58,243 --> 00:11:58,812
-Hey.
-
-275
-00:11:59,132 --> 00:12:00,499
-Been thinking about you.
-
-276
-00:12:00,819 --> 00:12:01,767
-Hope you're well.
-
-277
-00:12:02,537 --> 00:12:04,202
-You read it at a red light.
-
-278
-00:12:04,522 --> 00:12:05,518
-You don't answer.
-
-279
-00:12:06,288 --> 00:12:08,229
-The second text comes a week later.
-
-280
-00:12:08,549 --> 00:12:10,314
-Eli says you got a new car.
-
-281
-00:12:10,634 --> 00:12:11,597
-That's great!!
-
-282
-00:12:11,917 --> 00:12:12,831
-Proud of you.
-
-283
-00:12:13,601 --> 00:12:15,151
-Two exclamation points.
-
-284
-00:12:15,471 --> 00:12:20,026
-In twenty-nine years, she never once used two exclamation points with you.
-
-285
-00:12:20,796 --> 00:12:22,233
-Then she starts showing up.
-
-286
-00:12:22,553 --> 00:12:24,424
-A casserole you didn't ask for.
-
-287
-00:12:24,744 --> 00:12:30,659
-Standing on your new porch, looking at the coupe, looking at the paint, doing a different kind of math.
-
-288
-00:12:30,979 --> 00:12:32,744
-Maybe we were too quick, she says.
-
-289
-00:12:33,064 --> 00:12:34,399
-Maybe we should talk.
-
-290
-00:12:34,719 --> 00:12:35,644
-For the kids.
-
-291
-00:12:36,414 --> 00:12:38,081
-She's driving the convertible.
-
-292
-00:12:38,401 --> 00:12:40,856
-There's a dent in the bumper she hasn't fixed.
-
-293
-00:12:41,176 --> 00:12:43,419
-Later, you hear the SUV is gone.
-
-294
-00:12:43,739 --> 00:12:45,095
-Sold back at a loss.
-
-295
-00:12:45,415 --> 00:12:47,350
-Portugal went on a credit card.
-
-296
-00:12:47,670 --> 00:12:49,411
-The kitchen went on another one.
-
-297
-00:12:50,181 --> 00:12:53,241
-Five hundred thousand dollars sounds like forever.
-
-298
-00:12:53,561 --> 00:12:55,258
-Until you spend it like it is.
-
-299
-00:12:56,028 --> 00:12:58,201
-You tell her you're doing fine on your own.
-
-300
-00:12:58,521 --> 00:12:59,802
-You say it kindly.
-
-301
-00:13:00,122 --> 00:13:00,981
-You mean it.
-
-302
-00:13:01,751 --> 00:13:06,329
-Three weeks later, a process server hands you an envelope on your own porch.
-
-303
-00:13:07,099 --> 00:13:08,403
-Courtroom 4B.
-
-304
-00:13:08,723 --> 00:13:09,646
-Same carpet.
-
-305
-00:13:09,966 --> 00:13:11,188
-Same coffee smell.
-
-306
-00:13:11,508 --> 00:13:12,916
-Sixteen months later.
-
-307
-00:13:13,686 --> 00:13:17,360
-Renée's new lawyer is younger, sharper and more expensive.
-
-308
-00:13:17,680 --> 00:13:20,300
-He stands up and talks about hidden assets.
-
-309
-00:13:20,620 --> 00:13:22,612
-About concealment during the marriage.
-
-310
-00:13:22,932 --> 00:13:26,299
-About a sixteen-year-old son who deserves stability.
-
-311
-00:13:26,619 --> 00:13:29,031
-He uses the word fair eleven times.
-
-312
-00:13:29,351 --> 00:13:30,176
-You count.
-
-313
-00:13:30,946 --> 00:13:36,300
-We are asking the court, he says, to reopen the settlement and order an equal division.
-
-314
-00:13:36,620 --> 00:13:37,667
-Fifty-fifty.
-
-315
-00:13:37,987 --> 00:13:39,502
-For the sake of the children.
-
-316
-00:13:40,272 --> 00:13:41,668
-Renée looks at you now.
-
-317
-00:13:41,988 --> 00:13:43,130
-Not at the ceiling.
-
-318
-00:13:43,450 --> 00:13:44,179
-At you.
-
-319
-00:13:44,949 --> 00:13:47,534
-The judge, the same judge, turns your way.
-
-320
-00:13:47,854 --> 00:13:48,434
-Sir?
-
-321
-00:13:48,754 --> 00:13:50,223
-Anything you'd like to say?
-
-322
-00:13:50,993 --> 00:13:52,630
-Your lawyer starts to stand.
-
-323
-00:13:52,950 --> 00:13:54,492
-You put a hand on his arm.
-
-324
-00:13:55,262 --> 00:13:56,541
-You don't need a speech.
-
-325
-00:13:56,861 --> 00:14:00,166
-You've had sixteen months of quiet to decide what to say.
-
-326
-00:14:00,936 --> 00:14:02,094
-Your Honor, you say.
-
-327
-00:14:02,414 --> 00:14:04,978
-That money was never mine during the marriage.
-
-328
-00:14:05,298 --> 00:14:06,881
-It was my grandfather's.
-
-329
-00:14:07,201 --> 00:14:12,122
-In his name, in his trust, from 1999 until this January.
-
-330
-00:14:12,442 --> 00:14:13,478
-I didn't earn it.
-
-331
-00:14:13,798 --> 00:14:14,828
-I didn't hide it.
-
-332
-00:14:15,148 --> 00:14:16,124
-I didn't touch it.
-
-333
-00:14:16,444 --> 00:14:20,734
-I received it eight months after this court finalized our divorce.
-
-334
-00:14:21,504 --> 00:14:24,389
-Your lawyer hands the clerk the trust documents.
-
-335
-00:14:24,709 --> 00:14:25,423
-Dated.
-
-336
-00:14:25,743 --> 00:14:26,692
-Notarized.
-
-337
-00:14:27,012 --> 00:14:31,803
-Thomas Hollis's signature from twenty-seven years ago, steady as a ruler.
-
-338
-00:14:32,573 --> 00:14:35,946
-And my children, you say, don't need anything divided.
-
-339
-00:14:36,266 --> 00:14:39,834
-Eli's college is already paid for, directly to the school.
-
-340
-00:14:40,154 --> 00:14:42,758
-Dana's student loans were cleared last month.
-
-341
-00:14:43,078 --> 00:14:44,762
-The receipts are in the folder.
-
-342
-00:14:45,532 --> 00:14:47,428
-The judge reads for a long time.
-
-343
-00:14:47,748 --> 00:14:51,176
-The room is so quiet you can hear the fluorescent lights buzz.
-
-344
-00:14:51,946 --> 00:14:53,580
-Then she takes off her glasses.
-
-345
-00:14:54,350 --> 00:14:55,511
-Motion denied.
-
-346
-00:14:56,781 --> 00:14:57,640
-Two words.
-
-347
-00:14:57,960 --> 00:14:58,903
-Ten seconds.
-
-348
-00:14:59,223 --> 00:15:02,153
-Less time than your signature took the first time.
-
-349
-00:15:02,923 --> 00:15:04,656
-You don't look at Renée right away.
-
-350
-00:15:04,976 --> 00:15:07,344
-When you finally do, she isn't angry.
-
-351
-00:15:07,664 --> 00:15:09,205
-That's what you didn't expect.
-
-352
-00:15:09,525 --> 00:15:10,780
-She just looks small.
-
-353
-00:15:11,100 --> 00:15:16,705
-Like someone who walked out of a house with half the furniture and only now found out it had a basement.
-
-354
-00:15:17,475 --> 00:15:19,338
-She catches you at the elevator.
-
-355
-00:15:19,658 --> 00:15:21,285
-Twenty-nine years, she says.
-
-356
-00:15:21,605 --> 00:15:24,122
-Twenty-nine years, and you never told me.
-
-357
-00:15:24,892 --> 00:15:26,573
-You think about the cold kitchen.
-
-358
-00:15:26,893 --> 00:15:27,757
-The furnace.
-
-359
-00:15:28,077 --> 00:15:29,029
-The crackers.
-
-360
-00:15:29,349 --> 00:15:31,032
-Eli's texts that stopped coming.
-
-361
-00:15:31,352 --> 00:15:33,480
-The woman at church who called you brave.
-
-362
-00:15:34,250 --> 00:15:35,198
+00:11:58,194 --> 00:11:59,211
 No, you say.
 
+263
+00:11:59,531 --> 00:12:01,198
+But you can wash it with me.
+
+264
+00:12:01,968 --> 00:12:03,595
+He stays until dark.
+
+265
+00:12:03,915 --> 00:12:05,634
+He doesn't check his phone once.
+
+266
+00:12:06,404 --> 00:12:08,447
+Dana notices the porch first.
+
+267
+00:12:08,767 --> 00:12:09,775
+Then the paint.
+
+268
+00:12:10,095 --> 00:12:10,969
+Then you.
+
+269
+00:12:11,289 --> 00:12:13,259
+Dad, she says, you look different.
+
+270
+00:12:13,579 --> 00:12:15,250
+You don't tell her about the money.
+
+271
+00:12:15,570 --> 00:12:16,454
+Not yet.
+
+272
+00:12:16,774 --> 00:12:17,994
+She stays for dinner.
+
+273
+00:12:18,314 --> 00:12:19,694
+She takes her coat off.
+
+274
+00:12:20,464 --> 00:12:22,683
+Renée's first text comes in June.
+
+275
+00:12:23,453 --> 00:12:24,046
+Hey.
+
+276
+00:12:24,366 --> 00:12:25,858
+Been thinking about you.
+
+277
+00:12:26,178 --> 00:12:27,163
+Hope you're well.
+
+278
+00:12:27,933 --> 00:12:29,633
+You read it at a red light.
+
+279
+00:12:29,953 --> 00:12:30,981
+You don't answer.
+
+280
+00:12:31,751 --> 00:12:33,730
+The second text comes a week later.
+
+281
+00:12:34,050 --> 00:12:35,946
+Eli says you got a new car.
+
+282
+00:12:36,266 --> 00:12:37,228
+That's great!!
+
+283
+00:12:37,548 --> 00:12:38,482
+Proud of you.
+
+284
+00:12:39,252 --> 00:12:40,835
+Two exclamation points.
+
+285
+00:12:41,155 --> 00:12:45,951
+In twenty-nine years, she never once used two exclamation points with you.
+
+286
+00:12:46,721 --> 00:12:48,239
+Then she starts showing up.
+
+287
+00:12:48,559 --> 00:12:50,458
+A casserole you didn't ask for.
+
+288
+00:12:50,778 --> 00:12:57,011
+Standing on your new porch, looking at the coupe, looking at the paint, doing a different kind of math.
+
+289
+00:12:57,331 --> 00:12:59,180
+Maybe we were too quick, she says.
+
+290
+00:12:59,500 --> 00:13:00,868
+Maybe we should talk.
+
+291
+00:13:01,188 --> 00:13:02,181
+For the kids.
+
+292
+00:13:02,951 --> 00:13:04,749
+She's driving the convertible.
+
+293
+00:13:05,069 --> 00:13:07,686
+There's a dent in the bumper she hasn't fixed.
+
+294
+00:13:08,006 --> 00:13:10,415
+Later, you hear the SUV is gone.
+
+295
+00:13:10,735 --> 00:13:12,158
+Sold back at a loss.
+
+296
+00:13:12,478 --> 00:13:14,439
+Portugal went on a credit card.
+
+297
+00:13:14,759 --> 00:13:16,490
+The kitchen went on another one.
+
+298
+00:13:17,260 --> 00:13:20,411
+Five hundred thousand dollars sounds like forever.
+
+299
+00:13:20,731 --> 00:13:22,579
+Until you spend it like it is.
+
+300
+00:13:23,349 --> 00:13:25,633
+You tell her you're doing fine on your own.
+
+301
+00:13:25,953 --> 00:13:27,291
+You say it kindly.
+
+302
+00:13:27,611 --> 00:13:28,467
+You mean it.
+
+303
+00:13:29,237 --> 00:13:34,073
+Three weeks later, a process server hands you an envelope on your own porch.
+
+304
+00:13:34,843 --> 00:13:36,172
+Courtroom 4B.
+
+305
+00:13:36,492 --> 00:13:37,517
+Same carpet.
+
+306
+00:13:37,837 --> 00:13:39,125
+Same coffee smell.
+
+307
+00:13:39,445 --> 00:13:40,864
+Sixteen months later.
+
+308
+00:13:41,634 --> 00:13:45,503
+Renée's new lawyer is younger, sharper and more expensive.
+
+309
+00:13:45,823 --> 00:13:48,609
+He stands up and talks about hidden assets.
+
+310
+00:13:48,929 --> 00:13:51,035
+About concealment during the marriage.
+
+311
+00:13:51,355 --> 00:13:54,859
+About a sixteen-year-old son who deserves stability.
+
+312
+00:13:55,179 --> 00:13:57,701
+He uses the word fair eleven times.
+
+313
+00:13:58,021 --> 00:13:58,874
+You count.
+
+314
+00:13:59,644 --> 00:14:05,380
+We are asking the court, he says, to reopen the settlement and order an equal division.
+
+315
+00:14:05,700 --> 00:14:06,817
+Fifty-fifty.
+
+316
+00:14:07,137 --> 00:14:08,733
+For the sake of the children.
+
+317
+00:14:09,503 --> 00:14:10,964
+Renée looks at you now.
+
+318
+00:14:11,284 --> 00:14:12,452
+Not at the ceiling.
+
+319
+00:14:12,772 --> 00:14:13,554
+At you.
+
+320
+00:14:14,324 --> 00:14:17,088
+The judge, the same judge, turns your way.
+
+321
+00:14:17,408 --> 00:14:17,994
+Sir?
+
+322
+00:14:18,314 --> 00:14:19,917
+Anything you'd like to say?
+
+323
+00:14:20,687 --> 00:14:22,383
+Your lawyer starts to stand.
+
+324
+00:14:22,703 --> 00:14:24,275
+You put a hand on his arm.
+
+325
+00:14:25,045 --> 00:14:26,371
+You don't need a speech.
+
+326
+00:14:26,691 --> 00:14:30,162
+You've had sixteen months of quiet to decide what to say.
+
+327
+00:14:30,932 --> 00:14:32,155
+Your Honor, you say.
+
+328
+00:14:32,475 --> 00:14:35,198
+That money was never mine during the marriage.
+
+329
+00:14:35,518 --> 00:14:37,147
+It was my grandfather's.
+
+330
+00:14:37,467 --> 00:14:42,650
+In his name, in his trust, from 1999 until this January.
+
+331
+00:14:42,970 --> 00:14:44,083
+I didn't earn it.
+
+332
+00:14:44,403 --> 00:14:45,476
+I didn't hide it.
+
+333
+00:14:45,796 --> 00:14:46,860
+I didn't touch it.
+
+334
+00:14:47,180 --> 00:14:51,570
+I received it eight months after this court finalized our divorce.
+
+335
+00:14:52,340 --> 00:14:55,283
+Your lawyer hands the clerk the trust documents.
+
+336
+00:14:55,603 --> 00:14:56,345
+Dated.
+
+337
+00:14:56,665 --> 00:14:57,622
+Notarized.
+
+338
+00:14:57,942 --> 00:15:03,023
+Thomas Hollis's signature from twenty-seven years ago, steady as a ruler.
+
+339
+00:15:03,793 --> 00:15:07,449
+And my children, you say, don't need anything divided.
+
+340
+00:15:07,769 --> 00:15:11,468
+Eli's college is already paid for, directly to the school.
+
+341
+00:15:11,788 --> 00:15:14,474
+Dana's student loans were cleared last month.
+
+342
+00:15:14,794 --> 00:15:16,552
+The receipts are in the folder.
+
+343
+00:15:17,322 --> 00:15:19,380
+The judge reads for a long time.
+
+344
+00:15:19,700 --> 00:15:23,356
+The room is so quiet you can hear the fluorescent lights buzz.
+
+345
+00:15:24,126 --> 00:15:25,898
+Then she takes off her glasses.
+
+346
+00:15:26,668 --> 00:15:27,851
+Motion denied.
+
+347
+00:15:28,621 --> 00:15:29,502
+Two words.
+
+348
+00:15:29,822 --> 00:15:30,791
+Ten seconds.
+
+349
+00:15:31,111 --> 00:15:34,105
+Less time than your signature took the first time.
+
+350
+00:15:34,875 --> 00:15:36,792
+You don't look at Renée right away.
+
+351
+00:15:37,112 --> 00:15:39,578
+When you finally do, she isn't angry.
+
+352
+00:15:39,898 --> 00:15:41,557
+That's what you didn't expect.
+
+353
+00:15:41,877 --> 00:15:43,141
+She just looks small.
+
+354
+00:15:43,461 --> 00:15:49,316
+Like someone who walked out of a house with half the furniture and only now found out it had a basement.
+
+355
+00:15:50,086 --> 00:15:52,077
+She catches you at the elevator.
+
+356
+00:15:52,397 --> 00:15:54,078
+Twenty-nine years, she says.
+
+357
+00:15:54,398 --> 00:15:56,961
+Twenty-nine years, and you never told me.
+
+358
+00:15:57,731 --> 00:15:59,513
+You think about the cold kitchen.
+
+359
+00:15:59,833 --> 00:16:00,724
+The furnace.
+
+360
+00:16:01,044 --> 00:16:02,031
+The crackers.
+
+361
+00:16:02,351 --> 00:16:04,108
+Eli's texts that stopped coming.
+
+362
+00:16:04,428 --> 00:16:06,693
+The woman at church who called you brave.
+
 363
-00:15:35,518 --> 00:15:36,309
-I didn't.
+00:16:07,463 --> 00:16:08,480
+No, you say.
 
 364
-00:15:37,579 --> 00:15:42,393
-And standing there, you finally answer the question you've been asking since November.
+00:16:08,800 --> 00:16:09,631
+I didn't.
 
 365
-00:15:42,713 --> 00:15:46,714
-You didn't tell her because the not-telling was the real inheritance.
+00:16:10,401 --> 00:16:15,503
+And standing there, you finally answer the question you've been asking since November.
 
 366
-00:15:47,034 --> 00:15:50,358
-It let you see exactly who stayed when the number was zero.
+00:16:15,823 --> 00:16:20,085
+You didn't tell her because the not-telling was the real inheritance.
 
 367
-00:15:51,128 --> 00:15:54,003
-That night, you sit on the porch on Calloway Street.
+00:16:20,405 --> 00:16:23,936
+It let you see exactly who stayed when the number was zero.
 
 368
-00:15:54,323 --> 00:15:56,757
-The coupe ticks as it cools in the driveway.
+00:16:24,706 --> 00:16:27,792
+That night, you sit on the porch on Calloway Street.
 
 369
-00:15:57,077 --> 00:16:03,188
-Inside, Eli and Dana are arguing over a board game neither of them has played since they were kids.
+00:16:28,112 --> 00:16:30,688
+The coupe ticks as it cools in the driveway.
 
 370
-00:16:03,958 --> 00:16:06,030
-You walk into the bedroom and look up.
+00:16:31,008 --> 00:16:37,586
+Inside, Eli and Dana are arguing over a board game neither of them has played since they were kids.
 
 371
-00:16:06,350 --> 00:16:07,772
-The stain is still there.
+00:16:38,356 --> 00:16:40,498
+You walk into the bedroom and look up.
 
 372
-00:16:08,092 --> 00:16:08,775
-Brown.
+00:16:40,818 --> 00:16:42,243
+The stain is still there.
 
 373
-00:16:09,095 --> 00:16:10,708
-Shaped almost like a hand.
+00:16:42,563 --> 00:16:43,296
+Brown.
 
 374
-00:16:11,478 --> 00:16:13,034
-Tomorrow, you'll paint over it.
+00:16:43,616 --> 00:16:45,370
+Shaped almost like a hand.
 
 375
-00:16:14,304 --> 00:16:15,243
-Not tonight.
+00:16:46,140 --> 00:16:47,741
+Tomorrow, you'll paint over it.
 
 376
-00:16:16,513 --> 00:16:20,318
-Here's what nobody tells you about losing half at fifty-five.
+00:16:48,511 --> 00:16:49,528
+Not tonight.
 
 377
-00:16:20,638 --> 00:16:22,752
-People measure you by what they can see.
+00:16:50,298 --> 00:16:54,308
+Here's what nobody tells you about losing half at fifty-five.
 
 378
-00:16:23,072 --> 00:16:24,610
-Most of them count wrong.
+00:16:54,628 --> 00:16:56,786
+People measure you by what they can see.
 
 379
-00:16:25,380 --> 00:16:29,745
-And the ones who come back when the number changes were never coming back for you.
+00:16:57,106 --> 00:16:58,671
+Most of them count wrong.
 
 380
-00:16:30,515 --> 00:16:31,505
+00:16:59,441 --> 00:17:04,055
+And the ones who come back when the number changes were never coming back for you.
+
+381
+00:17:04,825 --> 00:17:05,875
 Just the number.
+
