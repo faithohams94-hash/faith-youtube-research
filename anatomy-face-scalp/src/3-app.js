@@ -176,7 +176,7 @@ function buildStage(view) {
   const outline = view === "lat" ? [LAT_HEAD] : [ANT_HALF, mirrorPath(ANT_HALF)];
   outline.forEach(d => sv("path", { d, style: { fill: "none", stroke: "var(--skin-dk)", strokeWidth: 1.4, opacity: .8, pointerEvents: "none" } }, L.skin.parentNode.insertBefore(sv("g"), L.vein)));
   // trace overlay
-  stages[view] = { svg, L, defs };
+  stages[view] = { svg, L, defs, vb: { x: 0, y: 0, w: 600, h: 720 } };
   return svg;
 }
 
@@ -190,6 +190,7 @@ function drawStructure(id, o, list, view, L, defs) {
   const g = sv("g", { class: "s", "data-id": id, "data-sys": sys, tabindex: "-1" }, layer);
   const w = o.wd || 2.4;
   g.style.setProperty("--w", w);
+  g.style.setProperty("--wsel", (w * 1.7) + "px");
   if (sys === "artery" || sys === "vein" || sys === "nerve" || (sys === "ref" && o.line)) {
     const col = sys === "ref" ? "var(--gland)" : SYS[sys].col, dk = sys === "ref" ? "var(--bone-dk)" : SYS[sys].dk;
     for (const raw of list) {
@@ -199,7 +200,7 @@ function drawStructure(id, o, list, view, L, defs) {
       sv("path", { d, class: "hit", style: { strokeWidth: 14, fill: isClosed ? "transparent" : "none" } }, sub);
       const dash = deep ? (sys === "nerve" ? "5 4" : "7 4") : null;
       sv("path", { d, class: "case", style: { fill: isClosed ? (sys === "vein" ? "var(--vein)" : "none") : "none", fillOpacity: isClosed ? .25 : 0, stroke: dk, strokeWidth: w + 2.2, strokeLinecap: "round", strokeLinejoin: "round", strokeDasharray: dash, opacity: deep ? .7 : 1 } }, sub);
-      sv("path", { d, class: "core", style: { fill: "none", stroke: col, strokeWidth: "calc(var(--w) * 1px)", strokeLinecap: "round", strokeLinejoin: "round", strokeDasharray: dash } }, sub);
+      sv("path", { d, class: "core", style: { fill: "none", stroke: col, strokeWidth: w, strokeLinecap: "round", strokeLinejoin: "round", strokeDasharray: dash } }, sub);
       if (!deep) sv("path", { d, style: { fill: "none", stroke: "#FFFFFF", strokeOpacity: .35, strokeWidth: Math.max(.6, w * .28), strokeLinecap: "round", pointerEvents: "none" } }, sub);
     }
     if (list.some(r => r[0] === "~") && list.every(r => r[0] === "~")) g.classList.add("deep");
@@ -252,7 +253,7 @@ function setView(v) {
   $("#v-ant").setAttribute("aria-pressed", v === "ant");
   if (!stages[v]) buildStage(v);
   $$("svg", stageEl).forEach(s => s.remove());
-  stageEl.appendChild(stages[v].svg);
+  stageEl.insertBefore(stages[v].svg, stageEl.firstChild);
   applyHide(); renderLabels(); applySelection();
 }
 
@@ -274,21 +275,118 @@ function svgPoint(svg, evt) {
   const pt = svg.createSVGPoint(); pt.x = evt.clientX; pt.y = evt.clientY;
   return pt.matrixTransform(svg.getScreenCTM().inverse());
 }
+// ---------- zoom / pan / tap (mouse + touch) ----------
+function setVB(v, nb) {
+  const st = stages[v]; if (!st) return;
+  const w = Math.max(140, Math.min(600, nb.w)), h = w * 1.2;
+  const x = Math.max(0, Math.min(600 - w, nb.x)), y = Math.max(0, Math.min(720 - h, nb.y));
+  st.vb = { x, y, w, h };
+  st.svg.setAttribute("viewBox", `${x} ${y} ${w} ${h}`);
+}
+function zoomAt(f, sx, sy) {
+  const st = stages[state.view]; const vb = st.vb;
+  let px = vb.x + vb.w / 2, py = vb.y + vb.h / 2;
+  if (sx != null) { const m = st.svg.getScreenCTM(); px = (sx - m.e) / m.a; py = (sy - m.f) / m.d; }
+  const nw = vb.w / f;
+  setVB(state.view, { x: px - (px - vb.x) * (nw / vb.w), y: py - (py - vb.y) * (nw / vb.w), w: nw });
+}
+const ptrs = new Map(); let gest = null, lastTap = { t: 0, x: 0, y: 0 };
+stageEl.addEventListener("pointerdown", e => {
+  if (e.target.closest("button")) return;
+  ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY, x0: e.clientX, y0: e.clientY });
+  tip.style.opacity = 0;
+  if (ptrs.size === 2) { const [a, b] = [...ptrs.values()]; gest = { type: "pinch", d: Math.hypot(a.x - b.x, a.y - b.y), mx: (a.x + b.x) / 2, my: (a.y + b.y) / 2 }; }
+  else if (ptrs.size === 1) gest = { type: "tap", t: Date.now() };
+});
 stageEl.addEventListener("pointermove", e => {
-  const g = e.target.closest && e.target.closest(".s");
-  if (!g || state.quiz) { tip.style.opacity = 0; return; }
-  const r = stageEl.getBoundingClientRect();
-  tip.textContent = S[g.dataset.id].n;
-  tip.style.left = (e.clientX - r.left) + "px"; tip.style.top = (e.clientY - r.top) + "px";
-  tip.style.opacity = 1;
+  const p = ptrs.get(e.pointerId);
+  if (!p) {
+    if (e.pointerType !== "mouse") return;
+    const g = e.target.closest && e.target.closest(".s");
+    if (!g || state.quiz) { tip.style.opacity = 0; return; }
+    const r = stageEl.getBoundingClientRect();
+    tip.textContent = S[g.dataset.id].n;
+    tip.style.left = (e.clientX - r.left) + "px"; tip.style.top = (e.clientY - r.top) + "px";
+    tip.style.opacity = 1; return;
+  }
+  const dx = e.clientX - p.x, dy = e.clientY - p.y;
+  p.x = e.clientX; p.y = e.clientY;
+  const st = stages[state.view];
+  if (gest && gest.type === "pinch" && ptrs.size >= 2) {
+    const [a, b] = [...ptrs.values()];
+    const d = Math.hypot(a.x - b.x, a.y - b.y), mx = (a.x + b.x) / 2, my = (a.y + b.y) / 2;
+    if (gest.d > 0) zoomAt(d / gest.d, mx, my);
+    const m = st.svg.getScreenCTM();
+    setVB(state.view, { x: st.vb.x - (mx - gest.mx) / m.a, y: st.vb.y - (my - gest.my) / m.d, w: st.vb.w });
+    gest.d = d; gest.mx = mx; gest.my = my;
+  } else if (gest && (gest.type === "pan" || Math.hypot(p.x - p.x0, p.y - p.y0) > 8)) {
+    gest.type = "pan";
+    const m = st.svg.getScreenCTM();
+    setVB(state.view, { x: st.vb.x - dx / m.a, y: st.vb.y - dy / m.d, w: st.vb.w });
+  }
 });
-stageEl.addEventListener("pointerleave", () => tip.style.opacity = 0);
-stageEl.addEventListener("click", e => {
-  const g = e.target.closest && e.target.closest(".s");
-  if (state.quiz) { quizAnswer(g ? g.dataset.id : null); return; }
-  if (!g) { select(null); return; }
-  select(g.dataset.id);
-});
+function endPtr(e) {
+  const p = ptrs.get(e.pointerId); if (!p) return;
+  ptrs.delete(e.pointerId);
+  if (e.type === "pointerup" && gest && gest.type === "tap" && ptrs.size === 0 && Date.now() - gest.t < 600) {
+    const now = Date.now();
+    if (now - lastTap.t < 320 && Math.hypot(e.clientX - lastTap.x, e.clientY - lastTap.y) < 30) {
+      stages[state.view].vb.w < 599 ? setVB(state.view, { x: 0, y: 0, w: 600 }) : zoomAt(2.2, e.clientX, e.clientY);
+      lastTap.t = 0;
+    } else { lastTap = { t: now, x: e.clientX, y: e.clientY }; handleTap(e.clientX, e.clientY); }
+  }
+  if (ptrs.size === 0) gest = null;
+  else if (ptrs.size === 1) gest = { type: "pan" };
+}
+stageEl.addEventListener("pointerup", endPtr);
+stageEl.addEventListener("pointercancel", endPtr);
+stageEl.addEventListener("pointerleave", e => { if (e.pointerType === "mouse") tip.style.opacity = 0; });
+stageEl.addEventListener("wheel", e => {
+  if (!e.ctrlKey && !e.metaKey) return;
+  e.preventDefault(); zoomAt(Math.exp(-e.deltaY * 0.01), e.clientX, e.clientY);
+}, { passive: false });
+// iOS Safari page-zoom gesture events: keep them on the plate
+["gesturestart", "gesturechange"].forEach(t => stageEl.addEventListener(t, e => e.preventDefault()));
+
+function idsAt(cx, cy) {
+  const ids = [];
+  const offs = [[0, 0], [-12, 0], [12, 0], [0, -12], [0, 12], [-9, -9], [9, 9], [-9, 9], [9, -9]];
+  for (const [dx, dy] of offs) {
+    const els = document.elementsFromPoint ? document.elementsFromPoint(cx + dx, cy + dy) : [document.elementFromPoint(cx + dx, cy + dy)];
+    for (const el of els) {
+      const g = el && el.closest && el.closest(".s");
+      if (g && stageEl.contains(g) && g.dataset.id !== "skull" && !ids.includes(g.dataset.id)) ids.push(g.dataset.id);
+    }
+  }
+  return ids;
+}
+function showAlso(ids) {
+  const box = $("#also");
+  if (!ids.length) { box.hidden = true; box.innerHTML = ""; return; }
+  box.innerHTML = "<span>Also here:</span>" + ids.slice(0, 6).map(k => `<button data-id="${k}">${esc(S[k].n.replace(/ \(.*\)$/, ""))}</button>`).join("");
+  box.hidden = false;
+  $$("button", box).forEach(b => b.onclick = ev => { ev.stopPropagation(); select(b.dataset.id, { trace: !!S[b.dataset.id].steps, keepAlso: true }); });
+}
+function handleTap(cx, cy) {
+  const ids = idsAt(cx, cy);
+  if (state.quiz) { quizAnswer(ids.includes(state.quiz.target) ? state.quiz.target : (ids[0] || null)); return; }
+  if (!ids.length) { showAlso([]); select(null); return; }
+  select(ids[0], { scroll: true });
+  showAlso(ids.slice(1));
+}
+function bindZoomButtons() {
+  $("#z-in").onclick = () => zoomAt(1.5);
+  $("#z-out").onclick = () => zoomAt(1 / 1.5);
+  $("#z-reset").onclick = () => setVB(state.view, { x: 0, y: 0, w: 600 });
+}
+const isPhone = () => window.matchMedia("(max-width: 820px)").matches;
+function scrollToInfo() {
+  if (!isPhone()) return;
+  const sc = $(".stagecol").getBoundingClientRect();
+  const stuckBottom = 52 + sc.height;
+  const y = info.getBoundingClientRect().top + window.scrollY - stuckBottom - 8;
+  window.scrollTo({ top: Math.max(0, y), behavior: reduceMotion ? "auto" : "smooth" });
+}
 
 function applySelection() {
   const st = stages[state.view]; if (!st) return;
@@ -301,6 +399,7 @@ function applySelection() {
 
 function select(id, opts = {}) {
   stopTrace();
+  if (!opts.keepAlso) showAlso([]);
   state.sel = id;
   if (id) {
     const o = S[id];
@@ -317,6 +416,7 @@ function select(id, opts = {}) {
   renderInfo(id);
   $$("#list li button").forEach(b => b.classList.toggle("on", b.dataset.id === id));
   if (opts.trace && id && S[id].steps) startTrace(id);
+  if (id && (opts.scroll || opts.fromList)) scrollToInfo();
 }
 
 // ---------- labels ----------
@@ -458,6 +558,9 @@ function gotoStep(i) {
   (t.steps[i].s[3] || []).forEach(h => $$(`.s[data-id="${h}"]`, svg).forEach(e => e.classList.add("ctx")));
   renderLabels();
   $$("#tracebox li").forEach((li, k) => { li.classList.toggle("cur", k === i); li.classList.toggle("done", k < i); });
+  document.body.classList.add("tracing");
+  $("#tb-c").textContent = `${S[t.id].n} · step ${i + 1} of ${t.steps.length}`;
+  $("#tb-t").textContent = t.steps[i].s[2];
   const cur = $(`#tracebox li[data-i="${i}"]`);
   if (cur) cur.scrollIntoView({ block: "nearest", behavior: reduceMotion ? "auto" : "smooth" });
 }
@@ -466,10 +569,12 @@ function setMarker(l) {
   const p = t.path.getPointAtLength(l);
   t.marker.setAttribute("transform", `translate(${p.x} ${p.y})`);
   t.trail.style.strokeDasharray = `${l} ${t.total}`;
+  const vb = stages[state.view].vb;
+  if (vb.w < 599) setVB(state.view, { x: p.x - vb.w / 2, y: p.y - vb.h / 2, w: vb.w });
 }
 function playTrace() {
   const t = state.trace; if (!t) return;
-  t.playing = true; $("#tr-play") && ($("#tr-play").textContent = "❚❚ Pause");
+  t.playing = true; $("#tr-play") && ($("#tr-play").textContent = "❚❚ Pause"); $("#tb-play").textContent = "❚❚";
   if (t.i >= t.steps.length - 1) gotoStep(0);
   clearInterval(t.timer);
   t.timer = setInterval(() => {
@@ -480,7 +585,7 @@ function playTrace() {
 function pauseTrace() {
   const t = state.trace; if (!t) return;
   t.playing = false; clearInterval(t.timer);
-  $("#tr-play") && ($("#tr-play").textContent = "▶ Play");
+  $("#tr-play") && ($("#tr-play").textContent = "▶ Play"); $("#tb-play").textContent = "▶";
 }
 function stopTrace() {
   const t = state.trace; if (!t) return;
@@ -488,6 +593,7 @@ function stopTrace() {
   t.trail.remove(); t.marker.remove();
   for (const v in stages) $$(".s.ctx", stages[v].svg).forEach(e => e.classList.remove("ctx"));
   state.trace = null;
+  document.body.classList.remove("tracing");
 }
 
 // ================= side list =================
@@ -505,7 +611,7 @@ function buildList() {
     const ul = h("ul");
     ids.forEach(k => {
       const li = h("li"); const b = h("button", { "data-id": k }, esc(S[k].n));
-      b.onclick = () => select(k, { trace: !!S[k].steps });
+      b.onclick = () => select(k, { trace: !!S[k].steps, fromList: true });
       if (k === state.sel) b.classList.add("on");
       li.appendChild(b); ul.appendChild(li);
     });
@@ -572,6 +678,19 @@ function initAtlas() {
   $("#t-quiz").onclick = () => state.quiz ? quizStop() : quizStart();
   $("#q-skip").onclick = () => { if (state.quiz) { flash(state.quiz.target); quizNext(); } };
   $("#q-stop").onclick = quizStop;
+  bindZoomButtons();
+  $("#tb-prev").onclick = () => state.trace && gotoStep(state.trace.i - 1);
+  $("#tb-next").onclick = () => state.trace && gotoStep(state.trace.i + 1);
+  $("#tb-play").onclick = () => state.trace && (state.trace.playing ? pauseTrace() : playTrace());
+  $("#tb-x").onclick = () => stopTrace();
+  let sw = null;
+  const tb = $("#tbar");
+  tb.addEventListener("touchstart", e => { sw = { x: e.touches[0].clientX, y: e.touches[0].clientY }; }, { passive: true });
+  tb.addEventListener("touchend", e => {
+    if (!sw || !state.trace) return;
+    const dx = e.changedTouches[0].clientX - sw.x, dy = e.changedTouches[0].clientY - sw.y; sw = null;
+    if (Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy) * 1.5) gotoStep(state.trace.i + (dx < 0 ? 1 : -1));
+  }, { passive: true });
   const hash = location.hash.slice(1);
   if (S[hash]) select(hash); else renderInfo(null);
 }
