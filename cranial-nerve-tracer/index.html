@@ -329,6 +329,9 @@ td.nmc{font-weight:600;white-space:nowrap}
 .mcard p{margin:0;font:500 1.05rem/1.4 var(--f-display)}
 .mcard small{display:block;margin-top:6px;color:var(--muted);font-size:.8rem;line-height:1.5}
 .secttl{margin:0;font:700 1.4rem var(--f-display)}
+.byline{color:var(--accent);font-weight:600}
+.credit{border-top:1px solid var(--line);padding-top:14px;text-align:center;font-size:.84rem;color:var(--muted)}
+.credit b{font:600 1rem var(--f-display);color:var(--ink)}
 
 
 /* Brainstem nuclei view */
@@ -464,7 +467,7 @@ td.nmc{font-weight:600;white-space:nowrap}
       <svg width="40" height="40" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="11" fill="var(--accent)"/><path d="M9 29 C14 27 17 23 19 18 C21 13 25 10 31 10 M19 18 C23 20 27 22 31 22 M19 18 C20 23 23 27 28 30" fill="none" stroke="var(--accent-ink)" stroke-width="2.4" stroke-linecap="round"/><circle cx="9" cy="29" r="3" fill="var(--accent-ink)"/></svg>
       <div>
         <h1>Cranial Nerve Tracer</h1>
-        <p>Follow all twelve from nucleus to the organ they supply</p>
+        <p>Follow all twelve from nucleus to the organ they supply · <span class="byline">Created by Faith Ohashamnwe</span></p>
       </div>
     </div>
     <nav class="tabs" role="tablist" aria-label="Sections">
@@ -541,6 +544,7 @@ td.nmc{font-weight:600;white-space:nowrap}
 
     <section id="view-table" class="view" aria-labelledby="tab-table" hidden></section>
   </main>
+  <footer class="credit">Cranial Nerve Tracer · Created by <b>Faith Ohashamnwe</b></footer>
 </div>
 
 <script>
