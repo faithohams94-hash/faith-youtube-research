@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Faith's Face &amp; Scalp Tracer</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,6 +48,49 @@ svg[data-hide~="derm"] .s[data-sys="derm"]:not(.ctx):not(.sel){display:none}
 html:not(.js) nav.tabs,html:not(.js) .stagecol .toolbar,html:not(.js) .zoombar,html:not(.js) .side input,html:not(.js) .info,html:not(.js) .caption{display:none}
 html:not(.js) .stagecol{position:static}
 .static-notes{margin-top:16px}
+.t3{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,400px);gap:14px;align-items:start}
+.t3stagecol{position:sticky;top:60px;min-width:0}
+.t3stage{position:relative;height:min(76vh,760px);border-radius:14px;border:1px solid var(--line);overflow:hidden;background:radial-gradient(ellipse at 45% 35%,#33413f,#0a100f 75%)}
+.t3stage canvas{display:block}
+.t3load{position:absolute;inset:0;display:grid;place-items:center;color:#dfe8e6;font-weight:700;padding:20px;text-align:center}
+.t3labels{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.t3lbl{position:absolute;left:0;top:0;white-space:nowrap;font-size:12px;font-weight:700;color:#fff;background:rgba(10,16,15,.78);padding:2px 7px;border-radius:6px;margin:-26px 0 0 8px;border-left:3px solid #ffe066}
+.t3lbl.main{background:#fff;color:#111;border-left-color:#c41e2c;font-size:13px}
+.t3views{position:absolute;left:8px;top:8px;display:flex;gap:4px;flex-wrap:wrap}
+.t3views button{background:rgba(255,255,255,.9);color:#111;border:0;border-radius:8px;padding:7px 11px;font-weight:700;font-size:12.5px}
+.t3hint{position:absolute;right:10px;bottom:8px;color:rgba(255,255,255,.7);font-size:11.5px;pointer-events:none}
+.t3bar{display:flex;gap:6px;align-items:center;margin-top:8px}
+.t3bar button{height:44px;min-width:50px;border-radius:10px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font-weight:700;font-size:15px}
+.t3bar button.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);min-width:100px}
+.t3bar span{font-family:var(--f-mono);font-size:12px;color:var(--muted);margin-left:auto}
+.t3ctl{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.t3panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;min-width:0;display:grid;gap:10px}
+.t3panel select{width:100%;max-width:100%}
+.t3panel .kind{font-family:var(--f-mono);font-size:11.5px;text-transform:uppercase;letter-spacing:.1em;display:inline-flex;align-items:center;gap:6px;color:var(--muted)}
+.t3panel .kind i{width:10px;height:10px;border-radius:50%}
+.t3panel h2{font-size:1.45rem}
+.t3stepno{font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.t3steptxt{font-size:16px;font-weight:700;margin:4px 0 8px}
+.rel{display:flex;flex-wrap:wrap;gap:5px;align-items:center;margin-bottom:6px}
+.rel b{font-family:var(--f-mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.08em;width:100%;color:var(--muted)}
+.rel-p b{color:var(--warn)}
+.relchip{border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:5px 10px;font-size:13px;font-weight:700}
+.rel-p .relchip{border-color:var(--warn)}
+.relchip.plain{font-weight:400}
+.t3steps{margin:0;padding-left:22px;display:grid;gap:2px}
+.t3steps li{padding:5px 6px;border-radius:6px;cursor:pointer;font-size:14px}
+.t3steps li.cur{background:rgba(14,107,102,.16);font-weight:700}
+.t3steps li.done{color:var(--muted)}
+.trace li .rl{display:block;font-size:12.5px;font-weight:400;color:var(--muted);margin-top:2px}
+@media (max-width:820px){
+  .t3{grid-template-columns:minmax(0,1fr)}
+  .t3stagecol{top:calc(env(safe-area-inset-top,0px) + 52px);z-index:15;background:var(--bg);padding-bottom:6px}
+  .t3stage{height:52vh;height:52svh}
+  .t3lbl{font-size:10.5px;padding:1px 5px;margin:-20px 0 0 6px}
+  .t3lbl.main{font-size:11.5px}
+  .t3views button{padding:5px 8px;font-size:11.5px}
+  .t3hint{display:none}
+}
 .static-notes h3{font-size:1.2rem;margin-bottom:8px}
 .static-notes details{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px 12px;margin-bottom:8px}
 .static-notes summary{font-weight:700;cursor:pointer}
@@ -254,7 +298,8 @@ td .n{color:var(--nerve-dk);font-weight:700}
 </header>
 
 <nav class="tabs" role="tablist" aria-label="Sections">
-  <button role="tab" data-tab="explore" aria-selected="true">Atlas &amp; tracer</button>
+  <button role="tab" data-tab="t3d" aria-selected="false">3D tracer</button>
+  <button role="tab" data-tab="explore" aria-selected="true">2D atlas</button>
   <button role="tab" data-tab="cn7" aria-selected="false">Facial nerve lesions</button>
   <button role="tab" data-tab="scalp" aria-selected="false">Scalp layers</button>
   <button role="tab" data-tab="veins" aria-selected="false">Venous danger routes</button>
@@ -262,6 +307,45 @@ td .n{color:var(--nerve-dk);font-weight:700}
   <button role="tab" data-tab="quiz" aria-selected="false">Test yourself</button>
   <button role="tab" data-tab="plan" aria-selected="false">One-day plan</button>
 </nav>
+
+<!-- 3D -->
+<section class="tab" id="tab-t3d" hidden>
+  <div class="t3">
+    <div class="t3stagecol">
+      <div class="t3stage" id="t3stage">
+        <div class="t3load" id="t3load">Loading the 3D head…</div>
+        <div class="t3labels" id="t3labels"></div>
+        <div class="t3views" id="t3views"><button data-v="L">Left</button><button data-v="F">Front</button><button data-v="R">Right</button><button data-v="B">Back</button><button data-v="T">Top</button></div>
+        <div class="t3hint">Drag to turn · pinch to zoom · tap a line</div>
+      </div>
+      <div class="t3bar"><button id="t3prev" aria-label="Previous step">◀</button><button id="t3play" class="primary">▶ Play</button><button id="t3next" aria-label="Next step">▶|</button><span id="t3count"></span></div>
+    </div>
+    <aside class="t3panel">
+      <label for="t3sel" class="note">Choose a structure, or tap one on the head</label>
+      <select id="t3sel" class="btn"></select>
+      <span class="kind" id="t3kind"></span>
+      <h2 id="t3name">Loading…</h2>
+      <p id="t3sum" style="margin:0"></p>
+      <div id="t3now"></div>
+      <ol class="t3steps" id="t3steps"></ol>
+      <div class="t3ctl">
+        <label class="slider" for="t3skin">Skin <input type="range" id="t3skin" min="0" max="100" value="35"></label>
+        <button class="chip" id="t3side" aria-pressed="false">Both sides</button>
+      </div>
+      <div class="t3ctl" id="t3layers">
+        <button class="chip" data-l="artery" aria-pressed="true"><i style="background:var(--artery)"></i>Arteries</button>
+        <button class="chip" data-l="vein" aria-pressed="true"><i style="background:var(--vein)"></i>Veins</button>
+        <button class="chip" data-l="nerve" aria-pressed="true"><i style="background:var(--nerve)"></i>Nerves</button>
+        <button class="chip" data-l="muscle" aria-pressed="true"><i style="background:var(--muscle)"></i>Muscles</button>
+        <button class="chip" data-l="ref" aria-pressed="true"><i style="background:var(--gland)"></i>Glands & landmarks</button>
+        <button class="chip" data-l="bone" aria-pressed="true"><i style="background:var(--bone-dk)"></i>Bone</button>
+        <button class="chip" data-l="derm" aria-pressed="false"><i style="background:#7B61FF"></i>Sensory map</button>
+      </div>
+      <button class="btn" id="t3notes">Full notes on the 2D atlas</button>
+      <p class="note" style="margin:0">3D head: scan of Lee Perry-Smith by Infinite Realities (CC BY 3.0). Vessels, nerves and muscles are placed by projecting the atlas drawings onto the scan at typical depths, so positions are close but not exact.</p>
+    </aside>
+  </div>
+</section>
 
 <!-- ATLAS -->
 <section class="tab" id="tab-explore">
@@ -370,3 +454,6 @@ td .n{color:var(--nerve-dk);font-weight:700}
   <div class="tbtns"><button id="tb-prev" aria-label="Previous step">◀</button><button id="tb-play" aria-label="Play">▶</button><button id="tb-next" aria-label="Next step">▶|</button><button class="x" id="tb-x" aria-label="Stop tracing">✕</button></div>
 </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/controls/OrbitControls.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/loaders/GLTFLoader.js"></script>

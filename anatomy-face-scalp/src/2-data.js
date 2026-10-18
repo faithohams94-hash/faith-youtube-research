@@ -405,7 +405,7 @@ lacrimal_n:{n:"Lacrimal nerve (V1)",sys:"nerve",w:"Lacrimal_nerve",wd:1.8,grp:"T
  sum:"Smallest branch of V1. Supplies the lateral upper eyelid and conjunctiva; carries postganglionic parasympathetic fibres to the lacrimal gland (from CN VII via the zygomatic nerve)."},
 
 infraorbital_n:{n:"Infraorbital nerve (V2)",sys:"nerve",w:"Infraorbital_nerve",wd:2.6,grp:"Trigeminal (sensory)",
- lat:["~M240 336 C 216 334, 196 331, 172 328","M172 328 C 175 316, 178 306, 182 298","M172 328 C 156 336, 136 345, 115 352","M172 328 C 156 356, 136 380, 116 398"],
+ lat:["~M240 336 C 216 334, 196 331, 172 328","M172 328 C 156 356, 136 380, 116 398","M172 328 C 175 316, 178 306, 182 298","M172 328 C 156 336, 136 345, 115 352"],
  ant:["M255 335 C 255 322, 252 312, 249 304","M255 335 C 264 350, 272 364, 278 378","M255 335 C 257 368, 262 400, 268 430"],
  sum:"Continuation of the maxillary nerve (V2). Runs through the floor of the orbit and emerges at the infraorbital foramen, fanning out to the lower lid, side of the nose and upper lip.",
  f:{o:"Maxillary nerve (V2) in the pterygopalatine fossa.",c:"Enters the orbit through the inferior orbital fissure, runs in the infraorbital groove and canal in the orbital floor, emerges at the infraorbital foramen deep to levator labii superioris.",

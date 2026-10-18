@@ -463,6 +463,11 @@ function cadaverLink(o) {
   const q = o.n.replace(/\(.*?\)/g, "").replace(/[:,]/g, " ").trim();
   return `https://www.google.com/search?tbm=isch&q=${encodeURIComponent(q + " cadaver dissection")}`;
 }
+function relLine(id, i) {
+  const r = (REL[id] || [])[i]; if (!r) return "";
+  const t = ["p", "d", "s", "w"].filter(k => r[k] && r[k].length).map(k => `${REL_LABEL[k]}: ${r[k].map(x => relParts(x).text).join(", ")}`).join(" · ");
+  return t ? `<span class="rl">${esc(t)}</span>` : "";
+}
 function renderInfo(id) {
   if (!id) {
     info.innerHTML = `<div class="empty">
@@ -489,7 +494,7 @@ function renderInfo(id) {
         <button id="tr-prev" aria-label="Previous step">◀</button>
         <button id="tr-play" class="play">▶ Play</button>
         <button id="tr-next" aria-label="Next step">▶|</button></div>
-      <ol>${o.steps.map((s, i) => `<li data-i="${i}">${esc(s[2])}</li>`).join("")}</ol></div>`;
+      <ol>${o.steps.map((s, i) => `<li data-i="${i}">${esc(s[2])}${relLine(id, i)}</li>`).join("")}</ol></div>`;
   const keys = o.sys === "muscle" || (o.sys === "ref" && o.f && o.f.i) ? ["o", "i", "a", "n", "t", "r", "k"] : ["o", "c", "r", "b", "e", "s", "n", "p", "t", "k"];
   const f = o.f || {};
   const rows = keys.filter(k => f[k]).map(k => `<div><dt>${fieldLabel(k, o.sys)}</dt><dd class="${k === "k" ? "clin" : ""}">${esc(f[k])}</dd></div>`).join("");
@@ -525,8 +530,9 @@ function startTrace(id, autoplay = false) {
   stopTrace();
   if (S[id].lat && state.view !== "lat") setView("lat");
   if (state.sel !== id) { state.sel = id; applySelection(); }
-  const path = tracePathEl(id); if (!path) return;
   const st = stages[state.view], tg = st.L.trace;
+  let path = tracePathEl(id); if (!path) return;
+  if (S[id].lat && chainList(S[id].lat).length > 1) path = sv("path", { d: chainD(S[id].lat), class: "tpath", style: { fill: "none", stroke: "none" } }, tg);
   const total = path.getTotalLength();
   const col = SYS[S[id].sys].col;
   const trail = sv("path", { d: path.getAttribute("d"), class: "trail", style: { stroke: col, strokeWidth: (S[id].wd || 2.4) + 7, strokeOpacity: .35, strokeDasharray: `0 ${total}` } }, tg);
@@ -594,6 +600,7 @@ function stopTrace() {
   const t = state.trace; if (!t) return;
   clearInterval(t.timer); cancelAnimationFrame(t.raf);
   t.trail.remove(); t.marker.remove();
+  $$(".tpath").forEach(e => e.remove());
   for (const v in stages) $$(".s.ctx", stages[v].svg).forEach(e => e.classList.remove("ctx"));
   state.trace = null;
   document.body.classList.remove("tracing");
@@ -704,6 +711,7 @@ function showTab(name) {
   $$("section.tab").forEach(s => s.hidden = s.id !== "tab-" + name);
   store.set("tab", name);
   if (name !== "explore") { stopTrace(); }
+  if (name === "t3d" && typeof init3D === "function") init3D();
 }
 $$("nav.tabs button").forEach(b => b.onclick = () => showTab(b.dataset.tab));
 
@@ -1110,3 +1118,5 @@ buildMuscles();
 buildMCQ();
 buildOrder();
 buildPlan();
+bind3DUI();
+showTab("t3d");

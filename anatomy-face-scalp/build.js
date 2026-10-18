@@ -4,7 +4,9 @@
 const fs = require("fs"), path = require("path");
 const { chromium } = require("playwright");
 const dir = __dirname, src = f => fs.readFileSync(path.join(dir, "src", f), "utf8");
-const assemble = (shell) => `${shell}<script>\n${src("2-data.js")}\n${src("3-app.js")}</script>\n`;
+const b64 = f => fs.readFileSync(path.join(dir, "assets", f)).toString("base64");
+const ASSETS = `<script>window.HEAD_ASSETS={glb:"${b64("head.glb")}",skin:"data:image/jpeg;base64,${b64("skin.jpg")}",normal:"data:image/jpeg;base64,${b64("skin-normal.jpg")}"};</script>\n`;
+const assemble = (shell) => `${shell}${ASSETS}<script>\n${src("2-data.js")}\n${src("2b-rel.js")}\n${src("4-three.js")}\n${src("3-app.js")}</script>\n`;
 (async () => {
   const shell = src("1-shell.html");
   const tmp = path.join(dir, ".build-tmp.html");
