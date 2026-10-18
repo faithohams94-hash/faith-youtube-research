@@ -1,0 +1,1561 @@
+<title>Cranial Nerve Tracer</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,500;0,600;0,700;1,500&family=Public+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap">
+<style>
+/* Layout: an anatomy atlas plate. Nerve rail | live specimen you trace | clinical notes. Stacks on narrow screens. */
+:root{
+  --bg:#edf0f1; --surface:#fbfcfc; --surface-2:#e2e7e9; --ink:#17222b; --muted:#59656f; --line:#cdd6da;
+  --accent:#875800; --accent-ink:#ffffff; --accent-soft:#f4e5c0;
+  --tissue:#efe1df; --tissue-edge:#c6a7a6; --stem:#e7cdc8; --bone:#e6dfcd; --bone-edge:#a6977a;
+  --skin:#f5efe9; --skin-edge:#d5c4b4; --organ:#ecd5d2; --cavity:#e3d6d4; --artery:#c4554d; --vein:#4b6fb5; --eye:#ffffff;
+  --good:#1b7549; --good-soft:#d9eee2; --bad:#b42318; --bad-soft:#f9e0dc;
+  --n1:#b4531c; --n2:#3b5bdb; --n3:#7c3aed; --n4:#b5179e; --n5:#a87800; --n6:#0f8f6e;
+  --n7:#cf2f55; --n8:#6b7a0a; --n9:#8b5a2b; --n10:#b42318; --n11:#56688c; --n12:#0b7fab;
+  --f-display:"Spectral", Georgia, "Times New Roman", serif;
+  --f-body:"Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono:"JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --cur:var(--n7);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0c1217; --surface:#121a21; --surface-2:#1a242d; --ink:#e3e9ee; --muted:#93a2ae; --line:#273541;
+    --accent:#f0b43a; --accent-ink:#1d1400; --accent-soft:#3a2d0e;
+    --tissue:#2b2328; --tissue-edge:#5e4650; --stem:#3a2b30; --bone:#2a2923; --bone-edge:#77705c;
+    --skin:#161d23; --skin-edge:#36414b; --organ:#33262a; --cavity:#231d20; --artery:#e0776e; --vein:#7d9be0; --eye:#d7dde2;
+    --good:#53c98e; --good-soft:#12301f; --bad:#ff7d6e; --bad-soft:#3b1814;
+    --n1:#f08a4b; --n2:#7f9dff; --n3:#b495ff; --n4:#ef7ae0; --n5:#f2c14e; --n6:#3fd4a8;
+    --n7:#ff7d98; --n8:#c3d34a; --n9:#d9a06a; --n10:#ff6b5e; --n11:#a9b7d8; --n12:#4cc3f0;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0c1217; --surface:#121a21; --surface-2:#1a242d; --ink:#e3e9ee; --muted:#93a2ae; --line:#273541;
+  --accent:#f0b43a; --accent-ink:#1d1400; --accent-soft:#3a2d0e;
+  --tissue:#2b2328; --tissue-edge:#5e4650; --stem:#3a2b30; --bone:#2a2923; --bone-edge:#77705c;
+  --skin:#161d23; --skin-edge:#36414b; --organ:#33262a; --cavity:#231d20; --artery:#e0776e; --vein:#7d9be0; --eye:#d7dde2;
+  --good:#53c98e; --good-soft:#12301f; --bad:#ff7d6e; --bad-soft:#3b1814;
+  --n1:#f08a4b; --n2:#7f9dff; --n3:#b495ff; --n4:#ef7ae0; --n5:#f2c14e; --n6:#3fd4a8;
+  --n7:#ff7d98; --n8:#c3d34a; --n9:#d9a06a; --n10:#ff6b5e; --n11:#a9b7d8; --n12:#4cc3f0;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--f-body);-webkit-font-smoothing:antialiased}
+button{font:inherit;color:inherit}
+button:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+h1,h2,h3,h4{text-wrap:balance}
+.app{max-width:1520px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:14px 32px;display:flex;flex-direction:column;gap:14px}
+
+/* Header */
+.top{display:flex;align-items:center;gap:12px 22px;flex-wrap:wrap}
+.brand{display:flex;gap:12px;align-items:center;flex:1 1 300px;min-width:0}
+.brand svg{flex:none}
+.brand h1{font:700 1.6rem/1.05 var(--f-display);margin:0;letter-spacing:-.01em}
+.brand p{margin:3px 0 0;color:var(--muted);font-size:.86rem}
+.tabs{display:flex;gap:3px;background:var(--surface-2);padding:4px;border-radius:12px;overflow-x:auto;max-width:100%}
+.tabs button{border:0;background:none;padding:8px 14px;border-radius:9px;font-weight:600;font-size:.9rem;color:var(--muted);cursor:pointer;white-space:nowrap}
+.tabs button:hover{color:var(--ink)}
+.tabs button[aria-selected="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 3px rgb(0 0 0 / .12)}
+.stats{display:flex;gap:6px;flex-wrap:wrap}
+.stat{font:600 .72rem/1 var(--f-mono);letter-spacing:.04em;padding:7px 9px;border-radius:999px;background:var(--surface);border:1px solid var(--line);color:var(--muted);font-variant-numeric:tabular-nums}
+.stat b{color:var(--ink)}
+
+/* Trace view */
+#view-trace{display:grid;grid-template-columns:216px minmax(0,1fr) 380px;gap:14px;align-items:start}
+.rail{display:flex;flex-direction:column;gap:3px;position:sticky;top:12px}
+.rail-g{font:600 .66rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);padding:12px 8px 5px}
+.rail-g:first-child{padding-top:2px}
+.nv{display:flex;align-items:center;gap:10px;width:100%;text-align:left;border:1px solid transparent;background:none;border-radius:10px;padding:6px 8px;cursor:pointer}
+.nv:hover{background:var(--surface)}
+.nv.on{background:var(--surface);border-color:var(--line);box-shadow:0 1px 2px rgb(0 0 0 / .06)}
+.nv .rn{flex:none;width:38px;height:30px;display:grid;place-items:center;border-radius:8px;font:700 .82rem var(--f-display);color:var(--c);background:color-mix(in srgb,var(--c) 13%,transparent);border:1.5px solid color-mix(in srgb,var(--c) 45%,transparent)}
+.nv.on .rn{background:var(--c);color:var(--surface);border-color:var(--c)}
+.nv .nm{display:flex;flex-direction:column;font-weight:600;font-size:.9rem;line-height:1.2;min-width:0}
+.nv .nm small{font-weight:400;color:var(--muted);font-size:.74rem}
+.nv .tick{margin-left:auto;color:var(--good);font-weight:700;font-size:.85rem}
+.center{display:flex;flex-direction:column;gap:10px;min-width:0}
+.stepper{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px;scrollbar-width:thin}
+.step{flex:none;display:flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:6px 10px 6px 6px;cursor:pointer;max-width:230px;text-align:left}
+.step .i{flex:none;width:22px;height:22px;border-radius:50%;display:grid;place-items:center;font:600 .72rem var(--f-mono);background:var(--surface-2);color:var(--muted)}
+.step .tx{display:flex;flex-direction:column;min-width:0}
+.step .tx small{font:600 .6rem/1.2 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.step .tx span{font-size:.8rem;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.step.done .i{background:color-mix(in srgb,var(--cur) 22%,transparent);color:var(--cur)}
+.step.now{border-color:var(--cur);box-shadow:0 0 0 2px color-mix(in srgb,var(--cur) 25%,transparent)}
+.step.now .i{background:var(--cur);color:var(--surface)}
+.dwrap{position:relative;height:clamp(440px,calc(100vh - 250px),860px);background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.dwrap svg{width:100%;height:100%;display:block;touch-action:pan-y;cursor:grab;user-select:none;-webkit-user-select:none}
+.dwrap.zoomed svg{touch-action:none}
+.dwrap svg.grabbing{cursor:grabbing}
+.dctl{position:absolute;top:10px;right:10px;display:flex;flex-direction:column;gap:4px}
+.dbtn{width:34px;height:34px;border-radius:9px;border:1px solid var(--line);background:color-mix(in srgb,var(--surface) 88%,transparent);display:grid;place-items:center;cursor:pointer;font:600 1rem var(--f-mono);backdrop-filter:blur(6px)}
+.dbtn:hover{border-color:var(--muted)}
+.dtog{position:absolute;left:10px;top:10px;display:flex;gap:5px;flex-wrap:wrap;max-width:calc(100% - 70px)}
+.tog{border:1px solid var(--line);background:color-mix(in srgb,var(--surface) 88%,transparent);backdrop-filter:blur(6px);border-radius:999px;padding:5px 11px;font-size:.76rem;font-weight:600;cursor:pointer;color:var(--muted);display:flex;align-items:center;gap:6px}
+.tog::before{content:"";width:8px;height:8px;border-radius:50%;border:1.5px solid currentColor}
+.tog[aria-pressed="true"]{color:var(--ink);border-color:color-mix(in srgb,var(--accent) 60%,var(--line))}
+.tog[aria-pressed="true"]::before{background:var(--accent);border-color:var(--accent)}
+.legend{position:absolute;left:10px;bottom:10px;display:flex;gap:10px;flex-wrap:wrap;font-size:.72rem;color:var(--muted);background:color-mix(in srgb,var(--surface) 86%,transparent);backdrop-filter:blur(6px);padding:6px 10px;border-radius:10px;border:1px solid var(--line);max-width:calc(100% - 20px)}
+.legend span{display:flex;align-items:center;gap:5px;white-space:nowrap}
+.legend i{display:inline-block;width:10px;height:10px}
+.lg-nuc{border-radius:50%;background:var(--muted)}
+.lg-exit{border-radius:50%;border:2px solid var(--muted)}
+.lg-for{transform:rotate(45deg) scale(.8);background:var(--bone);border:1.5px solid var(--bone-edge)}
+.lg-gan{border-radius:50%;background:var(--muted);box-shadow:0 0 0 2px var(--surface),0 0 0 3.5px var(--muted)}
+.lg-tar{border-radius:50%;border:2px solid var(--muted);background:radial-gradient(circle,var(--muted) 30%,transparent 34%)}
+.lg-art{height:3px!important;width:14px!important;background:var(--artery);opacity:.7}
+.lg-vein{height:3px!important;width:14px!important;background:var(--vein);opacity:.7}
+.hint{position:absolute;right:54px;bottom:12px;font-size:.7rem;color:var(--muted)}
+.tip{position:absolute;z-index:5;max-width:280px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 12px;box-shadow:0 10px 28px rgb(0 0 0 / .18);font-size:.82rem;line-height:1.45}
+.tip b{display:block;font:600 .95rem/1.25 var(--f-display);margin-bottom:3px}
+.tip p{margin:0 0 6px;color:var(--muted)}
+.tip .chips{display:flex;gap:4px;flex-wrap:wrap}
+.chipn{border:0;border-radius:6px;padding:2px 7px;font:700 .72rem var(--f-display);background:color-mix(in srgb,var(--c) 16%,transparent);color:var(--c);cursor:pointer}
+.playbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.pbtn{border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:8px 13px;font-weight:600;font-size:.86rem;cursor:pointer;display:flex;align-items:center;gap:7px}
+.pbtn:hover{border-color:var(--muted)}
+.pbtn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);min-width:132px;justify-content:center}
+.pbtn:disabled{opacity:.45;cursor:default}
+.count{font:600 .8rem var(--f-mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.ptrack{flex:1 1 120px;height:4px;background:var(--surface-2);border-radius:4px;overflow:hidden;min-width:80px}
+.ptrack i{display:block;height:100%;width:0;background:var(--cur)}
+.speed{display:flex;align-items:center;gap:6px;font-size:.8rem;color:var(--muted)}
+.speed select{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:5px 6px}
+
+/* Panel */
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:14px;max-height:calc(100vh - 24px);overflow:auto;position:sticky;top:12px;min-width:0}
+.phead{display:flex;gap:14px;align-items:center}
+.big-rn{flex:none;width:64px;height:64px;border-radius:14px;display:grid;place-items:center;font:700 1.5rem var(--f-display);color:var(--surface);background:var(--cur)}
+.phead h2{margin:0;font:700 1.5rem/1.1 var(--f-display)}
+.phead p{margin:3px 0 0;color:var(--muted);font-size:.84rem}
+.one{margin:0;font-size:.95rem}
+.dirnote{font-size:.78rem;color:var(--muted);display:flex;gap:6px;align-items:center}
+.dirnote i{width:22px;height:2px;background:var(--cur);position:relative}
+.dirnote i::after{content:"";position:absolute;right:-1px;top:-3px;border:4px solid transparent;border-left:6px solid var(--cur);border-right:0}
+.scard{border:1px solid color-mix(in srgb,var(--cur) 40%,var(--line));background:color-mix(in srgb,var(--cur) 6%,var(--surface));border-radius:14px;padding:14px 15px}
+.eyebrow{font:600 .66rem/1.2 var(--f-mono);letter-spacing:.13em;text-transform:uppercase;color:var(--cur)}
+.scard h3{margin:5px 0 4px;font:700 1.2rem/1.2 var(--f-display)}
+.where{display:inline-flex;gap:6px;align-items:center;font-size:.78rem;color:var(--muted);margin-bottom:8px}
+.where svg{flex:none}
+.scard p{margin:0;font-size:.9rem;line-height:1.6}
+.ptabs{display:flex;gap:2px;border-bottom:1px solid var(--line)}
+.ptabs button{border:0;background:none;padding:8px 10px;font-weight:600;font-size:.85rem;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px}
+.ptabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--cur)}
+.facts{margin:0;display:grid;gap:10px}
+.facts div{display:grid;grid-template-columns:96px 1fr;gap:10px}
+.facts dt{font:600 .66rem/1.6 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.facts dd{margin:0;font-size:.88rem}
+.mods{display:flex;flex-direction:column;gap:6px}
+.mod{display:flex;gap:9px;align-items:baseline;font-size:.82rem;color:var(--muted)}
+.mod b{flex:none;font:600 .7rem var(--f-mono);color:var(--ink);background:var(--surface-2);border-radius:5px;padding:2px 6px;min-width:40px;text-align:center}
+.panel h4{margin:4px 0 6px;font:600 .68rem/1.2 var(--f-mono);letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}
+.plist{margin:0;padding-left:18px;font-size:.88rem;display:grid;gap:4px}
+.pearl{background:var(--accent-soft);border-radius:12px;padding:11px 13px;font-size:.88rem;margin:0}
+.pearl b{font:600 .66rem var(--f-mono);letter-spacing:.12em;text-transform:uppercase;display:block;margin-bottom:3px;color:var(--ink)}
+.exlist{margin:0;padding:0;list-style:none;display:grid;gap:10px;counter-reset:ex}
+.exlist li{display:grid;grid-template-columns:26px 1fr;gap:10px;font-size:.88rem;counter-increment:ex}
+.exlist li::before{content:counter(ex);width:24px;height:24px;border-radius:50%;display:grid;place-items:center;background:color-mix(in srgb,var(--cur) 16%,transparent);color:var(--cur);font:600 .75rem var(--f-mono)}
+.exlist b{display:block}
+.exlist span{color:var(--muted)}
+.lesion{border-left:3px solid var(--cur);padding:2px 0 2px 12px;font-size:.88rem}
+.lesion b{display:block}
+.lesion span{color:var(--muted)}
+.lesions{display:grid;gap:12px}
+.linkbtn{border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:8px 12px;font-weight:600;font-size:.85rem;cursor:pointer;justify-self:start}
+.linkbtn:hover{border-color:var(--cur)}
+
+/* SVG anatomy */
+.skin{fill:var(--skin);stroke:var(--skin-edge);stroke-width:1.3;vector-effect:non-scaling-stroke}
+.tissue{fill:var(--tissue);stroke:var(--tissue-edge);stroke-width:1.2;vector-effect:non-scaling-stroke}
+.deep{fill:var(--stem);opacity:.7;stroke:var(--tissue-edge);stroke-width:.8;vector-effect:non-scaling-stroke}
+.sulcus{fill:none;stroke:var(--tissue-edge);stroke-width:1;stroke-linecap:round;opacity:.65;vector-effect:non-scaling-stroke}
+.stem{fill:var(--stem);stroke:var(--tissue-edge);stroke-width:1.2;vector-effect:non-scaling-stroke}
+.olive{fill:var(--tissue-edge);opacity:.45}
+.vent{fill:var(--surface);stroke:var(--tissue-edge);stroke-width:.8;vector-effect:non-scaling-stroke}
+.bone{fill:var(--bone);stroke:var(--bone-edge);stroke-width:1;vector-effect:non-scaling-stroke}
+.boneline{fill:none;stroke:var(--bone-edge);stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;opacity:.75;vector-effect:non-scaling-stroke}
+.boneline.thin{stroke-width:1.8;opacity:.55}
+.orbit{fill:none;stroke:var(--bone-edge);stroke-width:1.2;stroke-dasharray:3 4;vector-effect:non-scaling-stroke;opacity:.8}
+.eye{fill:var(--eye);stroke:var(--skin-edge);stroke-width:1.2;vector-effect:non-scaling-stroke}
+.iris{fill:var(--ink);opacity:.55}
+.cavity{fill:var(--cavity);opacity:.75}
+.organ{fill:var(--organ);stroke:var(--tissue-edge);stroke-width:1;vector-effect:non-scaling-stroke}
+.gutline{fill:none;stroke:var(--tissue-edge);stroke-width:7;stroke-linecap:round;opacity:.55}
+.gutline.thin{stroke-width:4}
+.vessel{fill:none;stroke-linecap:round;stroke-width:3.5;opacity:.32;vector-effect:non-scaling-stroke}
+.vessel.a{stroke:var(--artery)} .vessel.v{stroke:var(--vein);stroke-width:4.5}
+.inset{fill:var(--bg);fill-opacity:.4;stroke:var(--line);stroke-width:1.2;stroke-dasharray:5 5;vector-effect:non-scaling-stroke}
+.rlab{font:600 11px var(--f-mono);letter-spacing:.16em;fill:var(--muted);opacity:.8}
+.vlab{font:600 7.5px var(--f-mono);letter-spacing:.14em;fill:var(--tissue-edge)}
+.allnerves .an path{fill:none;stroke-linecap:round;stroke-linejoin:round}
+.allnerves .vis{stroke:var(--c);stroke-width:calc(var(--k) * 2px);opacity:.3;transition:opacity .2s}
+.allnerves .hit{stroke:transparent;stroke-width:calc(var(--k) * 14px);cursor:pointer;pointer-events:stroke}
+.allnerves .an:hover .vis{opacity:.95;stroke-width:calc(var(--k) * 3px)}
+.allnerves .an.cur{display:none}
+.allnerves.off{display:none}
+.seg path{fill:none;stroke-linecap:round;stroke-linejoin:round}
+.casing{stroke:var(--surface);stroke-width:calc(var(--k) * 7.5px)}
+.nvp{stroke:var(--cur);stroke-width:calc(var(--k) * 3.8px)}
+.flow{stroke:var(--surface);stroke-width:calc(var(--k) * 1.6px);opacity:0;transition:opacity .4s}
+.flow.on{opacity:.95}
+.sig{fill:var(--cur);stroke:var(--surface);pointer-events:none}
+.node{cursor:pointer;opacity:0;transition:opacity .35s;pointer-events:none}
+.node.vis{opacity:1;pointer-events:auto}
+.node .dot{fill:var(--surface);stroke:var(--cur);stroke-width:2}
+.node.t-nuc .dot,.node.t-gang .dot{fill:var(--cur);stroke:var(--surface);stroke-width:2}
+.node.t-gang .ring{fill:none;stroke:var(--cur);stroke-width:1.6}
+.node.t-foramen .dot{fill:var(--bone);stroke:var(--bone-edge);stroke-width:1.6}
+.node.t-foramen.cur .dot{stroke:var(--cur);stroke-width:2.2}
+.node.t-target .ring,.node.t-cortex .ring{fill:var(--surface);stroke:var(--cur);stroke-width:2}
+.node.t-target .dot,.node.t-cortex .dot{fill:var(--cur);stroke:none}
+.node.t-way2 .dot{fill:var(--surface);stroke:var(--cur);stroke-width:1.6}
+.halo{fill:var(--cur);opacity:0;transform-box:fill-box;transform-origin:center}
+.node.cur .halo{animation:pulse 1.9s ease-out infinite}
+@keyframes pulse{0%{opacity:.5;transform:scale(.5)}100%{opacity:0;transform:scale(2.4)}}
+.lbl{font:600 12px var(--f-body);fill:var(--ink);paint-order:stroke;stroke:var(--surface);stroke-width:4px;stroke-linejoin:round;opacity:0;transition:opacity .3s;pointer-events:none}
+.node.show-l .lbl{opacity:1}
+.fnode{cursor:pointer}
+.fnode .dot{fill:var(--bone);stroke:var(--bone-edge);stroke-width:1.3}
+.fnode:hover .dot{stroke:var(--ink)}
+.spotsvg .nvp{stroke:var(--ink)}
+
+/* Cases */
+#view-cases{display:grid;grid-template-columns:270px minmax(0,1fr);gap:16px;align-items:start}
+.clist{display:flex;flex-direction:column;gap:4px;position:sticky;top:12px}
+.citem{display:flex;gap:10px;align-items:flex-start;text-align:left;border:1px solid transparent;background:none;border-radius:10px;padding:8px 10px;cursor:pointer}
+.citem:hover{background:var(--surface)}
+.citem.on{background:var(--surface);border-color:var(--line)}
+.citem .ci{flex:none;font:600 .72rem var(--f-mono);color:var(--muted);width:22px;padding-top:2px}
+.citem .ct{font-weight:600;font-size:.88rem;line-height:1.3}
+.citem .ct small{display:block;font-weight:400;color:var(--muted);font-size:.74rem}
+.citem .cs{margin-left:auto;font-size:.8rem;font-weight:700}
+.cs.ok{color:var(--good)} .cs.no{color:var(--bad)}
+.cmain{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px;display:flex;flex-direction:column;gap:18px;min-width:0}
+.chead h2{margin:4px 0 0;font:700 1.6rem/1.15 var(--f-display)}
+.chead .eyebrow{color:var(--accent)}
+.patient{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:start;background:var(--bg);border-radius:14px;padding:14px 16px}
+.patient .av{width:46px;height:46px;border-radius:50%;background:var(--surface-2);display:grid;place-items:center;font:700 .8rem var(--f-mono);color:var(--muted)}
+.patient p{margin:0;font-size:.98rem;line-height:1.6;max-width:68ch}
+.patient small{display:block;color:var(--muted);font:600 .7rem var(--f-mono);letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}
+.sec-h{margin:0 0 8px;font:600 .7rem/1.2 var(--f-mono);letter-spacing:.13em;text-transform:uppercase;color:var(--muted);display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.tests{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:6px}
+.tbtn{display:flex;flex-direction:column;align-items:flex-start;gap:1px;text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:8px 11px;cursor:pointer}
+.tbtn:hover{border-color:var(--accent)}
+.tbtn small{font:600 .64rem var(--f-mono);letter-spacing:.08em;color:var(--muted)}
+.tbtn span{font-weight:600;font-size:.86rem}
+.tbtn.done{background:var(--surface-2);border-color:transparent;cursor:default}
+.tbtn.done span{color:var(--muted)}
+.tbtn.done.abn{background:var(--bad-soft)}
+.tbtn.done.abn span{color:var(--bad)}
+.findings{margin:0;padding:0;list-style:none;display:grid;gap:8px}
+.finding{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;border:1px solid var(--line);border-radius:12px;padding:10px 12px;font-size:.9rem;animation:fin .35s ease}
+@keyframes fin{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+.finding .tag{font:600 .64rem var(--f-mono);letter-spacing:.08em;text-transform:uppercase;padding:3px 7px;border-radius:6px;align-self:start;background:var(--good-soft);color:var(--good)}
+.finding.abn{border-color:color-mix(in srgb,var(--bad) 40%,var(--line))}
+.finding.abn .tag{background:var(--bad-soft);color:var(--bad)}
+.finding b{font-size:.86rem}
+.finding p{grid-column:2;margin:0;color:var(--ink)}
+.empty{color:var(--muted);font-size:.88rem;border:1px dashed var(--line);border-radius:12px;padding:14px;margin:0}
+.opts{display:grid;gap:8px}
+.opt{display:flex;gap:12px;align-items:center;text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:11px 14px;cursor:pointer;font-size:.93rem;font-weight:500}
+.opt:hover:not(:disabled){border-color:var(--accent)}
+.opt .k{flex:none;width:26px;height:26px;border-radius:8px;display:grid;place-items:center;font:600 .74rem var(--f-mono);background:var(--surface-2);color:var(--muted)}
+.opt:disabled{cursor:default}
+.opt.right{border-color:var(--good);background:var(--good-soft)}
+.opt.right .k{background:var(--good);color:var(--surface)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-soft)}
+.opt.wrong .k{background:var(--bad);color:var(--surface)}
+.fb{border-radius:14px;padding:14px 16px;background:var(--bg);display:flex;flex-direction:column;gap:10px;animation:fin .3s ease}
+.fb h4{margin:0;font:700 1.1rem var(--f-display)}
+.fb.ok h4{color:var(--good)} .fb.no h4{color:var(--bad)}
+.fb p{margin:0;font-size:.92rem;line-height:1.6;max-width:72ch}
+.fb .row{display:flex;gap:8px;flex-wrap:wrap}
+.missed{font-size:.84rem;color:var(--muted)}
+
+/* Quiz */
+#view-test{display:flex;justify-content:center}
+.quiz{width:100%;max-width:860px;display:flex;flex-direction:column;gap:16px}
+.decks{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.deck{display:flex;flex-direction:column;gap:6px;text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:16px;padding:18px;cursor:pointer;min-height:150px}
+.deck:hover{border-color:var(--accent);transform:translateY(-1px)}
+.deck h3{margin:0;font:700 1.15rem var(--f-display)}
+.deck p{margin:0;color:var(--muted);font-size:.86rem;flex:1}
+.deck .meta{display:flex;justify-content:space-between;font:600 .7rem var(--f-mono);color:var(--muted);letter-spacing:.05em}
+.deck .meta b{color:var(--accent)}
+.qintro h2{margin:0;font:700 1.9rem/1.15 var(--f-display)}
+.qintro p{margin:6px 0 0;color:var(--muted);max-width:62ch}
+.qcard{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px;display:flex;flex-direction:column;gap:16px}
+.qtop{display:flex;align-items:center;gap:12px;flex-wrap:wrap;font:600 .74rem var(--f-mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.qtop .bar{flex:1 1 140px;height:5px;border-radius:5px;background:var(--surface-2);overflow:hidden}
+.qtop .bar i{display:block;height:100%;background:var(--accent);transition:width .4s}
+.qtag{font:600 .66rem var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.qq{margin:0;font:600 1.25rem/1.4 var(--f-display);max-width:66ch}
+.spotwrap{height:340px;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--surface)}
+.spotwrap svg{width:100%;height:100%;display:block}
+.tiles{display:flex;flex-direction:column;gap:6px}
+.tile{display:flex;gap:10px;align-items:center;text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:9px 12px;cursor:pointer;font-weight:500;font-size:.9rem}
+.tile:hover:not(:disabled){border-color:var(--accent)}
+.tile .k{flex:none;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;font:600 .72rem var(--f-mono);background:var(--surface-2);color:var(--muted)}
+.tile.picked{opacity:.4}
+.tile.right{border-color:var(--good);background:var(--good-soft)}
+.tile.wrong{border-color:var(--bad);background:var(--bad-soft)}
+.ordgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.qnav{display:flex;gap:8px;justify-content:space-between;flex-wrap:wrap}
+.result{text-align:center;padding:10px 0}
+.result .score{font:700 3.4rem/1 var(--f-display);color:var(--accent);font-variant-numeric:tabular-nums}
+.review{display:grid;gap:10px}
+.rv{border-left:3px solid var(--bad);padding:2px 0 2px 12px;font-size:.88rem}
+.rv b{display:block}
+
+/* Summary */
+#view-table{display:flex;flex-direction:column;gap:18px}
+.twrap{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:16px}
+table{border-collapse:collapse;width:100%;min-width:980px;font-size:.84rem}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:600 .66rem var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);background:var(--surface-2);position:sticky;top:0}
+tr:last-child td{border-bottom:0}
+tbody tr{cursor:pointer}
+tbody tr:hover td{background:var(--bg)}
+td.rnc{font:700 1rem var(--f-display);color:var(--c);white-space:nowrap}
+td.nmc{font-weight:600;white-space:nowrap}
+.mnem{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.mcard{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:15px 16px}
+.mcard h3{margin:0 0 4px;font:600 .68rem var(--f-mono);letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}
+.mcard p{margin:0;font:500 1.05rem/1.4 var(--f-display)}
+.mcard small{display:block;margin-top:6px;color:var(--muted);font-size:.8rem;line-height:1.5}
+.secttl{margin:0;font:700 1.4rem var(--f-display)}
+
+@media (max-width:1220px){
+  #view-trace{grid-template-columns:minmax(0,1fr) 360px}
+  .rail{grid-column:1/-1;flex-direction:row;overflow-x:auto;position:static;padding-bottom:4px;gap:4px}
+  .rail-g{display:none}
+  .nv{width:auto;flex:none;padding:5px 10px 5px 5px;border-color:var(--line);background:var(--surface)}
+  .nv .nm small{display:none}
+}
+@media (max-width:900px){
+  #view-trace{grid-template-columns:minmax(0,1fr)}
+  .panel{position:static;max-height:none}
+  .dwrap{height:min(72vh,560px)}
+  #view-cases{grid-template-columns:minmax(0,1fr)}
+  .clist{position:static;flex-direction:row;overflow-x:auto;padding-bottom:4px}
+  .citem{flex:none;max-width:230px;border-color:var(--line);background:var(--surface)}
+  .hint{display:none}
+}
+@media (max-width:600px){
+  .brand h1{font-size:1.35rem}
+  .legend{display:none}
+  .cmain,.qcard{padding:16px}
+  .ordgrid{grid-template-columns:1fr}
+  .facts div{grid-template-columns:1fr;gap:2px}
+  .pbtn{padding:8px 10px}
+  .pbtn.primary{min-width:0}
+}
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+}
+</style>
+
+<div class="app">
+  <header class="top">
+    <div class="brand">
+      <svg width="40" height="40" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="11" fill="var(--accent)"/><path d="M9 29 C14 27 17 23 19 18 C21 13 25 10 31 10 M19 18 C23 20 27 22 31 22 M19 18 C20 23 23 27 28 30" fill="none" stroke="var(--accent-ink)" stroke-width="2.4" stroke-linecap="round"/><circle cx="9" cy="29" r="3" fill="var(--accent-ink)"/></svg>
+      <div>
+        <h1>Cranial Nerve Tracer</h1>
+        <p>Follow all twelve from nucleus to the organ they supply</p>
+      </div>
+    </div>
+    <nav class="tabs" role="tablist" aria-label="Sections">
+      <button role="tab" id="tab-trace" aria-selected="true" data-view="trace">Trace</button>
+      <button role="tab" id="tab-cases" aria-selected="false" data-view="cases">Bedside cases</button>
+      <button role="tab" id="tab-test" aria-selected="false" data-view="test">Test yourself</button>
+      <button role="tab" id="tab-table" aria-selected="false" data-view="table">Summary</button>
+    </nav>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <main>
+    <section id="view-trace" class="view" aria-labelledby="tab-trace">
+      <aside class="rail" id="rail" aria-label="Choose a nerve"></aside>
+      <div class="center">
+        <div class="stepper" id="stepper" aria-label="Stages of the course"></div>
+        <div class="dwrap" id="dwrap">
+          <svg id="diagram" role="img" aria-label="Schematic lateral view of the head, brainstem and neck showing the path of the selected cranial nerve"></svg>
+          <div class="dtog">
+            <button class="tog" id="tgFollow" aria-pressed="true" title="Camera zooms to follow each stage">Follow camera</button>
+            <button class="tog" id="tgAll" aria-pressed="true" title="Show the other eleven nerves faintly">All nerves</button>
+            <button class="tog" id="tgLabels" aria-pressed="false" title="Label every structure reached so far">All labels</button>
+          </div>
+          <div class="dctl">
+            <button class="dbtn" id="zIn" title="Zoom in" aria-label="Zoom in">+</button>
+            <button class="dbtn" id="zOut" title="Zoom out" aria-label="Zoom out">&minus;</button>
+            <button class="dbtn" id="zFit" title="Fit whole diagram" aria-label="Fit whole diagram"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 6V2h4M10 2h4v4M14 10v4h-4M6 14H2v-4"/></svg></button>
+          </div>
+          <div class="legend" aria-hidden="true">
+            <span><i class="lg-nuc"></i>Nucleus</span><span><i class="lg-exit"></i>Brainstem exit</span><span><i class="lg-for"></i>Skull opening</span><span><i class="lg-gan"></i>Ganglion</span><span><i class="lg-tar"></i>Target</span><span><i class="lg-art"></i>Artery</span><span><i class="lg-vein"></i>Vein</span>
+          </div>
+          <div class="hint">Drag to pan · tap any point for details</div>
+          <div class="tip" id="tip" hidden></div>
+        </div>
+        <div class="playbar">
+          <button class="pbtn" id="bPrev" aria-label="Previous stage">&#9664; Prev</button>
+          <button class="pbtn primary" id="bPlay">&#9654; Trace</button>
+          <button class="pbtn" id="bNext" aria-label="Next stage">Next &#9654;</button>
+          <span class="count" id="count">1 / 1</span>
+          <div class="ptrack" aria-hidden="true"><i id="pfill"></i></div>
+          <label class="speed" for="speed">Speed
+            <select id="speed"><option value="0.6">Slow</option><option value="1" selected>Normal</option><option value="1.6">Fast</option></select>
+          </label>
+          <button class="pbtn" id="bWhole">Whole nerve</button>
+        </div>
+      </div>
+      <aside class="panel" id="panel" aria-live="polite"></aside>
+    </section>
+
+    <section id="view-cases" class="view" aria-labelledby="tab-cases" hidden>
+      <aside class="clist" id="clist" aria-label="Cases"></aside>
+      <div class="cmain" id="cmain"></div>
+    </section>
+
+    <section id="view-test" class="view" aria-labelledby="tab-test" hidden>
+      <div class="quiz" id="quiz"></div>
+    </section>
+
+    <section id="view-table" class="view" aria-labelledby="tab-table" hidden></section>
+  </main>
+</div>
+
+<script>
+"use strict";
+/* ---------- helpers ---------- */
+const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const NS="http://www.w3.org/2000/svg";
+function sv(tag,attrs,parent){const e=document.createElementNS(NS,tag);if(attrs)for(const k in attrs)e.setAttribute(k,attrs[k]);if(parent)parent.appendChild(e);return e;}
+function hx(tag,cls,html){const e=document.createElement(tag);if(cls)e.className=cls;if(html!=null)e.innerHTML=html;return e;}
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const store={get(k,d){try{const v=localStorage.getItem("cnt."+k);return v==null?d:JSON.parse(v);}catch(e){return d;}},set(k,v){try{localStorage.setItem("cnt."+k,JSON.stringify(v));}catch(e){}}};
+const REDUCE=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
+const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
+const pick=a=>a[Math.floor(Math.random()*a.length)];
+const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
+
+/* ---------- anatomy coordinates (viewBox 0 0 1000 800, face to the right) ---------- */
+const NODES={
+  // forebrain
+  olfepi:[655,302,"Olfactory epithelium","target","r"],
+  crib:[615,272,"Cribriform plate","foramen","r"],
+  bulb:[600,259,"Olfactory bulb","gang","t"],
+  piri:[462,250,"Piriform cortex & uncus","cortex","t"],
+  retina:[738,304,"Retina","target","b"],
+  optc:[640,286,"Optic canal","foramen","t"],
+  chiasm:[515,262,"Optic chiasm","way2","t"],
+  lgn:[374,224,"Lateral geniculate nucleus","nuc","t"],
+  pretect:[396,244,"Pretectal nucleus (light reflex)","nuc","l"],
+  occ:[135,198,"Primary visual cortex","cortex","t"],
+  mgb:[398,214,"Medial geniculate body","nuc","t"],
+  ic:[392,272,"Inferior colliculus","nuc","l"],
+  audcx:[470,172,"Auditory cortex (Heschl gyrus)","cortex","r"],
+  cerebellum:[300,352,"Cerebellum","cortex","b"],
+  // nuclei
+  n3:[418,256,"Oculomotor & Edinger–Westphal nuclei","nuc","l"],
+  n4:[412,282,"Trochlear nucleus","nuc","l"],
+  n5:[414,322,"Trigeminal nuclei","nuc","l"],
+  n6:[404,343,"Abducens nucleus","nuc","l"],
+  n7:[424,355,"Facial motor nucleus","nuc","l"],
+  n8:[402,374,"Cochlear & vestibular nuclei","nuc","l"],
+  n9:[414,392,"N. ambiguus, inf. salivatory, NTS","nuc","l"],
+  n10:[410,406,"Dorsal vagal nucleus & n. ambiguus","nuc","l"],
+  n12:[410,426,"Hypoglossal nucleus","nuc","l"],
+  n11:[421,530,"Spinal accessory nucleus (C1–C5)","nuc","l"],
+  // brainstem exits
+  x3:[448,270,"Interpeduncular fossa","exit","r"],
+  x4:[389,292,"Dorsal midbrain","exit","l"],
+  x5:[468,326,"Lateral pons","exit","r"],
+  x6:[450,371,"Pontomedullary junction","exit","b"],
+  x7:[463,361,"Cerebellopontine angle","exit","t"],
+  x8:[459,379,"Cerebellopontine angle","exit","b"],
+  x9:[443,392,"Post-olivary sulcus","exit","r"],
+  x10:[443,406,"Post-olivary sulcus","exit","r"],
+  x12:[447,426,"Pre-olivary sulcus","exit","r"],
+  x11:[433,512,"Lateral cord rootlets","exit","r"],
+  // skull openings
+  sof:[628,302,"Superior orbital fissure","foramen","b"],
+  rot:[608,321,"Foramen rotundum","foramen","r"],
+  ova:[590,341,"Foramen ovale","foramen","r"],
+  iam:[490,370,"Internal acoustic meatus","foramen","t"],
+  smf:[548,442,"Stylomastoid foramen","foramen","r"],
+  jug:[470,432,"Jugular foramen","foramen","l"],
+  hyc:[459,452,"Hypoglossal canal","foramen","l"],
+  fmag:[446,470,"Foramen magnum","foramen","l"],
+  // course landmarks & ganglia
+  cav:[560,302,"Cavernous sinus","way2","t"],
+  tg:[516,334,"Trigeminal ganglion","gang","b"],
+  dorello:[503,318,"Petrous apex (Dorello canal)","way2","t"],
+  genic:[528,352,"Geniculate ganglion","gang","r"],
+  ppg:[665,342,"Pterygopalatine ganglion","gang","b"],
+  cilg:[700,316,"Ciliary ganglion","gang","b"],
+  otic:[598,358,"Otic ganglion","gang","r"],
+  smg:[712,494,"Submandibular ganglion","gang","b"],
+  ganglia9:[486,448,"Glossopharyngeal ganglia","gang","r"],
+  nodose:[492,462,"Vagal ganglia (jugular & nodose)","gang","r"],
+  // orbit
+  SR:[760,258,"Superior rectus","target","t"],
+  LPS:[784,262,"Levator palpebrae","target","r"],
+  SO:[734,262,"Superior oblique","target","l"],
+  IR:[750,342,"Inferior rectus","target","b"],
+  IO:[778,338,"Inferior oblique","target","r"],
+  MR:[718,298,"Medial rectus","target","l"],
+  LR:[800,318,"Lateral rectus","target","r"],
+  pupil:[772,300,"Sphincter pupillae & ciliary muscle","target","r"],
+  cornea:[790,296,"Cornea","target","r"],
+  lacr:[800,272,"Lacrimal gland","target","r"],
+  // face & mouth
+  forehead:[770,196,"Forehead & scalp","target","r"],
+  nose:[852,350,"Tip & dorsum of nose","target","r"],
+  cheek:[812,372,"Cheek & upper lip","target","r"],
+  uteeth:[788,398,"Upper teeth","target","r"],
+  palate:[712,410,"Hard palate","target","b"],
+  nasal:[706,334,"Nasal mucosa & glands","target","b"],
+  temporalis:[650,205,"Temporalis","target","r"],
+  masseter:[700,446,"Masseter & pterygoids","target","b"],
+  tongueA:[805,438,"Anterior ⅔ of tongue","target","r"],
+  tongueP:[745,458,"Posterior ⅓ of tongue & tonsil","target","b"],
+  tongueM:[778,452,"Muscles of the tongue","target","b"],
+  chin:[832,486,"Lower lip, chin & lower teeth","target","r"],
+  tmj:[614,370,"Temple, TMJ & ear","target","r"],
+  f_temp:[740,180,"Temporal branch → frontalis","target","r"],
+  f_zyg:[820,332,"Zygomatic → orbicularis oculi","target","r"],
+  f_bucc:[832,404,"Buccal → buccinator, upper lip","target","r"],
+  f_mand:[812,506,"Marginal mandibular → lower lip","target","r"],
+  f_cerv:[730,562,"Cervical → platysma","target","r"],
+  parotid:[628,456,"Parotid gland","target","b"],
+  stapedius:[558,404,"Stapedius","target","r"],
+  digastric:[566,474,"Post. digastric & stylohyoid","target","b"],
+  submand:[742,512,"Submandibular gland","target","b"],
+  subling:[790,476,"Sublingual gland","target","r"],
+  // ear
+  cochlea:[512,398,"Cochlea","target","l"],
+  vestib:[532,414,"Semicircular canals & vestibule","target","r"],
+  midear:[566,392,"Middle ear (tympanic plexus)","target","r"],
+  extear:[588,410,"External ear canal","target","r"],
+  // neck
+  stylo:[592,488,"Stylopharyngeus","target","r"],
+  pharynx:[620,520,"Pharyngeal plexus & constrictors","target","r"],
+  softpal:[690,422,"Soft palate","target","b"],
+  carotid:[548,528,"Carotid sinus & body","target","l"],
+  larynx:[652,590,"Larynx & vocal folds","target","r"],
+  crico:[664,566,"Cricothyroid","target","r"],
+  scm:[588,606,"Sternocleidomastoid","target","r"],
+  trap:[470,628,"Trapezius","target","l"],
+  // thorax & abdomen
+  aorta:[588,712,"Aortic arch (L) / subclavian (R)","way2","b"],
+  lungs:[536,724,"Lungs & bronchi","target","b"],
+  heart:[648,730,"Heart (SA & AV nodes)","target","b"],
+  stomach:[790,724,"Oesophagus & stomach","target","b"],
+  gut:[912,734,"Midgut → ⅔ transverse colon","target","b"]
+};
+
+const INFO={
+  crib:"Cribriform plate of the ethmoid. Transmits the olfactory fila (CN I) and anterior ethmoidal nerve and vessels. Fracture causes anosmia and CSF rhinorrhoea.",
+  optc:"Optic canal, lesser wing of sphenoid. Transmits the optic nerve (II) and ophthalmic artery.",
+  sof:"Superior orbital fissure. Transmits III, IV, V1 (lacrimal, frontal, nasociliary), VI and the superior ophthalmic vein. Mnemonic: “Live Frankly To See Absolutely No Insult”.",
+  rot:"Foramen rotundum, greater wing of sphenoid. Transmits the maxillary nerve (V2) into the pterygopalatine fossa.",
+  ova:"Foramen ovale. Transmits V3, the lesser petrosal nerve, the accessory meningeal artery and an emissary vein (OVALE).",
+  iam:"Internal acoustic meatus, petrous temporal bone. Transmits VII, nervus intermedius, VIII and the labyrinthine artery.",
+  smf:"Stylomastoid foramen, between the styloid and mastoid processes. The facial nerve leaves the skull here carrying motor fibres.",
+  jug:"Jugular foramen. Transmits IX, X, XI, the internal jugular vein and inferior petrosal sinus. A lesion here gives Vernet syndrome.",
+  hyc:"Hypoglossal canal, occipital bone above the condyle. Transmits XII.",
+  fmag:"Foramen magnum. Medulla/spinal cord, vertebral arteries, and the spinal roots of XI climbing up into the skull.",
+  cav:"Cavernous sinus, beside the sella. III, IV, V1 and V2 run in its lateral wall; VI and the internal carotid artery run through the sinus itself.",
+  tg:"Trigeminal (Gasserian) ganglion in Meckel’s cave. Cell bodies of the sensory fibres of V, like a dorsal root ganglion.",
+  dorello:"Petrous apex. CN VI bends sharply over it in Dorello’s canal, where raised intracranial pressure stretches it.",
+  genic:"Geniculate ganglion. Cell bodies of the taste fibres of VII. The nerve bends here (external genu). Site of Ramsay Hunt syndrome.",
+  ppg:"Pterygopalatine ganglion. Parasympathetic relay for VII (greater petrosal) to the lacrimal, nasal and palatine glands. V2 branches pass through it without synapsing.",
+  cilg:"Ciliary ganglion. Parasympathetic relay for III to the sphincter pupillae and ciliary muscle.",
+  otic:"Otic ganglion, below foramen ovale. Parasympathetic relay for IX (lesser petrosal) to the parotid gland.",
+  smg:"Submandibular ganglion, hanging from the lingual nerve. Parasympathetic relay for VII (chorda tympani) to the submandibular and sublingual glands.",
+  ganglia9:"Superior and inferior glossopharyngeal ganglia: sensory cell bodies of IX.",
+  nodose:"Superior (jugular) and inferior (nodose) vagal ganglia: sensory cell bodies of X.",
+  chiasm:"Optic chiasm, above the pituitary. Nasal retinal fibres cross here.",
+  aorta:"The left recurrent laryngeal nerve hooks under the aortic arch; the right hooks under the right subclavian artery.",
+  piri:"Primary olfactory cortex. Smell reaches cortex without a thalamic relay.",
+  lgn:"Lateral geniculate nucleus of the thalamus: relay for vision."
+};
+
+/* ---------- the twelve nerves ---------- */
+const NERVES=[
+{n:1,rn:"I",name:"Olfactory",type:"Sensory",mods:["SVA"],dir:"afferent",loc:"Forebrain",
+ one:"Smell. The only sensory nerve that reaches the cortex without a relay in the thalamus.",
+ nucleus:"No brainstem nucleus. Bipolar receptor neurons in the olfactory epithelium; second-order mitral and tufted cells in the olfactory bulb.",
+ emerges:"Olfactory bulb, under the frontal lobe.",
+ foramen:"Cribriform plate of the ethmoid bone.",
+ supplies:["Olfactory epithelium: roof of the nasal cavity, upper septum and superior concha"],
+ stages:[
+  {k:"origin",t:"Receptors in the nasal roof",w:"Olfactory epithelium",focus:["olfepi"],segs:[],d:"Bipolar olfactory receptor neurons sit in the olfactory epithelium on the roof of the nasal cavity, about 2.5 cm² on each side. They are true neurons, and they regenerate every 1–2 months from basal stem cells."},
+  {k:"foramen",t:"Through the cribriform plate",w:"Ethmoid bone",segs:[["olfepi","crib"]],d:"Their unmyelinated axons gather into about 20 bundles, the olfactory fila. These are the actual olfactory nerves. They pierce the cribriform plate wearing a sleeve of dura and arachnoid. A shearing injury here causes anosmia and CSF rhinorrhoea."},
+  {k:"course",t:"Synapse in the olfactory bulb",w:"Anterior cranial fossa",segs:[["crib","bulb"]],d:"The fila synapse in the glomeruli of the olfactory bulb with mitral and tufted cells. The bulb rests on the cribriform plate under the frontal lobe."},
+  {k:"course",t:"Olfactory tract runs back",w:"Olfactory sulcus, under the frontal lobe",segs:[["bulb",[560,253],[508,249]]],d:"Mitral cell axons form the olfactory tract, which runs backward in the olfactory sulcus. At the anterior perforated substance it splits into lateral and medial olfactory striae."},
+  {k:"termination",t:"Primary olfactory cortex",w:"Medial temporal lobe",segs:[[[508,249],"piri"]],d:"The lateral stria ends in the piriform cortex, uncus, entorhinal cortex and amygdala. Smell is the only sense that reaches cortex without passing through the thalamus first. Its direct line to the amygdala and hippocampus is why smells trigger memories and emotions so strongly."}
+ ],
+ exam:[["Check each nostril is open","Ask the patient to sniff with the other nostril blocked."],["One nostril at a time, eyes closed","Use familiar, non-irritant smells: coffee, peppermint, orange, soap."],["Avoid ammonia","Irritants stimulate CN V pain endings and give a false “normal”."],["Record the result","Anosmia (none), hyposmia (reduced) or parosmia (distorted)."]],
+ lesions:[["Head trauma","The fila shear at the cribriform plate. Look for clear nasal fluid (CSF rhinorrhoea, positive for β2-transferrin)."],["Olfactory groove meningioma","Unilateral anosmia. Can cause Foster Kennedy syndrome: optic atrophy on one side, papilloedema on the other."],["Viral infection","Colds and COVID-19 commonly cause temporary anosmia."],["Neurodegeneration","Reduced smell is an early sign of Parkinson’s and Alzheimer’s disease."],["Kallmann syndrome","Congenital anosmia with hypogonadotropic hypogonadism."]],
+ pearl:"Patients with anosmia usually complain that they have lost their sense of taste. Most of what we call flavour is smell.",
+ sum:{nuc:"Olfactory bulb (no brainstem nucleus)",exit:"Forebrain",hole:"Cribriform plate",sup:"Smell",test:"Each nostril, eyes closed"}},
+
+{n:2,rn:"II",name:"Optic",type:"Sensory",mods:["SSA"],dir:"afferent",loc:"Forebrain",
+ one:"Vision, and the sensory limb of the pupillary light reflex. Strictly it is a tract of the brain wrapped in meninges.",
+ nucleus:"Retinal ganglion cells. Relay in the lateral geniculate nucleus of the thalamus.",
+ emerges:"Optic chiasm → optic tracts → thalamus.",
+ foramen:"Optic canal (lesser wing of sphenoid), with the ophthalmic artery.",
+ supplies:["Retina: rods and cones → bipolar cells → ganglion cells"],
+ stages:[
+  {k:"origin",t:"Retinal ganglion cells",w:"Retina",focus:["retina"],segs:[],d:"Light hits the rods and cones, which signal bipolar cells, which signal retinal ganglion cells. The ganglion cell axons converge on the optic disc (the blind spot) and leave the eye. They are only myelinated once they are behind the eyeball."},
+  {k:"course",t:"Optic nerve in the orbit",w:"Inside the cone of eye muscles",segs:[["retina",[705,297]]],d:"The nerve runs back through the orbit inside the common tendinous ring, wrapped in all three layers of meninges. The fluid around it connects with the CSF around the brain, so raised intracranial pressure squeezes the nerve and causes papilloedema."},
+  {k:"foramen",t:"Through the optic canal",w:"Lesser wing of sphenoid",segs:[[[705,297],"optc"]],d:"The nerve leaves the orbit through the optic canal, with the ophthalmic artery running beneath it."},
+  {k:"course",t:"Optic chiasm",w:"Just above the pituitary",segs:[["optc","chiasm"]],d:"At the chiasm, fibres from the nasal half of each retina cross over. These fibres see the temporal visual field. Temporal retinal fibres stay on the same side. The pituitary sits just below, so a pituitary tumour causes bitemporal hemianopia."},
+  {k:"course",t:"Optic tract to the thalamus",w:"Wraps round the cerebral peduncle",segs:[["chiasm",[470,246],[420,233],"lgn"],[[420,233],"pretect"]],d:"Each optic tract carries the opposite half of the visual field from both eyes. It curves round the cerebral peduncle to the lateral geniculate nucleus. A side branch reaches the pretectal nucleus, which drives the pupillary light reflex via the Edinger–Westphal nuclei of CN III."},
+  {k:"termination",t:"Primary visual cortex",w:"Occipital lobe, calcarine sulcus",segs:[["lgn",[300,214],[205,204],"occ"]],d:"The optic radiation fans out from the LGN to the visual cortex (area 17) along the calcarine sulcus. Lower fibres loop forward through the temporal lobe (Meyer’s loop) and carry the upper visual field. Upper fibres run through the parietal lobe and carry the lower field."}
+ ],
+ exam:[["Visual acuity","Snellen chart at 6 m, one eye at a time, glasses on. A pinhole corrects refractive error."],["Colour vision","Ishihara plates. Red desaturation is an early sign of optic neuritis."],["Visual fields","Confrontation: sit 1 m away and test each eye in all four quadrants."],["Pupils","Direct and consensual light reflex, then the swinging light test for a relative afferent pupillary defect (RAPD)."],["Fundoscopy","Optic disc: swollen (papilloedema), pale (optic atrophy) or cupped (glaucoma)?"]],
+ lesions:[["Optic nerve","Loss of vision in one eye and an RAPD (Marcus Gunn pupil). Optic neuritis (MS), ischaemic optic neuropathy, giant cell arteritis, glaucoma."],["Optic chiasm","Bitemporal hemianopia. Pituitary adenoma (upper quadrants first) or craniopharyngioma (lower first)."],["Optic tract","Contralateral homonymous hemianopia."],["Meyer’s loop, temporal lobe","Contralateral superior quadrantanopia: “pie in the sky”."],["Parietal radiation","Contralateral inferior quadrantanopia: “pie on the floor”."],["Occipital cortex","Contralateral homonymous hemianopia with macular sparing, typically a PCA stroke."]],
+ pearl:"Before the chiasm: one eye. At the chiasm: both temporal fields. Behind the chiasm: the opposite half-field of both eyes.",
+ sum:{nuc:"Retinal ganglion cells → LGN",exit:"Diencephalon (chiasm)",hole:"Optic canal",sup:"Vision; afferent pupil reflex",test:"Acuity, fields, pupils, fundi"}},
+
+{n:3,rn:"III",name:"Oculomotor",type:"Motor + parasympathetic",mods:["GSE","GVE"],dir:"efferent",loc:"Midbrain",
+ one:"Moves the eye up, down and in, lifts the eyelid, shrinks the pupil and focuses the lens.",
+ nucleus:"Oculomotor nucleus (motor) and Edinger–Westphal nucleus (parasympathetic), in the midbrain at the level of the superior colliculus.",
+ emerges:"Interpeduncular fossa, on the medial side of the cerebral peduncle.",
+ foramen:"Superior orbital fissure, inside the common tendinous ring.",
+ supplies:["Superior, inferior and medial rectus","Inferior oblique","Levator palpebrae superioris","Sphincter pupillae and ciliary muscle (via the ciliary ganglion)"],
+ stages:[
+  {k:"origin",t:"Oculomotor & Edinger–Westphal nuclei",w:"Midbrain, superior colliculus level",focus:["n3"],segs:[],d:"The oculomotor complex lies in front of the cerebral aqueduct, with the Edinger–Westphal nucleus just behind it sending parasympathetic fibres. A single midline subnucleus supplies BOTH levator muscles, so a lesion of the nucleus itself causes ptosis on both sides."},
+  {k:"exit",t:"Emerges into the interpeduncular fossa",w:"Front of the midbrain",segs:[["n3","x3"]],d:"The fibres sweep forward through the red nucleus and emerge on the medial side of the cerebral peduncle. A stroke here that also catches the corticospinal fibres gives Weber syndrome: a CN III palsy on the same side with hemiplegia on the opposite side."},
+  {k:"course",t:"Between two arteries, then the cavernous sinus",w:"Middle cranial fossa",segs:[["x3",[490,281],[530,292],"cav"]],d:"The nerve passes between the posterior cerebral and superior cerebellar arteries and runs right beside the posterior communicating (PCom) artery. An aneurysm of PCom presses on it here. It then pierces the dura and runs forward in the lateral wall of the cavernous sinus, above CN IV."},
+  {k:"foramen",t:"Superior orbital fissure",w:"Inside the common tendinous ring",segs:[["cav","sof"]],d:"It enters the orbit through the superior orbital fissure, inside the tendinous ring, and splits into a superior and an inferior division."},
+  {k:"branch",t:"Superior division",w:"Roof of the orbit",segs:[["sof",[690,282],[730,262],"SR"],[[730,262],[770,254],"LPS"]],d:"The superior division supplies superior rectus (elevates the eye) and then levator palpebrae superioris (lifts the upper lid). The little superior tarsal muscle in the lid is sympathetic, which is why Horner syndrome gives only a mild ptosis while a CN III palsy gives a complete one."},
+  {k:"branch",t:"Inferior division & parasympathetics",w:"Floor of the orbit → ciliary ganglion",segs:[["sof",[680,316],[712,326],"IR"],[[712,326],"MR"],[[712,326],[752,352],"IO"],[[680,316],"cilg","pupil"]],d:"The inferior division supplies medial rectus (adducts), inferior rectus (depresses) and inferior oblique (elevates the adducted eye). The branch to inferior oblique carries parasympathetic fibres to the ciliary ganglion. From there, short ciliary nerves reach the sphincter pupillae (constricts the pupil) and the ciliary muscle (focuses for near vision)."}
+ ],
+ exam:[["Inspect","Ptosis? Eye position at rest: “down and out” in a complete palsy. Compare pupil sizes."],["Eye movements","Follow a target in an H pattern. Ask about double vision in each direction."],["Pupils","Direct and consensual light reflex. CN III is the motor (efferent) limb."],["Accommodation","Look far away, then at a near object: the eyes should converge and the pupils constrict."]],
+ lesions:[["Complete CN III palsy","Ptosis; eye down and out (lateral rectus and superior oblique unopposed); fixed dilated pupil; no accommodation."],["“Surgical third”","Painful palsy with a dilated pupil = compression until proven otherwise: PCom aneurysm or uncal herniation. The pupil fibres lie on the outside of the nerve, so they are hit first."],["“Medical third”","Diabetic or hypertensive infarction of the centre of the nerve. The pupil is spared."],["Weber syndrome","Midbrain stroke: CN III palsy + contralateral hemiplegia."],["Cavernous sinus lesion","III with IV, V1, V2 and VI together."]],
+ pearl:"Pupil involved: think compression and get a CT angiogram now. Pupil spared: think microvascular.",
+ sum:{nuc:"Oculomotor + Edinger–Westphal (midbrain)",exit:"Interpeduncular fossa",hole:"Superior orbital fissure",sup:"SR, IR, MR, IO, levator; pupil & lens",test:"H pattern, ptosis, pupils"}},
+
+{n:4,rn:"IV",name:"Trochlear",type:"Motor",mods:["GSE"],dir:"efferent",loc:"Midbrain",
+ one:"Supplies one muscle, the superior oblique, which turns the eye down and in, as when reading or walking downstairs.",
+ nucleus:"Trochlear nucleus, midbrain at the level of the inferior colliculus.",
+ emerges:"Back of the midbrain, just below the inferior colliculus. The only cranial nerve to leave the dorsal brainstem.",
+ foramen:"Superior orbital fissure, outside the common tendinous ring.",
+ supplies:["Superior oblique"],
+ stages:[
+  {k:"origin",t:"Trochlear nucleus",w:"Midbrain, inferior colliculus level",focus:["n4"],segs:[],d:"A small nucleus in front of the cerebral aqueduct, just below the oculomotor complex."},
+  {k:"exit",t:"Crosses and exits from the back",w:"Behind the brainstem",segs:[["n4",[398,290],"x4"]],d:"The fibres run backward and cross completely in the superior medullary velum. Two unique facts: CN IV is the only nerve to leave the BACK of the brainstem, and the only one whose fibres all cross. So the right nucleus supplies the left superior oblique."},
+  {k:"course",t:"Winds around the brainstem",w:"Longest course inside the skull",segs:[["x4",[383,307],[412,318],[456,302],[505,292],"cav"]],d:"The thinnest cranial nerve curves forward around the cerebral peduncle. It has the longest course inside the skull, about 7.5 cm, so it is easily stretched in head injuries. It then runs in the lateral wall of the cavernous sinus, just below CN III."},
+  {k:"foramen",t:"Superior orbital fissure",w:"Outside the tendinous ring",segs:[["cav",[600,296],"sof"]],d:"It enters the orbit through the superior orbital fissure, above and outside the common tendinous ring. Being outside the ring, it can escape a retrobulbar anaesthetic block."},
+  {k:"termination",t:"Superior oblique",w:"Upper inner orbit",segs:[["sof",[688,274],"SO"]],d:"The tendon of superior oblique runs through a fibrous pulley, the trochlea, then turns back to attach behind the equator of the eye. It intorts, depresses and slightly abducts the eye, and depresses best when the eye is turned in."}
+ ],
+ exam:[["Ask about double vision","Vertical or tilted images, worst reading or going downstairs."],["Look down and in","Ask the patient to look toward the nose, then down. This isolates superior oblique."],["Head posture","The patient tilts the head AWAY from the affected side to cancel the extorsion."],["Three-step test","Higher eye that gets worse looking to the opposite side and with head tilt toward the same side."]],
+ lesions:[["Trauma","The most common cause, because of the long thin course. Can be bilateral."],["Isolated CN IV palsy","Affected eye sits higher and is extorted. Vertical diplopia worst looking down and in."],["Microvascular","Diabetes and hypertension."],["Congenital","Long-standing head tilt; old photographs help."]],
+ pearl:"“LR6 SO4, the rest 3”: lateral rectus is CN VI, superior oblique is CN IV, every other eye muscle is CN III.",
+ sum:{nuc:"Trochlear nucleus (midbrain)",exit:"Dorsal midbrain (crosses)",hole:"Superior orbital fissure",sup:"Superior oblique",test:"Look down and in"}},
+
+{n:5,rn:"V",name:"Trigeminal",type:"Mixed, mostly sensory",mods:["GSA","SVE"],dir:"mixed",loc:"Pons",
+ one:"Sensation from the face, scalp, eye, nose and mouth, and the motor supply to the chewing muscles.",
+ nucleus:"Sensory: mesencephalic (proprioception, midbrain), chief sensory (touch, pons), spinal (pain and temperature, medulla down to C2). Motor nucleus in the pons.",
+ emerges:"Lateral pons, as a large sensory root and a small motor root.",
+ foramen:"V1: superior orbital fissure. V2: foramen rotundum. V3: foramen ovale (“Standing Room Only”).",
+ supplies:["V1: forehead, scalp, upper lid, cornea, nose","V2: cheek, upper lip, upper teeth, palate, maxillary sinus","V3: lower lip, chin, lower teeth, front ⅔ of tongue (touch), temple","Motor: masseter, temporalis, pterygoids, mylohyoid, anterior digastric, tensor tympani, tensor veli palatini"],
+ stages:[
+  {k:"origin",t:"Trigeminal nuclei",w:"Midbrain to upper cervical cord",focus:["n5"],segs:[],d:"The longest nuclear column of any cranial nerve. The mesencephalic nucleus carries proprioception from the jaw muscles. The chief sensory nucleus in the pons carries fine touch. The spinal nucleus runs down to C2 and carries pain and temperature. The motor nucleus in the pons drives the chewing muscles."},
+  {k:"exit",t:"Lateral pons",w:"Where the pons meets the middle cerebellar peduncle",segs:[["n5","x5"]],d:"A large sensory root and a small motor root leave the side of the pons. The superior cerebellar artery loops close by, and its pulsing against the root here is the usual cause of trigeminal neuralgia."},
+  {k:"course",t:"Trigeminal ganglion",w:"Meckel’s cave, on the petrous apex",segs:[["x5",[490,331],"tg"]],d:"The sensory root swells into the crescent-shaped trigeminal (Gasserian) ganglion in a dural pocket called Meckel’s cave. It holds the cell bodies of the sensory neurons. The motor root slips underneath and joins only V3."},
+  {k:"branch",t:"V1 Ophthalmic division",w:"Cavernous sinus → superior orbital fissure",segs:[["tg",[540,313],"cav","sof"],["sof",[690,282],[742,232],"forehead"],[[690,282],[760,268],"lacr"],["sof",[706,309],[770,318],"cornea"],[[770,318],[835,335],"nose"]],d:"V1 runs in the lateral wall of the cavernous sinus and enters the orbit through the superior orbital fissure. It splits into the lacrimal, frontal and nasociliary nerves, which supply the forehead and scalp to the vertex, the upper lid, the cornea, and the bridge and tip of the nose. The nasociliary nerve is the sensory limb of the corneal reflex."},
+  {k:"branch",t:"V2 Maxillary division",w:"Foramen rotundum → pterygopalatine fossa",segs:[["tg",[566,327],"rot"],["rot",[662,352],[740,372],"cheek"],[[662,352],"uteeth"],[[662,352],"palate"],[[662,352],"nasal"]],d:"V2 runs in the wall of the cavernous sinus and leaves through the foramen rotundum into the pterygopalatine fossa. Branches supply the nasal cavity, palate and upper teeth. The infraorbital nerve comes out on the face below the eye to supply the cheek, lower lid, side of the nose and upper lip."},
+  {k:"branch",t:"V3 Mandibular division",w:"Foramen ovale → infratemporal fossa",segs:[["tg",[560,342],"ova"],["ova",[626,386],"masseter"],[[626,386],[642,300],"temporalis"],[[626,386],[708,430],"tongueA"],[[626,386],[700,470],"chin"],[[626,386],"tmj"]],d:"V3 is the only division carrying motor fibres. It drops through the foramen ovale into the infratemporal fossa. Motor branches go to masseter, temporalis, the pterygoids, mylohyoid, anterior digastric, tensor tympani and tensor veli palatini. Sensory branches: the lingual nerve (front ⅔ of the tongue), the inferior alveolar nerve (lower teeth, then the mental nerve to the chin and lip), the auriculotemporal nerve (temple, TMJ, ear) and the buccal nerve."}
+ ],
+ exam:[["Light touch and pinprick","Compare both sides in V1 (forehead), V2 (cheek) and V3 (jaw line). Avoid the angle of the jaw, which is C2/C3."],["Corneal reflex","Touch the cornea, not the sclera, with a wisp of cotton wool. Both eyes should blink. Sensory limb V1, motor limb VII."],["Chewing muscles","Feel masseter and temporalis as the patient clenches."],["Open the jaw","Against resistance. The jaw deviates TOWARD a weak side, pushed over by the healthy lateral pterygoid."],["Jaw jerk","Brisk in upper motor neuron lesions above the pons."]],
+ lesions:[["Trigeminal neuralgia","Brief electric-shock pain in V2/V3, triggered by touch, eating or wind. First line: carbamazepine."],["Herpes zoster ophthalmicus","Shingles in V1. Vesicles on the tip of the nose (Hutchinson sign, nasociliary nerve) predict eye involvement."],["V3 lesion","Numb chin and lip, jaw deviates to the weak side, hollow temple from wasting."],["Cerebellopontine angle tumour","A lost corneal reflex is an early sign of an acoustic neuroma."],["Lateral medullary syndrome","Spinal trigeminal nucleus: loss of pain and temperature on the same side of the face, opposite side of the body."]],
+ pearl:"The angle of the jaw is NOT trigeminal (it is C2/C3). Numbness that includes the angle should make you question the pattern.",
+ sum:{nuc:"Mesencephalic, chief sensory, spinal, motor",exit:"Lateral pons",hole:"SOF (V1), rotundum (V2), ovale (V3)",sup:"Face sensation; chewing muscles",test:"Sensation V1–3, corneal reflex, jaw"}},
+
+{n:6,rn:"VI",name:"Abducens",type:"Motor",mods:["GSE"],dir:"efferent",loc:"Pons",
+ one:"Supplies lateral rectus, which turns the eye outward.",
+ nucleus:"Abducens nucleus in the dorsal pons, under the facial colliculus in the floor of the 4th ventricle.",
+ emerges:"Pontomedullary junction, close to the midline.",
+ foramen:"Superior orbital fissure, inside the common tendinous ring.",
+ supplies:["Lateral rectus"],
+ stages:[
+  {k:"origin",t:"Abducens nucleus",w:"Dorsal pons, facial colliculus",focus:["n6"],segs:[],d:"The nucleus lies under the floor of the 4th ventricle, with facial nerve fibres looping over it to form the facial colliculus. It also contains interneurons that cross to the opposite medial longitudinal fasciculus (MLF) to drive the other eye’s medial rectus. So damage to the nucleus causes a gaze palsy, not just a weak lateral rectus."},
+  {k:"exit",t:"Pontomedullary junction",w:"Front of the brainstem, near the midline",segs:[["n6",[430,360],"x6"]],d:"The fibres pass forward through the pons and emerge at the junction of the pons and medulla, just beside the pyramid."},
+  {k:"course",t:"Up the clivus, over the petrous apex",w:"Dorello’s canal",segs:[["x6",[478,350],"dorello"]],d:"The nerve climbs the clivus, then bends sharply over the tip of the petrous temporal bone under a ligament, in Dorello’s canal. Raised intracranial pressure pushes the brainstem down and stretches the nerve over this edge. That is why a CN VI palsy is called a false localising sign."},
+  {k:"course",t:"Through the cavernous sinus",w:"Next to the internal carotid artery",segs:[["dorello",[530,308],"cav"]],d:"III, IV, V1 and V2 run in the WALL of the cavernous sinus. CN VI runs THROUGH the sinus, beside the internal carotid artery. That makes it the first nerve affected by cavernous sinus thrombosis or a carotid aneurysm."},
+  {k:"foramen",t:"Superior orbital fissure",w:"Inside the tendinous ring",segs:[["cav","sof"]],d:"It enters the orbit through the superior orbital fissure, inside the common tendinous ring."},
+  {k:"termination",t:"Lateral rectus",w:"Outer wall of the orbit",segs:[["sof",[700,326],[760,332],"LR"]],d:"It enters the inner surface of lateral rectus, the muscle that pulls the eye outward (abduction)."}
+ ],
+ exam:[["Inspect","The affected eye may turn inward at rest (convergent squint)."],["Look to each side","The eye will not move outward past the midline on the affected side."],["Ask about double vision","Side-by-side images, worst looking toward the affected side and at distance."],["Fundoscopy","Check for papilloedema: raised pressure is a key cause."]],
+ lesions:[["Raised intracranial pressure","Nerve stretched over the petrous apex. False localising sign; can be bilateral. IIH, tumour, bleed."],["Microvascular","Diabetes and hypertension; usually recovers within 3 months."],["Cavernous sinus","Thrombosis, carotid aneurysm or carotid–cavernous fistula. VI is often first."],["Gradenigo syndrome","Middle ear infection spreading to the petrous apex: VI palsy + facial pain (V) + ear discharge."],["Nuclear lesion","Horizontal gaze palsy toward that side, often with a CN VII palsy (facial colliculus)."]],
+ pearl:"New CN VI palsy with headache? Look at the fundi for papilloedema before anything else.",
+ sum:{nuc:"Abducens nucleus (pons)",exit:"Pontomedullary junction",hole:"Superior orbital fissure",sup:"Lateral rectus",test:"Look to the side"}},
+
+{n:7,rn:"VII",name:"Facial",type:"Mixed",mods:["SVE","GVE","SVA","GSA"],dir:"mixed",loc:"Pons",
+ one:"Muscles of facial expression, taste from the front ⅔ of the tongue, tears and saliva, and the stapedius.",
+ nucleus:"Facial motor nucleus, superior salivatory nucleus (parasympathetic), nucleus of the solitary tract (taste) and spinal trigeminal nucleus (skin of the ear).",
+ emerges:"Cerebellopontine angle at the pontomedullary junction: a motor root plus the nervus intermedius.",
+ foramen:"Enters the internal acoustic meatus; leaves the skull through the stylomastoid foramen.",
+ supplies:["Muscles of facial expression, buccinator, platysma","Stapedius, posterior belly of digastric, stylohyoid","Lacrimal, nasal and palatine glands (greater petrosal nerve)","Submandibular and sublingual glands (chorda tympani)","Taste: front ⅔ of the tongue"],
+ stages:[
+  {k:"origin",t:"Facial motor nucleus",w:"Lower pons",focus:["n7"],segs:[],d:"The part of the nucleus serving the forehead gets input from BOTH cerebral hemispheres. The part serving the lower face gets input only from the opposite hemisphere. Beside it, the superior salivatory nucleus sends parasympathetic fibres, and taste fibres end in the nucleus of the solitary tract."},
+  {k:"exit",t:"Internal genu, then the cerebellopontine angle",w:"Loops over the abducens nucleus",segs:[["n7",[414,336],[396,340],[400,353],[432,361],"x7"]],d:"Motor fibres first loop back around the abducens nucleus (the internal genu), raising the facial colliculus. They then emerge at the cerebellopontine angle together with the nervus intermedius, which carries taste and parasympathetic fibres."},
+  {k:"foramen",t:"Into the internal acoustic meatus",w:"With CN VIII and the labyrinthine artery",segs:[["x7","iam"]],d:"VII and VIII enter the internal acoustic meatus side by side. A tumour at the cerebellopontine angle can stretch both."},
+  {k:"course",t:"Geniculate ganglion & greater petrosal nerve",w:"Facial canal, petrous temporal bone",segs:[["iam","genic"],["genic",[592,330],"ppg"],["ppg",[730,286],"lacr"],["ppg","nasal"]],d:"In the facial canal the nerve reaches the geniculate ganglion, which holds the taste cell bodies, and bends sharply (the external genu). Here the greater petrosal nerve leaves. It joins the deep petrosal nerve to form the nerve of the pterygoid canal and synapses in the pterygopalatine ganglion. The postganglionic fibres make the lacrimal gland produce tears and the nasal and palatal glands produce mucus."},
+  {k:"course",t:"Down the facial canal: stapedius",w:"Behind the middle ear",segs:[["genic",[548,378],[552,398],"smf"],[[551,396],"stapedius"]],d:"The nerve turns down behind the middle ear and gives the nerve to stapedius. Stapedius damps the stapes against loud sound, so its paralysis makes noises painfully loud (hyperacusis)."},
+  {k:"branch",t:"Chorda tympani",w:"Across the eardrum → joins the lingual nerve",segs:[[[552,420],[598,424],[650,432],"smg"],["smg","submand"],["smg","subling"],[[650,432],[740,436],"tongueA"]],d:"Just above the stylomastoid foramen, the chorda tympani turns back up across the middle ear, right behind the eardrum. It exits through the petrotympanic fissure and hitches a ride on the lingual nerve (V3). It carries taste from the front ⅔ of the tongue and parasympathetic fibres to the submandibular ganglion, which supplies the submandibular and sublingual glands."},
+  {k:"foramen",t:"Exits the stylomastoid foramen",w:"Between the styloid and mastoid",segs:[["smf",[562,458],"digastric"]],d:"Now carrying only motor fibres, the nerve leaves the skull through the stylomastoid foramen. It gives the posterior auricular nerve and branches to the posterior belly of digastric and stylohyoid. In newborns the mastoid has not grown yet, so the nerve lies just under the skin here and forceps can injure it."},
+  {k:"termination",t:"Through the parotid: five branches",w:"“To Zanzibar By Motor Car”",segs:[["smf",[600,456],"parotid"],["parotid",[668,300],[712,215],"f_temp"],["parotid",[738,352],"f_zyg"],["parotid",[742,410],"f_bucc"],["parotid",[728,490],"f_mand"],["parotid",[690,530],"f_cerv"]],d:"The nerve passes through the parotid gland, which it does NOT supply, and divides into five branches: Temporal (frontalis), Zygomatic (orbicularis oculi), Buccal (buccinator, upper lip), Marginal mandibular (lower lip) and Cervical (platysma). Parotid tumours and parotid surgery can damage it."}
+ ],
+ exam:[["Inspect","Asymmetry, a flattened nasolabial fold, a drooping corner of the mouth, less blinking on one side."],["Raise the eyebrows","Tests frontalis. Spared in an upper motor neuron (stroke) lesion."],["Screw the eyes shut","Try to open them. If closure fails, the eye rolls up (Bell’s phenomenon)."],["Puff the cheeks, show the teeth","Air escapes on the weak side; the smile pulls to the strong side."],["Extras","Taste on the front of the tongue, hyperacusis, tear production, look in the ear for vesicles."]],
+ lesions:[["Lower motor neuron (Bell’s palsy)","The WHOLE half of the face is weak, forehead included. Give prednisolone within 72 h and protect the eye."],["Upper motor neuron (stroke)","Lower face weak, forehead SPARED, because the upper face gets input from both hemispheres."],["Ramsay Hunt syndrome","Shingles of the geniculate ganglion: facial palsy, vesicles in the ear, often hearing loss and vertigo."],["Find the level","Hyperacusis = lesion above the stapedius branch. Lost taste = above the chorda tympani. Dry eye = at or above the geniculate ganglion."],["Parotid tumour or surgery","Weakness of single branches, e.g. marginal mandibular gives a lopsided smile."]],
+ pearl:"Forehead spared = central (UMN) lesion. Forehead involved = peripheral (LMN) lesion.",
+ sum:{nuc:"Facial motor, sup. salivatory, NTS (pons)",exit:"Cerebellopontine angle",hole:"IAM → stylomastoid foramen",sup:"Face muscles, taste, tears, saliva, stapedius",test:"Eyebrows, eyes, cheeks, smile"}},
+
+{n:8,rn:"VIII",name:"Vestibulocochlear",type:"Sensory",mods:["SSA"],dir:"afferent",loc:"Pons–medulla",
+ one:"Hearing (cochlear part) and balance (vestibular part).",
+ nucleus:"First neurons in the spiral (cochlear) and Scarpa’s (vestibular) ganglia. Two cochlear and four vestibular nuclei at the pontomedullary junction.",
+ emerges:"Enters the brainstem at the cerebellopontine angle, just lateral to CN VII.",
+ foramen:"Internal acoustic meatus. It never leaves the skull: the inner ear is inside the petrous temporal bone.",
+ supplies:["Cochlea: organ of Corti","Semicircular canals, utricle and saccule"],
+ stages:[
+  {k:"origin",t:"Hair cells of the inner ear",w:"Inside the petrous temporal bone",focus:["cochlea","vestib"],segs:[],d:"Hair cells in the organ of Corti turn sound into nerve signals. Hair cells in the semicircular canals detect head rotation; those in the utricle and saccule detect gravity and straight-line movement. The first neurons sit in the spiral ganglion (hearing) and Scarpa’s ganglion (balance)."},
+  {k:"course",t:"Cochlear and vestibular nerves join",w:"Deep end of the meatus",segs:[["cochlea",[500,383]],["vestib",[506,393],[500,383]]],d:"The cochlear nerve and the superior and inferior vestibular nerves come together at the deep end of the internal acoustic meatus. Vestibular schwannomas usually grow from the vestibular part."},
+  {k:"foramen",t:"Through the internal acoustic meatus",w:"Alongside CN VII",segs:[[[500,383],"iam"]],d:"The nerve runs inward through the internal acoustic meatus with the facial nerve and the labyrinthine artery."},
+  {k:"exit",t:"Enters at the cerebellopontine angle",w:"Lateral to CN VII",segs:[["iam","x8"]],d:"It crosses the cerebellopontine angle and enters the brainstem at the junction of the pons and medulla, just outside the facial nerve."},
+  {k:"course",t:"Cochlear and vestibular nuclei",w:"Pontomedullary junction",segs:[["x8","n8"]],d:"Hearing fibres end in the dorsal and ventral cochlear nuclei. Balance fibres end in the four vestibular nuclei, and some go straight to the cerebellum."},
+  {k:"termination",t:"Auditory cortex & balance centres",w:"Temporal lobe, cerebellum, eye-movement nuclei",segs:[["n8",[392,330],"ic",[400,245],"mgb",[440,190],"audcx"],["n8",[358,360],"cerebellum"]],d:"Hearing pathway, “E COLI”: Eighth nerve → Cochlear nuclei → superior Olive → Lateral lemniscus → Inferior colliculus → medial geniculate body → auditory cortex in Heschl’s gyrus. It crosses at several levels, so damage to one side of the cortex does not cause deafness in one ear. Balance signals go to the cerebellum, to the eye-movement nuclei through the MLF (the vestibulo-ocular reflex) and down the spinal cord for posture."}
+ ],
+ exam:[["Whisper test","Rub the tragus of the other ear to mask it, and whisper numbers at arm’s length."],["Rinne test","512 Hz fork on the mastoid, then beside the ear. Normal and sensorineural loss: air conduction louder than bone. Conductive loss: bone louder than air."],["Weber test","Fork on the forehead. Sound goes to the BAD ear in conductive loss, and to the GOOD ear in sensorineural loss."],["Balance","Look for nystagmus, do the head impulse test, Romberg and Unterberger. Dix–Hallpike for positional vertigo."],["Otoscopy","Wax, a perforation, or vesicles (Ramsay Hunt)."]],
+ lesions:[["Vestibular schwannoma (acoustic neuroma)","Slowly progressive one-sided sensorineural hearing loss and tinnitus, then a lost corneal reflex (V) and facial weakness (VII). Bilateral in NF2."],["Vestibular neuritis","Sudden severe vertigo and vomiting with normal hearing; abnormal head impulse test."],["Ménière’s disease","Attacks of vertigo, fluctuating hearing loss, tinnitus and ear fullness."],["BPPV","Seconds of vertigo on rolling over in bed; positive Dix–Hallpike. Treated with the Epley manoeuvre."],["Ototoxic drugs","Gentamicin and other aminoglycosides, cisplatin."]],
+ pearl:"Sudden one-sided sensorineural hearing loss is an emergency: same-day ENT review and steroids.",
+ sum:{nuc:"Cochlear & vestibular nuclei (pons–medulla)",exit:"Cerebellopontine angle",hole:"Internal acoustic meatus",sup:"Hearing, balance",test:"Whisper, Rinne, Weber, nystagmus"}},
+
+{n:9,rn:"IX",name:"Glossopharyngeal",type:"Mixed",mods:["SVE","GVE","GVA","SVA","GSA"],dir:"mixed",loc:"Medulla",
+ one:"Taste and feeling from the back of the tongue and throat, blood pressure sensing in the carotid sinus, parotid saliva, and one muscle: stylopharyngeus.",
+ nucleus:"Nucleus ambiguus (motor), inferior salivatory nucleus (parasympathetic), nucleus of the solitary tract (taste, carotid sinus and body) and spinal trigeminal nucleus (touch and pain).",
+ emerges:"Upper rootlets of the post-olivary sulcus of the medulla, above CN X.",
+ foramen:"Jugular foramen, with X, XI and the internal jugular vein.",
+ supplies:["Stylopharyngeus","Parotid gland (via the otic ganglion)","Back ⅓ of the tongue: taste and touch","Oropharynx, tonsil, middle ear","Carotid sinus and carotid body"],
+ stages:[
+  {k:"origin",t:"Four medullary nuclei",w:"Upper medulla",focus:["n9"],segs:[],d:"CN IX shares its nuclei with CN X. The nucleus ambiguus sends motor fibres, the inferior salivatory nucleus sends parasympathetic fibres, the nucleus of the solitary tract receives taste and carotid signals, and the spinal trigeminal nucleus receives touch and pain."},
+  {k:"exit",t:"Post-olivary sulcus",w:"Side of the medulla, behind the olive",segs:[["n9","x9"]],d:"Several rootlets emerge from the groove behind the olive, in line with and just above the rootlets of the vagus."},
+  {k:"foramen",t:"Jugular foramen",w:"With X, XI and the internal jugular vein",segs:[["x9",[458,412],"jug"],["jug","ganglia9"]],d:"The nerve leaves through the front part of the jugular foramen. Its superior and inferior sensory ganglia sit in and just below the foramen. A tumour here, such as a glomus jugulare, can damage IX, X and XI together."},
+  {k:"branch",t:"Tympanic nerve → parotid gland",w:"Middle ear → otic ganglion",segs:[["ganglia9",[520,418],"midear"],["midear",[586,372],"otic"],["otic",[622,410],"parotid"]],d:"The tympanic nerve (Jacobson’s nerve) enters the middle ear and forms the tympanic plexus, which supplies the middle ear and Eustachian tube. Its parasympathetic fibres continue as the lesser petrosal nerve, out through the foramen ovale to the otic ganglion. The postganglionic fibres hitch a ride on the auriculotemporal nerve (V3) to reach the parotid gland."},
+  {k:"branch",t:"Carotid sinus nerve",w:"Carotid bifurcation",segs:[["ganglia9",[512,496],"carotid"]],d:"The carotid sinus nerve carries signals from pressure receptors in the carotid sinus (blood pressure) and chemoreceptors in the carotid body (oxygen and CO₂). It is the sensory limb of the carotid sinus reflex used in carotid sinus massage."},
+  {k:"branch",t:"Stylopharyngeus & pharyngeal plexus",w:"Upper neck",segs:[["ganglia9",[540,466],"stylo"],["stylo","pharynx"]],d:"IX supplies only one muscle, stylopharyngeus, which lifts the pharynx when you swallow. Pharyngeal branches join the pharyngeal plexus and carry sensation from the throat. This is the sensory limb of the gag reflex."},
+  {k:"termination",t:"Back ⅓ of the tongue & tonsil",w:"Oropharynx",segs:[["stylo",[680,482],"tongueP"]],d:"Lingual branches carry both taste and ordinary sensation from the back ⅓ of the tongue, including the circumvallate papillae. Tonsillar branches supply the palatine tonsil. Because IX also supplies the middle ear, pain after a tonsillectomy is often felt in the ear."}
+ ],
+ exam:[["Gag reflex","Touch the back of the throat on each side. IX is the sensory limb, X the motor. Explain first; it is unpleasant."],["Sensation","Ask whether the touch feels the same on both sides."],["Taste","Back ⅓ of the tongue; rarely tested at the bedside."],["Check the neighbours","IX rarely fails alone. Always test X, XI and XII."]],
+ lesions:[["Jugular foramen syndrome (Vernet)","IX, X and XI together: lost gag sensation, choking, hoarseness, weak shrug. Glomus tumour, metastasis, skull base fracture."],["Glossopharyngeal neuralgia","Stabbing pain in the throat, tonsil and ear, triggered by swallowing. May cause fainting through the carotid reflex."],["Lateral medullary syndrome","Vertebral/PICA stroke damaging the nucleus ambiguus: dysphagia and hoarseness with crossed sensory loss."],["Tonsillectomy","Injury to the lingual branch: lost taste and feeling on the back of the tongue."]],
+ pearl:"Gag reflex: IX feels it, X does it.",
+ sum:{nuc:"N. ambiguus, inf. salivatory, NTS (medulla)",exit:"Post-olivary sulcus",hole:"Jugular foramen",sup:"Stylopharyngeus, parotid, back ⅓ tongue, carotid sinus",test:"Gag (sensory limb)"}},
+
+{n:10,rn:"X",name:"Vagus",type:"Mixed",mods:["SVE","GVE","GVA","SVA","GSA"],dir:"mixed",loc:"Medulla",
+ one:"The “wanderer”: parasympathetic supply to the heart, lungs and gut, and motor supply to the palate, pharynx and larynx.",
+ nucleus:"Nucleus ambiguus (pharynx and larynx), dorsal motor nucleus of the vagus (parasympathetic), nucleus of the solitary tract (sensation from the organs, taste from the epiglottis) and spinal trigeminal nucleus (ear).",
+ emerges:"8–10 rootlets in the post-olivary sulcus of the medulla, below CN IX.",
+ foramen:"Jugular foramen.",
+ supplies:["Muscles of the palate and pharynx (except tensor veli palatini and stylopharyngeus)","All muscles of the larynx","Palatoglossus","Heart, lungs, oesophagus, stomach and gut to ⅔ of the transverse colon","Skin of the ear canal"],
+ stages:[
+  {k:"origin",t:"Vagal nuclei",w:"Medulla",focus:["n10"],segs:[],d:"The dorsal motor nucleus of the vagus, in the floor of the 4th ventricle, sends most of the body’s parasympathetic output. The nucleus ambiguus drives the muscles of swallowing and speech. The nucleus of the solitary tract receives sensation from the chest and abdomen."},
+  {k:"exit",t:"Post-olivary sulcus",w:"Side of the medulla",segs:[["n10","x10"]],d:"A row of rootlets emerges behind the olive, just below the glossopharyngeal rootlets, and they merge into one trunk."},
+  {k:"foramen",t:"Jugular foramen & ganglia",w:"With IX, XI and the internal jugular vein",segs:[["x10",[458,422],"jug"],["jug","nodose"],["jug",[530,414],"extear"]],d:"The vagus leaves through the jugular foramen. It has a small superior (jugular) ganglion in the foramen and a larger inferior (nodose) ganglion below. The tiny auricular branch (Arnold’s nerve) supplies the ear canal. Touching it can make a patient cough, the ear–cough reflex."},
+  {k:"branch",t:"Pharyngeal branch",w:"Pharyngeal plexus",segs:[["nodose",[560,484],"pharynx"],["pharynx",[668,436],"softpal"]],d:"The main motor nerve of the throat and soft palate. Through the pharyngeal plexus it supplies the pharyngeal constrictors, levator veli palatini, palatopharyngeus, salpingopharyngeus, the uvula and palatoglossus. Two exceptions: stylopharyngeus (IX) and tensor veli palatini (V3)."},
+  {k:"branch",t:"Superior laryngeal nerve",w:"Beside the pharynx",segs:[["nodose",[516,522],[600,556],"crico"],[[600,556],"larynx"]],d:"It splits in two. The internal branch carries sensation from the larynx above the vocal folds and triggers coughing. The external branch supplies cricothyroid, which tightens the vocal folds. The external branch runs with the superior thyroid artery and can be cut in thyroid surgery, costing the patient their high notes."},
+  {k:"course",t:"Down the neck in the carotid sheath",w:"Between the jugular vein and carotid artery",segs:[["nodose",[505,560],[514,630],[522,665]]],d:"The vagus runs down inside the carotid sheath, behind and between the internal jugular vein and the carotid artery, and enters the chest."},
+  {k:"branch",t:"Recurrent laryngeal nerve",w:"Hooks under the aorta (L) or subclavian artery (R)",segs:[[[522,665],[565,708],"aorta",[612,690],[628,640],"larynx"]],d:"The left recurrent laryngeal nerve hooks under the arch of the aorta. The right hooks under the right subclavian artery. Both climb back up in the groove between the trachea and oesophagus and supply every muscle inside the larynx except cricothyroid, plus sensation below the vocal folds. The left is longer and more often damaged: thyroid surgery, lung cancer, aortic aneurysm, a large left atrium."},
+  {k:"branch",t:"Heart & lungs",w:"Cardiac and pulmonary plexuses",segs:[[[522,665],[526,700],"lungs"],[[526,700],[600,720],"heart"]],d:"Cardiac branches slow the heart by acting on the SA and AV nodes. Pulmonary branches narrow the bronchi and increase mucus. Sensory fibres report lung stretch and blood pressure in the aortic arch back to the brainstem."},
+  {k:"termination",t:"Oesophagus, stomach & gut",w:"Down to ⅔ of the transverse colon",segs:[[[526,700],[610,764],[720,742],"stomach"],["stomach",[850,760],"gut"]],d:"The two vagi form a plexus on the oesophagus, then anterior and posterior vagal trunks that pass through the diaphragm at T10. They supply the stomach (acid and movement), liver, pancreas and gut as far as about ⅔ of the way along the transverse colon. Beyond that, the pelvic splanchnic nerves (S2–S4) take over."}
+ ],
+ exam:[["Listen to the voice","Hoarse, breathy or nasal speech. A weak “bovine” cough suggests a paralysed vocal fold."],["Say “aah”","Watch the soft palate. The uvula is pulled AWAY from the weak side."],["Gag reflex","X is the motor limb: the palate and throat contract."],["Swallow","A sip of water: coughing or a wet voice suggests aspiration."],["Laryngoscopy","Shows which vocal fold is paralysed."]],
+ lesions:[["Recurrent laryngeal nerve palsy","Hoarseness. Thyroidectomy, Pancoast tumour, aortic aneurysm, mitral stenosis (Ortner syndrome)."],["High vagal lesion","Hoarseness PLUS palate weakness and choking: jugular foramen or medulla."],["Lateral medullary (Wallenberg) syndrome","Nucleus ambiguus: dysphagia, hoarseness, absent gag, plus vertigo, Horner syndrome and crossed sensory loss."],["Vasovagal syncope","Surge of vagal output: slow heart and dilated vessels, so the patient faints."],["Bulbar palsy","Lower motor neuron weakness of IX, X and XII: wasted tongue, nasal speech. Motor neurone disease, Guillain–Barré, myasthenia."]],
+ pearl:"The uvula points AWAY from the side of a vagus lesion. The tongue points TOWARD the side of a hypoglossal lesion.",
+ sum:{nuc:"Dorsal motor n., n. ambiguus, NTS (medulla)",exit:"Post-olivary sulcus",hole:"Jugular foramen",sup:"Palate, pharynx, larynx, heart, lungs, gut",test:"“Aah”, gag, voice, cough"}},
+
+{n:11,rn:"XI",name:"Accessory",type:"Motor",mods:["SVE"],dir:"efferent",loc:"Cervical cord",
+ one:"Turns the head (sternocleidomastoid) and shrugs the shoulder (trapezius).",
+ nucleus:"Spinal accessory nucleus in the anterior horn of C1–C5. The small “cranial root” from the nucleus ambiguus joins the vagus and is now usually counted as part of CN X.",
+ emerges:"Rootlets on the side of the upper cervical cord, between the dorsal and ventral roots.",
+ foramen:"Enters the skull through the foramen magnum, leaves through the jugular foramen.",
+ supplies:["Sternocleidomastoid","Trapezius"],
+ stages:[
+  {k:"origin",t:"Spinal accessory nucleus",w:"Anterior horn, C1–C5",focus:["n11"],segs:[],d:"A column of motor neurons in the upper cervical spinal cord. CN XI is the only cranial nerve whose cell bodies sit in the spinal cord."},
+  {k:"exit",t:"Rootlets from the side of the cord",w:"Between the dorsal and ventral roots",segs:[["n11","x11"]],d:"Rootlets leave the side of the cord and join into a single trunk."},
+  {k:"course",t:"Up through the foramen magnum",w:"Into the posterior cranial fossa",segs:[["x11",[440,494],"fmag"]],d:"The trunk climbs beside the cord and ENTERS the skull through the foramen magnum. It is the only cranial nerve that goes into the skull before coming back out."},
+  {k:"foramen",t:"Out through the jugular foramen",w:"With IX and X",segs:[["fmag",[455,452],"jug"]],d:"It turns sideways and leaves the skull through the jugular foramen, sharing a sheath with the vagus."},
+  {k:"branch",t:"Sternocleidomastoid",w:"Deep surface of the muscle",segs:[["jug",[508,472],[560,540],"scm"]],d:"It runs down and back past the internal jugular vein and enters the deep surface of sternocleidomastoid. Each SCM turns the head to the OPPOSITE side, so the right SCM turns the head to the left."},
+  {k:"termination",t:"Across the posterior triangle to trapezius",w:"Superficial and easy to injure",segs:[["scm",[540,628],"trap"]],d:"It comes out from behind SCM and crosses the posterior triangle of the neck, lying just under the skin and fascia. This is where it gets cut during lymph node biopsies. It ends in trapezius, which lifts and rotates the shoulder blade."}
+ ],
+ exam:[["Inspect","Wasting of SCM or trapezius, a dropped shoulder, a winged scapula."],["Shrug against resistance","Push down on both shoulders: trapezius."],["Turn the head against resistance","Push against the chin and feel the OPPOSITE SCM. Turning to the left tests the right SCM."],["Lift the arm above 90°","Needs trapezius to rotate the scapula; weak in a XI palsy."]],
+ lesions:[["Posterior triangle injury","Usually from a lymph node biopsy. Trapezius weak, SCM normal, because the cut is beyond the SCM branch. Shoulder droop and aching."],["Jugular foramen lesion","XI with IX and X: SCM AND trapezius weak."],["Torticollis","Spasm or shortening of SCM; usually not a nerve lesion."],["Motor neurone disease","Wasting and twitching of SCM and trapezius."]],
+ pearl:"Weak trapezius with a normal SCM puts the injury in the posterior triangle of the neck.",
+ sum:{nuc:"Spinal accessory nucleus (C1–C5)",exit:"Side of the cervical cord",hole:"In: foramen magnum. Out: jugular foramen",sup:"SCM, trapezius",test:"Shrug, turn head"}},
+
+{n:12,rn:"XII",name:"Hypoglossal",type:"Motor",mods:["GSE"],dir:"efferent",loc:"Medulla",
+ one:"Moves the tongue for speech, chewing and swallowing.",
+ nucleus:"Hypoglossal nucleus in the medulla, under the hypoglossal trigone in the floor of the 4th ventricle.",
+ emerges:"Pre-olivary sulcus, between the pyramid and the olive.",
+ foramen:"Hypoglossal canal (occipital bone).",
+ supplies:["Intrinsic tongue muscles","Genioglossus, hyoglossus, styloglossus (every tongue muscle except palatoglossus)"],
+ stages:[
+  {k:"origin",t:"Hypoglossal nucleus",w:"Medulla, floor of the 4th ventricle",focus:["n12"],segs:[],d:"A long column of motor neurons close to the midline. Genioglossus gets most of its cortical input from the opposite hemisphere."},
+  {k:"exit",t:"Pre-olivary sulcus",w:"Between the pyramid and the olive",segs:[["n12","x12"]],d:"Fibres run forward and emerge as rootlets in front of the olive. A stroke of the front of the medulla (medial medullary syndrome) catches XII, the pyramid and the medial lemniscus together."},
+  {k:"foramen",t:"Hypoglossal canal",w:"Occipital bone, above the condyle",segs:[["x12","hyc"]],d:"The rootlets join and leave through the hypoglossal canal, a tunnel of its own above the occipital condyle."},
+  {k:"course",t:"Loops forward through the neck",w:"Under digastric, across the carotids",segs:[["hyc",[495,490],[532,526],[584,532],[642,512]]],d:"The nerve descends between the internal carotid artery and the internal jugular vein, then curves forward under the occipital artery. It crosses the external carotid and lingual arteries and passes under the posterior belly of digastric, just above the hyoid bone. Some C1 fibres travel with it to geniohyoid and thyrohyoid and to the ansa cervicalis; they are not true XII fibres."},
+  {k:"termination",t:"Muscles of the tongue",w:"On hyoglossus, into the tongue",segs:[[[642,512],[716,474],"tongueM"]],d:"Running on the surface of hyoglossus, it supplies all the muscles inside the tongue and the outer ones: genioglossus, hyoglossus and styloglossus. The single exception is palatoglossus (CN X). Genioglossus pushes the tongue forward and toward the opposite side."}
+ ],
+ exam:[["Inspect at rest","Look at the tongue lying in the floor of the mouth for wasting and fasciculation. Twitching is unreliable when the tongue is stuck out."],["Stick the tongue out","In a lower motor neuron lesion it deviates TOWARD the weak side, pushed by the healthy genioglossus."],["Push against the cheek","Feel the strength through the cheek on each side."],["Rapid movements","Side to side, “la-la-la”. Slow and stiff in upper motor neuron lesions."]],
+ lesions:[["Lower motor neuron lesion","Same-side wasting, fasciculation and deviation toward the lesion. Skull base tumour, carotid dissection, carotid endarterectomy."],["Upper motor neuron lesion","Stroke: no wasting; the tongue points toward the weak side of the body. Both sides affected: small stiff tongue (pseudobulbar palsy)."],["Medial medullary syndrome","Tongue weakness on the same side + hemiplegia and loss of vibration and position sense on the opposite side."],["Motor neurone disease","Both sides wasted and fasciculating, like a “bag of worms”."]],
+ pearl:"The tongue “licks the lesion”: it points toward the side of a lower motor neuron lesion.",
+ sum:{nuc:"Hypoglossal nucleus (medulla)",exit:"Pre-olivary sulcus",hole:"Hypoglossal canal",sup:"Tongue muscles (not palatoglossus)",test:"Inspect, protrude, push cheek"}}
+];
+
+const MODS={
+  GSE:"General somatic efferent: motor to skeletal muscle from somites (eye muscles, tongue).",
+  SVE:"Special visceral (branchial) efferent: motor to pharyngeal arch muscles (chewing, face, throat, larynx).",
+  GVE:"General visceral efferent: parasympathetic to glands and smooth muscle.",
+  GSA:"General somatic afferent: touch, pain, temperature.",
+  GVA:"General visceral afferent: sensation from the organs.",
+  SSA:"Special somatic afferent: vision, hearing, balance.",
+  SVA:"Special visceral afferent: smell and taste."
+};
+const KIND={origin:"Origin",exit:"Leaves brainstem",course:"Course",foramen:"Skull opening",branch:"Branch",termination:"Termination"};
+const kindLabel=(N,k)=>N.dir==="afferent"?(k==="origin"?"Receptors":k==="exit"?"Enters brainstem":KIND[k]):KIND[k];
+
+/* which nerves use each node */
+const NODE_NERVES={};
+NERVES.forEach(N=>N.stages.forEach(st=>{(st.focus||[]).forEach(id=>(NODE_NERVES[id]=NODE_NERVES[id]||new Set()).add(N.n));st.segs.forEach(seg=>seg.forEach(p=>{if(typeof p==="string")(NODE_NERVES[p]=NODE_NERVES[p]||new Set()).add(N.n);}));}));
+
+const resolve=p=>typeof p==="string"?NODES[p]:p;
+function smooth(raw){
+  const p=raw.map(q=>[q[0],q[1]]);
+  if(p.length<2)return "";
+  let d=`M${p[0][0]},${p[0][1]}`;
+  if(p.length===2)return d+`L${p[1][0]},${p[1][1]}`;
+  for(let i=0;i<p.length-1;i++){
+    const p0=p[i-1]||p[i],p1=p[i],p2=p[i+1],p3=p[i+2]||p2;
+    const c1=[p1[0]+(p2[0]-p0[0])/6,p1[1]+(p2[1]-p0[1])/6],c2=[p2[0]-(p3[0]-p1[0])/6,p2[1]-(p3[1]-p1[1])/6];
+    d+=`C${c1[0].toFixed(1)},${c1[1].toFixed(1)} ${c2[0].toFixed(1)},${c2[1].toFixed(1)} ${p2[0]},${p2[1]}`;
+  }
+  return d;
+}
+
+/* ---------- anatomy drawing ---------- */
+const HEAD="M235,470 C150,425 82,335 86,240 C90,105 220,12 400,10 C580,8 720,70 775,170 C795,205 808,240 806,266 C806,282 808,292 818,304 C845,325 878,345 888,362 C892,372 878,380 856,382 C860,396 866,408 858,420 C852,430 862,440 856,452 C850,464 866,482 862,502 C858,524 830,532 784,532 C745,534 728,566 726,605 L724,645 L300,645 C302,585 292,520 235,470 Z";
+const CEREBRUM="M118,215 C100,120 205,32 375,26 C530,22 645,78 660,170 C666,215 648,250 612,256 L560,254 C540,254 530,262 520,256 C505,248 492,262 478,266 C462,270 452,252 447,240 L395,238 C368,250 350,282 325,293 C275,312 205,300 160,278 C134,265 122,243 118,215 Z";
+function buildAnatomy(g){
+  const A=(t,a)=>sv(t,a,g);
+  A("path",{d:HEAD,class:"skin"});
+  A("path",{d:"M640,292 L712,292 C760,312 805,338 842,364 L812,384 L664,388 C646,356 638,322 640,292 Z",class:"cavity"});
+  A("path",{d:"M612,392 L648,392 C646,470 644,560 640,645 L612,645 C614,560 614,470 612,392 Z",class:"cavity"});
+  A("path",{d:"M684,428 C716,418 790,414 832,428 C836,448 806,470 762,474 C722,476 692,462 684,428 Z",class:"organ"});
+  A("rect",{x:640,y:566,width:30,height:44,rx:8,class:"organ"});
+  A("path",{d:"M664,410 L830,414",class:"boneline thin"});
+  A("path",{d:"M612,384 C618,430 640,470 690,505 C740,532 810,528 850,500",class:"boneline thin"});
+  A("path",{d:"M650,516 L690,512",class:"boneline thin"});
+  A("ellipse",{cx:598,cy:394,rx:15,ry:30,class:"skin"});
+  // thorax inset
+  A("rect",{x:470,y:655,width:505,height:137,rx:16,class:"inset"});
+  A("path",{d:"M626,648 C630,690 700,700 760,704",class:"gutline thin"});
+  A("ellipse",{cx:536,cy:722,rx:40,ry:48,class:"organ"});
+  A("path",{d:"M648,700 C672,700 680,722 672,738 C664,754 650,762 648,764 C640,758 624,750 620,734 C614,716 628,700 648,700 Z",class:"organ"});
+  A("path",{d:"M760,700 C790,690 830,700 828,730 C826,760 790,770 770,752 C760,740 765,720 760,700 Z",class:"organ"});
+  A("path",{d:"M870,712 C900,700 940,712 930,734 C920,756 880,748 890,768 C900,784 940,778 950,762",class:"gutline"});
+  A("path",{d:"M640,704 C640,672 596,668 588,700 L588,782",class:"vessel a"});
+  const tl=A("text",{x:488,y:678,class:"rlab"});tl.textContent="THORAX & ABDOMEN";
+  // brain
+  A("ellipse",{cx:300,cy:345,rx:88,ry:50,class:"tissue"});
+  ["M226,330 Q300,310 374,330","M218,348 Q300,330 382,350","M228,366 Q300,352 372,368","M246,382 Q300,372 354,384"].forEach(d=>A("path",{d,class:"sulcus"}));
+  A("path",{d:CEREBRUM,class:"tissue"});
+  ["M372,30 C360,90 372,140 398,190","M600,232 C540,212 490,205 445,214","M150,200 C185,195 215,200 250,212","M235,70 C228,120 238,160 262,196","M480,40 C470,80 478,110 500,140","M300,60 C292,100 300,130 320,160","M560,70 C548,110 560,150 590,180","M180,120 C200,150 205,175 200,190"].forEach(d=>A("path",{d,class:"sulcus"}));
+  A("ellipse",{cx:392,cy:212,rx:36,ry:18,class:"deep"});
+  // brainstem
+  A("path",{d:"M410,458 L438,458 C436,520 434,580 433,645 L413,645 C412,580 411,520 410,458 Z",class:"stem"});
+  A("path",{d:"M398,370 L452,370 C452,400 448,430 438,458 L410,458 C402,430 398,400 398,370 Z",class:"stem"});
+  A("path",{d:"M392,295 L448,295 C470,305 474,355 452,370 L398,370 C390,345 388,315 392,295 Z",class:"stem"});
+  A("path",{d:"M395,238 L447,238 C452,255 452,280 448,295 L392,295 C388,275 388,255 395,238 Z",class:"stem"});
+  A("circle",{cx:391,cy:254,r:6,class:"stem"});A("circle",{cx:391,cy:276,r:6,class:"stem"});
+  A("ellipse",{cx:447,cy:410,rx:4,ry:11,class:"olive"});
+  A("path",{d:"M392,314 L368,342 L396,366 Z",class:"vent"});
+  [["MIDBRAIN",425,268],["PONS",433,334],["MEDULLA",428,416],["SPINAL CORD",427,590]].forEach(([t,x,y])=>{const e=A("text",{x,y,class:"vlab","text-anchor":"middle",transform:`rotate(-90 ${x} ${y})`});e.textContent=t;});
+  // bone
+  A("path",{d:"M486,344 C522,336 562,358 578,404 C586,436 566,456 544,452 C520,446 494,402 486,344 Z",class:"bone"});
+  A("path",{d:"M712,272 L580,272 C562,272 552,280 546,290 C540,302 520,306 508,292 L456,468",class:"boneline"});
+  A("path",{d:"M384,470 C330,440 250,400 205,348 C180,318 158,292 140,270",class:"boneline"});
+  A("circle",{cx:758,cy:300,r:47,class:"orbit"});
+  A("circle",{cx:760,cy:300,r:26,class:"eye"});
+  A("circle",{cx:784,cy:300,r:6,class:"iris"});
+  // vessels
+  A("path",{d:"M600,700 C585,660 560,600 552,540 C546,490 530,450 522,410 C516,380 522,340 548,318 C560,308 566,300 560,288",class:"vessel a"});
+  A("path",{d:"M470,432 C480,480 495,560 505,645",class:"vessel v"});
+  const c1=A("text",{x:300,y:96,class:"rlab","text-anchor":"middle"});c1.textContent="CEREBRUM";
+  const c2=A("text",{x:262,y:336,class:"rlab","text-anchor":"middle"});c2.textContent="CEREBELLUM";
+}
+
+/* ---------- diagram (pan / zoom / camera) ---------- */
+class Diagram{
+  constructor(svg){
+    this.svg=svg;this.scaled=[];this.flows=[];this.anim=null;
+    svg.setAttribute("preserveAspectRatio","xMidYMid meet");
+    this.gAnat=sv("g",{class:"anat"},svg);buildAnatomy(this.gAnat);
+    this.gAll=sv("g",{class:"allnerves"},svg);
+    this.gFor=sv("g",{class:"foramina"},svg);
+    this.gAct=sv("g",{class:"active"},svg);
+    this.gNodes=sv("g",{class:"nodes"},svg);
+    this.gFx=sv("g",{class:"fx"},svg);
+    this.vb=this.fullBox();this.apply();
+  }
+  asp(){const r=this.svg.getBoundingClientRect();return r.width>0&&r.height>0?r.height/r.width:0.8;}
+  fullBox(){const a=this.asp(),X=40,W=1050,H=800;if(W*a>=H){const h=W*a;return {x:X,y:(H-h)/2,w:W};}const w=H/a;return {x:X+(W-w)/2,y:0,w};}
+  fitPts(pts,pad=70,minW=320){
+    if(!pts.length)return this.fullBox();
+    let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9;pts.forEach(p=>{x0=Math.min(x0,p[0]);y0=Math.min(y0,p[1]);x1=Math.max(x1,p[0]);y1=Math.max(y1,p[1]);});
+    const a=this.asp(),full=this.fullBox();
+    const w=Math.max(x1-x0+pad*2,(y1-y0+pad*2)/a,minW);
+    if(w>=full.w*0.95)return full;
+    const cx=(x0+x1)/2,cy=(y0+y1)/2;return {x:cx-w/2,y:cy-w*a/2,w};
+  }
+  apply(){
+    const {x,y,w}=this.vb,a=this.asp();
+    this.svg.setAttribute("viewBox",`${x.toFixed(2)} ${y.toFixed(2)} ${w.toFixed(2)} ${(w*a).toFixed(2)}`);
+    const r=this.svg.getBoundingClientRect();const k=r.width?w/r.width:1.3;
+    this.k=k;this.kl=Math.min(k,1.8);this.ks=Math.min(k,2.2);
+    this.svg.style.setProperty("--k",this.ks.toFixed(4));
+    for(const s of this.scaled)s.g.setAttribute("transform",`translate(${s.x},${s.y}) scale(${this.kl.toFixed(4)})`);
+    for(const f of this.flows)f.style.strokeDasharray=`${(3*this.ks).toFixed(2)} ${(11*this.ks).toFixed(2)}`;
+    const wrap=this.svg.parentElement;if(wrap)wrap.classList.toggle("zoomed",w<this.fullBox().w*0.97);
+  }
+  animateTo(b,dur=850){if(REDUCE||dur===0){this.vb={...b};this.apply();this.anim=null;return;}this.anim={from:{...this.vb},to:{...b},t0:performance.now(),dur};}
+  tick(now){
+    if(!this.anim)return;const{from,to,t0,dur}=this.anim;let p=clamp((now-t0)/dur,0,1);const e=p<.5?4*p*p*p:1-Math.pow(-2*p+2,3)/2;
+    this.vb={x:from.x+(to.x-from.x)*e,y:from.y+(to.y-from.y)*e,w:from.w+(to.w-from.w)*e};this.apply();if(p>=1)this.anim=null;
+  }
+  zoomBy(f,cx,cy){
+    const a=this.asp(),full=this.fullBox();const{x,y,w}=this.vb;
+    if(cx==null){cx=x+w/2;cy=y+w*a/2;}
+    const w2=clamp(w/f,140,full.w);const fx=(cx-x)/w,fy=(cy-y)/(w*a);
+    this.animateTo({x:cx-fx*w2,y:cy-fy*w2*a,w:w2},300);
+  }
+  addScaled(g,x,y,tag){const s={g,x,y,tag};this.scaled.push(s);g.setAttribute("transform",`translate(${x},${y}) scale(${(this.kl||1.3).toFixed(4)})`);return s;}
+  clientToSvg(cx,cy){const r=this.svg.getBoundingClientRect();return [this.vb.x+(cx-r.left)/r.width*this.vb.w,this.vb.y+(cy-r.top)/r.height*this.vb.w*this.asp()];}
+}
+
+function makeNode(D,parent,id,cls,tag){
+  const [x,y,label,type,dir]=NODES[id];
+  const g=sv("g",{class:`${cls} t-${type}`,"data-id":id},parent);
+  const inner=sv("g",{},g);
+  sv("circle",{r:9,class:"halo"},inner);
+  if(type==="foramen")sv("path",{d:"M0,-6.5 L6.5,0 L0,6.5 L-6.5,0 Z",class:"dot"},inner);
+  else if(type==="target"||type==="cortex"){sv("circle",{r:7,class:"ring"},inner);sv("circle",{r:3,class:"dot"},inner);}
+  else if(type==="gang"){sv("circle",{r:9,class:"ring"},inner);sv("circle",{r:6,class:"dot"},inner);}
+  else if(type==="way2")sv("circle",{r:3.8,class:"dot"},inner);
+  else sv("circle",{r:5,class:"dot"},inner);
+  if(cls.includes("node")){
+    const L={r:[11,4,"start"],l:[-11,4,"end"],t:[0,-12,"middle"],b:[0,19,"middle"]}[dir||"r"];
+    const t=sv("text",{x:L[0],y:L[1],"text-anchor":L[2],class:"lbl"},inner);t.textContent=label;
+  }
+  g.removeChild(inner);
+  const wrap=sv("g",{},g);wrap.appendChild(inner);
+  D.addScaled(wrap,x,y,tag);
+  return g;
+}
+
+/* ---------- trace state ---------- */
+const D=new Diagram($("#diagram"));
+const T={n:7,i:0,playing:false,follow:true,showAll:true,labelsAll:false,speed:1,segs:[],nodes:new Map(),t0:0,nextAt:0,ptab:"overview",dragged:false};
+const cur=()=>NERVES[T.n-1];
+const viewTrace=$("#view-trace");
+
+function buildAllLayer(){
+  D.gAll.innerHTML="";
+  NERVES.forEach(N=>{
+    const g=sv("g",{class:"an","data-n":N.n},D.gAll);g.style.setProperty("--c",`var(--n${N.n})`);
+    N.stages.forEach(st=>st.segs.forEach(seg=>{const d=smooth(seg.map(resolve));sv("path",{d,class:"vis"},g);sv("path",{d,class:"hit"},g);}));
+    g.addEventListener("click",e=>{if(T.dragged)return;e.stopPropagation();selectNerve(N.n);});
+    g.addEventListener("pointerenter",e=>{if(e.pointerType==="mouse")showTip(e,`<b>CN ${N.rn} · ${N.name}</b><p>${esc(N.one)}</p><p>Click to trace it.</p>`);});
+    g.addEventListener("pointerleave",e=>{if(e.pointerType==="mouse")hideTip();});
+  });
+}
+function buildForamina(){
+  D.gFor.innerHTML="";
+  Object.keys(NODES).filter(id=>NODES[id][3]==="foramen").forEach(id=>{
+    const g=makeNode(D,D.gFor,id,"fnode","for");
+    g.addEventListener("click",e=>{if(T.dragged)return;e.stopPropagation();nodeTip(e,id);});
+  });
+}
+
+function loadNerve(n){
+  T.n=n;const N=cur();
+  hideTip();
+  D.gAct.innerHTML="";D.gNodes.innerHTML="";D.gFx.innerHTML="";
+  D.scaled=D.scaled.filter(s=>s.tag!=="act");D.flows=[];T.segs=[];T.nodes=new Map();
+  viewTrace.style.setProperty("--cur",`var(--n${n})`);
+  const ref=(id,i)=>{if(!T.nodes.has(id))T.nodes.set(id,{first:i,stages:new Set()});T.nodes.get(id).stages.add(i);};
+  N.stages.forEach((st,i)=>{
+    (st.focus||[]).forEach(id=>ref(id,i));
+    st.segs.forEach((seg,j)=>{
+      const pts=seg.map(resolve);const d=smooth(pts);
+      const g=sv("g",{class:"seg"},D.gAct);
+      const casing=sv("path",{d,class:"casing"},g),base=sv("path",{d,class:"nvp"},g),flow=sv("path",{d,class:"flow"},g);
+      const len=base.getTotalLength()||1;
+      [casing,base].forEach(p=>{p.style.strokeDasharray=`${len} ${len}`;p.style.strokeDashoffset=len;});
+      D.flows.push(flow);
+      const dot=sv("circle",{r:5,class:"sig"},D.gFx);dot.style.display="none";
+      seg.forEach(p=>{if(typeof p==="string")ref(p,i);});
+      T.segs.push({g,casing,base,flow,dot,len,stage:i,order:j,pts,state:"hidden"});
+    });
+  });
+  T.nodes.forEach((info,id)=>{
+    const g=makeNode(D,D.gNodes,id,"node","act");info.g=g;
+    g.addEventListener("click",e=>{if(T.dragged)return;e.stopPropagation();nodeTip(e,id);});
+  });
+  $$(".an",D.gAll).forEach(g=>g.classList.toggle("cur",+g.dataset.n===n));
+  D.apply();
+  renderRail();renderPanel();
+}
+
+function stagePts(i){
+  const N=cur(),st=N.stages[i];const pts=[];
+  st.segs.forEach(seg=>seg.forEach(p=>pts.push(resolve(p))));
+  (st.focus||[]).forEach(id=>pts.push(NODES[id]));
+  if(i>0&&!st.segs.length){const prev=N.stages[i-1];prev.segs.forEach(seg=>pts.push(resolve(seg[seg.length-1])));}
+  return pts;
+}
+
+function setStage(i,{animate=true,camera=true}={}){
+  const N=cur();i=clamp(i,0,N.stages.length-1);T.i=i;
+  const sp=T.speed,now=performance.now();T.t0=now;
+  let maxEnd=0;
+  for(const s of T.segs){
+    if(s.stage<i||(s.stage===i&&(!animate||REDUCE))){s.state="done";s.g.style.display="";[s.casing,s.base].forEach(p=>p.style.strokeDashoffset=0);s.flow.classList.add("on");s.loopStart=now;}
+    else if(s.stage===i){s.state="draw";s.g.style.display="";s.delay=s.order*300/sp;s.dur=clamp(s.len*3.4,600,1700)/sp;maxEnd=Math.max(maxEnd,s.delay+s.dur);[s.casing,s.base].forEach(p=>p.style.strokeDashoffset=s.len);s.flow.classList.remove("on");}
+    else{s.state="hidden";s.g.style.display="none";s.flow.classList.remove("on");}
+    s.dot.style.display="none";
+  }
+  T.nodes.forEach((info,id)=>{
+    const vis=info.first<=i,isCur=info.stages.has(i);
+    info.g.classList.toggle("vis",vis);info.g.classList.toggle("cur",isCur&&vis);
+    info.g.classList.toggle("show-l",vis&&(isCur||T.labelsAll));
+    if(isCur)D.gNodes.appendChild(info.g);
+  });
+  const read=clamp(N.stages[i].d.length*24,3200,9500)/sp;
+  T.nextAt=now+maxEnd+read;
+  if(camera&&T.follow)D.animateTo(D.fitPts(stagePts(i),90,N.stages[i].segs.length?440:540));
+  renderStepper();renderStageCard();
+  $("#count").textContent=`${i+1} / ${N.stages.length}`;
+  $("#bPrev").disabled=i===0;$("#bNext").disabled=i===N.stages.length-1&&!T.playing;
+  if(i===N.stages.length-1)markTraced(N.n);
+}
+
+function traceTick(now){
+  const off=-((now/1000)*26*D.ks)%(14*D.ks);
+  for(const s of T.segs){
+    if(s.state==="draw"){
+      const p=clamp((now-T.t0-s.delay)/s.dur,0,1);const e=p<.5?2*p*p:1-Math.pow(-2*p+2,2)/2;
+      const o=s.len*(1-e);s.casing.style.strokeDashoffset=o;s.base.style.strokeDashoffset=o;
+      if(p>0){const pt=s.base.getPointAtLength(s.len*e);s.dot.setAttribute("cx",pt.x);s.dot.setAttribute("cy",pt.y);s.dot.setAttribute("r",5.5*D.kl);s.dot.setAttribute("stroke-width",2*D.kl);s.dot.style.display="";}
+      if(p>=1){s.state="done";s.flow.classList.add("on");s.loopStart=now;}
+    }
+    if(s.state==="done"){
+      s.flow.style.strokeDashoffset=off;
+      if(s.stage===T.i&&!REDUCE){
+        const per=Math.max(1100,s.len*8)/T.speed;const p=((now-s.loopStart)%per)/per;
+        const pt=s.base.getPointAtLength(s.len*p);s.dot.setAttribute("cx",pt.x);s.dot.setAttribute("cy",pt.y);s.dot.setAttribute("r",4.5*D.kl);s.dot.setAttribute("stroke-width",2*D.kl);s.dot.style.display="";
+      }
+    }
+  }
+  const N=cur();
+  if(T.playing){
+    const frac=clamp((now-T.t0)/(T.nextAt-T.t0),0,1);$("#pfill").style.width=(frac*100)+"%";
+    if(now>=T.nextAt){
+      if(T.i<N.stages.length-1)setStage(T.i+1);
+      else{setPlaying(false);setTimeout(()=>{if(!T.playing&&T.i===N.stages.length-1)D.animateTo(D.fullBox(),1100);},700);}
+    }
+  }
+}
+
+function setPlaying(on){
+  T.playing=on;const b=$("#bPlay");
+  b.innerHTML=on?"&#10074;&#10074; Pause":(T.i===cur().stages.length-1?"&#8635; Trace again":"&#9654; Play");
+  if(!on)$("#pfill").style.width="0%";
+  $("#bNext").disabled=T.i===cur().stages.length-1&&!on;
+}
+function play(){const N=cur();if(T.i>=N.stages.length-1){setStage(0);}else{T.nextAt=performance.now()+600;}setPlaying(true);}
+function selectNerve(n,{autoplay=true}={}){setPlaying(false);loadNerve(n);setStage(0);if(autoplay){setPlaying(true);}else setPlaying(false);}
+function showWhole(){setPlaying(false);setStage(cur().stages.length-1,{animate:false,camera:false});D.animateTo(D.fullBox());setPlaying(false);}
+
+function markTraced(n){const s=new Set(store.get("traced",[]));if(!s.has(n)){s.add(n);store.set("traced",[...s]);renderRail();renderStats();}}
+
+/* ---------- rail, stepper, panel ---------- */
+function renderRail(){
+  const r=$("#rail");r.innerHTML="";const traced=new Set(store.get("traced",[]));
+  [["Forebrain",[1,2]],["Midbrain",[3,4]],["Pons",[5,6,7,8]],["Medulla & cord",[9,10,11,12]]].forEach(([g,ns])=>{
+    r.appendChild(hx("div","rail-g",g));
+    ns.forEach(n=>{const N=NERVES[n-1];const b=hx("button","nv"+(n===T.n?" on":""));b.style.setProperty("--c",`var(--n${n})`);
+      b.setAttribute("aria-pressed",String(n===T.n));
+      b.innerHTML=`<span class="rn">${N.rn}</span><span class="nm">${N.name}<small>${N.type}</small></span>${traced.has(n)?'<span class="tick" title="Traced">✓</span>':""}`;
+      b.onclick=()=>selectNerve(n);r.appendChild(b);});
+  });
+}
+function renderStepper(){
+  const N=cur(),s=$("#stepper");s.innerHTML="";
+  N.stages.forEach((st,i)=>{const b=hx("button","step"+(i<T.i?" done":"")+(i===T.i?" now":""));
+    b.innerHTML=`<span class="i">${i+1}</span><span class="tx"><small>${kindLabel(N,st.k)}</small><span>${esc(st.t)}</span></span>`;
+    b.onclick=()=>{setPlaying(false);setStage(i);};s.appendChild(b);
+    if(i===T.i)requestAnimationFrame(()=>{const sl=s.scrollLeft,bl=b.offsetLeft-s.offsetLeft;if(bl<sl||bl+b.offsetWidth>sl+s.clientWidth)s.scrollTo({left:bl-20,behavior:REDUCE?"auto":"smooth"});});
+  });
+}
+const PIN='<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M6 11s4-3.6 4-6.4A4 4 0 0 0 2 4.6C2 7.4 6 11 6 11z" fill="none" stroke="currentColor" stroke-width="1.3"/><circle cx="6" cy="4.6" r="1.4" fill="currentColor"/></svg>';
+function renderPanel(){
+  const N=cur(),p=$("#panel");
+  const dirTxt=N.dir==="afferent"?"Traced in the direction impulses travel: from receptor to brain.":N.dir==="efferent"?"Traced in the direction impulses travel: from brainstem out to the muscle.":"Traced from the brainstem outward. Motor impulses travel this way; sensory impulses travel back the other way.";
+  p.innerHTML=`<div class="phead"><div class="big-rn">${N.rn}</div><div><h2>${N.name} nerve</h2><p>CN ${N.rn} · ${N.type} · ${N.loc}</p></div></div>
+  <p class="one">${esc(N.one)}</p>
+  <div class="dirnote"><i></i>${dirTxt}</div>
+  <div class="scard" id="scard"></div>
+  <div class="ptabs" role="tablist">${[["overview","Overview"],["exam","Examine"],["lesions","Lesions"]].map(([k,l])=>`<button role="tab" data-pt="${k}" aria-selected="${T.ptab===k}">${l}</button>`).join("")}</div>
+  <div id="pbody" style="display:grid;gap:14px"></div>`;
+  $$(".ptabs button",p).forEach(b=>b.onclick=()=>{T.ptab=b.dataset.pt;$$(".ptabs button",p).forEach(x=>x.setAttribute("aria-selected",String(x===b)));renderPBody();});
+  renderStageCard();renderPBody();
+}
+function renderStageCard(){
+  const N=cur(),st=N.stages[T.i],c=$("#scard");if(!c)return;
+  c.innerHTML=`<div class="eyebrow">Stage ${T.i+1} of ${N.stages.length} · ${kindLabel(N,st.k)}</div><h3>${esc(st.t)}</h3><div class="where">${PIN}${esc(st.w)}</div><p>${esc(st.d)}</p>`;
+}
+function renderPBody(){
+  const N=cur(),b=$("#pbody");
+  if(T.ptab==="overview"){
+    b.innerHTML=`<dl class="facts">
+      <div><dt>Nuclei</dt><dd>${esc(N.nucleus)}</dd></div>
+      <div><dt>${N.dir==="afferent"?"Enters":"Emerges"}</dt><dd>${esc(N.emerges)}</dd></div>
+      <div><dt>Skull opening</dt><dd>${esc(N.foramen)}</dd></div></dl>
+      <div><h4>Supplies</h4><ul class="plist">${N.supplies.map(s=>`<li>${esc(s)}</li>`).join("")}</ul></div>
+      <div><h4>Fibre types</h4><div class="mods">${N.mods.map(m=>`<div class="mod"><b>${m}</b><span>${esc(MODS[m])}</span></div>`).join("")}</div></div>
+      <p class="pearl"><b>Clinical pearl</b>${esc(N.pearl)}</p>`;
+  }else if(T.ptab==="exam"){
+    const cs=CASES.findIndex(c=>c.n===N.n);
+    b.innerHTML=`<h4>How to examine CN ${N.rn}</h4><ol class="exlist">${N.exam.map(([t,d])=>`<li><div><b>${esc(t)}</b><span>${esc(d)}</span></div></li>`).join("")}</ol>${cs>=0?`<button class="linkbtn" id="toCase">Try the bedside case for CN ${N.rn} →</button>`:""}`;
+    const tc=$("#toCase");if(tc)tc.onclick=()=>{showView("cases");openCase(cs);};
+  }else{
+    b.innerHTML=`<h4>When it goes wrong</h4><div class="lesions">${N.lesions.map(([t,d])=>`<div class="lesion"><b>${esc(t)}</b><span>${esc(d)}</span></div>`).join("")}</div>`;
+  }
+}
+
+/* ---------- tooltip ---------- */
+const tip=$("#tip");
+function showTip(e,html){
+  tip.innerHTML=html;tip.hidden=false;
+  const wr=$("#dwrap").getBoundingClientRect();let x=e.clientX-wr.left+14,y=e.clientY-wr.top+14;
+  const tw=tip.offsetWidth,th=tip.offsetHeight;
+  if(x+tw>wr.width-8)x=Math.max(8,e.clientX-wr.left-tw-14);
+  if(y+th>wr.height-8)y=Math.max(8,e.clientY-wr.top-th-14);
+  tip.style.left=x+"px";tip.style.top=y+"px";
+  $$(".chipn",tip).forEach(c=>c.onclick=ev=>{ev.stopPropagation();hideTip();selectNerve(+c.dataset.n);});
+}
+function hideTip(){tip.hidden=true;}
+function nodeTip(e,id){
+  const [, ,label,type]=NODES[id];
+  const ns=[...(NODE_NERVES[id]||[])].sort((a,b)=>a-b);
+  const kind={foramen:"Skull opening",gang:"Ganglion",nuc:"Nucleus",exit:"Brainstem exit",target:"Target",cortex:"Cortex",way2:"Landmark"}[type];
+  const info=INFO[id]||"";
+  showTip(e,`<b>${esc(label)}</b><p>${kind}${info?" · "+esc(info):""}</p>${ns.length?`<p>Nerves here:</p><div class="chips">${ns.map(n=>`<button class="chipn" style="--c:var(--n${n})" data-n="${n}">CN ${NERVES[n-1].rn}</button>`).join("")}</div>`:""}`);
+}
+
+/* ---------- pointer: pan, pinch, wheel ---------- */
+(function(){
+  const svg=D.svg,ptrs=new Map();let start=null,pinch=null;
+  svg.addEventListener("pointerdown",e=>{
+    ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY});T.dragged=false;
+    if(e.pointerType!=="mouse"&&!$("#dwrap").classList.contains("zoomed")&&ptrs.size<2){start=null;return;}
+    if(ptrs.size===1){start={x:e.clientX,y:e.clientY,vb:{...D.vb}};}
+    else if(ptrs.size===2){const [a,b]=[...ptrs.values()];pinch={d:Math.hypot(a.x-b.x,a.y-b.y),vb:{...D.vb},c:D.clientToSvg((a.x+b.x)/2,(a.y+b.y)/2)};start=null;}
+  });
+  svg.addEventListener("pointermove",e=>{
+    if(!ptrs.has(e.pointerId))return;ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY});
+    const r=svg.getBoundingClientRect();
+    if(pinch&&ptrs.size===2){const [a,b]=[...ptrs.values()];const d=Math.hypot(a.x-b.x,a.y-b.y);const f=d/pinch.d;const full=D.fullBox();const w2=clamp(pinch.vb.w/f,140,full.w);const asp=D.asp();
+      const fx=(pinch.c[0]-pinch.vb.x)/pinch.vb.w,fy=(pinch.c[1]-pinch.vb.y)/(pinch.vb.w*asp);D.anim=null;D.vb={x:pinch.c[0]-fx*w2,y:pinch.c[1]-fy*w2*asp,w:w2};D.apply();T.dragged=true;return;}
+    if(!start)return;
+    const dx=e.clientX-start.x,dy=e.clientY-start.y;
+    if(!T.dragged&&Math.hypot(dx,dy)<5)return;
+    if(!T.dragged){T.dragged=true;svg.classList.add("grabbing");try{svg.setPointerCapture(e.pointerId);}catch(_){}}
+    const u=start.vb.w/r.width;D.anim=null;D.vb={x:start.vb.x-dx*u,y:start.vb.y-dy*u,w:start.vb.w};D.apply();
+  });
+  const end=e=>{ptrs.delete(e.pointerId);if(ptrs.size<2)pinch=null;if(!ptrs.size){start=null;svg.classList.remove("grabbing");setTimeout(()=>{T.dragged=false;},0);}};
+  svg.addEventListener("pointerup",end);svg.addEventListener("pointercancel",end);
+  svg.addEventListener("wheel",e=>{if(!(e.ctrlKey||e.metaKey))return;e.preventDefault();const c=D.clientToSvg(e.clientX,e.clientY);D.zoomBy(e.deltaY<0?1.25:0.8,c[0],c[1]);},{passive:false});
+  svg.addEventListener("click",()=>{if(!T.dragged)hideTip();});
+  svg.addEventListener("dblclick",e=>{const c=D.clientToSvg(e.clientX,e.clientY);D.zoomBy(1.6,c[0],c[1]);});
+})();
+
+/* ---------- controls ---------- */
+$("#bPlay").onclick=()=>{if(T.playing)setPlaying(false);else play();};
+$("#bNext").onclick=()=>{setPlaying(false);setStage(T.i+1);};
+$("#bPrev").onclick=()=>{setPlaying(false);setStage(T.i-1);};
+$("#bWhole").onclick=showWhole;
+$("#speed").onchange=e=>{T.speed=+e.target.value;};
+$("#zIn").onclick=()=>D.zoomBy(1.4);
+$("#zOut").onclick=()=>D.zoomBy(1/1.4);
+$("#zFit").onclick=()=>D.animateTo(D.fullBox(),500);
+function tog(id,key,fn){const b=$(id);b.onclick=()=>{T[key]=!T[key];b.setAttribute("aria-pressed",String(T[key]));fn&&fn();};}
+tog("#tgFollow","follow",()=>{if(T.follow)D.animateTo(D.fitPts(stagePts(T.i),90,440));});
+tog("#tgAll","showAll",()=>D.gAll.classList.toggle("off",!T.showAll));
+tog("#tgLabels","labelsAll",()=>setStage(T.i,{animate:false,camera:false}));
+document.addEventListener("keydown",e=>{
+  if(viewTrace.hidden||e.target.closest("select,input,textarea"))return;
+  if(e.key==="ArrowRight"){e.preventDefault();setPlaying(false);setStage(T.i+1);}
+  else if(e.key==="ArrowLeft"){e.preventDefault();setPlaying(false);setStage(T.i-1);}
+  else if(e.key===" "&&!e.target.closest("button")){e.preventDefault();$("#bPlay").click();}
+  else if(e.key==="Escape")hideTip();
+});
+new ResizeObserver(()=>{const c=D.vb;D.apply();if(!D.anim&&c.w>=D.fullBox().w*0.97){D.vb=D.fullBox();D.apply();}}).observe($("#dwrap"));
+
+/* ---------- bedside cases ---------- */
+const TESTS=[
+ {id:"smell",g:"I",name:"Smell, each nostril",normal:"Identifies coffee and peppermint correctly through each nostril."},
+ {id:"acuity",g:"II",name:"Visual acuity",normal:"6/6 in each eye."},
+ {id:"fields",g:"II",name:"Visual fields",normal:"Full to confrontation in all four quadrants, each eye."},
+ {id:"fundi",g:"II",name:"Fundoscopy",normal:"Sharp disc margins, healthy pink discs, no haemorrhages."},
+ {id:"pupils",g:"II · III",name:"Pupils & light reflex",normal:"Pupils equal, 3 mm, brisk direct and consensual responses. No RAPD."},
+ {id:"lids",g:"III",name:"Inspect the eyelids",normal:"No ptosis. Lids symmetrical."},
+ {id:"eom",g:"III · IV · VI",name:"Eye movements",normal:"Full range in the H pattern. No double vision, no nystagmus."},
+ {id:"fsens",g:"V",name:"Facial sensation V1–V3",normal:"Light touch and pinprick normal and symmetrical in all three divisions."},
+ {id:"corneal",g:"V · VII",name:"Corneal reflex",normal:"Touching either cornea makes both eyes blink briskly."},
+ {id:"jaw",g:"V",name:"Jaw: clench & open",normal:"Masseters bulk equally. The jaw opens in the midline. Jaw jerk normal."},
+ {id:"face",g:"VII",name:"Facial movements",normal:"Raises eyebrows, screws eyes shut, puffs cheeks and smiles symmetrically."},
+ {id:"taste",g:"VII · IX",name:"Taste",normal:"Identifies sweet and salt on both sides of the tongue."},
+ {id:"hearing",g:"VIII",name:"Whisper, Rinne & Weber",normal:"Hears a whisper in each ear. Rinne: air louder than bone in both ears. Weber: heard in the middle."},
+ {id:"balance",g:"VIII",name:"Nystagmus & balance",normal:"No nystagmus. Head impulse test normal. Romberg negative."},
+ {id:"palate",g:"IX · X",name:"Say “aah” & gag",normal:"Palate rises evenly, uvula stays central. Gag present on both sides."},
+ {id:"voice",g:"X",name:"Voice, cough & swallow",normal:"Clear voice, strong explosive cough, swallows water without spluttering."},
+ {id:"shrug",g:"XI",name:"Shrug & turn head",normal:"Strong shrug and head turn against resistance on both sides."},
+ {id:"tongue",g:"XII",name:"Tongue at rest & out",normal:"No wasting or twitching. Protrudes in the midline and moves quickly."}
+];
+const CASES=[
+ {t:"Wonky smile at breakfast",who:"34 · teacher",n:7,
+  v:"Woke this morning with her right eye watering and tea dribbling from the right corner of her mouth. Had a cold last week. Says loud sounds “hurt” her right ear. No limb weakness.",
+  f:{face:"Cannot raise the right eyebrow. Cannot fully close the right eye: the eyeball rolls up when she tries. Right nasolabial fold flat; smile pulls to the left.",
+     corneal:"Touch right cornea: only the LEFT eye blinks (she feels it normally). Touch left cornea: left blinks, right does not.",
+     taste:"Cannot taste sugar on the right front of the tongue.",
+     hearing:"Hears a whisper in each ear, but sounds feel uncomfortably loud on the right. Rinne: air louder than bone both sides. Weber: central."},
+  key:["face","corneal","taste","hearing"],
+  q:"Where is the lesion?",opts:["Right facial nerve, lower motor neuron, inside the facial canal","Left motor cortex (upper motor neuron)","Right trigeminal nerve","Right cerebellopontine angle tumour"],a:0,
+  exp:"The whole right half of the face is weak, forehead included, so this is a lower motor neuron lesion. Hyperacusis (stapedius) and taste loss (chorda tympani) put it inside the facial canal, above those two branches. Corneal sensation is normal (V intact) but the blink on the right fails (VII). Diagnosis: Bell’s palsy. Prednisolone within 72 hours and protect the eye with tape and lubricant at night."},
+ {t:"Worst headache, drooping lid",who:"52 · accountant",n:3,
+  v:"Sudden severe headache an hour ago, “the worst of my life”. Now his left eyelid has dropped and when he lifts it he sees double.",
+  f:{lids:"Complete ptosis of the left upper lid.",
+     pupils:"Left pupil 7 mm and does not react to light, directly or consensually. Right pupil 3 mm and brisk.",
+     eom:"With the left lid lifted, the eye rests down and out. It cannot move in, up or down. Moving out is normal, and it intorts when he looks down (IV working)."},
+  key:["lids","pupils","eom"],
+  q:"What is the most likely cause?",opts:["Left posterior communicating artery aneurysm compressing CN III","Diabetic microvascular CN III palsy","Left Horner syndrome","Left CN VI palsy"],a:0,
+  exp:"Ptosis, a down-and-out eye and a FIXED DILATED pupil is a complete third nerve palsy. The pupil fibres run on the outside of the nerve, so compression hits them early. A thunderclap headache makes a PCom aneurysm (often with subarachnoid haemorrhage) the diagnosis to exclude now: urgent CT and CT angiogram. Diabetes would usually spare the pupil, and Horner gives a SMALL pupil with mild ptosis."},
+ {t:"Morning headaches, double vision",who:"28 · barista",n:6,
+  v:"Three weeks of headaches that are worse in the morning and when she coughs. Now sees two images side by side, worse looking to the left. Has gained weight recently.",
+  f:{fundi:"Both optic discs are swollen with blurred margins: bilateral papilloedema.",
+     eom:"The left eye will not move outward past the midline. Double vision is horizontal and worst looking left. The left eye turns in slightly at rest.",
+     fields:"Blind spots enlarged on both sides; otherwise full.",acuity:"6/9 in each eye."},
+  key:["fundi","eom"],
+  q:"Which nerve is affected, and why?",opts:["Left abducens: stretched over the petrous apex by raised intracranial pressure","Left oculomotor: compressed by an aneurysm","Left trochlear: head injury","Right medial longitudinal fasciculus (internuclear ophthalmoplegia)"],a:0,
+  exp:"Failure of abduction of the left eye is a left CN VI palsy. With papilloedema and morning headaches, raised intracranial pressure is the cause. CN VI has a long course up the clivus and over the petrous apex, where it gets stretched. That makes it a false localising sign: it does not tell you where the problem is. This picture (young, raised BMI) suggests idiopathic intracranial hypertension. She needs imaging, then a lumbar puncture with opening pressure."},
+ {t:"Hoarse after neck surgery",who:"46 · day 1 post-op",n:10,
+  v:"First day after a total thyroidectomy. His voice is hoarse and breathy and he cannot cough properly.",
+  f:{voice:"Hoarse, breathy voice. The cough lacks an explosive start (“bovine cough”). Laryngoscopy: the left vocal fold does not move.",
+     palate:"Palate rises evenly; uvula central. Gag present on both sides."},
+  key:["voice","palate"],
+  q:"Which nerve has been injured?",opts:["Left recurrent laryngeal nerve","Left external laryngeal nerve","Left vagus at the jugular foramen","Left glossopharyngeal nerve"],a:0,
+  exp:"A paralysed vocal fold with a normal palate means the injury is BELOW the pharyngeal branch of the vagus, so it is not a high vagal lesion. The recurrent laryngeal nerve runs up in the groove between the trachea and oesophagus, right beside the inferior thyroid artery, and supplies every laryngeal muscle except cricothyroid. External laryngeal nerve injury causes loss of high notes and voice fatigue, not a paralysed fold."},
+ {t:"Ringing ear, slowly going deaf",who:"61 · retired engineer",n:8,
+  v:"Two years of gradually worsening hearing in his right ear with constant ringing. Recently a little unsteady. No ear pain or discharge.",
+  f:{hearing:"Cannot hear a whisper in the right ear. Rinne: air louder than bone in BOTH ears. Weber: heard in the LEFT ear.",
+     corneal:"Touch right cornea: weak blink in both eyes, and he says it feels less. Left cornea: brisk blink in both eyes.",
+     fsens:"Slightly reduced light touch over the right forehead (V1).",
+     balance:"Unsteady when walking heel to toe. Fine nystagmus looking to the right."},
+  key:["hearing","corneal"],
+  q:"Where is the lesion?",opts:["Right cerebellopontine angle (vestibular schwannoma)","Right middle ear (otosclerosis)","Left cerebellopontine angle","Right temporal lobe"],a:0,
+  exp:"Rinne air louder than bone plus Weber going to the GOOD (left) ear means right sensorineural loss, not conductive. Add a reduced corneal reflex from the right side (V) and the lesion is at the right cerebellopontine angle, where V, VII and VIII lie close together. A vestibular schwannoma is the classic cause. Next step: MRI of the internal acoustic meati. Bilateral tumours suggest NF2."},
+ {t:"Can’t brush her hair",who:"39 · nurse",n:11,
+  v:"Two weeks after a lymph node was removed from the left side of her neck, behind the big neck muscle. She cannot lift her left arm above her head and the shoulder aches.",
+  f:{shrug:"Weak shrug on the left; the left shoulder droops. Turning the head to the right against resistance is strong (left SCM normal)."},
+  key:["shrug"],
+  q:"Where is the nerve injured?",opts:["Left accessory nerve in the posterior triangle of the neck","Left long thoracic nerve","Left accessory nerve at the jugular foramen","Left C5 nerve root"],a:0,
+  exp:"Trapezius is weak but SCM is spared, so the injury is past the branch to SCM, in the posterior triangle, where the nerve lies just under the skin. This is a classic complication of lymph node biopsy. A jugular foramen lesion would weaken SCM too and usually involves IX and X. The long thoracic nerve affects serratus anterior and does not weaken the shrug."},
+ {t:"Slurred speech for months",who:"68 · farmer",n:12,
+  v:"Six months of slurred speech and trouble moving food around his mouth. No pain.",
+  f:{tongue:"Right half of the tongue is wasted and twitching (fasciculations). When he sticks it out, it points to the RIGHT.",
+     palate:"Palate rises evenly; uvula central."},
+  key:["tongue"],
+  q:"Where is the lesion?",opts:["Right hypoglossal nerve (lower motor neuron)","Left hypoglossal nerve","Left motor cortex (upper motor neuron)","Right vagus nerve"],a:0,
+  exp:"Wasting and fasciculation mean a lower motor neuron lesion. The healthy left genioglossus pushes the tongue over to the weak right side: the tongue licks the lesion. Causes include motor neurone disease, a skull base tumour and carotid artery dissection. An upper motor neuron lesion would not cause wasting."},
+ {t:"Bumping into door frames",who:"45 · shop owner",n:2,
+  v:"Keeps bumping into door frames on both sides. Headaches for months. Has noticed a milky discharge from her nipples.",
+  f:{fields:"The outer (temporal) half of the visual field is missing in BOTH eyes, worse in the upper quadrants.",
+     acuity:"6/9 in each eye.",
+     pupils:"Equal and reactive. No RAPD."},
+  key:["fields"],
+  q:"Where is the lesion?",opts:["Optic chiasm","Both optic nerves","Right optic tract","Both occipital lobes"],a:0,
+  exp:"Bitemporal hemianopia means the crossing nasal fibres are damaged, which happens only at the chiasm. A pituitary tumour pushing up from below hits the lower crossing fibres first, so the UPPER temporal fields go first. Milky discharge points to a prolactinoma. Check prolactin and get an MRI of the pituitary."},
+ {t:"Double vision going downstairs",who:"24 · cyclist",n:4,
+  v:"Came off his bike and hit his head a week ago. Since then he sees two images, one above the other, especially reading or going downstairs. He holds his head tilted to the left.",
+  f:{eom:"The right eye sits higher than the left. Vertical double vision is worst looking down and to the LEFT (right eye turned in). It improves with his head tilted left and worsens tilted right."},
+  key:["eom"],
+  q:"Which nerve is affected?",opts:["Right trochlear nerve","Left trochlear nerve","Right oculomotor, inferior division","Right abducens nerve"],a:0,
+  exp:"Superior oblique depresses the eye when it is turned in. A right superior oblique palsy gives a higher right eye, worst looking down and left, and the patient tilts the head away (to the left). CN IV is thin with a long course inside the skull, so head injury is the commonest cause."},
+ {t:"Choking and a weak shoulder",who:"58 · bus driver",n:9,
+  v:"Hoarse voice and choking on drinks for two months. Also struggles to lift his right shoulder. A scan has shown a mass at the base of the skull.",
+  f:{palate:"On “aah” the uvula is pulled to the LEFT. Touching the right side of the throat gives no gag; the left side gives a normal gag.",
+     voice:"Hoarse, slightly nasal voice. Coughs after sips of water.",
+     taste:"Reduced taste on the right back of the tongue.",
+     shrug:"Weak shrug on the right. Weak head turn to the LEFT (right SCM).",
+     tongue:"Normal; protrudes in the midline."},
+  key:["palate","voice","shrug","tongue"],
+  q:"Where is the lesion?",opts:["Right jugular foramen (IX, X and XI)","Right hypoglossal canal","Right lateral medulla (Wallenberg syndrome)","Foramen magnum"],a:0,
+  exp:"IX (lost gag sensation, taste on the back of the tongue), X (palate pulled away to the left, hoarseness) and XI (weak SCM and trapezius) together, with XII spared, point to the jugular foramen: Vernet syndrome. Causes include glomus jugulare tumour and metastasis. A lateral medullary stroke would add vertigo, Horner syndrome and crossed loss of pain sensation, and would not weaken the shoulder."},
+ {t:"Numb chin after a fracture",who:"31 · builder",n:5,
+  v:"A fall from scaffolding fractured the base of his skull. Now his left lower lip and chin are numb and his jaw tires when chewing.",
+  f:{fsens:"Reduced pinprick and touch over the left lower lip, chin and in front of the left ear (V3). Forehead and cheek normal.",
+     jaw:"Left masseter and temporalis feel weak. On opening, the jaw deviates to the LEFT.",
+     corneal:"Normal on both sides."},
+  key:["fsens","jaw","corneal"],
+  q:"Where is the lesion?",opts:["Left mandibular nerve (V3) at the foramen ovale","Left trigeminal ganglion","Left facial nerve","Right mandibular nerve"],a:0,
+  exp:"Only the V3 area is numb, V1 and V2 (and the corneal reflex) are spared, and the chewing muscles are weak. That localises to V3 alone, as it passes through the foramen ovale. The jaw deviates TOWARD the weak side because the healthy right lateral pterygoid pushes it across. A ganglion lesion would affect all three divisions."},
+ {t:"Food tastes of nothing",who:"42 · chef",n:1,
+  v:"Fell forward onto his face a month ago. Clear fluid sometimes drips from his nose when he leans forward. Now food tastes of nothing, which is a disaster at work.",
+  f:{smell:"Cannot identify coffee or peppermint through either nostril.",
+     taste:"Identifies sweet, salty, sour and bitter normally, but cannot recognise flavours."},
+  key:["smell","taste"],
+  q:"What has been damaged?",opts:["Olfactory fila at the cribriform plate","Chorda tympani","Glossopharyngeal nerve","Primary olfactory cortex"],a:0,
+  exp:"Basic tastes (sweet, salt, sour, bitter) are intact, so the taste nerves are fine. What he has lost is flavour, which is mostly smell. A facial injury with clear nasal fluid suggests a cribriform plate fracture with a CSF leak, shearing the olfactory fila. Test the fluid for β2-transferrin; a CSF leak risks meningitis."}
+];
+const C={i:0,done:[],ans:null};
+function renderCaseList(){
+  const l=$("#clist");l.innerHTML="";const solved=store.get("cases",{});
+  CASES.forEach((c,i)=>{const N=NERVES[c.n-1];const b=hx("button","citem"+(i===C.i?" on":""));const s=solved[i];
+    b.innerHTML=`<span class="ci">${String(i+1).padStart(2,"0")}</span><span class="ct">${esc(c.t)}<small>${esc(c.who)}</small></span>${s?`<span class="cs ${s==="ok"?"ok":"no"}">${s==="ok"?"✓":"✗"}</span>`:""}`;
+    b.onclick=()=>openCase(i);l.appendChild(b);});
+}
+function openCase(i){C.i=i;C.done=[];C.ans=null;renderCaseList();renderCase();}
+function renderCase(){
+  const c=CASES[C.i],m=$("#cmain");
+  m.innerHTML=`<div class="chead"><span class="eyebrow">Case ${C.i+1} of ${CASES.length}</span><h2>${esc(c.t)}</h2></div>
+   <div class="patient"><div class="av">Pt</div><div><small>${esc(c.who)}</small><p>${esc(c.v)}</p></div></div>
+   <div><h3 class="sec-h"><span>Examine the cranial nerves</span><span id="tcount">${C.done.length} of ${TESTS.length} done</span></h3><div class="tests" id="tests"></div></div>
+   <div><h3 class="sec-h"><span>Findings</span></h3><ol class="findings" id="finds"></ol></div>
+   <div><h3 class="sec-h"><span>${esc(c.q)}</span>${C.ans==null&&C.done.length<2?"<span>Examine at least 2 things first</span>":""}</h3><div class="opts" id="copts"></div><div id="cfb"></div></div>`;
+  const tw=$("#tests");
+  TESTS.forEach(t=>{const done=C.done.includes(t.id),abn=!!c.f[t.id];const b=hx("button","tbtn"+(done?" done":"")+(done&&abn?" abn":""));
+    b.innerHTML=`<small>CN ${t.g}</small><span>${esc(t.name)}</span>`;b.disabled=done;
+    b.onclick=()=>{C.done.push(t.id);renderCase();const f=$("#finds");if(f.lastElementChild)f.lastElementChild.scrollIntoView({block:"nearest",behavior:REDUCE?"auto":"smooth"});};tw.appendChild(b);});
+  const fl=$("#finds");
+  if(!C.done.length)fl.innerHTML=`<li class="empty">Choose an examination above. Results appear here in the order you test, the way you would write them in the notes.</li>`;
+  C.done.forEach(id=>{const t=TESTS.find(x=>x.id===id);const abn=!!c.f[id];const li=hx("li","finding"+(abn?" abn":""));
+    li.innerHTML=`<span class="tag">${abn?"Abnormal":"Normal"}</span><b>${esc(t.name)} <span style="color:var(--muted);font-weight:500">· CN ${t.g}</span></b><p>${esc(abn?c.f[id]:t.normal)}</p>`;fl.appendChild(li);});
+  const order=c.order||(c.order=shuffle(c.opts.map((_,k)=>k)));
+  const ow=$("#copts");
+  order.forEach((k,pos)=>{const b=hx("button","opt");b.innerHTML=`<span class="k">${"ABCD"[pos]}</span><span>${esc(c.opts[k])}</span>`;
+    if(C.ans!=null){b.disabled=true;if(k===c.a)b.classList.add("right");else if(k===C.ans)b.classList.add("wrong");}
+    else if(C.done.length<2)b.disabled=true;
+    b.onclick=()=>{C.ans=k;const s=store.get("cases",{});s[C.i]=k===c.a?"ok":"no";store.set("cases",s);renderCaseList();renderStats();renderCase();$("#cfb").scrollIntoView({block:"nearest",behavior:REDUCE?"auto":"smooth"});};ow.appendChild(b);});
+  if(C.ans!=null){
+    const ok=C.ans===c.a,N=NERVES[c.n-1];const missed=c.key.filter(k=>!C.done.includes(k)).map(k=>TESTS.find(t=>t.id===k).name);
+    const fb=hx("div","fb "+(ok?"ok":"no"));
+    fb.innerHTML=`<h4>${ok?"Correct diagnosis":"Not quite"}</h4><p>${esc(c.exp)}</p>${missed.length?`<p class="missed">Key tests you skipped: ${missed.map(esc).join(", ")}. Try them to see the findings.</p>`:`<p class="missed">You performed every key test for this case.</p>`}
+     <div class="row"><button class="pbtn" id="cTrace" style="--cur:var(--n${c.n})">Trace CN ${N.rn} (${N.name})</button>${C.i<CASES.length-1?'<button class="pbtn primary" id="cNext">Next case →</button>':""}</div>`;
+    $("#cfb").appendChild(fb);
+    $("#cTrace").onclick=()=>{showView("trace");selectNerve(c.n);};
+    const nx=$("#cNext");if(nx)nx.onclick=()=>{openCase(C.i+1);$("#cmain").scrollIntoView({block:"start",behavior:REDUCE?"auto":"smooth"});};
+  }
+}
+
+/* ---------- quiz ---------- */
+const BANK=[
+ {q:"A stroke patient has weakness of the lower left face, but can wrinkle the forehead on both sides. Where is the lesion?",o:["Right motor cortex or corticobulbar tract (UMN)","Left facial nerve (LMN)","Left facial motor nucleus","Right facial nerve"],a:0,n:7,e:"The forehead is spared because its part of the facial nucleus receives input from both hemispheres. Lower-face-only weakness = upper motor neuron lesion in the opposite hemisphere."},
+ {q:"On saying “aah”, the uvula moves to the right. Which nerve is damaged?",o:["Left vagus","Right vagus","Left glossopharyngeal","Right hypoglossal"],a:0,n:10,e:"The healthy right levator veli palatini pulls the uvula toward itself, away from the weak left side."},
+ {q:"The tongue protrudes to the left, and the left half is wasted with fasciculations. Lesion?",o:["Left hypoglossal nerve","Right hypoglossal nerve","Right motor cortex","Left vagus"],a:0,n:12,e:"LMN signs on the left, and the healthy right genioglossus pushes the tongue to the weak side. The tongue “licks the lesion”."},
+ {q:"Which laryngeal muscle is NOT supplied by the recurrent laryngeal nerve?",o:["Cricothyroid","Posterior cricoarytenoid","Lateral cricoarytenoid","Thyroarytenoid"],a:0,n:10,e:"Cricothyroid is supplied by the external branch of the superior laryngeal nerve. All other intrinsic laryngeal muscles are supplied by the recurrent laryngeal nerve."},
+ {q:"A patient with diabetes has a sudden CN III palsy: ptosis, eye down and out, but the pupil reacts normally. Why is the pupil spared?",o:["Ischaemia damages the core of the nerve; pupil fibres run on its surface","The pupil is supplied by CN IV","The Edinger–Westphal nucleus has a separate blood supply","Diabetes protects parasympathetic fibres"],a:0,n:3,e:"Microvascular infarction hits the centre of the nerve. The parasympathetic pupil fibres lie on the outside and survive. Compression does the opposite."},
+ {q:"Which visual field defect does a pituitary adenoma classically cause?",o:["Bitemporal hemianopia","Left homonymous hemianopia","Central scotoma","Binasal hemianopia"],a:0,n:2,e:"It compresses the chiasm from below, damaging the crossing nasal fibres that see the temporal fields. Upper quadrants go first."},
+ {q:"A temporal lobe tumour on the left causes which defect?",o:["Right superior quadrantanopia (“pie in the sky”)","Right inferior quadrantanopia","Bitemporal hemianopia","Left superior quadrantanopia"],a:0,n:2,e:"Meyer’s loop of the optic radiation runs through the temporal lobe and carries the upper part of the opposite visual field."},
+ {q:"Light shone in the left eye: neither pupil constricts. Light in the right eye: both constrict. Where is the lesion?",o:["Left optic nerve","Left oculomotor nerve","Right optic nerve","Right oculomotor nerve"],a:0,n:2,e:"Both pupils respond when the right eye is lit, so both CN III motor limbs work. The left eye cannot sense the light: a left afferent (optic nerve) defect."},
+ {q:"Rinne: bone conduction louder than air on the RIGHT. Weber: lateralises to the RIGHT. What is the hearing loss?",o:["Right conductive loss","Right sensorineural loss","Left sensorineural loss","Left conductive loss"],a:0,n:8,e:"Negative Rinne (BC > AC) means conductive loss in that ear, and Weber goes to the ear with conductive loss."},
+ {q:"Rinne positive in both ears. Weber lateralises to the LEFT. What is the hearing loss?",o:["Right sensorineural loss","Left sensorineural loss","Left conductive loss","Right conductive loss"],a:0,n:8,e:"Positive Rinne in both ears rules out conductive loss. In sensorineural loss, Weber goes to the better ear, so the right ear is the damaged one."},
+ {q:"In the corneal reflex, which nerves form the sensory and motor limbs?",o:["Sensory V1, motor VII","Sensory II, motor III","Sensory V2, motor V3","Sensory VII, motor V1"],a:0,n:5,e:"The nasociliary branch of V1 senses the touch; the facial nerve closes both eyes via orbicularis oculi."},
+ {q:"In the gag reflex, which nerves form the sensory and motor limbs?",o:["Sensory IX, motor X","Sensory X, motor IX","Sensory V3, motor X","Sensory IX, motor XII"],a:0,n:9,e:"IX feels the touch on the back of the throat; X contracts the palate and pharynx."},
+ {q:"Taste from the back third of the tongue is carried by:",o:["Glossopharyngeal nerve","Chorda tympani (VII)","Lingual nerve (V3)","Vagus nerve"],a:0,n:9,e:"IX carries both taste and general sensation from the posterior third. Front ⅔: taste by chorda tympani (VII), touch by lingual (V3)."},
+ {q:"Taste fibres from the front ⅔ of the tongue first travel in which nerve?",o:["Lingual nerve, then chorda tympani","Glossopharyngeal nerve","Hypoglossal nerve","Greater petrosal nerve"],a:0,n:7,e:"They run with the lingual nerve (V3), then leave it as the chorda tympani, cross the middle ear and join the facial nerve. Cell bodies are in the geniculate ganglion."},
+ {q:"The parotid gland gets its secretomotor (parasympathetic) supply from:",o:["Glossopharyngeal, via the otic ganglion","Facial, via the parotid plexus","Facial, via the submandibular ganglion","Vagus, via the pharyngeal plexus"],a:0,n:9,e:"IX → tympanic nerve → lesser petrosal → otic ganglion → auriculotemporal nerve (V3) → parotid. VII passes through the gland but does not supply it."},
+ {q:"Which nerve carries the secretomotor supply to the lacrimal gland?",o:["Facial, via greater petrosal and pterygopalatine ganglion","Oculomotor, via the ciliary ganglion","Trigeminal V1, lacrimal nerve, from its own nucleus","Glossopharyngeal, via the otic ganglion"],a:0,n:7,e:"The fibres start in the superior salivatory nucleus (VII) and synapse in the pterygopalatine ganglion. The final stretch hitches a ride on branches of V2 and V1."},
+ {q:"Which is the only cranial nerve to leave the back of the brainstem?",o:["Trochlear (IV)","Abducens (VI)","Oculomotor (III)","Accessory (XI)"],a:0,n:4,e:"CN IV exits the dorsal midbrain below the inferior colliculus, and all its fibres cross."},
+ {q:"A palsy of which nerve is a classic “false localising sign” of raised intracranial pressure?",o:["Abducens (VI)","Trochlear (IV)","Facial (VII)","Hypoglossal (XII)"],a:0,n:6,e:"CN VI is stretched over the petrous apex when raised pressure pushes the brainstem down, so its palsy does not point to the site of the problem."},
+ {q:"Which nerve runs THROUGH the cavernous sinus rather than in its wall?",o:["Abducens (VI)","Oculomotor (III)","Trochlear (IV)","Maxillary (V2)"],a:0,n:6,e:"VI runs through the sinus next to the internal carotid artery, so it is often the first affected by cavernous sinus disease."},
+ {q:"When a patient opens the mouth, the jaw deviates to the right. Which nerve is weak?",o:["Right mandibular nerve (V3)","Left mandibular nerve (V3)","Right facial nerve","Right hypoglossal nerve"],a:0,n:5,e:"The healthy left lateral pterygoid pushes the jaw across toward the weak right side."},
+ {q:"Turning the head to the LEFT against resistance mainly tests which muscle?",o:["Right sternocleidomastoid","Left sternocleidomastoid","Left trapezius","Right trapezius"],a:0,n:11,e:"Each SCM turns the face to the opposite side."},
+ {q:"Shingles vesicles on the tip of the nose (Hutchinson sign) predict involvement of the eye. Which branch is responsible?",o:["Nasociliary nerve (V1)","Infraorbital nerve (V2)","Zygomatic branch of VII","Frontal nerve (V1)"],a:0,n:5,e:"The nasociliary nerve supplies both the tip of the nose and the cornea."},
+ {q:"Which structures pass through the jugular foramen?",o:["IX, X, XI and the internal jugular vein","VII, VIII and the labyrinthine artery","X, XI, XII and the vertebral artery","IX, X and the internal carotid artery"],a:0,n:10,e:"IX, X, XI, the internal jugular vein and the inferior petrosal sinus."},
+ {q:"Besides hearing loss, which early sign suggests an acoustic neuroma?",o:["Reduced corneal reflex","Tongue deviation","Bitemporal hemianopia","Ptosis"],a:0,n:8,e:"The tumour at the cerebellopontine angle presses on the trigeminal root early, before obvious facial weakness."},
+ {q:"In lateral medullary (Wallenberg) syndrome, which nucleus causes hoarseness and dysphagia?",o:["Nucleus ambiguus","Hypoglossal nucleus","Dorsal motor nucleus of vagus","Facial motor nucleus"],a:0,n:10,e:"The nucleus ambiguus drives the pharyngeal and laryngeal muscles via IX and X."},
+ {q:"Which palate muscle is NOT supplied by the vagus?",o:["Tensor veli palatini","Levator veli palatini","Palatopharyngeus","Musculus uvulae"],a:0,n:5,e:"Tensor veli palatini is supplied by V3, like the other first-arch muscles."},
+ {q:"Which tongue muscle is NOT supplied by the hypoglossal nerve?",o:["Palatoglossus","Genioglossus","Styloglossus","Hyoglossus"],a:0,n:10,e:"Palatoglossus is supplied by the vagus via the pharyngeal plexus."},
+ {q:"The only muscle supplied by the glossopharyngeal nerve is:",o:["Stylopharyngeus","Stylohyoid","Styloglossus","Palatopharyngeus"],a:0,n:9,e:"Stylopharyngeus is the third pharyngeal arch muscle. Stylohyoid is VII, styloglossus XII, palatopharyngeus X."},
+ {q:"Facial palsy with painful vesicles in the ear canal suggests:",o:["Ramsay Hunt syndrome (VZV in the geniculate ganglion)","Bell’s palsy","Acoustic neuroma","Parotid tumour"],a:0,n:7,e:"Varicella zoster reactivation in the geniculate ganglion; often hearing loss and vertigo too. Treat with antivirals and steroids."},
+ {q:"A patient has a right CN III palsy and LEFT-sided hemiplegia. Where is the lesion?",o:["Right midbrain (Weber syndrome)","Left pons","Right medulla","Left internal capsule"],a:0,n:3,e:"The right cerebral peduncle holds both the exiting CN III fibres and the corticospinal tract, which crosses lower down to the left body."},
+ {q:"After a punch to the face, a patient loses their sense of smell and has clear nasal discharge. What is damaged?",o:["Cribriform plate and olfactory fila","Optic canal","Foramen rotundum","Superior orbital fissure"],a:0,n:1,e:"A cribriform plate fracture shears the olfactory fila and tears the dura, allowing CSF to leak into the nose."},
+ {q:"Which cranial nerve has cell bodies in the spinal cord?",o:["Accessory (XI)","Hypoglossal (XII)","Vagus (X)","Glossopharyngeal (IX)"],a:0,n:11,e:"The spinal accessory nucleus sits in the anterior horn of C1–C5."},
+ {q:"Carotid sinus massage slows the heart. Which nerves form the sensory and motor limbs of this reflex?",o:["Sensory IX, motor X","Sensory X, motor IX","Sensory IX, motor IX","Sensory V, motor X"],a:0,n:9,e:"The carotid sinus nerve (IX) reports stretch; the vagus (X) slows the SA node."},
+ {q:"A patient cannot close the right eye and is drooling from the right side. They also have reduced tear production on the right. Where is the lesion at its lowest?",o:["At or above the geniculate ganglion","Below the chorda tympani","At the stylomastoid foramen","In the parotid gland"],a:0,n:7,e:"The greater petrosal nerve (tears) leaves at the geniculate ganglion. Losing tears means the lesion is at or proximal to that point."}
+];
+const FORAMEN_Q=[["olfactory fila (I)","Cribriform plate",1,[]],["the optic nerve (II)","Optic canal",2,[]],["the oculomotor nerve (III)","Superior orbital fissure",3,[]],["the trochlear nerve (IV)","Superior orbital fissure",4,[]],["the ophthalmic nerve (V1)","Superior orbital fissure",5,[]],["the maxillary nerve (V2)","Foramen rotundum",5,[]],["the mandibular nerve (V3)","Foramen ovale",5,[]],["the abducens nerve (VI)","Superior orbital fissure",6,[]],["the facial nerve (VII) as it leaves the skull for the face","Stylomastoid foramen",7,["Internal acoustic meatus"]],["the vestibulocochlear nerve (VIII)","Internal acoustic meatus",8,[]],["the glossopharyngeal nerve (IX)","Jugular foramen",9,[]],["the vagus nerve (X)","Jugular foramen",10,[]],["the accessory nerve (XI) as it leaves the skull","Jugular foramen",11,["Foramen magnum"]],["the hypoglossal nerve (XII)","Hypoglossal canal",12,[]]];
+const OPENINGS={"Cribriform plate":"crib","Optic canal":"optc","Superior orbital fissure":"sof","Foramen rotundum":"rot","Foramen ovale":"ova","Internal acoustic meatus":"iam","Stylomastoid foramen":"smf","Jugular foramen":"jug","Hypoglossal canal":"hyc","Foramen magnum":"fmag","Foramen spinosum":null,"Inferior orbital fissure":null};
+const MUSCLES=[["Lateral rectus",6,"Abducts the eye. “LR6”."],["Superior oblique",4,"Depresses the adducted eye and intorts it. “SO4”."],["Levator palpebrae superioris",3,"Superior division of III: a complete CN III palsy gives complete ptosis."],["Inferior oblique",3,"Inferior division of III; elevates the adducted eye."],["Masseter",5,"A muscle of mastication: V3."],["Tensor tympani",5,"First-arch muscle, so V3."],["Tensor veli palatini",5,"The only palate muscle not supplied by X."],["Anterior belly of digastric",5,"V3 via the nerve to mylohyoid (first arch). The posterior belly is VII."],["Buccinator",7,"A muscle of facial expression (buccal branch of VII). The skin over it is V3’s buccal nerve, a common trap."],["Stapedius",7,"Damps the stapes; paralysis causes hyperacusis."],["Posterior belly of digastric",7,"Branch given just after the stylomastoid foramen (second arch)."],["Platysma",7,"Cervical branch of VII."],["Stylopharyngeus",9,"The only muscle supplied by IX."],["Cricothyroid",10,"External laryngeal branch of X, not the recurrent laryngeal."],["Posterior cricoarytenoid",10,"Recurrent laryngeal nerve: the only muscle that opens the vocal folds."],["Palatoglossus",10,"The one tongue muscle not supplied by XII."],["Levator veli palatini",10,"Pharyngeal plexus; lifts the palate when you say “aah”."],["Genioglossus",12,"Protrudes the tongue; if weak, the tongue points toward the weak side."],["Styloglossus",12,"Extrinsic tongue muscle: XII."],["Sternocleidomastoid",11,"Turns the head to the opposite side."],["Trapezius",11,"Shrugs the shoulder and rotates the scapula."]];
+const NUCQ=[[3,"Midbrain"],[4,"Midbrain"],[5,"Pons"],[6,"Pons"],[7,"Pons"],[9,"Medulla"],[10,"Medulla"],[12,"Medulla"],[11,"Upper cervical spinal cord"]];
+const GLANDQ=[["lacrimal gland",7,"VII → greater petrosal → pterygopalatine ganglion → lacrimal gland."],["parotid gland",9,"IX → lesser petrosal → otic ganglion → auriculotemporal (V3) → parotid."],["submandibular gland",7,"VII → chorda tympani → submandibular ganglion."],["sphincter pupillae",3,"Edinger–Westphal → III → ciliary ganglion → short ciliary nerves."],["SA node of the heart",10,"Cardiac branches of X slow the heart."]];
+const nlab=n=>`CN ${NERVES[n-1].rn} · ${NERVES[n-1].name}`;
+function mcq(q,correct,distract,e,n,tag){const opts=shuffle([correct,...distract]);return {type:"mcq",q,opts,a:opts.indexOf(correct),e,n,tag};}
+function genForamen(){const [s,a,n,ex]=pick(FORAMEN_Q);const pool=Object.keys(OPENINGS).filter(o=>o!==a&&!ex.includes(o));const id=OPENINGS[a];return mcq(`Which opening does ${s} pass through?`,a,shuffle(pool).slice(0,3),(INFO[id]||a),n,"Skull openings");}
+function genMuscle(){const [m,n,e]=pick(MUSCLES);const others=shuffle([1,2,3,4,5,6,7,8,9,10,11,12].filter(x=>x!==n&&x>2)).slice(0,3);return mcq(`Which cranial nerve supplies the ${m.charAt(0).toLowerCase()+m.slice(1)}?`,nlab(n),others.map(nlab),`${m}: ${e}`,n,"Muscles");}
+function genNuc(){const [n,loc]=pick(NUCQ);const N=NERVES[n-1];const opts=["Midbrain","Pons","Medulla","Upper cervical spinal cord"];return {type:"mcq",q:`Where is the main motor nucleus of CN ${N.rn} (${N.name})?`,opts,a:opts.indexOf(loc),e:`Rule of 4: III–IV midbrain, V–VIII pons, IX–XII medulla. XI’s nucleus is in the cord (C1–C5). ${N.nucleus}`,n,tag:"Nuclei"};}
+function genGland(){const [g,n,e]=pick(GLANDQ);const opts=[3,7,9,10].map(nlab);return {type:"mcq",q:`Which cranial nerve carries the parasympathetic supply to the ${g}?`,opts,a:opts.indexOf(nlab(n)),e:`${e} Only III, VII, IX and X carry parasympathetic fibres (“1973”).`,n,tag:"Parasympathetics"};}
+function genBank(){const b=pick(BANK);const idx=shuffle(b.o.map((_,k)=>k));return {type:"mcq",q:b.q,opts:idx.map(k=>b.o[k]),a:idx.indexOf(b.a),e:b.e,n:b.n,tag:"Clinical"};}
+function genOrder(){const N=pick(NERVES.filter(x=>x.stages.length>=5));let idx=N.stages.map((_,k)=>k);if(idx.length>6)idx=shuffle(idx).slice(0,6).sort((a,b)=>a-b);const items=idx.map(k=>N.stages[k].t);return {type:"order",n:N.n,items,shuffled:shuffle(items.map((_,k)=>k)),tag:"Trace the course"};}
+function genSpot(){const n=1+Math.floor(Math.random()*12);const others=shuffle([1,2,3,4,5,6,7,8,9,10,11,12].filter(x=>x!==n)).slice(0,3);const opts=shuffle([n,...others]);return {type:"spot",n,opts:opts.map(nlab),a:opts.indexOf(n),tag:"Spot the nerve",e:NERVES[n-1].one};}
+function uniq(gen,count){const out=[],seen=new Set();let guard=0;while(out.length<count&&guard++<200){const q=gen();const key=q.type+(q.q||"")+(q.n||"")+(q.type==="order"?q.n:"");if(seen.has(key))continue;seen.add(key);out.push(q);}return out;}
+const DECKS=[
+ {id:"mixed",t:"Ward round mix",d:"A bit of everything: clinical signs, skull openings, muscles, tracing order and spotting a nerve on the map.",count:10,build:()=>shuffle([...uniq(genBank,4),...uniq(genForamen,2),...uniq(genMuscle,1),...uniq(genNuc,1),...uniq(genOrder,1),...uniq(genSpot,1)])},
+ {id:"clinical",t:"Clinical reasoning",d:"Lesions, reflexes and localisation. The questions consultants ask on ward rounds.",count:10,build:()=>uniq(genBank,10)},
+ {id:"anatomy",t:"Anatomy drill",d:"Which hole, which nucleus, which muscle, which gland. Fast recall of the facts you trace.",count:10,build:()=>shuffle([...uniq(genForamen,3),...uniq(genMuscle,3),...uniq(genNuc,2),...uniq(genGland,2)])},
+ {id:"order",t:"Trace the course",d:"Put the stages of a nerve’s journey in order, from origin to termination.",count:6,build:()=>uniq(genOrder,6)},
+ {id:"spot",t:"Spot the nerve",d:"A path lights up on the map with no labels. Name the nerve from its route alone.",count:8,build:()=>uniq(genSpot,8)}
+];
+const Q={deck:null,list:[],i:0,score:0,streak:0,answered:false,misses:[],pickOrder:[]};
+function renderQuizHome(){
+  const best=store.get("best",{});const z=$("#quiz");
+  z.innerHTML=`<div class="qintro"><h2>Test yourself</h2><p>Pick a set. Every answer comes with the reasoning, and a link to trace the nerve if you get it wrong.</p></div><div class="decks" id="decks"></div>`;
+  DECKS.forEach(dk=>{const b=hx("button","deck");b.innerHTML=`<h3>${dk.t}</h3><p>${dk.d}</p><div class="meta"><span>${dk.count} questions</span><span>${best[dk.id]!=null?`Best <b>${best[dk.id]}%</b>`:"Not tried yet"}</span></div>`;b.onclick=()=>startDeck(dk);$("#decks").appendChild(b);});
+}
+function startDeck(dk){Q.deck=dk;Q.list=dk.build();Q.i=0;Q.score=0;Q.streak=0;Q.misses=[];renderQ();}
+function renderQ(){
+  const z=$("#quiz"),q=Q.list[Q.i];Q.answered=false;Q.pickOrder=[];
+  z.innerHTML=`<div class="qcard"><div class="qtop"><span>${Q.deck.t.toUpperCase()}</span><div class="bar"><i style="width:${Q.i/Q.list.length*100}%"></i></div><span>${Q.i+1}/${Q.list.length}</span><span>Score ${Q.score}</span><span>${Q.streak>1?"Streak "+Q.streak:""}</span></div>
+   <div class="qtag">${esc(q.tag)}</div><div id="qbody" style="display:grid;gap:14px"></div><div id="qfb"></div>
+   <div class="qnav"><button class="pbtn" id="qQuit">← All sets</button><button class="pbtn primary" id="qNext" hidden>${Q.i<Q.list.length-1?"Next question →":"See results"}</button></div></div>`;
+  $("#qQuit").onclick=renderQuizHome;$("#qNext").onclick=()=>{if(Q.i<Q.list.length-1){Q.i++;renderQ();}else renderResults();};
+  const b=$("#qbody");
+  if(q.type==="mcq"||q.type==="spot"){
+    b.appendChild(hx("p","qq",esc(q.type==="spot"?"Which nerve follows this path?":q.q)));
+    if(q.type==="spot"){const w=hx("div","spotwrap");const s=document.createElementNS(NS,"svg");s.classList.add("spotsvg");s.setAttribute("role","img");s.setAttribute("aria-label","Unlabelled nerve path");w.appendChild(s);b.appendChild(w);drawSpot(s,q.n);}
+    const ow=hx("div","opts");
+    q.opts.forEach((o,k)=>{const bt=hx("button","opt",`<span class="k">${"ABCD"[k]}</span><span>${esc(o)}</span>`);bt.onclick=()=>answerMcq(k,ow);ow.appendChild(bt);});
+    b.appendChild(ow);
+  }else{
+    const N=NERVES[q.n-1];
+    b.appendChild(hx("p","qq",`Tap the stages of <span style="color:var(--n${q.n})">CN ${N.rn} (${N.name})</span> in order, from ${N.dir==="afferent"?"receptor to brain":"origin to termination"}.`));
+    const g=hx("div","ordgrid");const left=hx("div","tiles");const right=hx("div","tiles");right.id="ordpicked";
+    left.appendChild(hx("h3","sec-h","<span>Stages</span>"));right.appendChild(hx("h3","sec-h","<span>Your order</span>"));
+    q.shuffled.forEach(k=>{const t=hx("button","tile",`<span class="k">·</span><span>${esc(q.items[k])}</span>`);t.dataset.k=k;t.onclick=()=>{if(Q.answered||t.classList.contains("picked"))return;t.classList.add("picked");Q.pickOrder.push(k);drawPicked(q);};left.appendChild(t);});
+    g.appendChild(left);g.appendChild(right);b.appendChild(g);
+    const chk=hx("button","pbtn primary","Check order");chk.id="ordchk";chk.disabled=true;chk.style.justifySelf="start";chk.onclick=()=>answerOrder(q);b.appendChild(chk);drawPicked(q);
+  }
+}
+function drawPicked(q){
+  const r=$("#ordpicked");$$(".tile",r).forEach(x=>x.remove());const em=$(".empty",r);if(em)em.remove();
+  if(!Q.pickOrder.length)r.appendChild(hx("p","empty","Tap a stage on the left to place it here."));
+  Q.pickOrder.forEach((k,pos)=>{const t=hx("button","tile",`<span class="k">${pos+1}</span><span>${esc(q.items[k])}</span>`);
+    if(Q.answered){t.disabled=true;t.classList.add(k===pos?"right":"wrong");}
+    else t.onclick=()=>{Q.pickOrder.splice(pos,1);const src=$(`.tiles .tile[data-k="${k}"]`);if(src)src.classList.remove("picked");drawPicked(q);};r.appendChild(t);});
+  const c=$("#ordchk");if(c)c.disabled=Q.answered||Q.pickOrder.length!==q.items.length;
+}
+function answerOrder(q){
+  Q.answered=true;const ok=Q.pickOrder.every((k,pos)=>k===pos);drawPicked(q);$("#ordchk").remove();
+  const N=NERVES[q.n-1];
+  feedback(ok,`<p>The correct order:</p><ol class="plist">${q.items.map(t=>`<li>${esc(t)}</li>`).join("")}</ol>`,q.n,ok?null:`Order of CN ${N.rn}`);
+}
+function answerMcq(k,ow){
+  if(Q.answered)return;Q.answered=true;const q=Q.list[Q.i];const ok=k===q.a;
+  $$(".opt",ow).forEach((b,j)=>{b.disabled=true;if(j===q.a)b.classList.add("right");else if(j===k)b.classList.add("wrong");});
+  feedback(ok,`<p>${esc(q.e)}</p>`,q.n,ok?null:(q.type==="spot"?"Spot: "+nlab(q.n):q.q));
+}
+function feedback(ok,html,n,missText){
+  if(ok){Q.score++;Q.streak++;}else{Q.streak=0;Q.misses.push({t:missText,n,html});}
+  const N=NERVES[n-1];const fb=hx("div","fb "+(ok?"ok":"no"));
+  fb.innerHTML=`<h4>${ok?(Q.streak>2?`Correct · ${Q.streak} in a row`:"Correct"):"Not this time"}</h4>${html}<div class="row"><button class="pbtn" id="qTrace">Trace CN ${N.rn} (${N.name})</button></div>`;
+  $("#qfb").appendChild(fb);$("#qTrace").onclick=()=>{showView("trace");selectNerve(n);};
+  $("#qNext").hidden=false;$("#qNext").focus({preventScroll:true});
+  const top=$(".qtop");if(top)top.children[3].textContent="Score "+Q.score;
+}
+function renderResults(){
+  const pct=Math.round(Q.score/Q.list.length*100);const best=store.get("best",{});const prev=best[Q.deck.id];
+  if(prev==null||pct>prev){best[Q.deck.id]=pct;store.set("best",best);}renderStats();
+  const z=$("#quiz");
+  z.innerHTML=`<div class="qcard"><div class="result"><div class="qtag">${esc(Q.deck.t)}</div><div class="score">${Q.score}/${Q.list.length}</div><p>${pct}% ${prev!=null&&pct>prev?"· a new personal best":prev!=null?`· best so far ${Math.max(prev,pct)}%`:""}</p></div>
+   ${Q.misses.length?`<h3 class="sec-h"><span>Review what you missed</span></h3><div class="review">${Q.misses.map(m=>`<div class="rv"><b>${esc(m.t)}</b>${m.html}</div>`).join("")}</div>`:`<p class="pearl" style="text-align:center"><b>Perfect round</b>Every answer correct. Try a harder set.</p>`}
+   <div class="qnav"><button class="pbtn" id="rHome">← All sets</button><button class="pbtn primary" id="rAgain">Try a new round</button></div></div>`;
+  $("#rHome").onclick=renderQuizHome;$("#rAgain").onclick=()=>startDeck(Q.deck);
+}
+function drawSpot(svgEl,n){
+  requestAnimationFrame(()=>{
+    const d=new Diagram(svgEl);const N=NERVES[n-1];const pts=[];
+    N.stages.forEach(st=>{(st.focus||[]).forEach(id=>pts.push(NODES[id]));st.segs.forEach(seg=>{const P=seg.map(resolve);P.forEach(p=>pts.push(p));const g=sv("g",{class:"seg"},d.gAct);sv("path",{d:smooth(P),class:"casing"},g);sv("path",{d:smooth(P),class:"nvp"},g);});});
+    const ids=new Set();N.stages.forEach(st=>{(st.focus||[]).forEach(id=>ids.add(id));st.segs.forEach(seg=>seg.forEach(p=>{if(typeof p==="string")ids.add(p);}));});
+    ids.forEach(id=>{const g=makeNode(d,d.gNodes,id,"fnode","spot");g.style.setProperty("--cur","var(--ink)");});
+    d.vb=d.fitPts(pts,60,420);d.apply();
+  });
+}
+
+/* ---------- summary ---------- */
+function renderTable(){
+  const v=$("#view-table");
+  v.innerHTML=`<h2 class="secttl">All twelve at a glance</h2>
+  <div class="twrap"><table><thead><tr><th>CN</th><th>Name</th><th>Type</th><th>Nucleus</th><th>Brainstem</th><th>Skull opening</th><th>Supplies</th><th>Bedside test</th></tr></thead><tbody>
+  ${NERVES.map(N=>`<tr data-n="${N.n}" title="Trace CN ${N.rn}"><td class="rnc" style="--c:var(--n${N.n})">${N.rn}</td><td class="nmc">${N.name}</td><td>${esc(N.type)}</td><td>${esc(N.sum.nuc)}</td><td>${esc(N.sum.exit)}</td><td>${esc(N.sum.hole)}</td><td>${esc(N.sum.sup)}</td><td>${esc(N.sum.test)}</td></tr>`).join("")}
+  </tbody></table></div>
+  <h2 class="secttl">Mnemonics that hold up on the ward</h2>
+  <div class="mnem">
+   <div class="mcard"><h3>Names I–XII</h3><p>Oh Oh Oh To Touch And Feel Very Good Velvet, Such Heaven</p><small>Olfactory, Optic, Oculomotor, Trochlear, Trigeminal, Abducens, Facial, Vestibulocochlear, Glossopharyngeal, Vagus, Spinal accessory, Hypoglossal.</small></div>
+   <div class="mcard"><h3>Sensory, motor or both</h3><p>Some Say Marry Money But My Brother Says Big Brains Matter More</p><small>S = sensory, M = motor, B = both, in order I to XII.</small></div>
+   <div class="mcard"><h3>Where they live</h3><p>2 above, 2 in the midbrain, 4 in the pons, 4 in the medulla</p><small>I–II forebrain; III–IV midbrain; V–VIII pons; IX–XII medulla (XI’s nucleus is in the cervical cord).</small></div>
+   <div class="mcard"><h3>Eye muscles</h3><p>LR6 SO4, the rest 3</p><small>Lateral rectus: VI. Superior oblique: IV. Everything else, including levator: III.</small></div>
+   <div class="mcard"><h3>Superior orbital fissure</h3><p>Live Frankly To See Absolutely No Insult</p><small>Lacrimal, Frontal, Trochlear, Superior division of III, Abducens, Nasociliary, Inferior division of III.</small></div>
+   <div class="mcard"><h3>Trigeminal exits</h3><p>Standing Room Only</p><small>V1 Superior orbital fissure, V2 foramen Rotundum, V3 foramen Ovale.</small></div>
+   <div class="mcard"><h3>Facial nerve branches</h3><p>To Zanzibar By Motor Car</p><small>Temporal, Zygomatic, Buccal, Marginal mandibular, Cervical.</small></div>
+   <div class="mcard"><h3>Parasympathetic nerves</h3><p>1973</p><small>Only CN X, IX, VII and III carry parasympathetic fibres.</small></div>
+   <div class="mcard"><h3>Which way it points</h3><p>The tongue licks the lesion; the uvula runs away from it</p><small>XII lesion: tongue deviates toward the weak side. X lesion: uvula pulled away from the weak side. V3 lesion: jaw deviates toward the weak side.</small></div>
+  </div>
+  <h2 class="secttl">Fibre types</h2>
+  <div class="mnem">${Object.entries(MODS).map(([k,v])=>`<div class="mcard"><h3>${k}</h3><p>${esc(v.split(":")[0])}</p><small>${esc(v.split(":").slice(1).join(":").trim())}</small></div>`).join("")}</div>`;
+  $$("tbody tr",v).forEach(tr=>tr.onclick=()=>{showView("trace");selectNerve(+tr.dataset.n);});
+}
+
+/* ---------- views & stats ---------- */
+function renderStats(){
+  const tr=store.get("traced",[]).length;const cs=store.get("cases",{});const ok=Object.values(cs).filter(x=>x==="ok").length;
+  const best=store.get("best",{});const bv=Object.values(best);const b=bv.length?Math.max(...bv):null;
+  $("#stats").innerHTML=`<span class="stat">Traced <b>${tr}/12</b></span><span class="stat">Cases <b>${ok}/${CASES.length}</b></span>${b!=null?`<span class="stat">Best quiz <b>${b}%</b></span>`:""}`;
+}
+const VIEWS=["trace","cases","test","table"];
+function showView(v){
+  VIEWS.forEach(x=>{$("#view-"+x).hidden=x!==v;$("#tab-"+x).setAttribute("aria-selected",String(x===v));});
+  hideTip();
+  if(v!=="trace")setPlaying(false);
+  if(v==="trace")requestAnimationFrame(()=>D.apply());
+  try{history.replaceState(null,"","#"+v);}catch(e){}
+  window.scrollTo({top:0,behavior:"auto"});
+}
+$$(".tabs button").forEach(b=>b.onclick=()=>showView(b.dataset.view));
+
+/* ---------- boot ---------- */
+buildAllLayer();buildForamina();
+loadNerve(7);
+setStage(NERVES[6].stages.length-1,{animate:false,camera:false});
+D.vb=D.fullBox();D.apply();
+setPlaying(false);$("#bPlay").innerHTML="&#9654; Trace from origin";
+renderCaseList();renderCase();renderQuizHome();renderTable();renderStats();
+const h=(location.hash||"").slice(1);if(VIEWS.includes(h)&&h!=="trace")showView(h);
+function loop(now){D.tick(now);if(!viewTrace.hidden)traceTick(now);requestAnimationFrame(loop);}
+requestAnimationFrame(loop);
+</script>
