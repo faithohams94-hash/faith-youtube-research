@@ -154,7 +154,7 @@ function buildStage(view) {
   const svg = sv("svg", { viewBox: "0 0 600 720", role: "img", "aria-label": view === "lat" ? "Lateral view of head and neck" : "Anterior view of face" });
   const defs = buildDefs(svg, view);
   const L = {};
-  ["base", "bone", "refdeep", "musdeep", "ref", "mus", "skin", "vein", "artery", "nerve", "derm", "pts", "labels", "trace"].forEach(k => L[k] = sv("g", { "data-layer": k }, svg));
+  ["base", "bone", "deepest", "refdeep", "musdeep", "ref", "mus", "skin", "vein", "artery", "nerve", "derm", "pts", "labels", "trace"].forEach(k => L[k] = sv("g", { "data-layer": k }, svg));
   // base tissue
   if (view === "lat") sv("path", { d: LAT_HEAD, fill: "url(#fasciaGrad)" }, L.base);
   else { sv("path", { d: ANT_HALF, fill: "url(#fasciaGrad)" }, L.base); sv("path", { d: mirrorPath(ANT_HALF), fill: "url(#fasciaGrad)" }, L.base); }
@@ -190,7 +190,8 @@ function drawStructure(id, o, list, view, L, defs) {
   else if (sys === "ref") layer = o.deep ? L.refdeep : L.ref;
   else if (sys === "bone") layer = o.pt ? L.pts : L.bone;
   else layer = L[sys];
-  const g = sv("g", { class: "s", "data-id": id, "data-sys": sys, tabindex: "-1" }, layer);
+  if (o.layer) layer = L[o.layer];
+  const g = sv("g", { class: "s" + (o.layer === "deepest" ? " deepest" : ""), "data-id": id, "data-sys": sys, tabindex: "-1" }, layer);
   const w = o.wd || 2.4;
   g.style.setProperty("--w", w);
   g.style.setProperty("--wsel", (w * 1.7) + "px");
@@ -436,19 +437,37 @@ function labelPoint(g) {
 function renderLabels() {
   const st = stages[state.view]; if (!st) return;
   const lg = st.L.labels; lg.innerHTML = "";
-  const want = new Set();
-  if (state.labels) $$(".s", st.svg).forEach(g => { if (!state.hide.has(g.dataset.sys) || g.classList.contains("ctx")) want.add(g); });
-  if (state.sel) $$(`.s[data-id="${state.sel}"]`, st.svg).forEach(g => want.add(g));
-  $$(".s.ctx", st.svg).forEach(g => want.add(g));
-  const seen = new Set();
+  const want = [];
+  const add = g => { if (!want.includes(g)) want.push(g); };
+  if (state.sel) $$(`.s[data-id="${state.sel}"]`, st.svg).slice(0, 1).forEach(add);
+  $$(".s.ctx", st.svg).forEach(add);
+  if (state.labels) $$(".s", st.svg).forEach(g => { if (!state.hide.has(g.dataset.sys)) add(g); });
+  const seen = new Set(), items = [];
+  const k = 600 / Math.max(1, st.vb.w); // keep labels a readable size when zoomed
   for (const g of want) {
     const id = g.dataset.id;
-    if (seen.has(id) && !state.labels) continue;
+    if (seen.has(id)) continue;
     seen.add(id);
     const pt = labelPoint(g); if (!pt) continue;
-    if (state.view === "ant" && pt.x > 300 && !state.sel) continue;
+    if (state.view === "ant" && pt.x > 300 && !g.classList.contains("ctx") && id !== state.sel) continue;
     const name = S[id].n.replace(/ \((mastication|V1|V2|V3|C2|C3|C2, C3)\)$/, "");
-    sv("text", { x: pt.x + 6, y: pt.y - 6, class: "lbl", text: name.length > 34 ? name.slice(0, 32) + "…" : name }, lg);
+    const rel = ["p", "d", "s", "w"].find(r => g.classList.contains("rel-" + r));
+    const kind = id === state.sel ? "main" : rel ? "rel-" + rel : g.classList.contains("ctx") ? "ctxl" : "plain";
+    items.push({ x: pt.x, y: pt.y, name: name.length > 34 ? name.slice(0, 32) + "…" : name, kind });
+  }
+  const fs = (isPhone() ? 15 : 12) / k, h = fs * 1.55;
+  items.sort((a, b) => a.y - b.y);
+  for (let i = 1; i < items.length; i++) for (let j = 0; j < i; j++) {
+    const a = items[j], b = items[i];
+    if (a.kind === "plain" && b.kind === "plain") continue;
+    if (Math.abs(a.x - b.x) < 140 / k && b.y - a.y < h + 2 / k) b.y = a.y + h + 2 / k;
+  }
+  for (const it of items) {
+    const g = sv("g", { class: "lblg " + it.kind }, lg);
+    if (it.kind === "plain") { sv("text", { x: it.x + 6, y: it.y - 6, class: "lbl", text: it.name, style: { fontSize: fs * .92 + "px" } }, g); continue; }
+    const t = sv("text", { x: it.x + 10 / k, y: it.y, class: "lblt", text: it.name, style: { fontSize: fs + "px" } }, g);
+    const bb = t.getBBox();
+    g.insertBefore(sv("rect", { x: bb.x - 5 / k, y: bb.y - 2 / k, width: bb.width + 10 / k, height: bb.height + 4 / k, rx: 4 / k, class: "lblr" }), t);
   }
 }
 
@@ -467,6 +486,21 @@ function relLine(id, i) {
   const r = (REL[id] || [])[i]; if (!r) return "";
   const t = ["p", "d", "s", "w"].filter(k => r[k] && r[k].length).map(k => `${REL_LABEL[k]}: ${r[k].map(x => relParts(x).text).join(", ")}`).join(" · ");
   return t ? `<span class="rl">${esc(t)}</span>` : "";
+}
+function relTypes(id, i) {
+  const r = (REL[id] || [])[i], out = {}; if (!r) return out;
+  ["p", "d", "s", "w"].forEach(k => (r[k] || []).forEach(x => { const q = relParts(x); if (q.id && !out[q.id]) out[q.id] = k; }));
+  return out;
+}
+function passesCard(id) {
+  const agg = { p: [], d: [], s: [], w: [] }, seen = new Set();
+  (REL[id] || []).forEach((r, i) => ["p", "d", "s", "w"].forEach(k => (r[k] || []).forEach(x => {
+    const q = relParts(x), key = k + (q.id || q.text);
+    if (!seen.has(key)) { seen.add(key); agg[k].push({ ...q, step: i + 1 }); }
+  })));
+  const lab = { p: "Pierces / passes through", d: "Passes deep to", s: "Passes superficial to", w: "Runs with" };
+  const rows = ["p", "d", "s", "w"].filter(k => agg[k].length).map(k => `<div class="pc-row pc-${k}"><b>${lab[k]}</b><div>${agg[k].map(q => q.id ? `<button class="pchip" data-flash="${q.id}" data-step="${q.step - 1}">${esc(q.text)}<small>step ${q.step}</small></button>` : `<span class="pchip plain">${esc(q.text)}<small>step ${q.step}</small></span>`).join("")}</div></div>`).join("");
+  return `<div class="passes"><h3>Everything it passes</h3><p class="note" style="margin:0 0 8px">Tap a name to jump to that step and see it on the plate.</p>${rows}</div>`;
 }
 function renderInfo(id) {
   if (!id) {
@@ -495,6 +529,7 @@ function renderInfo(id) {
         <button id="tr-play" class="play">▶ Play</button>
         <button id="tr-next" aria-label="Next step">▶|</button></div>
       <ol>${o.steps.map((s, i) => `<li data-i="${i}">${esc(s[2])}${relLine(id, i)}</li>`).join("")}</ol></div>`;
+  if (REL[id]) html += passesCard(id);
   const keys = o.sys === "muscle" || (o.sys === "ref" && o.f && o.f.i) ? ["o", "i", "a", "n", "t", "r", "k"] : ["o", "c", "r", "b", "e", "s", "n", "p", "t", "k"];
   const f = o.f || {};
   const rows = keys.filter(k => f[k]).map(k => `<div><dt>${fieldLabel(k, o.sys)}</dt><dd class="${k === "k" ? "clin" : ""}">${esc(f[k])}</dd></div>`).join("");
@@ -509,6 +544,7 @@ function renderInfo(id) {
     $("#tr-next").onclick = () => { if (!state.trace) startTrace(id); else gotoStep(state.trace.i + 1); };
     $("#tr-prev").onclick = () => { if (state.trace) gotoStep(state.trace.i - 1); };
     $$("#tracebox li").forEach(li => li.onclick = () => { if (!state.trace) startTrace(id); gotoStep(+li.dataset.i); });
+    $$(".passes [data-flash]", info).forEach(b => b.onclick = () => { if (!state.trace) startTrace(id); gotoStep(+b.dataset.step); flash(b.dataset.flash); if (isPhone()) window.scrollTo({ top: 0, behavior: reduceMotion ? "auto" : "smooth" }); });
   }
 }
 
@@ -539,8 +575,9 @@ function startTrace(id, autoplay = false) {
   const marker = sv("g", { class: "marker" }, tg);
   sv("circle", { r: 11, style: { fill: "none", stroke: "var(--ink)", strokeWidth: 2 } }, marker);
   sv("circle", { r: 4.5, style: { fill: "var(--ink)" } }, marker);
+  const ring = sv("circle", { r: 17, class: "pierce-ring", style: { fill: "none", stroke: "var(--rel-p)", strokeWidth: 4, strokeDasharray: "6 4" } }, marker);
   const steps = S[id].steps.map(s => ({ len: lenAt(path, s[0], s[1]), s }));
-  state.trace = { id, path, total, trail, marker, steps, i: -1, cur: 0, playing: false, timer: null, raf: null };
+  state.trace = { id, path, total, trail, marker, ring, steps, i: -1, cur: 0, playing: false, timer: null, raf: null };
   gotoStep(0);
   if (autoplay) playTrace();
 }
@@ -563,13 +600,16 @@ function gotoStep(i) {
   animate(performance.now());
   // context highlight
   const svg = stages[state.view].svg;
-  $$(".s.ctx", svg).forEach(e => e.classList.remove("ctx"));
-  (t.steps[i].s[3] || []).forEach(h => $$(`.s[data-id="${h}"]`, svg).forEach(e => e.classList.add("ctx")));
+  $$(".s.ctx", svg).forEach(e => e.classList.remove("ctx", "rel-p", "rel-d", "rel-s", "rel-w"));
+  const types = relTypes(t.id, i);
+  [...(t.steps[i].s[3] || []), ...Object.keys(types)].forEach(h => $$(`.s[data-id="${h}"]`, svg).forEach(e => { e.classList.add("ctx"); if (types[h]) e.classList.add("rel-" + types[h]); }));
+  t.ring.style.display = (REL[t.id] || [])[i] && (REL[t.id][i].p || []).length ? "" : "none";
+  $("#rellegend").hidden = !REL[t.id];
   renderLabels();
   $$("#tracebox li").forEach((li, k) => { li.classList.toggle("cur", k === i); li.classList.toggle("done", k < i); });
   document.body.classList.add("tracing");
   $("#tb-c").textContent = `${S[t.id].n} · step ${i + 1} of ${t.steps.length}`;
-  $("#tb-t").textContent = t.steps[i].s[2];
+  $("#tb-t").innerHTML = esc(t.steps[i].s[2]) + relLine(t.id, i);
   const cur = $(`#tracebox li[data-i="${i}"]`);
   if (cur) cur.scrollIntoView({ block: "nearest", behavior: reduceMotion ? "auto" : "smooth" });
 }
@@ -601,13 +641,14 @@ function stopTrace() {
   clearInterval(t.timer); cancelAnimationFrame(t.raf);
   t.trail.remove(); t.marker.remove();
   $$(".tpath").forEach(e => e.remove());
-  for (const v in stages) $$(".s.ctx", stages[v].svg).forEach(e => e.classList.remove("ctx"));
+  for (const v in stages) $$(".s.ctx", stages[v].svg).forEach(e => e.classList.remove("ctx", "rel-p", "rel-d", "rel-s", "rel-w"));
+  $("#rellegend").hidden = true;
   state.trace = null;
   document.body.classList.remove("tracing");
 }
 
 // ================= side list =================
-const GROUP_ORDER = ["Carotid system", "Facial artery & branches", "Maxillary artery", "Scalp arteries", "Veins of the face", "Veins of the scalp", "Facial nerve (motor)", "Trigeminal (sensory)", "Cervical nerves (scalp)", "Scalp", "Orbit", "Nose", "Mouth", "Ear", "Neck", "Landmarks", "Bone & foramina", "Sensory territories"];
+const GROUP_ORDER = ["Carotid system", "Facial artery & branches", "Maxillary artery", "Scalp arteries", "Veins of the face", "Veins of the scalp", "Facial nerve (motor)", "Trigeminal (sensory)", "Cervical nerves (scalp)", "Cranial nerves in the neck", "Scalp", "Orbit", "Nose", "Mouth", "Ear", "Neck", "Landmarks", "Bone & foramina", "Sensory territories"];
 const GROUP_TITLE = { Scalp: "Muscles: scalp", Orbit: "Muscles: around the eye", Nose: "Muscles: nose", Mouth: "Muscles: mouth", Ear: "Muscles: ear", Neck: "Muscles: neck" };
 function buildList() {
   const box = $("#list"); box.innerHTML = "";

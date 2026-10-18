@@ -91,9 +91,9 @@ function to3D(X, Y, depth, side) {
   return { p, n: s.n };
 }
 
-const DEEP = { ica: .55, ijv: .5, maxillary_a: .42, maxillary_v: .4, pterygoid_plexus: .42, middle_meningeal_a: .5, inf_alveolar_a: .24, inf_alveolar_n: .25, lingual_a: .55, sup_ophthalmic_v: .45, deep_facial_v: .2, buccal_n: .28, auriculotemporal_n: .3, infraorbital_n: .22, infraorbital_a: .22, cavernous_sinus: 1.0, emissary_v: .14, occipital_v: .16, cca: .32 };
-const SUPER = { eca: .2, cn7: .12, rmv: .13, post_auricular_n: .07, occipital_a: .075, greater_occipital_n: .08, ejv: .05, scm: .06, common_facial_v: .14, sup_thyroid_a: .2, parotid_duct: .07, cn7_temporal: .06, cn7_zygomatic: .07, cn7_buccal: .075, cn7_marginal: .08, cn7_cervical: .07, lesser_occipital_n: .07, great_auricular_n: .06 };
-const PATCH = { frontalis: .03, occipitalis: .03, galea: .028, auricularis: .03, orb_oculi: .03, corrugator: .05, procerus: .03, nasalis: .03, llsan: .035, lls: .035, zyg_minor: .032, zyg_major: .034, lao: .085, risorius: .03, buccinator: .1, orb_oris: .045, dao: .03, dli: .035, mentalis: .04, platysma: .022, temporalis: .13, masseter: .11, scm: .06, digastric_post: .26, parotid: .045, submand_gland: .12, mandible: .16, zyg_arch: .1, mastoid: .1, skull: .2 };
+const DEEP = { ica: .55, ijv: .5, maxillary_a: .42, maxillary_v: .4, pterygoid_plexus: .42, middle_meningeal_a: .5, inf_alveolar_a: .24, inf_alveolar_n: .25, lingual_a: .55, sup_ophthalmic_v: .45, deep_facial_v: .2, buccal_n: .28, auriculotemporal_n: .3, infraorbital_n: .22, infraorbital_a: .22, cavernous_sinus: 1.0, emissary_v: .14, occipital_v: .16, cca: .32, cn12: .3, cn11: .28, sphenomandibular_lig: .38 };
+const SUPER = { cn11: .07, eca: .2, cn7: .12, rmv: .13, post_auricular_n: .07, occipital_a: .075, greater_occipital_n: .08, ejv: .05, scm: .06, common_facial_v: .14, sup_thyroid_a: .2, parotid_duct: .07, cn7_temporal: .06, cn7_zygomatic: .07, cn7_buccal: .075, cn7_marginal: .08, cn7_cervical: .07, lesser_occipital_n: .07, great_auricular_n: .06 };
+const PATCH = { frontalis: .03, occipitalis: .03, galea: .028, auricularis: .03, orb_oculi: .03, corrugator: .05, procerus: .03, nasalis: .03, llsan: .035, lls: .035, zyg_minor: .032, zyg_major: .034, lao: .085, risorius: .03, buccinator: .1, orb_oris: .045, dao: .03, dli: .035, mentalis: .04, platysma: .022, temporalis: .13, masseter: .11, scm: .06, digastric_post: .26, parotid: .045, submand_gland: .12, mandible: .16, zyg_arch: .1, mastoid: .1, skull: .2, styloid: .3, hyoid: .2, thyroid_cart: .15, stylohyoid: .24, mylohyoid: .3, hyoglossus: .4, sup_constrictor: .5, lat_pterygoid: .4, med_pterygoid: .34, buccal_fat: .13, trapezius: .045, splenius: .12, semispinalis: .2, inf_oblique: .3 };
 function depthOf(id, deep) {
   const o = S[id];
   if (deep) return DEEP[id] ?? .25;
@@ -361,10 +361,10 @@ function nearestPt(id, ref) {
   for (const m of r.meshes) { if (!m.parent.visible) continue; for (const p of m.userData.pts) { const d = ref ? p.distanceToSquared(ref) : 0; if (d < bd) { bd = d; best = p; } if (!ref) return p; } }
   return best;
 }
-function setLabels3D(ids) {
+function setLabels3D(ids, types = {}) {
   const box = $("#t3labels"); box.innerHTML = ""; T3.labels = [];
   ids.forEach((id, i) => {
-    const el = h("div", { class: "t3lbl" + (i === 0 ? " main" : "") }, esc(S[id] ? S[id].n.replace(/ \((V1|V2|V3|C2|C3|C2, C3|mastication)\)$/, "") : id));
+    const el = h("div", { class: "t3lbl" + (i === 0 ? " main" : "") + (types[id] ? " rel-" + types[id] : "") }, esc(S[id] ? S[id].n.replace(/ \((V1|V2|V3|C2|C3|C2, C3|mastication)\)$/, "") : id));
     box.appendChild(el); T3.labels.push({ id, el });
   });
 }
@@ -468,7 +468,7 @@ function goStep3D(i) {
   const s = S[tr.id].steps[i];
   T3.ctx = new Set([...(s[3] || []), ...relIds(tr.id, i)].filter(k => T3.S[k]));
   focus3D();
-  setLabels3D([tr.id, ...T3.ctx]);
+  setLabels3D([tr.id, ...T3.ctx], relTypes(tr.id, i));
   // pierce ring
   if (T3.ring) { T3.scene.remove(T3.ring); T3.ring = null; }
   const r = (REL[tr.id] || [])[i];
