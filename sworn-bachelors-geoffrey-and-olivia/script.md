@@ -7,7 +7,7 @@
 
 ## WHERE THIS PART STARTS
 
-One week after Part Two. Donald is engaged to Emma. Michael has just confessed his love for Sophia at the premiere. Both have broken the vow, and both know it. On the rooftop, only Geoffrey still says "Still sworn." Then a woman called him and said: *"My father died helping build the fortune you inherited. And I think your father killed him."*
+Part Three happens **at the same time** as Parts One and Two. While Donald is secretly falling for Emma and Michael is secretly falling for Sophia, Geoffrey's world is falling apart too. All three still say "Still sworn" on the rooftop, and all three are lying. It starts the night Geoffrey finds the old photograph in his father's desk (Part One, Scene 18) and a woman calls him: *"You found it, didn't you, Mr. Durose? Meet me tomorrow."* Nobody confesses anything to anybody until the very end of this part, where the three brothers finally tell the whole truth and make a new vow.
 
 Geoffrey has always been the rich one. When his father, **Jacob Durose**, suddenly became wealthy, he told Geoffrey: *"Durose Holdings is ours. I built it with my own hands."* Geoffrey believed him for twenty-two years.
 
@@ -15,8 +15,8 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 - **GEOFFREY DUROSE** (37). Heir of Durose Holdings. Quiet, gentle and loyal, the "soft heart" of the three brothers, and the last one still sworn.
 - **OLIVIA HART** (31). CEO of Hartwell Group. Beautiful, sharp and proud. She arrives as his enemy, and she grew up in a house full of lies.
-- **DONALD IRWIN** (37). Geoffrey's brother. Engaged to Emma, controlling, and terrified of losing the business.
-- **MICHAEL McCLAREN** (37). Geoffrey's brother. With Sophia now, and softer than he used to be.
+- **DONALD IRWIN** (37). Geoffrey's brother. Secretly dating Emma, controlling, and terrified of losing the business.
+- **MICHAEL McCLAREN** (37). Geoffrey's brother. Secretly in love with Sophia, and the peacemaker between Donald and Geoffrey.
 - **MRS. ADUNNI DUROSE** (62). Geoffrey's mother.
 - **MAMA GRACE** (58). The woman who raised Olivia.
 - **BARRISTER CHIOMA OKONKWO**. Lawyer for the Hart estate.
@@ -224,7 +224,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 **GEOFFREY:** *(laughing bitterly)* And her. Olivia Hart. She called my father a thief to my face. *(He raises his glass.)* This is why I'm grateful for that vow. Who on God's earth wants to fall in love? With a woman like that? Rude. Proud. Cruel. *(beat)* Thank God for rule four.
 
-*Behind him, Donald and Michael slowly look at each other. Donald is engaged. Michael has just confessed in front of a thousand people. Neither says a word.*
+*Behind him, Donald and Michael slowly look at each other. Donald has a size thirty-eight heel hidden in his kitchen. Michael has "Script Supervisor" calling him at 2 a.m. They already know about each other. Neither says a word.*
 
 **MICHAEL:** *(clearing his throat)* …Yes. Rule four. Very… important rule.
 
@@ -516,7 +516,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 20 — BROTHERS AT WAR
 **INT. THREE BOYS VENTURES — BOARDROOM — DAY — DAY THREE**
-*(~14:32–15:58)*
+*(~14:32–16:22)*
 
 *Donald paces with his phone to his ear while Michael sits.*
 
@@ -526,33 +526,43 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 **DONALD:** Geoffrey has the softest heart of the three of us! You know it! A woman like that eats a soft heart for breakfast!
 
-**MICHAEL:** *(standing)* And so what if he did? You're engaged! I declared my love in front of a thousand people! We're the last people on earth who can shout "vow" at him!
+**MICHAEL:** *(standing)* Okay, he does. And so what?
 
-**DONALD:** That's different. Emma never froze our bank accounts.
+**DONALD:** *(narrowing his eyes)* Oh. Oh, I see what you're doing. You're defending him because you've got your own girl. "Script Supervisor."
 
-**MICHAEL:** No. Emma just got you to give away Everys for one naira. Remember?
+**MICHAEL:** *(not missing a beat)* And what's Emma to you?
 
-**DONALD:** *(pointing at him)* Don't.
+**DONALD:** *(freezing)* …What? You think I'm falling for Emma?
 
-**MICHAEL:** You know why you're unbearable? Geoffrey and I put more money into Durose than you did, and for once you're not in control of it!
+**MICHAEL:** I don't know. You tell me.
 
-**DONALD:** *(roaring)* I'm trying to SAVE all of us!
+**DONALD:** I can't have this conversation with you right now.
 
-**MICHAEL:** By chasing away the only brother who never once asked you for anything?
+**MICHAEL:** Oh, really? Then have THIS one. If this business falls, you'll owe me and Geoffrey, because we put more money into Durose than you did. You did nothing but take Emma on fancy dates!
 
-*Silence. Donald grabs his keys.*
+**DONALD:** When have you EVER seen me on a date with Emma?
 
-**DONALD:** This is nonsense.
+**MICHAEL:** I haven't. But it looks like that's where we're heading, Chairman.
+
+**DONALD:** *(grabbing his keys)* I can't do this with you, Michael.
+
+**MICHAEL:** Why not? Do it with me!
+
+**DONALD:** This is nonsense!
 
 *He storms out.*
 
-*INT. DONALD'S CAR — MOMENTS LATER. Donald grips the wheel. He calls Emma.*
+*INT. DONALD'S CAR — MOMENTS LATER. Donald grips the wheel, breathing hard.*
+
+**DONALD:** *(to himself)* He knows. He knows about Emma. *(beat)* No. He's guessing. Michael always guesses. *(He hits the steering wheel.)* Are they going to find out? Are they going to find out I'm dating Emma?
+
+*His phone lights up: "E. Reardon." He stares at it, then answers softly.*
 
 **EMMA (ON PHONE):** Hi, you.
 
-**DONALD:** *(quietly)* Emma. Am I becoming the man who stops his brother from being happy?
+**DONALD:** *(quietly)* Emma. Am I becoming the man who stops his brother from being happy, just so nobody finds out I'm happy too?
 
-**EMMA (ON PHONE):** *(gently)* You're becoming the man who's scared of losing his brother. *(beat)* But Donald, those look exactly the same from the outside.
+**EMMA (ON PHONE):** *(gently)* You're becoming a man who's scared. *(beat)* But Donald, from the outside those look exactly the same.
 
 *Donald closes his eyes.*
 
@@ -560,7 +570,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 21 — RELEASED
 **EXT. AGODI CORRECTIONAL CENTRE — GATE — NIGHT**
-*(~15:58–16:24)*
+*(~16:22–16:47)*
 
 *The gate opens. Geoffrey limps out, bruised and filthy, and still barefoot. Olivia runs to him. Uncle Rotimi stands by the cars.*
 
@@ -580,7 +590,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 22 — "SHE'S NOT MY WOMAN"
 **INT. PRIVATE HOSPITAL ROOM, IBADAN — DAY**
-*(~16:24–17:26)*
+*(~16:47–17:50)*
 
 *Geoffrey lies in bed with a drip in his arm. Olivia sits beside him, spoon-feeding him pepper soup she cooked herself.*
 
@@ -618,7 +628,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 23 — THE ESCAPE FROM THE HOSPITAL
 **INT. HOSPITAL ROOM — NIGHT**
-*(~17:26–17:57)*
+*(~17:50–18:20)*
 
 *Olivia picks up her bag.*
 
@@ -642,7 +652,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 24 — MR. LAWAL
 **INT. AGODI CORRECTIONAL CENTRE — VISITING ROOM — NEXT MORNING**
-*(~17:57–19:16)*
+*(~18:20–19:39)*
 
 *Olivia sits alone at a scratched table. The door opens behind her, and she turns. It's Geoffrey, pale, bruised and leaning on the door frame.*
 
@@ -684,7 +694,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 25 — A KISS ON THE CHEEK
 **EXT. PRISON CAR PARK — DAY**
-*(~19:16–19:55)*
+*(~19:39–20:18)*
 
 *Olivia helps Geoffrey toward the SUV. She is shaking with emotion.*
 
@@ -708,7 +718,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 26 — "THE WAY YOU LOOK AT HIM"
 **EXT. AGODI CORRECTIONAL CENTRE — GATE — EVENING — TWO DAYS LATER**
-*(~19:55–20:36)*
+*(~20:18–20:59)*
 
 *The gate opens. Mr. Lawal walks out in new clothes and blinks at the sky. Olivia and Barrister Okonkwo wait for him. He grabs Olivia's hands.*
 
@@ -726,7 +736,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 27 — THE INTRUDERS
 **INT. GEOFFREY'S HOUSE — DAY — ONE WEEK LATER**
-*(~20:36–21:56)*
+*(~20:59–22:20)*
 
 *Geoffrey, discharged and still bruised, unlocks his front door. Olivia is beside him, carrying his bag. She insisted on seeing him home safely. The door swings open. Donald and Michael are sitting in his living room.*
 
@@ -762,7 +772,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 28 — "WHAT VOW?"
 **INT. GEOFFREY'S HOUSE — CONTINUOUS**
-*(~21:56–22:53)*
+*(~22:20–23:16)*
 
 **OLIVIA:** *(quietly)* What vow, Geoffrey? What partnership? *(beat)* Tell me the truth.
 
@@ -788,7 +798,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 29 — MICHAEL COMES
 **INT. GEOFFREY'S HOUSE — NIGHT — DAYS LATER**
-*(~22:53–23:57)*
+*(~23:16–24:38)*
 
 *Curtains closed, food untouched. Geoffrey hasn't left the house in days. Michael lets himself in and sits beside him.*
 
@@ -800,11 +810,15 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 **GEOFFREY:** *(slowly turning)* What are you trying to say, Michael?
 
-**MICHAEL:** We're getting old. We've worked hard. We need a little love. *(He smiles.)* Sophia completes me. I don't know how she does it. I'd sell my studio tomorrow for her.
+**MICHAEL:** We're getting old. We've worked hard. We need a little love in our lives.
 
-**GEOFFREY:** *(quietly)* And Donald?
+**GEOFFREY:** *(staring at him)* Michael. Please don't tell me you've found a woman.
 
-**MICHAEL:** Donald is scared. That's his wahala, not yours. Don't let his fear make your decisions. *(He stands.)* Where is Olivia right now?
+**MICHAEL:** *(smiling)* I've found one. Her name is Sophia. She shows me love. She completes me. I don't know how she does it, but she makes my whole life turn. *(beat)* I'd sell my studio tomorrow for her.
+
+**GEOFFREY:** *(stunned)* "Script Supervisor." *(beat)* Does Donald know?
+
+**MICHAEL:** Not yet. And don't you tell him. *(beat)* Donald is scared, Geoffrey. That's his wahala, not yours. Don't let his fear make your decisions. *(He stands.)* Where is Olivia right now?
 
 **GEOFFREY:** *(a sudden realisation)* …She said she'd look for the documents. Alone. At my father's lodge. *(He grabs his keys.)* Michael, my father kept his guns at the lodge.
 
@@ -812,7 +826,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 30 — THE LODGE
 **EXT/INT. JACOB DUROSE'S HUNTING LODGE, OGUN FOREST — NIGHT**
-*(~23:57–24:07)*
+*(~24:38–24:48)*
 
 *An old, abandoned lodge deep in the forest. Olivia pushes the creaking door open with a phone torch. Dust, animal heads on the walls and an old gun cabinet. She searches drawers and shelves. A low growl comes from the dark. She freezes. A huge, starving WILD DOG steps out from behind the sofa, teeth bared.*
 
@@ -832,7 +846,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 31 — AFTER THE GUNSHOT
 **EXT. LODGE — BACK GARDEN — CONTINUOUS**
-*(~24:07–24:53)*
+*(~24:48–25:34)*
 
 *Geoffrey drops the rifle and runs to her. He pulls her up and checks her arms and face.*
 
@@ -856,7 +870,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 32 — THE TRUTH
 **INT. LODGE — STUDY — NIGHT**
-*(~24:53–26:20)*
+*(~25:34–27:01)*
 
 *Behind the smashed gun cabinet, Geoffrey finds a hidden steel box. Inside are the ORIGINAL certificate, "DUROSE HOLDINGS — 1996 — FOUNDER: ELIAS HART", and an old VHS tape labelled in Jacob's handwriting: "FOR GEOFFREY. WHEN I'M GONE."*
 
@@ -884,7 +898,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 33 — "I ONLY WANT YOU"
 **INT. LODGE — STUDY — CONTINUOUS**
-*(~26:20–27:08)*
+*(~27:01–27:49)*
 
 **GEOFFREY:** *(standing, facing her)* Then keep it or burn it. I don't want the company either.
 
@@ -912,7 +926,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 34 — THE RESIGNATION
 **INT. THREE BOYS VENTURES — BOARDROOM — DAY**
-*(~27:08–28:23)*
+*(~27:49–29:08)*
 
 *Donald sits at the head of the table and Michael on the side. Geoffrey walks in, calm, with a leather folder. Donald stands.*
 
@@ -930,7 +944,9 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 *Michael quietly takes an envelope from his jacket and puts it on the table.*
 
-**MICHAEL:** I'm sorry, Donald. I've chased deals my whole life. Sophia makes me feel like more than my next deal. *(beat)* I'm stepping out too. I want to make films and come home on time.
+**MICHAEL:** I'm sorry, Donald. I've chased deals my whole life. But I'm in love with her. Sophia. She makes me feel like more than my next deal. *(beat)* I'm stepping out too. I want to make films and come home on time.
+
+**DONALD:** *(barely a whisper)* Sophia. Script Supervisor.
 
 *He walks out. Donald sits alone at the long table with two resignation letters and the whole empire.*
 
@@ -940,7 +956,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 35 — A NEW KIND OF RICH
 **MONTAGE — LAGOS — WEEKS LATER**
-*(~28:23–28:52)*
+*(~29:08–29:36)*
 
 *Michael and Sophia on the beach at Badagry, laughing as she reads him a new script and he actually listens.*
 
@@ -960,7 +976,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 36 — THE KNOCK
 **INT. GEOFFREY'S SMALL NEW APARTMENT — NIGHT**
-*(~28:52–29:15)*
+*(~29:36–30:00)*
 
 *Geoffrey and Olivia are on the sofa watching TV, her feet in his lap. A knock. Geoffrey opens the door. It's Donald, alone and nervous.*
 
@@ -982,7 +998,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 37 — CHEERS TO A NEW CHAPTER
 **INT. THREE BOYS VENTURES — BOARDROOM — NEXT DAY**
-*(~29:15–30:35)*
+*(~30:00–31:34)*
 
 *Three chairs and three glasses. Donald slides two folders across the table.*
 
@@ -994,13 +1010,19 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 **MICHAEL:** So let's tell it all. Properly. No more secrets.
 
-**DONALD:** I'll go first. I broke it for a girl with a red pen. Best thing I ever broke.
+**DONALD:** I'll go first. *(He takes a breath.)* There's a woman. Emma Reardon. A girl with a red pen who told me my report was the problem. I've been hiding her from you both for months. *(beat)* Best thing I ever broke.
+
+**MICHAEL:** *(grinning)* Size thirty-eight heel.
+
+**DONALD:** *(pointing at him)* Script Supervisor!
+
+**GEOFFREY:** *(quietly)* I knew about both of you. For months.
 
 **MICHAEL:** I broke it for a writer who sat in my chair and told me I was in her story. *(beat)* She was right.
 
 **GEOFFREY:** I broke it for a woman who called my father a thief. *(beat)* She was right too.
 
-*They laugh, really laugh, for the first time in months.*
+*They burst out laughing, three liars caught at once, and really laugh for the first time in months.*
 
 **DONALD:** We made that vow as hungry boys in grown men's suits. So afraid of losing anything, we promised never to have anything worth losing.
 
@@ -1016,7 +1038,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 38 — THE NEW VOW
 **EXT. THE OLD AJEGUNLE ROOFTOP — SUNSET — SIX MONTHS LATER**
-*(~30:35 — END)*
+*(~31:34 — END)*
 
 *Quick flashes first. Geoffrey and Olivia's wedding, with Mr. Lawal walking Olivia down the aisle and Mrs. Durose crying in the front row. Michael kneeling to Sophia on Badagry beach as she screams "YES!". Donald and Emma carrying boxes into their new home, laughing.*
 
