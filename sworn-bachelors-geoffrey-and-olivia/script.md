@@ -36,7 +36,8 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 - **The slap.** Olivia's first scar, and Geoffrey's first doubt about his father.
 - **The shoes.** Geoffrey walks barefoot so Olivia can walk home.
 - **"Still sworn."** Geoffrey keeps saying it long after it stops being true.
-- **The gun.** Jacob's "toxic habit". He made Geoffrey learn to shoot as a boy, and it saves Olivia's life.
+- **The walking stick.** Jacob's heavy carved walking stick, and his saying: "A Durose must protect what is his." Geoffrey uses it to save Olivia from the huge dog.
+- **Two certificates.** The forged one says 100% Durose. The real one, signed the week Elias died, says 60% Hart and 40% Durose. Both children were wrong, because both fathers lied.
 
 ---
 
@@ -652,7 +653,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 24 — MR. LAWAL
 **INT. AGODI CORRECTIONAL CENTRE — VISITING ROOM — NEXT MORNING**
-*(~18:20–19:39)*
+*(~18:20–19:48)*
 
 *Olivia sits alone at a scratched table. The door opens behind her, and she turns. It's Geoffrey, pale, bruised and leaning on the door frame.*
 
@@ -688,13 +689,13 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 *A long, long silence. Then Mr. Lawal places a trembling hand on Geoffrey's head, like a blessing.*
 
-**MR. LAWAL:** *(crying)* You're not your father, my son. *(beat)* Listen. He never destroyed the real documents. Too proud. Look where he kept his guns.
+**MR. LAWAL:** *(crying)* You're not your father, my son. *(beat)* Listen. Elias told me he'd finally make Jacob a partner, but I never saw the paper. And Jacob never destroyed anything. Too proud. Look in the old cabinet at his lodge in the Ogun forest.
 
 ---
 
 ## SCENE 25 — A KISS ON THE CHEEK
 **EXT. PRISON CAR PARK — DAY**
-*(~19:39–20:18)*
+*(~19:48–20:26)*
 
 *Olivia helps Geoffrey toward the SUV. She is shaking with emotion.*
 
@@ -718,7 +719,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 26 — "THE WAY YOU LOOK AT HIM"
 **EXT. AGODI CORRECTIONAL CENTRE — GATE — EVENING — TWO DAYS LATER**
-*(~20:18–20:59)*
+*(~20:26–21:07)*
 
 *The gate opens. Mr. Lawal walks out in new clothes and blinks at the sky. Olivia and Barrister Okonkwo wait for him. He grabs Olivia's hands.*
 
@@ -736,7 +737,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 27 — THE INTRUDERS
 **INT. GEOFFREY'S HOUSE — DAY — ONE WEEK LATER**
-*(~20:59–22:20)*
+*(~21:07–22:28)*
 
 *Geoffrey, discharged and still bruised, unlocks his front door. Olivia is beside him, carrying his bag. She insisted on seeing him home safely. The door swings open. Donald and Michael are sitting in his living room.*
 
@@ -772,7 +773,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 28 — "WHAT VOW?"
 **INT. GEOFFREY'S HOUSE — CONTINUOUS**
-*(~22:20–23:16)*
+*(~22:28–23:25)*
 
 **OLIVIA:** *(quietly)* What vow, Geoffrey? What partnership? *(beat)* Tell me the truth.
 
@@ -798,7 +799,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 29 — MICHAEL COMES
 **INT. GEOFFREY'S HOUSE — NIGHT — DAYS LATER**
-*(~23:16–24:38)*
+*(~23:25–24:49)*
 
 *Curtains closed, food untouched. Geoffrey hasn't left the house in days. Michael lets himself in and sits beside him.*
 
@@ -820,163 +821,201 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 **MICHAEL:** Not yet. And don't you tell him. *(beat)* Donald is scared, Geoffrey. That's his wahala, not yours. Don't let his fear make your decisions. *(He stands.)* Where is Olivia right now?
 
-**GEOFFREY:** *(a sudden realisation)* …She said she'd look for the documents. Alone. At my father's lodge. *(He grabs his keys.)* Michael, my father kept his guns at the lodge.
+**GEOFFREY:** *(a sudden realisation)* …She said she'd look for the documents. Alone. At my father's lodge. *(He grabs his keys.)* Michael, that lodge has been empty for years. There are wild dogs in that forest.
 
 ---
 
 ## SCENE 30 — THE LODGE
-**EXT/INT. JACOB DUROSE'S HUNTING LODGE, OGUN FOREST — NIGHT**
-*(~24:38–24:48)*
+**EXT/INT. JACOB DUROSE'S LODGE, OGUN FOREST — NIGHT**
+*(~24:49–25:01)*
 
-*An old, abandoned lodge deep in the forest. Olivia pushes the creaking door open with a phone torch. Dust, animal heads on the walls and an old gun cabinet. She searches drawers and shelves. A low growl comes from the dark. She freezes. A huge, starving WILD DOG steps out from behind the sofa, teeth bared.*
+*An old, abandoned lodge deep in the forest, with dust everywhere. Olivia pushes the creaking door open with her phone torch. In the study, a tall old wooden cabinet stands in the corner. She pulls its doors open.*
+
+*A deep growl comes from the dark space beside the cabinet. A HUGE DOG, as big as a calf and starving, rises slowly, its teeth bared and its eyes shining in the torchlight.*
 
 **OLIVIA:** *(backing away, whispering)* No. No, no, no…
 
-*The dog lunges. Olivia screams and runs, through the corridor and out the back door into the trees, with the dog snarling right behind her.*
+*The dog lunges. Olivia screams and runs, through the corridor and out the back door into the trees, with the dog barking and snapping right behind her.*
 
-*Headlights sweep the trees as Geoffrey's car skids to a stop outside. He hears her scream and runs into the lodge, straight to the gun cabinet, and smashes the glass with his elbow.*
+*Headlights sweep the trees as Geoffrey's car skids to a stop outside. He hears her scream and runs into the lodge. By the door, in an old umbrella stand, is his father's heavy carved walking stick. He grabs it.*
 
-*Olivia trips on a root and falls hard. The dog leaps.*
+*Olivia trips on a root and falls hard. The dog leaps at her—*
 
-*BANG.*
+*Geoffrey jumps between them, swinging the heavy stick with a roar. CRACK. It slams into the ground right in front of the dog's face. He swings again and again, shouting and standing over her.*
 
-*The dog drops dead at her feet. Olivia screams again, then stares through the torchlight. Geoffrey stands there, breathing hard, holding his father's old rifle.*
+**GEOFFREY:** GET BACK! GET AWAY FROM HER!
+
+*The huge dog yelps, turns and runs off into the dark forest. Silence. Olivia stares up at Geoffrey, who is breathing hard with the walking stick still raised.*
 
 ---
 
-## SCENE 31 — AFTER THE GUNSHOT
+## SCENE 31 — AFTER THE CHASE
 **EXT. LODGE — BACK GARDEN — CONTINUOUS**
-*(~24:48–25:34)*
+*(~25:01–25:49)*
 
-*Geoffrey drops the rifle and runs to her. He pulls her up and checks her arms and face.*
+*Geoffrey drops the stick and kneels beside her. He checks her arms and her face.*
 
 **GEOFFREY:** Are you hurt? Did it bite you? Olivia, look at me!
 
-**OLIVIA:** *(shaking)* I'm okay. I'm okay. *(beat)* What are you doing here? *(She stares at the rifle on the grass.)* And since when do you know how to use a gun?
+**OLIVIA:** *(shaking)* I'm okay. I'm okay. *(beat)* What are you doing here? *(She looks at the stick on the grass.)* And since when are you a lion?
 
-**GEOFFREY:** *(quietly)* My father's toxic habit. Guns everywhere. At ten, he made me learn to shoot. *(beat)* I hated him for it. Tonight, for the first time, I'm glad.
+**GEOFFREY:** *(quietly, picking up the stick)* It's my father's. He used it every day of his old age. He always said, "A Durose must protect what is his." *(beat)* For once, I agree with him.
 
 **OLIVIA:** *(crying now)* I'm sorry. For walking out. For what I said.
 
 **GEOFFREY:** I'm sorry I was stupid enough to let you come here alone.
 
-*They look at each other in the moonlight. Slowly, they hold each other tight. They don't kiss. He kisses her forehead.*
+*He helps her up. They stand very close in the moonlight and look straight into each other's eyes for a long moment. Neither looks away. Then they hold each other in a tight, silent hug.*
 
 **GEOFFREY:** *(whispering)* I hope you're okay.
 
-**OLIVIA:** *(into his chest)* I am now. *(beat)* Let's find those documents.
+**OLIVIA:** *(against his shoulder)* I am now. *(beat)* The cabinet. Whatever your father hid, it's in that cabinet.
 
 ---
 
 ## SCENE 32 — THE TRUTH
 **INT. LODGE — STUDY — NIGHT**
-*(~25:34–27:01)*
+*(~25:49–27:42)*
 
-*Behind the smashed gun cabinet, Geoffrey finds a hidden steel box. Inside are the ORIGINAL certificate, "DUROSE HOLDINGS — 1996 — FOUNDER: ELIAS HART", and an old VHS tape labelled in Jacob's handwriting: "FOR GEOFFREY. WHEN I'M GONE."*
+*At the bottom of the old wooden cabinet, Geoffrey pulls up a loose wooden panel. Underneath is a steel box. Inside are two papers and an old VHS tape labelled in Jacob's handwriting: "FOR GEOFFREY. WHEN I'M GONE."*
 
 *They play it on an old TV and VCR in the corner. JACOB DUROSE, older and tired, sits in this same room and speaks to the camera.*
 
-**JACOB DUROSE (ON TAPE):** Geoffrey. If you're watching this, you've found the truth. *(beat)* Elias Hart owned this company. I was his clerk for fifteen years. I missed your birthdays for him. Every December he promised me shares, and every December he gave me nothing. He wrote "partners" on a photograph and laughed when I asked for it in writing.
+**JACOB DUROSE (ON TAPE):** Geoffrey. If you're watching this, you've found the truth. *(beat)* Elias Hart owned this company. I was his clerk for fifteen years. I missed your birthdays for him. Every December he promised me shares, and every December he gave me nothing.
+
+**JACOB DUROSE (ON TAPE):** When his heart failed at his desk, I didn't kill him, my son. God is my witness. But I felt cheated. Fifteen years, and not a kobo. So that same night, I changed the papers. I made it one hundred percent Durose, as if it had always been mine. When his assistant tried to stop me, I sent an innocent man to prison. And once, I slapped a little girl who saw me.
 
 *Olivia's hand goes to her mouth.*
 
-**JACOB DUROSE (ON TAPE):** When his heart failed at his desk, I didn't kill him, my son. God is my witness. But that night, I took what he never gave me. I changed the papers. And when his assistant tried to stop me, I sent an innocent man to prison. *(His voice breaks.)* And once I slapped a little girl who saw me. I've never forgiven myself for that.
+**JACOB DUROSE (ON TAPE):** *(holding up a paper to the camera)* Then, weeks later, clearing his desk, I found this. A new certificate. Signed by Elias the week he died. Sixty percent Hart. Forty percent Durose. *(His voice breaks.)* He'd finally had a change of heart. He was going to give me forty percent. He just never lived to tell me.
 
-*Geoffrey is crying silently. Olivia takes his hand.*
+**JACOB DUROSE (ON TAPE):** I stole sixty percent from a man who had finally decided to be fair. And I was too proud and too ashamed to undo it. *(beat)* I gave you everything, Geoffrey. Except the truth. I'm sorry.
 
-**JACOB DUROSE (ON TAPE):** I gave you everything, Geoffrey. Except the truth. I'm sorry.
+*The tape crackles to static. Geoffrey lifts the two papers out of the box. One is the real certificate: "ELIAS HART — 60% · JACOB DUROSE — 40%", with Elias's signature. Under it is a copy of the forged certificate: "JACOB DUROSE — 100%".*
 
-*The tape crackles to static. A long silence.*
+**OLIVIA:** *(very softly)* Sixty, forty. *(beat)* So Papa did mean to give him something.
 
-**OLIVIA:** *(very softly)* I knew Papa was hard. I didn't know he was cruel. *(to Geoffrey)* I'm sorry for what my father did to yours.
+**GEOFFREY:** And my father had a right to forty percent. Not a hundred.
 
-**GEOFFREY:** And I'm sorry for what mine did to you. *(He looks at the certificate.)* The company is yours. I'll sign it over.
+**OLIVIA:** We were both wrong, Geoffrey. You thought it was all yours. I thought your father had no right to anything.
 
-**OLIVIA:** *(shaking her head)* I don't need it, Geoffrey. I have more than I can spend. *(beat)* I only wanted the truth. And now I know.
+**GEOFFREY:** *(staring at the two papers)* Our fathers lied to us from both sides.
 
 ---
 
-## SCENE 33 — "I ONLY WANT YOU"
+## SCENE 33 — SEVENTY, THIRTY
 **INT. LODGE — STUDY — CONTINUOUS**
-*(~27:01–27:49)*
+*(~27:42–29:43)*
 
-**GEOFFREY:** *(standing, facing her)* Then keep it or burn it. I don't want the company either.
+*Dawn light creeps through the dusty window. They sit on the floor beside the cabinet with the real certificate between them.*
 
-**OLIVIA:** What do you want?
+**OLIVIA:** So legally, sixty percent of Durose Holdings belongs to the Hart family. To me.
 
-**GEOFFREY:** I want you.
+**GEOFFREY:** Sixty percent of the company as it was in 1996. Two offices and four trucks. *(beat)* I've run it for twelve years, Olivia. It's forty times bigger now. My sweat is in it. My brothers' money is in it. Hundreds of families eat from it.
 
-*She stares at him.*
+**OLIVIA:** And my father's name was scraped off it.
 
-**OLIVIA:** What do you mean by that?
+**GEOFFREY:** I know. And I won't defend that. But I won't pretend I didn't build it either.
 
-**GEOFFREY:** What do you think I mean? *(beat)* Tell me you don't see what I see. We grew up in the same lies, Olivia. You're the first true thing I've ever found.
+**OLIVIA:** *(folding her arms)* Fifty-fifty.
+
+**GEOFFREY:** Eighty-twenty.
+
+**OLIVIA:** *(laughing in disbelief)* Eighty? Your father forged it!
+
+**GEOFFREY:** And I didn't. *(beat)* Seventy-thirty. Seventy for the man who built it into what it is today. Thirty for the man who started it. And his name goes back on the gate, beside my father's.
+
+*She studies him for a long time.*
+
+**OLIVIA:** Seventy-thirty. *(beat)* And Hart goes first on the gate.
+
+**GEOFFREY:** *(after a beat, smiling)* …Hart and Durose.
+
+*They shake hands. Then she doesn't let go of his hand.*
+
+**OLIVIA:** And my thirty percent, I don't want it.
+
+**GEOFFREY:** What?
+
+**OLIVIA:** I have more than I can spend. My thirty percent goes to charity. The Elias Hart Foundation, for children who grew up like you did in Ajegunle. *(beat)* And it looks after Mr. Lawal for the rest of his life. Twenty-two years. It's the least my father's name owes him.
+
+*Geoffrey looks at her, deeply moved.*
+
+**GEOFFREY:** We've settled the company. *(beat)* But there's one thing I can't put a percentage on.
+
+**OLIVIA:** What?
+
+**GEOFFREY:** You. *(beat)* Tell me you don't see what I see. We grew up in the same lies, Olivia. You're the first true thing I've ever found.
 
 **OLIVIA:** *(tears falling)* You don't mean it. You made a vow.
 
-**GEOFFREY:** I don't care about any vow. *(beat)* I'd walk out of the company. I'd walk barefoot from here to Lagos. *(softly)* I mean it with everything I have.
+**GEOFFREY:** I don't care about any vow. *(beat)* I'd walk barefoot from here to Lagos. *(softly)* I mean it with everything I have.
 
 **OLIVIA:** *(whispering)* You mean that?
 
 **GEOFFREY:** Yes.
 
-*She walks into his arms. They hold each other. Slowly, their faces come closer and closer. The old TV's static glow flickers and fades to black.*
+*They look straight into each other's eyes for a long, quiet moment, with no words left. Then she walks into his arms, and they hold each other tight as the sun comes up through the dusty window.*
 
 ---
 
-## SCENE 34 — THE RESIGNATION
+## SCENE 34 — THE PROMISE KEPT
 **INT. THREE BOYS VENTURES — BOARDROOM — DAY**
-*(~27:49–29:08)*
+*(~29:43–30:59)*
 
 *Donald sits at the head of the table and Michael on the side. Geoffrey walks in, calm, with a leather folder. Donald stands.*
 
 **DONALD:** I hope you've come with good news.
 
-**GEOFFREY:** I have. *(He sits.)* I couldn't prove the company was my father's, because it wasn't. Elias Hart founded it. My father forged the papers and jailed an innocent man. *(beat)* Olivia doesn't want the company. So it will carry its true founder's name, and every naira I made from it goes to the Elias Hart Foundation and to Mr. Lawal.
+**GEOFFREY:** I have. I promised you I'd get the company back. *(He slides the folder across.)* The court has lifted the seal. The banks have unfrozen us. Every naira you two put in is safe.
 
-**DONALD:** *(stunned)* That's your entire fortune.
+**MICHAEL:** *(jumping up)* GEOFFREY! *(He grabs him in a hug.)* I knew it!
 
-**GEOFFREY:** It was never my fortune. *(beat)* And I broke the vow. I'm in love with Olivia Hart. *(He slides a signed document across.)* My resignation from the partnership. My shares are yours, Donald. *(He stands.)* Thank you, brothers. *(beat)* Michael, I think you know what you need to do too.
+**DONALD:** *(reading the papers, slowly)* Seventy percent Durose. Thirty percent Hart. *(He looks up.)* So the company wasn't all your father's.
 
-*He walks out. Donald stares at the paper.*
+**GEOFFREY:** No. Elias Hart founded it, and he'd meant to give my father forty percent before he died. My father took a hundred instead. *(beat)* Olivia and I agreed on seventy-thirty, for twelve years of my work. The company will be called Hart and Durose. And her thirty percent goes to charity, to the Elias Hart Foundation.
 
-**DONALD:** What… what just happened?
+**DONALD:** *(stunned)* She gave away thirty percent? Just like that?
 
-*Michael quietly takes an envelope from his jacket and puts it on the table.*
+**GEOFFREY:** She only ever wanted the truth, Donald. You thought she wanted to get to us. She didn't.
 
-**MICHAEL:** I'm sorry, Donald. I've chased deals my whole life. But I'm in love with her. Sophia. She makes me feel like more than my next deal. *(beat)* I'm stepping out too. I want to make films and come home on time.
+*Donald looks down, ashamed, and says nothing.*
 
-**DONALD:** *(barely a whisper)* Sophia. Script Supervisor.
+**GEOFFREY:** And one more thing. *(He takes a breath.)* I broke the vow. I'm in love with Olivia Hart.
 
-*He walks out. Donald sits alone at the long table with two resignation letters and the whole empire.*
+*Silence. Michael grins. Donald slowly closes the folder, stands, and walks out of the boardroom without a word.*
 
-**DONALD:** *(to the empty room)* …Do you think I wanted to own all of this alone?
+**MICHAEL:** *(calling after him)* Donald! *(beat; to Geoffrey, softly)* Give him time. He's not fighting you, brother. He's fighting himself.
 
 ---
 
-## SCENE 35 — A NEW KIND OF RICH
+## SCENE 35 — HART & DUROSE
 **MONTAGE — LAGOS — WEEKS LATER**
-*(~29:08–29:36)*
+*(~30:59–31:29)*
 
 *Michael and Sophia on the beach at Badagry, laughing as she reads him a new script and he actually listens.*
 
-*Hartwell Group offices. Geoffrey, with no company and no fortune, works at a desk across from Olivia's glass office. He opens doors for her, carries her files and brings her amala on Fridays. Colleagues whisper and smile.*
+*The headquarters gate in Ikoyi. Workers lift a huge new sign into place: "HART & DUROSE HOLDINGS — FOUNDED 1996 BY ELIAS HART & JACOB DUROSE." Staff clap. Mr. Lawal, in a new suit, wipes his eyes. Mrs. Durose holds Olivia's hand. Geoffrey cuts the ribbon, still the boss and still running the company he built.*
 
-**AMAKA:** *(Olivia's PA, leaning on her desk)* Madam, I see the way you look at him. Like he hung the moon.
+*Inside, a big cheque reads "THE ELIAS HART FOUNDATION — 30% OF HART & DUROSE HOLDINGS." Olivia signs it with a smile.*
 
-**OLIVIA:** *(not looking up, smiling)* You know I do, Amaka.
+*Days later, Olivia visits the office. Geoffrey opens every door for her and brings her amala on Fridays. Colleagues whisper and smile.*
 
-*EXT. LAGOON — SUNSET. A small boat, an island and a table for two. Geoffrey kneels on the sand with a simple ring.*
+**AMAKA:** *(Olivia's PA, leaning in)* Madam, I see the way you look at him. Like he hung the moon.
 
-**GEOFFREY:** I have no company. No fortune. Only my word, which I promise will never be a lie. *(beat)* Olivia Hart, will you marry me?
+**OLIVIA:** *(smiling)* You know I do, Amaka.
+
+*EXT. LAGOON — SUNSET. A small boat, Olivia's island and a table for two. Geoffrey kneels on the sand with a simple ring.*
+
+**GEOFFREY:** Our fathers gave us a company full of lies. I want to give you a home full of truth. *(beat)* Olivia Hart, will you marry me?
 
 **OLIVIA:** *(laughing and crying)* On my own island? Yes. Yes!
 
 ---
 
 ## SCENE 36 — THE KNOCK
-**INT. GEOFFREY'S SMALL NEW APARTMENT — NIGHT**
-*(~29:36–30:00)*
+**INT. GEOFFREY'S HOUSE, BANANA ISLAND — NIGHT**
+*(~31:29–31:52)*
 
 *Geoffrey and Olivia are on the sofa watching TV, her feet in his lap. A knock. Geoffrey opens the door. It's Donald, alone and nervous.*
 
@@ -998,15 +1037,15 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 37 — CHEERS TO A NEW CHAPTER
 **INT. THREE BOYS VENTURES — BOARDROOM — NEXT DAY**
-*(~30:00–31:34)*
+*(~31:52–33:28)*
 
-*Three chairs and three glasses. Donald slides two folders across the table.*
+*Three chairs and three glasses. Donald pours the drinks himself, something he has never done.*
 
-**DONALD:** Your shares. I'm not buying them. I'm giving them back. *(beat)* And I owe you an apology, Geoffrey. What I said to Olivia, I'll be ashamed of forever.
+**DONALD:** I walked out on you, Geoffrey. When you kept your promise and saved all of us. *(beat)* And I owe you an apology. What I said to Olivia, I'll be ashamed of forever.
 
 **GEOFFREY:** *(quietly)* You were scared.
 
-**DONALD:** I was controlling. That's what I do when I'm scared. It took losing my brothers to hear it.
+**DONALD:** I was controlling. That's what I do when I'm scared. It took nearly losing my brothers to hear it.
 
 **MICHAEL:** So let's tell it all. Properly. No more secrets.
 
@@ -1038,7 +1077,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ## SCENE 38 — THE NEW VOW
 **EXT. THE OLD AJEGUNLE ROOFTOP — SUNSET — SIX MONTHS LATER**
-*(~31:34 — END)*
+*(~33:28 — END)*
 
 *Quick flashes first. Geoffrey and Olivia's wedding, with Mr. Lawal walking Olivia down the aisle and Mrs. Durose crying in the front row. Michael kneeling to Sophia on Badagry beach as she screams "YES!". Donald and Emma carrying boxes into their new home, laughing.*
 
