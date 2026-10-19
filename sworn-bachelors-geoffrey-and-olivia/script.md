@@ -333,7 +333,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 **GEOFFREY:** *(quietly)* They're my brothers. That's just how they talk.
 
-**OLIVIA:** *(looking at him)* That's not an answer.
+**OLIVIA:** *(quietly)* That's not an answer.
 
 ---
 
@@ -385,7 +385,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 **OLIVIA:** We grew up in two houses full of lies, Geoffrey. Different houses. Same lies.
 
-*They look at each other for a long moment, a little too long.*
+*A comfortable silence falls between them.*
 
 **GEOFFREY:** *(clearing his throat)* Would you… like to hang out some more? After this?
 
@@ -415,7 +415,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 **GEOFFREY:** *(standing barefoot on the road, holding her heels)* I grew up in Ajegunle. My feet remember.
 
-*They walk on. She shuffles in his giant shoes, laughing. He walks barefoot beside her, carrying her heels. Every few steps, she looks at him.*
+*They walk on. She shuffles in his giant shoes, laughing. He walks barefoot beside her, carrying her heels. She can't stop smiling.*
 
 ---
 
@@ -575,7 +575,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 *The gate opens. Geoffrey limps out, bruised and filthy, and still barefoot. Olivia runs to him. Uncle Rotimi stands by the cars.*
 
-**OLIVIA:** *(touching his swollen face)* Look what they did to you. Look what I did to you.
+**OLIVIA:** *(rushing to him)* Look what they did to you. Look what I did to you.
 
 **GEOFFREY:** *(weakly smiling)* You didn't do anything. *(beat)* Did he touch you again? After I was gone?
 
@@ -623,7 +623,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 **GEOFFREY:** You didn't. *(beat)* My father taught me many wrong things. My mother taught me one right one: a man doesn't stand there while a woman is touched against her will. *(beat)* I'd do it again.
 
-*She looks at him, and her eyes fill up.*
+*Her eyes fill up. She squeezes his hand.*
 
 ---
 
@@ -673,7 +673,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 **MR. LAWAL:** Olivia? Little Olivia? *(He reaches for her hands.)* You've grown. You've grown so much. *(urgently)* Tell me you took your father's company back from that wicked man. Tell me you did it.
 
-*Olivia and Geoffrey look at each other.*
+*Olivia and Geoffrey freeze.*
 
 **OLIVIA:** Which wicked man, sir?
 
@@ -693,7 +693,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 ---
 
-## SCENE 25 — A KISS ON THE CHEEK
+## SCENE 25 — A HUG IN THE CAR PARK
 **EXT. PRISON CAR PARK — DAY**
 *(~19:48–20:26)*
 
@@ -709,15 +709,15 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 **OLIVIA:** Your company matters, Geoffrey. Your father's name matters. But your life comes first.
 
-*Then, without warning, she leans up and kisses his cheek, quickly and softly. She gets into the car before he can react.*
+*Then, without warning, she wraps her arms around him in a quick, tight hug. She lets go and gets into the car before he can react.*
 
-*Geoffrey stands frozen in the car park with his hand on his cheek.*
+*Geoffrey stands frozen in the car park, still feeling the hug.*
 
 **GEOFFREY:** *(whispering to himself)* Have I found my lady?
 
 ---
 
-## SCENE 26 — "THE WAY YOU LOOK AT HIM"
+## SCENE 26 — "THE WAY YOU CARE FOR HIM"
 **EXT. AGODI CORRECTIONAL CENTRE — GATE — EVENING — TWO DAYS LATER**
 *(~20:26–21:07)*
 
@@ -731,7 +731,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 **OLIVIA:** *(too fast)* What do you mean?
 
-**MR. LAWAL:** I'm an old man. I've been in a cell for twenty-two years. But I'm not blind. *(beat)* The way you two look at each other. That's not business. *(He pats her hand.)* Go to him. Life is too short to stay in prison by choice.
+**MR. LAWAL:** I'm an old man. I've been in a cell for twenty-two years. But I'm not blind. *(beat)* The way you two care for each other. That's not business. *(He pats her hand.)* Go to him. Life is too short to stay in prison by choice.
 
 ---
 
@@ -845,7 +845,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 **GEOFFREY:** GET BACK! GET AWAY FROM HER!
 
-*The huge dog yelps, turns and runs off into the dark forest. Silence. Olivia stares up at Geoffrey, who is breathing hard with the walking stick still raised.*
+*The huge dog yelps, turns and runs off into the dark forest. Silence. Olivia lies on the ground, shaking. Geoffrey stands over her, breathing hard, with the walking stick still raised.*
 
 ---
 
@@ -855,7 +855,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 *Geoffrey drops the stick and kneels beside her. He checks her arms and her face.*
 
-**GEOFFREY:** Are you hurt? Did it bite you? Olivia, look at me!
+**GEOFFREY:** Are you hurt? Did it bite you? Olivia, talk to me!
 
 **OLIVIA:** *(shaking)* I'm okay. I'm okay. *(beat)* What are you doing here? *(She looks at the stick on the grass.)* And since when are you a lion?
 
@@ -865,7 +865,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 **GEOFFREY:** I'm sorry I was stupid enough to let you come here alone.
 
-*He helps her up. They stand very close in the moonlight and look straight into each other's eyes for a long moment. Neither looks away. Then they hold each other in a tight, silent hug.*
+*He helps her up. Without a word, they hold each other in a tight, silent hug in the moonlight.*
 
 **GEOFFREY:** *(whispering)* I hope you're okay.
 
@@ -925,7 +925,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 **GEOFFREY:** And I didn't. *(beat)* Seventy-thirty. Seventy for the man who built it into what it is today. Thirty for the man who started it. And his name goes back on the gate, beside my father's.
 
-*She studies him for a long time.*
+*She thinks about it for a long time.*
 
 **OLIVIA:** Seventy-thirty. *(beat)* And Hart goes first on the gate.
 
@@ -939,7 +939,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 **OLIVIA:** I have more than I can spend. My thirty percent goes to charity. The Elias Hart Foundation, for children who grew up like you did in Ajegunle. *(beat)* And it looks after Mr. Lawal for the rest of his life. Twenty-two years. It's the least my father's name owes him.
 
-*Geoffrey looks at her, deeply moved.*
+*Geoffrey is deeply moved.*
 
 **GEOFFREY:** We've settled the company. *(beat)* But there's one thing I can't put a percentage on.
 
@@ -955,7 +955,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 **GEOFFREY:** Yes.
 
-*They look straight into each other's eyes for a long, quiet moment, with no words left. Then she walks into his arms, and they hold each other tight as the sun comes up through the dusty window.*
+*No more words are needed. She walks into his arms, and they hold each other in a long, tight hug as the sun comes up through the dusty window.*
 
 ---
 
@@ -1001,7 +1001,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 *Days later, Olivia visits the office. Geoffrey opens every door for her and brings her amala on Fridays. Colleagues whisper and smile.*
 
-**AMAKA:** *(Olivia's PA, leaning in)* Madam, I see the way you look at him. Like he hung the moon.
+**AMAKA:** *(Olivia's PA, leaning in)* Madam, I see the way you care for him. Like he hung the moon.
 
 **OLIVIA:** *(smiling)* You know I do, Amaka.
 
@@ -1097,7 +1097,7 @@ Geoffrey has always been the rich one. When his father, **Jacob Durose**, sudden
 
 **ALL THREE:** Sworn.
 
-*Three glasses clink. Behind them, the three women cheer. Olivia catches Geoffrey's eye and smiles.*
+*Three glasses clink. Behind them, the three women cheer. Olivia runs to Geoffrey and hugs him tight.*
 
 *The camera rises slowly from the rooftop, over the zinc roofs of Ajegunle, over the lagoon and up into the golden Lagos sky.*
 
