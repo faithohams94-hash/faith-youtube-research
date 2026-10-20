@@ -238,4 +238,4 @@ They'll get the math wrong.
 
 And the people worth keeping are the ones who learn to say it right.
 
-Final word count: 2791
+Final word count: 2,791
