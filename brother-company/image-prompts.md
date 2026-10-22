@@ -1,6 +1,6 @@
 # POV: You Work for Your Younger Brother — Production Prompts (5-second beats)
 
-183 beats · 9 chapters · ~15 min · ~5.0s per beat
+183 beats · 9 chapters · ~16 min · ~5.2s per beat
 
 ## Step 1: Character prompts (generate these first)
 
@@ -69,7 +69,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Chapter 1: The All-Hands
 *Age 40 · "Danny gave him a job."*
 
-### Beat 1 · 00:00 (~6.2s)
+### Beat 1 · 00:00 (~5.5s)
 
 **Characters:** The Protagonist
 
@@ -82,7 +82,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** quiet, isolated
 - **Action:** leaning against the back wall
 
-### Beat 2 · 00:06 (~6.2s)
+### Beat 2 · 00:05 (~5.2s)
 
 **Characters:** The Protagonist
 
@@ -95,7 +95,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** detached
 - **Action:** holding the coffee
 
-### Beat 3 · 00:12 (~5.4s)
+### Beat 3 · 00:10 (~6.1s)
 
 **Characters:** Danny
 
@@ -108,7 +108,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** corporate, expectant
 - **Action:** tapping the microphone
 
-### Beat 4 · 00:17 (~5.4s)
+### Beat 4 · 00:16 (~6.6s)
 
 **Characters:** Danny
 
@@ -121,7 +121,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** polished, charismatic
 - **Action:** smiling at the crowd
 
-### Beat 5 · 00:23 (~5.4s)
+### Beat 5 · 00:23 (~7.8s)
 
 **Characters:** The Protagonist
 
@@ -134,7 +134,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** diminished
 - **Action:** the badge hanging still
 
-### Beat 6 · 00:28 (~4.7s)
+### Beat 6 · 00:31 (~4.8s)
 
 **Characters:** The Protagonist
 
@@ -147,7 +147,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** small, overlooked
 - **Action:** glancing at the badge
 
-### Beat 7 · 00:33 (~4.7s)
+### Beat 7 · 00:36 (~4.9s)
 
 **Characters:** The Protagonist, Danny
 
@@ -160,7 +160,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** rehearsed, ironic
 - **Action:** mouthing along
 
-### Beat 8 · 00:38 (~4.7s)
+### Beat 8 · 00:40 (~5.8s)
 
 **Characters:** Danny
 
@@ -173,7 +173,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** mythologized
 - **Action:** the photo glowing on screen
 
-### Beat 9 · 00:42 (~4.7s)
+### Beat 9 · 00:46 (~5.3s)
 
 **Characters:** Danny
 
@@ -186,7 +186,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** dramatic, self-made
 - **Action:** hand on chest
 
-### Beat 10 · 00:47 (~5.0s)
+### Beat 10 · 00:52 (~6.8s)
 
 **Characters:** The Protagonist
 
@@ -199,7 +199,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** hollow, isolating
 - **Action:** everyone clapping except him
 
-### Beat 11 · 00:52 (~6.2s)
+### Beat 11 · 00:58 (~4.5s)
 
 **Characters:** The Protagonist, The New Hire, The Whispering Coworker
 
@@ -212,7 +212,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** gossipy
 - **Action:** leaning in to whisper
 
-### Beat 12 · 00:58 (~5.4s)
+### Beat 12 · 01:03 (~5.3s)
 
 **Characters:** The Protagonist, The New Hire, The Whispering Coworker
 
@@ -225,7 +225,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** condescending
 - **Action:** whispering
 
-### Beat 13 · 01:04 (~4.7s)
+### Beat 13 · 01:08 (~6.0s)
 
 **Characters:** The Protagonist
 
@@ -238,7 +238,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** stoic
 - **Action:** sipping cold coffee
 
-### Beat 14 · 01:08 (~5.8s)
+### Beat 14 · 01:14 (~5.3s)
 
 **Characters:** The Protagonist
 
@@ -251,7 +251,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** secret
 - **Action:** pulling the wallet open
 
-### Beat 15 · 01:14 (~4.3s)
+### Beat 15 · 01:19 (~3.9s)
 
 **Characters:** The Protagonist
 
@@ -264,7 +264,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** precious, hidden
 - **Action:** holding the square
 
-### Beat 16 · 01:18 (~5.0s)
+### Beat 16 · 01:23 (~6.5s)
 
 **Characters:** None (environment or insert shot)
 
@@ -277,7 +277,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** revealing
 - **Action:** the stub lit softly
 
-### Beat 17 · 01:23 (~5.4s)
+### Beat 17 · 01:30 (~5.5s)
 
 **Characters:** None (environment or insert shot)
 
@@ -290,7 +290,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** oblivious
 - **Action:** everyone facing the stage
 
-### Beat 18 · 01:29 (~6.2s)
+### Beat 18 · 01:35 (~7.9s)
 
 **Characters:** The Protagonist, Danny, Dad, Kelsey
 
@@ -303,7 +303,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** secret, uncertain
 - **Action:** Danny's eyes flicking to his brother
 
-### Beat 19 · 01:35 (~4.3s)
+### Beat 19 · 01:43 (~4.2s)
 
 **Characters:** The Protagonist
 
@@ -316,7 +316,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** introspective
 - **Action:** standing still
 
-### Beat 20 · 01:39 (~5.0s)
+### Beat 20 · 01:48 (~5.1s)
 
 **Characters:** The Protagonist
 
@@ -329,7 +329,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** judged
 - **Action:** ignoring the labels
 
-### Beat 21 · 01:44 (~5.8s)
+### Beat 21 · 01:53 (~5.4s)
 
 **Characters:** The Protagonist
 
@@ -342,7 +342,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** restrained
 - **Action:** zipping his lips
 
-### Beat 22 · 01:50 (~6.2s)
+### Beat 22 · 01:58 (~4.8s)
 
 **Characters:** The Protagonist
 
@@ -355,7 +355,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** hidden power
 - **Action:** the slice glowing
 
-### Beat 23 · 01:56 (~3.5s)
+### Beat 23 · 02:03 (~4.4s)
 
 **Characters:** The Protagonist
 
@@ -371,7 +371,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Chapter 2: The Check
 *Age 28 · $38,400 and one condition*
 
-### Beat 24 · 02:00 (~5.0s)
+### Beat 24 · 02:07 (~5.0s)
 
 **Characters:** The Protagonist
 
@@ -384,7 +384,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** steady, modest
 - **Action:** sitting upright
 
-### Beat 25 · 02:05 (~4.3s)
+### Beat 25 · 02:12 (~6.3s)
 
 **Characters:** None (environment or insert shot)
 
@@ -397,7 +397,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** modest pride
 - **Action:** the nameplate catching light
 
-### Beat 26 · 02:09 (~5.0s)
+### Beat 26 · 02:19 (~5.5s)
 
 **Characters:** The Protagonist
 
@@ -410,7 +410,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** disciplined
 - **Action:** dropping money in the jar
 
-### Beat 27 · 02:14 (~4.7s)
+### Beat 27 · 02:24 (~7.3s)
 
 **Characters:** None (environment or insert shot)
 
@@ -423,7 +423,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** sacrifice
 - **Action:** thumb on the balance
 
-### Beat 28 · 02:19 (~3.5s)
+### Beat 28 · 02:31 (~3.3s)
 
 **Characters:** The Protagonist
 
@@ -436,7 +436,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** hopeful
 - **Action:** holding the listing
 
-### Beat 29 · 02:22 (~5.0s)
+### Beat 29 · 02:35 (~3.2s)
 
 **Characters:** The Protagonist, Dad
 
@@ -449,7 +449,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** reserved pride
 - **Action:** a firm nod
 
-### Beat 30 · 02:27 (~5.4s)
+### Beat 30 · 02:38 (~5.3s)
 
 **Characters:** The Protagonist, Dad
 
@@ -462,7 +462,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** predictable approval
 - **Action:** a pat on the shoulder
 
-### Beat 31 · 02:33 (~5.8s)
+### Beat 31 · 02:43 (~7.1s)
 
 **Characters:** Young Danny
 
@@ -475,7 +475,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** reckless, charming
 - **Action:** shrugging
 
-### Beat 32 · 02:39 (~6.2s)
+### Beat 32 · 02:50 (~5.5s)
 
 **Characters:** Young Danny, Dad
 
@@ -488,7 +488,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** dismissive
 - **Action:** the stamp coming down
 
-### Beat 33 · 02:45 (~6.2s)
+### Beat 33 · 02:56 (~6.8s)
 
 **Characters:** Young Danny
 
@@ -501,7 +501,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** scrappy, determined
 - **Action:** typing intensely
 
-### Beat 34 · 02:51 (~5.4s)
+### Beat 34 · 03:03 (~5.5s)
 
 **Characters:** None (environment or insert shot)
 
@@ -514,7 +514,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** humble beginnings
 - **Action:** the cord running across the floor
 
-### Beat 35 · 02:57 (~5.4s)
+### Beat 35 · 03:08 (~5.9s)
 
 **Characters:** None (environment or insert shot)
 
@@ -527,7 +527,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** clever
 - **Action:** routes animating on screen
 
-### Beat 36 · 03:02 (~3.9s)
+### Beat 36 · 03:14 (~3.8s)
 
 **Characters:** The Protagonist, Young Danny
 
@@ -540,7 +540,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** eager
 - **Action:** showing the screen
 
-### Beat 37 · 03:06 (~4.7s)
+### Beat 37 · 03:18 (~4.8s)
 
 **Characters:** None (environment or insert shot)
 
@@ -553,7 +553,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** validating
 - **Action:** the baker smiling at the tablet
 
-### Beat 38 · 03:11 (~3.9s)
+### Beat 38 · 03:23 (~5.0s)
 
 **Characters:** None (environment or insert shot)
 
@@ -566,7 +566,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** growing
 - **Action:** signs lighting up one by one
 
-### Beat 39 · 03:14 (~4.3s)
+### Beat 39 · 03:28 (~4.8s)
 
 **Characters:** Young Danny
 
@@ -579,7 +579,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** ambitious, strapped
 - **Action:** tapping the whiteboard
 
-### Beat 40 · 03:19 (~5.8s)
+### Beat 40 · 03:33 (~4.8s)
 
 **Characters:** The Protagonist, Young Danny
 
@@ -592,7 +592,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** vulnerable trust
 - **Action:** asking quietly
 
-### Beat 41 · 03:25 (~5.0s)
+### Beat 41 · 03:37 (~4.0s)
 
 **Characters:** The Protagonist
 
@@ -605,7 +605,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** heavy decision
 - **Action:** staring at the screen
 
-### Beat 42 · 03:30 (~4.3s)
+### Beat 42 · 03:41 (~6.3s)
 
 **Characters:** None (environment or insert shot)
 
@@ -618,7 +618,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** weighty
 - **Action:** the number glowing
 
-### Beat 43 · 03:34 (~5.0s)
+### Beat 43 · 03:48 (~4.0s)
 
 **Characters:** The Protagonist, The Lawyer
 
@@ -631,7 +631,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** serious
 - **Action:** pen to paper
 
-### Beat 44 · 03:39 (~5.0s)
+### Beat 44 · 03:52 (~5.7s)
 
 **Characters:** None (environment or insert shot)
 
@@ -644,7 +644,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** binding
 - **Action:** the clause visible
 
-### Beat 45 · 03:44 (~5.0s)
+### Beat 45 · 03:57 (~5.5s)
 
 **Characters:** The Protagonist, The Lawyer
 
@@ -657,7 +657,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** resolute
 - **Action:** raising one finger
 
-### Beat 46 · 03:49 (~5.8s)
+### Beat 46 · 04:03 (~8.2s)
 
 **Characters:** The Protagonist, Young Danny
 
@@ -670,7 +670,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** secret pact
 - **Action:** finger to lips
 
-### Beat 47 · 03:55 (~5.4s)
+### Beat 47 · 04:11 (~5.4s)
 
 **Characters:** Young Danny
 
@@ -683,7 +683,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** confused
 - **Action:** staring
 
-### Beat 48 · 04:00 (~3.9s)
+### Beat 48 · 04:16 (~4.6s)
 
 **Characters:** The Protagonist
 
@@ -696,7 +696,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** unspoken
 - **Action:** turning away
 
-### Beat 49 · 04:04 (~5.4s)
+### Beat 49 · 04:21 (~4.2s)
 
 **Characters:** Young Danny, Dad
 
@@ -709,7 +709,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** painful memory
 - **Action:** the dismissive wave
 
-### Beat 50 · 04:10 (~5.0s)
+### Beat 50 · 04:25 (~5.7s)
 
 **Characters:** The Protagonist, Young Danny
 
@@ -722,7 +722,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** momentous
 - **Action:** pen moving
 
-### Beat 51 · 04:15 (~5.4s)
+### Beat 51 · 04:31 (~5.7s)
 
 **Characters:** The Protagonist
 
@@ -735,7 +735,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** calm, committed
 - **Action:** signing the check
 
-### Beat 52 · 04:20 (~5.4s)
+### Beat 52 · 04:36 (~4.6s)
 
 **Characters:** The Protagonist, Dad
 
@@ -748,7 +748,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** deceptive calm
 - **Action:** explaining casually
 
-### Beat 53 · 04:26 (~5.0s)
+### Beat 53 · 04:41 (~6.4s)
 
 **Characters:** Dad
 
@@ -764,7 +764,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Chapter 3: The Smart One
 *Ages 29–35 · The page on the refrigerator*
 
-### Beat 54 · 04:31 (~5.0s)
+### Beat 54 · 04:47 (~4.5s)
 
 **Characters:** The Protagonist, Danny
 
@@ -777,7 +777,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** shifting status
 - **Action:** the seesaw tilting
 
-### Beat 55 · 04:36 (~4.7s)
+### Beat 55 · 04:52 (~6.0s)
 
 **Characters:** Danny
 
@@ -790,7 +790,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** growth
 - **Action:** handshakes
 
-### Beat 56 · 04:40 (~4.7s)
+### Beat 56 · 04:58 (~7.8s)
 
 **Characters:** The Protagonist
 
@@ -803,7 +803,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** dilution, growth
 - **Action:** the slice shrinking
 
-### Beat 57 · 04:45 (~5.4s)
+### Beat 57 · 05:06 (~5.0s)
 
 **Characters:** Danny
 
@@ -816,7 +816,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** prestigious
 - **Action:** the magazine on the rack
 
-### Beat 58 · 04:50 (~5.8s)
+### Beat 58 · 05:11 (~4.7s)
 
 **Characters:** Danny
 
@@ -829,7 +829,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** triumphant
 - **Action:** the page displayed
 
-### Beat 59 · 04:56 (~5.0s)
+### Beat 59 · 05:15 (~5.3s)
 
 **Characters:** Dad
 
@@ -842,7 +842,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** proud
 - **Action:** pressing tape on the corners
 
-### Beat 60 · 05:01 (~5.8s)
+### Beat 60 · 05:21 (~5.7s)
 
 **Characters:** The Protagonist
 
@@ -855,7 +855,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** stagnant
 - **Action:** glancing at the fridge
 
-### Beat 61 · 05:07 (~5.0s)
+### Beat 61 · 05:26 (~8.1s)
 
 **Characters:** The Protagonist
 
@@ -868,7 +868,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** quietly unseen
 - **Action:** reading the letter
 
-### Beat 62 · 05:12 (~5.8s)
+### Beat 62 · 05:35 (~6.9s)
 
 **Characters:** Danny, Dad
 
@@ -881,7 +881,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** celebratory
 - **Action:** raising a glass
 
-### Beat 63 · 05:18 (~4.7s)
+### Beat 63 · 05:41 (~5.8s)
 
 **Characters:** The Protagonist, Dad
 
@@ -894,7 +894,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** uncomfortable
 - **Action:** everyone laughing
 
-### Beat 64 · 05:23 (~4.7s)
+### Beat 64 · 05:47 (~5.1s)
 
 **Characters:** The Protagonist, Dad
 
@@ -907,7 +907,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** patronizing
 - **Action:** turning to him
 
-### Beat 65 · 05:27 (~5.8s)
+### Beat 65 · 05:52 (~5.2s)
 
 **Characters:** The Protagonist, Dad
 
@@ -920,7 +920,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** tender, heavy
 - **Action:** the hand on his shoulder
 
-### Beat 66 · 05:33 (~4.7s)
+### Beat 66 · 05:57 (~4.2s)
 
 **Characters:** The Protagonist, Dad
 
@@ -933,7 +933,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** earnest worry
 - **Action:** leaning in
 
-### Beat 67 · 05:38 (~3.9s)
+### Beat 67 · 06:02 (~3.0s)
 
 **Characters:** Dad
 
@@ -946,7 +946,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** recurring wound
 - **Action:** the bubble appearing
 
-### Beat 68 · 05:42 (~3.1s)
+### Beat 68 · 06:05 (~4.3s)
 
 **Characters:** The Protagonist
 
@@ -962,7 +962,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Chapter 4: Operations
 *Age 36 · The desk by the supply closet*
 
-### Beat 69 · 05:45 (~6.2s)
+### Beat 69 · 06:09 (~5.9s)
 
 **Characters:** None (environment or insert shot)
 
@@ -975,7 +975,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** abrupt ending
 - **Action:** the sign hanging
 
-### Beat 70 · 05:51 (~4.3s)
+### Beat 70 · 06:15 (~3.0s)
 
 **Characters:** The Protagonist
 
@@ -988,7 +988,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** deflated
 - **Action:** holding the box
 
-### Beat 71 · 05:55 (~5.4s)
+### Beat 71 · 06:18 (~5.8s)
 
 **Characters:** The Protagonist, Danny
 
@@ -1001,7 +1001,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** surprised
 - **Action:** answering the phone
 
-### Beat 72 · 06:01 (~4.7s)
+### Beat 72 · 06:24 (~4.7s)
 
 **Characters:** The Protagonist, Danny
 
@@ -1014,7 +1014,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** tempting offer
 - **Action:** Danny gesturing confidently
 
-### Beat 73 · 06:05 (~3.5s)
+### Beat 73 · 06:28 (~3.1s)
 
 **Characters:** The Protagonist
 
@@ -1027,7 +1027,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** reluctant
 - **Action:** pausing
 
-### Beat 74 · 06:09 (~4.7s)
+### Beat 74 · 06:32 (~4.0s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1040,7 +1040,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** pressured
 - **Action:** the red circle
 
-### Beat 75 · 06:13 (~5.8s)
+### Beat 75 · 06:36 (~5.1s)
 
 **Characters:** The Protagonist
 
@@ -1053,7 +1053,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** curious, bittersweet
 - **Action:** stepping inside
 
-### Beat 76 · 06:19 (~3.9s)
+### Beat 76 · 06:41 (~6.1s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1066,7 +1066,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** modest
 - **Action:** the letter on the desk
 
-### Beat 77 · 06:23 (~4.7s)
+### Beat 77 · 06:47 (~4.2s)
 
 **Characters:** The Protagonist, Tyler
 
@@ -1079,7 +1079,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** awkward hierarchy
 - **Action:** shaking hands
 
-### Beat 78 · 06:28 (~4.7s)
+### Beat 78 · 06:51 (~4.6s)
 
 **Characters:** Tyler
 
@@ -1092,7 +1092,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** smug
 - **Action:** gesturing with the coffee
 
-### Beat 79 · 06:33 (~5.0s)
+### Beat 79 · 06:56 (~4.9s)
 
 **Characters:** The Protagonist, Tyler
 
@@ -1105,7 +1105,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** uncomfortable
 - **Action:** walking through the office
 
-### Beat 80 · 06:38 (~6.2s)
+### Beat 80 · 07:01 (~5.2s)
 
 **Characters:** Tyler
 
@@ -1118,7 +1118,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** demeaning
 - **Action:** pointing at the desk
 
-### Beat 81 · 06:44 (~5.8s)
+### Beat 81 · 07:06 (~4.9s)
 
 **Characters:** The Protagonist, Tyler
 
@@ -1131,7 +1131,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** condescending
 - **Action:** smiling knowingly
 
-### Beat 82 · 06:50 (~4.7s)
+### Beat 82 · 07:11 (~5.7s)
 
 **Characters:** The Protagonist, Tyler
 
@@ -1144,7 +1144,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** patronizing
 - **Action:** the pat
 
-### Beat 83 · 06:54 (~5.4s)
+### Beat 83 · 07:16 (~5.5s)
 
 **Characters:** The Protagonist
 
@@ -1157,7 +1157,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** excluded
 - **Action:** watching the meeting
 
-### Beat 84 · 07:00 (~3.5s)
+### Beat 84 · 07:22 (~3.0s)
 
 **Characters:** The Protagonist
 
@@ -1170,7 +1170,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** urgent, alone
 - **Action:** typing fast
 
-### Beat 85 · 07:03 (~3.9s)
+### Beat 85 · 07:25 (~3.5s)
 
 **Characters:** The Protagonist
 
@@ -1183,7 +1183,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** alarming
 - **Action:** answering
 
-### Beat 86 · 07:07 (~5.4s)
+### Beat 86 · 07:28 (~4.6s)
 
 **Characters:** The Protagonist
 
@@ -1196,7 +1196,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** drained victory
 - **Action:** rubbing his eyes
 
-### Beat 87 · 07:13 (~6.2s)
+### Beat 87 · 07:33 (~6.0s)
 
 **Characters:** Danny
 
@@ -1209,7 +1209,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** ironic
 - **Action:** the post appearing
 
-### Beat 88 · 07:19 (~4.7s)
+### Beat 88 · 07:39 (~6.3s)
 
 **Characters:** The Protagonist
 
@@ -1222,7 +1222,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** erased
 - **Action:** the likes counting up
 
-### Beat 89 · 07:23 (~5.0s)
+### Beat 89 · 07:45 (~6.0s)
 
 **Characters:** The Protagonist, Danny, Kelsey, The Client
 
@@ -1235,7 +1235,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** social
 - **Action:** Kelsey gesturing toward him
 
-### Beat 90 · 07:28 (~5.8s)
+### Beat 90 · 07:51 (~6.5s)
 
 **Characters:** Kelsey
 
@@ -1248,7 +1248,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** diminishing
 - **Action:** smiling
 
-### Beat 91 · 07:34 (~5.0s)
+### Beat 91 · 07:58 (~4.6s)
 
 **Characters:** The Protagonist, The Client
 
@@ -1261,7 +1261,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** pitying
 - **Action:** the handshake
 
-### Beat 92 · 07:39 (~4.7s)
+### Beat 92 · 08:02 (~4.6s)
 
 **Characters:** The Protagonist
 
@@ -1274,7 +1274,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** tempted
 - **Action:** holding back
 
-### Beat 93 · 07:44 (~5.4s)
+### Beat 93 · 08:07 (~5.5s)
 
 **Characters:** The Protagonist
 
@@ -1290,7 +1290,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Chapter 5: The Story He Believes
 *Age 37 · "Sometimes I forget it wasn't all me."*
 
-### Beat 94 · 07:49 (~5.4s)
+### Beat 94 · 08:13 (~6.2s)
 
 **Characters:** The Protagonist, Danny
 
@@ -1303,7 +1303,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** painful focus
 - **Action:** Danny laughing
 
-### Beat 95 · 07:55 (~5.0s)
+### Beat 95 · 08:19 (~5.0s)
 
 **Characters:** Danny
 
@@ -1316,7 +1316,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** self-deception
 - **Action:** staring at himself
 
-### Beat 96 · 08:00 (~5.8s)
+### Beat 96 · 08:24 (~4.1s)
 
 **Characters:** The Protagonist, Danny, Tyler
 
@@ -1329,7 +1329,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** humiliating
 - **Action:** handing the list
 
-### Beat 97 · 08:06 (~5.4s)
+### Beat 97 · 08:28 (~5.0s)
 
 **Characters:** Danny
 
@@ -1342,7 +1342,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** performative
 - **Action:** presenting
 
-### Beat 98 · 08:11 (~3.1s)
+### Beat 98 · 08:33 (~3.0s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1355,7 +1355,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** ironic
 - **Action:** the cord stretching
 
-### Beat 99 · 08:14 (~4.7s)
+### Beat 99 · 08:36 (~4.5s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1368,7 +1368,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** erasing
 - **Action:** the zero glowing
 
-### Beat 100 · 08:19 (~5.0s)
+### Beat 100 · 08:40 (~4.8s)
 
 **Characters:** The Protagonist, Danny
 
@@ -1381,7 +1381,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** quiet, intimate
 - **Action:** knocking softly
 
-### Beat 101 · 08:24 (~5.4s)
+### Beat 101 · 08:45 (~5.5s)
 
 **Characters:** Danny
 
@@ -1394,7 +1394,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** guilty
 - **Action:** staring at the table
 
-### Beat 102 · 08:29 (~5.4s)
+### Beat 102 · 08:51 (~8.0s)
 
 **Characters:** The Protagonist
 
@@ -1407,7 +1407,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** restrained
 - **Action:** answering
 
-### Beat 103 · 08:35 (~5.8s)
+### Beat 103 · 08:59 (~5.3s)
 
 **Characters:** The Protagonist, Danny
 
@@ -1420,7 +1420,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** confessional
 - **Action:** meeting his eyes
 
-### Beat 104 · 08:41 (~6.2s)
+### Beat 104 · 09:04 (~6.7s)
 
 **Characters:** The Protagonist, Danny
 
@@ -1436,7 +1436,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Chapter 6: The Year It Almost Disappears
 *Age 38 · Your hand on the boardroom door*
 
-### Beat 105 · 08:47 (~3.1s)
+### Beat 105 · 09:11 (~3.6s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1449,7 +1449,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** ominous
 - **Action:** the cloud gathering
 
-### Beat 106 · 08:50 (~3.5s)
+### Beat 106 · 09:14 (~4.0s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1462,7 +1462,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** threatening
 - **Action:** the billboard glowing
 
-### Beat 107 · 08:53 (~3.9s)
+### Beat 107 · 09:18 (~3.0s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1475,7 +1475,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** loss
 - **Action:** logos coming down
 
-### Beat 108 · 08:57 (~3.5s)
+### Beat 108 · 09:21 (~3.6s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1488,7 +1488,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** alarming
 - **Action:** the bar shrinking
 
-### Beat 109 · 09:01 (~5.4s)
+### Beat 109 · 09:25 (~5.4s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1501,7 +1501,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** cold, calculating
 - **Action:** investors nodding
 
-### Beat 110 · 09:06 (~5.0s)
+### Beat 110 · 09:30 (~6.2s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1514,7 +1514,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** ruthless
 - **Action:** the zero highlighted
 
-### Beat 111 · 09:11 (~5.4s)
+### Beat 111 · 09:36 (~5.4s)
 
 **Characters:** The Protagonist
 
@@ -1527,7 +1527,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** grim
 - **Action:** reading the minutes
 
-### Beat 112 · 09:17 (~3.5s)
+### Beat 112 · 09:42 (~2.8s)
 
 **Characters:** The Protagonist
 
@@ -1540,7 +1540,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** tense
 - **Action:** walking
 
-### Beat 113 · 09:20 (~5.4s)
+### Beat 113 · 09:45 (~5.1s)
 
 **Characters:** The Protagonist
 
@@ -1553,7 +1553,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** tempting power
 - **Action:** gripping the handle
 
-### Beat 114 · 09:26 (~5.4s)
+### Beat 114 · 09:50 (~5.4s)
 
 **Characters:** The Protagonist
 
@@ -1566,7 +1566,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** imagined reveal
 - **Action:** hesitating
 
-### Beat 115 · 09:31 (~5.4s)
+### Beat 115 · 09:55 (~5.2s)
 
 **Characters:** The Protagonist
 
@@ -1579,7 +1579,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** resolute restraint
 - **Action:** letting go
 
-### Beat 116 · 09:37 (~4.3s)
+### Beat 116 · 10:00 (~4.1s)
 
 **Characters:** The Protagonist
 
@@ -1592,7 +1592,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** humble, persistent
 - **Action:** waiting patiently
 
-### Beat 117 · 09:41 (~3.9s)
+### Beat 117 · 10:04 (~4.5s)
 
 **Characters:** The Protagonist
 
@@ -1605,7 +1605,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** diligent
 - **Action:** typing
 
-### Beat 118 · 09:45 (~5.0s)
+### Beat 118 · 10:09 (~5.7s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1618,7 +1618,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** recovery
 - **Action:** logos going back up
 
-### Beat 119 · 09:50 (~4.3s)
+### Beat 119 · 10:15 (~4.2s)
 
 **Characters:** Danny
 
@@ -1631,7 +1631,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** celebratory
 - **Action:** arms raised
 
-### Beat 120 · 09:54 (~5.0s)
+### Beat 120 · 10:19 (~5.7s)
 
 **Characters:** The Protagonist, Tyler
 
@@ -1644,7 +1644,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** ironic
 - **Action:** holding up items
 
-### Beat 121 · 09:59 (~5.4s)
+### Beat 121 · 10:24 (~5.0s)
 
 **Characters:** The Protagonist
 
@@ -1657,7 +1657,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** detached, free
 - **Action:** closing the app
 
-### Beat 122 · 10:05 (~3.9s)
+### Beat 122 · 10:30 (~4.9s)
 
 **Characters:** The Protagonist
 
@@ -1673,7 +1673,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Chapter 7: The Refrigerator
 *Age 39 · "Soon, Dad."*
 
-### Beat 123 · 10:08 (~5.0s)
+### Beat 123 · 10:34 (~5.1s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1686,7 +1686,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** foreboding
 - **Action:** the cloud moving in
 
-### Beat 124 · 10:13 (~4.3s)
+### Beat 124 · 10:40 (~3.9s)
 
 **Characters:** Dad
 
@@ -1699,7 +1699,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** fragile
 - **Action:** resting in the chair
 
-### Beat 125 · 10:18 (~4.7s)
+### Beat 125 · 10:43 (~5.8s)
 
 **Characters:** Danny, Dad
 
@@ -1712,7 +1712,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** distant care
 - **Action:** the teacup shaking
 
-### Beat 126 · 10:22 (~5.4s)
+### Beat 126 · 10:49 (~6.0s)
 
 **Characters:** The Protagonist
 
@@ -1725,7 +1725,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** unnoticed devotion
 - **Action:** walking out
 
-### Beat 127 · 10:28 (~3.9s)
+### Beat 127 · 10:55 (~3.6s)
 
 **Characters:** Dad
 
@@ -1738,7 +1738,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** lonely
 - **Action:** sitting still
 
-### Beat 128 · 10:32 (~6.2s)
+### Beat 128 · 10:59 (~6.6s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1751,7 +1751,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** fading pride
 - **Action:** the corner curling
 
-### Beat 129 · 10:38 (~5.8s)
+### Beat 129 · 11:05 (~6.2s)
 
 **Characters:** The Protagonist, Dad
 
@@ -1764,7 +1764,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** tender worry
 - **Action:** speaking softly
 
-### Beat 130 · 10:44 (~5.0s)
+### Beat 130 · 11:12 (~5.3s)
 
 **Characters:** The Protagonist, Dad
 
@@ -1777,7 +1777,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** concerned
 - **Action:** reaching out a hand
 
-### Beat 131 · 10:49 (~5.8s)
+### Beat 131 · 11:17 (~4.5s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1790,7 +1790,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** recurring wound
 - **Action:** the bubble appearing
 
-### Beat 132 · 10:55 (~5.8s)
+### Beat 132 · 11:21 (~6.4s)
 
 **Characters:** The Protagonist, Danny
 
@@ -1803,7 +1803,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** bittersweet
 - **Action:** the reflection overlapping
 
-### Beat 133 · 11:00 (~4.7s)
+### Beat 133 · 11:28 (~5.1s)
 
 **Characters:** The Protagonist, Dad
 
@@ -1816,7 +1816,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** hesitant
 - **Action:** almost speaking
 
-### Beat 134 · 11:05 (~7.0s)
+### Beat 134 · 11:33 (~6.1s)
 
 **Characters:** Dad
 
@@ -1829,7 +1829,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** proud, fragile
 - **Action:** gazing at the page
 
-### Beat 135 · 11:12 (~6.2s)
+### Beat 135 · 11:39 (~4.5s)
 
 **Characters:** The Protagonist
 
@@ -1842,7 +1842,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** sacrificial
 - **Action:** closing his mouth
 
-### Beat 136 · 11:18 (~5.0s)
+### Beat 136 · 11:44 (~4.7s)
 
 **Characters:** Dad
 
@@ -1855,7 +1855,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** tender
 - **Action:** smiling
 
-### Beat 137 · 11:23 (~5.0s)
+### Beat 137 · 11:48 (~5.6s)
 
 **Characters:** The Protagonist
 
@@ -1868,7 +1868,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** tender, silent
 - **Action:** smoothing the tape
 
-### Beat 138 · 11:28 (~5.4s)
+### Beat 138 · 11:54 (~5.8s)
 
 **Characters:** The Protagonist
 
@@ -1884,7 +1884,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Chapter 8: Twenty-Four Percent
 *Age 40 · The ownership table*
 
-### Beat 139 · 11:34 (~4.3s)
+### Beat 139 · 12:00 (~5.1s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1897,7 +1897,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** full circle
 - **Action:** the crowd seated
 
-### Beat 140 · 11:38 (~3.9s)
+### Beat 140 · 12:05 (~3.7s)
 
 **Characters:** The Protagonist
 
@@ -1910,7 +1910,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** recurring
 - **Action:** holding the cup
 
-### Beat 141 · 11:42 (~5.0s)
+### Beat 141 · 12:08 (~6.4s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1923,7 +1923,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** huge news
 - **Action:** the slide appearing
 
-### Beat 142 · 11:47 (~5.0s)
+### Beat 142 · 12:15 (~4.9s)
 
 **Characters:** Danny
 
@@ -1936,7 +1936,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** triumphant
 - **Action:** gesturing
 
-### Beat 143 · 11:52 (~4.3s)
+### Beat 143 · 12:20 (~4.8s)
 
 **Characters:** The Protagonist, Danny
 
@@ -1949,7 +1949,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** repetitive irony
 - **Action:** hand on chest
 
-### Beat 144 · 11:56 (~5.0s)
+### Beat 144 · 12:25 (~5.0s)
 
 **Characters:** The Protagonist, Tyler
 
@@ -1962,7 +1962,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** tense
 - **Action:** holding out the printout
 
-### Beat 145 · 12:01 (~4.7s)
+### Beat 145 · 12:30 (~6.7s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1975,7 +1975,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** official
 - **Action:** the table visible
 
-### Beat 146 · 12:06 (~6.2s)
+### Beat 146 · 12:36 (~7.2s)
 
 **Characters:** The Protagonist, Danny
 
@@ -1988,7 +1988,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** stunning
 - **Action:** the highlight
 
-### Beat 147 · 12:12 (~5.4s)
+### Beat 147 · 12:43 (~4.9s)
 
 **Characters:** The Protagonist, Tyler
 
@@ -2001,7 +2001,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** disbelief
 - **Action:** looking back and forth
 
-### Beat 148 · 12:18 (~5.4s)
+### Beat 148 · 12:48 (~4.8s)
 
 **Characters:** Tyler
 
@@ -2014,7 +2014,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** stunned
 - **Action:** standing frozen
 
-### Beat 149 · 12:23 (~4.3s)
+### Beat 149 · 12:53 (~5.5s)
 
 **Characters:** The Protagonist, Tyler
 
@@ -2027,7 +2027,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** power shift
 - **Action:** Tyler speechless
 
-### Beat 150 · 12:27 (~6.2s)
+### Beat 150 · 12:59 (~4.8s)
 
 **Characters:** Tyler
 
@@ -2040,7 +2040,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** groveling
 - **Action:** pointing at the corner office
 
-### Beat 151 · 12:34 (~3.9s)
+### Beat 151 · 13:03 (~4.3s)
 
 **Characters:** The Protagonist
 
@@ -2053,7 +2053,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** light, liberated
 - **Action:** laughing
 
-### Beat 152 · 12:38 (~4.3s)
+### Beat 152 · 13:08 (~4.7s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2066,7 +2066,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** gossip spreading
 - **Action:** heads turning
 
-### Beat 153 · 12:42 (~5.4s)
+### Beat 153 · 13:12 (~4.3s)
 
 **Characters:** The Protagonist, The New Hire
 
@@ -2079,7 +2079,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** respectful, sheepish
 - **Action:** setting down the cup
 
-### Beat 154 · 12:47 (~5.8s)
+### Beat 154 · 13:17 (~5.8s)
 
 **Characters:** The Protagonist, Danny
 
@@ -2092,7 +2092,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** quiet confrontation
 - **Action:** walking
 
-### Beat 155 · 12:53 (~5.8s)
+### Beat 155 · 13:22 (~6.6s)
 
 **Characters:** Danny
 
@@ -2105,7 +2105,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** uncertain
 - **Action:** holding the keys
 
-### Beat 156 · 12:59 (~4.3s)
+### Beat 156 · 13:29 (~4.9s)
 
 **Characters:** Danny
 
@@ -2118,7 +2118,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** guilty
 - **Action:** looking down
 
-### Beat 157 · 13:03 (~4.3s)
+### Beat 157 · 13:34 (~5.0s)
 
 **Characters:** The Protagonist, Danny
 
@@ -2131,7 +2131,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** honest
 - **Action:** leaning on the car
 
-### Beat 158 · 13:07 (~4.7s)
+### Beat 158 · 13:39 (~5.2s)
 
 **Characters:** Danny
 
@@ -2144,7 +2144,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** pleading
 - **Action:** gesturing
 
-### Beat 159 · 13:12 (~5.4s)
+### Beat 159 · 13:44 (~4.8s)
 
 **Characters:** The Protagonist
 
@@ -2157,7 +2157,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** wise, loving
 - **Action:** speaking
 
-### Beat 160 · 13:18 (~5.8s)
+### Beat 160 · 13:49 (~5.0s)
 
 **Characters:** Danny
 
@@ -2170,7 +2170,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** moved
 - **Action:** pocketing the keys
 
-### Beat 161 · 13:23 (~6.2s)
+### Beat 161 · 13:54 (~5.5s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2183,7 +2183,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** life-changing
 - **Action:** the notification glowing
 
-### Beat 162 · 13:30 (~5.0s)
+### Beat 162 · 13:59 (~6.2s)
 
 **Characters:** The Protagonist
 
@@ -2199,7 +2199,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Chapter 9: The Toast
 *Age 40 · "You just let your brother hold it."*
 
-### Beat 163 · 13:35 (~3.9s)
+### Beat 163 · 14:06 (~3.8s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2212,7 +2212,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** warm, familial
 - **Action:** lights glowing inside
 
-### Beat 164 · 13:39 (~5.4s)
+### Beat 164 · 14:09 (~4.3s)
 
 **Characters:** Dad
 
@@ -2225,7 +2225,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** fragile, dignified
 - **Action:** sitting quietly
 
-### Beat 165 · 13:44 (~4.7s)
+### Beat 165 · 14:14 (~5.0s)
 
 **Characters:** Danny, Dad
 
@@ -2238,7 +2238,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** expectant
 - **Action:** raising the glass
 
-### Beat 166 · 13:49 (~3.9s)
+### Beat 166 · 14:19 (~4.3s)
 
 **Characters:** Dad
 
@@ -2251,7 +2251,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** familiar
 - **Action:** nodding
 
-### Beat 167 · 13:53 (~4.7s)
+### Beat 167 · 14:23 (~4.3s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2264,7 +2264,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** nostalgic
 - **Action:** the memory glowing
 
-### Beat 168 · 13:57 (~5.0s)
+### Beat 168 · 14:27 (~6.0s)
 
 **Characters:** The Protagonist, Danny
 
@@ -2277,7 +2277,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** pivotal
 - **Action:** turning
 
-### Beat 169 · 14:02 (~5.4s)
+### Beat 169 · 14:33 (~5.7s)
 
 **Characters:** Danny
 
@@ -2290,7 +2290,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** revealing
 - **Action:** holding it up
 
-### Beat 170 · 14:08 (~5.4s)
+### Beat 170 · 14:39 (~5.2s)
 
 **Characters:** Danny
 
@@ -2303,7 +2303,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** shocked
 - **Action:** frozen faces
 
-### Beat 171 · 14:13 (~5.8s)
+### Beat 171 · 14:44 (~6.4s)
 
 **Characters:** The Protagonist, Dad
 
@@ -2316,7 +2316,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** realizing
 - **Action:** eyes moving
 
-### Beat 172 · 14:19 (~5.0s)
+### Beat 172 · 14:51 (~4.2s)
 
 **Characters:** The Protagonist, Dad
 
@@ -2329,7 +2329,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** emotional
 - **Action:** reaching
 
-### Beat 173 · 14:24 (~5.8s)
+### Beat 173 · 14:55 (~7.6s)
 
 **Characters:** The Protagonist, Dad
 
@@ -2342,7 +2342,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** tender
 - **Action:** speaking
 
-### Beat 174 · 14:30 (~5.8s)
+### Beat 174 · 15:02 (~5.0s)
 
 **Characters:** The Protagonist, Dad
 
@@ -2355,7 +2355,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** reconciling
 - **Action:** holding the wrist
 
-### Beat 175 · 14:36 (~3.9s)
+### Beat 175 · 15:08 (~3.8s)
 
 **Characters:** The Protagonist, Dad
 
@@ -2368,7 +2368,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** redemptive
 - **Action:** smiling
 
-### Beat 176 · 14:39 (~4.7s)
+### Beat 176 · 15:11 (~4.0s)
 
 **Characters:** The Protagonist
 
@@ -2381,7 +2381,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** peaceful ritual
 - **Action:** scrubbing
 
-### Beat 177 · 14:44 (~6.2s)
+### Beat 177 · 15:15 (~5.5s)
 
 **Characters:** Dad
 
@@ -2394,7 +2394,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** together, healed
 - **Action:** drying
 
-### Beat 178 · 14:50 (~4.7s)
+### Beat 178 · 15:21 (~4.4s)
 
 **Characters:** The Protagonist
 
@@ -2407,7 +2407,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** closure
 - **Action:** smoothing the paper
 
-### Beat 179 · 14:55 (~4.7s)
+### Beat 179 · 15:25 (~5.1s)
 
 **Characters:** Danny
 
@@ -2420,7 +2420,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** recognition
 - **Action:** both papers side by side
 
-### Beat 180 · 15:00 (~4.3s)
+### Beat 180 · 15:30 (~4.2s)
 
 **Characters:** The Protagonist
 
@@ -2433,7 +2433,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** reflective
 - **Action:** looking back
 
-### Beat 181 · 15:04 (~3.9s)
+### Beat 181 · 15:35 (~3.7s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2446,7 +2446,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** ironic
 - **Action:** the badge resting
 
-### Beat 182 · 15:08 (~5.4s)
+### Beat 182 · 15:38 (~5.4s)
 
 **Characters:** The Protagonist
 
@@ -2459,7 +2459,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** reframed
 - **Action:** the cup sitting still
 
-### Beat 183 · 15:13 (~5.4s)
+### Beat 183 · 15:44 (~4.3s)
 
 **Characters:** None (environment or insert shot)
 
