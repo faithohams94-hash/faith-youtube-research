@@ -1,8 +1,8 @@
 # POV: What a Hospital Bill Looks Like at Every Level of Wealth — Production Prompts (5-second beats)
 
-194 beats · 9 chapters · ~16 min · ~4.9s per beat
+194 beats · 9 chapters · ~15 min · ~4.6s per beat
 
-Timecodes are estimated from the script at 2.575 words per second. Re-sync them once the voiceover is recorded.
+Timecodes match the voiceover in voiceover/hospital_bill_voiceover.mp3 (subtitles: voiceover/hospital_bill_voiceover_beats.srt).
 
 ## Recurring visual motifs
 
@@ -110,7 +110,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Chapter 1: Level 1 · $0
 *The sprain · "Ice bag, $91."*
 
-### Beat 1 · 00:00 (~1.6s)
+### Beat 1 · 00:00 (~1.9s)
 
 **Characters:** The Protagonist
 
@@ -123,7 +123,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** bleak, quiet
 - **Action:** staring flatly at the curb
 
-### Beat 2 · 00:01 (~5.8s)
+### Beat 2 · 00:01 (~3.7s)
 
 **Characters:** The Protagonist
 
@@ -136,7 +136,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** sudden, ordinary
 - **Action:** stepping wrong off the curb
 
-### Beat 3 · 00:07 (~4.7s)
+### Beat 3 · 00:05 (~4.1s)
 
 **Characters:** The Protagonist
 
@@ -149,7 +149,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** sharp, small
 - **Action:** wrist bending back on impact
 
-### Beat 4 · 00:12 (~3.1s)
+### Beat 4 · 00:09 (~2.0s)
 
 **Characters:** The Protagonist
 
@@ -162,7 +162,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** absurd, uneasy
 - **Action:** comparing the wrist to the orange
 
-### Beat 5 · 00:15 (~5.4s)
+### Beat 5 · 00:11 (~4.2s)
 
 **Characters:** The Protagonist
 
@@ -175,7 +175,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** lonely, stubborn
 - **Action:** the fork slipping from his fingers
 
-### Beat 6 · 00:20 (~4.7s)
+### Beat 6 · 00:15 (~5.2s)
 
 **Characters:** The Protagonist
 
@@ -188,7 +188,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** ominous, ironic
 - **Action:** sitting unaware beneath the floating bill
 
-### Beat 7 · 00:25 (~6.2s)
+### Beat 7 · 00:21 (~7.1s)
 
 **Characters:** The Protagonist, The Registration Clerk
 
@@ -201,7 +201,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** transactional, cold
 - **Action:** the clerk sliding the tablet forward
 
-### Beat 8 · 00:31 (~6.2s)
+### Beat 8 · 00:28 (~4.7s)
 
 **Characters:** The Protagonist
 
@@ -214,7 +214,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** humiliating, small
 - **Action:** scrawling the signature
 
-### Beat 9 · 00:37 (~5.8s)
+### Beat 9 · 00:32 (~4.9s)
 
 **Characters:** The Registration Clerk
 
@@ -227,7 +227,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** clinical, sorting
 - **Action:** the clerk's eyes fixed on the blank box
 
-### Beat 10 · 00:43 (~5.8s)
+### Beat 10 · 00:37 (~4.6s)
 
 **Characters:** The Protagonist, The Registration Clerk
 
@@ -240,7 +240,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** indifferent, long
 - **Action:** the single tap, then the wait
 
-### Beat 11 · 00:49 (~4.7s)
+### Beat 11 · 00:42 (~4.0s)
 
 **Characters:** The Protagonist
 
@@ -253,7 +253,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** rushed, impersonal
 - **Action:** the doctor leaving mid-sentence
 
-### Beat 12 · 00:53 (~6.2s)
+### Beat 12 · 00:46 (~4.5s)
 
 **Characters:** The Protagonist
 
@@ -266,7 +266,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** routine, brief
 - **Action:** the ice bag handed over
 
-### Beat 13 · 01:00 (~5.8s)
+### Beat 13 · 00:50 (~4.4s)
 
 **Characters:** The Protagonist
 
@@ -279,7 +279,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** forgotten, quiet
 - **Action:** walking away from the ice bag
 
-### Beat 14 · 01:06 (~5.0s)
+### Beat 14 · 00:55 (~5.1s)
 
 **Characters:** The Protagonist
 
@@ -292,7 +292,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** dread, mundane
 - **Action:** holding up the envelope
 
-### Beat 15 · 01:11 (~5.0s)
+### Beat 15 · 01:00 (~4.5s)
 
 **Characters:** None (environment or insert shot)
 
@@ -305,7 +305,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** cold, arrested
 - **Action:** the name trapped behind the window
 
-### Beat 16 · 01:16 (~5.0s)
+### Beat 16 · 01:04 (~12.1s)
 
 **Characters:** None (environment or insert shot)
 
@@ -318,7 +318,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** absurd, clinical
 - **Action:** the lines stacking down the page
 
-### Beat 17 · 01:21 (~5.8s)
+### Beat 17 · 01:16 (~6.8s)
 
 **Characters:** The Protagonist
 
@@ -331,7 +331,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** absurd, stinging
 - **Action:** rereading the line
 
-### Beat 18 · 01:26 (~5.4s)
+### Beat 18 · 01:23 (~3.7s)
 
 **Characters:** The Protagonist, Mom
 
@@ -344,7 +344,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** tender, practical
 - **Action:** the mother raising the peas
 
-### Beat 19 · 01:32 (~1.9s)
+### Beat 19 · 01:27 (~1.8s)
 
 **Characters:** The Protagonist
 
@@ -357,7 +357,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** small comfort
 - **Action:** the peas settling over the joint
 
-### Beat 20 · 01:34 (~6.2s)
+### Beat 20 · 01:29 (~4.8s)
 
 **Characters:** The Protagonist
 
@@ -370,7 +370,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** resigned, domestic
 - **Action:** sliding the magnet into place
 
-### Beat 21 · 01:40 (~5.4s)
+### Beat 21 · 01:33 (~5.0s)
 
 **Characters:** The Protagonist
 
@@ -383,7 +383,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** waiting, trapped
 - **Action:** staring at the call timer
 
-### Beat 22 · 01:46 (~4.3s)
+### Beat 22 · 01:38 (~3.5s)
 
 **Characters:** None (environment or insert shot)
 
@@ -396,7 +396,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** hypnotic, circular
 - **Action:** the music circling back to the start
 
-### Beat 23 · 01:50 (~5.8s)
+### Beat 23 · 01:42 (~5.2s)
 
 **Characters:** The Protagonist, The Billing Rep
 
@@ -409,7 +409,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** polite, hollow
 - **Action:** the rep reading from her screen
 
-### Beat 24 · 01:56 (~4.3s)
+### Beat 24 · 01:47 (~5.6s)
 
 **Characters:** The Protagonist
 
@@ -422,7 +422,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** heavy, hopeful
 - **Action:** thumb hovering over the screen
 
-### Beat 25 · 02:00 (~4.7s)
+### Beat 25 · 01:53 (~4.2s)
 
 **Characters:** The Billing Rep
 
@@ -435,7 +435,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** bureaucratic, flat
 - **Action:** reading the list aloud
 
-### Beat 26 · 02:05 (~4.3s)
+### Beat 26 · 01:57 (~3.0s)
 
 **Characters:** The Protagonist
 
@@ -448,7 +448,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** excluded, quiet
 - **Action:** holding up the pay card
 
-### Beat 27 · 02:09 (~6.2s)
+### Beat 27 · 02:00 (~4.9s)
 
 **Characters:** The Billing Rep
 
@@ -461,7 +461,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** polite, numbing
 - **Action:** smiling the same smile
 
-### Beat 28 · 02:15 (~2.7s)
+### Beat 28 · 02:05 (~2.5s)
 
 **Characters:** The Protagonist
 
@@ -474,7 +474,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** wounded, quiet
 - **Action:** lowering the phone
 
-### Beat 29 · 02:18 (~3.9s)
+### Beat 29 · 02:07 (~2.9s)
 
 **Characters:** None (environment or insert shot)
 
@@ -487,7 +487,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** indifferent, empty
 - **Action:** pages fluttering past the gap
 
-### Beat 30 · 02:22 (~4.7s)
+### Beat 30 · 02:10 (~4.5s)
 
 **Characters:** The Protagonist
 
@@ -500,7 +500,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** small, punishing
 - **Action:** the banner sliding down
 
-### Beat 31 · 02:26 (~6.2s)
+### Beat 31 · 02:15 (~6.5s)
 
 **Characters:** The Protagonist
 
@@ -513,7 +513,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** escalating, cold
 - **Action:** comparing the two envelopes
 
-### Beat 32 · 02:33 (~5.4s)
+### Beat 32 · 02:21 (~5.0s)
 
 **Characters:** The Protagonist, The Landlord
 
@@ -526,7 +526,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** hopeful, nervous
 - **Action:** the landlord typing
 
-### Beat 33 · 02:38 (~6.2s)
+### Beat 33 · 02:26 (~4.7s)
 
 **Characters:** The Protagonist, The Landlord
 
@@ -539,7 +539,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** judging, final
 - **Action:** flipping the flyer over
 
-### Beat 34 · 02:44 (~5.0s)
+### Beat 34 · 02:31 (~4.1s)
 
 **Characters:** The Protagonist
 
@@ -552,7 +552,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** unfair, lingering
 - **Action:** the wrist moving, the record unchanged
 
-### Beat 35 · 02:49 (~5.4s)
+### Beat 35 · 02:35 (~4.5s)
 
 **Characters:** The Protagonist
 
@@ -565,7 +565,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** grim, symbolic
 - **Action:** staring at the summons
 
-### Beat 36 · 02:55 (~2.3s)
+### Beat 36 · 02:40 (~3.3s)
 
 **Characters:** None (environment or insert shot)
 
@@ -581,7 +581,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Chapter 2: Level 2 · $5,000
 *The kidney stone · Two envelopes*
 
-### Beat 37 · 02:57 (~5.0s)
+### Beat 37 · 02:43 (~8.1s)
 
 **Characters:** The Protagonist
 
@@ -594,7 +594,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** cautiously hopeful
 - **Action:** inspecting the card
 
-### Beat 38 · 03:02 (~5.8s)
+### Beat 38 · 02:51 (~5.0s)
 
 **Characters:** None (environment or insert shot)
 
@@ -607,7 +607,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** hollow, ironic
 - **Action:** the card glowing faintly
 
-### Beat 39 · 03:08 (~3.1s)
+### Beat 39 · 02:56 (~2.2s)
 
 **Characters:** The Protagonist
 
@@ -620,7 +620,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** agonizing, lonely
 - **Action:** curled in pain
 
-### Beat 40 · 03:11 (~5.0s)
+### Beat 40 · 02:58 (~5.4s)
 
 **Characters:** The Protagonist
 
@@ -633,7 +633,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** clinical, overwhelming
 - **Action:** lying still under the IV
 
-### Beat 41 · 03:16 (~5.0s)
+### Beat 41 · 03:04 (~4.2s)
 
 **Characters:** The Protagonist
 
@@ -646,7 +646,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** careful, fearful
 - **Action:** halving a pill
 
-### Beat 42 · 03:21 (~3.1s)
+### Beat 42 · 03:08 (~2.3s)
 
 **Characters:** The Protagonist
 
@@ -659,7 +659,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** miserable, enduring
 - **Action:** touching his throat
 
-### Beat 43 · 03:24 (~3.5s)
+### Beat 43 · 03:10 (~2.7s)
 
 **Characters:** The Protagonist
 
@@ -672,7 +672,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** hopeful, wary
 - **Action:** asking the price
 
-### Beat 44 · 03:28 (~4.3s)
+### Beat 44 · 03:13 (~3.1s)
 
 **Characters:** None (environment or insert shot)
 
@@ -685,7 +685,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** absurd, evasive
 - **Action:** shrugging
 
-### Beat 45 · 03:32 (~5.0s)
+### Beat 45 · 03:16 (~4.1s)
 
 **Characters:** The Protagonist
 
@@ -698,7 +698,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** stubborn, bleak
 - **Action:** gargling
 
-### Beat 46 · 03:37 (~1.9s)
+### Beat 46 · 03:20 (~1.8s)
 
 **Characters:** The Protagonist
 
@@ -711,7 +711,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** uneasy
 - **Action:** holding two envelopes
 
-### Beat 47 · 03:39 (~5.0s)
+### Beat 47 · 03:22 (~3.4s)
 
 **Characters:** None (environment or insert shot)
 
@@ -724,7 +724,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** bureaucratic, false calm
 - **Action:** the header filling the frame
 
-### Beat 48 · 03:44 (~5.0s)
+### Beat 48 · 03:25 (~8.8s)
 
 **Characters:** None (environment or insert shot)
 
@@ -737,7 +737,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** confusing, clinical
 - **Action:** numbers crossed out and replaced
 
-### Beat 49 · 03:49 (~3.5s)
+### Beat 49 · 03:34 (~2.9s)
 
 **Characters:** None (environment or insert shot)
 
@@ -750,7 +750,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** excluded, cold
 - **Action:** the handshake over the empty chair
 
-### Beat 50 · 03:53 (~6.2s)
+### Beat 50 · 03:37 (~5.1s)
 
 **Characters:** The Protagonist
 
@@ -763,7 +763,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** sinking
 - **Action:** opening the second envelope
 
-### Beat 51 · 03:59 (~5.8s)
+### Beat 51 · 03:42 (~7.4s)
 
 **Characters:** The Protagonist
 
@@ -776,7 +776,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** defeated, quiet
 - **Action:** staring at the empty progress bar
 
-### Beat 52 · 04:05 (~6.2s)
+### Beat 52 · 03:50 (~4.9s)
 
 **Characters:** The Protagonist
 
@@ -789,7 +789,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** absurd, heavy
 - **Action:** comparing the stone to the rent
 
-### Beat 53 · 04:11 (~4.7s)
+### Beat 53 · 03:55 (~4.6s)
 
 **Characters:** None (environment or insert shot)
 
@@ -802,7 +802,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** ironic, recurring
 - **Action:** the pencil circling the line
 
-### Beat 54 · 04:15 (~3.9s)
+### Beat 54 · 03:59 (~2.6s)
 
 **Characters:** The Protagonist
 
@@ -815,7 +815,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** hazy, uncertain
 - **Action:** eyes closed in pain
 
-### Beat 55 · 04:19 (~5.4s)
+### Beat 55 · 04:02 (~4.1s)
 
 **Characters:** The Protagonist
 
@@ -828,7 +828,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** doubtful, tired
 - **Action:** dialing the number
 
-### Beat 56 · 04:25 (~5.8s)
+### Beat 56 · 04:06 (~5.0s)
 
 **Characters:** The Protagonist
 
@@ -841,7 +841,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** weary, familiar
 - **Action:** humming the loop
 
-### Beat 57 · 04:31 (~5.4s)
+### Beat 57 · 04:11 (~5.3s)
 
 **Characters:** The Protagonist, The Insurance Rep
 
@@ -854,7 +854,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** scripted, circular
 - **Action:** the rep glancing at the sticky note
 
-### Beat 58 · 04:36 (~4.3s)
+### Beat 58 · 04:16 (~3.3s)
 
 **Characters:** The Insurance Rep
 
@@ -867,7 +867,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** robotic, maddening
 - **Action:** the bubbles repeating
 
-### Beat 59 · 04:40 (~5.8s)
+### Beat 59 · 04:19 (~5.6s)
 
 **Characters:** None (environment or insert shot)
 
@@ -880,7 +880,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** futile, locked
 - **Action:** the key turning
 
-### Beat 60 · 04:46 (~3.5s)
+### Beat 60 · 04:25 (~4.8s)
 
 **Characters:** The Protagonist
 
@@ -896,7 +896,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Chapter 3: Level 3 · $40,000
 *The ankle · The words cost $40,000 a year*
 
-### Beat 61 · 04:50 (~3.5s)
+### Beat 61 · 04:30 (~4.4s)
 
 **Characters:** The Protagonist
 
@@ -909,7 +909,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** steady, new
 - **Action:** walking in with coffee
 
-### Beat 62 · 04:53 (~3.9s)
+### Beat 62 · 04:34 (~4.6s)
 
 **Characters:** None (environment or insert shot)
 
@@ -922,7 +922,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** reassuring
 - **Action:** the ceiling line glowing
 
-### Beat 63 · 04:57 (~4.7s)
+### Beat 63 · 04:39 (~4.6s)
 
 **Characters:** The Protagonist
 
@@ -935,7 +935,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** sudden, painful
 - **Action:** landing badly
 
-### Beat 64 · 05:02 (~3.9s)
+### Beat 64 · 04:43 (~3.3s)
 
 **Characters:** The Protagonist
 
@@ -948,7 +948,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** nervous
 - **Action:** staring at the X-ray
 
-### Beat 65 · 05:06 (~5.4s)
+### Beat 65 · 04:47 (~4.7s)
 
 **Characters:** The Protagonist
 
@@ -961,7 +961,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** anxious, conditioned
 - **Action:** holding the envelope at arm's length
 
-### Beat 66 · 05:11 (~6.2s)
+### Beat 66 · 04:51 (~10.1s)
 
 **Characters:** None (environment or insert shot)
 
@@ -974,7 +974,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** relief
 - **Action:** the rows coming into focus
 
-### Beat 67 · 05:17 (~5.8s)
+### Beat 67 · 05:01 (~7.5s)
 
 **Characters:** The Protagonist
 
@@ -987,7 +987,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** stunned, quiet
 - **Action:** tracing the middle number
 
-### Beat 68 · 05:23 (~5.8s)
+### Beat 68 · 05:09 (~4.4s)
 
 **Characters:** The Protagonist
 
@@ -1000,7 +1000,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** contrast, relief
 - **Action:** holding the single sheet
 
-### Beat 69 · 05:29 (~5.4s)
+### Beat 69 · 05:13 (~6.6s)
 
 **Characters:** The Protagonist
 
@@ -1013,7 +1013,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** shock, deja vu
 - **Action:** his grip tightening
 
-### Beat 70 · 05:34 (~4.7s)
+### Beat 70 · 05:20 (~3.5s)
 
 **Characters:** The Protagonist
 
@@ -1026,7 +1026,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** reflexive fear turning to resolve
 - **Action:** reading the screen
 
-### Beat 71 · 05:39 (~5.8s)
+### Beat 71 · 05:23 (~4.1s)
 
 **Characters:** The Protagonist
 
@@ -1039,7 +1039,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** quietly powerful
 - **Action:** the rep freezing mid-type
 
-### Beat 72 · 05:45 (~3.1s)
+### Beat 72 · 05:27 (~2.7s)
 
 **Characters:** The Protagonist
 
@@ -1052,7 +1052,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** patient, informed
 - **Action:** waiting calmly
 
-### Beat 73 · 05:48 (~4.7s)
+### Beat 73 · 05:30 (~3.5s)
 
 **Characters:** The Protagonist
 
@@ -1065,7 +1065,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** knowing
 - **Action:** the phone screen changing to "CONNECTED"
 
-### Beat 74 · 05:53 (~3.5s)
+### Beat 74 · 05:34 (~3.6s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1078,7 +1078,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** anticlimactic, revealing
 - **Action:** the balance dropping to zero
 
-### Beat 75 · 05:56 (~4.3s)
+### Beat 75 · 05:37 (~3.6s)
 
 **Characters:** The Protagonist
 
@@ -1091,7 +1091,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** regretful
 - **Action:** holding the silent phone
 
-### Beat 76 · 06:00 (~5.4s)
+### Beat 76 · 05:41 (~5.5s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1104,7 +1104,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** exclusive, ironic
 - **Action:** the price tag swinging
 
-### Beat 77 · 06:06 (~5.4s)
+### Beat 77 · 05:46 (~4.4s)
 
 **Characters:** The Protagonist
 
@@ -1117,7 +1117,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** easy, generous
 - **Action:** the click without a glance
 
-### Beat 78 · 06:11 (~5.0s)
+### Beat 78 · 05:51 (~4.0s)
 
 **Characters:** The Protagonist
 
@@ -1130,7 +1130,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** contrast
 - **Action:** resting versus counting
 
-### Beat 79 · 06:16 (~4.7s)
+### Beat 79 · 05:55 (~4.9s)
 
 **Characters:** The Protagonist
 
@@ -1143,7 +1143,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** habitual, tender
 - **Action:** pressing the magnet down
 
-### Beat 80 · 06:21 (~4.3s)
+### Beat 80 · 06:00 (~5.6s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1159,7 +1159,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Chapter 4: Level 4 · $250,000
 *The envelope disappears · Card on file*
 
-### Beat 81 · 06:25 (~5.0s)
+### Beat 81 · 06:05 (~6.9s)
 
 **Characters:** The Protagonist
 
@@ -1172,7 +1172,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** light, modern
 - **Action:** the envelope pixelating away
 
-### Beat 82 · 06:30 (~1.6s)
+### Beat 82 · 06:12 (~1.6s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1185,7 +1185,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** frictionless
 - **Action:** the notification appearing
 
-### Beat 83 · 06:32 (~5.0s)
+### Beat 83 · 06:14 (~4.0s)
 
 **Characters:** The Protagonist
 
@@ -1198,7 +1198,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** effortless
 - **Action:** the face scan
 
-### Beat 84 · 06:37 (~4.7s)
+### Beat 84 · 06:18 (~4.0s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1211,7 +1211,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** detached, smooth
 - **Action:** the balance turning green
 
-### Beat 85 · 06:41 (~5.8s)
+### Beat 85 · 06:22 (~6.6s)
 
 **Characters:** The Protagonist
 
@@ -1224,7 +1224,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** calculating
 - **Action:** comparing prices
 
-### Beat 86 · 06:47 (~5.0s)
+### Beat 86 · 06:28 (~5.6s)
 
 **Characters:** The Protagonist
 
@@ -1237,7 +1237,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** efficient
 - **Action:** paying at the counter
 
-### Beat 87 · 06:52 (~6.2s)
+### Beat 87 · 06:34 (~5.9s)
 
 **Characters:** The Protagonist
 
@@ -1250,7 +1250,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** smooth, upgraded
 - **Action:** the receptionist smiling
 
-### Beat 88 · 06:59 (~4.7s)
+### Beat 88 · 06:40 (~3.6s)
 
 **Characters:** The Protagonist
 
@@ -1263,7 +1263,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** self-aware, quiet
 - **Action:** looking at his reflection
 
-### Beat 89 · 07:03 (~6.2s)
+### Beat 89 · 06:43 (~6.8s)
 
 **Characters:** The Protagonist
 
@@ -1276,7 +1276,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** curious, ironic
 - **Action:** zooming in on the line
 
-### Beat 90 · 07:09 (~6.2s)
+### Beat 90 · 06:50 (~4.5s)
 
 **Characters:** The Protagonist
 
@@ -1289,7 +1289,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** bitter amusement
 - **Action:** closing the tab
 
-### Beat 91 · 07:16 (~5.0s)
+### Beat 91 · 06:55 (~4.9s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1302,7 +1302,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** cynical, weighing
 - **Action:** the scale tipping
 
-### Beat 92 · 07:21 (~4.3s)
+### Beat 92 · 07:00 (~3.6s)
 
 **Characters:** The Protagonist
 
@@ -1315,7 +1315,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** unsettling realization
 - **Action:** staring at the reflection
 
-### Beat 93 · 07:25 (~6.2s)
+### Beat 93 · 07:03 (~4.3s)
 
 **Characters:** Mom
 
@@ -1328,7 +1328,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** weary, stubborn
 - **Action:** holding the receiver
 
-### Beat 94 · 07:31 (~6.2s)
+### Beat 94 · 07:07 (~4.4s)
 
 **Characters:** The Protagonist, Mom
 
@@ -1341,7 +1341,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** protective
 - **Action:** asking for the account number
 
-### Beat 95 · 07:37 (~4.3s)
+### Beat 95 · 07:12 (~3.9s)
 
 **Characters:** The Protagonist, The Rep Whose Voice Lifts
 
@@ -1354,7 +1354,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** routine
 - **Action:** the rep answering flatly
 
-### Beat 96 · 07:42 (~5.8s)
+### Beat 96 · 07:16 (~4.1s)
 
 **Characters:** The Rep Whose Voice Lifts
 
@@ -1367,7 +1367,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** status shift
 - **Action:** her posture lifting
 
-### Beat 97 · 07:47 (~6.2s)
+### Beat 97 · 07:20 (~7.4s)
 
 **Characters:** The Rep Whose Voice Lifts
 
@@ -1380,7 +1380,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** eager, transactional
 - **Action:** the balance clearing
 
-### Beat 98 · 07:54 (~6.2s)
+### Beat 98 · 07:27 (~4.9s)
 
 **Characters:** Mom
 
@@ -1393,7 +1393,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** tender, proud
 - **Action:** taking the photo
 
-### Beat 99 · 08:00 (~5.8s)
+### Beat 99 · 07:32 (~7.6s)
 
 **Characters:** The Protagonist
 
@@ -1409,7 +1409,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Chapter 5: Level 5 · $2 Million
 *Concierge · You pay for the phone number*
 
-### Beat 100 · 08:06 (~6.2s)
+### Beat 100 · 07:40 (~6.7s)
 
 **Characters:** The Protagonist
 
@@ -1422,7 +1422,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** exclusive, calm
 - **Action:** walking past the plaque
 
-### Beat 101 · 08:12 (~5.8s)
+### Beat 101 · 07:46 (~5.4s)
 
 **Characters:** The Protagonist, The Concierge Doctor
 
@@ -1435,7 +1435,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** personal, rare
 - **Action:** the doctor smiling in welcome
 
-### Beat 102 · 08:18 (~5.8s)
+### Beat 102 · 07:52 (~6.8s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1448,7 +1448,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** clean, minimal
 - **Action:** the single line
 
-### Beat 103 · 08:24 (~5.8s)
+### Beat 103 · 07:59 (~5.2s)
 
 **Characters:** The Protagonist
 
@@ -1461,7 +1461,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** anxious, answered
 - **Action:** reading the reply
 
-### Beat 104 · 08:29 (~2.3s)
+### Beat 104 · 08:04 (~2.8s)
 
 **Characters:** The Concierge Doctor
 
@@ -1474,7 +1474,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** calm, attentive
 - **Action:** typing the questions
 
-### Beat 105 · 08:32 (~5.0s)
+### Beat 105 · 08:06 (~3.5s)
 
 **Characters:** The Protagonist
 
@@ -1487,7 +1487,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** soothing
 - **Action:** breathing out
 
-### Beat 106 · 08:37 (~5.8s)
+### Beat 106 · 08:10 (~5.4s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1500,7 +1500,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** prepaid calm
 - **Action:** the stamp glinting
 
-### Beat 107 · 08:43 (~3.9s)
+### Beat 107 · 08:15 (~2.6s)
 
 **Characters:** The Protagonist, The Concierge Doctor
 
@@ -1513,7 +1513,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** personal, unhurried
 - **Action:** the doctor stepping inside
 
-### Beat 108 · 08:46 (~4.3s)
+### Beat 108 · 08:18 (~2.8s)
 
 **Characters:** The Protagonist, The Concierge Doctor
 
@@ -1526,7 +1526,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** unhurried, human
 - **Action:** the doctor listening
 
-### Beat 109 · 08:51 (~6.2s)
+### Beat 109 · 08:21 (~5.7s)
 
 **Characters:** The Protagonist
 
@@ -1539,7 +1539,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** stark contrast
 - **Action:** the two stopwatches
 
-### Beat 110 · 08:57 (~5.0s)
+### Beat 110 · 08:26 (~4.1s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1552,7 +1552,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** ironic
 - **Action:** the glowing line between them
 
-### Beat 111 · 09:02 (~5.0s)
+### Beat 111 · 08:31 (~4.3s)
 
 **Characters:** The Protagonist, The Concierge Doctor
 
@@ -1565,7 +1565,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** smooth, arranged
 - **Action:** the form already complete
 
-### Beat 112 · 09:07 (~5.8s)
+### Beat 112 · 08:35 (~7.0s)
 
 **Characters:** The Protagonist
 
@@ -1578,7 +1578,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** frictionless
 - **Action:** walking past the counter
 
-### Beat 113 · 09:13 (~4.7s)
+### Beat 113 · 08:42 (~3.4s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1591,7 +1591,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** assumptive, upscale
 - **Action:** the cursor over "Yes"
 
-### Beat 114 · 09:18 (~5.4s)
+### Beat 114 · 08:45 (~4.3s)
 
 **Characters:** The Protagonist
 
@@ -1604,7 +1604,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** quietly surprised
 - **Action:** clicking yes
 
-### Beat 115 · 09:23 (~5.4s)
+### Beat 115 · 08:50 (~4.5s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1617,7 +1617,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** unknown
 - **Action:** the envelope disappearing
 
-### Beat 116 · 09:28 (~4.7s)
+### Beat 116 · 08:54 (~3.9s)
 
 **Characters:** The Protagonist
 
@@ -1630,7 +1630,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** reflective
 - **Action:** the meter ticking on one side
 
-### Beat 117 · 09:33 (~5.0s)
+### Beat 117 · 08:58 (~4.5s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1643,7 +1643,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** serene, commodified
 - **Action:** the box glowing
 
-### Beat 118 · 09:38 (~5.4s)
+### Beat 118 · 09:02 (~5.4s)
 
 **Characters:** The Protagonist
 
@@ -1659,7 +1659,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Chapter 6: Level 6 · $25 Million
 *The bill becomes a spreadsheet row*
 
-### Beat 119 · 09:44 (~6.2s)
+### Beat 119 · 09:08 (~5.6s)
 
 **Characters:** The Protagonist
 
@@ -1672,7 +1672,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** insulated
 - **Action:** watching the mail leave
 
-### Beat 120 · 09:50 (~3.5s)
+### Beat 120 · 09:13 (~3.2s)
 
 **Characters:** The Protagonist
 
@@ -1685,7 +1685,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** aging, accumulated
 - **Action:** rubbing the knee
 
-### Beat 121 · 09:53 (~5.4s)
+### Beat 121 · 09:17 (~4.9s)
 
 **Characters:** The Protagonist
 
@@ -1698,7 +1698,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** smooth, elite
 - **Action:** descending the stairs
 
-### Beat 122 · 09:59 (~3.1s)
+### Beat 122 · 09:22 (~2.0s)
 
 **Characters:** The Protagonist
 
@@ -1711,7 +1711,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** seamless
 - **Action:** the driver opening the door
 
-### Beat 123 · 10:02 (~5.0s)
+### Beat 123 · 09:24 (~3.8s)
 
 **Characters:** The Protagonist
 
@@ -1724,7 +1724,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** respectful, hushed
 - **Action:** the nurse knocking
 
-### Beat 124 · 10:07 (~6.2s)
+### Beat 124 · 09:27 (~5.2s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1737,7 +1737,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** handled
 - **Action:** the elegant signature
 
-### Beat 125 · 10:13 (~6.2s)
+### Beat 125 · 09:33 (~7.2s)
 
 **Characters:** The Protagonist
 
@@ -1750,7 +1750,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** contrast
 - **Action:** the two hands
 
-### Beat 126 · 10:19 (~4.7s)
+### Beat 126 · 09:40 (~3.2s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1763,7 +1763,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** corporate, remote
 - **Action:** the report landing
 
-### Beat 127 · 10:24 (~4.3s)
+### Beat 127 · 09:43 (~7.3s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1776,7 +1776,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** flattened, ordinary
 - **Action:** the medical row between the others
 
-### Beat 128 · 10:28 (~6.2s)
+### Beat 128 · 09:50 (~5.9s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1789,7 +1789,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** reduced
 - **Action:** the cell glowing faintly
 
-### Beat 129 · 10:34 (~3.1s)
+### Beat 129 · 09:56 (~2.0s)
 
 **Characters:** The Protagonist
 
@@ -1802,7 +1802,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** untouched
 - **Action:** hands resting
 
-### Beat 130 · 10:38 (~5.0s)
+### Beat 130 · 09:58 (~3.4s)
 
 **Characters:** The Protagonist
 
@@ -1815,7 +1815,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** delegated
 - **Action:** the accountant slicing envelopes
 
-### Beat 131 · 10:43 (~5.8s)
+### Beat 131 · 10:01 (~5.5s)
 
 **Characters:** The Protagonist, The Director of Patient Experience
 
@@ -1828,7 +1828,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** warm, polished
 - **Action:** walking side by side
 
-### Beat 132 · 10:48 (~6.2s)
+### Beat 132 · 10:07 (~6.5s)
 
 **Characters:** The Protagonist, The Director of Patient Experience
 
@@ -1841,7 +1841,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** courting
 - **Action:** showing the rendering
 
-### Beat 133 · 10:55 (~5.4s)
+### Beat 133 · 10:13 (~6.2s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1854,7 +1854,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** luxurious, persuasive
 - **Action:** the card offered
 
-### Beat 134 · 11:00 (~6.2s)
+### Beat 134 · 10:20 (~7.0s)
 
 **Characters:** The Protagonist
 
@@ -1867,7 +1867,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** contrast
 - **Action:** the two papers side by side
 
-### Beat 135 · 11:06 (~1.6s)
+### Beat 135 · 10:27 (~2.2s)
 
 **Characters:** The Protagonist
 
@@ -1883,7 +1883,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Chapter 7: Level 7 · $200 Million
 *4,000 employees · The drawer of envelopes*
 
-### Beat 136 · 11:08 (~6.2s)
+### Beat 136 · 10:29 (~7.7s)
 
 **Characters:** The Protagonist
 
@@ -1896,7 +1896,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** responsible, powerful
 - **Action:** looking at the screen
 
-### Beat 137 · 11:14 (~4.7s)
+### Beat 137 · 10:36 (~5.7s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1909,7 +1909,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** vast, human
 - **Action:** the mosaic filling the frame
 
-### Beat 138 · 11:19 (~5.0s)
+### Beat 138 · 10:42 (~5.9s)
 
 **Characters:** The Protagonist
 
@@ -1922,7 +1922,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** heavy
 - **Action:** scrolling the totals
 
-### Beat 139 · 11:24 (~6.2s)
+### Beat 139 · 10:48 (~6.0s)
 
 **Characters:** The Protagonist, The CFO
 
@@ -1935,7 +1935,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** analytical
 - **Action:** pointing at the row
 
-### Beat 140 · 11:30 (~4.3s)
+### Beat 140 · 10:54 (~6.4s)
 
 **Characters:** None (environment or insert shot)
 
@@ -1948,7 +1948,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** recurring, absurd
 - **Action:** the row pulsing
 
-### Beat 141 · 11:34 (~5.8s)
+### Beat 141 · 11:01 (~9.9s)
 
 **Characters:** The Protagonist, The CFO
 
@@ -1961,7 +1961,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** clean, cold
 - **Action:** the chart appearing
 
-### Beat 142 · 11:40 (~5.0s)
+### Beat 142 · 11:11 (~4.5s)
 
 **Characters:** The Protagonist
 
@@ -1974,7 +1974,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** haunted
 - **Action:** the memory hovering
 
-### Beat 143 · 11:45 (~3.9s)
+### Beat 143 · 11:15 (~3.1s)
 
 **Characters:** The Protagonist
 
@@ -1987,7 +1987,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** quiet, firm
 - **Action:** shaking his head
 
-### Beat 144 · 11:49 (~5.8s)
+### Beat 144 · 11:18 (~5.1s)
 
 **Characters:** The Protagonist, The CFO
 
@@ -2000,7 +2000,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** unexplained
 - **Action:** the slide changing
 
-### Beat 145 · 11:55 (~3.9s)
+### Beat 145 · 11:23 (~3.6s)
 
 **Characters:** The Protagonist, Mom
 
@@ -2013,7 +2013,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** ominous, casual
 - **Action:** the mother touching her chest
 
-### Beat 146 · 11:59 (~5.8s)
+### Beat 146 · 11:27 (~3.7s)
 
 **Characters:** The Protagonist, Mom
 
@@ -2026,7 +2026,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** concerned
 - **Action:** leaning in
 
-### Beat 147 · 12:05 (~5.8s)
+### Beat 147 · 11:31 (~4.9s)
 
 **Characters:** Mom
 
@@ -2039,7 +2039,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** regretful
 - **Action:** looking down at her plate
 
-### Beat 148 · 12:10 (~3.9s)
+### Beat 148 · 11:35 (~3.1s)
 
 **Characters:** The Protagonist
 
@@ -2052,7 +2052,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** powerless
 - **Action:** staring at his open hand
 
-### Beat 149 · 12:14 (~3.5s)
+### Beat 149 · 11:38 (~2.6s)
 
 **Characters:** Mom
 
@@ -2065,7 +2065,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** protective, sad
 - **Action:** folding the napkin
 
-### Beat 150 · 12:18 (~4.3s)
+### Beat 150 · 11:41 (~3.5s)
 
 **Characters:** The Protagonist, Mom
 
@@ -2078,7 +2078,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** fast, serious
 - **Action:** reviewing scans
 
-### Beat 151 · 12:22 (~6.2s)
+### Beat 151 · 11:45 (~5.6s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2091,7 +2091,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** irreversible
 - **Action:** the hands straining
 
-### Beat 152 · 12:28 (~6.2s)
+### Beat 152 · 11:50 (~4.7s)
 
 **Characters:** The Protagonist
 
@@ -2104,7 +2104,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** helpless
 - **Action:** holding the paid stack
 
-### Beat 153 · 12:34 (~5.8s)
+### Beat 153 · 11:55 (~4.1s)
 
 **Characters:** Mom
 
@@ -2117,7 +2117,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** learned fear
 - **Action:** pressing calculator buttons
 
-### Beat 154 · 12:40 (~4.7s)
+### Beat 154 · 11:59 (~3.8s)
 
 **Characters:** The Protagonist
 
@@ -2130,7 +2130,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** grief, silence
 - **Action:** standing in the doorway
 
-### Beat 155 · 12:45 (~6.2s)
+### Beat 155 · 12:03 (~6.2s)
 
 **Characters:** The Protagonist
 
@@ -2143,7 +2143,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** devastating
 - **Action:** opening the drawer
 
-### Beat 156 · 12:51 (~3.5s)
+### Beat 156 · 12:09 (~2.9s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2156,7 +2156,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** tender, heartbreaking
 - **Action:** the note on the envelope
 
-### Beat 157 · 12:55 (~3.1s)
+### Beat 157 · 12:12 (~3.6s)
 
 **Characters:** The Protagonist
 
@@ -2169,7 +2169,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** grief, wealth
 - **Action:** sitting with the envelopes
 
-### Beat 158 · 12:58 (~4.7s)
+### Beat 158 · 12:16 (~4.0s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2185,7 +2185,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Chapter 8: Level 8 · $1 Billion
 *The piano loop · Balance, zero*
 
-### Beat 159 · 13:02 (~5.0s)
+### Beat 159 · 12:20 (~6.6s)
 
 **Characters:** The Protagonist
 
@@ -2198,7 +2198,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** immense
 - **Action:** walking toward the desk
 
-### Beat 160 · 13:07 (~4.3s)
+### Beat 160 · 12:26 (~3.9s)
 
 **Characters:** The Protagonist, The Household Physician
 
@@ -2211,7 +2211,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** private, absolute
 - **Action:** the physician arranging tools
 
-### Beat 161 · 13:12 (~2.7s)
+### Beat 161 · 12:30 (~2.4s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2224,7 +2224,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** employed
 - **Action:** scrolling payroll
 
-### Beat 162 · 13:14 (~3.9s)
+### Beat 162 · 12:32 (~2.8s)
 
 **Characters:** The Protagonist
 
@@ -2237,7 +2237,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** old pain
 - **Action:** flexing the wrist
 
-### Beat 163 · 13:18 (~5.0s)
+### Beat 163 · 12:35 (~3.9s)
 
 **Characters:** The Protagonist, The Household Physician
 
@@ -2250,7 +2250,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** attentive, private
 - **Action:** applying the ice pack
 
-### Beat 164 · 13:23 (~1.9s)
+### Beat 164 · 12:39 (~1.4s)
 
 **Characters:** The Protagonist
 
@@ -2263,7 +2263,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** opulent
 - **Action:** entering the ballroom
 
-### Beat 165 · 13:25 (~4.7s)
+### Beat 165 · 12:41 (~4.2s)
 
 **Characters:** The Protagonist, The Hospital CEO
 
@@ -2276,7 +2276,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** eager, courtly
 - **Action:** approaching with open arms
 
-### Beat 166 · 13:30 (~3.9s)
+### Beat 166 · 12:45 (~2.6s)
 
 **Characters:** The Protagonist, The Hospital CEO
 
@@ -2289,7 +2289,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** ingratiating
 - **Action:** the two-handed handshake
 
-### Beat 167 · 13:34 (~5.8s)
+### Beat 167 · 12:47 (~4.4s)
 
 **Characters:** The Protagonist, The Hospital CEO
 
@@ -2302,7 +2302,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** blind
 - **Action:** the wrist unnoticed
 
-### Beat 168 · 13:40 (~3.1s)
+### Beat 168 · 12:52 (~2.3s)
 
 **Characters:** The Hospital CEO
 
@@ -2315,7 +2315,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** welcoming
 - **Action:** gesturing to the door
 
-### Beat 169 · 13:43 (~4.7s)
+### Beat 169 · 12:54 (~4.6s)
 
 **Characters:** The Protagonist
 
@@ -2328,7 +2328,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** haunted
 - **Action:** the memory appearing
 
-### Beat 170 · 13:47 (~6.2s)
+### Beat 170 · 12:59 (~6.2s)
 
 **Characters:** The Protagonist, The Founder
 
@@ -2341,7 +2341,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** ambitious
 - **Action:** the founder pointing at the slide
 
-### Beat 171 · 13:54 (~4.7s)
+### Beat 171 · 13:05 (~4.2s)
 
 **Characters:** The Protagonist, The Founder
 
@@ -2354,7 +2354,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** ingratiating
 - **Action:** the early laugh
 
-### Beat 172 · 13:58 (~5.4s)
+### Beat 172 · 13:09 (~5.3s)
 
 **Characters:** The Protagonist, The Founder
 
@@ -2367,7 +2367,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** uneasy
 - **Action:** the music rising
 
-### Beat 173 · 14:04 (~6.2s)
+### Beat 173 · 13:14 (~5.3s)
 
 **Characters:** The Protagonist
 
@@ -2380,7 +2380,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** shaken
 - **Action:** freezing
 
-### Beat 174 · 14:10 (~6.2s)
+### Beat 174 · 13:20 (~4.8s)
 
 **Characters:** The Protagonist, The Founder
 
@@ -2393,7 +2393,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** decisive, silent
 - **Action:** sliding the folder back
 
-### Beat 175 · 14:16 (~5.8s)
+### Beat 175 · 13:25 (~4.8s)
 
 **Characters:** The Protagonist
 
@@ -2406,7 +2406,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** calculated mercy
 - **Action:** studying the numbers
 
-### Beat 176 · 14:22 (~5.8s)
+### Beat 176 · 13:29 (~6.3s)
 
 **Characters:** The Protagonist
 
@@ -2419,7 +2419,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** ironic
 - **Action:** comparing contract and painting
 
-### Beat 177 · 14:28 (~4.7s)
+### Beat 177 · 13:36 (~3.6s)
 
 **Characters:** The Protagonist
 
@@ -2432,7 +2432,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** quietly enormous
 - **Action:** signing the page
 
-### Beat 178 · 14:33 (~6.2s)
+### Beat 178 · 13:39 (~6.3s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2445,7 +2445,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** mass, hopeful
 - **Action:** envelopes streaming
 
-### Beat 179 · 14:39 (~4.3s)
+### Beat 179 · 13:46 (~4.0s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2458,7 +2458,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** relief, disbelief
 - **Action:** the letter unfolding
 
-### Beat 180 · 14:43 (~5.8s)
+### Beat 180 · 13:50 (~4.9s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2471,7 +2471,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** systemic, cold
 - **Action:** the printer running
 
-### Beat 181 · 14:49 (~4.7s)
+### Beat 181 · 13:55 (~4.4s)
 
 **Characters:** The Protagonist
 
@@ -2484,7 +2484,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** resolved, small
 - **Action:** looking out the window
 
-### Beat 182 · 14:53 (~2.3s)
+### Beat 182 · 13:59 (~3.0s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2500,7 +2500,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 ## Chapter 9: Outro · Somewhere Right Now
 *A stranger · "Balance due."*
 
-### Beat 183 · 14:56 (~1.2s)
+### Beat 183 · 14:02 (~1.3s)
 
 **Characters:** The Stranger
 
@@ -2513,7 +2513,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** bleak, quiet
 - **Action:** standing in the doorway
 
-### Beat 184 · 14:57 (~5.8s)
+### Beat 184 · 14:03 (~5.2s)
 
 **Characters:** The Stranger
 
@@ -2526,7 +2526,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** dread
 - **Action:** holding the envelope
 
-### Beat 185 · 15:03 (~5.8s)
+### Beat 185 · 14:08 (~4.7s)
 
 **Characters:** The Stranger
 
@@ -2539,7 +2539,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** mirrored
 - **Action:** the splinted wrist
 
-### Beat 186 · 15:09 (~5.4s)
+### Beat 186 · 14:13 (~5.6s)
 
 **Characters:** The Stranger
 
@@ -2552,7 +2552,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** absurd, mirrored
 - **Action:** rereading the line
 
-### Beat 187 · 15:14 (~2.7s)
+### Beat 187 · 14:19 (~3.5s)
 
 **Characters:** The Stranger
 
@@ -2565,7 +2565,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** absurd
 - **Action:** looking at the peas
 
-### Beat 188 · 15:17 (~5.4s)
+### Beat 188 · 14:22 (~3.7s)
 
 **Characters:** The Stranger
 
@@ -2578,7 +2578,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** resigned
 - **Action:** sliding the magnet down
 
-### Beat 189 · 15:22 (~5.0s)
+### Beat 189 · 14:26 (~5.0s)
 
 **Characters:** The Stranger
 
@@ -2591,7 +2591,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** trapped, waiting
 - **Action:** staring at the timer
 
-### Beat 190 · 15:27 (~5.8s)
+### Beat 190 · 14:31 (~4.7s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2604,7 +2604,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** indifferent, human
 - **Action:** each working quietly
 
-### Beat 191 · 15:33 (~4.3s)
+### Beat 191 · 14:36 (~4.2s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2617,7 +2617,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** systemic
 - **Action:** the stamping
 
-### Beat 192 · 15:37 (~6.2s)
+### Beat 192 · 14:40 (~5.2s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2630,7 +2630,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** equal care
 - **Action:** the identical X-rays
 
-### Beat 193 · 15:44 (~5.0s)
+### Beat 193 · 14:45 (~4.1s)
 
 **Characters:** None (environment or insert shot)
 
@@ -2643,7 +2643,7 @@ Character reference sheet, full body, front view and three-quarter view side by 
 - **Mood:** stark contrast
 - **Action:** the bills diverging
 
-### Beat 194 · 15:49 (~3.5s)
+### Beat 194 · 14:49 (~4.3s)
 
 **Characters:** None (environment or insert shot)
 
