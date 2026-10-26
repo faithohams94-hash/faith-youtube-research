@@ -1,7 +1,7 @@
 # THE WRONG NUMBER
 ## "She Texted a Dead Number… and a Stranger Answered"
 
-*A Nigerian drama in 52 scenes. About 50 minutes. All dialogue, no narrator. Text messages are spoken as voice-over and shown on screen. The only text that isn't spoken is short visual notes for the AI scenes.*
+*A Nigerian drama in 53 scenes. About 50 minutes. All dialogue, no narrator. Text messages are spoken as voice-over and shown on screen. The only text that isn't spoken is short visual notes for the AI scenes.*
 
 ---
 
@@ -9,14 +9,18 @@
 
 - **CHLOE ADEYEMI** (33 → 43). Beautiful and gifted, a trained interior designer. Married to Kunle with two children, living in Abuja. She has learned to say "sorry" before she even knows what she did.
 - **DR. KUNLE ADEYEMI** (40). Medical Director of Adeyemi Specialist Hospital, Maitama. Charming in public and controlling at home. He believes a husband owns his house, his car and his wife.
-- **EMMA WILLIAMS** (35 → 45). Department manager at Silverline, an AI film studio in Lagos. Single, witty and blunt. She has just bought a new SIM card, and nobody told her the number used to belong to someone else.
+- **EMMA WILLIAMS** (35 → 45). Journalist at The Lagos Herald, a newspaper in Ikeja, for ten years: underpaid, overworked and never credited. Witty and blunt on the outside. Three months ago her younger sister Ronke died of cancer, and Emma is drowning in grief she shows no one. After the funeral she bought a new SIM card, and nobody told her the number used to belong to someone else.
 - **ADA** (7). Chloe's daughter, who notices everything. **TOBI** (4), her son.
 - **MUSA**. The family driver.
 - **RITA**. Kunle's secretary at the hospital.
 - **NKEM**. Kunle's girlfriend.
 - **MAMA KUNLE**. Kunle's mother.
 - **HALIMA**. Chloe's old university friend.
-- **BISI**. Emma's colleague and best friend.
+- **BISI**. Emma's colleague at the Herald and her best friend.
+- **MR. BAYO ADEKOLA**. Editor of The Lagos Herald. A bully who takes credit for Emma's work.
+- **MRS. FOLAKE DARAMOLA**. The Herald's new Managing Director.
+- **DR. IFEOMA**. A doctor and counsellor in Lagos.
+- **RONKE** (seen in a photo and heard in voice notes). Emma's late sister.
 - **BARRISTER ZAINAB BELLO**. Chloe's lawyer.
 - **TUNDE BALOGUN**. An architect, gentle and patient.
 - **MR. OKORO**. Kunle's lawyer.
@@ -29,7 +33,10 @@
 - **The dead number.** Kunle's temporary SIM, which he threw away. It was recycled and sold to Emma in Lagos.
 - **"Friday Stranger".** The name Chloe saves Emma under.
 - **Rice.** He pours it on her in Scene 4. At the end, she cooks whatever she wants.
-- **"Still here."** The two words that keep the friendship alive.
+- **"Still here."** The two words that keep the friendship alive, for both of them.
+- **Two women, two rescues.** Emma helps Chloe find the courage to leave. Chloe gives Emma a reason to stay alive and to keep fighting at work. Their stories cut back and forth: Abuja, then Lagos, then Abuja.
+
+*Care note: Emma's suicide attempt is never shown. It is implied by a goodbye text and a fade to black, and the story shows her getting professional help. Keep it that way in the video.*
 
 ---
 
@@ -350,9 +357,33 @@
 
 ---
 
-## SCENE 11 — "JOLLOF OR FRIED RICE?"
+## SCENE 11 — RONKE'S LAST VOICE NOTE
+**INT. EMMA'S APARTMENT, SURULERE, LAGOS — THURSDAY NIGHT**
+*(~9:08–9:49)*
+
+*A small, untidy flat. Unopened condolence cards are piled on a chair. A framed photo of RONKE (28), bald from chemotherapy and laughing anyway, sits on the table. EMMA WILLIAMS (35) sits on the floor in yesterday's clothes and presses play on her phone.*
+
+**RONKE (VOICE NOTE):** *(weak, teasing)* Emi. Emi, are you eating? Don't lie to me. I can hear you not eating. *(a small laugh)* Promise me something. When I'm gone, don't stop living just because I did. Promise.
+
+*The voice note ends. Emma plays it again. And again. Her phone buzzes. It's a text from MR. BAYO, her editor.*
+
+**BAYO (TEXT):** Your piece is dead. I gave the front page to Tayo. And don't ask about salary again this month.
+
+*Emma puts the phone face down. She stares at Ronke's photo for a long time.*
+
+**EMMA:** *(whispering)* I'm tired, Ronke. *(beat)* I'm so tired.
+
+*She picks the phone back up and types a message to Bisi. Her thumb trembles over SEND.*
+
+**EMMA (TEXT):** Bisi, thank you for everything. I'm sorry. Please don't be angry with me.
+
+*Send. She turns off the lamp. Darkness. Silence.*
+
+---
+
+## SCENE 12 — "JOLLOF OR FRIED RICE?"
 **INT. ADEYEMI MANSION — KITCHEN — FRIDAY, 2:14 PM**
-*(~9:08–9:56)*
+*(~9:49–10:37)*
 
 *Chloe is still feverish and sweating, with Tobi on her hip and Ada doing homework at the counter. She opens the fridge. One bowl of jollof rice. One bowl of fried rice. She freezes.*
 
@@ -395,9 +426,9 @@
 
 ---
 
-## SCENE 12 — THE DRUG REP
+## SCENE 13 — THE DRUG REP
 **INT. HOSPITAL — CORRIDOR OUTSIDE KUNLE'S OFFICE — 2:52 PM**
-*(~9:56–10:38)*
+*(~10:37–11:18)*
 
 *Chloe arrives with the cooler, pale with fever, with Musa a step behind her. Rita looks up from her desk, startled and nervous.*
 
@@ -431,35 +462,43 @@
 
 ---
 
-## SCENE 13 — RECYCLED
-**INT. SILVERLINE AI STUDIOS, VICTORIA ISLAND, LAGOS — BREAK ROOM — SAME FRIDAY, 2:20 PM**
-*(~10:38–11:24)*
+## SCENE 14 — THE MORNING AFTER
+**INT. EMMA'S APARTMENT, SURULERE, LAGOS — FRIDAY, 2:17 PM**
+*(~11:18–12:17)*
 
-*A busy creative studio full of screens. EMMA WILLIAMS (35), sharp and stylish, eats suya from paper and laughs at her phone. BISI, her colleague, leans in.*
+*Harsh afternoon light through the curtains. Emma lies on the floor beside the sofa, where the night left her. She is weak and dizzy, but alive. Her eyes flutter open, and she doesn't know where she is. Then her phone buzzes on the floor beside her face. She squints at the screen.*
 
-**BISI:** What's funny?
+**CHLOE (TEXT):** Jollof rice or fried rice? Sorry, I forgot which one you wanted.
 
-**EMMA:** Somebody just asked me whether to cook jollof or fried rice.
+*Emma stares at it. A stranger. A number she doesn't know. A question about rice. She laughs, a broken, cracked laugh that turns into sobbing. Then, with shaking fingers, she types.*
 
-**BISI:** And you answered?
+**EMMA (TEXT):** Wrong receiver, but jollof rice with turkey sounds better 😂
 
-**EMMA:** Jollof with turkey. Obviously. I'm not a monster.
+*Send. 2:19 PM. Pounding on the door.*
 
-**BISI:** Wait, isn't that the new SIM you bought last week?
+**BISI (O.S.):** EMMA! EMMA, OPEN THIS DOOR! I've been calling since midnight! EMMA!
 
-**EMMA:** Yes. 0814 333 2197. The girl at the shop said it was a "fresh line."
+*Emma crawls to the door and unlocks it. BISI bursts in and falls to her knees, grabbing Emma's face.*
 
-**BISI:** *(laughing)* Fresh line? In Lagos? Emma, that number has a history. Recycled numbers carry other people's wahala.
+**BISI:** *(sobbing)* What did you do? What did you DO? That message, Emma, that message!
 
-**EMMA:** *(putting the phone away)* Then I'll return the wahala to sender. It's just rice, Bisi.
+**EMMA:** *(barely audible)* I'm still here. *(beat)* I don't know why. But I'm still here.
 
-**BISI:** *(raising an eyebrow)* It's never just rice.
+**BISI:** *(holding her tight)* We're going to the hospital. Now. And then we're getting you help. Real help. I don't care what you say.
+
+*Emma looks at the message on the screen through her tears.*
+
+**EMMA:** *(weakly)* Somebody in this world is worried about rice, Bisi.
+
+**BISI:** *(laughing and crying)* That's the new SIM you bought after the funeral. A recycled line. *(beat)* It carried somebody's wahala to you.
+
+**EMMA:** *(looking at the message)* Or it carried somebody's rice.
 
 ---
 
-## SCENE 14 — "FRIDAY STRANGER"
+## SCENE 15 — "FRIDAY STRANGER"
 **INT. CHLOE'S BEDROOM, ABUJA / INT. EMMA'S APARTMENT, LAGOS — INTERCUT — THE NEXT FRIDAY, 2:19 PM**
-*(~11:24–12:05)*
+*(~12:17–12:58)*
 
 *Chloe folds laundry, fever gone. She scrolls back to the stranger's message. She remembers serving the fried rice last Friday. She hesitates, then types.*
 
@@ -493,9 +532,9 @@
 
 ---
 
-## SCENE 15 — "WHO DID YOU USE TO BE?"
+## SCENE 16 — "WHO DID YOU USE TO BE?"
 **MONTAGE — LAGOS AND ABUJA — FRIDAYS OVER TWO MONTHS**
-*(~12:05–13:00)*
+*(~12:58–13:53)*
 
 **EMMA (TEXT):** Serious question. Is pineapple on pizza a crime?
 
@@ -534,9 +573,9 @@
 
 ---
 
-## SCENE 16 — THE VOICE
+## SCENE 17 — THE VOICE
 **INT. CHLOE'S CAR (PARKED IN THE GARAGE), ABUJA / INT. EMMA'S BALCONY, LAGOS — FRIDAY, 9:40 PM**
-*(~13:00–13:50)*
+*(~13:53–14:43)*
 
 *Chloe sits in the back seat of the family Lexus in the dark garage. It's the only place in the house without ears.*
 
@@ -574,9 +613,9 @@
 
 ## ACT TWO — THE HUSBAND READS THE PHONE
 
-## SCENE 17 — "MY WIFE WOULD FORGET HER OWN HEAD"
+## SCENE 18 — "MY WIFE WOULD FORGET HER OWN HEAD"
 **INT. ADEYEMI MANSION — DINING ROOM — NIGHT — SIX MONTHS LATER**
-*(~13:50–15:30)*
+*(~14:43–16:23)*
 
 *A dinner party. Kunle hosts four business GUESTS. Chloe has cooked everything and stands serving.*
 
@@ -628,9 +667,9 @@
 
 ---
 
-## SCENE 18 — HALIMA
+## SCENE 19 — HALIMA
 **INT. CAFÉ, WUSE 2, ABUJA — DAY**
-*(~15:30–16:20)*
+*(~16:23–17:13)*
 
 *Chloe sits across from HALIMA, her old university friend, with sunglasses on indoors.*
 
@@ -650,11 +689,81 @@
 
 **CHLOE:** *(a small smile)* A stranger who answered a wrong number.
 
+
 ---
 
-## SCENE 19 — "WHO GAVE YOU PERMISSION?"
+## SCENE 20 — THE BYLINE
+**INT. THE LAGOS HERALD — NEWSROOM, IKEJA — DAY**
+*(~17:13–18:56)*
+
+*A crowded, noisy newsroom with old computers and a broken air conditioner. Emma, thinner and still fragile but working, stands at the desk of MR. BAYO ADEKOLA, the editor. He holds her printed article.*
+
+**EMMA:** Sir, it's the hospital story. Three weeks of interviews. The patients' families are ready to go on record.
+
+**BAYO:** *(tossing it into the bin)* Nobody wants to read sad stories about poor people, Emma. *(beat)* Tayo will rewrite it. His name goes on it.
+
+**EMMA:** *(steady)* Sir, that's my story. And it's been four months since we were paid.
+
+**BAYO:** *(loud, so the whole newsroom hears)* Ten years in this office, and you're still begging for your own name on your own story? If you don't like it, the gate is open.
+
+*Silence in the newsroom. Emma picks her article out of the bin, smooths it flat and walks back to her desk. Bisi squeezes her hand as she passes. At her desk, Emma opens the contact she saved weeks ago: "RICE WOMAN."*
+
+**EMMA (TEXT):** Bad day. My editor binned my story in front of everybody. Ten years. I'm starting to think I'm just not good enough.
+
+*In Abuja, Chloe reads it at the kitchen counter.*
+
+**CHLOE (TEXT):** Then write the next one. And the next one. Let them get tired before you do.
+
+**EMMA (TEXT):** That's my kind of advice. Where did you steal it?
+
+**CHLOE (TEXT):** From a stranger who told me not to let anybody put my portfolio back on the shelf. *(beat)* Don't let them put you in the bin, Emma.
+
+*Emma looks at the crumpled article for a long time. Then, slowly, she types something she has never told anyone.*
+
+**EMMA (TEXT):** Can I tell you something? Some nights I don't want to wake up, Chloe. Since my sister died.
+
+*In Abuja, Chloe goes completely still. She puts down the spoon.*
+
+**CHLOE (TEXT):** Emma. Thank you for telling me. Are you safe right now?
+
+**EMMA (TEXT):** Yes. I'm at work. Bisi is here.
+
+**CHLOE (TEXT):** Then promise me something. Talk to a doctor. This week. *(beat)* You told me to call Halima. Now I'm telling you to see somebody.
+
+**EMMA (TEXT):** *(after a long pause)* Okay. I promise.
+
+*Emma opens a new document and starts typing the next story.*
+
+
+---
+
+## SCENE 21 — DR. IFEOMA
+**INT. COUNSELLING ROOM, LAGOS — DAY — SAME WEEK**
+*(~18:56–20:18)*
+
+*A quiet room with plants and a box of tissues. DR. IFEOMA, a calm woman in her fifties, sits across from Emma. Bisi waits outside.*
+
+**DR. IFEOMA:** Bisi drove you here. But you're the one who walked in. That matters. *(beat)* Tell me about that Thursday night.
+
+**EMMA:** *(looking at her hands)* My sister fought cancer for two years. She fought for every single day. And I'm the one who gave up. *(beat)* What kind of sister does that?
+
+**DR. IFEOMA:** A sister who's been carrying grief alone for three months, with no sleep and no salary. *(gently)* Grief like that can make the dark feel like the only room in the house. It isn't.
+
+**EMMA:** *(a small, surprised laugh)* That's funny. My friend in Abuja says her garage is the only room in her house where nobody listens.
+
+**DR. IFEOMA:** Your friend in Abuja?
+
+**EMMA:** A stranger. She texted me by mistake the afternoon I woke up. About rice. *(beat)* She's the one who told me to come here. She said, "You told me to call Halima. I'm telling you to see somebody."
+
+**DR. IFEOMA:** *(smiling)* Then let's make sure that stranger gets to keep texting you for a very long time. *(beat)* Same time next week, Emma?
+
+**EMMA:** *(after a long pause)* Same time next week.
+
+---
+
+## SCENE 22 — "WHO GAVE YOU PERMISSION?"
 **INT. ADEYEMI MANSION — DINING ROOM — NIGHT — WEEKS LATER**
-*(~16:20–17:03)*
+*(~20:18–21:01)*
 
 *Design sketches cover the dining table. Chloe has a small paid job: a client's living room. Kunle walks in and picks up a sketch.*
 
@@ -684,9 +793,9 @@
 
 ---
 
-## SCENE 20 — SHE IS LAUGHING
+## SCENE 23 — SHE IS LAUGHING
 **EXT/INT. ADEYEMI MANSION — FRONT DOOR / SITTING ROOM — NEXT EVENING**
-*(~17:03–17:28)*
+*(~21:01–21:26)*
 
 *Kunle comes home early, expecting to find a broken woman. His key is in the lock when he hears something through the door. Laughter. Chloe's laughter, loud and free.*
 
@@ -714,9 +823,9 @@
 
 ---
 
-## SCENE 21 — 3:07 A.M.
+## SCENE 24 — 3:07 A.M.
 **INT. MASTER BEDROOM — 3:07 AM**
-*(~17:28–18:11)*
+*(~21:26–22:09)*
 
 *Darkness. Chloe sleeps on her side, her phone on the bedside table. Kunle sits up silently. He lifts her limp hand and presses her thumb onto the phone. It unlocks.*
 
@@ -734,9 +843,9 @@
 
 ---
 
-## SCENE 22 — "ARE WE FIGHTING?"
+## SCENE 25 — "ARE WE FIGHTING?"
 **INT. EMMA'S APARTMENT, LAGOS — 6:40 AM**
-*(~18:11–19:01)*
+*(~22:09–22:59)*
 
 *Emma wakes up and reaches for her phone. She reads the message once, then sits up and reads it again.*
 
@@ -769,33 +878,35 @@
 
 ---
 
-## SCENE 23 — "WHY DO YOU EVEN CARE?"
+## SCENE 26 — "WHY DO YOU EVEN CARE?"
 **INT. EMMA'S APARTMENT, LAGOS — NIGHT — SAME DAY**
-*(~19:01–20:01)*
+*(~22:59–24:21)*
 
-*Emma sits on the floor against her sofa holding an old framed photo of a smiling young woman. Bisi has come over with food that nobody is eating.*
+*Emma sits on the floor against her sofa holding the framed photo of Ronke. Bisi has come over with food that nobody is eating.*
 
-**BISI:** Emma, I have to ask. Why do you care this much? You've never even seen this woman's face.
+**BISI:** Emma, I have to ask. Why do you care this much? You've never even seen this woman's face. And she's blocked you.
 
-*Emma turns the photo toward her.*
+**EMMA:** *(quietly)* Because you don't know what her first text was, Bisi.
 
-**EMMA:** My sister. Ronke. *(beat)* She married a lovely man. Everybody said so. Church, family, everybody. *(beat)* For six years she called me every Sunday and said, "I'm fine, Emma. I'm fine." And I believed her, because it was easier.
+**BISI:** "Jollof or fried rice." Everybody in Lagos knows that story.
 
-**BISI:** *(quietly)* Emma…
+**EMMA:** *(shaking her head)* You know the joke. You don't know the time. *(beat)* It came at 2:17 the afternoon after that Thursday. I'd just opened my eyes on that floor. *(She points.)* Right there. I didn't want to be alive. And my phone buzzed, and a stranger was asking me about rice like the world still had ordinary problems in it.
 
-**EMMA:** One Sunday she didn't call. *(Her voice breaks.)* Nobody ever asked Ronke if she was safe, Bisi. Not one person. Not even me.
+*Bisi slowly puts down her plate.*
 
-*She puts the photo down.*
+**EMMA:** I laughed, Bisi. For the first time since Ronke's funeral. *(Her voice breaks.)* She doesn't even know she saved my life. She thinks I saved hers.
 
-**EMMA:** So when a stranger texts me "I think I'm afraid of my husband," I don't get to look away. Not again. Not even if she blocks me.
+**BISI:** *(her eyes wet)* Then tell her.
 
-**BISI:** *(after a long pause)* Then don't let her block you. *(She slides Emma's office phone across the floor.)* Use another number.
+**EMMA:** I can't. She's blocked me. Somebody called me "a useless man" from her phone. *(She looks at the photo.)* Ronke never let anybody shut a door on me. *(beat)* I won't let anybody shut this one.
+
+**BISI:** *(sliding Emma's office phone across the floor)* Then don't knock on the same door. Use another number.
 
 ---
 
-## SCENE 24 — THE MONTH OF SILENCE
+## SCENE 27 — THE MONTH OF SILENCE
 **MONTAGE — ABUJA AND LAGOS — FOUR FRIDAYS**
-*(~20:01–20:48)*
+*(~24:21–25:08)*
 
 *FRIDAY ONE, 2:19 PM. Chloe opens her phone. The chat with Friday Stranger is gone, and so is the contact.*
 
@@ -825,9 +936,9 @@
 
 ---
 
-## SCENE 25 — THE ARCHIVE
+## SCENE 28 — THE ARCHIVE
 **INT. ADEYEMI MANSION — CHILDREN'S ROOM / KITCHEN — DAY**
-*(~20:48–21:42)*
+*(~25:08–26:02)*
 
 *LAGOS, THE NIGHT BEFORE. Emma sits on her bed, takes out her old SIM and puts in her office line.*
 
@@ -855,9 +966,9 @@
 
 ---
 
-## SCENE 26 — "IT WAS MY HUSBAND"
+## SCENE 29 — "IT WAS MY HUSBAND"
 **INT. HALIMA'S CAR — PARKED OUTSIDE A SUPERMARKET, ABUJA — DAY**
-*(~21:42–22:51)*
+*(~26:02–27:10)*
 
 *Chloe sits in Halima's car on Halima's phone, crying. Halima sits beside her and holds her hand.*
 
@@ -887,9 +998,9 @@
 
 ---
 
-## SCENE 27 — "DIVORCE HIM"
+## SCENE 30 — "DIVORCE HIM"
 **INT. CHLOE'S BATHROOM, ABUJA / INT. EMMA'S CAR, LAGOS — NIGHT — INTERCUT**
-*(~22:51–23:59)*
+*(~27:10–28:19)*
 
 *Chloe sits on the bathroom floor with the shower running to drown out her voice, on a secret second phone Halima gave her. Emma is parked in her car in Lagos traffic.*
 
@@ -921,9 +1032,9 @@
 
 ---
 
-## SCENE 28 — "WHO IS EMMANUEL?"
+## SCENE 31 — "WHO IS EMMANUEL?"
 **INT. ADEYEMI MANSION — SITTING ROOM — NIGHT — DAYS LATER**
-*(~23:59–25:19)*
+*(~28:19–29:39)*
 
 *Kunle sits on the sofa holding the second phone. He found it in the towel cupboard. Chloe stands frozen at the foot of the stairs.*
 
@@ -951,7 +1062,7 @@
 
 **KUNLE:** *(to the phone, shaken, then furious)* You don't know anything about my home.
 
-**EMMA (ON PHONE):** I know enough. You said you're coming to Lagos? Come. Silverline Studios, Victoria Island, fourth floor. I'll be waiting for you.
+**EMMA (ON PHONE):** I know enough. You said you're coming to Lagos? Come. The Lagos Herald, Allen Avenue, Ikeja, fourth floor. I'll be waiting for you.
 
 *Click. Kunle slowly lowers the phone. The house is completely silent.*
 
@@ -959,9 +1070,9 @@
 
 ---
 
-## SCENE 29 — THE TICKET
+## SCENE 32 — THE TICKET
 **INT. HOSPITAL — RITA'S DESK / INT. HALIMA'S CAR — INTERCUT — NEXT MORNING**
-*(~25:19–26:38)*
+*(~29:39–30:59)*
 
 *Rita sits at her desk, glancing at Kunle's closed door. She takes out her personal phone and dials with shaking fingers. In Halima's car, Chloe answers on the secret phone.*
 
@@ -971,7 +1082,7 @@
 
 **CHLOE:** *(alarmed)* Rita? What's wrong?
 
-**RITA:** He told me to cancel all his appointments for tomorrow. He's bought a ticket. Abuja to Lagos, 7 a.m. *(beat)* Madam, he asked me to search the internet for "Silverline Studios, Victoria Island." He printed the address.
+**RITA:** He told me to cancel all his appointments for tomorrow. He's bought a ticket. Abuja to Lagos, 7 a.m. *(beat)* Madam, he asked me to search the internet for "The Lagos Herald, Ikeja." He printed the address.
 
 *Chloe's hand flies to her mouth.*
 
@@ -993,11 +1104,11 @@
 
 ---
 
-## SCENE 30 — FOURTH FLOOR
-**INT. SILVERLINE AI STUDIOS, LAGOS — RECEPTION — DAY — TWO DAYS LATER**
-*(~26:38–27:55)*
+## SCENE 33 — FOURTH FLOOR
+**INT. THE LAGOS HERALD, IKEJA — NEWSROOM RECEPTION — DAY — TWO DAYS LATER**
+*(~30:59–32:18)*
 
-*Glass doors, a busy open-plan studio and staff everywhere. Kunle storms in, still in his white coat from the flight, and slams his hand on the reception desk.*
+*A crowded newsroom, with reporters, ringing phones and cameras everywhere. Kunle storms in, still in his white coat from the flight, and slams his hand on the reception desk.*
 
 **KUNLE:** Emma Williams. NOW.
 
@@ -1009,7 +1120,7 @@
 
 **KUNLE:** *(looking her up and down)* So you're the "friend." You're the one filling my wife's head with rubbish.
 
-**EMMA:** I'm the one she texted by mistake. And I'm the one she told the truth to. *(beat)* Say what you came to say, Doctor.
+**EMMA:** I'm the one she texted by mistake. And I'm the one she told the truth to. *(beat)* I'm also a journalist, Doctor. Ten years. Say what you came to say, carefully.
 
 **KUNLE:** *(stepping closer)* Stay away from my family. You don't know her. You've never even seen her face.
 
@@ -1037,33 +1148,9 @@
 
 ---
 
-## SCENE 31 — "WHAT WILL YOU DO TO ME?"
-**INT. KUNLE'S RANGE ROVER — NNAMDI AZIKIWE AIRPORT CAR PARK, ABUJA — NIGHT — SAME DAY**
-*(~27:55–28:53)*
-
-*Kunle has just landed back from Lagos. His shirt is torn at the collar. He grips the steering wheel and calls Nkem on speaker.*
-
-**NKEM (ON PHONE):** *(cold)* What do you want, Kunle?
-
-**KUNLE:** I need to see you tonight. Today has been… I need you, Nkem.
-
-**NKEM (ON PHONE):** Rita told me. *(beat)* A whole office in Lagos watched you shout that you "discipline" your wife.
-
-**KUNLE:** Rita talks too much. That woman provoked me—
-
-**NKEM (ON PHONE):** You poured rice on your wife's head, Kunle. In your office. *(beat)* I used to laugh when you said she was "used to talking to nobody." I thought it was a joke.
-
-**KUNLE:** Nkem, you know me. I'd never—
-
-**NKEM (ON PHONE):** That's the problem. I don't know you. *(beat)* If you can do that to the mother of your children, what will you do to me when I burn your rice?
-
-*Click. Kunle stares at the dead phone. Then he slams both hands on the steering wheel again and again, screaming. He starts the engine and roars out toward Asokoro.*
-
----
-
-## SCENE 32 — THE NIGHT HE CAME BACK
+## SCENE 34 — THE NIGHT HE CAME BACK
 **INT. ADEYEMI MANSION — NIGHT — SAME DAY**
-*(~28:53–29:55)*
+*(~32:18–33:20)*
 
 *11:48 p.m. Headlights sweep the window. Chloe stands at the curtain. Ada is in the doorway holding Tobi's hand.*
 
@@ -1107,9 +1194,9 @@
 
 ---
 
-## SCENE 33 — THREE FRIDAYS
+## SCENE 35 — THREE FRIDAYS
 **INT. EMMA'S APARTMENT, LAGOS / INT. HALIMA'S GUEST ROOM, ABUJA — INTERCUT**
-*(~29:55–30:45)*
+*(~33:20–34:10)*
 
 **EMMA (TEXT):** Morning, Abuja. What's the rice controversy today?
 
@@ -1135,9 +1222,9 @@
 
 ---
 
-## SCENE 34 — MAMA KUNLE
+## SCENE 36 — MAMA KUNLE
 **INT. HALIMA'S HOUSE, ABUJA — SITTING ROOM — DAY**
-*(~30:45–31:45)*
+*(~34:10–35:10)*
 
 *A knock. Halima opens the door and steps back. MAMA KUNLE (65), elegant and stern, walks in. Chloe stands up, terrified, and pulls Ada behind her.*
 
@@ -1159,9 +1246,9 @@
 
 ---
 
-## SCENE 35 — "THREATS ARE NOT COURT ORDERS"
+## SCENE 37 — "THREATS ARE NOT COURT ORDERS"
 **INT. BARRISTER ZAINAB BELLO'S CHAMBERS, ABUJA — DAY**
-*(~31:45–32:39)*
+*(~35:10–36:04)*
 
 *BARRISTER ZAINAB BELLO, sharp and calm, flips through a thick file. Chloe sits across from her.*
 
@@ -1181,9 +1268,9 @@
 
 ---
 
-## SCENE 36 — THE WITNESS
+## SCENE 38 — THE WITNESS
 **INT. FEDERAL HIGH COURT, ABUJA — COURTROOM — DAY**
-*(~32:39–35:19)*
+*(~36:04–38:45)*
 
 *A packed courtroom. Kunle sits with his lawyer, MR. OKORO, in an expensive agbada, calm and confident. Chloe sits with Zainab. Halima and Mama Kunle are in the gallery.*
 
@@ -1247,9 +1334,9 @@
 
 ---
 
-## SCENE 37 — "LET'S GO HOME"
+## SCENE 39 — "LET'S GO HOME"
 **INT. COURTROOM → EXT. COURT STEPS — DAY — WEEKS LATER**
-*(~35:19–36:19)*
+*(~38:45–39:45)*
 
 **JUDGE:** Having considered all the evidence and the welfare of the children, this court dissolves the marriage. Primary custody of Ada and Tobi is granted to the petitioner, Mrs. Chloe Adeyemi, with supervised access for the father.
 
@@ -1282,9 +1369,9 @@
 
 ---
 
-## SCENE 38 — "WHY DID YOU POUR RICE ON MUMMY?"
+## SCENE 40 — "WHY DID YOU POUR RICE ON MUMMY?"
 **INT. HALIMA'S HOUSE — SITTING ROOM — SUPERVISED VISIT — DAY**
-*(~36:19–37:15)*
+*(~39:45–40:40)*
 
 *Kunle sits on Halima's sofa with expensive gifts piled next to him: a tablet, a toy car, a designer bag for Ada. Halima watches from the dining table. Tobi plays with the toy car. Ada stands in front of her father with her arms folded and doesn't touch her gift.*
 
@@ -1315,9 +1402,9 @@
 
 ---
 
-## SCENE 39 — THE WHITE COAT
+## SCENE 41 — THE WHITE COAT
 **INT. ADEYEMI SPECIALIST HOSPITAL — BOARDROOM — DAY — WEEKS LATER**
-*(~37:15–38:14)*
+*(~40:40–41:39)*
 
 *The same boardroom from Scene 3. Twelve board members sit in silence. Kunle stands at the head of the table, confident, in his white coat.*
 
@@ -1343,9 +1430,9 @@
 
 ## ACT THREE — LEARNING TO LIVE AGAIN
 
-## SCENE 40 — CHLOE ADEYEMI INTERIORS
+## SCENE 42 — CHLOE ADEYEMI INTERIORS
 **INT. SMALL OFFICE, WUSE, ABUJA — DAY — TWO YEARS LATER**
-*(~38:14–38:56)*
+*(~41:39–42:21)*
 
 *A modest office. A new sign on the door reads "CHLOE ADEYEMI INTERIORS." Fabric samples, sketches and one employee setting up a laptop. A happy CLIENT stands with Chloe.*
 
@@ -1367,45 +1454,86 @@
 
 **EMMA (TEXT):** Me too. One day.
 
----
-
-## SCENE 41 — NOW IT'S MY TURN
-**INT. EMMA'S APARTMENT, LAGOS — NIGHT — THAT SAME YEAR**
-*(~38:56–39:52)*
-
-*Emma sits in the dark with untouched takeaway. Silverline has lost its biggest contract, and her mother is in hospital in Ibadan. Her phone buzzes.*
-
-**CHLOE (TEXT):** You've been quiet today. Talk to me.
-
-**EMMA (TEXT):** Terrible week. No jokes today. They want me to tell six young people they've lost their jobs. And Mummy's sugar level crashed again.
-
-**CHLOE (TEXT):** Then don't be funny today. Don't be strong today.
-
-**EMMA (TEXT):** I'm tired of being the one who always knows what to do.
-
-**CHLOE (TEXT):** You once told me I didn't have to earn kindness. That applies to you too, Emma Williams.
-
-*Emma's eyes fill with tears.*
-
-**EMMA (TEXT):** Look at you giving me my own advice.
-
-**CHLOE (TEXT):** Somebody has to. Your advice is expensive.
-
-**EMMA (TEXT):** You've never paid me one kobo.
-
-**CHLOE (TEXT):** And I never will 😂 *(beat)* Have you eaten?
-
-**EMMA (TEXT):** No.
-
-**CHLOE (TEXT):** Jollof or fried rice?
-
-**EMMA (TEXT):** *(laughing through her tears)* Don't start.
 
 ---
 
-## SCENE 42 — STILL HERE
+## SCENE 43 — THE NEW BOSS
+**INT. THE LAGOS HERALD — BOARDROOM, IKEJA — DAY — SAME YEAR**
+*(~42:21–43:56)*
+
+*A new Managing Director, MRS. FOLAKE DARAMOLA, sharp and no-nonsense, sits at the head of the table with a thick folder. Mr. Bayo sits stiffly beside her. Emma enters, nervous.*
+
+**MRS. DARAMOLA:** Sit down, Miss Williams. *(She opens the folder.)* I've spent my first month reading this newspaper's archive. Do you know what I found?
+
+**EMMA:** *(cautious)* No, ma.
+
+**MRS. DARAMOLA:** Forty-one stories with your research and somebody else's name on them. *(She looks at Bayo, who looks at the table.)* A notebook in your desk, tracking every unpaid salary in this building for three years, with names, dates and amounts. *(beat)* And the night-shift staff tell me that when Tayo's mother was in hospital, you paid the deposit from your own pocket.
+
+**EMMA:** *(quietly)* Somebody had to look after them, ma.
+
+**MRS. DARAMOLA:** Exactly. Somebody had to. *(She closes the folder.)* Mr. Adekola, you're relieved of your position as editor, effective today. *(Bayo leaves without a word.)* Miss Williams, you've been doing the job of a Human Resources department for ten years, for free. I'd like you to do it for a salary.
+
+**EMMA:** *(stunned)* Ma?
+
+**MRS. DARAMOLA:** Head of HR and Staff Welfare. Your first job is to pay everyone what they're owed. *(beat)* And your stories run under your own name from now on.
+
+*Emma walks out of the boardroom in a daze. In the corridor, Bisi is waiting. Emma grabs her and screams. Then she takes out her phone.*
+
+**EMMA (TEXT):** Chloe. CHLOE. They made me Head of HR. Me. The one who was nearly in the bin.
+
+**CHLOE (TEXT):** I'M SCREAMING IN A CLIENT'S KITCHEN. You kept writing the next one!
+
+**EMMA (TEXT):** Because a stranger told me to let them get tired first. *(beat)* They got tired, Chloe.
+
+---
+
+## SCENE 44 — NOW IT'S MY TURN
+**INT. EMMA'S APARTMENT, LAGOS / INT. CHLOE'S HOUSE, ABUJA — NIGHT — RONKE'S ANNIVERSARY**
+*(~43:56–45:19)*
+
+*Emma sits in the dark with untouched takeaway. Today is one year since Ronke died. Her phone buzzes.*
+
+**CHLOE (TEXT):** You've been quiet all day. I know what today is. Talk to me.
+
+**EMMA (TEXT):** No jokes today. I keep thinking about that Thursday. I'm scared of the dark again, Chloe.
+
+*In Abuja, Chloe doesn't text back. She calls. Emma answers.*
+
+**CHLOE:** Emma. Are you safe right now?
+
+**EMMA:** *(a long breath)* Yes. I called Dr. Ifeoma this afternoon. Bisi is coming over.
+
+**CHLOE:** Good. *(beat)* Then tell me about her. Not how she died. Who she was.
+
+**EMMA:** *(surprised)* Nobody asks me that.
+
+**CHLOE:** I'm asking.
+
+**EMMA:** *(a small laugh through tears)* She named her wigs. All seven. Funmi, Shade, "Madam Senator"… She'd wear Madam Senator to chemo and make the nurses salute her. *(beat)* She used to call me "Emi." She said "Emma" was too serious for somebody who cries at adverts.
+
+**CHLOE:** *(softly)* She sounds like you.
+
+**EMMA:** *(crying now)* She was better than me.
+
+**CHLOE:** She was braver than the cancer. You're braver than the dark. *(beat)* You once told me I didn't have to earn kindness. That applies to you too, Emi.
+
+*Emma covers her mouth. Nobody has called her that in a year.*
+
+**EMMA:** Look at you giving me my own advice.
+
+**CHLOE:** Somebody has to. Your advice is expensive. *(beat)* Have you eaten?
+
+**EMMA:** No.
+
+**CHLOE:** Jollof or fried rice?
+
+**EMMA:** *(laughing through her tears)* Don't start.
+
+---
+
+## SCENE 45 — STILL HERE
 **MONTAGE — LAGOS AND ABUJA — THE YEARS PASS**
-*(~39:52–40:23)*
+*(~45:19–45:51)*
 
 *FRIDAY, 8:07 AM.*
 
@@ -1415,9 +1543,9 @@
 
 *ANOTHER FRIDAY, 6:41 PM.*
 
-**EMMA (TEXT):** I GOT THE PROMOTION! Head of Studio!
+**EMMA (TEXT):** Every single staff member got their full salary today. Every one. My first payday as HR.
 
-**CHLOE (TEXT):** MY GIRL!!! I'm screaming in a client's kitchen!
+**CHLOE (TEXT):** MY GIRL!!!
 
 *ANOTHER FRIDAY, 10:12 PM.*
 
@@ -1427,31 +1555,9 @@
 
 ---
 
-## SCENE 43 — THE UNKNOWN NUMBER
-**INT. CHLOE'S NEW HOUSE, ABUJA — NIGHT — YEAR SIX**
-*(~40:23–41:06)*
-
-*A warm, bright home with big windows, Chloe's own design. Chloe is at her drawing table. Her phone rings: "UNKNOWN NUMBER." She answers.*
-
-**KUNLE (ON PHONE):** *(soft, charming)* Chloe. It's me. *(beat)* I've changed. I've been seeing a counsellor. The children need their father in the house. Come back. We can start again. I'll even let you keep your little business.
-
-*Chloe puts down her pencil. Her hand doesn't shake.*
-
-**CHLOE:** "Let me keep it"?
-
-**KUNLE (ON PHONE):** You know what I mean.
-
-**CHLOE:** I know exactly what you mean, Kunle. That's the problem. *(beat)* The children will see you on Saturday, at Halima's, like the court said. *(calm)* Goodnight.
-
-**KUNLE (ON PHONE):** *(the charm cracking)* Chloe, don't you dare hang up on—
-
-*She hangs up and blocks the number. She sits for a moment, then picks up her pencil again and keeps drawing.*
-
----
-
-## SCENE 44 — "COFFEE?"
+## SCENE 46 — "COFFEE?"
 **INT. CONSTRUCTION SITE OFFICE, ABUJA — DAY — YEAR SEVEN**
-*(~41:06–41:50)*
+*(~45:51–46:35)*
 
 *Blueprints cover a table. TUNDE BALOGUN, an architect with kind eyes and a hard hat under his arm, finishes a meeting with Chloe.*
 
@@ -1469,9 +1575,9 @@
 
 ---
 
-## SCENE 45 — THE DISAGREEMENT
+## SCENE 47 — THE DISAGREEMENT
 **INT. CHLOE ADEYEMI INTERIORS — DAY — MONTHS LATER**
-*(~41:50–42:27)*
+*(~46:35–47:12)*
 
 *Tunde and Chloe stand over a client's floor plan.*
 
@@ -1500,41 +1606,9 @@
 
 ---
 
-## SCENE 46 — THE INTERVIEW
-**INT. CHLOE'S HOUSE, ABUJA — DINING ROOM — EVENING**
-*(~42:27–43:10)*
-
-*Tunde's first dinner with the children. Ada, now 15, sits across from him like an immigration officer. Tobi, 12, grins. Chloe brings dishes to the table, nervous.*
-
-**ADA:** Mr. Tunde. I have some questions.
-
-**CHLOE:** Ada!
-
-**TUNDE:** *(putting down his fork)* No, it's fair. Go ahead.
-
-**ADA:** If dinner is late, what do you do?
-
-**TUNDE:** *(thinking)* Eat a biscuit. *(beat)* Or cook it myself. I make a very dangerous jollof.
-
-**ADA:** If Mummy drives your car?
-
-**TUNDE:** Then I hope she brings it back with fuel.
-
-**ADA:** *(not smiling)* If she disagrees with you in front of people?
-
-**TUNDE:** *(seriously)* Then I listen. Because your mother is usually right. It's very annoying.
-
-*Tobi laughs. Ada studies him for a long moment, then looks at her mother.*
-
-**ADA:** *(quietly)* Mummy. He passed.
-
-*Chloe has to turn away to hide her tears. Tunde reaches for the stew and serves Chloe first.*
-
----
-
-## SCENE 47 — "EXCUSE ME???"
+## SCENE 48 — "EXCUSE ME???"
 **INT. CHLOE'S HOUSE, ABUJA / INT. EMMA'S OFFICE, LAGOS — INTERCUT — FRIDAY**
-*(~43:10–43:53)*
+*(~47:12–47:55)*
 
 **CHLOE (TEXT):** There's someone.
 
@@ -1558,9 +1632,9 @@
 
 ---
 
-## SCENE 48 — "WILL YOU COME?"
+## SCENE 49 — "WILL YOU COME?"
 **INT. CHLOE'S HOUSE / EMMA'S OFFICE — FRIDAY, 2:19 PM — YEAR TEN**
-*(~43:53–44:55)*
+*(~47:55–48:58)*
 
 *A photo arrives on Emma's phone: Chloe's hand with an engagement ring.*
 
@@ -1598,9 +1672,9 @@
 
 ---
 
-## SCENE 49 — ARRIVALS
+## SCENE 50 — ARRIVALS
 **INT. NNAMDI AZIKIWE AIRPORT, ABUJA — ARRIVALS — WEDDING DAY, 3:40 PM**
-*(~44:55–45:48)*
+*(~48:58–49:51)*
 
 *Emma (45), in her emerald outfit with a gele box in her hand, stands frozen at the exit, on the phone with Bisi.*
 
@@ -1622,9 +1696,9 @@
 
 ---
 
-## SCENE 50 — THE EMPTY CHAIR
+## SCENE 51 — THE EMPTY CHAIR
 **EXT. GARDEN WEDDING RECEPTION, ABUJA — EVENING**
-*(~45:48–47:42)*
+*(~49:51–51:45)*
 
 *Warm lights, white flowers, music and three hundred guests. Chloe (43), radiant in ivory, sits beside Tunde. Ada (17) and Tobi (14) are at the high table, and Halima and Mama Kunle sit near the front. At the front of the guest section, one chair has a little card on it: "RESERVED — EMMA." It's empty.*
 
@@ -1662,9 +1736,9 @@
 
 ---
 
-## SCENE 51 — "STILL HERE"
+## SCENE 52 — "STILL HERE"
 **EXT. WEDDING RECEPTION — CONTINUOUS**
-*(~47:42–49:12)*
+*(~51:45–53:39)*
 
 **EMMA (TEXT):** Still here ❤️
 
@@ -1694,7 +1768,13 @@
 
 **CHLOE:** For answering.
 
-**EMMA:** Thank you for texting back.
+**EMMA:** *(shaking her head, tears falling)* No, Chloe. You don't understand. *(beat)* The afternoon your first text came, I'd just woken up from the worst night of my life. I didn't want to be here anymore. *(beat)* And a stranger asked me about rice.
+
+*Chloe stares at her. She knew about the dark nights. She never knew about that afternoon.*
+
+**EMMA:** You didn't text the wrong number, Chloe. *(beat)* You texted the right one. On the right day.
+
+*They hold each other again, tighter.*
 
 *Ada runs over and wraps her arms around Emma.*
 
@@ -1710,7 +1790,7 @@
 
 **TUNDE:** Guilty.
 
-**EMMA:** *(shaking his hand)* Then we'll get along. *(leaning in, half joking, half not)* Treat her well. I know where Victoria Island is, and I know where Abuja is.
+**EMMA:** *(shaking his hand)* Then we'll get along. *(leaning in, half joking, half not)* Treat her well. I know where Ikeja is, and I know where Abuja is.
 
 **TUNDE:** *(laughing)* Noted, madam.
 
@@ -1720,15 +1800,15 @@
 
 *Chloe goes back to the microphone, still holding Emma's hand.*
 
-**CHLOE:** One last thing. If you're living in a house where you're afraid, please talk to someone you trust. Accept help. And if someone ever reaches out to you, even by mistake, don't underestimate what it means to answer. *(She looks at Emma.)* Ten years ago, one dead number sent my message to the wrong person. *(beat)* And somehow, it reached exactly the person I needed.
+**CHLOE:** One last thing. If you're living in a house where you're afraid, please talk to someone you trust. Accept help. And if someone ever reaches out to you, even by mistake, don't underestimate what it means to answer. *(She looks at Emma.)* Ten years ago, one dead number sent my message to the wrong person. *(beat)* And somehow, it reached exactly the person I needed. *(beat)* And she tells me it reached exactly the person who needed me.
 
 *The guests rise in applause. Emma wipes her eyes.*
 
 ---
 
-## SCENE 52 — WHATEVER YOU WANT
+## SCENE 53 — WHATEVER YOU WANT
 **INT. CHLOE AND TUNDE'S KITCHEN, ABUJA — FRIDAY, 2:17 PM — ONE WEEK LATER**
-*(~49:12 — END)*
+*(~53:39 — END)*
 
 *Sunlight, big windows and soft music. A happy, lived-in kitchen. Tunde walks in, kisses the top of Chloe's head and opens the fridge.*
 
@@ -1759,5 +1839,7 @@
 *Chloe laughs out loud, a free laugh, in her own kitchen.*
 
 **TITLE CARD:** *"Sometimes, the people who change our lives arrive without an introduction." — THE WRONG NUMBER*
+
+**TITLE CARD:** *If you are struggling or feel unsafe, please talk to someone you trust today, or contact a doctor or local helpline. You are not alone.*
 
 **END.**
