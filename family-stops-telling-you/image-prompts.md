@@ -1,6 +1,6 @@
 # POV: What Your Family Stops Telling You at Every Level of Wealth (−$412 → $60,000,000): Production Prompts
 
-257 images · 123 timestamped lines · 20 chapters · ~17 min · timestamps match voiceover-script.md
+257 images · 123 timestamped lines · 20 chapters · ~17 min · timestamps match voiceover.mp3
 
 ## Step 1: Character prompts (generate these first)
 
@@ -71,7 +71,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** cold, quiet
 - **Action:** standing at a laundromat window
 
-#### Image 2 · 0:01 (beat 2)
+#### Image 2 · 0:04 (beat 2)
 
 **Characters:** None (environment or insert shot)
 
@@ -84,7 +84,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** plain, ominous
 - **Action:** price sticker in focus
 
-#### Image 3 · 0:05 (beat 3)
+#### Image 3 · 0:09 (beat 3)
 
 **Characters:** The Protagonist
 
@@ -97,7 +97,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** tired, late-night
 - **Action:** walking into the store
 
-#### Image 4 · 0:10 (beat 4)
+#### Image 4 · 0:13 (beat 4)
 
 **Characters:** The Protagonist
 
@@ -110,11 +110,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** weary, mundane
 - **Action:** glancing next door
 
-### 0:16 · 16 seconds
+### 0:18 · 18 seconds
 
 > You tap your card without thinking. The card reader beeps. Approved. That's the cruel part. It always says approved.
 
-#### Image 5 · 0:16 (beat 5)
+#### Image 5 · 0:18 (beat 5)
 
 **Characters:** The Protagonist
 
@@ -127,7 +127,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** automatic, numb
 - **Action:** tapping a debit card
 
-#### Image 6 · 0:21 (beat 6)
+#### Image 6 · 0:24 (beat 6)
 
 **Characters:** None (environment or insert shot)
 
@@ -140,11 +140,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** ironic, cruel
 - **Action:** screen glowing
 
-### 0:25 · 25 seconds
+### 0:28 · 28 seconds
 
 > The next morning there's a text from your bank. Overdraft fee. $35. For $3.79 of soap. By Friday, two more charges clear behind it, a $9 phone app and a $14 tank of gas, and each one gets its own $35.
 
-#### Image 7 · 0:25 (beat 7)
+#### Image 7 · 0:28 (beat 7)
 
 **Characters:** The Protagonist
 
@@ -157,7 +157,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** sinking, morning dread
 - **Action:** reading a text in bed
 
-#### Image 8 · 0:30 (beat 8)
+#### Image 8 · 0:34 (beat 8)
 
 **Characters:** None (environment or insert shot)
 
@@ -170,7 +170,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** absurd, unfair
 - **Action:** scales tipping
 
-#### Image 9 · 0:35 (beat 9)
+#### Image 9 · 0:39 (beat 9)
 
 **Characters:** None (environment or insert shot)
 
@@ -183,7 +183,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** piling up
 - **Action:** transactions stacking
 
-#### Image 10 · 0:39 (beat 10)
+#### Image 10 · 0:43 (beat 10)
 
 **Characters:** The Protagonist
 
@@ -196,11 +196,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** crushing, flat
 - **Action:** staring at the balance
 
-### 0:42 · 42 seconds
+### 0:47 · 47 seconds
 
 > Your balance reads negative $412. You didn't spend $412. You were charged for being short.
 
-#### Image 11 · 0:44 (beat 11)
+#### Image 11 · 0:50 (beat 11)
 
 **Characters:** None (environment or insert shot)
 
@@ -213,11 +213,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** bleak, unjust
 - **Action:** empty wallet under a spotlight
 
-### 0:49 · 49 seconds
+### 0:56 · 56 seconds
 
 > You call the bank on your lunch break. Forty-one minutes of hold music. The same eight bars of piano, over and over.
 
-#### Image 12 · 0:49 (beat 12)
+#### Image 12 · 0:56 (beat 12)
 
 **Characters:** The Protagonist
 
@@ -230,7 +230,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** drained, patient
 - **Action:** holding a phone to his ear
 
-#### Image 13 · 0:55 (beat 13)
+#### Image 13 · 1:01 (beat 13)
 
 **Characters:** The Protagonist
 
@@ -243,11 +243,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** numb, looping
 - **Action:** listening
 
-### 0:59 · 59 seconds
+### 1:04 · 1 minute, 4 seconds
 
 > Then a woman who reads you a policy in a voice like a parking meter. She can't reverse it.
 
-#### Image 14 · 0:59 (beat 14)
+#### Image 14 · 1:04 (beat 14)
 
 **Characters:** The Protagonist, One-off character (described in scene)
 
@@ -260,7 +260,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** bureaucratic, cold
 - **Action:** reading a script
 
-#### Image 15 · 1:04 (beat 15)
+#### Image 15 · 1:07 (beat 15)
 
 **Characters:** One-off character (described in scene)
 
@@ -273,11 +273,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** mechanical, indifferent
 - **Action:** shaking her head
 
-### 1:07 · 1 minute, 7 seconds
+### 1:10 · 1 minute, 10 seconds
 
 > She can offer a courtesy review in five to seven business days. You thank her. You don't know why you thank her.
 
-#### Image 16 · 1:07 (beat 16)
+#### Image 16 · 1:10 (beat 16)
 
 **Characters:** None (environment or insert shot)
 
@@ -290,7 +290,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** stalling, bureaucratic
 - **Action:** form on screen
 
-#### Image 17 · 1:12 (beat 17)
+#### Image 17 · 1:15 (beat 17)
 
 **Characters:** The Protagonist
 
@@ -306,11 +306,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 
 ## Chapter 2: Sunday at Nana's
 
-### 1:17 · 1 minute, 17 seconds
+### 1:18 · 1 minute, 18 seconds
 
 > Sunday, you drive to Nana's. The screen door bangs twice behind you, the way it has since you were six.
 
-#### Image 18 · 1:17 (beat 18)
+#### Image 18 · 1:18 (beat 18)
 
 **Characters:** The Protagonist
 
@@ -323,7 +323,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** familiar, homey
 - **Action:** stepping onto a porch
 
-#### Image 19 · 1:22 (beat 19)
+#### Image 19 · 1:23 (beat 19)
 
 **Characters:** The Protagonist, Uncle Pete
 
@@ -336,11 +336,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** nostalgic, crowded
 - **Action:** entering the living room
 
-### 1:25 · 1 minute, 25 seconds
+### 1:26 · 1 minute, 26 seconds
 
 > Everybody's there. Uncle Pete. Your sister Renée. Your parents. Two cousins and a casserole.
 
-#### Image 20 · 1:27 (beat 20)
+#### Image 20 · 1:28 (beat 20)
 
 **Characters:** Renée, Mom, Dad, The cousins
 
@@ -353,11 +353,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** busy, family
 - **Action:** crowded around a table
 
-### 1:33 · 1 minute, 33 seconds
+### 1:34 · 1 minute, 34 seconds
 
 > And here's the thing about this level. Everyone tells you everything. Pete tells you to get a second job.
 
-#### Image 21 · 1:33 (beat 21)
+#### Image 21 · 1:34 (beat 21)
 
 **Characters:** The Protagonist, Uncle Pete, Renée, Mom, Dad
 
@@ -383,11 +383,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** lecturing
 - **Action:** pointing a fork
 
-### 1:41 · 1 minute, 41 seconds
+### 1:40 · 1 minute, 40 seconds
 
 > Renée tells you about her raise, $4,000, then the apartment she's eyeing, then the guy she's seeing. Your mother tells you banks are a racket.
 
-#### Image 23 · 1:41 (beat 23)
+#### Image 23 · 1:40 (beat 23)
 
 **Characters:** The Protagonist, Renée
 
@@ -413,11 +413,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** chatty, opinionated
 - **Action:** talking with hands
 
-### 1:52 · 1 minute, 52 seconds
+### 1:50 · 1 minute, 50 seconds
 
 > Your father tells you, "You need a plan," three times between the salad and the ham.
 
-#### Image 25 · 1:52 (beat 25)
+#### Image 25 · 1:50 (beat 25)
 
 **Characters:** The Protagonist, Dad
 
@@ -430,7 +430,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** stern, repetitive
 - **Action:** raising three fingers
 
-#### Image 26 · 1:57 (beat 26)
+#### Image 26 · 1:55 (beat 26)
 
 **Characters:** None (environment or insert shot)
 
@@ -443,11 +443,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** mundane, heavy
 - **Action:** carving
 
-### 1:58 · 1 minute, 58 seconds
+### 1:56 · 1 minute, 56 seconds
 
 > Nobody tells you the one thing that matters. Your father's hours got cut in March. Thirty-two a week now, down from forty.
 
-#### Image 27 · 1:58 (beat 27)
+#### Image 27 · 1:56 (beat 27)
 
 **Characters:** The Protagonist
 
@@ -460,7 +460,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** isolated, uneasy
 - **Action:** sitting quietly
 
-#### Image 28 · 2:02 (beat 28)
+#### Image 28 · 1:59 (beat 28)
 
 **Characters:** Dad
 
@@ -473,7 +473,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** hidden, worried
 - **Action:** walking out of a building
 
-#### Image 29 · 2:05 (beat 29)
+#### Image 29 · 2:02 (beat 29)
 
 **Characters:** None (environment or insert shot)
 
@@ -486,11 +486,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** shrinking, quiet
 - **Action:** timecard
 
-### 2:08 · 2 minutes, 8 seconds
+### 2:05 · 2 minutes, 5 seconds
 
 > You find out in August, from an envelope on the counter. When you ask him, he folds it in half and says, "We're fine."
 
-#### Image 30 · 2:08 (beat 30)
+#### Image 30 · 2:05 (beat 30)
 
 **Characters:** The Protagonist
 
@@ -503,7 +503,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** discovery, quiet shock
 - **Action:** picking up an envelope
 
-#### Image 31 · 2:13 (beat 31)
+#### Image 31 · 2:09 (beat 31)
 
 **Characters:** The Protagonist, Dad
 
@@ -519,11 +519,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 
 ## Chapter 3: The blue tin
 
-### 2:18 · 2 minutes, 18 seconds
+### 2:13 · 2 minutes, 13 seconds
 
 > Before you leave, Nana walks you to the car. She presses something into your jacket pocket. You don't look until you're on the highway.
 
-#### Image 32 · 2:18 (beat 32)
+#### Image 32 · 2:13 (beat 32)
 
 **Characters:** The Protagonist, Nana
 
@@ -536,7 +536,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** tender, slow
 - **Action:** walking down the driveway
 
-#### Image 33 · 2:22 (beat 33)
+#### Image 33 · 2:16 (beat 33)
 
 **Characters:** The Protagonist, Nana
 
@@ -549,7 +549,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** secretive, loving
 - **Action:** slipping money into a pocket
 
-#### Image 34 · 2:25 (beat 34)
+#### Image 34 · 2:19 (beat 34)
 
 **Characters:** The Protagonist
 
@@ -562,11 +562,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** lonely, moving
 - **Action:** driving
 
-### 2:28 · 2 minutes, 28 seconds
+### 2:22 · 2 minutes, 22 seconds
 
 > Two twenties, folded into quarters, soft as cloth. From the blue cookie tin on top of her fridge.
 
-#### Image 35 · 2:28 (beat 35)
+#### Image 35 · 2:22 (beat 35)
 
 **Characters:** None (environment or insert shot)
 
@@ -579,7 +579,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** soft, precious
 - **Action:** bills in palm
 
-#### Image 36 · 2:32 (beat 36)
+#### Image 36 · 2:25 (beat 36)
 
 **Characters:** Nana
 
@@ -592,11 +592,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** warm, familiar
 - **Action:** reaching up
 
-### 2:36 · 2 minutes, 36 seconds
+### 2:29 · 2 minutes, 29 seconds
 
 > The one that has never once held cookies.
 
-#### Image 37 · 2:36 (beat 37)
+#### Image 37 · 2:29 (beat 37)
 
 **Characters:** None (environment or insert shot)
 
@@ -609,11 +609,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** quiet, ironic
 - **Action:** tin open
 
-### 2:40 · 2 minutes, 40 seconds
+### 2:32 · 2 minutes, 32 seconds
 
 > Not charity. Just Nana.
 
-#### Image 38 · 2:40 (beat 38)
+#### Image 38 · 2:32 (beat 38)
 
 **Characters:** The Protagonist
 
@@ -626,11 +626,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** moved but restrained
 - **Action:** holding the bills
 
-### 2:43 · 2 minutes, 43 seconds
+### 2:35 · 2 minutes, 35 seconds
 
 > The first rule. At negative $412, your family tells you everything except what they're carrying. They don't hide it from you. They hide it for you.
 
-#### Image 39 · 2:43 (beat 39)
+#### Image 39 · 2:35 (beat 39)
 
 **Characters:** None (environment or insert shot)
 
@@ -643,7 +643,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** ominous, stark
 - **Action:** text on screen
 
-#### Image 40 · 2:44 (beat 40)
+#### Image 40 · 2:36 (beat 40)
 
 **Characters:** The Protagonist, Uncle Pete, Renée, Mom, Dad, Nana
 
@@ -656,7 +656,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** revealing
 - **Action:** carrying hidden weights
 
-#### Image 41 · 2:49 (beat 41)
+#### Image 41 · 2:43 (beat 41)
 
 **Characters:** The Protagonist, Dad, Mom
 
@@ -672,11 +672,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 
 ## Chapter 4: The night shift
 
-### 2:54 · 2 minutes, 54 seconds
+### 2:47 · 2 minutes, 47 seconds
 
 > Level two, $1,900. Eleven months later, the minus sign is gone. You work nights at a parcel sorting center now, six in the evening to two-thirty in the morning, the conveyor humming so loud you hear it in your sleep.
 
-#### Image 42 · 2:54 (beat 42)
+#### Image 42 · 2:47 (beat 42)
 
 **Characters:** The Protagonist
 
@@ -689,7 +689,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** weary, mechanical
 - **Action:** standing at a conveyor
 
-#### Image 43 · 2:56 (beat 43)
+#### Image 43 · 2:51 (beat 43)
 
 **Characters:** None (environment or insert shot)
 
@@ -702,7 +702,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** relief, small win
 - **Action:** minus sign falling
 
-#### Image 44 · 2:59 (beat 44)
+#### Image 44 · 2:54 (beat 44)
 
 **Characters:** The Protagonist
 
@@ -715,7 +715,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** repetitive, tiring
 - **Action:** sorting packages
 
-#### Image 45 · 3:02 (beat 45)
+#### Image 45 · 2:57 (beat 45)
 
 **Characters:** None (environment or insert shot)
 
@@ -728,7 +728,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** long, grinding
 - **Action:** clock
 
-#### Image 46 · 3:06 (beat 46)
+#### Image 46 · 3:00 (beat 46)
 
 **Characters:** The Protagonist
 
@@ -741,11 +741,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** haunted, exhausted
 - **Action:** lying awake
 
-### 3:11 · 3 minutes, 11 seconds
+### 3:03 · 3 minutes, 3 seconds
 
 > In the mornings you teach yourself to code on a laptop with a cracked hinge. $1,900 in checking.
 
-#### Image 47 · 3:11 (beat 47)
+#### Image 47 · 3:03 (beat 47)
 
 **Characters:** The Protagonist
 
@@ -758,7 +758,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** determined, quiet
 - **Action:** typing on a laptop
 
-#### Image 48 · 3:16 (beat 48)
+#### Image 48 · 3:07 (beat 48)
 
 **Characters:** The Protagonist
 
@@ -771,11 +771,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** fragile progress
 - **Action:** checking his balance
 
-### 3:18 · 3 minutes, 18 seconds
+### 3:11 · 3 minutes, 11 seconds
 
 > You look at it the way you'd look at a candle in wind.
 
-#### Image 49 · 3:18 (beat 49)
+#### Image 49 · 3:11 (beat 49)
 
 **Characters:** None (environment or insert shot)
 
@@ -788,11 +788,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** fragile, protective
 - **Action:** guarding a flame
 
-### 3:24 · 3 minutes, 24 seconds
+### 3:14 · 3 minutes, 14 seconds
 
 > The bank notices before your family does. A new email. "You may be eligible for overdraft protection." Now. Now they offer it.
 
-#### Image 50 · 3:24 (beat 50)
+#### Image 50 · 3:14 (beat 50)
 
 **Characters:** The Protagonist
 
@@ -805,7 +805,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** ironic
 - **Action:** email arriving
 
-#### Image 51 · 3:29 (beat 51)
+#### Image 51 · 3:19 (beat 51)
 
 **Characters:** None (environment or insert shot)
 
@@ -818,11 +818,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** bitterly ironic
 - **Action:** email text
 
-### 3:34 · 3 minutes, 34 seconds
+### 3:25 · 3 minutes, 25 seconds
 
 > At the pharmacy counter, picking up your mother's blood pressure pills, the tech rings up $62 and your card goes through on the first try.
 
-#### Image 52 · 3:34 (beat 52)
+#### Image 52 · 3:25 (beat 52)
 
 **Characters:** The Protagonist
 
@@ -835,7 +835,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** ordinary
 - **Action:** waiting in line
 
-#### Image 53 · 3:39 (beat 53)
+#### Image 53 · 3:29 (beat 53)
 
 **Characters:** The Protagonist, One-off character (described in scene)
 
@@ -848,7 +848,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** smooth, unremarkable
 - **Action:** card going through
 
-#### Image 54 · 3:44 (beat 54)
+#### Image 54 · 3:34 (beat 54)
 
 **Characters:** The Protagonist, One-off character (described in scene)
 
@@ -861,11 +861,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** small private joy
 - **Action:** almost smiling
 
-### 3:45 · 3 minutes, 45 seconds
+### 3:34 · 3 minutes, 34 seconds
 
 > You almost laugh. She doesn't look up. Nobody notices $1,900. That's the gift of it.
 
-#### Image 55 · 3:49 (beat 55)
+#### Image 55 · 3:41 (beat 55)
 
 **Characters:** The Protagonist
 
@@ -881,11 +881,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 
 ## Chapter 5: Keep yours
 
-### 3:52 · 3 minutes, 52 seconds
+### 3:43 · 3 minutes, 43 seconds
 
 > At Nana's, Pete still gives you advice. But it's shorter. Renée still tells you about her week. But now she asks about yours, and waits for the answer.
 
-#### Image 56 · 3:52 (beat 56)
+#### Image 56 · 3:43 (beat 56)
 
 **Characters:** The Protagonist, Uncle Pete
 
@@ -898,7 +898,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** softened
 - **Action:** talking briefly
 
-#### Image 57 · 3:56 (beat 57)
+#### Image 57 · 3:47 (beat 57)
 
 **Characters:** Renée
 
@@ -911,7 +911,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** chatty
 - **Action:** telling a story
 
-#### Image 58 · 3:59 (beat 58)
+#### Image 58 · 3:50 (beat 58)
 
 **Characters:** The Protagonist, Renée
 
@@ -924,11 +924,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** attentive, new
 - **Action:** listening
 
-### 4:04 · 4 minutes, 4 seconds
+### 3:54 · 3 minutes, 54 seconds
 
 > Your father says, "You're doing better." Not a question. A test.
 
-#### Image 59 · 4:04 (beat 59)
+#### Image 59 · 3:54 (beat 59)
 
 **Characters:** The Protagonist, Dad
 
@@ -941,11 +941,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** measuring, guarded
 - **Action:** appraising
 
-### 4:10 · 4 minutes, 10 seconds
+### 3:59 · 3 minutes, 59 seconds
 
 > You offer to cover the electric bill. $180. He looks at you like you said something rude. "We're fine," he says. Then, quieter, "Keep yours."
 
-#### Image 60 · 4:10 (beat 60)
+#### Image 60 · 3:59 (beat 60)
 
 **Characters:** The Protagonist
 
@@ -958,7 +958,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** offering
 - **Action:** holding out a bill
 
-#### Image 61 · 4:13 (beat 61)
+#### Image 61 · 4:04 (beat 61)
 
 **Characters:** The Protagonist, Dad
 
@@ -971,7 +971,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** offended pride
 - **Action:** stern look
 
-#### Image 62 · 4:19 (beat 62)
+#### Image 62 · 4:09 (beat 62)
 
 **Characters:** Dad
 
@@ -984,11 +984,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** quiet, protective
 - **Action:** speaking softly
 
-### 4:21 · 4 minutes, 21 seconds
+### 4:11 · 4 minutes, 11 seconds
 
 > Here's what nobody tells you. The first time you have a little extra, the people who raised you get very careful about not needing it.
 
-#### Image 63 · 4:21 (beat 63)
+#### Image 63 · 4:11 (beat 63)
 
 **Characters:** The Protagonist
 
@@ -1001,7 +1001,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** reflective
 - **Action:** looking at his wallet
 
-#### Image 64 · 4:26 (beat 64)
+#### Image 64 · 4:16 (beat 64)
 
 **Characters:** Dad, Mom
 
@@ -1014,11 +1014,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** careful, tense
 - **Action:** hiding bills
 
-### 4:31 · 4 minutes, 31 seconds
+### 4:20 · 4 minutes, 20 seconds
 
 > Not pride. Protection. They're guarding the version of you that just got up off the floor.
 
-#### Image 65 · 4:31 (beat 65)
+#### Image 65 · 4:20 (beat 65)
 
 **Characters:** Dad, Mom
 
@@ -1031,7 +1031,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** protective
 - **Action:** forming a wall
 
-#### Image 66 · 4:33 (beat 66)
+#### Image 66 · 4:22 (beat 66)
 
 **Characters:** The Protagonist, Dad, Mom
 
@@ -1044,11 +1044,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** tender, fragile
 - **Action:** holding a glass figure
 
-### 4:39 · 4 minutes, 39 seconds
+### 4:27 · 4 minutes, 27 seconds
 
 > Nana walks you to the car again. Her hand drifts toward your pocket. You catch it. You shake your head.
 
-#### Image 67 · 4:39 (beat 67)
+#### Image 67 · 4:27 (beat 67)
 
 **Characters:** The Protagonist, Nana
 
@@ -1061,7 +1061,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** tender, repeating
 - **Action:** hand reaching
 
-#### Image 68 · 4:45 (beat 68)
+#### Image 68 · 4:32 (beat 68)
 
 **Characters:** The Protagonist, Nana
 
@@ -1074,11 +1074,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** gentle refusal
 - **Action:** catching her hand
 
-### 4:48 · 4 minutes, 48 seconds
+### 4:34 · 4 minutes, 34 seconds
 
 > She looks at you for a long second, then pats your cheek instead.
 
-#### Image 69 · 4:48 (beat 69)
+#### Image 69 · 4:34 (beat 69)
 
 **Characters:** The Protagonist, Nana
 
@@ -1091,11 +1091,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** tender, bittersweet
 - **Action:** patting his cheek
 
-### 4:54 · 4 minutes, 54 seconds
+### 4:39 · 4 minutes, 39 seconds
 
 > The second rule. At $1,900, they stop telling you what they need. Because you might actually give it.
 
-#### Image 70 · 4:54 (beat 70)
+#### Image 70 · 4:39 (beat 70)
 
 **Characters:** None (environment or insert shot)
 
@@ -1108,7 +1108,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** stark
 - **Action:** text on screen
 
-#### Image 71 · 4:59 (beat 71)
+#### Image 71 · 4:45 (beat 71)
 
 **Characters:** Dad, Mom
 
@@ -1124,11 +1124,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 
 ## Chapter 6: The kitchen table
 
-### 5:02 · 5 minutes, 2 seconds
+### 4:48 · 4 minutes, 48 seconds
 
 > Level three, $22,000. The code turns into something. A scheduling tool for home care aides, the people who drive between six houses a day and keep their shifts on paper.
 
-#### Image 72 · 5:02 (beat 72)
+#### Image 72 · 4:48 (beat 72)
 
 **Characters:** The Protagonist
 
@@ -1141,7 +1141,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** hopeful, clean
 - **Action:** working at a kitchen table
 
-#### Image 73 · 5:03 (beat 73)
+#### Image 73 · 4:52 (beat 73)
 
 **Characters:** None (environment or insert shot)
 
@@ -1154,7 +1154,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** promising
 - **Action:** app interface
 
-#### Image 74 · 5:08 (beat 74)
+#### Image 74 · 4:56 (beat 74)
 
 **Characters:** One-off character (described in scene)
 
@@ -1167,7 +1167,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** busy, overworked
 - **Action:** driving
 
-#### Image 75 · 5:14 (beat 75)
+#### Image 75 · 5:00 (beat 75)
 
 **Characters:** The Protagonist
 
@@ -1180,11 +1180,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** scrappy, proud
 - **Action:** typing late
 
-### 5:15 · 5 minutes, 15 seconds
+### 5:01 · 5 minutes, 1 second
 
 > You built it at a kitchen table. Fourteen agencies pay you $90 a month. You quit the sorting center on a Thursday.
 
-#### Image 76 · 5:18 (beat 76)
+#### Image 76 · 5:04 (beat 76)
 
 **Characters:** None (environment or insert shot)
 
@@ -1197,7 +1197,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** growing
 - **Action:** subscription list
 
-#### Image 77 · 5:21 (beat 77)
+#### Image 77 · 5:07 (beat 77)
 
 **Characters:** The Protagonist
 
@@ -1210,11 +1210,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** liberated
 - **Action:** handing in a vest
 
-### 5:24 · 5 minutes, 24 seconds
+### 5:10 · 5 minutes, 10 seconds
 
 > The quiet in your ears that night is so loud you can't sleep.
 
-#### Image 78 · 5:24 (beat 78)
+#### Image 78 · 5:10 (beat 78)
 
 **Characters:** The Protagonist
 
@@ -1227,11 +1227,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** eerie quiet
 - **Action:** lying awake
 
-### 5:30 · 5 minutes, 30 seconds
+### 5:14 · 5 minutes, 14 seconds
 
 > $22,000. You sit down with a loan officer at a credit union about a small business line. He has a dish of mints and a framed photo of a fishing trip.
 
-#### Image 79 · 5:30 (beat 79)
+#### Image 79 · 5:14 (beat 79)
 
 **Characters:** None (environment or insert shot)
 
@@ -1244,7 +1244,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** solid, real
 - **Action:** balance on screen
 
-#### Image 80 · 5:30 (beat 80)
+#### Image 80 · 5:16 (beat 80)
 
 **Characters:** The Protagonist, One-off character (described in scene)
 
@@ -1257,7 +1257,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** formal
 - **Action:** sitting down
 
-#### Image 81 · 5:36 (beat 81)
+#### Image 81 · 5:20 (beat 81)
 
 **Characters:** None (environment or insert shot)
 
@@ -1270,7 +1270,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** official
 - **Action:** form on the desk
 
-#### Image 82 · 5:37 (beat 82)
+#### Image 82 · 5:21 (beat 82)
 
 **Characters:** One-off character (described in scene)
 
@@ -1283,7 +1283,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** small details, character
 - **Action:** desk details
 
-#### Image 83 · 5:42 (beat 83)
+#### Image 83 · 5:25 (beat 83)
 
 **Characters:** One-off character (described in scene)
 
@@ -1296,11 +1296,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** shift in status
 - **Action:** sitting up straight
 
-### 5:43 · 5 minutes, 43 seconds
+### 5:25 · 5 minutes, 25 seconds
 
 > He reads your balance and his whole posture changes, like someone adjusted his chair. He uses your first name.
 
-#### Image 84 · 5:47 (beat 84)
+#### Image 84 · 5:29 (beat 84)
 
 **Characters:** The Protagonist, One-off character (described in scene)
 
@@ -1313,11 +1313,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** warm, newly respectful
 - **Action:** leaning forward
 
-### 5:51 · 5 minutes, 51 seconds
+### 5:34 · 5 minutes, 34 seconds
 
 > He says, "We like to see this." Two years ago, it was forty-one minutes of piano. Today, he writes his cell number on the back of a card.
 
-#### Image 85 · 5:51 (beat 85)
+#### Image 85 · 5:34 (beat 85)
 
 **Characters:** One-off character (described in scene)
 
@@ -1330,7 +1330,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** approving
 - **Action:** nodding
 
-#### Image 86 · 5:54 (beat 86)
+#### Image 86 · 5:36 (beat 86)
 
 **Characters:** The Protagonist
 
@@ -1343,7 +1343,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** contrast
 - **Action:** then versus now
 
-#### Image 87 · 5:58 (beat 87)
+#### Image 87 · 5:39 (beat 87)
 
 **Characters:** One-off character (described in scene)
 
@@ -1359,11 +1359,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 
 ## Chapter 7: Prices
 
-### 6:03 · 6 minutes, 3 seconds
+### 5:43 · 5 minutes, 43 seconds
 
 > At Nana's, something small shifts. When Renée shows off new boots, Pete asks her what she paid. $140.
 
-#### Image 88 · 6:03 (beat 88)
+#### Image 88 · 5:43 (beat 88)
 
 **Characters:** The Protagonist
 
@@ -1376,7 +1376,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** subtle shift
 - **Action:** arriving
 
-#### Image 89 · 6:05 (beat 89)
+#### Image 89 · 5:46 (beat 89)
 
 **Characters:** Renée, Uncle Pete
 
@@ -1389,11 +1389,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** nosy, casual
 - **Action:** showing boots
 
-### 6:11 · 6 minutes, 11 seconds
+### 5:52 · 5 minutes, 52 seconds
 
 > She tells him. When you show up in a new coat, nobody asks. Not once.
 
-#### Image 90 · 6:11 (beat 90)
+#### Image 90 · 5:52 (beat 90)
 
 **Characters:** The Protagonist, Uncle Pete, Renée
 
@@ -1406,7 +1406,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** noticeably avoided
 - **Action:** walking past
 
-#### Image 91 · 6:17 (beat 91)
+#### Image 91 · 5:57 (beat 91)
 
 **Characters:** The Protagonist
 
@@ -1419,11 +1419,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** quiet sting
 - **Action:** holding coat collar
 
-### 6:18 · 6 minutes, 18 seconds
+### 5:58 · 5 minutes, 58 seconds
 
 > You notice that. You notice everything now.
 
-#### Image 92 · 6:18 (beat 92)
+#### Image 92 · 5:58 (beat 92)
 
 **Characters:** The Protagonist
 
@@ -1436,11 +1436,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** hyper-observant
 - **Action:** eyes scanning
 
-### 6:22 · 6 minutes, 22 seconds
+### 6:02 · 6 minutes, 2 seconds
 
 > Later, Renée corners you by the coffee maker. She's moving in with the guy. She says the deposit is "a lot."
 
-#### Image 93 · 6:22 (beat 93)
+#### Image 93 · 6:02 (beat 93)
 
 **Characters:** The Protagonist, Renée
 
@@ -1453,7 +1453,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** awkward, private
 - **Action:** cornering
 
-#### Image 94 · 6:25 (beat 94)
+#### Image 94 · 6:05 (beat 94)
 
 **Characters:** The Protagonist, Renée
 
@@ -1466,11 +1466,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** hesitant
 - **Action:** making air quotes
 
-### 6:31 · 6 minutes, 31 seconds
+### 6:10 · 6 minutes, 10 seconds
 
 > She doesn't say how much. You ask. She says, "Don't worry about it." Then she tells you anyway.
 
-#### Image 95 · 6:31 (beat 95)
+#### Image 95 · 6:10 (beat 95)
 
 **Characters:** The Protagonist, Renée
 
@@ -1483,7 +1483,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** evasive
 - **Action:** waving it off
 
-#### Image 96 · 6:37 (beat 96)
+#### Image 96 · 6:15 (beat 96)
 
 **Characters:** None (environment or insert shot)
 
@@ -1496,11 +1496,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** reluctant reveal
 - **Action:** text on her phone
 
-### 6:40 · 6 minutes, 40 seconds
+### 6:18 · 6 minutes, 18 seconds
 
 > $2,400. You send it from the bathroom before dessert.
 
-#### Image 97 · 6:40 (beat 97)
+#### Image 97 · 6:19 (beat 97)
 
 **Characters:** The Protagonist
 
@@ -1513,11 +1513,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** secretive, generous
 - **Action:** sending money
 
-### 6:44 · 6 minutes, 44 seconds
+### 6:22 · 6 minutes, 22 seconds
 
 > She texts you a heart. Just a heart. In the family group chat, the one called The Porch, she posts a photo of new keys, and everyone says congratulations.
 
-#### Image 98 · 6:44 (beat 98)
+#### Image 98 · 6:22 (beat 98)
 
 **Characters:** None (environment or insert shot)
 
@@ -1530,7 +1530,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** quiet gratitude
 - **Action:** heart received
 
-#### Image 99 · 6:50 (beat 99)
+#### Image 99 · 6:26 (beat 99)
 
 **Characters:** None (environment or insert shot)
 
@@ -1543,7 +1543,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** public, cheerful
 - **Action:** keys photo
 
-#### Image 100 · 6:55 (beat 100)
+#### Image 100 · 6:30 (beat 100)
 
 **Characters:** None (environment or insert shot)
 
@@ -1556,15 +1556,15 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** ironic, secret
 - **Action:** congratulations flooding
 
-### 6:56 · 6 minutes, 56 seconds
+### 6:33 · 6 minutes, 33 seconds
 
 > Nobody knows. You don't tell them. Neither does she.
 
-### 7:01 · 7 minutes, 1 second
+### 6:38 · 6 minutes, 38 seconds
 
 > The third rule. At $22,000, they stop telling you prices. Prices are for people who might pay.
 
-#### Image 101 · 7:01 (beat 101)
+#### Image 101 · 6:38 (beat 101)
 
 **Characters:** None (environment or insert shot)
 
@@ -1577,7 +1577,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** stark
 - **Action:** text on screen
 
-#### Image 102 · 7:06 (beat 102)
+#### Image 102 · 6:43 (beat 102)
 
 **Characters:** Uncle Pete, Renée, Mom
 
@@ -1593,11 +1593,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 
 ## Chapter 8: The quiet car
 
-### 7:09 · 7 minutes, 9 seconds
+### 6:47 · 6 minutes, 47 seconds
 
 > Level four, $140,000. Two hundred agencies. Nine employees. An office above a dry cleaner that smells like steam and starch. $140,000 in the business account and a salary you set yourself, which is a strange thing to type.
 
-#### Image 103 · 7:09 (beat 103)
+#### Image 103 · 6:47 (beat 103)
 
 **Characters:** The Protagonist
 
@@ -1610,7 +1610,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** busy, rising
 - **Action:** standing in an office
 
-#### Image 104 · 7:10 (beat 104)
+#### Image 104 · 6:51 (beat 104)
 
 **Characters:** The Protagonist
 
@@ -1623,7 +1623,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** growth
 - **Action:** team at work
 
-#### Image 105 · 7:12 (beat 105)
+#### Image 105 · 6:55 (beat 105)
 
 **Characters:** None (environment or insert shot)
 
@@ -1636,7 +1636,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** textural, humble
 - **Action:** steam rising
 
-#### Image 106 · 7:18 (beat 106)
+#### Image 106 · 6:59 (beat 106)
 
 **Characters:** None (environment or insert shot)
 
@@ -1649,7 +1649,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** surreal
 - **Action:** balance on screen
 
-#### Image 107 · 7:22 (beat 107)
+#### Image 107 · 7:05 (beat 107)
 
 **Characters:** The Protagonist
 
@@ -1662,11 +1662,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** uncomfortable power
 - **Action:** typing
 
-### 7:25 · 7 minutes, 25 seconds
+### 7:08 · 7 minutes, 8 seconds
 
 > At the car dealership, the salesman sees the trade-in, then the pre-approval, then you. He brings coffee in a real mug.
 
-#### Image 108 · 7:25 (beat 108)
+#### Image 108 · 7:08 (beat 108)
 
 **Characters:** The Protagonist, One-off character (described in scene)
 
@@ -1679,7 +1679,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** appraising
 - **Action:** looking at paperwork
 
-#### Image 109 · 7:29 (beat 109)
+#### Image 109 · 7:11 (beat 109)
 
 **Characters:** The Protagonist, One-off character (described in scene)
 
@@ -1692,11 +1692,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** deferential
 - **Action:** offering coffee
 
-### 7:34 · 7 minutes, 34 seconds
+### 7:16 · 7 minutes, 16 seconds
 
 > Not paper. He stops saying "this one's popular" and starts saying "this one's quiet."
 
-#### Image 110 · 7:34 (beat 110)
+#### Image 110 · 7:16 (beat 110)
 
 **Characters:** None (environment or insert shot)
 
@@ -1709,7 +1709,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** subtle status
 - **Action:** mug versus cup
 
-#### Image 111 · 7:35 (beat 111)
+#### Image 111 · 7:17 (beat 111)
 
 **Characters:** The Protagonist, One-off character (described in scene)
 
@@ -1722,11 +1722,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** upsold, smooth
 - **Action:** gesturing at a car
 
-### 7:41 · 7 minutes, 41 seconds
+### 7:22 · 7 minutes, 22 seconds
 
 > The bank stops emailing. A person calls instead. Her name is Dana. She has a direct line and a calm voice, and she has never once put you on hold.
 
-#### Image 112 · 7:41 (beat 112)
+#### Image 112 · 7:22 (beat 112)
 
 **Characters:** The Protagonist
 
@@ -1739,7 +1739,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** personal attention
 - **Action:** incoming call
 
-#### Image 113 · 7:46 (beat 113)
+#### Image 113 · 7:28 (beat 113)
 
 **Characters:** One-off character (described in scene)
 
@@ -1752,7 +1752,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** calm, professional
 - **Action:** on the phone
 
-#### Image 114 · 7:50 (beat 114)
+#### Image 114 · 7:30 (beat 114)
 
 **Characters:** The Protagonist
 
@@ -1768,11 +1768,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 
 ## Chapter 9: The transmission
 
-### 7:53 · 7 minutes, 53 seconds
+### 7:33 · 7 minutes, 33 seconds
 
 > Then your father's truck needs a transmission. $3,800. You hear about it from Pete, in the driveway, by accident.
 
-#### Image 115 · 7:53 (beat 115)
+#### Image 115 · 7:33 (beat 115)
 
 **Characters:** Dad
 
@@ -1785,7 +1785,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** worried, hidden
 - **Action:** under the truck
 
-#### Image 116 · 7:57 (beat 116)
+#### Image 116 · 7:38 (beat 116)
 
 **Characters:** The Protagonist, Uncle Pete
 
@@ -1798,11 +1798,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** overheard
 - **Action:** chatting
 
-### 8:02 · 8 minutes, 2 seconds
+### 7:42 · 7 minutes, 42 seconds
 
 > You walk inside and offer. Your father says, "We're fine." This time you don't argue. You just call the shop on Monday and pay it.
 
-#### Image 117 · 8:02 (beat 117)
+#### Image 117 · 7:42 (beat 117)
 
 **Characters:** The Protagonist, Dad
 
@@ -1815,7 +1815,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** stubborn
 - **Action:** refusing
 
-#### Image 118 · 8:06 (beat 118)
+#### Image 118 · 7:46 (beat 118)
 
 **Characters:** The Protagonist
 
@@ -1828,7 +1828,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** resolved
 - **Action:** silent nod
 
-#### Image 119 · 8:09 (beat 119)
+#### Image 119 · 7:48 (beat 119)
 
 **Characters:** The Protagonist
 
@@ -1841,11 +1841,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** quiet action
 - **Action:** paying the shop
 
-### 8:13 · 8 minutes, 13 seconds
+### 7:51 · 7 minutes, 51 seconds
 
 > He doesn't bring it up. Not that week. Not the next. At Sunday dinner he's polite with you.
 
-#### Image 120 · 8:13 (beat 120)
+#### Image 120 · 7:51 (beat 120)
 
 **Characters:** Dad
 
@@ -1858,7 +1858,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** silent tension
 - **Action:** eating alone
 
-#### Image 121 · 8:18 (beat 121)
+#### Image 121 · 7:56 (beat 121)
 
 **Characters:** The Protagonist, Dad
 
@@ -1871,11 +1871,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** stiff politeness
 - **Action:** passing a dish
 
-### 8:21 · 8 minutes, 21 seconds
+### 7:59 · 7 minutes, 59 seconds
 
 > Careful. Like you're a guest who might break something.
 
-#### Image 122 · 8:22 (beat 122)
+#### Image 122 · 7:59 (beat 122)
 
 **Characters:** The Protagonist, Dad
 
@@ -1888,11 +1888,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** fragile, awkward
 - **Action:** careful around him
 
-### 8:26 · 8 minutes, 26 seconds
+### 8:02 · 8 minutes, 2 seconds
 
 > Your mother says, "He's not mad." She pauses. "He just doesn't know what he's allowed to say no to anymore."
 
-#### Image 123 · 8:26 (beat 123)
+#### Image 123 · 8:02 (beat 123)
 
 **Characters:** The Protagonist, Mom
 
@@ -1905,7 +1905,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** gentle, explaining
 - **Action:** washing dishes
 
-#### Image 124 · 8:30 (beat 124)
+#### Image 124 · 8:06 (beat 124)
 
 **Characters:** Mom
 
@@ -1918,11 +1918,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** sad, honest
 - **Action:** pausing
 
-### 8:35 · 8 minutes, 35 seconds
+### 8:10 · 8 minutes, 10 seconds
 
 > But here's the part that changes you. The day you can fix anything, people stop arguing with you.
 
-#### Image 125 · 8:35 (beat 125)
+#### Image 125 · 8:10 (beat 125)
 
 **Characters:** The Protagonist
 
@@ -1935,7 +1935,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** revelation
 - **Action:** looking up
 
-#### Image 126 · 8:38 (beat 126)
+#### Image 126 · 8:13 (beat 126)
 
 **Characters:** The Protagonist, Uncle Pete, Renée, Mom, Dad
 
@@ -1948,11 +1948,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** isolating
 - **Action:** everyone nodding
 
-### 8:43 · 8 minutes, 43 seconds
+### 8:17 · 8 minutes, 17 seconds
 
 > Pete used to tell you your ideas were dumb. Loudly. With his mouth full. He hasn't said it in a year.
 
-#### Image 127 · 8:43 (beat 127)
+#### Image 127 · 8:17 (beat 127)
 
 **Characters:** Uncle Pete
 
@@ -1965,7 +1965,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** loud, honest
 - **Action:** shouting
 
-#### Image 128 · 8:47 (beat 128)
+#### Image 128 · 8:21 (beat 128)
 
 **Characters:** Uncle Pete
 
@@ -1978,11 +1978,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** polite silence
 - **Action:** chewing quietly
 
-### 8:52 · 8 minutes, 52 seconds
+### 8:24 · 8 minutes, 24 seconds
 
 > You didn't notice the silence until it was total.
 
-#### Image 129 · 8:52 (beat 129)
+#### Image 129 · 8:24 (beat 129)
 
 **Characters:** The Protagonist
 
@@ -1995,11 +1995,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** total silence
 - **Action:** sitting alone at table
 
-### 8:57 · 8 minutes, 57 seconds
+### 8:28 · 8 minutes, 28 seconds
 
 > The fourth rule. At $140,000, they stop telling you no. They just stop calling instead.
 
-#### Image 130 · 8:57 (beat 130)
+#### Image 130 · 8:28 (beat 130)
 
 **Characters:** None (environment or insert shot)
 
@@ -2012,7 +2012,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** stark
 - **Action:** text on screen
 
-#### Image 131 · 9:01 (beat 131)
+#### Image 131 · 8:34 (beat 131)
 
 **Characters:** The Protagonist
 
@@ -2028,11 +2028,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 
 ## Chapter 10: The deposit
 
-### 9:04 · 9 minutes, 4 seconds
+### 8:37 · 8 minutes, 37 seconds
 
 > Level five, $780,000. An investor flies in. A small firm. They buy twenty percent of the company. Your share after taxes is $780,000, and it lands at 2:14 on a Wednesday afternoon.
 
-#### Image 132 · 9:04 (beat 132)
+#### Image 132 · 8:37 (beat 132)
 
 **Characters:** The Protagonist
 
@@ -2045,7 +2045,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** warm, successful
 - **Action:** sitting in a coffee shop
 
-#### Image 133 · 9:05 (beat 133)
+#### Image 133 · 8:42 (beat 133)
 
 **Characters:** One-off character (described in scene)
 
@@ -2058,7 +2058,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** business
 - **Action:** arriving
 
-#### Image 134 · 9:08 (beat 134)
+#### Image 134 · 8:45 (beat 134)
 
 **Characters:** None (environment or insert shot)
 
@@ -2071,7 +2071,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** formal
 - **Action:** signing
 
-#### Image 135 · 9:14 (beat 135)
+#### Image 135 · 8:52 (beat 135)
 
 **Characters:** None (environment or insert shot)
 
@@ -2084,11 +2084,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** surreal, quiet
 - **Action:** deposit arriving
 
-### 9:18 · 9 minutes, 18 seconds
+### 8:56 · 8 minutes, 56 seconds
 
 > You're in a coffee shop. Your latte costs $6.25. You stare at the receipt longer than the deposit.
 
-#### Image 136 · 9:18 (beat 136)
+#### Image 136 · 8:56 (beat 136)
 
 **Characters:** None (environment or insert shot)
 
@@ -2101,7 +2101,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** absurd contrast
 - **Action:** receipt
 
-#### Image 137 · 9:22 (beat 137)
+#### Image 137 · 9:00 (beat 137)
 
 **Characters:** The Protagonist
 
@@ -2114,11 +2114,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** dissociated
 - **Action:** staring at a receipt
 
-### 9:26 · 9 minutes, 26 seconds
+### 9:03 · 9 minutes, 3 seconds
 
 > At this number, Dana has a manager, and the manager wants lunch. He orders for the table. He asks how old your parents are. He's very interested in planning.
 
-#### Image 138 · 9:26 (beat 138)
+#### Image 138 · 9:03 (beat 138)
 
 **Characters:** The Protagonist, One-off character (described in scene)
 
@@ -2131,7 +2131,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** polished
 - **Action:** restaurant lunch
 
-#### Image 139 · 9:31 (beat 139)
+#### Image 139 · 9:08 (beat 139)
 
 **Characters:** The Protagonist, One-off character (described in scene)
 
@@ -2144,7 +2144,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** presumptuous
 - **Action:** ordering for the table
 
-#### Image 140 · 9:36 (beat 140)
+#### Image 140 · 9:12 (beat 140)
 
 **Characters:** One-off character (described in scene)
 
@@ -2157,11 +2157,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** eager, calculating
 - **Action:** steepling fingers
 
-### 9:38 · 9 minutes, 38 seconds
+### 9:15 · 9 minutes, 15 seconds
 
 > You buy a house twenty minutes from Nana's. Four bedrooms. Sunday dinners start drifting your way. Nobody decides it.
 
-#### Image 141 · 9:38 (beat 141)
+#### Image 141 · 9:15 (beat 141)
 
 **Characters:** The Protagonist
 
@@ -2174,7 +2174,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** new chapter
 - **Action:** standing in front of a house
 
-#### Image 142 · 9:43 (beat 142)
+#### Image 142 · 9:19 (beat 142)
 
 **Characters:** The Protagonist, Uncle Pete, Renée, Mom, Dad
 
@@ -2187,11 +2187,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** drifting change
 - **Action:** family arriving
 
-### 9:47 · 9 minutes, 47 seconds
+### 9:23 · 9 minutes, 23 seconds
 
 > Nana's knees get worse, your kitchen is bigger, and one week The Porch just says, "At yours?"
 
-#### Image 143 · 9:47 (beat 143)
+#### Image 143 · 9:23 (beat 143)
 
 **Characters:** Nana
 
@@ -2204,7 +2204,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** aging, practical
 - **Action:** struggling on stairs
 
-#### Image 144 · 9:50 (beat 144)
+#### Image 144 · 9:26 (beat 144)
 
 **Characters:** None (environment or insert shot)
 
@@ -2220,11 +2220,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 
 ## Chapter 11: The story he stopped telling
 
-### 9:54 · 9 minutes, 54 seconds
+### 9:30 · 9 minutes, 30 seconds
 
 > At your table, Pete doesn't tell the story about you locking your keys in the car with the engine running.
 
-#### Image 145 · 9:54 (beat 145)
+#### Image 145 · 9:30 (beat 145)
 
 **Characters:** The Protagonist, Uncle Pete
 
@@ -2237,7 +2237,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** withheld
 - **Action:** pausing
 
-#### Image 146 · 10:00 (beat 146)
+#### Image 146 · 9:35 (beat 146)
 
 **Characters:** None (environment or insert shot)
 
@@ -2250,11 +2250,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** funny, embarrassing
 - **Action:** car locked
 
-### 10:03 · 10 minutes, 3 seconds
+### 9:37 · 9 minutes, 37 seconds
 
 > He used to tell it every year. Everybody laughed. You laughed loudest. This year he starts it, glances at you, and stops halfway.
 
-#### Image 147 · 10:03 (beat 147)
+#### Image 147 · 9:37 (beat 147)
 
 **Characters:** The Protagonist, Uncle Pete, Renée, Mom, Dad
 
@@ -2267,7 +2267,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** joyful, belonging
 - **Action:** everyone laughing
 
-#### Image 148 · 10:08 (beat 148)
+#### Image 148 · 9:42 (beat 148)
 
 **Characters:** The Protagonist, Uncle Pete
 
@@ -2280,11 +2280,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** awkward, cut off
 - **Action:** stopping mid-sentence
 
-### 10:13 · 10 minutes, 13 seconds
+### 9:46 · 9 minutes, 46 seconds
 
 > He turns it into a story about the weather.
 
-#### Image 149 · 10:13 (beat 149)
+#### Image 149 · 9:46 (beat 149)
 
 **Characters:** Uncle Pete
 
@@ -2297,11 +2297,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** deflecting
 - **Action:** changing subject
 
-### 10:17 · 10 minutes, 17 seconds
+### 9:49 · 9 minutes, 49 seconds
 
 > Jokes are the first thing to leave. You only tease equals.
 
-#### Image 150 · 10:17 (beat 150)
+#### Image 150 · 9:49 (beat 150)
 
 **Characters:** The Protagonist
 
@@ -2314,11 +2314,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** lonely realization
 - **Action:** alone at the head
 
-### 10:22 · 10 minutes, 22 seconds
+### 9:54 · 9 minutes, 54 seconds
 
 > Renée brings her boyfriend. He shakes your hand like he's meeting a landlord. Your nephew, four years old, asks why your house has so many doors. Everyone laughs too hard.
 
-#### Image 151 · 10:22 (beat 151)
+#### Image 151 · 9:54 (beat 151)
 
 **Characters:** The Protagonist, Renée, One-off character (described in scene)
 
@@ -2331,7 +2331,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** formal, distant
 - **Action:** handshake
 
-#### Image 152 · 10:28 (beat 152)
+#### Image 152 · 9:59 (beat 152)
 
 **Characters:** The Protagonist, One-off character (described in scene)
 
@@ -2344,7 +2344,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** innocent
 - **Action:** pointing
 
-#### Image 153 · 10:34 (beat 153)
+#### Image 153 · 10:04 (beat 153)
 
 **Characters:** Uncle Pete, Renée, Mom, Dad
 
@@ -2357,11 +2357,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** forced, uneasy
 - **Action:** laughing too hard
 
-### 10:35 · 10 minutes, 35 seconds
+### 10:06 · 10 minutes, 6 seconds
 
 > After dinner, you find Nana's blue tin on your counter. She brought it from her house. You open it.
 
-#### Image 154 · 10:35 (beat 154)
+#### Image 154 · 10:06 (beat 154)
 
 **Characters:** The Protagonist
 
@@ -2374,7 +2374,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** quiet discovery
 - **Action:** finding the tin
 
-#### Image 155 · 10:40 (beat 155)
+#### Image 155 · 10:10 (beat 155)
 
 **Characters:** The Protagonist
 
@@ -2387,11 +2387,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** nostalgic
 - **Action:** opening the tin
 
-### 10:44 · 10 minutes, 44 seconds
+### 10:14 · 10 minutes, 14 seconds
 
 > Rubber bands. A spool of thread. Three twenties. You add ten more. You don't tell her.
 
-#### Image 156 · 10:45 (beat 156)
+#### Image 156 · 10:15 (beat 156)
 
 **Characters:** None (environment or insert shot)
 
@@ -2404,7 +2404,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** secret generosity
 - **Action:** adding money
 
-#### Image 157 · 10:50 (beat 157)
+#### Image 157 · 10:19 (beat 157)
 
 **Characters:** The Protagonist
 
@@ -2417,11 +2417,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** private
 - **Action:** putting the tin back
 
-### 10:52 · 10 minutes, 52 seconds
+### 10:21 · 10 minutes, 21 seconds
 
 > The fifth rule. At $780,000, they stop telling the stories where you look small. And those were your favorite ones.
 
-#### Image 158 · 10:52 (beat 158)
+#### Image 158 · 10:21 (beat 158)
 
 **Characters:** None (environment or insert shot)
 
@@ -2434,7 +2434,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** stark
 - **Action:** text on screen
 
-#### Image 159 · 10:53 (beat 159)
+#### Image 159 · 10:22 (beat 159)
 
 **Characters:** The Protagonist
 
@@ -2447,7 +2447,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** loss
 - **Action:** torn album pages
 
-#### Image 160 · 10:58 (beat 160)
+#### Image 160 · 10:28 (beat 160)
 
 **Characters:** The Protagonist
 
@@ -2463,11 +2463,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 
 ## Chapter 12: The cake
 
-### 11:01 · 11 minutes, 1 second
+### 10:32 · 10 minutes, 32 seconds
 
 > Level six, $3.2 million.
 
-#### Image 161 · 11:01 (beat 161)
+#### Image 161 · 10:32 (beat 161)
 
 **Characters:** The Protagonist
 
@@ -2480,11 +2480,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** cold luxury
 - **Action:** looking up at a tower
 
-### 11:03 · 11 minutes, 3 seconds
+### 10:36 · 10 minutes, 36 seconds
 
 > The company sells a second stake. Bigger firm. Glass building. A pen that weighs more than your first phone.
 
-#### Image 162 · 11:03 (beat 162)
+#### Image 162 · 10:36 (beat 162)
 
 **Characters:** The Protagonist, One-off character (described in scene)
 
@@ -2497,7 +2497,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** corporate
 - **Action:** conference room
 
-#### Image 163 · 11:08 (beat 163)
+#### Image 163 · 10:41 (beat 163)
 
 **Characters:** None (environment or insert shot)
 
@@ -2510,11 +2510,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** heavy, symbolic
 - **Action:** pen
 
-### 11:12 · 11 minutes, 12 seconds
+### 10:44 · 10 minutes, 44 seconds
 
 > Your share is $3.2 million. You sign, ride the elevator down forty floors, and sit in the parking garage for twenty-two minutes with the radio off.
 
-#### Image 164 · 11:12 (beat 164)
+#### Image 164 · 10:44 (beat 164)
 
 **Characters:** The Protagonist
 
@@ -2527,7 +2527,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** surreal
 - **Action:** signing
 
-#### Image 165 · 11:17 (beat 165)
+#### Image 165 · 10:50 (beat 165)
 
 **Characters:** The Protagonist
 
@@ -2540,11 +2540,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** numb
 - **Action:** sitting still
 
-### 11:23 · 11 minutes, 23 seconds
+### 10:55 · 10 minutes, 55 seconds
 
 > Now the bank finds you. Dana is gone. There's a team. A relationship manager named Corinne, a tax person, an estate person, a person whose job you never fully understand.
 
-#### Image 166 · 11:23 (beat 166)
+#### Image 166 · 10:55 (beat 166)
 
 **Characters:** The Protagonist
 
@@ -2557,7 +2557,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** attention arriving
 - **Action:** answering the door
 
-#### Image 167 · 11:28 (beat 167)
+#### Image 167 · 10:59 (beat 167)
 
 **Characters:** One-off character (described in scene)
 
@@ -2570,7 +2570,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** overwhelming
 - **Action:** team assembled
 
-#### Image 168 · 11:32 (beat 168)
+#### Image 168 · 11:04 (beat 168)
 
 **Characters:** One-off character (described in scene)
 
@@ -2583,11 +2583,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** mysterious
 - **Action:** unclear role
 
-### 11:36 · 11 minutes, 36 seconds
+### 11:08 · 11 minutes, 8 seconds
 
 > They call before you think to call them. They know your birthday. They send a cake. Who sends a cake?
 
-#### Image 169 · 11:36 (beat 169)
+#### Image 169 · 11:08 (beat 169)
 
 **Characters:** The Protagonist
 
@@ -2600,7 +2600,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** anticipatory
 - **Action:** calls arriving
 
-#### Image 170 · 11:41 (beat 170)
+#### Image 170 · 11:12 (beat 170)
 
 **Characters:** None (environment or insert shot)
 
@@ -2616,11 +2616,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 
 ## Chapter 13: The other chat
 
-### 11:45 · 11 minutes, 45 seconds
+### 11:16 · 11 minutes, 16 seconds
 
 > The Porch gets quieter. Fewer pings. Then you learn why. Renée mentions "the other chat" by accident. There's a second one.
 
-#### Image 171 · 11:45 (beat 171)
+#### Image 171 · 11:16 (beat 171)
 
 **Characters:** None (environment or insert shot)
 
@@ -2633,7 +2633,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** cooling
 - **Action:** quiet group chat
 
-#### Image 172 · 11:50 (beat 172)
+#### Image 172 · 11:21 (beat 172)
 
 **Characters:** The Protagonist, Renée
 
@@ -2646,11 +2646,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** accidental reveal
 - **Action:** covering her mouth
 
-### 11:55 · 11 minutes, 55 seconds
+### 11:26 · 11 minutes, 26 seconds
 
 > Same people. Minus you. Not cruel. Practical. Somewhere to talk about money without the person who has it.
 
-#### Image 173 · 11:56 (beat 173)
+#### Image 173 · 11:27 (beat 173)
 
 **Characters:** None (environment or insert shot)
 
@@ -2663,7 +2663,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** excluded
 - **Action:** member list
 
-#### Image 174 · 11:58 (beat 174)
+#### Image 174 · 11:30 (beat 174)
 
 **Characters:** Uncle Pete, Renée, Mom, Dad
 
@@ -2676,11 +2676,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** candid
 - **Action:** talking freely
 
-### 12:04 · 12 minutes, 4 seconds
+### 11:34 · 11 minutes, 34 seconds
 
 > You ask your mother. She says, "Oh, that's nothing." Then, "We didn't want everything to feel like it was about you."
 
-#### Image 175 · 12:04 (beat 175)
+#### Image 175 · 11:34 (beat 175)
 
 **Characters:** The Protagonist, Mom
 
@@ -2693,7 +2693,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** dismissive
 - **Action:** waving it away
 
-#### Image 176 · 12:07 (beat 176)
+#### Image 176 · 11:38 (beat 176)
 
 **Characters:** Mom
 
@@ -2706,11 +2706,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** well-meaning
 - **Action:** explaining
 
-### 12:13 · 12 minutes, 13 seconds
+### 11:42 · 11 minutes, 42 seconds
 
 > Not exclusion. Courtesy. That's what makes it impossible to argue with.
 
-#### Image 177 · 12:13 (beat 177)
+#### Image 177 · 11:42 (beat 177)
 
 **Characters:** The Protagonist
 
@@ -2726,11 +2726,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 
 ## Chapter 14: The barbecue binder
 
-### 12:18 · 12 minutes, 18 seconds
+### 11:48 · 11 minutes, 48 seconds
 
 > Pete pitches you a barbecue restaurant. He's been working on the menu for six years. He wants $75,000.
 
-#### Image 178 · 12:18 (beat 178)
+#### Image 178 · 11:48 (beat 178)
 
 **Characters:** The Protagonist, Uncle Pete
 
@@ -2743,7 +2743,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** hopeful
 - **Action:** presenting
 
-#### Image 179 · 12:21 (beat 179)
+#### Image 179 · 11:51 (beat 179)
 
 **Characters:** None (environment or insert shot)
 
@@ -2756,11 +2756,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** ambitious
 - **Action:** menu
 
-### 12:27 · 12 minutes, 27 seconds
+### 11:57 · 11 minutes, 57 seconds
 
 > You read it. It isn't good. And for the first time, the man who once called your ideas dumb sits across from you, waiting for you to call his dumb, and you can't.
 
-#### Image 180 · 12:27 (beat 180)
+#### Image 180 · 11:57 (beat 180)
 
 **Characters:** The Protagonist
 
@@ -2773,7 +2773,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** honest internal judgment
 - **Action:** reading
 
-#### Image 181 · 12:31 (beat 181)
+#### Image 181 · 12:01 (beat 181)
 
 **Characters:** The Protagonist, Uncle Pete
 
@@ -2786,7 +2786,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** role reversal
 - **Action:** waiting
 
-#### Image 182 · 12:36 (beat 182)
+#### Image 182 · 12:04 (beat 182)
 
 **Characters:** The Protagonist, Uncle Pete
 
@@ -2799,11 +2799,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** unspeakable
 - **Action:** unable to speak
 
-### 12:40 · 12 minutes, 40 seconds
+### 12:07 · 12 minutes, 7 seconds
 
 > You write a check for $40,000 and a note that says good luck. He thanks you in a voice you don't recognize.
 
-#### Image 183 · 12:40 (beat 183)
+#### Image 183 · 12:07 (beat 183)
 
 **Characters:** None (environment or insert shot)
 
@@ -2816,7 +2816,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** polite, final
 - **Action:** check and note
 
-#### Image 184 · 12:46 (beat 184)
+#### Image 184 · 12:12 (beat 184)
 
 **Characters:** The Protagonist, Uncle Pete
 
@@ -2829,11 +2829,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** hollow gratitude
 - **Action:** thanking
 
-### 12:50 · 12 minutes, 50 seconds
+### 12:16 · 12 minutes, 16 seconds
 
 > The sixth rule. At $3.2 million, they stop telling you the truth. And you stop telling it back.
 
-#### Image 185 · 12:50 (beat 185)
+#### Image 185 · 12:16 (beat 185)
 
 **Characters:** None (environment or insert shot)
 
@@ -2846,7 +2846,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** stark
 - **Action:** text on screen
 
-#### Image 186 · 12:55 (beat 186)
+#### Image 186 · 12:22 (beat 186)
 
 **Characters:** The Protagonist, Uncle Pete
 
@@ -2862,11 +2862,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 
 ## Chapter 15: Nine minutes
 
-### 12:58 · 12 minutes, 58 seconds
+### 12:25 · 12 minutes, 25 seconds
 
 > Level seven, $18 million. The full sale. Everything. The software, the team, the office that smelled like steam. A larger company buys it in a deal that takes nine months and a hundred and forty pages. Your number is $18 million.
 
-#### Image 187 · 12:58 (beat 187)
+#### Image 187 · 12:25 (beat 187)
 
 **Characters:** The Protagonist
 
@@ -2879,7 +2879,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** grand, empty
 - **Action:** empty office
 
-#### Image 188 · 12:59 (beat 188)
+#### Image 188 · 12:28 (beat 188)
 
 **Characters:** The Protagonist, One-off character (described in scene)
 
@@ -2892,7 +2892,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** final
 - **Action:** handshake
 
-#### Image 189 · 13:01 (beat 189)
+#### Image 189 · 12:31 (beat 189)
 
 **Characters:** None (environment or insert shot)
 
@@ -2905,7 +2905,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** nostalgic
 - **Action:** boxing it up
 
-#### Image 190 · 13:05 (beat 190)
+#### Image 190 · 12:35 (beat 190)
 
 **Characters:** None (environment or insert shot)
 
@@ -2918,7 +2918,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** heavy
 - **Action:** thick contract
 
-#### Image 191 · 13:11 (beat 191)
+#### Image 191 · 12:39 (beat 191)
 
 **Characters:** None (environment or insert shot)
 
@@ -2931,11 +2931,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** monumental
 - **Action:** final number
 
-### 13:15 · 13 minutes, 15 seconds
+### 12:44 · 12 minutes, 44 seconds
 
 > Your father has been tired. Your mother mentions it once, in October, and never again. In December, he forgets your nephew's name at dinner.
 
-#### Image 192 · 13:15 (beat 192)
+#### Image 192 · 12:44 (beat 192)
 
 **Characters:** Dad
 
@@ -2948,7 +2948,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** concerning
 - **Action:** dozing
 
-#### Image 193 · 13:17 (beat 193)
+#### Image 193 · 12:46 (beat 193)
 
 **Characters:** Mom
 
@@ -2961,7 +2961,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** worried, brief
 - **Action:** mentioning once
 
-#### Image 194 · 13:22 (beat 194)
+#### Image 194 · 12:50 (beat 194)
 
 **Characters:** Dad, One-off character (described in scene)
 
@@ -2974,11 +2974,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** unsettling
 - **Action:** blanking
 
-### 13:26 · 13 minutes, 26 seconds
+### 12:54 · 12 minutes, 54 seconds
 
 > Just for a second. He laughs it off.
 
-#### Image 195 · 13:28 (beat 195)
+#### Image 195 · 12:55 (beat 195)
 
 **Characters:** Dad
 
@@ -2991,11 +2991,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** deflecting
 - **Action:** laughing
 
-### 13:30 · 13 minutes, 30 seconds
+### 12:57 · 12 minutes, 57 seconds
 
 > You call a concierge medical practice. $12,000 a year to join. The receptionist calls back in nine minutes.
 
-#### Image 196 · 13:30 (beat 196)
+#### Image 196 · 12:57 (beat 196)
 
 **Characters:** The Protagonist
 
@@ -3008,7 +3008,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** fast access
 - **Action:** calling
 
-#### Image 197 · 13:35 (beat 197)
+#### Image 197 · 13:03 (beat 197)
 
 **Characters:** None (environment or insert shot)
 
@@ -3021,11 +3021,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** startling speed
 - **Action:** call back
 
-### 13:38 · 13 minutes, 38 seconds
+### 13:06 · 13 minutes, 6 seconds
 
 > Nine. You remember forty-one minutes of piano over a $35 fee. A neurologist sees your father that Thursday.
 
-#### Image 198 · 13:38 (beat 198)
+#### Image 198 · 13:07 (beat 198)
 
 **Characters:** The Protagonist
 
@@ -3038,7 +3038,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** stark contrast
 - **Action:** remembering
 
-#### Image 199 · 13:43 (beat 199)
+#### Image 199 · 13:12 (beat 199)
 
 **Characters:** Dad, One-off character (described in scene)
 
@@ -3051,11 +3051,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** clinical, thorough
 - **Action:** MRI
 
-### 13:46 · 13 minutes, 46 seconds
+### 13:15 · 13 minutes, 15 seconds
 
 > Every scan money can buy. Every second opinion. Results in four days.
 
-#### Image 200 · 13:49 (beat 200)
+#### Image 200 · 13:17 (beat 200)
 
 **Characters:** None (environment or insert shot)
 
@@ -3068,11 +3068,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** mounting
 - **Action:** stack of reports
 
-### 13:52 · 13 minutes, 52 seconds
+### 13:21 · 13 minutes, 21 seconds
 
 > Early-stage dementia.
 
-#### Image 201 · 13:52 (beat 201)
+#### Image 201 · 13:21 (beat 201)
 
 **Characters:** None (environment or insert shot)
 
@@ -3088,11 +3088,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 
 ## Chapter 16: Nothing to buy
 
-### 13:54 · 13 minutes, 54 seconds
+### 13:23 · 13 minutes, 23 seconds
 
 > The doctor is kind. She speaks slowly. She keeps a box of tissues on the desk at exactly the right angle.
 
-#### Image 202 · 13:54 (beat 202)
+#### Image 202 · 13:23 (beat 202)
 
 **Characters:** The Protagonist, Dad, Mom, One-off character (described in scene)
 
@@ -3105,7 +3105,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** gentle, grave
 - **Action:** speaking
 
-#### Image 203 · 13:57 (beat 203)
+#### Image 203 · 13:27 (beat 203)
 
 **Characters:** None (environment or insert shot)
 
@@ -3118,7 +3118,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** careful, practiced
 - **Action:** tissues
 
-#### Image 204 · 14:03 (beat 204)
+#### Image 204 · 13:30 (beat 204)
 
 **Characters:** The Protagonist
 
@@ -3131,11 +3131,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** desperate
 - **Action:** searching
 
-### 14:03 · 14 minutes, 3 seconds
+### 13:31 · 13 minutes, 31 seconds
 
 > And there's nothing to buy. You look. You actually look. A trial. A clinic. A specialist overseas. There is no level where this one goes away.
 
-#### Image 205 · 14:09 (beat 205)
+#### Image 205 · 13:37 (beat 205)
 
 **Characters:** The Protagonist
 
@@ -3148,7 +3148,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** futile
 - **Action:** research pages
 
-#### Image 206 · 14:11 (beat 206)
+#### Image 206 · 13:40 (beat 206)
 
 **Characters:** The Protagonist
 
@@ -3161,11 +3161,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** helpless
 - **Action:** standing alone
 
-### 14:15 · 14 minutes, 15 seconds
+### 13:44 · 13 minutes, 44 seconds
 
 > You find out later. He'd known something was wrong for a year. He told your mother. He told Pete. He told Nana. He didn't tell you.
 
-#### Image 207 · 14:15 (beat 207)
+#### Image 207 · 13:44 (beat 207)
 
 **Characters:** Dad
 
@@ -3178,7 +3178,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** secret
 - **Action:** hiding notes
 
-#### Image 208 · 14:21 (beat 208)
+#### Image 208 · 13:48 (beat 208)
 
 **Characters:** Dad, Mom, Uncle Pete, Nana
 
@@ -3191,7 +3191,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** confided
 - **Action:** telling others
 
-#### Image 209 · 14:25 (beat 209)
+#### Image 209 · 13:53 (beat 209)
 
 **Characters:** The Protagonist
 
@@ -3204,11 +3204,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** hurt
 - **Action:** realizing
 
-### 14:27 · 14 minutes, 27 seconds
+### 13:54 · 13 minutes, 54 seconds
 
 > When you finally ask why, he sits on your porch in the good chair you bought him and says, "You'd have tried to fix it."
 
-#### Image 210 · 14:27 (beat 210)
+#### Image 210 · 13:54 (beat 210)
 
 **Characters:** The Protagonist
 
@@ -3221,7 +3221,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** vulnerable
 - **Action:** asking
 
-#### Image 211 · 14:29 (beat 211)
+#### Image 211 · 13:56 (beat 211)
 
 **Characters:** The Protagonist, Dad
 
@@ -3234,7 +3234,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** tender
 - **Action:** sitting
 
-#### Image 212 · 14:35 (beat 212)
+#### Image 212 · 13:59 (beat 212)
 
 **Characters:** Dad
 
@@ -3247,11 +3247,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** knowing, loving
 - **Action:** speaking
 
-### 14:37 · 14 minutes, 37 seconds
+### 14:02 · 14 minutes, 2 seconds
 
 > Not secrecy. Mercy. He wanted one problem you couldn't own.
 
-#### Image 213 · 14:37 (beat 213)
+#### Image 213 · 14:02 (beat 213)
 
 **Characters:** The Protagonist, Dad
 
@@ -3264,11 +3264,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** merciful
 - **Action:** holding his problem
 
-### 14:43 · 14 minutes, 43 seconds
+### 14:07 · 14 minutes, 7 seconds
 
 > Then he looks out at the yard and says, "We're fine."
 
-#### Image 214 · 14:43 (beat 214)
+#### Image 214 · 14:07 (beat 214)
 
 **Characters:** Dad
 
@@ -3281,11 +3281,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** bittersweet
 - **Action:** looking at the yard
 
-### 14:48 · 14 minutes, 48 seconds
+### 14:11 · 14 minutes, 11 seconds
 
 > The seventh rule. At $18 million, they stop telling you when they're scared. Because your fear costs too much.
 
-#### Image 215 · 14:48 (beat 215)
+#### Image 215 · 14:11 (beat 215)
 
 **Characters:** None (environment or insert shot)
 
@@ -3298,7 +3298,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** stark
 - **Action:** text on screen
 
-#### Image 216 · 14:53 (beat 216)
+#### Image 216 · 14:17 (beat 216)
 
 **Characters:** Dad, Mom
 
@@ -3314,11 +3314,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 
 ## Chapter 17: The room with no clocks
 
-### 14:56 · 14 minutes, 56 seconds
+### 14:21 · 14 minutes, 21 seconds
 
 > Level eight, $60 million. The money grows without you now. You don't work. It works. Funds. Buildings. Stakes in things you've never seen.
 
-#### Image 217 · 14:56 (beat 217)
+#### Image 217 · 14:21 (beat 217)
 
 **Characters:** The Protagonist
 
@@ -3331,7 +3331,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** vast, powerful
 - **Action:** overlooking a city
 
-#### Image 218 · 14:58 (beat 218)
+#### Image 218 · 14:24 (beat 218)
 
 **Characters:** None (environment or insert shot)
 
@@ -3344,7 +3344,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** self-sustaining
 - **Action:** money working
 
-#### Image 219 · 15:04 (beat 219)
+#### Image 219 · 14:31 (beat 219)
 
 **Characters:** The Protagonist
 
@@ -3357,11 +3357,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** detached
 - **Action:** reviewing reports
 
-### 15:07 · 15 minutes, 7 seconds
+### 14:33 · 14 minutes, 33 seconds
 
 > People ask you to sit on boards. You say yes to one. A regional bank. Quarterly meetings in a room with no clocks.
 
-#### Image 220 · 15:11 (beat 220)
+#### Image 220 · 14:35 (beat 220)
 
 **Characters:** The Protagonist
 
@@ -3374,7 +3374,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** accepting
 - **Action:** arriving at a building
 
-#### Image 221 · 15:14 (beat 221)
+#### Image 221 · 14:39 (beat 221)
 
 **Characters:** The Protagonist, One-off character (described in scene)
 
@@ -3387,11 +3387,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** timeless, insulated
 - **Action:** in the boardroom
 
-### 15:18 · 15 minutes, 18 seconds
+### 14:42 · 14 minutes, 42 seconds
 
 > At your third meeting, a slide goes up. Fee revenue. One line reads, "Overdraft, $35 per occurrence." Projected annual income, $212 million.
 
-#### Image 222 · 15:18 (beat 222)
+#### Image 222 · 14:42 (beat 222)
 
 **Characters:** None (environment or insert shot)
 
@@ -3404,7 +3404,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** cold, clinical
 - **Action:** slide appears
 
-#### Image 223 · 15:22 (beat 223)
+#### Image 223 · 14:46 (beat 223)
 
 **Characters:** None (environment or insert shot)
 
@@ -3417,11 +3417,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** chilling callback
 - **Action:** overdraft line
 
-### 15:28 · 15 minutes, 28 seconds
+### 14:56 · 14 minutes, 56 seconds
 
 > Someone asks if the number is defensible. Someone else says customers value the convenience. Everyone nods. A woman refills your sparkling water before you ask.
 
-#### Image 224 · 15:28 (beat 224)
+#### Image 224 · 14:56 (beat 224)
 
 **Characters:** One-off character (described in scene)
 
@@ -3434,7 +3434,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** clinical
 - **Action:** questioning
 
-#### Image 225 · 15:31 (beat 225)
+#### Image 225 · 14:59 (beat 225)
 
 **Characters:** One-off character (described in scene)
 
@@ -3447,7 +3447,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** indifferent consensus
 - **Action:** nodding
 
-#### Image 226 · 15:35 (beat 226)
+#### Image 226 · 15:04 (beat 226)
 
 **Characters:** The Protagonist, One-off character (described in scene)
 
@@ -3460,11 +3460,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** privileged, hollow
 - **Action:** refilling
 
-### 15:39 · 15 minutes, 39 seconds
+### 15:08 · 15 minutes, 8 seconds
 
 > You think about $3.79 of detergent. A Tuesday. 11:40 at night.
 
-#### Image 227 · 15:39 (beat 227)
+#### Image 227 · 15:08 (beat 227)
 
 **Characters:** The Protagonist
 
@@ -3477,11 +3477,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** haunting
 - **Action:** remembering
 
-### 15:44 · 15 minutes, 44 seconds
+### 15:15 · 15 minutes, 15 seconds
 
 > You vote. You vote with the room.
 
-#### Image 228 · 15:44 (beat 228)
+#### Image 228 · 15:15 (beat 228)
 
 **Characters:** The Protagonist, One-off character (described in scene)
 
@@ -3497,11 +3497,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 
 ## Chapter 18: The steel wall
 
-### 15:48 · 15 minutes, 48 seconds
+### 15:18 · 15 minutes, 18 seconds
 
 > You fund a memory care wing at the county hospital. They put your family name on the wall in brushed steel.
 
-#### Image 229 · 15:48 (beat 229)
+#### Image 229 · 15:18 (beat 229)
 
 **Characters:** The Protagonist
 
@@ -3514,7 +3514,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** philanthropic
 - **Action:** ribbon cutting
 
-#### Image 230 · 15:52 (beat 230)
+#### Image 230 · 15:21 (beat 230)
 
 **Characters:** None (environment or insert shot)
 
@@ -3527,11 +3527,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** monumental, cold
 - **Action:** name on wall
 
-### 15:57 · 15 minutes, 57 seconds
+### 15:25 · 15 minutes, 25 seconds
 
 > Your father stands in front of it in a shirt your mother ironed, and doesn't quite know why he's there.
 
-#### Image 231 · 15:57 (beat 231)
+#### Image 231 · 15:25 (beat 231)
 
 **Characters:** Dad, Mom
 
@@ -3544,7 +3544,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** poignant
 - **Action:** standing
 
-#### Image 232 · 16:02 (beat 232)
+#### Image 232 · 15:28 (beat 232)
 
 **Characters:** Dad
 
@@ -3557,11 +3557,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** confused
 - **Action:** looking around
 
-### 16:05 · 16 minutes, 5 seconds
+### 15:31 · 15 minutes, 31 seconds
 
 > He knows it's important. He can tell by how people are acting.
 
-#### Image 233 · 16:07 (beat 233)
+#### Image 233 · 15:32 (beat 233)
 
 **Characters:** Dad, One-off character (described in scene)
 
@@ -3574,11 +3574,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** reading the room
 - **Action:** watching people
 
-### 16:11 · 16 minutes, 11 seconds
+### 15:35 · 15 minutes, 35 seconds
 
 > At Sunday dinner, everyone is pleasant. Everyone is fine. Renée tells you nothing about her marriage, which is coming apart, which you learn from your nephew.
 
-#### Image 234 · 16:11 (beat 234)
+#### Image 234 · 15:35 (beat 234)
 
 **Characters:** The Protagonist, Uncle Pete, Renée, Mom, Dad
 
@@ -3591,7 +3591,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** polite, empty
 - **Action:** dinner
 
-#### Image 235 · 16:15 (beat 235)
+#### Image 235 · 15:40 (beat 235)
 
 **Characters:** The Protagonist, Renée
 
@@ -3604,7 +3604,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** closed off
 - **Action:** smiling
 
-#### Image 236 · 16:18 (beat 236)
+#### Image 236 · 15:42 (beat 236)
 
 **Characters:** The Protagonist, One-off character (described in scene)
 
@@ -3617,11 +3617,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** innocent truth
 - **Action:** whispering
 
-### 16:22 · 16 minutes, 22 seconds
+### 15:46 · 15 minutes, 46 seconds
 
 > Pete's restaurant closed in March. He never mentioned it. In The Porch, you get birthday wishes and baby photos and nothing else.
 
-#### Image 237 · 16:22 (beat 237)
+#### Image 237 · 15:46 (beat 237)
 
 **Characters:** Uncle Pete
 
@@ -3634,7 +3634,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** hidden shame
 - **Action:** locked door
 
-#### Image 238 · 16:26 (beat 238)
+#### Image 238 · 15:50 (beat 238)
 
 **Characters:** None (environment or insert shot)
 
@@ -3650,11 +3650,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 
 ## Chapter 19: Nobody needed it
 
-### 16:32 · 16 minutes, 32 seconds
+### 15:55 · 15 minutes, 55 seconds
 
 > After everyone leaves, you find the blue tin on your counter. Nana's been gone two winters. Somebody keeps bringing it to your house anyway.
 
-#### Image 239 · 16:32 (beat 239)
+#### Image 239 · 15:55 (beat 239)
 
 **Characters:** The Protagonist
 
@@ -3667,7 +3667,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** lonely
 - **Action:** after dinner
 
-#### Image 240 · 16:36 (beat 240)
+#### Image 240 · 15:59 (beat 240)
 
 **Characters:** The Protagonist
 
@@ -3680,11 +3680,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** grief
 - **Action:** remembering
 
-### 16:42 · 16 minutes, 42 seconds
+### 16:04 · 16 minutes, 4 seconds
 
 > You open it. Your twenties. All of them. Untouched. And a strip of paper in your mother's handwriting. "Nobody needed it."
 
-#### Image 241 · 16:42 (beat 241)
+#### Image 241 · 16:04 (beat 241)
 
 **Characters:** None (environment or insert shot)
 
@@ -3697,7 +3697,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** devastating
 - **Action:** untouched bills
 
-#### Image 242 · 16:46 (beat 242)
+#### Image 242 · 16:10 (beat 242)
 
 **Characters:** None (environment or insert shot)
 
@@ -3710,11 +3710,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** heartbreaking
 - **Action:** note
 
-### 16:52 · 16 minutes, 52 seconds
+### 16:15 · 16 minutes, 15 seconds
 
 > You stand in your kitchen and hold the tin for a long time.
 
-#### Image 243 · 16:52 (beat 243)
+#### Image 243 · 16:15 (beat 243)
 
 **Characters:** The Protagonist
 
@@ -3727,11 +3727,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** still, aching
 - **Action:** holding the tin
 
-### 16:58 · 16 minutes, 58 seconds
+### 16:19 · 16 minutes, 19 seconds
 
 > The eighth rule. At $60 million, your family stops telling you anything you could change. Which turns out to be everything.
 
-#### Image 244 · 16:58 (beat 244)
+#### Image 244 · 16:19 (beat 244)
 
 **Characters:** None (environment or insert shot)
 
@@ -3744,7 +3744,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** stark, final
 - **Action:** text on screen
 
-#### Image 245 · 16:59 (beat 245)
+#### Image 245 · 16:20 (beat 245)
 
 **Characters:** The Protagonist
 
@@ -3757,7 +3757,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** isolated
 - **Action:** on an island
 
-#### Image 246 · 17:05 (beat 246)
+#### Image 246 · 16:26 (beat 246)
 
 **Characters:** The Protagonist
 
@@ -3773,11 +3773,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 
 ## Chapter 20: Somewhere right now
 
-### 17:07 · 17 minutes, 7 seconds
+### 16:29 · 16 minutes, 29 seconds
 
 > Somewhere right now, someone is standing in a corner store at 11:40 on a Tuesday night, holding a $3.79 bottle of detergent.
 
-#### Image 247 · 17:07 (beat 247)
+#### Image 247 · 16:29 (beat 247)
 
 **Characters:** One-off character (described in scene)
 
@@ -3790,7 +3790,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** mirror, cyclical
 - **Action:** standing in store
 
-#### Image 248 · 17:13 (beat 248)
+#### Image 248 · 16:34 (beat 248)
 
 **Characters:** One-off character (described in scene)
 
@@ -3803,11 +3803,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** repeat, cruel
 - **Action:** tapping card
 
-### 17:16 · 17 minutes, 16 seconds
+### 16:39 · 16 minutes, 39 seconds
 
 > The card reader beeps. Approved. Tomorrow there'll be a $35 fee, and forty-one minutes of piano, and a voice like a parking meter.
 
-#### Image 249 · 17:18 (beat 249)
+#### Image 249 · 16:41 (beat 249)
 
 **Characters:** None (environment or insert shot)
 
@@ -3820,7 +3820,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** cyclical
 - **Action:** screen
 
-#### Image 250 · 17:23 (beat 250)
+#### Image 250 · 16:47 (beat 250)
 
 **Characters:** One-off character (described in scene)
 
@@ -3833,11 +3833,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** bureaucratic
 - **Action:** on hold
 
-### 17:26 · 17 minutes, 26 seconds
+### 16:49 · 16 minutes, 49 seconds
 
 > On Sunday, a screen door will bang twice behind them. Everyone at that table will tell them exactly what they're doing wrong.
 
-#### Image 251 · 17:26 (beat 251)
+#### Image 251 · 16:49 (beat 251)
 
 **Characters:** One-off character (described in scene)
 
@@ -3850,7 +3850,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** familiar
 - **Action:** entering
 
-#### Image 252 · 17:31 (beat 252)
+#### Image 252 · 16:53 (beat 252)
 
 **Characters:** One-off character (described in scene)
 
@@ -3863,11 +3863,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** crowded, loud
 - **Action:** family dinner
 
-### 17:36 · 17 minutes, 36 seconds
+### 16:58 · 16 minutes, 58 seconds
 
 > And on the way out, a grandmother will slip two folded twenties into their jacket pocket.
 
-#### Image 253 · 17:36 (beat 253)
+#### Image 253 · 16:58 (beat 253)
 
 **Characters:** One-off character (described in scene)
 
@@ -3880,7 +3880,7 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** tender
 - **Action:** walking out
 
-#### Image 254 · 17:38 (beat 254)
+#### Image 254 · 16:59 (beat 254)
 
 **Characters:** One-off character (described in scene)
 
@@ -3893,11 +3893,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** loving, secret
 - **Action:** slipping money
 
-### 17:42 · 17 minutes, 42 seconds
+### 17:04 · 17 minutes, 4 seconds
 
 > They think the worst part is how much everyone tells them.
 
-#### Image 255 · 17:42 (beat 255)
+#### Image 255 · 17:04 (beat 255)
 
 **Characters:** One-off character (described in scene)
 
@@ -3910,11 +3910,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** overwhelmed
 - **Action:** driving
 
-### 17:47 · 17 minutes, 47 seconds
+### 17:08 · 17 minutes, 8 seconds
 
 > It isn't. The worst part is the day it stops.
 
-#### Image 256 · 17:47 (beat 256)
+#### Image 256 · 17:08 (beat 256)
 
 **Characters:** The Protagonist
 
@@ -3927,11 +3927,11 @@ Prop reference sheet: a round, dented blue cookie tin with a faded white snowfla
 - **Mood:** foreboding
 - **Action:** silence versus noise
 
-### 17:52 · 17 minutes, 52 seconds
+### 17:13 · 17 minutes, 13 seconds
 
 > Everyone's fine. They keep saying so.
 
-#### Image 257 · 17:52 (beat 257)
+#### Image 257 · 17:13 (beat 257)
 
 **Characters:** The Protagonist
 
