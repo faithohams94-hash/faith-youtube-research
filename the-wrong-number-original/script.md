@@ -25,6 +25,7 @@
 - **"Jollof or fried rice?"** A question that once terrified her and finally sets her free.
 - **"Friday Stranger".** The name Chloe saves Emma under.
 - **The portfolio.** Dusty on the top shelf at the start, and her business by the end.
+- **The blue notebooks.** Chloe's hidden record of every shout and insult, kept under her lipsticks. It becomes her evidence in court.
 - **"Sorry."** Chloe says it constantly at the start. By the end she has stopped.
 - **"Still here."** Two words that hold ten years together.
 
@@ -35,6 +36,8 @@
 ## SCENE 1 — "JOLLOF OR FRIED RICE?"
 **INT. ADEYEMI HOUSE, ABUJA — KITCHEN — FRIDAY, 2:14 PM — YEAR ONE**
 *(~0:00–0:59)*
+
+*Abuja, early afternoon. The camera glides through the gates of a large white house in Asokoro, past a manicured lawn and a parked black SUV, into a spotless kitchen. The extractor fan hums. A pot of rice simmers. A woman moves between the stove, the fridge and her children with the careful speed of someone who cannot afford a mistake.*
 
 *A beautiful, expensive kitchen with marble counters, fresh flowers and everything perfect. Everything except the woman standing in it. CHLOE ADEYEMI (33) stirs a pot while ADA (7) does homework at the counter and TOBI (4) pushes a toy car across the floor. Chloe's phone rings: "KUNLE."*
 
@@ -86,6 +89,8 @@
 **INT. AI PRODUCTION STUDIO, LAGOS — BREAK ROOM — SAME FRIDAY, 2:20 PM**
 *(~0:59–1:42)*
 
+*Lagos, the same afternoon. Horns blare on Admiralty Way as the camera rises to the third floor of a glass building. Inside the AI production studio, young creatives in headphones sit at glowing screens, and someone laughs in the corridor. The break room smells of takeaway jollof and coffee.*
+
 *A busy, colourful studio with screens showing half-finished animated scenes. EMMA WILLIAMS (35) eats rice from a takeaway pack while reviewing a sequence on her tablet. She's grinning at her phone. BISI, her colleague, leans over.*
 
 **BISI:** What's funny?
@@ -117,6 +122,8 @@
 ## SCENE 3 — TOO MUCH PEPPER
 **INT. ADEYEMI HOUSE — DINING ROOM — SAME NIGHT**
 *(~1:42–2:20)*
+
+*Night falls over Abuja. Inside the Adeyemi dining room, a crystal chandelier hangs over a long, polished table. The only sounds are cutlery against china and the ticking of a wall clock. Chloe sits at the far end, her back straight and her plate barely touched.*
 
 *A long, polished table. Kunle eats in silence. Chloe watches every spoonful. The children eat quietly.*
 
@@ -151,6 +158,8 @@
 **INT. ADEYEMI HOUSE — DINING ROOM / FRONT DOOR — MONDAY, 6:45 AM**
 *(~2:20–3:06)*
 
+*Monday dawn. Pale light spreads across the marble floor of the entrance hall. Kunle comes down the staircase in a crisp suit, buttoning his cuffs, and every footstep echoes. At the bottom, his family waits in a neat line, like staff before an inspection.*
+
 *Kunle, dressed for work, checks his shirt cuffs. Chloe hands him a lunch box and his briefcase. Ada and Tobi, in school uniforms, stand in a line like soldiers.*
 
 **KUNLE:** *(inspecting Ada's collar)* Who ironed this?
@@ -182,6 +191,8 @@
 ## SCENE 5 — "YOU SIMPLY HAVE BAD TASTE"
 **INT. ADEYEMI HOUSE — BEDROOM / INT. EMMA'S DESK, LAGOS — INTERCUT — THE NEXT FRIDAY, 2:19 PM**
 *(~3:06–3:51)*
+
+*The next Friday. Afternoon sun falls through the bedroom curtains onto a bed covered in folded laundry. Chloe works in silence. In Lagos, Emma sits at a cluttered desk covered in sticky notes, a film sequence paused on her monitor.*
 
 *Chloe folds laundry on the bed. Her phone lies beside her. She scrolls back to the stranger's message and reads it again. She hesitates, then types fast before she can change her mind.*
 
@@ -223,6 +234,8 @@
 **INT. ADEYEMI HOUSE — BEDROOM — LATE NIGHT**
 *(~3:51–4:10)*
 
+*Late night. The house is dark except for the blue glow of a phone screen. The air conditioner hums. Kunle sleeps on his back on the far side of a wide bed. Chloe sits on the very edge, as far from him as the mattress allows.*
+
 *The children are asleep. Kunle snores on the far side of the bed. Chloe sits on the edge of the bed with her phone glowing in the dark. She opens the unknown number, taps "Add contact" and types a name: "FRIDAY STRANGER." She looks at it for a long time.*
 
 **CHLOE:** *(whispering to herself)* What are you doing, Chloe?
@@ -241,6 +254,8 @@
 ## SCENE 7 — "WHO IS MAKING YOU SMILE?"
 **INT. ADEYEMI HOUSE — SITTING ROOM — EVENING — WEEKS LATER**
 *(~4:10–4:39)*
+
+*Early evening, weeks later. Golden light comes through the tall windows of the sitting room. The television plays the news on low. Chloe curls up on the cream sofa with her feet tucked under her, a small, rare smile on her face. Behind her, the front door opens quietly.*
 
 *Chloe sits on the sofa reading a message and smiling. She doesn't notice Kunle standing in the doorway, watching.*
 
@@ -271,6 +286,8 @@
 ## SCENE 8 — RICE WOMAN
 **MONTAGE — LAGOS AND ABUJA — FRIDAYS OVER THREE WEEKS**
 *(~4:39–5:18)*
+
+*A sequence of Fridays. The camera cuts between two cities: yellow danfo buses crawling through Lagos traffic, wide clean Abuja roads under blue sky, Emma striding into meetings, Chloe packing lunch boxes. Each Friday, a phone lights up.*
 
 *FRIDAY ONE. Lagos traffic and Abuja sunshine. Emma in a meeting, Chloe packing school lunches.*
 
@@ -306,6 +323,8 @@
 **INT. ADEYEMI HOUSE — BEDROOM / EMMA'S APARTMENT, LAGOS — INTERCUT — FRIDAY THREE, NIGHT**
 *(~5:18–5:59)*
 
+*Friday night. The Adeyemi house is asleep. A single bedside lamp throws a small circle of light on the carpet where Chloe sits cross-legged, her back against the wardrobe. In Lagos, Emma lies on a worn sofa in a small, cosy flat, eating cereal from the box.*
+
 *Chloe sits on the bedroom floor in the dark. Emma lies on her sofa in Lagos, eating cereal for dinner.*
 
 **CHLOE (TEXT):** Can I ask you something that isn't about food?
@@ -340,6 +359,8 @@
 ## SCENE 10 — THE FIRST CALL
 **INT. ADEYEMI HOUSE — LAUNDRY ROOM / EMMA'S BALCONY, LAGOS — SATURDAY AFTERNOON**
 *(~5:59–6:58)*
+
+*Saturday afternoon. Kunle's car pulls out of the gate, golf clubs rattling in the boot. The house relaxes. In the laundry room at the back, the washing machine rumbles through its cycle. Chloe closes the door behind her and leans against it.*
 
 *Kunle has gone to play golf. The washing machine rumbles. Chloe stands among piles of laundry with her phone.*
 
@@ -381,6 +402,8 @@
 **INT. ADEYEMI HOUSE — DINING ROOM — FRIDAY NIGHT — NINE MONTHS LATER**
 *(~6:58–7:41)*
 
+*Nine months later. A Friday-night dinner party. The dining room glows with candles, white lilies stand in tall vases, and every chair is filled. Three businessmen in agbada and their wives in shimmering lace laugh around the table. Chloe, in a simple dress, moves silently from guest to guest with serving dishes, refilling, clearing and smiling.*
+
 *A dinner party. Kunle entertains three business associates and their wives. Chloe has cooked every dish, arranged the flowers and set every glass. She moves around the table serving.*
 
 **GUEST:** Kunle, this egusi is excellent! Your wife should open a restaurant!
@@ -402,6 +425,8 @@
 ## SCENE 12 — "I THINK I'M AFRAID OF HIM"
 **INT. ADEYEMI HOUSE — BEDROOM — SAME NIGHT, LATER / INT. EMMA'S APARTMENT — INTERCUT**
 *(~7:41–8:54)*
+
+*Midnight. The last guest's car leaves through the gate. The candles have burnt down and the dirty plates are stacked in the kitchen. Upstairs in the bedroom, Kunle stands at the mirror, his reflection stern under the bright ceiling light, while Chloe hovers by the door.*
 
 *The guests are gone. Kunle loosens his tie in front of the mirror.*
 
@@ -457,6 +482,8 @@
 **INT. AI STUDIO, LAGOS — EMMA'S DESK — NEXT MORNING**
 *(~8:54–9:52)*
 
+*Morning in Lagos. The studio is waking up: coffee machines hiss, monitors flicker on, and someone plays Afrobeats from a laptop. Emma sits slumped at her desk with dark circles under her eyes, staring at her phone. Bisi walks over carrying two paper cups.*
+
 *Emma hasn't slept much. Bisi drops a coffee on her desk.*
 
 **BISI:** You look like you edited all night.
@@ -488,6 +515,8 @@
 **INT. EMMA'S APARTMENT, LAGOS — NIGHT — HER 36TH BIRTHDAY**
 *(~9:52–10:38)*
 
+*Night in Lagos. Emma's small apartment is quiet. Rain taps on the window. She has laid out one plate, one cupcake and one candle on a small round table. She sits down alone in front of them.*
+
 *Emma sits alone at her small dining table with one cupcake and one candle. Her phone rings: "MUMMY."*
 
 **MAMA EMMA (ON PHONE):** Happy birthday, my daughter! Thirty-six! *(beat)* Emma, when are you going to bring a husband home? Your cousin Funmi has three children now.
@@ -511,6 +540,8 @@
 ## SCENE 15 — "PLEASE DON'T DISAPPEAR"
 **INT. ADEYEMI HOUSE / AI STUDIO, LAGOS — INTERCUT — FRIDAY — ONE YEAR AFTER THE FIRST MESSAGE**
 *(~10:38–11:34)*
+
+*One year after the first message. A Friday. In Lagos, Emma rushes from one glass-walled meeting room to the next with a laptop under her arm, her phone face down in her pocket. In Abuja, Chloe stands alone at the kitchen counter, staring at her phone, waiting.*
 
 *Emma is buried in back-to-back meetings with her phone face down. In Abuja, Chloe waits at the kitchen counter.*
 
@@ -566,6 +597,8 @@
 **INT. ADEYEMI HOUSE — CHILDREN'S ROOM — AFTERNOON — YEAR TWO**
 *(~11:34–12:12)*
 
+*Year Two. A school bus stops outside the gate. Ada, now eight, runs up the driveway with her backpack bouncing and a rolled-up paper in her hand, and bursts into the children's room where Chloe is folding tiny school uniforms.*
+
 *Ada (8) comes home from school and proudly hands Chloe a drawing: a beautiful house surrounded by flowers, a sun and a tree. But there are no windows.*
 
 **CHLOE:** It's beautiful, sweetheart. *(beat)* But where are the windows?
@@ -593,6 +626,8 @@
 ## SCENE 17 — "REMOVE THAT SORRY"
 **INT. ADEYEMI HOUSE — DINING TABLE — NIGHT / EMMA'S APARTMENT — INTERCUT**
 *(~12:12–12:59)*
+
+*Night. Everyone else is asleep. The dining-room light is on low. Chloe sits at the long table, where she usually serves, with her old portfolio open, pencils scattered around her, sketching with a concentration we haven't seen before.*
 
 *Everyone is asleep. Chloe sits at the dining table with her old portfolio open, sketching a new house: light, air, big windows and doors that open onto a garden. Her phone buzzes.*
 
@@ -622,6 +657,8 @@
 **INT. ADEYEMI HOUSE — GARDEN — MORNING — YEAR THREE**
 *(~12:59–13:42)*
 
+*Year Three. Morning. Kunle's black SUV pulls out of the gate and the gate closes. Chloe steps out into the garden, barefoot on the cool grass among the hibiscus and ixora she planted years ago. Birds sing. She takes her phone out of her wrapper and stares at it.*
+
 *Kunle's car has just left. Chloe stands in the garden among the flowers she planted, with her phone in her hand. "HALIMA (UNI)." She has stared at this name for two years. She presses call. It rings. And rings.*
 
 **CHLOE:** *(whispering)* She won't answer. Why would she answer?
@@ -647,6 +684,8 @@
 ## SCENE 19 — THE FIRST STEP
 **INT. CAFÉ, WUSE 2, ABUJA — DAY — YEAR THREE**
 *(~13:42–15:05)*
+
+*The next day. A bright café in Wuse 2 with potted plants, a coffee machine hissing and soft music. Chloe walks in, scanning the room nervously, clutching her handbag. In a corner, a woman in a green hijab stands up and waves. It's HALIMA. They hug awkwardly at first, then tightly, and sit.*
 
 *Chloe sits across from HALIMA, her old university friend. They're halfway through lunch. So far it has been children and weather.*
 
@@ -680,9 +719,11 @@
 
 ## SCENE 20 — THE COUNSELLOR
 **INT. COUNSELLING OFFICE, ABUJA — DAY — WEEKS LATER**
-*(~15:05–16:03)*
+*(~15:05–16:30)*
 
-*A calm room with plants. A COUNSELLOR, a kind woman in her fifties, sits across from Chloe. Halima waits outside.*
+*Weeks later. A quiet office on the second floor of a building in Garki. A potted palm stands in the corner, and soft light comes through the blinds. Chloe knocks, pushes the door open and hesitates in the doorway. The COUNSELLOR, a kind-faced woman in her fifties, rises from her chair, smiles and gestures to the seat across from her. Chloe sits on the edge of it, holding her bag on her lap.*
+
+*Outside in the corridor, Halima waits on a plastic chair.*
 
 **COUNSELLOR:** You said something earlier I want to come back to. You said, "I'm not sure it's bad enough."
 
@@ -694,6 +735,10 @@
 
 **COUNSELLOR:** You've spent years being very good at surviving. *(beat)* Shall we start learning what your options are? No decisions today. Just information.
 
+**CHLOE:** What should I do in the meantime?
+
+**COUNSELLOR:** One practical thing. Start keeping a record. Every time he shouts, every insult, every time he takes your card or tears up your work, write it down. The date, the time, his exact words, and who was there. *(beat)* Keep it somewhere he'll never look. If you ever need it, it will speak for you.
+
 **CHLOE:** *(after a long breath)* Just information.
 
 
@@ -701,7 +746,9 @@
 
 ## SCENE 21 — THE WORKSHOP
 **INT. DESIGN WORKSHOP, ABUJA — CONFERENCE HALL — DAY**
-*(~16:03–16:42)*
+*(~16:30–17:08)*
+
+*A busy conference hall in a hotel in Central Abuja. A banner reads "ABUJA INTERIOR DESIGN WORKSHOP." Twenty designers talk excitedly at round tables covered in fabric swatches, paint charts and mood boards. Chloe slips in through the back door, finds an empty seat in the last row and holds her portfolio against her chest like a shield.*
 
 *Twenty designers sit at tables covered in fabric swatches. Chloe sits near the back, nervous, holding her portfolio. A WOMAN in bright ankara, IFEOMA, an old classmate, spots her across the room.*
 
@@ -727,7 +774,9 @@
 
 ## SCENE 22 — "SOMEONE PAID ME"
 **INT. CLIENT'S HOME, ABUJA — LIVING ROOM — DAY — YEAR THREE**
-*(~16:42–17:22)*
+*(~17:08–17:48)*
+
+*Year Three. Chloe parks outside a modest bungalow in Gwarinpa and walks up the path carrying a tape measure and a folder. She stands in the living room she has spent six weeks transforming. Footsteps come down the corridor.*
 
 *A beautifully redesigned living room with warm colours, adire cushions and light pouring through big windows. A CLIENT, a former university classmate's sister, walks in and gasps.*
 
@@ -759,7 +808,9 @@
 
 ## SCENE 23 — NOW IT'S MY TURN
 **INT. AI STUDIO, LAGOS — CONFERENCE ROOM / INT. EMMA'S APARTMENT — YEAR THREE, MONTHS LATER**
-*(~17:22–18:43)*
+*(~17:48–19:09)*
+
+*Lagos. A tense afternoon. Grey clouds hang over the studio's glass windows. In the conference room, the MANAGING DIRECTOR sits at the head of a long table and closes his laptop slowly. Emma walks in, sees his face and sits down without being asked.*
 
 *The studio's managing director closes a laptop. Emma sits across from him, pale.*
 
@@ -818,7 +869,9 @@
 
 ## SCENE 24 — SIX NAMES
 **INT. AI STUDIO, LAGOS — CONFERENCE ROOM — FRIDAY**
-*(~18:43–19:48)*
+*(~19:09–20:15)*
+
+*Friday morning. Emma marches down the studio corridor, past her team's desks, holding a printed spreadsheet. Her people look up nervously as she passes. She knocks once on the managing director's glass door and walks in without waiting.*
 
 *Emma stands in front of the managing director with a printed spreadsheet, determined.*
 
@@ -846,7 +899,9 @@
 
 ## SCENE 25 — "WHO GAVE YOU PERMISSION?"
 **INT. ADEYEMI HOUSE — DINING ROOM — EVENING — YEAR FOUR**
-*(~19:48–20:38)*
+*(~20:15–21:04)*
+
+*Year Four. Evening. Rain has just stopped, and the garden lights reflect in puddles on the driveway. Inside, the dining table is covered in design boards, fabric samples and a neatly bound proposal. The front door opens. Kunle walks in, drops his car keys in the crystal bowl and stops at the table.*
 
 *Chloe has finished several small projects. She's more animated with the children and has started going to design workshops. Tonight, her proposal for a client's office is spread across the dining table. Kunle comes home and picks it up.*
 
@@ -890,9 +945,15 @@
 
 ## SCENE 26 — "MY VOICE WAS SHAKING"
 **INT. ADEYEMI HOUSE — BATHROOM / EMMA'S APARTMENT — FRIDAY NIGHT — INTERCUT**
-*(~20:38–21:33)*
+*(~21:04–22:29)*
 
-*Chloe sits on the closed toilet lid with the tap running.*
+*Later that Friday night. The house is silent. Chloe walks quietly down the corridor, steps into the bathroom and locks the door behind her. She sits on the closed toilet lid in the soft light, takes a small blue notebook from her makeup bag and opens it on her knee. In Lagos, Emma is curled on her sofa under a blanket.*
+
+*She writes in tiny, careful handwriting:*
+
+**CHLOE:** *(whispering as she writes)* "Friday. 8:40 p.m. He threw my proposal on the floor. He said, 'Who put this nonsense in your head?' Ada was on the stairs."
+
+*She closes the notebook, slips it back into the makeup bag under the lipsticks, and picks up her phone.*
 
 **CHLOE (TEXT):** I said what I wanted. My voice was shaking.
 
@@ -902,7 +963,11 @@
 
 **EMMA (TEXT):** Perhaps sometimes it means taking a small step even while you're afraid. *(beat)* But please be careful. Your safety and the children's safety come before any argument.
 
-**CHLOE (TEXT):** I've spoken to a counsellor. And Halima knows what's happening.
+**CHLOE (TEXT):** I've spoken to a counsellor. And Halima knows what's happening. *(beat)* And I've started writing everything down. Every shout. Every insult. Dates and times. The counsellor said one day it might speak for me.
+
+**EMMA (TEXT):** That's brave and smart. Keep it somewhere he'd never think to look.
+
+**CHLOE (TEXT):** Under my lipsticks. He has never once looked at my lipsticks.
 
 **EMMA (TEXT):** I'm glad you have people there with you. *(beat)* Promise me something?
 
@@ -918,7 +983,9 @@
 
 ## SCENE 27 — THE CARD
 **INT. SUPERMARKET, ABUJA — CHECKOUT — DAY — WEEKS LATER**
-*(~21:33–22:12)*
+*(~22:29–23:09)*
+
+*Weeks later. A busy supermarket in Wuse on a Saturday morning. Fluorescent lights hum, and a trolley wheel squeaks. Shoppers queue at every till. Chloe pushes a full trolley to the checkout while Ada and Tobi argue over a packet of biscuits.*
 
 *A full trolley. Ada and Tobi stand beside Chloe. The cashier swipes her card. Beep. Declined. She tries again. Declined.*
 
@@ -946,7 +1013,9 @@
 
 ## SCENE 28 — THREE FRIDAYS
 **INT. EMMA'S APARTMENT / AI STUDIO, LAGOS — END OF YEAR FOUR**
-*(~22:12–22:46)*
+*(~23:09–23:42)*
+
+*The end of Year Four. Three Fridays in Lagos. The studio and Emma's apartment both feel emptier than usual. Each Friday at the same time, Emma looks at her phone, and each Friday the screen stays dark.*
 
 *FRIDAY ONE.*
 
@@ -978,7 +1047,9 @@
 
 ## SCENE 29 — WHAT HAPPENED IN ABUJA
 **MONTAGE — ABUJA — THOSE THREE WEEKS — FRAGMENTS**
-*(~22:46–23:48)*
+*(~23:42–24:44)*
+
+*Abuja, during those same three silent weeks. We see only pieces of what happens: a kitchen, a corridor at night, an office, a front door. Each moment is short and tense.*
 
 *FRAGMENT ONE. A dinner table with an unfinished meal. Kunle's chair is pushed back. Chloe sits very still.*
 
@@ -1016,7 +1087,9 @@
 
 ## SCENE 30 — "I'M STILL HERE"
 **INT. EMMA'S APARTMENT, LAGOS — MONDAY, 6:12 AM / INT. HALIMA'S GUEST ROOM, ABUJA — INTERCUT**
-*(~23:48–25:03)*
+*(~24:44–25:59)*
+
+*Monday dawn in Lagos. Emma's apartment is grey with early light. She stands at the bathroom mirror half-dressed for work, toothbrush in her mouth, her phone propped against the sink. In Abuja, in a small, borrowed guest room at Halima's house, Chloe sits on a narrow bed with her children asleep beside her.*
 
 *Emma is getting ready for work, phone in hand, when it lights up.*
 
@@ -1049,7 +1122,9 @@
 
 ## SCENE 31 — THE BORROWED BED
 **INT. HALIMA'S GUEST ROOM, ABUJA — NIGHT**
-*(~25:03–25:42)*
+*(~25:59–26:38)*
+
+*Night at Halima's house. The guest room is small but warm, with a ceiling fan turning slowly and a night light glowing in the corner. Ada and Tobi share one single bed under a borrowed blanket. Chloe sits on the edge, still in her day clothes.*
 
 *Ada (11) and Tobi (8) lie squeezed together on one bed. Chloe sits on the edge, stroking Tobi's hair.*
 
@@ -1081,9 +1156,9 @@
 
 ## SCENE 32 — "I WANT MY CHILDREN"
 **INT. ZAINAB'S CHAMBERS, ABUJA — DAY — YEAR FIVE**
-*(~25:42–26:40)*
+*(~26:38–28:17)*
 
-*ZAINAB, Chloe's solicitor, calm and precise, reviews a thick file.*
+*Year Five. The chambers of a law firm in Maitama, with bookshelves full of law reports and a large wooden desk. ZAINAB, Chloe's solicitor, in a navy suit, walks briskly into her office carrying a thick file and a cup of tea. Chloe is already waiting in the chair across the desk. Zainab sits, opens the file, puts on her reading glasses and looks up.*
 
 **ZAINAB:** I want to be clear with you. This may take time. Kunle could dispute what happened, and we'll need to work carefully through the evidence and the children's arrangements.
 
@@ -1101,13 +1176,25 @@
 
 **ZAINAB:** *(closing the file and leaning forward)* I'm listening to you now.
 
-*Chloe begins to cry.*
+*Chloe begins to cry. Then she wipes her eyes, opens her handbag and places three small blue notebooks on the desk, one after another. Then her phone.*
+
+**CHLOE:** I didn't only tell myself. I wrote it down. *(beat)* Two years of records. Every time he shouted. Every derogatory thing he said: "useless", "confused", "you can't even choose what to cook." The date, the time, his exact words, and who was in the room. *(She taps the phone.)* And forty-one voice recordings. His shouting, from the kitchen, the bedroom, the car.
+
+*Zainab slowly opens the first notebook and turns the pages. Tiny, careful handwriting. Dates. Times. Quotes. Her eyebrows rise.*
+
+**ZAINAB:** *(quietly)* Chloe. Do you know what this is?
+
+**CHLOE:** My diary of the worst years of my life.
+
+**ZAINAB:** *(looking up)* It's evidence. Consistent, dated, written at the time it happened. *(beat)* He told you nobody would believe you. *(She lays her hand on the notebooks.)* These will make them believe you.
 
 ---
 
 ## SCENE 33 — THE CALL FROM KUNLE
 **INT. HALIMA'S HOUSE — BACK GARDEN — EVENING**
-*(~26:40–27:27)*
+*(~28:17–29:04)*
+
+*Evening in Halima's back garden. Mango trees, a small vegetable patch and the call to prayer drifting in from a distant mosque. Halima waters tomato plants with a green watering can. Chloe sits on the back step with a cup of tea going cold beside her. Her phone, face up on the step, starts to ring.*
 
 *Chloe's phone rings: "KUNLE." She looks at it. Halima, watering plants, looks at her.*
 
@@ -1142,9 +1229,11 @@
 
 ## SCENE 34 — "WHAT WILL PEOPLE SAY?"
 **INT. HALIMA'S SITTING ROOM — DAY — DAYS LATER**
-*(~27:27–28:38)*
+*(~29:04–30:15)*
 
-*AUNTY BOLA, Kunle's elder sister, sits stiffly on the sofa in a big gele, her handbag on her knees. Chloe sits opposite her. Halima hovers in the kitchen doorway.*
+*Days later. The doorbell rings at Halima's house. Halima opens the door, and AUNTY BOLA, Kunle's elder sister, sweeps in wearing a huge gold gele and holding her handbag like a weapon. She doesn't wait to be offered a seat. She lowers herself onto the sofa. Chloe comes in from the kitchen, wipes her hands, greets her respectfully and sits opposite.*
+
+*Halima hovers in the kitchen doorway, pretending to dry a plate.*
 
 **AUNTY BOLA:** Chloe, my dear. I've come in peace. *(beat)* Every marriage has its troubles. You think my own husband is a saint? We endure. That's what women do.
 
@@ -1168,7 +1257,9 @@
 
 ## SCENE 35 — THE EDGE OF SOMETHING ENORMOUS
 **INT. HALIMA'S GUEST ROOM / EMMA'S APARTMENT — FRIDAY NIGHT — INTERCUT**
-*(~28:38–29:12)*
+*(~30:15–30:49)*
+
+*Friday night. Halima's guest room. The children are asleep. Chloe sits by the window with her phone, the Abuja night quiet outside. In Lagos, Emma sits up in bed with her laptop open, work forgotten.*
 
 **CHLOE (TEXT):** I've started divorce proceedings.
 
@@ -1190,7 +1281,9 @@
 
 ## SCENE 36 — THE HEARING
 **INT. HIGH COURT, ABUJA — COURTROOM — DAY — YEAR FIVE**
-*(~29:12–30:30)*
+*(~30:49–32:36)*
+
+*Year Five. The High Court in Abuja. Heavy wooden doors swing open into a wood-panelled courtroom with a raised bench and ceiling fans turning slowly. Kunle walks in first in an expensive suit, shaking hands, confident. Chloe follows with Zainab, who carries a box file. Halima takes a seat in the public gallery. Everyone rises as the JUDGE enters and sits.*
 
 *A formal courtroom. Kunle sits with his lawyer, immaculate and calm. Chloe sits with Zainab, composed but visibly nervous. Halima is in the gallery.*
 
@@ -1210,15 +1303,25 @@
 
 **CHLOE:** I don't want to punish my husband. I want a safe and stable life for our children. *(beat)* And I want the freedom to live my own life.
 
-*She sits down. Zainab squeezes her hand under the table.*
+*She sits down. Zainab squeezes her hand under the table, then rises.*
+
+**ZAINAB:** My Lord, the petitioner kept a contemporaneous record of the respondent's conduct. Three notebooks, two hundred and fourteen dated entries, and forty-one audio recordings. Exhibits C to F. *(beat)* With the court's permission, one entry.
+
+**JUDGE:** Proceed.
+
+**ZAINAB:** *(reading)* "Tuesday, 7:15 a.m. He said in front of the children, 'Your mother can't even choose between jollof and fried rice without me. That's how useless she is.' Ada cried in the car."
+
+*Silence in the courtroom. Kunle's lawyer leans over to whisper to him. Kunle stares at the notebooks on the clerk's table and, for the first time, doesn't look confident.*
 
 ---
 
 ## SCENE 37 — "I AM SO TIRED"
 **INT. HALIMA'S GUEST ROOM / EMMA'S CAR, LAGOS — FRIDAY NIGHT — YEAR SIX**
-*(~30:30–31:02)*
+*(~32:36–33:08)*
 
-*Months of hearings. Evidence. Adjournments. Chloe lies on the bed fully dressed, too tired to change.*
+*Months pass. Hearings, adjournments, more hearings. Zainab's file grows thicker: Chloe's three blue notebooks, the voice recordings, Halima's statement and the counsellor's report. Late one Friday night in Halima's guest room, Chloe walks in, drops her handbag on the floor and lies down on the bed without taking off her shoes.*
+
+*Months of hearings. Chloe's notebooks and recordings were read into the record, and Kunle's lawyer fought every page. Adjournments. Chloe lies on the bed fully dressed, too tired to change.*
 
 **CHLOE (TEXT):** I am so tired.
 
@@ -1238,7 +1341,9 @@
 
 ## SCENE 38 — "LET'S GO HOME"
 **INT. COURTROOM → EXT. COURT STEPS, ABUJA — DAY — WEEKS LATER**
-*(~31:02–31:50)*
+*(~33:08–33:56)*
+
+*Weeks later. The same courtroom, packed and silent. Chloe sits beside Zainab with her hands folded tightly in her lap. Kunle sits across the aisle staring straight ahead. The Judge looks up from her papers, adjusts her glasses and begins to read.*
 
 **JUDGE:** Having considered the children's welfare and the evidence before this court, the marriage is dissolved. The children, Ada and Tobi Adeyemi, will primarily live with their mother, with appropriate arrangements made for their father.
 
@@ -1271,7 +1376,9 @@
 
 ## SCENE 39 — THE HANDOVER
 **EXT. HALIMA'S GATE, ABUJA — SATURDAY MORNING — WEEKS LATER**
-*(~31:50–32:35)*
+*(~33:56–34:41)*
+
+*A bright Saturday morning, weeks later. Kunle's black SUV pulls up outside Halima's gate and the engine idles. The gate opens. Chloe walks out holding Tobi's hand, with Ada beside her, each child carrying a small weekend bag.*
 
 *Kunle's car waits at the gate for his first weekend with the children. Chloe walks Ada and Tobi out with their small bags. Kunle gets out of the car, smiling and charming.*
 
@@ -1303,7 +1410,9 @@
 
 ## SCENE 40 — A ROOM OF HER OWN
 **INT. CHLOE ADEYEMI INTERIORS, ABUJA — MORNING — YEAR SEVEN**
-*(~32:35–33:24)*
+*(~34:41–35:30)*
+
+*Year Seven. Morning in Wuse. Chloe walks up to a small shop front with a new sign above the door and stops to look at it for a moment. She takes out a key, unlocks the door and steps inside. The office smells of fresh paint.*
 
 *Chloe unlocks the door of a modest office. A small sign reads "CHLOE ADEYEMI INTERIORS." Her first employee, a young man called SEGUN, is setting up a laptop. Fabric samples lie on a table. A framed drawing hangs on the wall: a house with no windows, signed "Ada, age 8." Beside it is Chloe's own sketch of the same house, now with big windows.*
 
@@ -1339,7 +1448,9 @@
 
 ## SCENE 41 — SEVEN YEARS, NO FACE
 **INT. AI STUDIO, LAGOS — EMMA'S OFFICE — DAY — YEAR SEVEN**
-*(~33:24–34:11)*
+*(~35:30–36:17)*
+
+*Year Seven. Lagos. Emma now has her own office with a glass door that reads "HEAD OF DEPARTMENT." She eats jollof from a takeaway pack at her desk. Bisi strolls in without knocking and leans against the door frame with her arms folded.*
 
 *Emma, now running her department, eats lunch at her desk. The screenshot of the first message is still pinned above it. Bisi leans in the doorway.*
 
@@ -1362,7 +1473,9 @@
 
 ## SCENE 42 — MUMMY'S QUESTION
 **INT. HOSPITAL WARD, IBADAN — AFTERNOON — YEAR SEVEN**
-*(~34:11–35:09)*
+*(~36:17–37:15)*
+
+*Ibadan. A bright hospital ward with white sheets and an open window. Emma walks in carrying a bag of oranges and a flask of pepper soup. MAMA EMMA, thin but smiling, sits up against her pillows and opens her arms. Emma pulls a chair close to the bed, sits and begins to peel.*
 
 *Mama Emma, recovering and sitting up in bed, eats oranges that Emma peels for her.*
 
@@ -1388,7 +1501,9 @@
 
 ## SCENE 43 — STILL HERE
 **MONTAGE — LAGOS AND ABUJA — YEAR EIGHT**
-*(~35:09–35:44)*
+*(~37:15–37:50)*
+
+*Year Eight. A sequence of ordinary Fridays in two cities: building sites, boardrooms, sofas and kitchens. The friendship has become part of everyday life.*
 
 *FRIDAY, 8:07 AM. Chloe on a building site in a hard hat.*
 
@@ -1418,9 +1533,9 @@
 
 ## SCENE 44 — "COFFEE?"
 **INT. BUILDING SITE OFFICE, ABUJA — AFTERNOON — YEAR NINE**
-*(~35:44–36:33)*
+*(~37:50–38:39)*
 
-*Blueprints cover the table. TUNDE BALOGUN, an architect with kind eyes, finishes a project meeting with Chloe.*
+*Year Nine. A dusty building site in Abuja with concrete pillars and the sound of drills. In a site office made from a shipping container, a fan rattles on a filing cabinet and blueprints cover a long table. TUNDE BALOGUN, an architect in a rolled-up shirt with a pencil behind his ear, finishes going through the drawings with Chloe.*
 
 **TUNDE:** So that's the ceiling heights agreed. *(beat)* Would you like to get coffee?
 
@@ -1452,7 +1567,9 @@
 
 ## SCENE 45 — "EXCUSE ME???"
 **INT. CHLOE'S HOUSE / EMMA'S OFFICE — FRIDAY NIGHT — INTERCUT**
-*(~36:33–37:30)*
+*(~38:39–39:36)*
+
+*Friday night. Chloe sits on her own sofa in her own home, wrapped in a throw, phone in hand, smiling. In Lagos, Emma is still at her office desk, the building empty around her.*
 
 **CHLOE (TEXT):** There's someone.
 
@@ -1490,7 +1607,9 @@
 
 ## SCENE 46 — THE BOY WHO LIKES BOTH
 **INT. CHLOE'S HOUSE, ABUJA — DINING ROOM — EVENING — MONTHS LATER**
-*(~37:30–38:07)*
+*(~39:36–40:13)*
+
+*Months later. Evening. Chloe's dining room is warm and bright. Two pots sit in the middle of the table, one of jollof and one of fried rice. The doorbell rings. Tobi runs to open it. Tunde stands on the doorstep holding a bottle of malt and a bunch of flowers, nervous. Chloe calls everyone to sit.*
 
 *Tunde's first dinner with the children. Ada (16) watches him carefully. Tobi (13) is chatty. Chloe serves two pots.*
 
@@ -1519,7 +1638,9 @@
 
 ## SCENE 47 — "NOT YET"
 **EXT. JABI LAKE, ABUJA — EVENING — YEAR NINE**
-*(~38:07–38:52)*
+*(~40:13–40:58)*
+
+*Sunset at Jabi Lake. The water glows orange and pink, and a roasted-corn seller fans her coals by the path. Couples and families stroll along the edge. Chloe and Tunde walk side by side, eating corn wrapped in paper.*
 
 *Chloe and Tunde walk along the lake at sunset, eating roasted corn.*
 
@@ -1547,7 +1668,9 @@
 
 ## SCENE 48 — THE WINDOW
 **INT. CHLOE'S NEW HOUSE, ABUJA — UNFINISHED ROOM — EVENING — YEAR TEN**
-*(~38:52–39:39)*
+*(~40:58–41:45)*
+
+*Year Ten. Evening. The sound of crickets. Tunde leads Chloe down a corridor of her house, his hands gently over her eyes, guiding her past ladders and paint tins into a half-built room that smells of sawdust.*
 
 *A half-built extension Tunde has been designing for the house. An empty frame waits for a huge window. Tunde leads Chloe in with his hands over her eyes.*
 
@@ -1575,7 +1698,9 @@
 
 ## SCENE 49 — "HE ASKED"
 **INT. CHLOE'S HOUSE / EMMA'S OFFICE — FRIDAY, 2:19 PM — YEAR TEN**
-*(~39:39–40:04)*
+*(~41:45–42:10)*
+
+*Year Ten. Friday, 2:19 PM. Chloe's kitchen is bright and full of plants. Ada (17) and Tobi (14) do homework at the island. Chloe sits at the counter, turns her hand in the sunlight to catch the sparkle, and lifts her phone.*
 
 *Chloe (43) sits in her bright kitchen. Ada is 17 and Tobi 14, both doing homework. Chloe's business is thriving. She photographs her own hand and sends it: an engagement ring.*
 
@@ -1597,7 +1722,9 @@
 
 ## SCENE 50 — "PLEASE COME"
 **INT. CHLOE'S HOUSE / EMMA'S OFFICE — CONTINUOUS**
-*(~40:04–40:36)*
+*(~42:10–42:42)*
+
+*Moments later. In Lagos, Emma has shut her office door and sits with the phone in both hands. In Abuja, Chloe stands at the kitchen window, nervous, her thumb hovering over the screen.*
 
 **CHLOE (TEXT):** Emma, I need to ask you something.
 
@@ -1627,7 +1754,9 @@
 
 ## SCENE 51 — WHAT IF?
 **INT. EMMA'S APARTMENT, LAGOS — NIGHT BEFORE THE WEDDING**
-*(~40:36–41:24)*
+*(~42:42–43:30)*
+
+*The night before the wedding. Emma's bedroom in Lagos. An open suitcase lies on the bed, half-packed. An emerald-green outfit hangs on the wardrobe door, still in its plastic cover. Emma sits on the bed, then stands, then sits again, and finally calls Bisi.*
 
 *An open suitcase. An emerald-green outfit hangs on the wardrobe door. Emma sits on the bed on the phone with Bisi.*
 
@@ -1647,7 +1776,9 @@
 
 ## SCENE 52 — ARRIVALS
 **INT. NNAMDI AZIKIWE AIRPORT, ABUJA — ARRIVALS HALL — WEDDING DAY, MORNING**
-*(~41:24–41:54)*
+*(~43:30–44:00)*
+
+*Wedding day morning. Nnamdi Azikiwe Airport, Abuja. The sliding doors of the arrivals hall open. Travellers stream out into the heat, and taxi drivers call out. Emma walks out pulling a small suitcase, a garment bag over her arm, and stops to take a breath.*
 
 *Emma walks out of arrivals with a small suitcase and her emerald outfit in a garment bag. A TAXI DRIVER waves her over.*
 
@@ -1671,7 +1802,9 @@
 
 ## SCENE 53 — THE BRIDE'S ROOM
 **INT. HOTEL SUITE, ABUJA — WEDDING DAY — AFTERNOON**
-*(~41:54–42:46)*
+*(~44:00–44:52)*
+
+*Wedding day afternoon. A hotel suite in Abuja filled with flowers, steam from an iron, and laughter from the next room. Makeup brushes and hairpins cover the dressing table. Chloe sits in front of a large mirror in her ivory dress while a makeup artist works. Halima stands behind her with the veil, and Ada watches from the window seat.*
 
 *Chloe sits in front of a mirror in her ivory dress while the makeup artist finishes. Halima pins her veil. Ada (17), in a gold dress, holds the bouquet.*
 
@@ -1699,7 +1832,9 @@
 
 ## SCENE 54 — THE STRANGER WHO ANSWERED
 **EXT. GARDEN WEDDING RECEPTION, ABUJA — EVENING**
-*(~42:46–45:28)*
+*(~44:52–47:34)*
+
+*Evening. A beautiful garden reception. Fairy lights hang between the trees, and round tables have white cloths and white flowers. A live band plays highlife softly. Three hundred guests in lace and agbada laugh and eat. The MC taps the microphone, and the music fades as the bride stands up.*
 
 *A beautiful outdoor reception with warm evening lights, white flowers, music, and family laughing and talking. Chloe is radiant in an elegant ivory dress. Tunde sits beside her, smiling. Ada and Tobi sit nearby. Halima and Zainab are at the front table. The MC hands Chloe the microphone.*
 
@@ -1743,7 +1878,9 @@
 
 ## SCENE 55 — "STILL HERE"
 **EXT. WEDDING RECEPTION — CONTINUOUS**
-*(~45:28–45:58)*
+*(~47:34–48:04)*
+
+*The silence stretches. Every guest is looking around. Chloe stands at the microphone, her smile slowly fading.*
 
 *Chloe's phone lies beside her bouquet. It lights up with a new message.*
 
@@ -1785,7 +1922,9 @@
 
 ## SCENE 56 — AUNTY FRIDAY
 **EXT. WEDDING RECEPTION — CONTINUOUS**
-*(~45:58–47:12)*
+*(~48:04–49:18)*
+
+*Applause fills the garden. The two women hold each other in the middle of the aisle while guests wipe their eyes. Then small footsteps come running across the grass.*
 
 *Ada comes forward and wraps her arms around Emma.*
 
@@ -1825,7 +1964,9 @@
 
 ## SCENE 57 — THE FIRST DANCE
 **EXT. WEDDING RECEPTION — DANCE FLOOR — LATER THAT NIGHT**
-*(~47:12–47:39)*
+*(~49:18–49:45)*
+
+*Later that night. The band plays upbeat highlife and the dance floor is packed. Aunties are dancing, children are spinning, and Tunde is attempting a terrible shoki. At the edge of the floor, by the food table, two women stand side by side with full plates.*
 
 *Music. Everyone dances. Emma and Chloe stand at the edge of the dance floor with plates of food, laughing.*
 
@@ -1849,7 +1990,9 @@
 
 ## SCENE 58 — JOLLOF WITH TURKEY
 **INT. CHLOE AND TUNDE'S KITCHEN, ABUJA — FRIDAY, 2:19 PM — ONE WEEK AFTER THE WEDDING**
-*(~47:39 — END)*
+*(~49:45 — END)*
+
+*One week after the wedding. Friday afternoon. Sunlight floods a bright kitchen with a huge window and plants on every sill, a room Chloe designed herself. Soft music plays. The back door is open, and laughter drifts in from the garden.*
 
 *Chloe stands in the kitchen of the home she shares with Tunde and the children. Sunlight fills the room. Music plays softly. Everything is warm, relaxed and lived-in. Tunde walks in.*
 
