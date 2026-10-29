@@ -6,12 +6,12 @@ Analysis date: October 30, 2026
 
 | Thumbnail | Title (known or likely) | Channel | Performance evidence |
 |---|---|---|---|
-| **NO JOBS** | "What Did Ancient Humans Actually Do All Day?" | Ink Explainer | **1.6M views in about 2 months** (from your screenshot of the channel page). The channel's other videos have 19K–277K, so this one is roughly **6–80× the rest of the channel**. A clear outlier. |
-| **RAINED ALL WEEK** | Probably "What Did Ancient Humans Do When It Rained All Week?" (third-party transcript sites list this title) | Probably Ink Explainer (same art style) | View count not found. |
-| **Why Us?** | Unknown; probably "Why Did Only Homo Sapiens Survive?" or similar | Unknown (same art style) | Not found. |
-| **COZY INSIDE?** | Unknown; probably about surviving winter or mammoth-bone shelters | Unknown (same art style) | Not found. |
+| **NO JOBS** | "What Did Ancient Humans Actually Do All Day?" | Ink Explainer | **16M views in about 2 months** (from your screenshots). The channel's other known videos have 19K–1.9M, so this one is roughly **8× its next-best video**. An extreme outlier. |
+| **RAINED ALL WEEK** | "What Did Ancient Humans Do When It Rained All Week?" | Probably Ink Explainer (same art style) | **1.9M views, 3 months** (your screenshot). |
+| **Why Us?** | "Why Are We the Only Human Species Left? What happened to ot[hers]…" | Probably Ink Explainer (same art style) | **1.6M views, 4 months** (your screenshot). |
+| **COZY INSIDE?** | "The Disturbing Ways Ancient Humans Survived Winter" | Probably Ink Explainer (same art style) | **1.3M views, 3 months** (your screenshot). |
 
-You said these get millions of views, but I could only confirm that for NO JOBS. **I have no CTR, impressions or retention data for any of them.** Everything below about why they work is expert judgment from the image itself, not measured fact. A high view count also doesn't prove the thumbnail caused it: the topic, the title, the channel's momentum and the script's retention all contribute.
+Your title screenshot confirms all four have 1.3M–16M views. **I have no CTR, impressions or retention data for any of them.** Everything below about why they work is expert judgment from the image itself, not measured fact. A high view count also doesn't prove the thumbnail caused it: the topic, the title, the channel's momentum and the script's retention all contribute.
 
 ---
 
@@ -228,7 +228,7 @@ EXCLUDE: no text, no letters, no logos, no blood, no visible wounds, no skulls, 
 | Audience relevance | 10 | 8 | "Jobs" applies to everyone. Sickness and abandonment apply widely, slightly less universally. |
 | Originality | 8 | 8 | B uses the genre's logic but its own story, text style and colours. |
 | Accuracy of promise | 8 | 9 | B's payoff is backed by real evidence of care for the injured. |
-| Click potential | 9 | 8 | NO JOBS is proven at 1.6M; B is untested. |
+| Click potential | 9 | 8 | NO JOBS is proven at 16M; B is untested. |
 
 ### The three most important improvements
 1. **Face size.** On every thumbnail, the main face should be at least 40% of the frame height. This is the biggest difference between your current thumbnails and theirs.

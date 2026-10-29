@@ -19,7 +19,7 @@ INPUTS
 - Target word count: [2,000 for DAY / 1,900 for WHY / 2,200 for LADDER] (stay within ±5%)
 
 TOPIC CHECK (do this before writing)
-- If the topic is essentially the same as the related big video, or a video the big ancient-human channels already made (all day, all night, sleep, pleasure, predators, why Africa, why progress exploded 10,000 years ago), stop and reply with 3 "next question" topics instead. These are angles a viewer of that video would want next. Do not write the script until a topic is chosen.
+- If the topic is essentially the same as the related big video, or a video the big ancient-human channels already made (all day, all night, sleep, pleasure, predators, rain, winter, alcohol, why we are the only human species left, why Africa, why progress exploded 10,000 years ago), stop and reply with 3 "next question" topics instead. These are angles a viewer of that video would want next. Do not write the script until a topic is chosen.
 - If a related video is given, the script must answer a DIFFERENT question from it, and must not repeat its main findings as its main proof.
 
 THE CHANNEL'S VOICE
@@ -132,5 +132,5 @@ Next 8 uploads, in order (see `MONETIZATION-STRATEGY.md`, section 4):
 
 More:
 - **DAY:** What Did Ancient Children Do All Day? / How Did Ancient Humans Fix Broken Bones? / What Did Ancient Humans Fear the Most?
-- **WHY:** Why Did Ancient Humans Start Burying Their Dead? / Why Did Ancient Humans Start Drinking Alcohol? / Why Did Ancient Humans Invent Money?
+- **WHY:** Why Did Ancient Humans Start Burying Their Dead? / Why Did Ancient Humans Invent Money? *(alcohol is already covered: 931K views on a big channel)*
 - **LADDER:** How Ancient Mesopotamia Treated You at Every Level of Debt / Life at Every Level of a Hunter-Gatherer Band

@@ -21,7 +21,7 @@ The thresholds below come from creator-industry reporting. I couldn't open YouTu
 
 Reports say an application that reaches YouTube **by Jan 31** is judged against the old 4,000-hour bar.
 
-**What it takes:** 4,000 hours is about **50,000 views** on 12-minute videos when viewers watch 40%. You're at 63 views a month, so a steady climb won't get there in 13 weeks. It needs **one breakout video**. That's how channels in this niche actually grow: Ink Explainer's videos get 19K–1.6M views each.
+**What it takes:** 4,000 hours is about **50,000 views** on 12-minute videos when viewers watch 40%. You're at 63 views a month, so a steady climb won't get there in 13 weeks. It needs **one breakout video**. That's how channels in this niche actually grow: Ink Explainer's videos get 19K to 16M views each.
 
 The good news is that one video does most of the work:
 
@@ -90,7 +90,7 @@ Pick the topics that sit **next to** the big channels' biggest videos, not on to
 
 | Their hit | Your next-question topic |
 |---|---|
-| …Actually Do All Day? (1.6M) | What Did Ancient Humans Do With Old People? / What Did Ancient Children Do All Day? |
+| …Actually Do All Day? (16M) | What Did Ancient Humans Do With Old People? / What Did Ancient Children Do All Day? |
 | …Do For Pleasure? (277K) | How Did Ancient Humans Fall in Love? / What Did Ancient Humans Do for Fun? *(keep it advertiser-friendly)* |
 | …Survive the Deadliest Predators (155K) | What Did Ancient Humans Fear the Most? / What Did Ancient Humans Do When Food Ran Out? |
 | …All Night? (100K) | *(don't make a sleep video; it's covered)* What Did Ancient Humans Dream About? |
