@@ -92,7 +92,7 @@ Pick the topics that sit **next to** the big channels' biggest videos, not on to
 |---|---|
 | …Actually Do All Day? (1.6M) | What Did Ancient Humans Do With Old People? / What Did Ancient Children Do All Day? |
 | …Do For Pleasure? (277K) | How Did Ancient Humans Fall in Love? / What Did Ancient Humans Do for Fun? *(keep it advertiser-friendly)* |
-| …Survive the Deadliest Predators (155K) | What Did Ancient Humans Fear the Most? / How Did Ancient Humans Survive Winter? |
+| …Survive the Deadliest Predators (155K) | What Did Ancient Humans Fear the Most? / What Did Ancient Humans Do When Food Ran Out? |
 | …All Night? (100K) | *(don't make a sleep video; it's covered)* What Did Ancient Humans Dream About? |
 | Your own best (birth, 65 views) | What Did Ancient Humans Do When Someone Got Sick? / How Did Ancient Humans Fix Broken Bones? |
 
@@ -102,7 +102,7 @@ Topic order for the next 8 uploads:
 1. What Did Ancient Humans Do When Someone Got Sick? *(follows your best video)*
 2. Life at Every Level of Wealth in Ancient Rome *(LADDER test)*
 3. What Did Ancient Humans Do With Old People?
-4. How Did Ancient Humans Survive Winter?
+4. What Did Ancient Humans Do When Food Ran Out? *(winter is already covered by a big channel)*
 5. Life at Every Level of Status in Ancient Egypt *(LADDER test 2)*
 6. How Did Ancient Humans Fall in Love?
 7. Why Did Ancient Humans Paint Inside Dark Caves? *(WHY test)*

@@ -124,7 +124,7 @@ Next 8 uploads, in order (see `MONETIZATION-STRATEGY.md`, section 4):
 1. What Did Ancient Humans Do When Someone Got Sick? *(DAY, follows your best video)*
 2. Life at Every Level of Wealth in Ancient Rome *(LADDER test)*
 3. What Did Ancient Humans Do With Old People? *(DAY)*
-4. How Did Ancient Humans Survive Winter? *(DAY)*
+4. What Did Ancient Humans Do When Food Ran Out? *(DAY; winter is already covered by a big channel)*
 5. Life at Every Level of Status in Ancient Egypt *(LADDER test 2)*
 6. How Did Ancient Humans Fall in Love? *(DAY)*
 7. Why Did Ancient Humans Paint Inside Dark Caves? *(WHY test)*
