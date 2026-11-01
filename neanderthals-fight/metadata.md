@@ -7,7 +7,7 @@ Most documentaries say early humans arrived with better weapons and wiped them o
 
 In this video:
 • Shanidar 3's speared rib, and the crossbow test that pointed at us
-• How many Neanderthal skeletons prove we killed them? Take a guess
+• How many skeletons prove we killed them? Take a guess
 • A healed slash on a skull from Saint-Césaire, France
 • The 2024 DNA studies from Ranis, Germany, that changed the story
 • 2,600 to 5,400 years side by side, and why they vanished
@@ -24,15 +24,16 @@ Chapters
 00:00 What really made them vanish?
 
 Sources & further reading
-• Shanidar 3 rib wound (Shanidar Cave, Iraq): Steven Churchill, Duke University. [CHECK]
-• Neanderthal violence (Saint-Césaire, France): Chris Stringer. [CHECK]
-• Earliest modern human DNA (Ranis, Germany; Czech Republic): Nature and Science, (2024). [CHECK]
-• Neanderthal disappearance dates: Tom Higham et al., (2014). [CHECK]
-• Neanderthal population models: Krist Vaesen et al., (2019). [CHECK]
+• Shanidar 3 rib wound (Shanidar Cave, Iraq): Churchill et al., (2009). Shanidar 3 Neandertal rib puncture wound and paleolithic weaponry. Journal of Human Evolution.
+• Saint-Césaire skull (France): Zollikofer et al., (2002). Evidence for interpersonal violence in the St. Césaire Neanderthal. PNAS.
+• Neanderthal interbreeding (Ranis, Germany; Czech Republic): Sümer et al., (2024), Nature, and Iasi et al., (2024), Science.
+• Neanderthal disappearance: Higham et al., (2014). The timing and spatiotemporal patterning of Neanderthal disappearance. Nature.
+• Neanderthal extinction models: Vaesen et al., (2019). Inbreeding, Allee effects and stochasticity might be sufficient to account for Neanderthal extinction. PLOS ONE.
+• Thin evidence for violence between species: Chris Stringer, interviewed in Live Science.
 
 Illustrations are artistic reconstructions based on archaeological evidence.
 
-If strangers had moved into your valley 45,000 years ago, would you have shared your fire or kept your distance?
+Strangers move into your valley 45,000 years ago. Do you share your fire or keep your distance?
 
 New videos about how ancient humans really lived, every [UPLOAD DAYS]. Subscribe to Paper Origins: uncovering the blueprint.
 
