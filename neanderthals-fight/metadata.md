@@ -6,30 +6,27 @@ When ancient humans met the Neanderthals, was it war? We follow a speared rib in
 Most documentaries say early humans arrived with better weapons and wiped them out. But the bones, the dates and the genes tell a slower, stranger story.
 
 In this video:
-• Shanidar 3's speared rib, and the crossbow test that pointed at us
-• How many skeletons prove we killed them? Take a guess
-• A healed slash on a skull from Saint-Césaire, France
-• The 2024 DNA studies from Ranis, Germany, that changed the story
-• 2,600 to 5,400 years side by side, and why they vanished
-• Why the caveman who lost may be sitting in your DNA today
+• Shanidar 3's speared rib and the crossbow test
+• How many skeletons prove we killed them?
+• A healed slash on a skull in France
+• The DNA and dates that changed the story
+• Why the caveman who lost may be in your DNA
 
 Chapters
 00:00 Who speared the man in the cave?
 00:00 Did we really wipe them out?
-00:00 What made this rib wound?
 00:00 How many did we actually kill?
 00:00 Who slashed the Saint-Césaire skull?
 00:00 Why are they in your DNA?
-00:00 How long did we live together?
 00:00 What really made them vanish?
 
 Sources & further reading
-• Shanidar 3 rib wound (Shanidar Cave, Iraq): Churchill et al., (2009). Shanidar 3 Neandertal rib puncture wound and paleolithic weaponry. Journal of Human Evolution.
-• Saint-Césaire skull (France): Zollikofer et al., (2002). Evidence for interpersonal violence in the St. Césaire Neanderthal. PNAS.
+• Shanidar 3 rib wound (Shanidar Cave, Iraq): Churchill et al., (2009). Shanidar 3 Neandertal rib puncture wound and paleolithic weaponry.
+• Saint-Césaire skull (France): Zollikofer et al., (2002). Evidence for interpersonal violence in the St. Césaire Neanderthal.
 • Neanderthal interbreeding (Ranis, Germany; Czech Republic): Sümer et al., (2024), Nature, and Iasi et al., (2024), Science.
-• Neanderthal disappearance: Higham et al., (2014). The timing and spatiotemporal patterning of Neanderthal disappearance. Nature.
-• Neanderthal extinction models: Vaesen et al., (2019). Inbreeding, Allee effects and stochasticity might be sufficient to account for Neanderthal extinction. PLOS ONE.
-• Thin evidence for violence between species: Chris Stringer, interviewed in Live Science.
+• Neanderthal disappearance: Higham et al., (2014). The timing and spatiotemporal patterning of Neanderthal disappearance.
+• Neanderthal extinction models: Vaesen et al., (2019). Inbreeding, Allee effects and stochasticity might be sufficient to account for Neanderthal extinction.
+• Violence between species: Chris Stringer, in Live Science.
 
 Illustrations are artistic reconstructions based on archaeological evidence.
 
