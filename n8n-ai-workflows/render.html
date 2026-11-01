@@ -1,0 +1,44 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0}
+body{width:1600px;height:900px;background:#2b2b33;font-family:Inter,Segoe UI,Helvetica,Arial,sans-serif;overflow:hidden;position:relative;
+ background-image:radial-gradient(#45454f 1.2px,transparent 1.2px);background-size:22px 22px}
+.top{position:absolute;top:0;left:0;right:0;height:56px;background:#1f1f25;border-bottom:1px solid #3a3a44;display:flex;align-items:center;padding:0 24px;color:#e8e8ee;font-size:17px;font-weight:600;gap:14px}
+.top .tag{font-size:12px;font-weight:500;background:#3a3a44;padding:4px 10px;border-radius:12px;color:#c9c9d4}
+.top .act{margin-left:auto;display:flex;gap:10px;align-items:center;font-size:13px;color:#aaa}
+.toggle{width:38px;height:20px;background:#4caf7a;border-radius:10px;position:relative}.toggle:after{content:"";position:absolute;right:2px;top:2px;width:16px;height:16px;background:#fff;border-radius:50%}
+.btn{background:#ff6d5a;color:#fff;padding:8px 16px;border-radius:6px;font-weight:600}
+svg{position:absolute;inset:0}
+.node{position:absolute;width:100px;height:100px;background:#3c3c46;border:2px solid #5a5a66;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:42px;box-shadow:0 4px 14px rgba(0,0,0,.35)}
+.node.trig{border-radius:50px 14px 14px 50px}
+.node.ai{width:220px;border-color:#8b7bff;background:#3a3650}
+.node .ok{position:absolute;bottom:-9px;right:-9px;width:22px;height:22px;border-radius:50%;background:#4caf7a;color:#fff;font-size:13px;display:flex;align-items:center;justify-content:center;font-weight:700}
+.lbl{position:absolute;width:180px;text-align:center;color:#e8e8ee;font-size:14px;font-weight:600;line-height:1.25}
+.lbl small{display:block;color:#9a9aa8;font-weight:400;font-size:12px;margin-top:3px}
+.sub{position:absolute;width:64px;height:64px;border-radius:50%;background:#3c3c46;border:2px solid #5a5a66;display:flex;align-items:center;justify-content:center;font-size:28px}
+.sublbl{position:absolute;width:100px;text-align:center;color:#c9c9d4;font-size:12px}
+.port{position:absolute;color:#e8e8ee;font-size:12px;background:#4a4a56;padding:2px 8px;border-radius:10px;min-width:48px;text-align:center}
+.items{position:absolute;color:#9a9aa8;font-size:12px;background:#2b2b33;padding:0 4px}
+.note{position:absolute;background:#fff5c2;color:#333;border-radius:8px;padding:14px 16px;font-size:14px;line-height:1.45;width:300px;box-shadow:0 4px 14px rgba(0,0,0,.3)}
+.note b{display:block;margin-bottom:4px;font-size:15px}
+.foot{position:absolute;bottom:18px;left:24px;color:#8a8a98;font-size:13px}
+</style></head><body><script>
+const W=JSON.parse(decodeURIComponent(location.hash.slice(1)));
+document.body.insertAdjacentHTML('beforeend',`<div class="top">${W.title}<span class="tag">${W.tag}</span><div class="act">Active <div class="toggle"></div><span class="btn">Test workflow</span></div></div>`);
+const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('width',1600);svg.setAttribute('height',900);document.body.appendChild(svg);
+const N={};
+W.nodes.forEach(n=>{const w=n.ai?220:100;N[n.id]={...n,w};
+ document.body.insertAdjacentHTML('beforeend',`<div class="node ${n.trig?'trig':''} ${n.ai?'ai':''}" style="left:${n.x}px;top:${n.y}px">${n.icon}${n.ai?'<span style="font-size:15px;color:#e8e8ee;margin-left:10px;font-weight:600">AI Agent</span>':''}<span class="ok">✓</span></div>
+ <div class="lbl" style="left:${n.x+w/2-90}px;top:${n.y+112}px">${n.name}<small>${n.desc||''}</small></div>`);
+ (n.subs||[]).forEach((s,i)=>{const sx=n.x+i*100-((n.subs.length-1)*100-w)/2-32, sy=n.y+190;
+  const p=document.createElementNS(svg.namespaceURI,'path');p.setAttribute('d',`M${sx+32} ${sy} L${sx+32} ${n.y+150}`);p.setAttribute('stroke','#8b7bff');p.setAttribute('stroke-width','2');p.setAttribute('stroke-dasharray','5 4');svg.appendChild(p);
+  document.body.insertAdjacentHTML('beforeend',`<div class="sub" style="left:${sx}px;top:${sy}px">${s[0]}</div><div class="sublbl" style="left:${sx-18}px;top:${sy+70}px">${s[1]}</div>`)});
+});
+W.edges.forEach(([a,b,lab,items])=>{const A=N[a],B=N[b];const x1=A.x+A.w,y1=A.y+50,x2=B.x,y2=B.y+50,dx=Math.max(50,(x2-x1)/2);
+ const p=document.createElementNS(svg.namespaceURI,'path');p.setAttribute('d',`M${x1} ${y1} C${x1+dx} ${y1} ${x2-dx} ${y2} ${x2} ${y2}`);p.setAttribute('stroke','#8c8c99');p.setAttribute('stroke-width','2.5');p.setAttribute('fill','none');svg.appendChild(p);
+ const c=document.createElementNS(svg.namespaceURI,'polygon');c.setAttribute('points',`${x2-9},${y2-6} ${x2},${y2} ${x2-9},${y2+6}`);c.setAttribute('fill','#8c8c99');svg.appendChild(c);
+ if(lab)document.body.insertAdjacentHTML('beforeend',`<div class="port" style="left:${(x1+x2)/2-24}px;top:${(y1+y2)/2-10}px">${lab}</div>`);
+ if(items)document.body.insertAdjacentHTML('beforeend',`<div class="items" style="left:${(x1+x2)/2-22}px;top:${(y1+y2)/2-9}px">${items}</div>`);
+});
+if(W.note)document.body.insertAdjacentHTML('beforeend',`<div class="note" style="left:${W.note.x}px;top:${W.note.y}px"><b>${W.note.t}</b>${W.note.b}</div>`);
+document.body.insertAdjacentHTML('beforeend',`<div class="foot">Last execution: succeeded in ${W.time} · Illustrative mockup</div>`);
+</script></body></html>
