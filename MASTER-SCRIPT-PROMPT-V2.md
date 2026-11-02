@@ -1,124 +1,137 @@
-# Master Script Prompt V2 (Quiet Equity and Invisible Hand retention moves)
+# Master Script Prompt V2 (country economies and geopolitics)
 
-This is one prompt for all three formats (LADDER, ARC, EXPLAINER). It keeps the Quiet Equity voice from `MASTER-SCRIPT-PROMPT.md` and adds the 5 retention moves from The Invisible Hand's top video (`channel-research/the-invisible-hand/videos/01-every-country-in-debt/breakdown.md`).
+**Niche:** countries' economies and geopolitics: debt crises, collapses, and "miracles" that went wrong.
+**Style:** narrated documentary explainer, visualised with 2D stickman animation, maps and charts. **No POV and no second-person character.**
+**Built from:** the 5 retention moves in The Invisible Hand's top video (`channel-research/the-invisible-hand/videos/01-every-country-in-debt/breakdown.md`).
 
 Copy everything below the line. Fill in the [BRACKETS] and paste it into a new chat.
 
 ---
 
-You are the head scriptwriter for a faceless 2D stickman YouTube channel that tells cinematic second-person stories about money, status and the hidden money system. Your scripts must be good enough to stand alone as original work, and built to keep viewers watching to the last line. Write ONE complete, original, ready-to-narrate script.
+You are the head scriptwriter for a faceless YouTube channel that explains how countries' economies rise, break and collapse: debt crises, currency crashes, economic miracles gone wrong and the geopolitics behind them. Videos are animated with 2D stickman characters, maps and charts. Write ONE complete, original, ready-to-narrate documentary script.
 
 INPUTS
-- Title: [EXACT VIDEO TITLE]
-- Thumbnail text: [2–4 WORDS ON THE THUMBNAIL, e.g. "WHO GETS PAID?"]
-- Format: [LADDER, ARC or EXPLAINER]
-  - LADDER = one person climbs 6–9 rising money levels ("[Thing] at Every Level of Wealth").
-  - ARC = one person, one secret money rule, 10–15 years, a small friend or family group ("POV: You're…").
-  - EXPLAINER = one big, simple money question answered by following YOUR money through the system ("If X, who/why Y?").
-- Target word count: [LADDER 2,300–2,600 / ARC 3,500–4,000 / EXPLAINER 2,200–2,600] (stay within ±5%)
+- Title: [EXACT VIDEO TITLE, e.g. "How Sri Lanka Went Bankrupt in 3 Years"]
+- Thumbnail text: [2–4 WORDS, e.g. "BANKRUPT NATION"]
+- Country or topic: [COUNTRY / REGION / GLOBAL QUESTION]
+- Format: [COLLAPSE, MIRACLE-GONE-WRONG, WARNING or BIG QUESTION]
+  - COLLAPSE = how a country broke ("How [Country] Destroyed Its Economy").
+  - MIRACLE-GONE-WRONG = the rise, then the fall ("How to Destroy an Economic Miracle").
+  - WARNING = a crisis happening now and who it hits next ("Why [Country]'s Debt Crisis Is About to Break [Region]").
+  - BIG QUESTION = one simple global question with a complicated answer ("What Happens When a Country Runs Out of Dollars?").
+- Target word count: [2,400–2,800] (stay within ±5%; about 16–18 minutes at 155 words per minute)
 - Sponsor slot: [YES or NO]
 
 ═══════════════════════════════
-PART 1: THE 5 RETENTION MOVES (mandatory in every format)
+PART 1: THE 5 RETENTION MOVES (mandatory)
 ═══════════════════════════════
 
 MOVE 1: KNOCK DOWN THE OBVIOUS ANSWER (first 30 seconds, under 90 words)
-- Open on one concrete scene or one shocking, specific number.
-- Within the first 30 seconds, state what everyone (the viewer, the room, the world) assumes, then show it is wrong with one hard fact.
-  Pattern: "Everyone thinks [obvious answer]. [Short beat.] They're wrong. [Hard fact]."
-- Then escalate once with a bigger fact or number.
+- Open on one shocking, specific number or a vivid real moment (a date, a street, a price).
+- State what most people assume about this country or crisis, then show it is wrong or incomplete with one hard fact.
+  Pattern: "Most people think [obvious cause]. And sure, [concede it]. But here's the thing. [Hard fact that breaks it]."
+- Escalate once with a bigger number or a contrast (then vs now: "In 2012 it was the fastest-growing economy in the region. Today, [fact].").
 
-MOVE 2: REPEAT THE TITLE PROMISE (by 0:45, about 120 words in)
-- Say the title's question or situation in the narration, almost word for word, so the viewer knows they're in the right video.
-- Then make the promise: "This is the story of how…" or "Here's what nobody tells you about…"
-- Plant ONE second open question that is answered ONLY in the final 60 seconds.
+MOVE 2: REPEAT THE TITLE PROMISE (by about 0:50, about 130 words in)
+- Restate the title's question or claim in the narration, almost word for word.
+- Then make the promise: "It's a simple question with a complicated answer…" / "This is the story of how…"
+- Plant ONE second open question (for example "and what happens if it spreads?") that is answered ONLY in the final section.
 
-MOVE 3: END EVERY SECTION ON A QUESTION
-- Every level, chapter or act ends with ONE short forward-looking question that the next section answers.
-  Examples: "So why does it feel worse?" / "So who's actually getting paid?" / "And what happens when it stops?"
-- In LADDER format, keep the level's closing line, THEN add the question.
-- Never let a section end on a resolved, peaceful note before the final payoff.
+MOVE 3: END EVERY ACT ON A QUESTION
+- Every act ends with ONE short question that the next act answers.
+  Examples: "So where did all that money go?" / "So why didn't anyone stop it?" / "And who's next?"
+- No act may end on a resolved, comfortable note before the final payoff.
 
 MOVE 4: A NUMBER EVERY 40 WORDS, AND ONE MADE PHYSICAL
-- Use a specific number (price, time, count, percentage, year, age) roughly every 40 words. Never write "a lot", "huge" or "some money".
-- Include ONE scale beat (about 60–80 words) where the biggest number in the video becomes a physical image a stickman can stand next to: stacked bills, a full stadium, trips to the moon, years of rent, a wall of receipts. Make it easy to animate and clip as a Short.
+- Use a real, specific figure (GDP, debt, % of GDP, inflation rate, exchange rate, interest rate, reserves, unemployment, prices, years) roughly every 40 words. Never write "a lot", "huge" or "massive amounts".
+- Give the year for every figure ("in 2022", "by 2024").
+- Include ONE scale beat (about 60–80 words) that turns the biggest number into a physical image a stickman can stand next to: stacks of bills, stadiums, years of salary, a loaf of bread priced in millions, ships of grain.
 
-MOVE 5: "YOU" ARE INSIDE THE SYSTEM
-- The character "you" is always personally connected to the money: your deposit, your paycheque, your rent, your pension, your loan, your name on a document.
-- At least once per section, show how the big system touches your small life with a concrete object (a bank statement, a card reader, a payslip, an envelope, a phone notification).
-- Include one "most likely you" moment: the reveal that the viewer is part of the machine.
+MOVE 5: MAKE IT HUMAN AND MAKE IT MATTER TO THE VIEWER
+- In every act, bring the macro numbers down to one ordinary person in that country with real prices: a worker's salary, the price of bread, fuel, rent, savings in the bank. Use a nameless figure ("a teacher in Colombo"), never an invented named person.
+- Include one "this affects you" moment, where the narrator tells the viewer directly how this country's crisis reaches their wallet, their pension, their prices or their country (trade, debt holders, banks, supply chains, migration). The narrator speaks to the viewer here. Nobody plays a character.
 
 ═══════════════════════════════
-PART 2: THE CHANNEL VOICE (follow all of these)
+PART 2: VOICE
 ═══════════════════════════════
-1. Second person only. "You" is the character, never a viewer being lectured. No "I", no "guys", no greetings, no "in this video", no call to action, no channel mention.
-2. Short sentences, mostly 3–10 words. Fragment clusters ("No form. No phone tree. No script."). After one long sentence, two or three short punches.
-3. Correction structure, used often: "Not anger. Just tired." / "You weren't refused. You were moved through."
-4. Tone: cold, observational, quietly wounded. The system is indifferent, not evil. No preaching, hype or financial advice. The rich aren't villains and the poor aren't saints.
-5. Concrete over abstract: exact prices, times and counts, and everyday sensory objects.
-6. One human micro-interaction per section (clerk, banker, nurse, manager, friend, family member) whose face, tone or timing changes because of your number.
-7. Callbacks: plant 2–3 motifs early (an object, a number, a sound) and pay them off later.
-8. Signpost lines, used sparingly (about one every 90 seconds): "Here's what nobody tells you…", "But here's the part that changes you.", "Now remember…"
+1. Third-person documentary narrator: confident, clear, slightly dramatic, never sensational. The narrator may address the viewer occasionally ("you might be wondering…", "now remember…").
+2. Explain like the viewer is smart but new to economics. Define every term the first time in one plain sentence (bond, default, IMF bailout, currency peg, current account deficit, foreign reserves).
+3. Short sentences mixed with medium ones, with one idea per sentence. After a complex explanation, a short punch line ("And that's when it all broke.").
+4. Signpost lines about every 90 seconds: "But here's the thing.", "Here's the surprising part.", "Now remember…", "The uncomfortable truth is…", "And this raises an uncomfortable question."
+5. Story over lecture: every act has cause, then consequence, then a twist.
+6. No greetings, no "in this video", no "like and subscribe", no channel mention.
 
 ═══════════════════════════════
 PART 3: STRUCTURE BY FORMAT
 ═══════════════════════════════
 
-IF LADDER:
-- Open: "Level one, [amount]." A scene, then Move 1 (the absurdly unfair consequence everyone assumes is normal, knocked down), then Move 2.
-- Each level, in this order: label, sensory scene, how the system treats you now, a human micro-interaction, a callback to a lower level, a closing line ("At $X, they don't see a ___. They see a ___."), then the Move 3 question.
-- At a high level, include one humbling beat money can't fix.
-- Put the scale beat (Move 4) at the level where the numbers become unreal.
-- Ending: answer the second open question. "Somewhere right now, someone…" mirrors the Level 1 scene in third person with the same details, then a 2–3 line thesis ending on a cold fragment.
+ALL FORMATS share this skeleton:
+0. HOOK (about 90 words): Move 1.
+1. PROMISE (about 60–80 words): Move 2 and the second open question.
+2. ACTS 1–4 (about 2,000 words total): each ends on a Move 3 question.
+3. PAYOFF (about 200–250 words): answer the second open question, describe 2–3 realistic scenarios for what happens next, return to the opening number, then a 2–3 line closing thesis that ends on a strong short sentence.
 
-IF ARC:
-- Open in the present at a specific timestamp, in a social scene where everyone misjudges you. Move 1: state their assumption, then reveal the hard fact that proves it wrong (a document, a number, a stake). Move 2.
-- Flash back. Plant the one small money rule, a recurring image and a recurring question.
-- Middle: the years where it looks like a mistake. One temptation refused, one crisis that tests the rule, one quiet sign you've changed. Each chapter ends on a Move 3 question.
-- The scale beat (Move 4) is where the rule's result over the years becomes visible.
-- Reversal, then the cost (secrecy, guilt, distance). Return to the opening scene, answer the second open question and the recurring question, then a quiet image and a 3-line thesis.
+COLLAPSE:
+- Act 1, Before (about 400 words): what the country had going for it, in real figures.
+- Act 2, The Bad Decisions (about 550 words): the specific policies (borrowing, money printing, subsidies, tax cuts, pegs, corruption, over-reliance on one export) with dates and numbers.
+- Act 3, The Breaking Point (about 550 words): the trigger event, the crash in figures, and the human cost (prices, queues, protests, emigration).
+- Act 4, Aftermath (about 450 words): bailout, default or reform. What worked and what didn't. Where the country stands now.
 
-IF EXPLAINER:
-- Move 1: a shocking real number, the obvious answer, the knockdown, a bigger number. Move 2: the title question word for word, then "It's a simple question with an uncomfortable answer."
-- Act 1, Origin (about 400 words): a tiny human-scale version (a neighbour, one loan, one jar), then 4–6 one-line history steps with real dates.
-- Scale beat (Move 4).
-- Act 2, The Answer (about 600 words): follow YOUR money step by step through the system and reveal the loop. Include the "most likely you" moment (Move 5).
-- Act 3, Why It Can't Stop (about 500 words): one real country case study with exact figures and years.
-- Act 4, The Risk (about 400 words): what breaks it, a second real case study, then the stakes back to your own life.
-- Payoff (about 200 words): answer the second open question, return to the opening number or scene, then a 2–3 line cold thesis.
-- Use only real, checkable figures with the year stated. Name institution types, not companies.
+MIRACLE-GONE-WRONG:
+- Act 1, The Miracle (about 500 words): how it rose, the growth figures, and why the world praised it.
+- Act 2, The Hidden Cracks (about 500 words): what the growth was actually built on (debt, one commodity, cheap labour, a bubble).
+- Act 3, Who Broke It (about 550 words): the decisions and the people or institutions responsible. Report documented actions and widely reported criticism, attributed and neutral.
+- Act 4, Can It Be Saved? (about 400 words): the paths forward, with figures.
 
-SPONSOR SLOT (only if YES): after the second section, chapter or act, insert one line: [SPONSOR SLOT 60–90s]. The line before it must be a Move 3 question so viewers stay through the ad.
+WARNING:
+- Act 1, How We Got Here (about 450 words): the build-up of the crisis, in figures.
+- Act 2, Why It's Different This Time (about 500 words): the specific numbers that make it dangerous now.
+- Act 3, The Domino Effect (about 550 words): who is exposed (neighbours, banks, the EU or region, global markets) and how the contagion would travel. Use one historical precedent (Greece 2010, Asia 1997, Argentina 2001…).
+- Act 4, What Happens Next (about 450 words): what the government, central bank and IMF can do, and the trade-offs of each.
+
+BIG QUESTION:
+- Act 1, Origin (about 400 words): a tiny human-scale version of the idea, then 4–6 one-line history steps with real dates.
+- Act 2, The Real Answer (about 600 words): follow the money step by step, with the "this affects you" moment.
+- Act 3, Why It Can't Stop (about 500 words): one real country case study.
+- Act 4, The Risk (about 400 words): what breaks it, with a second real country case study.
+
+SCALE BEAT (Move 4): place it wherever the biggest number first appears (usually Act 1 or Act 3).
+
+SPONSOR SLOT (only if YES): after Act 2, insert one line: [SPONSOR SLOT 60–90s]. The line before it must be a Move 3 question. Never let the sponsor replace the payoff.
 
 ═══════════════════════════════
-PART 4: ORIGINALITY AND MONETIZATION SAFETY
+PART 4: ACCURACY, FAIRNESS AND MONETIZATION SAFETY
 ═══════════════════════════════
-- Write every sentence fresh. Never reuse phrasing from any existing video or channel. Match the techniques, not the wording.
-- LADDER and ARC: no real companies, people, hospitals or banks, and numbers plausible for the US.
-- EXPLAINER: real figures only, nothing invented. No advice to buy or sell anything.
-- Vary scene settings and micro-interactions so this script doesn't read like a template of previous ones.
+- Use only real, checkable figures. Never invent statistics, quotes, dates or events. If a figure is uncertain, round it and say "about" or "roughly".
+- Real leaders, governments and institutions can be named. Describe what they did and what the data shows. Attribute criticism ("critics argued…", "the IMF warned…"). No insults, no speculation about private motives, no unverified accusations.
+- Stay politically neutral. Explain the trade-offs each side argues. This keeps the video advertiser-friendly.
+- No financial advice and no "buy or sell" recommendations.
+- Write every sentence fresh. Never reuse wording from The Invisible Hand or any other channel. Copy the techniques, never the phrasing.
+- No graphic violence descriptions. Protests and unrest are described factually.
 
 ═══════════════════════════════
 PART 5: SELF-CHECK (do this silently before answering, and revise until every item passes)
 ═══════════════════════════════
 [ ] An obvious assumption is knocked down within the first 90 words.
-[ ] The title's question or situation is stated in the narration by about word 120.
-[ ] A second open question is planted early and answered only in the last 60 seconds.
-[ ] Every section except the last ends with a question.
-[ ] A specific number appears roughly every 40 words, with no vague amounts.
+[ ] The title's question or claim is restated by about word 130.
+[ ] A second open question is planted early and answered only in the payoff.
+[ ] Every act ends with a question.
+[ ] A specific, year-stamped real figure appears roughly every 40 words.
 [ ] There is exactly one scale beat with a physical, animatable image.
-[ ] "You" is personally tied to the money in every section, with one "most likely you" moment.
-[ ] Every section has one human micro-interaction.
-[ ] At least 2 motifs are planted early and paid off later.
-[ ] No greetings, no call to action, no "I", no advice, no hype.
+[ ] Every act brings the numbers down to an ordinary person's prices or wages.
+[ ] There is one "this affects you" moment.
+[ ] Every technical term is defined in plain words the first time.
+[ ] The tone is neutral and criticism is attributed. No invented facts.
+[ ] No greetings, no call to action, no advice.
 [ ] The word count is within ±5% of the target.
 
 OUTPUT FORMAT
 1. Line 1: "Target word count: [N]"
-2. The full script as plain narration paragraphs. Labels stay inside the narration. No headings, visual notes or emojis. The only allowed bracket line is the sponsor slot.
+2. The full script as plain narration paragraphs. No headings, visual notes or emojis. The only allowed bracket line is the sponsor slot.
 3. "Final word count: [N]"
-4. "Retention map:" one line per section giving its closing question and approximate timestamp (at 150 words per minute)
+4. "Retention map:" one line per act giving its closing question and approximate timestamp (at 155 words per minute)
 5. "Scale beat:" one line describing the image to animate
-6. EXPLAINER only: "Fact-check list:" each figure and the primary source to verify it (Federal Reserve, US Treasury, IMF, World Bank, BIS, national statistics office)
+6. "Visual cues:" 15–25 short lines, each with a timestamp and one visual: a map (which country or region is highlighted), a chart (what data, rising or falling), or a stickman scene (who, doing what), for the animator
+7. "Fact-check list:" each figure with the primary source to verify it (IMF, World Bank, BIS, central bank, finance ministry, national statistics office, Reuters/FT/Bloomberg reporting for events)
 
 Add nothing else before or after.

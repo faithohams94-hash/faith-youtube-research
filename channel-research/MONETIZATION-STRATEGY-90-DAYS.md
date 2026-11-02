@@ -1,8 +1,10 @@
 # 90-Day Monetization Strategy
 
 **Goal:** reach YouTube Partner Program ad-revenue eligibility (**1,000 subscribers and 4,000 public long-form watch hours**) within 90 days.
-**Channel:** faceless, 2D stickman, second-person money stories ("Quiet Equity" voice, `MASTER-SCRIPT-PROMPT.md`).
+**Niche:** countries' economies and geopolitics: debt crises, collapses, "miracles" that went wrong.
+**Style:** narrated documentary explainer with 2D stickman animation, maps and charts. No POV.
 **Benchmark:** The Invisible Hand (`the-invisible-hand/`).
+**Script prompt:** `MASTER-SCRIPT-PROMPT-V2.md`
 
 > Check the current thresholds at YouTube Help → "YouTube Partner Program overview & eligibility" before day 1. Some sources mention changes planned for 2027.
 
@@ -12,44 +14,45 @@
 
 | Target | Calculation | Views needed |
 |---|---|---|
-| 4,000 watch hours | 15-minute video, 40% average view duration, so about 6 minutes per view. 240,000 minutes ÷ 6. | **about 40,000 long-form views** |
-| 1,000 subscribers | Long-form finance and story content converts about 1–2% of views to subscribers | **about 50,000–100,000 views** |
+| 4,000 watch hours | 16-minute video, 40% average view duration, so about 6.5 minutes per view. 240,000 minutes ÷ 6.5. | **about 37,000 long-form views** |
+| 1,000 subscribers | Long-form economics content converts about 1–2% of views to subscribers | **about 50,000–100,000 views** |
 
 **North-star metric: 75,000 total long-form views by day 90.**
-Twenty-four videos averaging 3,000 views each gets there. In practice it will be uneven: most videos get 300–2,000 views and one or two reach 20,000–50,000. **The whole plan is built to give you as many chances as possible at that one breakout video.**
+Most videos get 300–2,000 views, and one or two reach 20,000–50,000. **The plan is built to give you as many chances as possible at that one breakout video.**
 
 Shorts views **do not count** toward the 4,000 hours, but subscribers gained from Shorts **do count** toward the 1,000.
 
 ---
 
-## 2. Positioning: what makes us different from The Invisible Hand
+## 2. Positioning: how to compete with The Invisible Hand
+
+You're entering the same niche as a channel with 302K subscribers. Don't copy it. Find the space it leaves open.
 
 | | The Invisible Hand | Our channel |
 |---|---|---|
-| Point of view | Narrator explaining from above | **"You" living inside the system** |
-| Visuals | Stock footage, maps and charts | **One recurring stickman protagonist** (`brand/protagonist-reference.png`) and animated charts |
-| Emotion | Cold and analytical | Cold, observational, **quietly wounded** |
-| Topics | Countries and macroeconomics | **How the money system touches one person's life** |
+| Visuals | Stock footage, real photos, maps | **2D stickman animation, maps and charts.** A recognisable style that's hard to copy. |
+| Countries covered | Mostly US, Europe and big Asian economies | **Also under-covered countries**: Africa, South Asia, Latin America, the Middle East, where competition is low and audiences are large |
+| Human angle | Mostly macro numbers | **Every act shows what the crisis does to an ordinary person's prices and wages** |
+| Endings | Often replaced by the sponsor | **A real payoff**: scenarios for what happens next |
 
-**One-line positioning:** *"The hidden money system, lived by you."*
+**One-line positioning:** *"Why countries rise and fall, animated."*
 
-This also protects monetization. YouTube's inauthentic-content policy targets templated, mass-produced uploads with little human creative input. A recurring character, a distinct voice and original scripts are the strongest defence.
+The stickman style and original scripts are also your protection under YouTube's inauthentic-content policy, which targets templated, mass-produced uploads.
 
 ---
 
-## 3. Two content formats (test both, then double down)
+## 3. Four formats within the niche (all in `MASTER-SCRIPT-PROMPT-V2.md`)
 
-### Format A: Ladder and POV stories (already in production)
-`hospitals-every-level`, `parents-at-30`, `brother-company`, `second-pov`
-- Broad emotional appeal, so it can go viral more easily
-- Pays less per view than pure finance, but still in the money niche
+| Format | Title pattern | Example |
+|---|---|---|
+| **COLLAPSE** | How [Country] Destroyed / Went Bankrupt… | How Sri Lanka Went Bankrupt in 3 Years |
+| **MIRACLE-GONE-WRONG** | How to Destroy an Economic Miracle / From Rich to Broke | How Lebanon Went From the "Switzerland of the Middle East" to Collapse |
+| **WARNING** | Why [Country]'s [Crisis] Is About to Break [Region] | Why China's Property Crash Is Bigger Than 2008 |
+| **BIG QUESTION** | If X, who/why/what Y? | What Happens When a Country Runs Out of Dollars? |
 
-### Format B: The Big Money Question (new, modelled on The Invisible Hand's top video)
-- A paradox title ("If X, who/why Y?") answered through **you**: your deposit, your paycheque, your mortgage
-- Higher pay per view (finance and economics), evergreen search traffic
-- Script with `MASTER-EXPLAINER-SCRIPT-PROMPT.md`
+**Test all four in the first 30 days.** On day 30, put 60% of uploads into the format with the best **click-through rate × average view duration**.
 
-**Decision rule on day 30:** whichever format has the better **click-through rate × average view duration** gets **70% of uploads** for days 31–90.
+**Mix of timeless and timely topics:** 70–80% evergreen (they get views for years), 20–30% based on the news (a country in the headlines this week). Timely videos are how small channels get their first burst of views.
 
 ---
 
@@ -57,33 +60,31 @@ This also protects monetization. YouTube's inauthentic-content policy targets te
 
 | Phase | Days | Long-form | Shorts | Focus |
 |---|---|---|---|---|
-| **Launch** | 1–30 | **2 per week** (8 total: the 4 existing scripts and 4 Format B) | 3–5 per week | Learn which titles get clicks |
-| **Double down** | 31–60 | **2 per week** (8 total, 70% the winning format) | 5 per week | Make follow-ups to any video above 5,000 views |
-| **Push** | 61–90 | **2 per week** (8 total) | 5–7 per week | Series, sequels, and refreshing packaging on older videos |
+| **Launch** | 1–30 | **2 per week** (8 total, 2 of each format) | 3–5 per week | Learn which countries and titles get clicks |
+| **Double down** | 31–60 | **2 per week** (8 total) | 5 per week | Follow-ups to any video above 5,000 views (same region, same type of crisis) |
+| **Push** | 61–90 | **2 per week** (8 total) | 5–7 per week | Series ("Next to collapse? Part 2"), timely videos, refreshing packaging on older videos |
 
-- **Length: 12–16 minutes.** Long enough for watch hours, short enough to finish producing.
-- **Same days and time each week** (for example, Tuesday and Friday at 3pm US Eastern, because the finance audience is mostly US and UK).
-- **Batch production:** write 4 scripts, then voice 4, then animate. Keep a buffer of 2 finished videos at all times so a bad week doesn't break the schedule.
-- If two a week isn't possible, drop to **one long video plus daily Shorts**. Never go silent.
+- **Length: 15–18 minutes**, matching the benchmark.
+- **Same days and time each week** (for example Tuesday and Friday at 3pm US Eastern, because the audience is mostly US and UK).
+- **Batch production:** research and write 4 scripts, then voice 4, then animate. Build reusable assets (a stickman citizen, leader, banker and IMF official, map templates and chart templates), but vary the scenes in every video.
+- Keep 2 finished videos in reserve. If two a week isn't possible, drop to one long video plus daily Shorts. Never go silent.
 
 ---
 
 ## 5. Packaging: title and thumbnail system
 
-Write the **title and thumbnail before the script.** If you can't make the thumbnail exciting, change the topic.
+Write the **title and thumbnail before the script.**
 
-**Title formulas (from The Invisible Hand):**
-1. Paradox: `If [universal fact], who/why [question]?`
-2. Destruction: `How to Destroy [something everyone wants]`
-3. Prediction: `Why [thing] Is About to Break [bigger thing]`
-4. Ours: `[Thing] at Every Level of Wealth: $0 to $[X]`
-5. Ours: `POV: You're [age] and [unfair money situation]`
+**Title rules (from the benchmark):**
+- A consequence and stakes, not a topic. "How Sri Lanka Went Bankrupt", never "Sri Lanka's Economy Explained".
+- Strong verbs: destroy, break, collapse, bankrupt, broke, about to.
+- A country name in the title. People search for and click on countries they care about.
 
-**Thumbnail rules:**
-- 2–4 words, with one word in yellow and the rest white on black boxes
-- One idea: the stickman (expressive face, small) and **one giant object** (debt tower, bank vault, house, paycheque)
-- Red is the only danger accent. Keep the palette consistent so the channel is recognisable in a feed.
-- Thumbnail text **adds to** the title. It never repeats it.
+**Thumbnail rules (two proven styles from the benchmark):**
+1. **Leader style:** the leader as a worried **stickman caricature** (not a realistic image of the real person), the country's flag or map in red, and 2–3 bold words ("EGYPT'S DOWNFALL").
+2. **Map style:** a 3D map with red network lines or red cracks across the country, and 2–3 words with one word in yellow ("BANKRUPT NATION").
+- White text on black boxes, with one yellow highlight word. Red is the danger accent.
+- Thumbnail text adds to the title. It never repeats it.
 - Make 2 thumbnails per video and use YouTube's **Test & Compare** feature.
 
 **Targets** (in YouTube Studio → Analytics, per video, after 7 days):
@@ -96,24 +97,27 @@ Write the **title and thumbnail before the script.** If you can't make the thumb
 
 ---
 
-## 6. Script rules (combining both channels)
+## 6. Script rules (the 5 moves, all built into `MASTER-SCRIPT-PROMPT-V2.md`)
 
-1. **0:00–0:30:** shocking number or scene, the obvious answer, then the twist. Restate the title question word for word.
-2. **0:30–1:00:** a promise ("This is the story of…") and a **second open loop** paid off in the final minute.
-3. Each act ends on a **question** that opens the next act.
-4. A **specific number every 15 seconds.** A **scale visualisation** for every big number.
-5. **"You" is inside the system.** It's your deposit, your pension, your rent. Never lecture.
-6. **Pay off the open loop.** Unlike The Invisible Hand, give a real ending, then a 2–3 line cold thesis.
-7. **Fact-check every number** against primary sources (Federal Reserve, US Treasury, IMF, World Bank, BIS) and save the source links in the video folder.
-8. Leave a **60–90 second slot after Act 2** for a future sponsor or affiliate read.
+1. Knock down the obvious answer in the first 30 seconds.
+2. Restate the title question or claim by about 0:50, then plant a second open question.
+3. End every act on a question.
+4. A real, year-stamped figure every 40 words, and one scale image.
+5. Bring every act down to an ordinary person's prices and wages, with one "this affects you" moment.
+
+**Research workflow for each video:**
+1. Pull the core figures from IMF country reports, World Bank data, the central bank and national statistics.
+2. Read 3–5 news explainers (Reuters, FT, Bloomberg, BBC, The Economist) for the timeline and key events.
+3. Save the source links in the video folder, then run the script prompt.
+4. Check every figure in the script's fact-check list before recording. Your credibility depends on accuracy, and so does the comment section.
 
 ---
 
 ## 7. Shorts strategy (for subscribers)
 
-- 3–7 per week, 30–55 seconds, **cut from long-form videos** (best scale visualisation, best twist).
-- First line is the hook question: "Who does America owe $36 trillion to?"
-- End with a cliffhanger and pin a comment linking to the full video. Use the **related video** link feature.
+- 3–7 per week, 30–55 seconds, **cut from long-form videos**: the scale beat, the hook, the most shocking figure.
+- First line is a question or shock: "A loaf of bread in this country costs 3 million."
+- End with a cliffhanger and use the **related video** link to the full video.
 
 ---
 
@@ -121,63 +125,71 @@ Write the **title and thumbnail before the script.** If you can't make the thumb
 
 | Day | Videos out | Target views (total long-form) | Subscribers | Watch hours | If behind |
 |---|---|---|---|---|---|
-| 30 | 8 | 8,000–15,000 | 150–300 | 600–1,200 | Re-package the worst 3 (new thumbnail and title). Switch fully to the better format. |
-| 60 | 16 | 30,000–45,000 | 450–700 | 2,000–2,800 | Make sequels to the best video ("Part 2", same thumbnail style). Raise Shorts to daily. |
-| 90 | 24 | 75,000+ | 1,000 | 4,000 | Apply the day both are hit. If close, keep going: 4–5 months is the common realistic timeline. |
+| 30 | 8 | 8,000–15,000 | 150–300 | 600–1,200 | Re-package the worst 3. Move toward the best-performing format and region. |
+| 60 | 16 | 30,000–45,000 | 450–700 | 2,000–2,800 | Make sequels to the best video (same crisis type, nearby country). Raise Shorts to daily. |
+| 90 | 24 | 75,000+ | 1,000 | 4,000 | Apply the day both are hit. If close, keep going: 4–5 months is common. |
 
-Track weekly in a simple sheet: video, upload date, click-through rate, average view duration, views, subscribers gained, hours.
+Track weekly: video, country, format, click-through rate, average view duration, views, subscribers gained, hours.
 
 ---
 
 ## 9. Monetization rules checklist (before applying)
 
 - [ ] Every script is original. Copy no wording from The Invisible Hand or anyone else.
-- [ ] The same stickman protagonist and visual style run across videos, with scenes varied per video (not one template).
+- [ ] Original stickman animation. Reusable characters are fine, but the scenes are new in every video.
 - [ ] Your own voice, or one consistent custom narrator voice. **No cloned voices of real people.**
-- [ ] Turn on the "altered or synthetic content" disclosure only when realistic AI footage of real people or events is shown. Stickman animation doesn't need it.
-- [ ] No reused clips from other channels or news footage without transformation and commentary.
-- [ ] No financial advice ("buy X"). Explain, don't recommend.
+- [ ] No realistic AI images or deepfakes of real leaders. Caricature stickmen only.
+- [ ] Turn on the "altered or synthetic content" disclosure only when realistic synthetic footage of real people or events is shown.
+- [ ] News clips used briefly, with commentary, or not at all.
+- [ ] Neutral, attributed political framing. No financial advice.
 - [ ] 2-Step Verification on, an AdSense account ready, and no community guideline strikes.
 
 ---
 
 ## 10. Income before YPP (optional)
 
-Ad revenue isn't the only way to earn. The Invisible Hand spends about 20% of its top video on a sponsor read.
-- **Affiliate links** (allowed from day 1): budgeting apps, investing platforms, books. Keep it to one in the description and disclose it.
-- **Sponsors:** usually after about 5K–10K subscribers or videos with 20K+ views. Keep the 60–90 second slot in the script.
+- **Affiliate links** (allowed from day 1): investing or forex platforms, books on economics. One in the description, with disclosure.
+- **Sponsors:** after about 5K–10K subscribers or videos with 20K+ views. Finance sponsors pay well in this niche. The Invisible Hand spends about 20% of its top video on a gold-mining sponsor. Keep the 60–90 second slot in the script.
 
 ---
 
 ## 11. First 24 video ideas
 
-**Format A (Ladder and POV)**
-1. How Hospitals Treat You at Every Level of Wealth (script exists)
-2. POV: Your Parents Retire Broke and You're 30 (script exists)
-3. POV: You're 40 and Work at Your Younger Brother's Company (script exists)
-4. Second POV (script exists)
-5. How Banks Treat You at Every Level of Wealth: $0 to $100M
-6. Credit Scores at Every Level: 300 to 850
-7. How Landlords Treat You at Every Income Level
-8. POV: You Win $10 Million and Tell No One
-9. How Airlines Treat You at Every Level of Wealth
-10. POV: You're the Only One in Your Friend Group Who Saved
-11. Lawyers at Every Level of Wealth
-12. POV: You Inherit Your Parents' Debt
+The Invisible Hand already covered the US, Germany, the UK, Argentina, France, Italy and Indonesia. Most of this list deliberately targets countries it hasn't covered yet.
 
-**Format B (Big Money Question)**
-13. If Money Is Printed, Why Can't Everyone Be Rich?
-14. You Deposit $1,000. Here's Where It Actually Goes.
-15. If Everyone Is in Debt, Who Is Actually Rich?
-16. What Happens to Your Debt When You Die?
-17. What If Everyone Withdrew Their Money Tomorrow?
-18. Who Actually Owns Your House?
-19. Where Does Your Pension Money Actually Go?
-20. Why $100K Doesn't Feel Rich Anymore
-21. How the Rich Borrow Money and Never Pay It Back
-22. POV: Your Country Runs Out of Money
-23. Who Owns All the Gold in the World?
-24. How Much of Your Money Is Actually Real?
+**COLLAPSE**
+1. How Sri Lanka Went Bankrupt in 3 Years
+2. How Zimbabwe Printed Its Way to a 100 Trillion Dollar Note
+3. How Ghana Went From Africa's Star to Default
+4. How Iceland Bankrupted Itself With Three Banks
+5. How Venezuela Destroyed the Richest Economy in South America
+6. How Greece Almost Broke the Euro
+
+**MIRACLE-GONE-WRONG**
+7. How Lebanon Went From the "Switzerland of the Middle East" to Collapse
+8. Why Nigeria Is Rich in Oil but Its People Are Poor
+9. How Ethiopia Became Africa's Fastest Economy, Then Defaulted
+10. Why South Korea's Economic Miracle Is Running Out of People
+11. Why Brazil Is Always "the Country of the Future"
+12. Why Thailand Got Old Before It Got Rich
+
+**WARNING**
+13. Why China's Property Crash Is Bigger Than 2008
+14. Why Egypt Can't Escape Its Debt Trap
+15. Why Turkey's Inflation Won't Stop
+16. Why Pakistan Keeps Running Back to the IMF
+17. Why Japan's Debt Is About to Become Everyone's Problem
+18. Why Kenya's Debt Is Pushing It to the Edge
+
+**BIG QUESTION**
+19. What Happens When a Country Runs Out of Dollars?
+20. Why Can't Poor Countries Just Print More Money?
+21. Who Actually Controls the IMF, and Why Countries Fear It
+22. Why Is the US Dollar Still King?
+23. How Did Singapore Get Rich With No Natural Resources?
+24. Why Do Oil-Rich Countries Stay Poor?
+
+Check each topic's current news before scripting. A country in the headlines this week is a timely video to bring forward.
 
 ---
 
@@ -185,8 +197,8 @@ Ad revenue isn't the only way to earn. The Invisible Hand spends about 20% of it
 
 | Timeline | Chance | Condition |
 |---|---|---|
-| 60 days | about 15–25% | An early breakout video |
+| 60 days | about 15–25% | An early breakout video (often a timely topic) |
 | **90 days** | **about 35–50%** | This plan, with 2 videos a week and strong packaging |
 | 120–180 days | Likely | Consistent uploads and following the day-30 and day-60 decisions |
 
-These odds are judgement estimates, not data. Consistency and packaging matter more than anything else here.
+These odds are judgement estimates, not data. Research quality, consistency and packaging are what decide it.
