@@ -75,10 +75,17 @@ The stickman style and original scripts are also your protection under YouTube's
 
 Write the **title and thumbnail before the script.**
 
-**Title rules (from the benchmark):**
+**Title rules (from the benchmark's title data, `the-invisible-hand/titles/analysis.md`):**
+1. Start with **Why… / If… who…? / How to Destroy… / The (…) Collapse of…**
+2. **Contradict a belief.** All 4 of their 2M+ videos are paradoxes ("Why Giving Money to Africa Makes it Poor").
+3. **Stakes that ripple outward:** country → continent → world ("…About to Break Europe").
+4. **One bracketed opinion word**, (Finally) / (Overdue) / (Inevitable), to make it a take, not news.
+5. 5–12 simple words, **no numbers** (numbers go on the thumbnail), and **remix your own winners.**
 - A consequence and stakes, not a topic. "How Sri Lanka Went Bankrupt", never "Sri Lanka's Economy Explained".
-- Strong verbs: destroy, break, collapse, bankrupt, broke, about to.
-- A country name in the title. People search for and click on countries they care about.
+
+**Topic selection rule (from their view counts):** global questions, continents (Africa, Europe, Asia) and big English-speaking countries (UK, US, Canada, Australia) reach **millions**. Single non-English-speaking countries usually reach **hundreds of thousands**. Make **at least 50% of uploads global, continental or English-speaking-country topics** and use under-covered countries for the rest.
+
+**Remix rule:** when one of our videos gets more than 2× our average views, publish a fresh-angle sequel with a similar title within 30 days. Their 2.9M video's remix got 2.1M in one month.
 
 **Thumbnail rules (two proven styles from the benchmark):**
 1. **Leader style:** the leader as a worried **stickman caricature** (not a realistic image of the real person), the country's flag or map in red, and 2–3 bold words ("EGYPT'S DOWNFALL").
@@ -153,41 +160,41 @@ Track weekly: video, country, format, click-through rate, average view duration,
 
 ---
 
-## 11. First 24 video ideas
+## 11. First 24 video ideas (titles rewritten with the 5 title moves)
 
-The Invisible Hand already covered the US, Germany, the UK, Argentina, France, Italy and Indonesia. Most of this list deliberately targets countries it hasn't covered yet.
+At least 50% are global, continental or big English-speaking-country topics. Every claim must be provable in the video, so check the current facts before scripting.
 
-**COLLAPSE**
-1. How Sri Lanka Went Bankrupt in 3 Years
-2. How Zimbabwe Printed Its Way to a 100 Trillion Dollar Note
-3. How Ghana Went From Africa's Star to Default
-4. How Iceland Bankrupted Itself With Three Banks
-5. How Venezuela Destroyed the Richest Economy in South America
-6. How Greece Almost Broke the Euro
+**Global paradox (BIG QUESTION)**
+1. If China Owns So Much Debt... Who Does China Owe?
+2. Why Can't Poor Countries Just Print More Money?
+3. Why Oil-Rich Countries Stay Poor
+4. Who Actually Controls the IMF?
+5. If the Dollar Is Dying... What Replaces It?
+6. Why Every Rich Country Is Running Out of Workers
 
-**MIRACLE-GONE-WRONG**
-7. How Lebanon Went From the "Switzerland of the Middle East" to Collapse
-8. Why Nigeria Is Rich in Oil but Its People Are Poor
-9. How Ethiopia Became Africa's Fastest Economy, Then Defaulted
-10. Why South Korea's Economic Miracle Is Running Out of People
-11. Why Brazil Is Always "the Country of the Future"
-12. Why Thailand Got Old Before It Got Rich
+**Continents and big English-speaking countries**
+7. Why No One Can Afford to Live in Canada Anymore
+8. Why China Is Lending Africa Billions (and What It Wants Back)
+9. Why America Can't Stop Borrowing
+10. Why Australia's Economy Is Built on a Hole in the Ground
+11. Why Japan Has 250% Debt and Still Hasn't Collapsed
+12. Why Europe Is Falling Behind America and China
 
-**WARNING**
-13. Why China's Property Crash Is Bigger Than 2008
-14. Why Egypt Can't Escape Its Debt Trap
-15. Why Turkey's Inflation Won't Stop
-16. Why Pakistan Keeps Running Back to the IMF
-17. Why Japan's Debt Is About to Become Everyone's Problem
-18. Why Kenya's Debt Is Pushing It to the Edge
+**COLLAPSE and MIRACLE-GONE-WRONG**
+13. How to Destroy Africa's Fastest-Growing Economy (Ethiopia)
+14. How Ghana Went From Africa's Star to Bankrupt
+15. How Lebanon Destroyed the "Switzerland of the Middle East"
+16. How Sri Lanka Went Bankrupt in 3 Years
+17. How Zimbabwe Ended Up Printing a 100 Trillion Dollar Note
+18. Why Oil Makes Nigeria Poor
 
-**BIG QUESTION**
-19. What Happens When a Country Runs Out of Dollars?
-20. Why Can't Poor Countries Just Print More Money?
-21. Who Actually Controls the IMF, and Why Countries Fear It
-22. Why Is the US Dollar Still King?
-23. How Did Singapore Get Rich With No Natural Resources?
-24. Why Do Oil-Rich Countries Stay Poor?
+**WARNING (stakes that ripple outward and opinion words)**
+19. Why China's Property Crash Could Break Asia
+20. The (Inevitable) Collapse of China's Ghost Cities
+21. Why Turkey's Inflation (Still) Won't Stop
+22. Why Egypt Can't Escape Its Debt Trap
+23. Why Pakistan Keeps Running Back to the IMF
+24. Why Argentina Keeps Going Bankrupt
 
 Check each topic's current news before scripting. A country in the headlines this week is a timely video to bring forward.
 
