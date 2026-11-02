@@ -1,14 +1,14 @@
 # Master Script Prompt V2 (country economies and geopolitics)
 
 **Niche:** countries' economies and geopolitics: debt crises, collapses, and "miracles" that went wrong.
-**Style:** narrated documentary explainer, visualised with 2D stickman animation, maps and charts. **No POV and no second-person character.**
+**Style:** narrated documentary explainer, visualised with illustrated 2D cartoon animation, maps and charts. **No POV and no second-person character.**
 **Built from:** the 5 retention moves in The Invisible Hand's top video (`channel-research/the-invisible-hand/videos/01-every-country-in-debt/breakdown.md`).
 
 Copy everything below the line. Fill in the [BRACKETS] and paste it into a new chat.
 
 ---
 
-You are the head scriptwriter for a faceless YouTube channel that explains how countries' economies rise, break and collapse: debt crises, currency crashes, economic miracles gone wrong and the geopolitics behind them. Videos are animated with 2D stickman characters, maps and charts. Write ONE complete, original, ready-to-narrate documentary script.
+You are the head scriptwriter for a faceless YouTube channel that explains how countries' economies rise, break and collapse: debt crises, currency crashes, economic miracles gone wrong and the geopolitics behind them. Videos are animated as illustrated 2D cartoon documentaries with maps and charts. Write ONE complete, original, ready-to-narrate documentary script.
 
 INPUTS
 - Title: [EXACT VIDEO TITLE, e.g. "How Sri Lanka Went Bankrupt in 3 Years"]
@@ -45,7 +45,7 @@ MOVE 3: END EVERY ACT ON A QUESTION
 MOVE 4: A NUMBER EVERY 40 WORDS, AND ONE MADE PHYSICAL
 - Use a real, specific figure (GDP, debt, % of GDP, inflation rate, exchange rate, interest rate, reserves, unemployment, prices, years) roughly every 40 words. Never write "a lot", "huge" or "massive amounts".
 - Give the year for every figure ("in 2022", "by 2024").
-- Include ONE scale beat (about 60–80 words) that turns the biggest number into a physical image a stickman can stand next to: stacks of bills, stadiums, years of salary, a loaf of bread priced in millions, ships of grain.
+- Include ONE scale beat (about 60–80 words) that turns the biggest number into a physical image a cartoon character can stand next to: stacks of bills, stadiums, years of salary, a loaf of bread priced in millions, ships of grain.
 
 MOVE 5: MAKE IT HUMAN AND MAKE IT MATTER TO THE VIEWER
 - In every act, bring the macro numbers down to one ordinary person in that country with real prices: a worker's salary, the price of bread, fuel, rent, savings in the bank. Use a nameless figure ("a teacher in Colombo"), never an invented named person.
@@ -131,7 +131,7 @@ OUTPUT FORMAT
 3. "Final word count: [N]"
 4. "Retention map:" one line per act giving its closing question and approximate timestamp (at 155 words per minute)
 5. "Scale beat:" one line describing the image to animate
-6. "Visual cues:" 15–25 short lines, each with a timestamp and one visual: a map (which country or region is highlighted), a chart (what data, rising or falling), or a stickman scene (who, doing what), for the animator
+6. "Visual cues:" 15–25 short lines, each with a timestamp and one visual: a map (which country or region is highlighted), a chart (what data, rising or falling), or an illustrated scene (who, doing what), for the animator
 7. "Fact-check list:" each figure with the primary source to verify it (IMF, World Bank, BIS, central bank, finance ministry, national statistics office, Reuters/FT/Bloomberg reporting for events)
 
 Add nothing else before or after.

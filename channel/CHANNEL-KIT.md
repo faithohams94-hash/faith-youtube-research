@@ -1,7 +1,7 @@
 # Rise & Ruin: Channel Kit
 
 **Niche:** countries' economies and geopolitics: debt crises, collapses, "miracles" that went wrong.
-**Style:** 15–18 minute documentary explainers with 2D stickman animation, 3D maps and charts.
+**Style:** 15–18 minute documentary explainers as illustrated 2D animated documentaries with real maps and charts (`STYLE-GUIDE.md`).
 **Goal:** YouTube Partner Program in 90 days (`../channel-research/MONETIZATION-STRATEGY-90-DAYS.md`).
 
 ---
@@ -13,7 +13,7 @@
 | **Channel name** | **Rise & Ruin** |
 | **Handle** | `@RiseAndRuin`. If it's taken: `@RiseAndRuinTV`, `@RiseAndRuinEcon`, `@TheRiseAndRuin` |
 | **Tagline** | Why countries rise and fall, animated. |
-| **Positioning** | The hidden money stories behind countries' booms, busts and debt traps, told clearly with stickman animation and maps. |
+| **Positioning** | The hidden money stories behind countries' booms, busts and debt traps, told clearly with illustrated animation and maps. |
 | **Voice** | Your own narration (recommended). Otherwise one consistent, licensed AI voice. Never a clone of a real person. |
 
 > Before you lock it in, search "Rise & Ruin" on YouTube and in the handle picker to confirm the handle is free. I found no economics channel using it, but YouTube's handle checker is the final word.
@@ -42,7 +42,7 @@
 
 **Fonts:** Anton for titles and thumbnails, Inter (Bold) for labels and charts.
 
-**Signature character:** the stickman leader in a dark suit with a flag pin and a **solid red bar over the eyes**. Every leader on the channel is drawn this way. Never use realistic images of real people.
+**Signature character:** the cartoon leader in a dark suit with a flag pin and a **solid red bar over the eyes**. Every leader on the channel is drawn this way. Never use realistic images of real people.
 
 ---
 
@@ -51,7 +51,7 @@
 ```
 Why do some countries get rich while others collapse? Who is really lending the money, and who ends up paying for it?
 
-Rise & Ruin tells the stories behind debt crises, currency crashes, economic miracles and the decisions that break them, explained clearly with stickman animation, maps and real data.
+Rise & Ruin tells the stories behind debt crises, currency crashes, economic miracles and the decisions that break them, explained clearly with illustrated animation, maps and real data.
 
 Every video is researched from primary sources like the IMF, the World Bank, central banks and national statistics, and the sources are listed in each description.
 
@@ -130,7 +130,7 @@ This is Rise & Ruin.
 | Captions certification | None |
 | Comments | On ("Hold potentially inappropriate comments for review") |
 | License | Standard YouTube License |
-| Altered content | No (stickman animation) |
+| Altered content | No (clearly cartoon animation) |
 
 **Description template:**
 ```
@@ -192,7 +192,7 @@ Rule: **don't publish video 1 until videos 1–3 are finished.** That buffer pro
 3. Research: IMF, World Bank, central bank, news explainers. Save the links.
 4. `MASTER-SCRIPT-PROMPT-V2.md`: script, visual cues, fact-check list
 5. Fact-check, then record the voiceover
-6. Animate (stickman, maps, charts)
+6. Generate visuals in Flow (`MASTER-IMAGE-PROMPT-V2.md`) and animate in CapCut (illustrated scenes, maps, charts)
 7. `MASTER-DESCRIPTION-PROMPT.md`: description, chapters, tags, pinned comment, Shorts captions
 8. Publish, then fill in `video-tracker.csv` after 7 days
 

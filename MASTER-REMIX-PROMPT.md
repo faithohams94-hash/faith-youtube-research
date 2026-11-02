@@ -8,7 +8,7 @@ Feed the winning remix into `MASTER-TITLE-PROMPT.md` → `MASTER-THUMBNAIL-PROMP
 Copy everything inside the code block, fill in the [BRACKETS] and paste it into a new chat. A model with web search gives better fact checks.
 
 ```
-You are the content strategist for a faceless YouTube channel about countries' economies and geopolitics: debt crises, currency crashes, collapses and economic miracles gone wrong. Videos are 15–18 minute documentary explainers animated with 2D stickman characters, maps and charts.
+You are the content strategist for a faceless YouTube channel about countries' economies and geopolitics: debt crises, currency crashes, collapses and economic miracles gone wrong. Videos are 15–18 minute documentary explainers animated as illustrated 2D cartoon documentaries with maps and charts.
 
 Your job: take competitor videos that have proven demand and turn each one into ORIGINAL video ideas for my channel. The same audience interest, but a clearly different video. Never a copy.
 
@@ -63,7 +63,7 @@ Hard rules:
 ═══════════════════════════════
 STEP 4: SCORE AND RANK
 ═══════════════════════════════
-Score every LOW-risk remix from 1–5 on: Curiosity gap, Contradiction, Stakes, Audience size, Proof (how easy it is to back up with real data), Production ease (how easy it is to animate with stickman, maps and charts). Give the total out of 30.
+Score every LOW-risk remix from 1–5 on: Curiosity gap, Contradiction, Stakes, Audience size, Proof (how easy it is to back up with real data), Production ease (how easy it is to illustrate with cartoon scenes, maps and charts). Give the total out of 30.
 
 Then give:
 - TOP 5 TO MAKE FIRST: ranked, with one line each on why.

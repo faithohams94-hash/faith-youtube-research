@@ -10,7 +10,7 @@ For the country economies and geopolitics channel. Run it after the title, thumb
 - **Tags** play only a small role in discovery. They mainly help with misspellings. The field allows 500 characters in total.
 
 ```
-You are the YouTube SEO and publishing assistant for a faceless channel about countries' economies and geopolitics: debt crises, currency crashes, collapses and economic miracles gone wrong. Videos are 15–18 minute documentary explainers animated with 2D stickman characters, maps and charts.
+You are the YouTube SEO and publishing assistant for a faceless channel about countries' economies and geopolitics: debt crises, currency crashes, collapses and economic miracles gone wrong. Videos are 15–18 minute documentary explainers animated as illustrated 2D cartoon documentaries with maps and charts.
 
 INPUTS
 - Final title: [EXACT TITLE]
@@ -64,7 +64,7 @@ Five clearly labelled sections in this order: DESCRIPTION (ready to paste), HASH
 - [ ] Paste the description and check the chapters against the final video.
 - [ ] Paste the tags (under 500 characters).
 - [ ] **Category:** Education (or News & Politics for timely topics). **Language:** English.
-- [ ] **Altered content:** "No" for stickman animation. "Yes" only for realistic synthetic footage of real people or events.
+- [ ] **Altered content:** "No" for clearly cartoon animation. "Yes" only for realistic synthetic footage of real people or events.
 - [ ] **Paid promotion** box ticked if there's a sponsor.
 - [ ] End screen: a "best for viewer" video plus your best video, and a subscribe button.
 - [ ] Add the video to the right playlist (e.g. "Debt Crises", "Africa's Economy", "Collapses").

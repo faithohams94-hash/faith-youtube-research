@@ -2,7 +2,7 @@
 
 ![popular](channel-popular-2026-11.jpg)
 
-**Status:** first pass from one screenshot of the Popular tab, plus a third-party analytics page. Screenshots from inside the videos are still needed to confirm how the animation moves.
+**Status:** Popular-tab screenshot, 9 frames from inside the Saudi water video (`frames/`), and a third-party analytics page.
 
 ## Channel snapshot (November 2026)
 | Item | Value |
@@ -52,5 +52,24 @@
 
 **What happens to the stickman cast:** use it for Shorts, explainer diagrams and simple chart scenes, or retire it. The main video style becomes illustrated.
 
-## Still needed
-5–8 screenshots from inside 2–3 GoDocs videos (opening, a busy scene, a close-up, a map or diagram moment) to confirm how much they animate versus using still images with camera moves.
+## Frame study (9 frames from "How a Country With Zero Rivers Drinks Water")
+| Frame | Shot type | What it does |
+|---|---|---|
+| 01 Dry tap and empty glass, oil pumps behind | SYMBOL | The whole paradox (oil rich, water poor) in one image. Blurred background, warm sand palette |
+| 02 Man in thobe with binoculars | CHARACTER | Clean adult-cartoon style, flat cel shading, outlines; a "searching for water" beat |
+| 03 Exhausted man with an empty glass (a leaf falls from the tap) while another celebrates in a money rain | CONTRAST | Foreground vs background tells an inequality story, with humour. **The most useful shot for our niche** |
+| 04 Ancient ruins in the desert | ESTABLISHING | Painterly, semi-realistic history shot |
+| 05 Skyscraper city in the dunes | ESTABLISHING | Aerial, semi-realistic: modern wealth |
+| 06 Storm clouds | MOOD PLATE | Transition and tension; no characters, cheap and reusable |
+| 07 Cracked ground cross-section | CROSS-SECTION | Explains a hidden mechanism like a diagram |
+| 08 Underground cave lake | CROSS-SECTION or ENVIRONMENT | Dark blue, mysterious: the hidden resource |
+| 09 Water bursting from a drilling rig | HERO MOMENT (likely an AI video clip) | Semi-photoreal action shot |
+
+**Takeaways**
+- **Mostly still illustrations** animated with pans and zooms, plus a few action clips (frame 09), which matches our Flow VIDEO/IMAGE/REUSE budget.
+- **Many frames have no characters** (04–08). Environments carry the story, and characters appear for emotional beats.
+- **The style isn't fully consistent**: cartoon line art (01, 02, 03, 06, 07, 08) mixed with semi-realistic renders (04, 05, 09). We can beat this by locking one style.
+- **No text on screen**: the visual metaphors do the explaining. We add a data layer with real maps and charts and overlay numbers.
+
+## Decision
+Rise & Ruin adopts the illustrated style as its main video look, with the RISE/RUIN colour system and the red-eye-bar leader. See `../../channel/STYLE-GUIDE.md` and `../../MASTER-IMAGE-PROMPT-V2.md`. The stickman cast stays for Shorts and simple diagrams.
