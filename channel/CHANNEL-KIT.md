@@ -217,3 +217,27 @@ Publish at the **same 2 times every week** (for example Tuesday and Friday at 3p
 ## 10. Tracking
 
 Fill in `video-tracker.csv` 7 days after each upload. Review on days 30, 60 and 90 using the milestones in the strategy document.
+
+---
+
+## 11. Narrator voice (locked)
+
+| Item | Value |
+|---|---|
+| **Voice** | **SaRa – warm instructional** (ElevenLabs Voice Library) |
+| Gender / age feel | Female, sounds 30–45 |
+| Reference sample | `voice/sara-reference-sample.mp3` (the Sri Lanka test paragraph) |
+| Measured on the sample | About 153 words per minute, about 0.5 s pauses between sentences, −14.7 LUFS, steady volume (1.9 LU variation), average pitch about 180 Hz |
+| Model | _[fill in]_ |
+| Stability | _[fill in, starting point 50–60%]_ |
+| Similarity | _[fill in, starting point 75–85%]_ |
+| Style exaggeration | _[fill in, starting point 0–10%]_ |
+| Speed | _[fill in, starting point 1.0]_ |
+
+**Rules**
+- Use the same voice and settings in every video. Never switch.
+- Generate one paragraph at a time, and regenerate only the lines that sound wrong.
+- After twist lines ("But here's the thing."), start the next sentence on a new line to give it a pause.
+- Write tricky numbers in words where needed ("thirty-six trillion dollars").
+- A paid ElevenLabs plan is required for commercial use (check the current terms).
+- If ElevenLabs ever removes the voice from the library, add it to "My Voices" now so you keep access, and keep this reference sample to match a replacement.
