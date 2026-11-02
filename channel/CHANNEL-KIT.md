@@ -62,6 +62,11 @@ This channel is for educational purposes only and does not give financial advice
 Business enquiries: [YOUR EMAIL]
 ```
 
+**Short description** (for the channel header, social bios and anywhere space is limited):
+```
+Why do countries rise and why do they fall? Debt crises, economic collapses and miracles gone wrong, explained with animation and real data. New videos every week.
+```
+
 **Channel keywords** (Studio → Settings → Channel → Basic info → Keywords):
 ```
 economics explained, geopolitics, debt crisis, global economy, country economy, economic collapse, inflation explained, IMF, emerging markets, Africa economy, China economy, world economy, animated economics, Rise and Ruin
