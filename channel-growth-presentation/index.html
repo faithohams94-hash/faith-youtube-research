@@ -25,14 +25,20 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 /* ---------- deck frame ---------- */
 .deck{position:fixed;inset:0;padding-block:calc(env(safe-area-inset-top,0px) + 14px) calc(env(safe-area-inset-bottom,0px) + 64px);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex}
 .viewport{position:relative;flex:1;min-width:0}
-.stage{position:absolute;left:50%;top:50%;width:1600px;height:900px;transform-origin:center;transform:translate(-50%,-50%) scale(.5);background:var(--ink);border-radius:18px;overflow:hidden;box-shadow:0 0 0 1px var(--line),0 40px 120px rgba(0,0,0,.6)}
+.stage{position:absolute;left:50%;top:50%;width:1600px;height:900px;transform-origin:center;transform:translate(-50%,-50%) scale(.5);background:radial-gradient(ellipse 70% 85% at 34% 28%,#2b2016 0%,#16100b 45%,var(--ink) 82%);border-radius:18px;overflow:hidden;box-shadow:0 0 0 1px var(--line),0 40px 120px rgba(0,0,0,.6)}
 .stage::after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 120%,rgba(240,185,44,.10),transparent 60%);z-index:5}
 .grain{position:absolute;inset:-50%;z-index:6;pointer-events:none;opacity:.06;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");animation:grain 1.2s steps(4) infinite}
 @keyframes grain{0%{transform:translate(0,0)}25%{transform:translate(-3%,2%)}50%{transform:translate(2%,-3%)}75%{transform:translate(-2%,-1%)}}
 
-.slide{position:absolute;inset:0;padding:70px 90px;display:flex;flex-direction:column;visibility:hidden;opacity:0;transform:scale(1.04);transition:opacity .7s ease,transform .9s cubic-bezier(.2,.8,.2,1),visibility 0s .7s}
-.slide.active{visibility:visible;opacity:1;transform:none;transition:opacity .7s ease .15s,transform .9s cubic-bezier(.2,.8,.2,1) .15s,visibility 0s}
-.slide.leaving{transform:scale(.96);}
+.slide{position:absolute;inset:0;padding:70px 90px;display:flex;flex-direction:column;visibility:hidden}
+.slide.active,.slide.leaving{visibility:visible}
+.slide.leaving{z-index:1;pointer-events:none}
+.slide.active{z-index:2}
+/* morph-style transitions: everything blurs out sideways, the new slide blurs in; shared objects glide between slides (see morph() in the script) */
+.slide.active > *{animation:blurIn .8s cubic-bezier(.2,.8,.2,1) both;animation-delay:120ms}
+.slide.leaving > *{animation:blurOut .5s cubic-bezier(.6,0,.4,1) forwards!important}
+@keyframes blurIn{from{opacity:0;filter:blur(14px);transform:translateX(calc(var(--dir,1) * 70px))}}
+@keyframes blurOut{to{opacity:0;filter:blur(18px);transform:translateX(calc(var(--dir,1) * -110px))}}
 
 /* build-in animations: elements rest visible; animation only runs on the active slide */
 .slide.active .a{animation:fadeUp .8s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(var(--d,0) * 1ms + 250ms)}
@@ -41,11 +47,11 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .slide.active .fromR{animation:fromR .9s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(var(--d,0) * 1ms + 250ms)}
 .slide.active .zoom{animation:zoom 1.1s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(var(--d,0) * 1ms + 250ms)}
 .slide.active .wipe{animation:wipe 1s cubic-bezier(.7,0,.2,1) both;animation-delay:calc(var(--d,0) * 1ms + 250ms)}
-@keyframes fadeUp{from{opacity:0;transform:translateY(34px)}}
+@keyframes fadeUp{from{opacity:0;filter:blur(10px);transform:translate(calc(var(--dir,1) * 60px),18px)}}
 @keyframes pop{from{opacity:0;transform:scale(.4)}}
-@keyframes fromL{from{opacity:0;transform:translateX(-90px)}}
-@keyframes fromR{from{opacity:0;transform:translateX(90px)}}
-@keyframes zoom{from{opacity:0;transform:scale(.82)}}
+@keyframes fromL{from{opacity:0;filter:blur(12px);transform:translateX(-130px)}}
+@keyframes fromR{from{opacity:0;filter:blur(12px);transform:translateX(130px)}}
+@keyframes zoom{from{opacity:0;filter:blur(12px);transform:scale(.8)}}
 @keyframes wipe{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
 
 /* ---------- type ---------- */
@@ -116,9 +122,9 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 
 /* ---------- slide 1: title ---------- */
 .s-title{justify-content:flex-start;padding-top:96px}
-.s-title h1{font-size:200px;line-height:.85;color:var(--white)}
+.s-title h1{font-size:172px;line-height:.85;color:var(--white)}
 .s-title h1 .g{color:var(--gold);display:inline-block}
-.s-title .underline{height:14px;width:640px;background:var(--red);transform-origin:left;margin-top:14px;border-radius:2px}
+.s-title .underline{height:14px;width:560px;background:var(--red);transform-origin:left;margin-top:14px;border-radius:2px}
 .slide.active .underline{animation:grow-x 1s cubic-bezier(.7,0,.2,1) .9s both}
 @keyframes grow-x{from{transform:scaleX(0)}}
 .reel{position:absolute;left:0;right:0;bottom:56px;overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
@@ -208,6 +214,33 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 .tl .v small{display:block;font:500 13px/1.2 var(--body);color:var(--muted)}
 .caret{display:inline-block;width:4px;height:.9em;background:var(--gold);margin-left:6px;vertical-align:-0.1em;animation:blink 1s steps(1) infinite}
 @keyframes blink{50%{opacity:0}}
+
+/* morph hero: circular image with an orbiting gold ring */
+.hero{position:absolute;border-radius:50%;z-index:3}
+.hero .disc{position:absolute;inset:0;border-radius:50%;overflow:hidden;box-shadow:0 30px 90px rgba(0,0,0,.65)}
+.hero .disc img{width:100%;height:100%;object-fit:cover;display:block}
+.hero::before{content:"";position:absolute;inset:-7%;border:3px solid var(--gold);border-radius:50%;animation:orbit 14s linear infinite}
+@keyframes orbit{from{transform:rotate(0) translate(-6%,4%)}to{transform:rotate(360deg) translate(-6%,4%)}}
+
+/* content: quartered circle that assembles */
+.quad-wrap{display:grid;grid-template-columns:1fr 470px 1fr;grid-template-rows:1fr 1fr;gap:10px 56px;margin-top:26px;flex:1;align-items:center}
+.quad{grid-column:2;grid-row:1 / span 2;width:470px;height:470px;display:grid;grid-template-columns:1fr 1fr;gap:10px;position:relative}
+.quad::after{content:"";position:absolute;inset:-16px;border:3px solid var(--gold);border-radius:50%;opacity:.85}
+.slide.active .quad::after{animation:pop .8s cubic-bezier(.3,1.6,.5,1) 1.5s both}
+.q{overflow:hidden;background:#000}
+.q img{width:100%;height:100%;object-fit:cover;display:block}
+.q.tl{border-top-left-radius:100%}.q.tr{border-top-right-radius:100%}.q.bl{border-bottom-left-radius:100%}.q.br{border-bottom-right-radius:100%}
+.q.tl{--fx:-520px;--fy:-260px;--fr:-50deg}.q.tr{--fx:520px;--fy:-300px;--fr:45deg}.q.bl{--fx:-480px;--fy:320px;--fr:40deg}.q.br{--fx:500px;--fy:300px;--fr:-45deg}
+.slide.active .q{animation:qfly 1.2s cubic-bezier(.2,.9,.25,1) both;animation-delay:calc(var(--d,0) * 1ms + 300ms)}
+@keyframes qfly{from{opacity:0;filter:blur(8px);transform:translate(var(--fx),var(--fy)) rotate(var(--fr)) scale(.55)}}
+.qlab{min-width:0;display:flex;flex-direction:column;gap:6px}
+.qlab.l{text-align:right;align-items:flex-end}
+.qlab .hd{font-family:var(--display);font-size:54px;line-height:1;color:var(--gold)}
+.qlab h3{margin:0;font-size:28px}
+.qlab p{margin:0;font-size:18px;line-height:1.45;color:var(--muted);max-width:34ch}
+.qlab p b{color:var(--white)}
+.qfoot{margin-top:18px;text-align:center;font-size:19px;color:var(--muted)}
+.qfoot b{color:var(--white)}
 
 /* content tiers */
 .tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:30px;flex:1}
@@ -344,10 +377,11 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 
 <!-- 1 TITLE -->
 <section class="slide s-title" data-name="Title">
+  <div class="hero zoom" data-morph="hero" style="--d:500;right:110px;top:96px;width:420px;height:420px"><div class="disc"><img src="img/love-scars-underwater.jpg" alt="Couple embracing underwater, a scene from an AI movie"></div></div>
   <div class="eyebrow a" style="--d:0">Research presentation · AI movie channel</div>
   <h1 style="margin-top:26px"><span class="a" style="--d:150;display:inline-block">The</span> <span class="g pop" style="--d:450">1K</span> <span class="a" style="--d:700;display:inline-block">Plan</span></h1>
   <div class="underline"></div>
-  <p class="lede a" style="--d:1100;max-width:52ch">What I found studying the AI movie channels getting <b>hundreds of thousands to over a million views</b>, and exactly how I'll bring it into every video to take us from <b>119 to 1,000 subscribers</b> and monetization.</p>
+  <p class="lede a" style="--d:1100;max-width:44ch">What I found studying the AI movie channels getting <b>hundreds of thousands to over a million views</b>, and exactly how I'll bring it into every video to take us from <b>119 to 1,000 subscribers</b> and monetization.</p>
   <div class="tag ghost reel-label a" style="--d:1400">Research sample · top AI movie thumbnails, Nov 2026</div>
   <div class="reel" aria-hidden="true"><div class="reel-track">
     <img src="img/thumb-love-has-no-age.jpg" alt=""><img src="img/thumb-dna-result.jpg" alt=""><img src="img/thumb-emergency.jpg" alt=""><img src="img/thumb-she-pretended.jpg" alt=""><img src="img/thumb-i-wish.jpg" alt=""><img src="img/thumb-never-cheated.jpg" alt="">
@@ -357,6 +391,7 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 
 <!-- 2 AGENDA -->
 <section class="slide" data-name="Agenda">
+  <div class="hero" data-morph="hero" style="right:96px;top:44px;width:170px;height:170px"><div class="disc"><img src="img/thumb-love-has-no-age.jpg" alt=""></div></div>
   <div class="eyebrow a">The game plan</div>
   <h2 class="a" style="--d:120">Six changes. <span class="g">One goal.</span></h2>
   <div class="agenda">
@@ -375,7 +410,7 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
   <div class="eyebrow a">The goal</div>
   <h2 class="a" style="--d:120">From 119 to <span class="g">1,000</span></h2>
   <div class="goal-wrap">
-    <div class="ring zoom" style="--d:200">
+    <div class="ring zoom" data-morph="hero" style="--d:200">
       <canvas id="confetti" width="620" height="620"></canvas>
       <svg viewBox="0 0 200 200"><circle cx="100" cy="100" r="88" fill="none" stroke="#1a130d" stroke-width="14"/><circle id="ringFill" cx="100" cy="100" r="88" fill="none" stroke="url(#gr)" stroke-width="14" stroke-linecap="round" stroke-dasharray="552.9" stroke-dashoffset="487.1"/><defs><linearGradient id="gr" x1="0" x2="1"><stop offset="0" stop-color="#e0262f"/><stop offset="1" stop-color="#f0b92c"/></linearGradient></defs></svg>
       <div class="center"><div class="big num" id="subCount">119</div><div class="lbl" id="subLbl">Subscribers today</div></div>
@@ -423,8 +458,8 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
       <div class="tgrid">
         <div class="shot pop" style="--d:400"><img src="img/thumb-i-wish.jpg" alt="I Wish I Met You First thumbnail, gold title text"></div>
         <div class="shot pop" style="--d:550"><img src="img/thumb-never-cheated.jpg" alt="He Never Cheated thumbnail, red and white text"></div>
-        <div class="shot pop" style="--d:700"><img src="img/thumb-emergency.jpg" alt="They Called His Ex thumbnail, white and gold text"></div>
-        <div class="shot pop" style="--d:850"><img src="img/thumb-dna-result.jpg" alt="The DNA Result thumbnail, gold and white text"></div>
+        <div class="shot pop" data-morph="emerg" style="--d:700"><img src="img/thumb-emergency.jpg" alt="They Called His Ex thumbnail, white and gold text"></div>
+        <div class="shot pop" data-morph="dna" style="--d:850"><img src="img/thumb-dna-result.jpg" alt="The DNA Result thumbnail, gold and white text"></div>
       </div>
       <p class="src a" style="--d:1000">Golden Lens Movies TV and Sarah Osagie Studios. Gold, white and red text on bright, warm images.</p>
     </div>
@@ -436,8 +471,8 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
   <div class="eyebrow a">01 · Thumbnail · Brightness</div>
   <h2 class="a" style="--d:120">Drag it. <span class="g">See the click.</span></h2>
   <div class="row" style="align-items:center">
-    <div style="flex:1.4;min-width:0;--d:250" class="zoom">
-      <div class="compare" id="compare">
+    <div style="flex:1.4;min-width:0">
+      <div class="compare zoom" id="compare" data-morph="emerg" style="--d:250">
         <img class="bright" src="img/thumb-emergency.jpg" alt="Bright, high-contrast grade">
         <img class="dull" src="img/thumb-emergency.jpg" alt="Dull, dark grade">
         <div class="handle"></div>
@@ -509,25 +544,21 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 
 <!-- 9 CONTENT -->
 <section class="slide" data-name="Content ideas">
-  <div class="eyebrow a">03 · Content ideas</div>
-  <h2 class="a" style="--d:120">Love, secrets and marriage <span class="g">win the views</span></h2>
-  <div class="tiers">
-    <div class="tier t1 zoom" style="--d:300">
-      <div class="head">1M+</div><h3>Our core lane</h3>
-      <ul><li><b>Love stories</b>: falling in love against the odds</li><li><b>Hidden identity</b>: the billionaire CEO who poses as a driver to find real love</li><li><b>Forbidden love</b>: age gap, family says no</li></ul>
-      <div class="ev"><img src="img/thumb-love-has-no-age.jpg" alt="Love Has No Age thumbnail"><p><b>Love Has No Age: 1.6M</b> in a month. "She Thought He Was Just a Driver" ranks in the same search.</p></div>
+  <div class="eyebrow a" style="justify-content:center">03 · Content ideas</div>
+  <h2 class="a" style="--d:120;text-align:center;font-size:72px">Love, secrets and marriage <span class="g">win the views</span></h2>
+  <div class="quad-wrap">
+    <div class="qlab l fromL" style="--d:1500"><span class="hd">1.6M</span><h3>Love stories</h3><p>Falling in love against the odds. <b>Love Has No Age</b>: 1.6M views in one month.</p></div>
+    <div class="quad">
+      <div class="q tl" style="--d:0"><img style="object-position:92% 50%" src="img/thumb-love-has-no-age.jpg" alt="Love Has No Age thumbnail"></div>
+      <div class="q tr" style="--d:180"><img src="img/thumb-driver.jpg" alt="She Thought He Was Just a Driver thumbnail"></div>
+      <div class="q bl" style="--d:360"><img src="img/thumb-wife.jpg" alt="The Wife He Threw Away thumbnail"></div>
+      <div class="q br" data-morph="dna" style="--d:540"><img src="img/thumb-dna-result.jpg" alt="The DNA Result thumbnail"></div>
     </div>
-    <div class="tier t2 zoom" style="--d:500">
-      <div class="head">100K+</div><h3>Strong support</h3>
-      <ul><li><b>Marriage drama</b> and infidelity</li><li><b>Betrayal</b> and revenge</li><li><b>Family drama</b>: DNA tests, family secrets</li></ul>
-      <div class="ev"><img src="img/thumb-dna-result.jpg" alt="The DNA Result thumbnail"><p><b>The Wife He Threw Away: 575K</b>. <b>The DNA Result: 437K</b>.</p></div>
-    </div>
-    <div class="tier t3 zoom" style="--d:700">
-      <div class="head">100s</div><h3>Use sparingly</h3>
-      <ul><li><b>Moral and lesson stories</b> with no romance hook</li><li>They get views, but in the hundreds, not the millions</li></ul>
-      <div class="ev"><img src="img/row-good-boy.jpg" alt="Good Boy post-apocalyptic AI horror film listing" style="object-position:left"><p><b>The exception:</b> Good Boy, an AI horror film, hit <b>1.3M</b>. A great story wins in any genre when the thumbnail, title, story and visuals are strong.</p></div>
-    </div>
+    <div class="qlab fromR" style="--d:1650"><span class="hd">Hidden identity</span><h3>The billionaire in disguise</h3><p>The CEO who poses as a driver to find real love. <b>She Thought He Was Just a Driver</b> ranks on the "ai movie" search.</p></div>
+    <div class="qlab l fromL" style="--d:1800"><span class="hd">575K</span><h3>Marriage &amp; infidelity</h3><p>Betrayal, cheating, revenge. <b>The Wife He Threw Away</b>: 575K views in 4 weeks.</p></div>
+    <div class="qlab fromR" style="--d:1950"><span class="hd">437K</span><h3>Family drama</h3><p>DNA tests and family secrets. <b>The DNA Result</b>: 437K views in 3 months.</p></div>
   </div>
+  <p class="qfoot a" style="--d:2300">Lesson-only stories get views in the hundreds, not the millions. <b>The exception:</b> Good Boy, an AI horror film, hit <b>1.3M</b>. A great story wins in any genre.</p>
 </section>
 
 <!-- 10 STORYLINE -->
@@ -560,7 +591,7 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
   <div class="eyebrow a">05 · Visuals · Opening</div>
   <h2 class="a" style="--d:120">No intro. <span class="g">Straight into the movie.</span></h2>
   <div class="row" style="align-items:center">
-    <div class="frame-title zoom" style="--d:250;flex:1.25">
+    <div class="frame-title zoom" data-morph="open" style="--d:250;flex:1.25">
       <div class="shot" style="aspect-ratio:704/414"><img class="kb" src="img/love-scars-title.jpg" alt="Love & Scars opening frame: rooftop pool over a city, title text and 'Written by: Grace E.' credit"></div>
       <div class="callout c1 pop" style="--d:900">Title on screen over the first scene</div>
       <div class="callout c2 pop" style="--d:1200">"Written by" credit for our writer</div>
@@ -581,8 +612,8 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
   <p class="lede a" style="--d:250;font-size:22px">More context, less confusion. The viewer always knows where we are, what just happened, and what it cost.</p>
   <div class="timeline">
     <div class="playhead" aria-hidden="true"></div>
-    <div class="clip a" style="--d:400"><div class="pic"><img src="img/love-scars-skyline.jpg" alt="Aerial city skyline at sunset used as an establishing shot"></div><div class="cap"><b>1 · Establish</b><h3>Scenery introduces the scene</h3><p>A city, a house, a hospital: show where we are before anyone speaks.</p></div></div>
-    <div class="clip a" style="--d:600"><div class="pic"><img src="img/love-scars-underwater.jpg" alt="Couple embracing underwater, a clean cinematic AI shot"></div><div class="cap"><b>2 · The scene</b><h3>The moment itself</h3><p>Clean, cinematic shots with the emotion clear on every face.</p></div></div>
+    <div class="clip a" style="--d:400"><div class="pic" data-morph="open"><img src="img/love-scars-skyline.jpg" alt="Aerial city skyline at sunset used as an establishing shot"></div><div class="cap"><b>1 · Establish</b><h3>Scenery introduces the scene</h3><p>A city, a house, a hospital: show where we are before anyone speaks.</p></div></div>
+    <div class="clip a" style="--d:600"><div class="pic" data-morph="uw"><img src="img/love-scars-underwater.jpg" alt="Couple embracing underwater, a clean cinematic AI shot"></div><div class="cap"><b>2 · The scene</b><h3>The moment itself</h3><p>Clean, cinematic shots with the emotion clear on every face.</p></div></div>
     <div class="clip a" style="--d:800"><div class="pic"><div class="after">She stares at the message long after he leaves.</div></div><div class="cap"><b>3 · Aftermath</b><h3>Show the consequence</h3><p>An aftermath action after every scene: the reaction, the silence, the decision.</p></div></div>
     <div class="clip a" style="--d:1000"><div class="pic"><img src="img/love-scars-skyline.jpg" alt=""><div class="fadepic fadeanim" style="position:absolute;inset:0;background:#000"></div></div><div class="cap"><b>4 · Fade</b><h3>Fade to the next scene</h3><p>Every scene ends on a fade, so cuts never feel abrupt.</p></div></div>
   </div>
@@ -604,7 +635,7 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
       </div>
     </div>
     <div class="col" style="flex:.9">
-      <div class="shot zoom" style="--d:400;aspect-ratio:720/418"><img src="img/love-scars-underwater.jpg" alt="Clean underwater shot from Love & Scars with no visible glitches"></div>
+      <div class="shot zoom" data-morph="uw" style="--d:400;aspect-ratio:720/418"><img src="img/love-scars-underwater.jpg" alt="Clean underwater shot from Love & Scars with no visible glitches"></div>
       <div class="policy a" style="--d:900"><h3>Why it matters for monetization</h3><p>Since July 2025 YouTube's <b>inauthentic content</b> policy blocks mass-produced, repetitive videos from earning. Original scripts, a writer credit and clean visuals keep us on the right side. Realistic AI scenes also need YouTube's <b>altered or synthetic content</b> label at upload.</p></div>
     </div>
   </div>
@@ -615,7 +646,7 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
   <div class="eyebrow a">06 · TikTok</div>
   <h2 class="a" style="--d:120">Two platforms. <span class="g">One community.</span></h2>
   <div class="tt">
-    <div class="phone zoom" style="--d:250">
+    <div class="phone zoom" data-morph="uw" style="--d:250">
       <div class="screen">
         <img src="img/love-scars-underwater.jpg" alt="Example TikTok clip built from a movie scene">
         <div class="shade"></div>
@@ -690,13 +721,32 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
   const timers=[];
   function clearTimers(){while(timers.length)clearTimeout(timers.pop());}
 
+  function restore(sl){sl.querySelectorAll('[data-mt]').forEach(e=>{e.style.animation='';e.style.transition='';e.style.transform='';e.style.transformOrigin='';e.removeAttribute('data-mt');});}
+  function morph(old,s){
+    const sc=stage.getBoundingClientRect().width/1600;
+    s.querySelectorAll('[data-morph]').forEach(el=>{
+      const src=old.querySelector('[data-morph="'+el.dataset.morph+'"]');if(!src)return;
+      const o=src.getBoundingClientRect();
+      for(let p=el;p&&p!==s;p=p.parentElement){p.style.animation='none';p.setAttribute('data-mt','');}
+      const n=el.getBoundingClientRect();if(!n.width||!n.height)return;
+      src.style.opacity='0';
+      el.style.transformOrigin='0 0';el.style.transition='none';
+      el.style.transform='translate('+((o.left-n.left)/sc)+'px,'+((o.top-n.top)/sc)+'px) scale('+(o.width/n.width)+','+(o.height/n.height)+')';
+      el.getBoundingClientRect();
+      requestAnimationFrame(()=>{el.style.transition='transform 1.15s cubic-bezier(.7,0,.2,1)';el.style.transform='none';});
+    });
+  }
   function go(i){
     i=Math.max(0,Math.min(slides.length-1,i));
     if(i===cur)return;
     clearTimers();
-    if(cur>=0){const old=slides[cur];old.classList.remove('active');old.classList.add('leaving');setTimeout(()=>old.classList.remove('leaving'),900);}
-    cur=i;const s=slides[i];
+    stage.style.setProperty('--dir',i>cur?1:-1);
+    const old=cur>=0?slides[cur]:null,s=slides[i];
+    if(old){restore(old);old.classList.remove('active');old.classList.add('leaving');clearTimeout(old._t);old._t=setTimeout(()=>{old.classList.remove('leaving');old.querySelectorAll('[data-morph]').forEach(e=>e.style.opacity='');},650);}
+    clearTimeout(s._t);s.classList.remove('leaving');s.querySelectorAll('[data-morph]').forEach(e=>e.style.opacity='');
+    cur=i;
     void s.offsetWidth;s.classList.add('active');
+    if(old&&!reduce)morph(old,s);
     document.getElementById('prog').style.width=((i+1)/slides.length*100)+'%';
     document.getElementById('count').textContent=(i+1)+' / '+slides.length;
     [...dots.children].forEach((d,k)=>d.setAttribute('aria-current',k===i?'true':'false'));
@@ -766,7 +816,7 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
   const cd=document.getElementById('cd');[2,1].forEach((n,k)=>setTimeout(()=>{cd.textContent=n;},900*(k+1)));
   setTimeout(()=>{if(reduce)return;for(let k=0;k<28;k++){const s=document.createElement('i');s.className='spark';const a=Math.random()*Math.PI*2,d=160+Math.random()*260;s.style.cssText=`left:50%;top:50%;--x:${Math.cos(a)*d}px;--y:${Math.sin(a)*d}px;animation-delay:${Math.random()*.2}s`;splash.appendChild(s);}},3000);
   let closed=false;
-  function closeSplash(){if(closed)return;closed=true;splash.classList.add('gone');const start=slides[cur];start.classList.remove('active');void start.offsetWidth;start.classList.add('active');}
+  function closeSplash(){if(closed)return;closed=true;splash.classList.add('gone');const start=slides[cur];restore(start);start.classList.remove('active');void start.offsetWidth;start.classList.add('active');}
   splash.addEventListener('click',closeSplash);
   setTimeout(closeSplash,12000);
 
