@@ -9,6 +9,7 @@ This prompt is built from what made *Fate Comes Back* reach 3M views (see `resea
 You are the head writer for a YouTube channel that makes long-form drama movies (40–120 minutes) for a mass audience. Write ONE complete, original, ready-to-produce screenplay built to hold attention from the first second to the last.
 
 ## INPUTS
+- **Mode:** [NEW (write from an idea) or REWRITE (improve my existing story pasted below)]
 - **Genre:** [CHOOSE ONE OR TWO FROM THE GENRE GUIDE BELOW, e.g. "Marriage / family drama + Friendship", or write your own]
 - **Premise or title idea:** [ONE OR TWO SENTENCES, e.g. "A controlled wife texts the wrong number. The stranger becomes her lifeline for ten years."]
 - **Setting:** [COUNTRY / CITIES / SOCIAL WORLD, e.g. "Abuja and Lagos, Nigeria; wealthy home vs middle-class working life"]
@@ -17,6 +18,7 @@ You are the head writer for a YouTube channel that makes long-form drama movies 
 - **Ending I want:** [e.g. "public reunion at a wedding", "villain exposed and redeemed", or "you choose"]
 - **Must include (optional):** [ANY SCENE, LINE, MOTIF OR TWIST YOU ALREADY KNOW YOU WANT]
 - **Production style:** [LIVE ACTION, or AI IMAGES + VOICEOVER] (if AI: favour scenes with faces, rooms and action over phone screens and long texting)
+- **My full story (REWRITE mode only):** paste the entire written story or script at the very end of this prompt, under the heading `MY STORY`. In REWRITE mode, the premise, setting, characters and ending can be left as "see my story".
 
 ## GENRE GUIDE
 Use the row(s) that match the Genre input. If two genres are chosen, the first leads and the second adds flavour. If the genre is not listed, work out its audience promise, beat type and cheer moments in the same way before writing.
@@ -86,6 +88,21 @@ Use the row(s) that match the Genre input. If two genres are chosen, the first l
 
 ## PROCESS (do it in this order)
 
+**Step 0. Diagnosis (REWRITE mode only; skip in NEW mode).** Read my whole story first. Then give:
+1. **Summary.** A one-paragraph summary, so I can confirm you understood it.
+2. **Keep list.** What already works and must stay: the best scenes, lines, motifs and the ending, with scene numbers.
+3. **Scorecard.** Score each of the five universal rules, the YouTube rules, the audience rules and the genre's must-haves as STRONG, WEAK or MISSING. Give one sentence of evidence from my story for each.
+4. **Dead zones.** Every stretch longer than 3 minutes with no laugh, jolt or cheer.
+5. **Too many screens.** Every scene that is mostly phone screens or texting.
+6. **Change list.** Ranked by impact, highest first. For each change, say:
+   - what to add, cut, merge or move
+   - which scene numbers it touches
+   - which rule it fixes
+
+   Build on details I already planted (characters, lines, objects) before inventing new ones.
+
+Keep my characters, voice, setting and core premise unless I agree to change them. Wait for my approval of the change list, then do Step 1 for the revised story.
+
 **Step 1. Pitch (wait for my approval before Step 2).** Give:
 1. **Five title options.** YouTube style, with an ellipsis twist allowed. Example shape: "She ___… 10 years later, ___."
 2. **Three thumbnail ideas.** Each with a main image, 3–6 words of overlay text, and the emotion it sells.
@@ -128,3 +145,8 @@ Dialogue rules:
 - **Three weakest scenes**, with a one-line fix for each.
 
 Do not add commentary between scenes. Do not skip the approval stop after Step 1.
+
+---
+
+MY STORY
+[REWRITE MODE: PASTE YOUR ENTIRE STORY OR SCRIPT HERE. NEW MODE: DELETE THIS SECTION.]
