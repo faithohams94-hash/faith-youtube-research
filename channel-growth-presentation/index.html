@@ -201,7 +201,8 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 .formula{display:flex;align-items:stretch;gap:0;margin-top:34px;font-family:var(--display);text-transform:uppercase}
 .formula .part{padding:26px 34px;font-size:58px;line-height:1}
 .formula .p1{background:var(--gold);color:var(--ink);border-radius:14px 0 0 14px}
-.formula .p2{background:var(--panel);color:var(--white);border:2px solid var(--gold);border-left:0;border-radius:0 14px 14px 0;font-size:40px;display:flex;align-items:center}
+.formula .p2{background:var(--panel);color:var(--white);border:2px solid var(--gold);border-left:0;border-radius:0 14px 14px 0;font-size:36px;line-height:1.1;display:flex;align-items:center;flex:1;min-width:0}
+.formula .p1{white-space:nowrap;font-size:54px;display:flex;align-items:center}
 .formula .sep{display:flex;align-items:center;background:var(--red);color:var(--white);font-size:58px;padding:0 18px}
 .legend{display:flex;gap:28px;margin-top:12px;font-size:16px;color:var(--muted)}
 .legend b{color:var(--gold)}
@@ -293,6 +294,13 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 .after{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:16px;background:radial-gradient(circle,#2b1d0f,#0b0805);font-family:var(--serif);font-style:italic;font-size:22px;color:var(--gold-soft)}
 .checks{display:grid;grid-template-columns:1fr 1fr;gap:14px 30px;margin-top:8px}
 .ck{display:flex;gap:14px;align-items:flex-start;font-size:19px;line-height:1.4}
+.today-facts .fact{padding:12px 0}.today-facts .fact .v{font-size:40px;min-width:110px}
+.ck i.ok{background:var(--gold);color:var(--ink)}
+.vrow{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.vrow figure{margin:0;display:flex;flex-direction:column;gap:8px;min-width:0}
+.vrow .shot{aspect-ratio:452/253}
+.vrow figcaption{font-size:16px;color:var(--muted)}
+.vrow figcaption b{color:var(--white)}
 .ck i{flex:none;width:28px;height:28px;border-radius:8px;background:var(--red);display:grid;place-items:center;font-style:normal;font-weight:800;font-size:16px}
 .ck b{display:block}
 .ck span{color:var(--muted);font-size:16px}
@@ -340,12 +348,77 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 .connector i{display:block;height:100%;background:linear-gradient(90deg,var(--red),var(--gold));width:100%}
 .slide.active .connector i{animation:growW 3s cubic-bezier(.6,0,.3,1) .5s both}
 
-/* close */
-.s-close{justify-content:center;align-items:center;text-align:center}
-.s-close h1{font-size:170px;line-height:.9}
-.s-close .lede{margin-inline:auto;text-align:center}
-.bigcount{font-family:var(--display);font-size:260px;line-height:1;color:var(--gold);text-shadow:0 0 60px rgba(240,185,44,.35)}
-#confetti2{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+/* close: one channel header morphing from today to 1K */
+.s-future{padding:0;--ez:cubic-bezier(.76,0,.14,1)}
+.slide.active.s-future > *{animation:none}
+.s-future > *{position:absolute;transition:left 1.5s var(--ez),top 1.5s var(--ez),width 1.5s var(--ez),height 1.5s var(--ez),font-size 1.5s var(--ez),opacity .9s ease,transform 1.5s var(--ez),filter 1s ease,color 1s ease}
+.s-future.pre > *:not(canvas){opacity:0;filter:blur(14px)}
+.s-future.notrans,.s-future.notrans *{transition:none!important}
+#confetti2{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:9}
+.ch-tag{left:350px;top:92px;display:grid;font:800 18px/1 var(--body);letter-spacing:.24em;text-transform:uppercase;color:var(--gold)}
+.ch-tag span{grid-area:1/1;transition:opacity .8s ease,filter .8s ease}
+.ch-tag .t2{opacity:0;filter:blur(8px)}
+.ch-banner{left:350px;top:132px;width:900px;height:96px;border-radius:16px;overflow:hidden;box-shadow:0 0 0 1px var(--line)}
+.ch-banner img{width:100%;height:100%;object-fit:cover;display:block}
+.ch-avatar{left:350px;top:262px;width:150px;height:150px;border-radius:50%;z-index:2}
+.ch-avatar .disc{position:absolute;inset:0;border-radius:50%;overflow:hidden;box-shadow:0 0 0 6px var(--ink),0 20px 60px rgba(0,0,0,.6)}
+.ch-avatar .disc img{width:100%;height:100%;object-fit:cover}
+.ch-avatar::before{content:"";position:absolute;inset:-9%;border:3px solid var(--gold);border-radius:50%;opacity:0;transition:opacity 1s ease 1.2s;animation:orbit 12s linear infinite}
+.ch-name{left:530px;top:270px;font:800 56px/1.1 var(--body);white-space:nowrap;color:var(--white)}
+.ch-handle{left:532px;top:346px;font-size:22px;color:var(--muted)}
+.ch-subs{left:530px;top:380px;font-size:36px;font-family:var(--display);color:var(--white);display:flex;align-items:baseline;gap:.25em;white-space:nowrap}
+.ch-subs .w{font:700 .62em/1 var(--body);color:var(--muted);transition:font-size 1.5s var(--ez)}
+.odo{display:inline-flex;height:1.1em;overflow:hidden;line-height:1.1em}
+.odo .col{display:inline-block;width:.5em;overflow:hidden;text-align:center;transition:width .8s var(--ez),opacity .8s ease}
+.odo .col.hide{width:0;opacity:0}
+.odo .strip{display:flex;flex-direction:column;transition:transform 2.6s cubic-bezier(.15,.75,.1,1)}
+.odo .strip span{height:1.1em;display:block}
+.odo .cm{display:inline-block;width:0;opacity:0;overflow:hidden;transition:width .6s var(--ez),opacity .6s ease}
+.odo .cm.show{width:.24em;opacity:1}
+.ch-stamp{left:1120px;top:330px;font-family:var(--display);font-size:66px;line-height:1;text-transform:uppercase;color:var(--red);border:5px solid var(--red);border-radius:14px;padding:12px 26px 10px;background:rgba(14,10,7,.7);text-align:center;opacity:0;transform:rotate(-16deg) scale(2.6);z-index:5}
+.ch-stamp small{display:block;font:800 15px/1.4 var(--body);letter-spacing:.14em;color:var(--white);margin-top:6px}
+.ch-vids{left:350px;top:452px;width:900px;display:flex}
+.vt{flex:0 0 290px;margin-left:15px;display:flex;flex-direction:column;gap:8px;min-width:0;transition:flex-basis 1.5s var(--ez),margin 1.5s var(--ez),opacity .9s ease}
+.vt:first-child{margin-left:0}
+.vt .pic{aspect-ratio:452/253;border-radius:12px;overflow:hidden;background:#000;box-shadow:0 0 0 1px var(--line)}
+.vt .pic img{width:100%;height:100%;object-fit:cover;display:block;transition:filter 1.4s ease,transform 1.5s var(--ez)}
+.vt span{font-size:16px;font-weight:700;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.vt.nx{flex-basis:0;margin-left:0;opacity:0}
+.vt.nx .pic{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:6px;background:linear-gradient(150deg,#3b2a0c,#1a130d);box-shadow:inset 0 0 0 2px var(--gold)}
+.vt.nx .pic b{font-family:var(--display);font-weight:400;font-size:30px;text-transform:uppercase;color:var(--gold);white-space:nowrap}
+.vt.nx .pic i{font-style:normal;font-size:13px;font-weight:700;color:var(--white);white-space:nowrap}
+.ch-note{left:350px;top:690px;font-size:26px;color:var(--muted)}
+.ch-note b{color:var(--white)}
+.ch-close{left:0;right:0;top:770px;text-align:center;opacity:0;transform:translateY(30px)}
+.ch-close h1{font-size:76px}
+.ch-close h1 span{color:var(--red)}
+.ch-close p{margin:6px 0 0;font-size:26px;color:var(--gold-soft)}
+.replay{right:40px;bottom:30px;left:auto;top:auto;font:700 15px/1 var(--body);color:var(--muted);background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:12px 18px;cursor:pointer;z-index:10}
+.replay:hover{color:var(--gold);border-color:var(--gold)}
+/* the future state: everything glides to its new place, in sequence */
+.s-future.future .ch-tag{left:90px;top:26px}
+.s-future.future .ch-tag .t1{opacity:0;filter:blur(8px)}
+.s-future.future .ch-tag .t2{opacity:1;filter:none}
+.s-future.future .ch-banner{left:90px;top:58px;width:1420px;height:236px;transition-delay:0s}
+.s-future.future .ch-avatar{left:150px;top:196px;width:250px;height:250px;transition-delay:.12s}
+.s-future.future .ch-avatar::before{opacity:1}
+.s-future.future .ch-name{left:440px;top:312px;font-size:78px;transition-delay:.2s}
+.s-future.future .ch-handle{left:444px;top:406px;transition-delay:.26s}
+.s-future.future .ch-subs{left:440px;top:432px;font-size:118px;color:var(--gold);transition-delay:.3s}
+.s-future.future .ch-subs .w{font-size:.24em}
+.s-future.future .ch-vids{left:90px;top:598px;width:1420px;transition-delay:.4s}
+.s-future.future .vt{flex-basis:225px;margin-left:14px;transition-delay:.4s}
+.s-future.future .vt:first-child{margin-left:0}
+.s-future.future .vt .pic img{filter:brightness(1.2) saturate(1.2) contrast(1.05);transition-delay:1.2s}
+.s-future.future .vt.v3 .pic img{transform:scale(1.8)}
+.s-future.future .vt.nx{opacity:1}
+.s-future.future .vt.nx:nth-child(4){transition-delay:.9s}
+.s-future.future .vt.nx:nth-child(5){transition-delay:1.05s}
+.s-future.future .vt.nx:nth-child(6){transition-delay:1.2s}
+.s-future.future .ch-note{opacity:0;filter:blur(10px);transition-delay:0s}
+.s-future.stamped .ch-stamp{opacity:1;transform:rotate(-8deg) scale(1);transition:opacity .25s ease,transform .55s cubic-bezier(.3,1.5,.5,1)}
+.s-future.stamped .ch-close{opacity:1;transform:none;transition-delay:.5s}
+
 
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;animation-delay:0ms!important;transition-duration:.001ms!important}
@@ -377,11 +450,11 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 
 <!-- 1 TITLE -->
 <section class="slide s-title" data-name="Title">
-  <div class="hero zoom" data-morph="hero" style="--d:500;right:110px;top:96px;width:420px;height:420px"><div class="disc"><img src="img/love-scars-underwater.jpg" alt="Couple embracing underwater, a scene from an AI movie"></div></div>
+  <div class="hero zoom" data-morph="hero" style="--d:500;right:110px;top:96px;width:420px;height:420px"><div class="disc"><img src="img/mary-avatar.jpg" alt="Mary, owner of Mary's AI Movies"></div></div>
   <div class="eyebrow a" style="--d:0">Research presentation · AI movie channel</div>
   <h1 style="margin-top:26px"><span class="a" style="--d:150;display:inline-block">The</span> <span class="g pop" style="--d:450">1K</span> <span class="a" style="--d:700;display:inline-block">Plan</span></h1>
   <div class="underline"></div>
-  <p class="lede a" style="--d:1100;max-width:44ch">What I found studying the AI movie channels getting <b>hundreds of thousands to over a million views</b>, and exactly how I'll bring it into every video to take us from <b>119 to 1,000 subscribers</b> and monetization.</p>
+  <p class="lede a" style="--d:1100;max-width:44ch">What I found studying the AI movie channels getting <b>hundreds of thousands to over a million views</b>, and exactly how I'll bring it into every video to take us from <b>114 to 1,000 subscribers</b> and monetization.</p>
   <div class="tag ghost reel-label a" style="--d:1400">Research sample · top AI movie thumbnails, Nov 2026</div>
   <div class="reel" aria-hidden="true"><div class="reel-track">
     <img src="img/thumb-love-has-no-age.jpg" alt=""><img src="img/thumb-dna-result.jpg" alt=""><img src="img/thumb-emergency.jpg" alt=""><img src="img/thumb-she-pretended.jpg" alt=""><img src="img/thumb-i-wish.jpg" alt=""><img src="img/thumb-never-cheated.jpg" alt="">
@@ -389,38 +462,68 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
   </div></div>
 </section>
 
-<!-- 2 AGENDA -->
-<section class="slide" data-name="Agenda">
-  <div class="hero" data-morph="hero" style="right:96px;top:44px;width:170px;height:170px"><div class="disc"><img src="img/thumb-love-has-no-age.jpg" alt=""></div></div>
-  <div class="eyebrow a">The game plan</div>
-  <h2 class="a" style="--d:120">Six changes. <span class="g">One goal.</span></h2>
-  <div class="agenda">
-    <button class="ag pop" style="--d:300" data-jump="4" type="button"><span class="n">01</span><div><h3>Thumbnail</h3><p>Brand colours, text, brighter</p></div></button>
-    <button class="ag pop" style="--d:400" data-jump="7" type="button"><span class="n">02</span><div><h3>Title</h3><p>Movie name + the contradiction</p></div></button>
-    <button class="ag pop" style="--d:500" data-jump="8" type="button"><span class="n">03</span><div><h3>Content ideas</h3><p>The niches that hit 1M views</p></div></button>
-    <button class="ag pop" style="--d:600" data-jump="9" type="button"><span class="n">04</span><div><h3>Storyline</h3><p>The structure of a 1M-view story</p></div></button>
-    <button class="ag pop" style="--d:700" data-jump="10" type="button"><span class="n">05</span><div><h3>Visuals</h3><p>Cold open, scenery, aftermath, fades</p></div></button>
-    <button class="ag pop" style="--d:800" data-jump="13" type="button"><span class="n">06</span><div><h3>TikTok</h3><p>A second community feeding YouTube</p></div></button>
-    <button class="ag goal pop" style="--d:1000" data-jump="2" type="button"><span class="n">★</span><div><h3>The goal: 1,000 subscribers and a monetized channel</h3><p>Every change in this deck serves this number.</p></div></button>
+<!-- 2 TODAY -->
+<section class="slide" data-name="Channel today">
+  <div class="eyebrow a">Where we start</div>
+  <h2 class="a" style="--d:120">Mary's AI Movies <span class="g">today</span></h2>
+  <div class="row" style="gap:60px">
+    <div class="col" style="flex:0 0 330px;align-items:center;gap:14px">
+      <div class="hero zoom" data-morph="hero" style="--d:200;position:relative;width:210px;height:210px;flex:none;margin-top:14px"><div class="disc"><img src="img/mary-avatar.jpg" alt="Mary, owner of Mary's AI Movies"></div></div>
+      <div class="today-facts" style="width:100%">
+        <div class="fact fromL" style="--d:500"><div class="v num">114</div><div class="t">Subscribers</div><div class="s">@Marysaimovies</div></div>
+        <div class="fact fromL" style="--d:650"><div class="v num">3</div><div class="t">Videos</div><div class="s">all from The Sworn Bachelors</div></div>
+        <div class="fact fromL" style="--d:800"><div class="v num">4.8K</div><div class="t">Best video</div><div class="s">42× our subscriber count, in 3 weeks</div></div>
+      </div>
+    </div>
+    <div class="col" style="flex:1;gap:18px">
+      <div class="shot wipe" style="--d:300;aspect-ratio:1393/149"><img src="img/mary-banner.jpg" alt="Mary's AI Movies banner: Love, Betrayal, Revenge, Hope. Real Stories. AI Magic."></div>
+      <div class="vrow">
+        <figure class="pop" style="--d:500"><div class="shot"><img src="img/mary-v1.jpg" alt="The Sworn Bachelors: Love or Legacy? thumbnail"></div><figcaption><b>681 views</b> · 9 days</figcaption></figure>
+        <figure class="pop" style="--d:650"><div class="shot"><img src="img/mary-v2.jpg" alt="The Sworn Bachelors: Michael's Secret thumbnail"></div><figcaption><b>609 views</b> · 2 weeks</figcaption></figure>
+        <figure class="pop" style="--d:800"><div class="shot"><img src="img/mary-v3.jpg" alt="The Sworn Bachelors thumbnail with black bars on both sides"></div><figcaption><b>4.8K views</b> · 3 weeks</figcaption></figure>
+      </div>
+      <div class="checks" style="grid-template-columns:1fr 1fr">
+        <div class="ck fromR" style="--d:1000"><i class="ok">✓</i><div><b>Brand is set</b><span>Gold, red and white banner: "Real Stories. AI Magic."</span></div></div>
+        <div class="ck fromR" style="--d:1100"><i class="ok">✓</i><div><b>Titles already hook</b><span>Movie name + the contradiction. We sharpen it.</span></div></div>
+        <div class="ck fromR" style="--d:1200"><i>✗</i><div><b>Thumbnails need lift</b><span>Dark grade, and one has black bars on both sides.</span></div></div>
+        <div class="ck fromR" style="--d:1300"><i>✗</i><div><b>Only 3 uploads</b><span>Consistency is the biggest lever we have.</span></div></div>
+      </div>
+    </div>
   </div>
 </section>
 
 <!-- 3 GOAL -->
 <section class="slide" data-name="Goal" data-enter="goal">
   <div class="eyebrow a">The goal</div>
-  <h2 class="a" style="--d:120">From 119 to <span class="g">1,000</span></h2>
+  <h2 class="a" style="--d:120">From 114 to <span class="g">1,000</span></h2>
   <div class="goal-wrap">
     <div class="ring zoom" data-morph="hero" style="--d:200">
       <canvas id="confetti" width="620" height="620"></canvas>
       <svg viewBox="0 0 200 200"><circle cx="100" cy="100" r="88" fill="none" stroke="#1a130d" stroke-width="14"/><circle id="ringFill" cx="100" cy="100" r="88" fill="none" stroke="url(#gr)" stroke-width="14" stroke-linecap="round" stroke-dasharray="552.9" stroke-dashoffset="487.1"/><defs><linearGradient id="gr" x1="0" x2="1"><stop offset="0" stop-color="#e0262f"/><stop offset="1" stop-color="#f0b92c"/></linearGradient></defs></svg>
-      <div class="center"><div class="big num" id="subCount">119</div><div class="lbl" id="subLbl">Subscribers today</div></div>
+      <div class="center"><div class="big num" id="subCount">114</div><div class="lbl" id="subLbl">Subscribers today</div></div>
     </div>
     <div class="miles">
-      <div class="mile now fromR" style="--d:500"><div class="v num">119</div><div><h3>Where we are</h3><p>The base we build on. 881 subscribers to go.</p></div></div>
+      <div class="mile now fromR" style="--d:500"><div class="v num">114</div><div><h3>Where we are</h3><p>Mary's AI Movies today. 886 subscribers to go.</p></div></div>
       <div class="mile mid fromR" style="--d:700"><div class="v num">500</div><div><h3>First YouTube Partner Program tier</h3><p>500 subscribers, 3 uploads in 90 days, and 3,000 watch hours in 12 months unlocks fan funding (memberships, Super Thanks) where available.</p></div></div>
       <div class="mile top fromR" style="--d:900"><div class="v num">1,000</div><div><h3>Full monetization: ad revenue</h3><p>1,000 subscribers plus 4,000 public watch hours in the last 12 months (or 10M Shorts views in 90 days).</p></div></div>
       <div class="math a" style="--d:1200"><b>Why full movies are our advantage:</b> a 35–75 minute film earns watch hours fast. Example: 30,000 views × 8 minutes average watch = <b>4,000 hours</b>.</div>
     </div>
+  </div>
+</section>
+
+<!-- 2 AGENDA -->
+<section class="slide" data-name="Agenda">
+  <div class="hero" data-morph="hero" style="right:96px;top:44px;width:170px;height:170px"><div class="disc"><img src="img/mary-avatar.jpg" alt=""></div></div>
+  <div class="eyebrow a">The game plan</div>
+  <h2 class="a" style="--d:120">Six changes. <span class="g">One goal.</span></h2>
+  <div class="agenda">
+    <button class="ag pop" style="--d:300" data-jump="Thumbnail" type="button"><span class="n">01</span><div><h3>Thumbnail</h3><p>Brand colours, text, brighter</p></div></button>
+    <button class="ag pop" style="--d:400" data-jump="Title formula" type="button"><span class="n">02</span><div><h3>Title</h3><p>Movie name + the contradiction</p></div></button>
+    <button class="ag pop" style="--d:500" data-jump="Content ideas" type="button"><span class="n">03</span><div><h3>Content ideas</h3><p>The niches that hit 1M views</p></div></button>
+    <button class="ag pop" style="--d:600" data-jump="Storyline" type="button"><span class="n">04</span><div><h3>Storyline</h3><p>The structure of a 1M-view story</p></div></button>
+    <button class="ag pop" style="--d:700" data-jump="Cold open" type="button"><span class="n">05</span><div><h3>Visuals</h3><p>Cold open, scenery, aftermath, fades</p></div></button>
+    <button class="ag pop" style="--d:800" data-jump="TikTok" type="button"><span class="n">06</span><div><h3>TikTok</h3><p>A second community feeding YouTube</p></div></button>
+    <button class="ag goal pop" style="--d:1000" data-jump="Goal" type="button"><span class="n">★</span><div><h3>The goal: 1,000 subscribers and a monetized channel</h3><p>Every change in this deck serves this number.</p></div></button>
   </div>
 </section>
 
@@ -525,7 +628,7 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
   <div class="eyebrow a">02 · Title</div>
   <h2 class="a" style="--d:120">Never just the name. <span class="g">Name + contradiction.</span></h2>
   <div class="formula pop" style="--d:300">
-    <div class="part p1" id="tName">Swan Bachelors</div><div class="sep">/</div><div class="part p2"><span id="tHook"></span><span class="caret"></span></div>
+    <div class="part p1" id="tName">The Sworn Bachelors</div><div class="sep">/</div><div class="part p2"><span id="tHook"></span><span class="caret"></span></div>
   </div>
   <div class="legend a" style="--d:500"><span><b>Gold</b> = the movie's name</span><span><b>Box</b> = the most shocking, contradicting part of the story</span></div>
   <div class="row" style="margin-top:22px;gap:30px">
@@ -683,13 +786,27 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
   <p class="lede a" style="--d:1500;margin-top:40px;font-size:24px">You write the story. <b>I handle everything that gets it seen.</b></p>
 </section>
 
-<!-- 16 CLOSE -->
-<section class="slide s-close" data-name="Close" data-enter="close">
+<!-- 16 CLOSE: the channel morphs from today to 1K -->
+<section class="slide s-future" data-name="Close" data-enter="future" id="future">
   <canvas id="confetti2" width="1600" height="900" aria-hidden="true"></canvas>
-  <div class="eyebrow a" style="justify-content:center">Next stop</div>
-  <div class="bigcount num pop" style="--d:200" id="closeCount">1,000</div>
-  <h1 class="a" style="--d:500">Let's get <span style="color:var(--red)">monetized.</span></h1>
-  <p class="lede a" style="--d:800">Brighter thumbnails, sharper titles, stronger stories, cleaner visuals and a TikTok community feeding the channel. <span class="serif" style="color:var(--gold-soft)">Thank you.</span></p>
+  <div class="ch-tag"><span class="t1">Mary's AI Movies · today</span><span class="t2">Mary's AI Movies · after the 1K Plan</span></div>
+  <div class="ch-banner"><img src="img/mary-banner.jpg" alt="Mary's AI Movies banner"></div>
+  <div class="ch-avatar"><div class="disc"><img src="img/mary-avatar.jpg" alt="Mary"></div></div>
+  <div class="ch-name">Mary's AI Movies</div>
+  <div class="ch-handle">@Marysaimovies</div>
+  <div class="ch-subs"><span class="odo" id="odo" aria-label="subscribers"></span><span class="w">subscribers</span></div>
+  <div class="ch-stamp" aria-hidden="true">Monetized<small>1,000 subs · 4,000 watch hours</small></div>
+  <div class="ch-vids">
+    <div class="vt"><div class="pic"><img src="img/mary-v1.jpg" alt=""></div><span>Love or Legacy?</span></div>
+    <div class="vt"><div class="pic"><img src="img/mary-v2.jpg" alt=""></div><span>Michael's Secret</span></div>
+    <div class="vt v3"><div class="pic"><img src="img/mary-v3.jpg" alt=""></div><span>The Sworn Bachelors</span></div>
+    <div class="vt nx"><div class="pic"><b>Next movie</b><i>Bright · gold · white · red</i></div><span>Coming soon</span></div>
+    <div class="vt nx"><div class="pic"><b>Next movie</b><i>Name + contradiction</i></div><span>Coming soon</span></div>
+    <div class="vt nx"><div class="pic"><b>Next movie</b><i>Clips on TikTok</i></div><span>Coming soon</span></div>
+  </div>
+  <div class="ch-note">114 subscribers today. <b>Now watch what the plan does.</b></div>
+  <div class="ch-close"><h1>Let's get <span>monetized.</span></h1><p class="serif">Thank you, Mary.</p></div>
+  <button class="replay" type="button" id="replay">↻ Replay</button>
 </section>
 
 </div>
@@ -722,18 +839,35 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
   function clearTimers(){while(timers.length)clearTimeout(timers.pop());}
 
   function restore(sl){sl.querySelectorAll('[data-mt]').forEach(e=>{e.style.animation='';e.style.transition='';e.style.transform='';e.style.transformOrigin='';e.removeAttribute('data-mt');});}
+  // Morph: the new slide's object starts at the old object's box and glides home along a slight arc,
+  // while a ghost copy of the old object travels with it and dissolves (a true cross-morph).
   function morph(old,s){
-    const sc=stage.getBoundingClientRect().width/1600;
+    const sr=stage.getBoundingClientRect(),sc=sr.width/1600;
+    const ez='cubic-bezier(.76,0,.14,1)';
     s.querySelectorAll('[data-morph]').forEach(el=>{
       const src=old.querySelector('[data-morph="'+el.dataset.morph+'"]');if(!src)return;
-      const o=src.getBoundingClientRect();
+      const o=src.getBoundingClientRect();if(!o.width||!o.height)return;
       for(let p=el;p&&p!==s;p=p.parentElement){p.style.animation='none';p.setAttribute('data-mt','');}
       const n=el.getBoundingClientRect();if(!n.width||!n.height)return;
+      const dx=(o.left-n.left)/sc,dy=(o.top-n.top)/sc,sx=o.width/n.width,sy=o.height/n.height;
+      const lift=-Math.min(90,Math.hypot(dx,dy)*.12);
+      const ghost=src.cloneNode(true);ghost.removeAttribute('id');ghost.querySelectorAll('[id]').forEach(e=>e.removeAttribute('id'));
+      ghost.removeAttribute('data-morph');
+      Object.assign(ghost.style,{position:'absolute',left:(o.left-sr.left)/sc+'px',top:(o.top-sr.top)/sc+'px',width:o.width/sc+'px',height:o.height/sc+'px',margin:'0',right:'auto',bottom:'auto',zIndex:'40',pointerEvents:'none',transformOrigin:'0 0',animation:'none',opacity:'1',flex:'none'});
+      stage.appendChild(ghost);
       src.style.opacity='0';
-      el.style.transformOrigin='0 0';el.style.transition='none';
-      el.style.transform='translate('+((o.left-n.left)/sc)+'px,'+((o.top-n.top)/sc)+'px) scale('+(o.width/n.width)+','+(o.height/n.height)+')';
-      el.getBoundingClientRect();
-      requestAnimationFrame(()=>{el.style.transition='transform 1.15s cubic-bezier(.7,0,.2,1)';el.style.transform='none';});
+      el.style.transformOrigin='0 0';
+      const mid=(a,f)=>a+(1-a)*f;
+      el.animate([
+        {transform:'translate('+dx+'px,'+dy+'px) scale('+sx+','+sy+')',opacity:0,filter:'blur(6px) brightness(1.4)'},
+        {offset:.5,transform:'translate('+dx*.45+'px,'+(dy*.45+lift)+'px) scale('+mid(sx,.55)*1.04+','+mid(sy,.55)*1.04+')',opacity:.85,filter:'blur(2px) brightness(1.15)'},
+        {transform:'none',opacity:1,filter:'blur(0) brightness(1)'}
+      ],{duration:1350,easing:ez,fill:'backwards'});
+      ghost.animate([
+        {transform:'none',opacity:1,filter:'blur(0)'},
+        {offset:.5,transform:'translate('+(-dx*.55)+'px,'+(-dy*.55+lift)+'px) scale('+mid(1/sx,.55)*1.04+','+mid(1/sy,.55)*1.04+')',opacity:.5,filter:'blur(3px)'},
+        {transform:'translate('+(-dx)+'px,'+(-dy)+'px) scale('+(1/sx)+','+(1/sy)+')',opacity:0,filter:'blur(8px)'}
+      ],{duration:1350,easing:ez,fill:'forwards'}).onfinish=()=>ghost.remove();
     });
   }
   function go(i){
@@ -772,8 +906,8 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
       const num=document.getElementById('subCount'),lbl=document.getElementById('subLbl'),ring=document.getElementById('ringFill');
       num.textContent='0';lbl.textContent='Subscribers today';ring.style.transition='none';ring.style.strokeDashoffset=C;void ring.getBoundingClientRect();
       ring.style.transition='stroke-dashoffset 1.6s cubic-bezier(.2,.8,.2,1)';
-      timers.push(setTimeout(()=>{ring.style.strokeDashoffset=C*(1-.119);countTo(num,0,119,1600);},600));
-      timers.push(setTimeout(()=>{lbl.textContent='The goal: monetized';ring.style.transition='stroke-dashoffset 2.8s cubic-bezier(.6,0,.2,1)';ring.style.strokeDashoffset=0;countTo(num,119,1000,2800,()=>{if(slides[cur].dataset.enter==='goal')confetti(document.getElementById('confetti'),140);});},3000));
+      timers.push(setTimeout(()=>{ring.style.strokeDashoffset=C*(1-.114);countTo(num,0,114,1600);},600));
+      timers.push(setTimeout(()=>{lbl.textContent='The goal: monetized';ring.style.transition='stroke-dashoffset 2.8s cubic-bezier(.6,0,.2,1)';ring.style.strokeDashoffset=0;countTo(num,114,1000,2800,()=>{if(slides[cur].dataset.enter==='goal')confetti(document.getElementById('confetti'),140);});},3000));
     },
     type(){
       const el=document.getElementById('tHook'),txt='The billionaire was ruthless and showed no mercy';
@@ -781,14 +915,50 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
       let k=0;const tick=()=>{el.textContent=txt.slice(0,++k);if(k<txt.length)timers.push(setTimeout(tick,38));};
       timers.push(setTimeout(tick,900));
     },
-    close(){
-      const el=document.getElementById('closeCount');el.textContent='119';
-      timers.push(setTimeout(()=>countTo(el,119,1000,2200,()=>confetti(document.getElementById('confetti2'),220)),500));
-    }
+    future(){playFuture();}
   };
 
+  // odometer: four rolling digit columns, leading zeros collapse away
+  const odo=document.getElementById('odo');
+  const cols=[];
+  for(let k=0;k<4;k++){
+    if(k===1){const cm=document.createElement('span');cm.className='cm';cm.textContent=',';odo.appendChild(cm);}
+    const c=document.createElement('span');c.className='col';const st=document.createElement('span');st.className='strip';
+    for(let r=0;r<30;r++){const d=document.createElement('span');d.textContent=r%10;st.appendChild(d);}
+    c.appendChild(st);odo.appendChild(c);cols.push(c);
+  }
+  function setOdo(v,spin){
+    const ds=String(v).padStart(4,'0').split('').map(Number);
+    let lead=true;
+    cols.forEach((c,k)=>{
+      if(ds[k]!==0||k===3)lead=false;
+      c.classList.toggle('hide',lead);
+      const idx=spin?20+ds[k]:ds[k];
+      const st=c.firstChild;
+      st.style.transitionDuration=spin?(2.2+k*.35)+'s':'0s';
+      st.style.transform='translateY('+(-idx*1.1)+'em)';
+    });
+    odo.querySelector('.cm').classList.toggle('show',v>=1000);
+    odo.setAttribute('aria-label',v.toLocaleString('en-US')+' subscribers');
+  }
+  const fut=document.getElementById('future');
+  function playFuture(){
+    clearTimers();
+    fut.classList.add('notrans');fut.classList.remove('future','stamped');fut.classList.add('pre');
+    setOdo(114,false);void fut.offsetWidth;fut.classList.remove('notrans');
+    timers.push(setTimeout(()=>fut.classList.remove('pre'),60));
+    if(reduce){fut.classList.add('future','stamped');setOdo(1000,false);return;}
+    timers.push(setTimeout(()=>{
+      fut.classList.add('future');
+      timers.push(setTimeout(()=>setOdo(1000,true),600));
+      timers.push(setTimeout(()=>{fut.classList.add('stamped');confetti(document.getElementById('confetti2'),260);},3900));
+    },2600));
+  }
+  setOdo(114,false);
+  document.getElementById('replay').addEventListener('click',playFuture);
+
   // agenda jumps
-  stage.querySelectorAll('[data-jump]').forEach(b=>b.addEventListener('click',()=>go(+b.dataset.jump)));
+  stage.querySelectorAll('[data-jump]').forEach(b=>b.addEventListener('click',()=>go(slides.findIndex(x=>x.dataset.name===b.dataset.jump))));
 
   // compare slider
   const cmp=document.getElementById('compare'),rng=document.getElementById('cmpRange');
