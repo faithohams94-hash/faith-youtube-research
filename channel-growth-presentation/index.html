@@ -1,7 +1,7 @@
 <title>The 1K Channel Plan</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Fraunces:ital,opsz,wght@1,9..144,500;1,9..144,700&family=Manrope:wght@400;500;700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Fraunces:ital,opsz,wght@1,9..144,500;1,9..144,700&family=Manrope:wght@400;500;700;800&family=Roboto:wght@400;500&display=swap">
 <style>
 /* Layout: a 1600x900 cinema stage, letterboxed and scaled to the window; one slide at a time, each building in like an animated deck. Single dark "movie premiere" look, deliberately not theme-switched. */
 :root{
@@ -106,6 +106,83 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 @keyframes pulse{50%{box-shadow:0 0 0 12px rgba(224,38,47,.0),0 0 0 0 rgba(224,38,47,.5);transform:scale(1.05)}}
 .spark{position:absolute;width:6px;height:6px;border-radius:50%;background:var(--gold);opacity:0;animation:spark 1.4s ease-out forwards}
 @keyframes spark{0%{opacity:1;transform:translate(0,0) scale(1)}100%{opacity:0;transform:translate(var(--x),var(--y)) scale(.3)}}
+
+
+/* ---------- intro: the real channel page ---------- */
+.s-intro{padding:0}
+.slide.active.s-intro > *{animation:none}
+.s-intro > *{position:absolute}
+.yt{left:0;top:0;width:2000px;height:1063px;transform-origin:0 0;transform:translate(0px,25px) scale(.8);transition:transform 2.2s cubic-bezier(.65,0,.25,1),filter 1.2s ease,opacity 1.2s ease;border-radius:12px;overflow:hidden;box-shadow:0 0 0 1px var(--line)}
+.s-intro.pre .yt{opacity:0;filter:blur(18px);transform:translate(-100px,-30px) scale(.9)}
+.s-intro.zoom .yt{transform:translate(-492px,-325px) scale(1.7)}
+.yt-page{position:absolute;left:0;top:0;width:2000px;height:1063px;display:block;max-width:none}
+.yt-patch{position:absolute;left:832px;top:422px;width:226px;height:28px;background:#0f0f0f}
+.yt-stat{position:absolute;left:838px;top:427px;font:400 18px/1 "Roboto",Arial,sans-serif;color:#aaaaaa;white-space:nowrap;transition:color .6s ease}
+.yt-stat span{display:inline-block;transition:color .4s ease,text-shadow .4s ease,transform .3s ease}
+.s-intro.counting .yt-stat span{color:var(--gold);text-shadow:0 0 12px rgba(240,185,44,.8)}
+.s-intro.done .yt-stat span{color:var(--gold);text-shadow:0 0 14px rgba(240,185,44,.9);transform:scale(1.15)}
+.yt-avatar{position:absolute;left:448px;top:357px;width:210px;height:210px;border-radius:50%}
+.yt-avatar .disc{position:absolute;inset:0;border-radius:50%;overflow:hidden}
+.yt-avatar .disc img{width:100%;height:100%;object-fit:cover;display:block}
+.yt-avatar::before{content:"";position:absolute;inset:-7%;border:3px solid var(--gold);border-radius:50%;opacity:0;transition:opacity 1s ease;animation:orbit 14s linear infinite}
+.s-intro.done .yt-avatar::before{opacity:1}
+.yt-spot{inset:0;pointer-events:none;opacity:0;transition:opacity 1.2s ease;background:radial-gradient(ellipse 380px 150px at 1110px 416px,transparent 0%,transparent 45%,rgba(5,3,2,.78) 100%)}
+.s-intro.counting .yt-spot{opacity:1}
+.yt-flash{inset:0;pointer-events:none;background:radial-gradient(circle at 1110px 416px,rgba(255,236,170,.95),rgba(240,185,44,.4) 30%,transparent 65%);opacity:0}
+.s-intro.done .yt-flash{animation:flash 1.1s ease-out}
+@keyframes flash{0%{opacity:0}12%{opacity:1}100%{opacity:0}}
+#confetti0{inset:0;width:100%;height:100%;pointer-events:none;z-index:9}
+.yt-cap{left:40px;top:34px;display:grid;font:800 16px/1 var(--body);letter-spacing:.24em;text-transform:uppercase;color:var(--gold);background:rgba(14,10,7,.82);padding:12px 16px;border-radius:999px;box-shadow:0 0 0 1px var(--line);z-index:6;transition:opacity .8s ease}
+.yt-cap span{grid-area:1/1;transition:opacity .6s ease,filter .6s ease}
+.yt-cap .c2{opacity:0;filter:blur(6px)}
+.s-intro.done .yt-cap .c1{opacity:0;filter:blur(6px)}
+.s-intro.done .yt-cap .c2{opacity:1;filter:none}
+.s-intro.pre .yt-cap{opacity:0}
+.yt-head{left:0;right:0;bottom:60px;text-align:center;z-index:7;opacity:0;transform:translateY(40px);filter:blur(12px);transition:opacity .9s ease,transform 1s cubic-bezier(.2,.8,.2,1),filter .9s ease}
+.yt-head h1{font-size:110px;text-shadow:0 10px 50px rgba(0,0,0,.9)}
+.yt-head h1 span{color:var(--gold)}
+.yt-head p{margin:8px 0 0;font-size:22px;font-weight:700;color:var(--white);text-shadow:0 2px 12px #000;display:inline-block;padding:10px 20px;border-radius:999px;background:rgba(14,10,7,.75)}
+.s-intro.back .yt-head{opacity:1;transform:none;filter:none}
+.s-intro.back .yt{transform:translate(0px,25px) scale(.8);filter:brightness(.55)}
+.s-intro.notrans,.s-intro.notrans *{transition:none!important}
+.slide.active.s-intro > .plus{animation:plusUp 1.3s cubic-bezier(.2,.8,.2,1) forwards}
+
+/* ---------- slide transitions (PowerPoint-style) ---------- */
+.stage{perspective:2400px}
+.slide.leaving.nochild > *{animation:none!important}
+.slide.in-push{animation:pushIn 1s cubic-bezier(.76,0,.14,1) both}
+.slide.out-push{animation:pushOut 1s cubic-bezier(.76,0,.14,1) forwards}
+@keyframes pushIn{from{transform:translateX(calc(var(--dir,1) * 100%))}}
+@keyframes pushOut{to{transform:translateX(calc(var(--dir,1) * -100%))}}
+.slide.in-cube{transform-origin:calc(50% - var(--dir,1) * 50%) 50%;animation:cubeIn 1.2s cubic-bezier(.7,0,.25,1) both}
+.slide.out-cube{transform-origin:calc(50% + var(--dir,1) * 50%) 50%;animation:cubeOut 1.2s cubic-bezier(.7,0,.25,1) forwards}
+@keyframes cubeIn{from{transform:translateX(calc(var(--dir,1) * 100%)) rotateY(calc(var(--dir,1) * 90deg));filter:brightness(.4)}}
+@keyframes cubeOut{to{transform:translateX(calc(var(--dir,1) * -100%)) rotateY(calc(var(--dir,1) * -90deg));filter:brightness(.4)}}
+.slide.in-flip{animation:flipIn .6s cubic-bezier(.2,.8,.3,1) .5s both}
+.slide.out-flip{animation:flipOut .5s cubic-bezier(.6,0,.9,.4) forwards}
+@keyframes flipIn{from{transform:rotateY(calc(var(--dir,1) * -90deg)) scale(.85);filter:brightness(.5)}}
+@keyframes flipOut{to{transform:rotateY(calc(var(--dir,1) * 90deg)) scale(.85);filter:brightness(.5)}}
+.slide.in-iris{animation:irisIn 1.2s cubic-bezier(.7,0,.2,1) both}
+@keyframes irisIn{from{clip-path:circle(0% at 50% 50%)}to{clip-path:circle(75% at 50% 50%)}}
+.slide.out-iris{animation:dimOut 1.2s ease forwards}
+.slide.in-split{animation:splitIn 1.1s cubic-bezier(.7,0,.2,1) both}
+@keyframes splitIn{from{clip-path:inset(0 50% 0 50%)}to{clip-path:inset(0 0 0 0)}}
+.slide.out-split{animation:dimOut 1.1s ease forwards}
+.slide.in-wipe{animation:wipeIn 1.1s cubic-bezier(.7,0,.2,1) both}
+@keyframes wipeIn{from{clip-path:polygon(0 0,0 0,-20% 100%,0 100%)}to{clip-path:polygon(0 0,120% 0,100% 100%,0 100%)}}
+.slide.out-wipe{animation:dimOut 1.1s ease forwards}
+.slide.in-vortex{animation:vortexIn 1.3s cubic-bezier(.2,.9,.25,1) both}
+.slide.out-vortex{animation:vortexOut .8s cubic-bezier(.6,0,.9,.4) forwards}
+@keyframes vortexIn{from{transform:rotate(calc(var(--dir,1) * -200deg)) scale(.05);opacity:0;filter:blur(10px)}}
+@keyframes vortexOut{to{transform:scale(1.5);opacity:0;filter:blur(14px)}}
+@keyframes dimOut{to{filter:brightness(.3) blur(4px);transform:scale(.97)}}
+.curtains{position:absolute;inset:0;z-index:30;pointer-events:none;display:flex}
+.curtains i{flex:1;height:100%;background:repeating-linear-gradient(90deg,#5c0a10 0,#9b1520 30px,#c2202b 48px,#8a121c 70px,#5c0a10 96px);box-shadow:inset 0 -26px 0 -10px var(--gold),0 0 60px rgba(0,0,0,.8);transform:translateX(-101%)}
+.curtains i+i{transform:translateX(101%)}
+.curtains.run i{animation:curtL 2s cubic-bezier(.7,0,.3,1) both}
+.curtains.run i+i{animation-name:curtR}
+@keyframes curtL{0%{transform:translateX(-101%)}38%,58%{transform:translateX(0)}100%{transform:translateX(-101%)}}
+@keyframes curtR{0%{transform:translateX(101%)}38%,58%{transform:translateX(0)}100%{transform:translateX(101%)}}
 
 /* ---------- controls ---------- */
 .progress{position:fixed;left:0;right:0;top:env(safe-area-inset-top,0px);height:4px;background:var(--panel);z-index:20}
@@ -450,9 +527,25 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 <div class="viewport" id="vp">
 <div class="stage" id="stage">
 <div class="grain" aria-hidden="true"></div>
+<div class="curtains" id="curtains" aria-hidden="true"><i></i><i></i></div>
+
+<!-- 0 INTRO: the real channel page, 114 counting to 1K -->
+<section class="slide s-intro" data-name="Intro" data-t="iris" data-enter="intro" id="intro">
+  <div class="yt" id="yt">
+    <img class="yt-page" src="img/mary-page.jpg" alt="Mary's AI Movies YouTube channel page: 114 subscribers, 3 videos">
+    <div class="yt-patch"></div>
+    <div class="yt-stat" id="ytStat"><span id="ytNum">114</span> subscribers • 3 videos</div>
+    <div class="yt-avatar" data-morph="hero"><div class="disc"><img src="img/mary-avatar.jpg" alt=""></div></div>
+  </div>
+  <div class="yt-spot" aria-hidden="true"></div>
+  <div class="yt-flash" aria-hidden="true"></div>
+  <canvas id="confetti0" width="1600" height="900" aria-hidden="true"></canvas>
+  <div class="yt-cap"><span class="c1">Mary's AI Movies · today</span><span class="c2">Mary's AI Movies · the goal</span></div>
+  <div class="yt-head"><h1>From 114 to <span>1K</span>.</h1><p>Here's how we get there. Press → to begin.</p></div>
+</section>
 
 <!-- 1 TITLE -->
-<section class="slide s-title" data-name="Title">
+<section class="slide s-title" data-name="Title" data-t="morph">
   <div class="hero zoom" data-morph="hero" style="--d:500;right:110px;top:96px;width:420px;height:420px"><div class="disc"><img src="img/mary-avatar.jpg" alt="Mary, owner of Mary's AI Movies"></div></div>
   <div class="eyebrow a" style="--d:0">Research presentation · AI movie channel</div>
   <h1 style="margin-top:26px"><span class="a" style="--d:150;display:inline-block">The</span> <span class="g pop" style="--d:450">1K</span> <span class="a" style="--d:700;display:inline-block">Plan</span></h1>
@@ -466,7 +559,7 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 </section>
 
 <!-- 2 TODAY -->
-<section class="slide" data-name="Channel today">
+<section class="slide" data-name="Channel today" data-t="morph">
   <div class="eyebrow a">Where we start</div>
   <h2 class="a" style="--d:120">Mary's AI Movies <span class="g">today</span></h2>
   <div class="row" style="gap:60px">
@@ -496,7 +589,7 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 </section>
 
 <!-- 3 GOAL -->
-<section class="slide" data-name="Goal" data-enter="goal">
+<section class="slide" data-name="Goal" data-t="morph" data-enter="goal">
   <div class="eyebrow a">The goal</div>
   <h2 class="a" style="--d:120">From 114 to <span class="g">1,000</span></h2>
   <div class="goal-wrap">
@@ -515,7 +608,7 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 </section>
 
 <!-- 2 AGENDA -->
-<section class="slide" data-name="Agenda">
+<section class="slide" data-name="Agenda" data-t="morph">
   <div class="hero" data-morph="hero" style="right:96px;top:44px;width:170px;height:170px"><div class="disc"><img src="img/mary-avatar.jpg" alt=""></div></div>
   <div class="eyebrow a">The game plan</div>
   <h2 class="a" style="--d:120">Six changes. <span class="g">One goal.</span></h2>
@@ -531,7 +624,7 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 </section>
 
 <!-- 4 RESEARCH -->
-<section class="slide" data-name="Research">
+<section class="slide" data-name="Research" data-t="cube">
   <div class="eyebrow a">What I found</div>
   <h2 class="a" style="--d:120">AI movies are <span class="g">pulling big numbers</span></h2>
   <div class="row">
@@ -550,7 +643,7 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 </section>
 
 <!-- 5 THUMBNAIL RULES -->
-<section class="slide" data-name="Thumbnail">
+<section class="slide" data-name="Thumbnail" data-t="push">
   <div class="eyebrow a">01 · Thumbnail</div>
   <h2 class="a" style="--d:120">We're on the right track. <span class="g">Now we sharpen it.</span></h2>
   <div class="row">
@@ -573,7 +666,7 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 </section>
 
 <!-- 6 BRIGHTNESS -->
-<section class="slide" data-name="Brightness">
+<section class="slide" data-name="Brightness" data-t="morph">
   <div class="eyebrow a">01 · Thumbnail · Brightness</div>
   <h2 class="a" style="--d:120">Drag it. <span class="g">See the click.</span></h2>
   <div class="row" style="align-items:center">
@@ -604,7 +697,7 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 </section>
 
 <!-- 7 CASE STUDY -->
-<section class="slide" data-name="Case study">
+<section class="slide" data-name="Case study" data-t="flip">
   <div class="eyebrow a">Case study · proof packaging works</div>
   <h2 class="a" style="--d:120">2.08K subscribers. <span class="g">102K views.</span></h2>
   <div class="row">
@@ -627,7 +720,7 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 </section>
 
 <!-- 8 TITLE -->
-<section class="slide" data-name="Title formula" data-enter="type">
+<section class="slide" data-name="Title formula" data-t="split" data-enter="type">
   <div class="eyebrow a">02 · Title</div>
   <h2 class="a" style="--d:120">Never just the name. <span class="g">Name + contradiction.</span></h2>
   <div class="formula pop" style="--d:300">
@@ -649,7 +742,7 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 </section>
 
 <!-- 9 CONTENT -->
-<section class="slide" data-name="Content ideas">
+<section class="slide" data-name="Content ideas" data-t="vortex">
   <div class="eyebrow a" style="justify-content:center">03 · Content ideas</div>
   <h2 class="a" style="--d:120;text-align:center;font-size:72px">Love, secrets and marriage <span class="g">win the views</span></h2>
   <div class="quad-wrap">
@@ -668,7 +761,7 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 </section>
 
 <!-- 10 STORYLINE -->
-<section class="slide" data-name="Storyline">
+<section class="slide" data-name="Storyline" data-t="wipe">
   <div class="eyebrow a">04 · Storyline</div>
   <h2 class="a" style="--d:120">How a <span class="g">1M-view story</span> is built</h2>
   <p class="lede a" style="--d:250;font-size:22px">What separates a million-view script from an average one: it starts inside the conflict and never lets the tension rest.</p>
@@ -693,7 +786,7 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 </section>
 
 <!-- 11 VISUALS: COLD OPEN -->
-<section class="slide" data-name="Cold open">
+<section class="slide" data-name="Cold open" data-t="iris">
   <div class="eyebrow a">05 · Visuals · Opening</div>
   <h2 class="a" style="--d:120">No intro. <span class="g">Straight into the movie.</span></h2>
   <div class="row" style="align-items:center">
@@ -712,7 +805,7 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 </section>
 
 <!-- 12 VISUALS: SCENE GRAMMAR -->
-<section class="slide" data-name="Scene structure" style="justify-content:center">
+<section class="slide" data-name="Scene structure" data-t="morph" style="justify-content:center">
   <div class="eyebrow a">05 · Visuals · Every scene</div>
   <h2 class="a" style="--d:120">Every scene follows <span class="g">one rhythm</span></h2>
   <p class="lede a" style="--d:250;font-size:22px">More context, less confusion. The viewer always knows where we are, what just happened, and what it cost.</p>
@@ -726,7 +819,7 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 </section>
 
 <!-- 13 VISUALS: QUALITY -->
-<section class="slide" data-name="Quality control">
+<section class="slide" data-name="Quality control" data-t="morph">
   <div class="eyebrow a">05 · Visuals · Quality control</div>
   <h2 class="a" style="--d:120">AI glitches: <span class="r">caught</span> before upload</h2>
   <div class="row">
@@ -748,7 +841,7 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 </section>
 
 <!-- 14 TIKTOK -->
-<section class="slide" data-name="TikTok">
+<section class="slide" data-name="TikTok" data-t="morph">
   <div class="eyebrow a">06 · TikTok</div>
   <h2 class="a" style="--d:120">Two platforms. <span class="g">One community.</span></h2>
   <div class="tt">
@@ -774,7 +867,7 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 </section>
 
 <!-- 15 WORKFLOW -->
-<section class="slide" data-name="Workflow" style="justify-content:center">
+<section class="slide" data-name="Workflow" data-t="cube" style="justify-content:center">
   <div class="eyebrow a">Putting it together</div>
   <h2 class="a" style="--d:120">Every movie, <span class="g">every time</span></h2>
   <div class="flow">
@@ -790,7 +883,7 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 </section>
 
 <!-- 16 CLOSE: the channel morphs from today to 1K -->
-<section class="slide s-future" data-name="Close" data-enter="future" id="future">
+<section class="slide s-future" data-name="Close" data-t="curtain" data-enter="future" id="future">
   <canvas id="confetti2" width="1600" height="900" aria-hidden="true"></canvas>
   <div class="ch-tag"><span class="t1">Mary's AI Movies · today</span><span class="t2">Mary's AI Movies · after the 1K Plan</span></div>
   <div class="ch-banner"><img src="img/mary-banner.jpg" alt="Mary's AI Movies banner"></div>
@@ -874,22 +967,37 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
       ],{duration:1350,easing:ez,fill:'forwards'}).onfinish=()=>ghost.remove();
     });
   }
+  let closed=false;
+  const TRANS=['push','cube','flip','iris','split','wipe','vortex'];
+  function clearT(el){TRANS.forEach(t=>el.classList.remove('in-'+t,'out-'+t));el.classList.remove('nochild');}
   function go(i){
     i=Math.max(0,Math.min(slides.length-1,i));
     if(i===cur)return;
     clearTimers();
-    stage.style.setProperty('--dir',i>cur?1:-1);
+    const dir=cur<0||i>cur?1:-1;
+    stage.style.setProperty('--dir',dir);
     const old=cur>=0?slides[cur]:null,s=slides[i];
-    if(old){restore(old);old.classList.remove('active');old.classList.add('leaving');clearTimeout(old._t);old._t=setTimeout(()=>{old.classList.remove('leaving');old.querySelectorAll('[data-morph]').forEach(e=>e.style.opacity='');},650);}
-    clearTimeout(s._t);s.classList.remove('leaving');s.querySelectorAll('[data-morph]').forEach(e=>e.style.opacity='');
+    const t=reduce||!old?'none':(s.dataset.t||'morph');
     cur=i;
-    void s.offsetWidth;s.classList.add('active');
-    if(old&&!reduce)morph(old,s);
     document.getElementById('prog').style.width=((i+1)/slides.length*100)+'%';
     document.getElementById('count').textContent=(i+1)+' / '+slides.length;
     [...dots.children].forEach((d,k)=>d.setAttribute('aria-current',k===i?'true':'false'));
     try{history.replaceState(null,'','#slide-'+(i+1));}catch(e){}
-    const fn=enter[s.dataset.enter];if(fn)fn();
+    const swap=(tt)=>{
+      if(old){restore(old);clearT(old);old.classList.remove('active');old.classList.add('leaving');
+        if(TRANS.includes(tt)){old.classList.add('out-'+tt,'nochild');}
+        clearTimeout(old._t);old._t=setTimeout(()=>{old.classList.remove('leaving');clearT(old);old.querySelectorAll('[data-morph]').forEach(e=>e.style.opacity='');},TRANS.includes(tt)?1300:650);}
+      clearTimeout(s._t);s.classList.remove('leaving');clearT(s);s.querySelectorAll('[data-morph]').forEach(e=>e.style.opacity='');
+      void s.offsetWidth;
+      if(TRANS.includes(tt)){s.classList.add('in-'+tt);s._t=setTimeout(()=>clearT(s),1400);}
+      s.classList.add('active');
+      if(old&&tt==='morph')morph(old,s);
+      const fn=enter[s.dataset.enter];if(fn&&closed)fn();
+    };
+    if(t==='curtain'){
+      const c=document.getElementById('curtains');c.classList.remove('run');void c.offsetWidth;c.classList.add('run');
+      timers.push(setTimeout(()=>swap('none'),800));
+    } else swap(t);
   }
 
   // ---- slide hooks ----
@@ -925,7 +1033,27 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
       let k=0;const tick=()=>{el.textContent=txt.slice(0,++k);if(k<txt.length)timers.push(setTimeout(tick,38));};
       timers.push(setTimeout(tick,900));
     },
-    future(){playFuture();}
+    future(){playFuture();},
+    intro(){
+      const sl=document.getElementById('intro'),num=document.getElementById('ytNum');
+      sl.classList.add('notrans');sl.classList.remove('zoom','counting','done','back');sl.classList.add('pre');num.textContent='114';
+      void sl.offsetWidth;sl.classList.remove('notrans');
+      timers.push(setTimeout(()=>sl.classList.remove('pre'),80));
+      if(reduce){sl.classList.add('done','back');num.textContent='1K';return;}
+      timers.push(setTimeout(()=>sl.classList.add('zoom'),1700));
+      let lastPop=0;
+      timers.push(setTimeout(()=>{
+        sl.classList.add('counting');
+        countUp(114,1000,6500,(v,p)=>{
+          num.textContent=v.toLocaleString('en-US');
+          const now=performance.now();if(now-lastPop>130){lastPop=now;popPlus(sl,980+Math.random()*260,330+Math.random()*40,p>.45&&Math.random()<.35?(2+Math.random()*8|0):0);}
+        },()=>{
+          num.textContent='1K';sl.classList.remove('counting');sl.classList.add('done');
+          confetti(document.getElementById('confetti0'),260);
+          timers.push(setTimeout(()=>sl.classList.add('back'),2200));
+        });
+      },4100));
+    }
   };
 
   // visible count-up: every number from start to end is shown, with "+1 subscriber" pops
@@ -995,8 +1123,7 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
   const hi=document.getElementById('hi');hi.innerHTML=[...hi.textContent].map((ch,k)=>`<span style="animation-delay:${3.1+k*.07}s">${ch}</span>`).join('');
   const cd=document.getElementById('cd');[2,1].forEach((n,k)=>setTimeout(()=>{cd.textContent=n;},900*(k+1)));
   setTimeout(()=>{if(reduce)return;for(let k=0;k<28;k++){const s=document.createElement('i');s.className='spark';const a=Math.random()*Math.PI*2,d=160+Math.random()*260;s.style.cssText=`left:50%;top:50%;--x:${Math.cos(a)*d}px;--y:${Math.sin(a)*d}px;animation-delay:${Math.random()*.2}s`;splash.appendChild(s);}},3000);
-  let closed=false;
-  function closeSplash(){if(closed)return;closed=true;splash.classList.add('gone');const start=slides[cur];restore(start);start.classList.remove('active');void start.offsetWidth;start.classList.add('active');}
+  function closeSplash(){if(closed)return;closed=true;splash.classList.add('gone');const start=slides[cur];restore(start);start.classList.remove('active');void start.offsetWidth;start.classList.add('active');const fn=enter[start.dataset.enter];if(fn)fn();}
   splash.addEventListener('click',closeSplash);
   setTimeout(closeSplash,12000);
 
