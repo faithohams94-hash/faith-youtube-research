@@ -368,16 +368,18 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 .ch-handle{left:532px;top:346px;font-size:22px;color:var(--muted)}
 .ch-subs{left:530px;top:380px;font-size:36px;font-family:var(--display);color:var(--white);display:flex;align-items:baseline;gap:.25em;white-space:nowrap}
 .ch-subs .w{font:700 .62em/1 var(--body);color:var(--muted);transition:font-size 1.5s var(--ez)}
-.odo{display:inline-flex;height:1.1em;overflow:hidden;line-height:1.1em}
-.odo .col{display:inline-block;width:.5em;overflow:hidden;text-align:center;transition:width .8s var(--ez),opacity .8s ease}
-.odo .col.hide{width:0;opacity:0}
-.odo .strip{display:flex;flex-direction:column;transition:transform 2.6s cubic-bezier(.15,.75,.1,1)}
-.odo .strip span{height:1.1em;display:block}
-.odo .cm{display:inline-block;width:0;opacity:0;overflow:hidden;transition:width .6s var(--ez),opacity .6s ease}
-.odo .cm.show{width:.24em;opacity:1}
 .ch-stamp{left:1120px;top:330px;font-family:var(--display);font-size:66px;line-height:1;text-transform:uppercase;color:var(--red);border:5px solid var(--red);border-radius:14px;padding:12px 26px 10px;background:rgba(14,10,7,.7);text-align:center;opacity:0;transform:rotate(-16deg) scale(2.6);z-index:5}
 .ch-stamp small{display:block;font:800 15px/1.4 var(--body);letter-spacing:.14em;color:var(--white);margin-top:6px}
 .ch-vids{left:350px;top:452px;width:900px;display:flex}
+.ch-prog{left:440px;top:578px;width:900px;display:flex;align-items:center;gap:18px;opacity:0}
+.ch-prog .trk{position:relative;flex:1;height:12px;border-radius:6px;background:var(--panel);box-shadow:inset 0 0 0 1px var(--line);overflow:hidden}
+.ch-prog .trk i{position:absolute;left:0;top:0;bottom:0;width:11.4%;border-radius:6px;background:linear-gradient(90deg,var(--red),var(--gold));box-shadow:0 0 18px rgba(240,185,44,.6)}
+.ch-prog .trk b{position:absolute;top:0;bottom:0;width:2px;background:rgba(14,10,7,.8)}
+.ch-prog span{font:800 16px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--gold-soft);white-space:nowrap;min-width:170px}
+.plus{position:absolute;z-index:8;pointer-events:none;font:800 18px/1 var(--body);color:var(--ink);background:var(--gold);padding:7px 11px;border-radius:999px;box-shadow:0 6px 20px rgba(0,0,0,.5);white-space:nowrap;animation:plusUp 1.3s cubic-bezier(.2,.8,.2,1) forwards}
+.plus.r{background:var(--red);color:var(--white)}
+.slide.active.s-future > .plus{animation:plusUp 1.3s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes plusUp{0%{opacity:0;transform:translateY(10px) scale(.6)}15%{opacity:1;transform:translateY(0) scale(1)}100%{opacity:0;transform:translateY(-110px) scale(.9)}}
 .vt{flex:0 0 290px;margin-left:15px;display:flex;flex-direction:column;gap:8px;min-width:0;transition:flex-basis 1.5s var(--ez),margin 1.5s var(--ez),opacity .9s ease}
 .vt:first-child{margin-left:0}
 .vt .pic{aspect-ratio:452/253;border-radius:12px;overflow:hidden;background:#000;box-shadow:0 0 0 1px var(--line)}
@@ -389,8 +391,8 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 .vt.nx .pic i{font-style:normal;font-size:13px;font-weight:700;color:var(--white);white-space:nowrap}
 .ch-note{left:350px;top:690px;font-size:26px;color:var(--muted)}
 .ch-note b{color:var(--white)}
-.ch-close{left:0;right:0;top:770px;text-align:center;opacity:0;transform:translateY(30px)}
-.ch-close h1{font-size:76px}
+.ch-close{left:0;right:0;top:790px;text-align:center;opacity:0;transform:translateY(30px)}
+.ch-close h1{font-size:66px}
 .ch-close h1 span{color:var(--red)}
 .ch-close p{margin:6px 0 0;font-size:26px;color:var(--gold-soft)}
 .replay{right:40px;bottom:30px;left:auto;top:auto;font:700 15px/1 var(--body);color:var(--muted);background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:12px 18px;cursor:pointer;z-index:10}
@@ -404,9 +406,10 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
 .s-future.future .ch-avatar::before{opacity:1}
 .s-future.future .ch-name{left:440px;top:312px;font-size:78px;transition-delay:.2s}
 .s-future.future .ch-handle{left:444px;top:406px;transition-delay:.26s}
-.s-future.future .ch-subs{left:440px;top:432px;font-size:118px;color:var(--gold);transition-delay:.3s}
+.s-future.future .ch-subs{left:440px;top:428px;font-size:118px;color:var(--gold);transition-delay:.3s}
 .s-future.future .ch-subs .w{font-size:.24em}
-.s-future.future .ch-vids{left:90px;top:598px;width:1420px;transition-delay:.4s}
+.s-future.future .ch-prog{opacity:1;transition-delay:.8s}
+.s-future.future .ch-vids{left:90px;top:624px;width:1420px;transition-delay:.4s}
 .s-future.future .vt{flex-basis:225px;margin-left:14px;transition-delay:.4s}
 .s-future.future .vt:first-child{margin-left:0}
 .s-future.future .vt .pic img{filter:brightness(1.2) saturate(1.2) contrast(1.05);transition-delay:1.2s}
@@ -794,7 +797,8 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
   <div class="ch-avatar"><div class="disc"><img src="img/mary-avatar.jpg" alt="Mary"></div></div>
   <div class="ch-name">Mary's AI Movies</div>
   <div class="ch-handle">@Marysaimovies</div>
-  <div class="ch-subs"><span class="odo" id="odo" aria-label="subscribers"></span><span class="w">subscribers</span></div>
+  <div class="ch-subs"><span class="cnum num" id="futNum">114</span><span class="w">subscribers</span></div>
+  <div class="ch-prog" aria-hidden="true"><div class="trk"><i id="futBar"></i><b style="left:25%"></b><b style="left:50%"></b><b style="left:75%"></b></div><span id="futPct">11% of the goal</span></div>
   <div class="ch-stamp" aria-hidden="true">Monetized<small>1,000 subs · 4,000 watch hours</small></div>
   <div class="ch-vids">
     <div class="vt"><div class="pic"><img src="img/mary-v1.jpg" alt=""></div><span>Love or Legacy?</span></div>
@@ -904,10 +908,16 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
   const enter={
     goal(){
       const num=document.getElementById('subCount'),lbl=document.getElementById('subLbl'),ring=document.getElementById('ringFill');
-      num.textContent='0';lbl.textContent='Subscribers today';ring.style.transition='none';ring.style.strokeDashoffset=C;void ring.getBoundingClientRect();
-      ring.style.transition='stroke-dashoffset 1.6s cubic-bezier(.2,.8,.2,1)';
-      timers.push(setTimeout(()=>{ring.style.strokeDashoffset=C*(1-.114);countTo(num,0,114,1600);},600));
-      timers.push(setTimeout(()=>{lbl.textContent='The goal: monetized';ring.style.transition='stroke-dashoffset 2.8s cubic-bezier(.6,0,.2,1)';ring.style.strokeDashoffset=0;countTo(num,114,1000,2800,()=>{if(slides[cur].dataset.enter==='goal')confetti(document.getElementById('confetti'),140);});},3000));
+      const host=num.closest('.ring');
+      num.textContent='114';lbl.textContent='Subscribers today';ring.style.transition='none';ring.style.strokeDashoffset=C*(1-.114);
+      let lastPop=0;
+      timers.push(setTimeout(()=>{
+        lbl.textContent='Growing…';
+        countUp(114,1000,6000,(v,p)=>{
+          num.textContent=v.toLocaleString('en-US');ring.style.strokeDashoffset=C*(1-v/1000);
+          const now=performance.now();if(now-lastPop>140){lastPop=now;popPlus(host,140+Math.random()*220,60+Math.random()*90,p>.45&&Math.random()<.35?(2+Math.random()*8|0):0);}
+        },()=>{lbl.textContent='The goal: monetized';confetti(document.getElementById('confetti'),160);});
+      },1500));
     },
     type(){
       const el=document.getElementById('tHook'),txt='The billionaire was ruthless and showed no mercy';
@@ -918,43 +928,43 @@ h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
     future(){playFuture();}
   };
 
-  // odometer: four rolling digit columns, leading zeros collapse away
-  const odo=document.getElementById('odo');
-  const cols=[];
-  for(let k=0;k<4;k++){
-    if(k===1){const cm=document.createElement('span');cm.className='cm';cm.textContent=',';odo.appendChild(cm);}
-    const c=document.createElement('span');c.className='col';const st=document.createElement('span');st.className='strip';
-    for(let r=0;r<30;r++){const d=document.createElement('span');d.textContent=r%10;st.appendChild(d);}
-    c.appendChild(st);odo.appendChild(c);cols.push(c);
+  // visible count-up: every number from start to end is shown, with "+1 subscriber" pops
+  function countUp(from,to,ms,onTick,done){
+    if(reduce){onTick(to,1);done&&done();return;}
+    const t0=performance.now(),me=cur;let last=from;
+    (function f(t){
+      if(cur!==me)return;
+      const p=Math.min(1,(t-t0)/ms),e=p<.5?4*p*p*p:1-Math.pow(-2*p+2,3)/2;
+      const v=Math.round(from+(to-from)*e);
+      if(v!==last){onTick(v,p);last=v;}
+      if(p<1)requestAnimationFrame(f);else done&&done();
+    })(t0);
   }
-  function setOdo(v,spin){
-    const ds=String(v).padStart(4,'0').split('').map(Number);
-    let lead=true;
-    cols.forEach((c,k)=>{
-      if(ds[k]!==0||k===3)lead=false;
-      c.classList.toggle('hide',lead);
-      const idx=spin?20+ds[k]:ds[k];
-      const st=c.firstChild;
-      st.style.transitionDuration=spin?(2.2+k*.35)+'s':'0s';
-      st.style.transform='translateY('+(-idx*1.1)+'em)';
-    });
-    odo.querySelector('.cm').classList.toggle('show',v>=1000);
-    odo.setAttribute('aria-label',v.toLocaleString('en-US')+' subscribers');
+  function popPlus(host,x,y,big){
+    if(reduce)return;const el=document.createElement('span');
+    el.className='plus'+(Math.random()<.3?' r':'');
+    el.textContent=big?'+'+big+' subscribers':'+1 subscriber';
+    el.style.left=x+'px';el.style.top=y+'px';host.appendChild(el);
+    setTimeout(()=>el.remove(),1400);
   }
   const fut=document.getElementById('future');
   function playFuture(){
     clearTimers();
     fut.classList.add('notrans');fut.classList.remove('future','stamped');fut.classList.add('pre');
-    setOdo(114,false);void fut.offsetWidth;fut.classList.remove('notrans');
+    setFut(114);void fut.offsetWidth;fut.classList.remove('notrans');
     timers.push(setTimeout(()=>fut.classList.remove('pre'),60));
-    if(reduce){fut.classList.add('future','stamped');setOdo(1000,false);return;}
+    if(reduce){fut.classList.add('future','stamped');setFut(1000);return;}
     timers.push(setTimeout(()=>{
       fut.classList.add('future');
-      timers.push(setTimeout(()=>setOdo(1000,true),600));
-      timers.push(setTimeout(()=>{fut.classList.add('stamped');confetti(document.getElementById('confetti2'),260);},3900));
+      let lastPop=0;
+      timers.push(setTimeout(()=>countUp(114,1000,6500,(v,p)=>{
+        setFut(v);
+        const now=performance.now();if(now-lastPop>120){lastPop=now;popPlus(fut,460+Math.random()*560,410+Math.random()*80,p>.45&&Math.random()<.35?(2+Math.random()*8|0):0);}
+      },()=>{fut.classList.add('stamped');confetti(document.getElementById('confetti2'),260);}),1600));
     },2600));
   }
-  setOdo(114,false);
+  function setFut(v){document.getElementById('futNum').textContent=v.toLocaleString('en-US');document.getElementById('futBar').style.width=(v/10)+'%';document.getElementById('futPct').textContent=Math.round(v/10)+'% of the goal';}
+  setFut(114);
   document.getElementById('replay').addEventListener('click',playFuture);
 
   // agenda jumps
