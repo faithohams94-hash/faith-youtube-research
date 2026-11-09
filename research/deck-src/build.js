@@ -55,6 +55,12 @@ pres.defineSlideMaster({
   ],
 });
 pres.defineSlideMaster({
+  title: "Blank",
+  background: { color: HEX.ink },
+  margin: [0.5, 0.6, 0.5, 0.6],
+  objects: [],
+});
+pres.defineSlideMaster({
   title: "Section",
   background: { color: HEX.ink },
   margin: [0.5, 0.6, 0.5, 0.6],
@@ -101,10 +107,22 @@ async function iconDot(s, x, y, d, name, fill, name2) {
   s.addShape(pres.shapes.OVAL, { x, y, w: d, h: d, fill: { color: fill }, line: { type: "none" }, objectName: name2 + "_dot" });
   s.addImage({ data: await icon(name), x: x + d * 0.25, y: y + d * 0.25, w: d * 0.5, h: d * 0.5, objectName: name2 + "_icon" });
 }
+// Fixed slide numbers for the clickable menu (checked at the end of the build)
+const AGENDA = 3;
+const SECTION_AT = { 1: 4, 2: 8, 3: 12, 4: 19 };
+function menuButton(s) {
+  s.addText("← MENU", {
+    shape: pres.shapes.ROUNDED_RECTANGLE, rectRadius: 0.18, x: 10.85, y: 6.86, w: 1.2, h: 0.36,
+    fill: { color: C.accent5 }, line: { color: C.accent2, width: 0.75 }, fontSize: 11, bold: true, color: C.accent2,
+    align: "center", valign: "middle", margin: 0, fontFace: "Calibri", charSpacing: 2,
+    hyperlink: { slide: AGENDA, tooltip: "Back to the menu" }, objectName: "nav_menu",
+  });
+}
 function content(title, section, notes) {
   const s = pres.addSlide({ masterName: "Content", sectionTitle: section });
   motif(s, nextPos());
   s.addText(title, { placeholder: "title" });
+  menuButton(s);
   if (notes) s.addNotes(notes);
   return s;
 }
@@ -114,19 +132,61 @@ function sectionSlide(kicker, title, section, notes) {
   motif(s, { ox: 7.8, oy: 0.4, os: 6.8, rx: 8.9, ry: 1.5, rs: 4.6 });
   s.addText(kicker, { placeholder: "kicker" });
   s.addText(title, { placeholder: "title" });
+  menuButton(s);
   if (notes) s.addNotes(notes);
   return s;
 }
 
 (async () => {
-  // ===== 1. Cover =====
+  // ===== 0. Welcome (animated intro) =====
   pres.addSection({ title: "Opening" });
-  let s = pres.addSlide({ masterName: "Cover", sectionTitle: "Opening" });
+  let s = pres.addSlide({ masterName: "Blank", sectionTitle: "Opening" });
+  motif(s, { ox: 4.17, oy: 0.75, os: 5.0, rx: 4.67, ry: 1.25, rs: 4.0 });
+  s.addShape(pres.shapes.OVAL, { x: 6.07, y: 1.15, w: 1.2, h: 1.2, fill: { color: C.accent2 }, line: { type: "none" }, objectName: "w_badge" });
+  s.addImage({ data: await icon("FaCrown", HEX.ink), x: 6.37, y: 1.45, w: 0.6, h: 0.6, objectName: "w_badgeIcon" });
+  txt(s, "WELCOME TO THE PRESENTATION", { x: 1.5, y: 2.65, w: 10.33, h: 0.5, fontSize: 18, bold: true, color: C.accent2, charSpacing: 6, align: "center", objectName: "w_kicker" });
+  txt(s, "The Quiet Equity Playbook", { x: 1.0, y: 3.15, w: 11.33, h: 1.2, fontSize: 60, bold: true, fontFace: "Cambria", align: "center", valign: "middle", objectName: "w_title" });
+  txt(s, "How Somber Journal gets from 15 subscribers to monetized", { x: 1.5, y: 4.4, w: 10.33, h: 0.6, fontSize: 22, color: C.background2, align: "center", objectName: "w_sub" });
+  s.addText("Press →  or click to begin", {
+    shape: pres.shapes.ROUNDED_RECTANGLE, rectRadius: 0.3, x: 4.92, y: 5.55, w: 3.5, h: 0.62,
+    fill: { color: C.accent1 }, line: { type: "none" }, fontSize: 18, bold: true, color: C.text1, align: "center", valign: "middle", margin: 0,
+    fontFace: "Calibri", objectName: "pulse_hint",
+  });
+  s.addNotes("Welcome slide. Everything animates in on its own; the green button pulses until you move on.");
+
+  // ===== 1. Cover =====
+  s = pres.addSlide({ masterName: "Cover", sectionTitle: "Opening" });
   motif(s, POS[0]);
   s.addText("SOMBER JOURNAL  →  QUIET EQUITY", { placeholder: "kicker" });
   s.addText("The Monetization Playbook", { placeholder: "title" });
   s.addText("Why the channel isn't growing, what the winners did, and the exact plan for the next 30 days", { placeholder: "body" });
   s.addNotes("This deck sums up the full audit: where the channel stands, what seven competitor channels show, the formula that works in POV finance, and the plan for the first two videos and the first 30 days.");
+
+  // ===== Agenda (clickable menu) =====
+  s = content("What's inside — click a part to jump", "Opening",
+    "Interactive menu. Click any card to jump straight to that part. Every slide has a ← MENU button in the bottom-right corner that brings you back here.");
+  const parts = [
+    ["01", "Where you stand", "Your numbers, the monetization bar, and the one video that worked", "FaChartBar", C.accent4],
+    ["02", "What the winners did", "Seven channels compared: what flopped and what blew up", "FaTrophy", C.accent2],
+    ["03", "The formula", "Titles, thumbnails, the rebrand, editing and series", "FaMagic", C.accent1],
+    ["04", "The plan", "Your first two videos, the rules and the first 30 days", "FaRocket", C.accent3],
+  ];
+  for (let i = 0; i < 4; i++) {
+    const col = i % 2, row = Math.floor(i / 2);
+    const x = 0.6 + col * 6.15, y = 1.65 + row * 2.45;
+    const link = { slide: SECTION_AT[i + 1], tooltip: "Jump to " + parts[i][1] };
+    // The card and every text box on it carry the same link; finish.py turns these into
+    // whole-shape click targets and strips the underlined text links.
+    s.addText(" ", {
+      shape: pres.shapes.ROUNDED_RECTANGLE, rectRadius: 0.12, x, y, w: 5.95, h: 2.2, fill: { color: C.text2 },
+      line: { color: C.accent5, width: 1 }, hyperlink: link, objectName: "nav_card" + (i + 1),
+    });
+    await iconDot(s, x + 0.3, y + 0.35, 0.85, parts[i][3], parts[i][4], "agenda" + i);
+    txt(s, parts[i][0], { x: x + 1.45, y: y + 0.3, w: 4.2, h: 0.35, fontSize: 14, bold: true, color: C.accent2, charSpacing: 4, hyperlink: link, objectName: "nav_num" + (i + 1) });
+    txt(s, parts[i][1], { x: x + 1.45, y: y + 0.65, w: 4.2, h: 0.55, fontSize: 26, bold: true, fontFace: "Cambria", hyperlink: link, objectName: "nav_name" + (i + 1) });
+    txt(s, parts[i][2], { x: x + 1.45, y: y + 1.22, w: 4.2, h: 0.55, fontSize: 15, color: C.background2, hyperlink: link, objectName: "nav_desc" + (i + 1) });
+    txt(s, "Click to jump →", { x: x + 1.45, y: y + 1.75, w: 4.2, h: 0.3, fontSize: 13, bold: true, color: C.accent1, hyperlink: link, objectName: "nav_go" + (i + 1) });
+  }
 
   // ===== Section 1: Diagnosis =====
   sectionSlide("PART 1", "Where you stand", "Diagnosis", "First, the honest numbers.");
@@ -503,6 +563,20 @@ function sectionSlide(kicker, title, section, notes) {
   s.addText("Quiet wins compound", { placeholder: "title" });
   s.addText("One niche. One formula. Two videos a week. Find the hit, then build the series.", { placeholder: "body" });
   s.addNotes("Stay in POV finance, change the angle to the quiet winner, find one or two hits, then turn them into sequels and a series.");
+  s.addText("← Back to the menu", {
+    shape: pres.shapes.ROUNDED_RECTANGLE, rectRadius: 0.25, x: 0.8, y: 5.95, w: 2.9, h: 0.55,
+    fill: { color: C.accent5 }, line: { color: C.accent2, width: 1 }, fontSize: 15, bold: true, color: C.accent2,
+    align: "center", valign: "middle", margin: 0, fontFace: "Calibri",
+    hyperlink: { slide: AGENDA, tooltip: "Back to the menu" }, objectName: "nav_back",
+  });
+
+  // Check the hard-coded menu targets still point at the right slides
+  const titleOf = (n) => JSON.stringify(pres.slides[n - 1]._slideObjects.map((o) => o.text)).slice(0, 400);
+  const expect = { 1: "Where you stand", 2: "What the winners did", 3: "The formula", 4: "The plan" };
+  for (const k of Object.keys(expect)) {
+    if (!titleOf(SECTION_AT[k]).includes(expect[k])) throw new Error("Menu link " + k + " points at the wrong slide: " + titleOf(SECTION_AT[k]));
+  }
+  if (!titleOf(AGENDA).includes("What's inside")) throw new Error("Agenda is not slide " + AGENDA);
 
   await pres.writeFile({ fileName: OUT });
   await applyTheme(OUT, THEME);
