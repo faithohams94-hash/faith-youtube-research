@@ -23,6 +23,7 @@ PAREN = re.compile(r'<em class="p">(\(.*?\))</em>')
 
 CSS = """
 @page { size: A4; margin: 25mm 25mm 25mm 24mm; @top-right { content: counter(page) "."; font: 12pt 'Courier Prime', 'Courier New', monospace; } }
+@page :first { @top-right { content: none } }
 @page front { margin: 25mm 25mm 25mm 24mm; @top-right { content: none } }
 html { margin: 0 } body { margin: 0; padding-left: 14mm; background: #fff; color: #000; font: 12pt/1.2 'Courier Prime', 'Courier New', Courier, monospace; }
 p { margin: 0 }
@@ -41,11 +42,11 @@ p { margin: 0 }
 .head .n { position: absolute; left: -14mm; top: 0 }
 .head .s { flex: 1 }
 .head .n2 { margin-left: 6mm }
-.act { margin-bottom: 12pt }
-.cue { margin: 12pt 0 0 56mm; text-transform: uppercase; break-after: avoid }
-.par { margin-left: 41mm; width: 50mm; break-after: avoid; break-before: avoid }
-.dl { margin-left: 25mm; width: 88mm; break-before: avoid }
-.super { margin-bottom: 12pt }
+.act { margin: 12pt 0 }
+.sp { margin: 12pt 0; break-inside: avoid }\n.cue { margin: 0 0 0 56mm; text-transform: uppercase }
+.par { margin-left: 41mm; width: 64mm; padding-left: 1ch; text-indent: -1ch }
+.dl { margin-left: 25mm; width: 89mm }
+.super { margin: 12pt 0 }
 .trans { text-align: right; text-transform: uppercase; margin: 12pt 0 }
 em { font-style: italic }
 strong { font-weight: 700 }
@@ -58,15 +59,51 @@ def page(body, cls=""):
             f'<style>{CSS}</style></head><body class="{cls}">{body}</body></html>')
 
 
+def as_action(paren):
+    """Turn a full-sentence direction like '(He points at the X-ray.)' into an action line."""
+    t = paren.strip()[1:-1].strip()
+    t = t[0].upper() + t[1:]
+    t = t.rstrip(":").rstrip()
+    return t if t[-1] in ".!?…" else t + "."
+
+
 def dialogue(ln):
-    ext = f' ({esc(ln["tag"])})' if ln["tag"] else ""
-    out = [f'<p class="cue">{esc(ln["who"])}{ext}</p>']
+    """Standard screenplay speech: wrylies stay as parentheticals, full-sentence
+    directions become action lines and the speech resumes with (CONT'D)."""
+    name = esc(ln["who"]) + (f' ({esc(ln["tag"])})' if ln["tag"] else "")
+    blocks, speech, spoke = [], [], False
+
+    def close():
+        nonlocal speech
+        trailing = None
+        if len(speech) > 1 and speech[-1].startswith('<p class="par">'):  # a speech never ends on a wryly
+            trailing = re.sub(r'^<p class="par">|</p>$', "", speech.pop())
+        if speech:
+            cue = name + (" (CONT'D)" if spoke and not speech_has_new_cue[0] else "")
+            blocks.append(f'<div class="sp"><p class="cue">{cue}</p>{"".join(speech)}</div>')
+            speech = []
+        if trailing:
+            blocks.append(f'<p class="act">{as_action(trailing)}</p>')
+
+    speech_has_new_cue = [True]
     for i, part in enumerate(PAREN.split(ln["html"])):
         part = part.strip()
         if not part:
             continue
-        out.append(f'<p class="par">{part}</p>' if i % 2 else f'<p class="dl">{part}</p>')
-    return "".join(out)
+        if i % 2:  # parenthetical
+            if not part[1:2].isupper():  # "(quietly)", "(pointing his cane at her)"
+                speech.append(f'<p class="par">{part}</p>')
+            else:
+                had_line = any('class="dl"' in x for x in speech)
+                close()
+                blocks.append(f'<p class="act">{as_action(part)}</p>')
+                if had_line:
+                    spoke = True
+                speech_has_new_cue[0] = not spoke
+        else:
+            speech.append(f'<p class="dl">{part}</p>')
+    close()
+    return "".join(blocks)
 
 
 def line(ln):
