@@ -220,6 +220,7 @@ data = {
     "sections": SECTIONS, "tension": TENSION, "hope": HOPE, "polls": POLLS,
     "scenes": scenes, "cast": cast, "support": support, "locations": locations,
 }
-blob = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
-OUT.write_text(TEMPLATE.replace("__DATA__", blob), encoding="utf-8")
-print(f"wrote {OUT} · {len(scenes)} scenes · {sum(len(s['lines']) for s in scenes)} lines · {len(cast)} cast")
+if __name__ == "__main__":
+    blob = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
+    OUT.write_text(TEMPLATE.replace("__DATA__", blob), encoding="utf-8")
+    print(f"wrote {OUT} · {len(scenes)} scenes · {sum(len(s['lines']) for s in scenes)} lines · {len(cast)} cast")
