@@ -1,0 +1,630 @@
+<title>Ireti and the Billionaire Grandpa</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Courier+Prime:wght@400;700&display=swap">
+<style>
+/* Layout: a dark cinema. The scene plays line by line in a centre "screen" column, a side rail tracks
+   the story arc and how much hope is left in the house, and a remote control sits at the bottom.
+   Single committed dark look, using Mary's AI Movies brand colours: gold, red, white. */
+:root{
+  --night:#110d0a; --stage:#1a1410; --stage2:#241b14; --rule:#3a2d22;
+  --ink:#f6eee3; --muted:#bba98f; --faint:#857360;
+  --gold:#f2b632; --gold-ink:#1b1305; --red:#e0402f; --ok:#8fd49c;
+  --display:"Anton",Impact,"Arial Narrow",sans-serif;
+  --body:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --slug:"Courier Prime","Courier New",Courier,monospace;
+  --hope:0.1;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{background:var(--night);color:var(--ink)}
+body{font-family:var(--body);font-size:17px;line-height:1.55;margin:0;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  padding-block:0 calc(170px + env(safe-area-inset-bottom,0px))}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--night)}
+/* the light in the house: grows warmer as hope returns */
+.glow{position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:radial-gradient(70% 55% at 50% -10%, rgba(242,182,50,calc(var(--hope)*.32)), transparent 70%),
+             radial-gradient(40% 40% at 100% 100%, rgba(224,64,47,calc((1 - var(--hope))*.12)), transparent 70%);
+  transition:background 1.2s ease}
+.wrap{position:relative;z-index:1;max-width:1180px;margin:0 auto}
+button,select{font:inherit;color:inherit}
+button{cursor:pointer}
+a{color:var(--gold)}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+kbd{font-family:var(--slug);font-size:.8em;border:1px solid var(--rule);border-radius:4px;padding:0 5px;background:var(--stage)}
+
+/* header */
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:6;background:color-mix(in srgb,var(--night) 93%,transparent);
+  backdrop-filter:blur(8px);border-bottom:1px solid var(--rule);padding-block:10px 8px;margin-inline:calc(-1*max(16px,env(safe-area-inset-left,0px)))}
+.hrow{max-width:1180px;margin:0 auto;display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding-inline:max(16px,env(safe-area-inset-left,0px))}
+.brand{flex:1 1 220px;min-width:0}
+.brand small{display:block;font-family:var(--slug);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.brand b{display:block;font-family:var(--display);font-weight:400;font-size:20px;letter-spacing:.02em;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+nav{display:flex;gap:4px;background:var(--stage);border:1px solid var(--rule);border-radius:999px;padding:3px}
+nav a{text-decoration:none;color:var(--muted);font-weight:600;font-size:14px;padding:6px 14px;border-radius:999px}
+nav a[aria-current="page"]{background:var(--gold);color:var(--gold-ink)}
+.chip{border:1px solid var(--rule);background:var(--stage);border-radius:999px;padding:6px 12px;font-size:14px;white-space:nowrap}
+.chip:hover{border-color:var(--gold)}
+.score{font-family:var(--slug);font-size:12px;color:var(--muted);white-space:nowrap}
+.score b{color:var(--gold)}
+@media (max-width:560px){.score{display:none}.brand b{font-size:17px}header{padding-block:8px 6px}}
+.ticks{max-width:1180px;margin:8px auto 0;display:grid;grid-template-columns:repeat(32,1fr);gap:2px;padding-inline:max(16px,env(safe-area-inset-left,0px))}
+.ticks button{height:7px;border:0;border-radius:2px;background:var(--rule);padding:0;opacity:.55}
+.ticks button.seen{background:var(--c);opacity:.65}
+.ticks button.now{background:var(--c);opacity:1;outline:1px solid var(--ink);outline-offset:1px}
+
+/* hero */
+.hero{padding-block:28px 8px;display:grid;gap:10px;max-width:820px}
+.hero .eyebrow{font-family:var(--slug);font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--red)}
+.hero h1{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:clamp(34px,6.4vw,68px);line-height:.98;margin:0;letter-spacing:.005em;text-wrap:balance}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero p{margin:0;color:var(--muted);max-width:64ch}
+.hero .thesis{color:var(--ink);font-weight:600}
+.facts{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.facts span{font-family:var(--slug);font-size:12px;color:var(--muted);border:1px solid var(--rule);border-radius:4px;padding:3px 8px}
+
+/* watch view */
+.watch{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:28px;align-items:start;padding-top:18px}
+@media (max-width:900px){.watch{grid-template-columns:minmax(0,1fr)}}
+.scenehead{padding-block:6px 16px;border-bottom:1px dashed var(--rule);margin-bottom:16px;display:grid;gap:6px}
+.scenehead .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.sec{font-family:var(--slug);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-ink);background:var(--c);border-radius:3px;padding:2px 8px}
+.num{font-family:var(--slug);font-size:13px;color:var(--muted)}
+.scenehead h2{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:clamp(30px,5.4vw,50px);line-height:1;margin:0;text-wrap:balance}
+.slugline{font-family:var(--slug);font-size:13px;color:var(--muted);text-transform:uppercase}
+.slugline b{color:var(--gold);font-weight:700}
+.scenehead .tools{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px}
+
+.feed{display:grid;gap:6px}
+.ln{border-radius:8px;padding:10px 14px;border-left:3px solid transparent;transition:background .25s,opacity .25s;cursor:pointer}
+.ln:hover{background:color-mix(in srgb,var(--stage2) 70%,transparent)}
+.ln.past{opacity:.62}
+.ln.ahead{opacity:.38}
+.ln.now{background:var(--stage2);border-left-color:var(--gold);opacity:1}
+.ln p{margin:0}
+.ln .tag{display:inline-block;font-family:var(--slug);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;margin-bottom:4px}
+.ln.establish .tag{color:var(--gold)}
+.ln.aftermath .tag{color:var(--red)}
+.ln.establish p,.ln.aftermath p,.ln.action p{font-style:italic;color:var(--muted)}
+.ln.establish,.ln.aftermath{background:color-mix(in srgb,var(--stage) 70%,transparent)}
+.ln.establish.now,.ln.aftermath.now{background:var(--stage2)}
+.ln.action p em,.ln.establish p em,.ln.aftermath p em{font-style:normal}
+.ln.dialogue{display:grid;grid-template-columns:150px minmax(0,1fr);gap:14px;align-items:baseline}
+@media (max-width:560px){.ln.dialogue{grid-template-columns:minmax(0,1fr);gap:2px}}
+.who{font-family:var(--slug);font-weight:700;font-size:13px;letter-spacing:.06em;color:var(--who,var(--muted));text-transform:uppercase}
+.who span{display:block;font-weight:400;font-size:11px;color:var(--faint);letter-spacing:.04em}
+.say{font-size:19px;line-height:1.5;min-width:0}
+.say em.p{color:var(--faint);font-size:.82em}
+.say strong{color:var(--gold)}
+.ln.screen{text-align:center;background:#000;border:1px solid var(--rule);padding:18px 14px}
+.ln.screen .tag{color:var(--faint)}
+.ln.screen p{font-family:var(--display);font-size:clamp(20px,3.2vw,30px);text-transform:uppercase;letter-spacing:.02em;color:var(--gold);line-height:1.15}
+.ln.screen p em{font-style:normal}
+.ln.fade{text-align:center;font-family:var(--slug);font-size:12px;letter-spacing:.3em;color:var(--faint);text-transform:uppercase}
+.ln.fade p{display:flex;align-items:center;gap:12px}
+.ln.fade p::before,.ln.fade p::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--rule))}
+.ln.fade p::after{background:linear-gradient(90deg,var(--rule),transparent)}
+
+/* end-of-scene cards */
+.card{margin-top:18px;border:1px solid var(--rule);background:var(--stage);border-radius:12px;padding:18px;display:grid;gap:12px}
+.card .k{font-family:var(--slug);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.card h3{margin:0;font-size:22px;line-height:1.25;text-wrap:balance}
+.opts{display:grid;gap:8px}
+.opts button{text-align:left;border:1px solid var(--rule);background:var(--stage2);border-radius:8px;padding:11px 14px}
+.opts button:hover{border-color:var(--gold)}
+.opts button.right{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 14%,var(--stage2))}
+.opts button.mine:not(.right){border-color:var(--red);background:color-mix(in srgb,var(--red) 14%,var(--stage2))}
+.verdict{font-family:var(--display);font-size:28px;text-transform:uppercase;line-height:1}
+.verdict.good{color:var(--ok)} .verdict.bad{color:var(--red)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.btn{border:0;border-radius:999px;padding:9px 18px;font-weight:700;background:var(--gold);color:var(--gold-ink)}
+.btn.ghost{background:transparent;border:1px solid var(--rule);color:var(--ink);font-weight:600}
+.hint{color:var(--faint);font-size:13px;margin-top:22px}
+
+/* side rail */
+.rail{position:sticky;top:calc(env(safe-area-inset-top,0px) + 96px);display:grid;gap:14px}
+@media (max-width:900px){.rail{position:static}}
+.panel{border:1px solid var(--rule);border-radius:12px;padding:14px;background:color-mix(in srgb,var(--stage) 85%,transparent);display:grid;gap:10px}
+.panel h4{margin:0;font-family:var(--slug);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:400}
+.meter{height:10px;border-radius:5px;background:var(--stage2);overflow:hidden;border:1px solid var(--rule)}
+.meter i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--red),var(--gold));transition:width 1s ease}
+.hopeval{display:flex;justify-content:space-between;align-items:baseline}
+.hopeval b{font-family:var(--display);font-size:30px;font-weight:400;color:var(--gold);font-variant-numeric:tabular-nums}
+.hopeval span{color:var(--muted);font-size:14px}
+.people{display:flex;flex-wrap:wrap;gap:6px}
+.person{display:flex;align-items:center;gap:6px;border:1px solid var(--rule);border-radius:999px;padding:3px 10px 3px 3px;font-size:13px;background:var(--stage2);text-decoration:none;color:var(--ink)}
+.person i{width:22px;height:22px;border-radius:50%;display:grid;place-items:center;font-style:normal;font-size:10px;font-weight:700;background:var(--who);color:var(--gold-ink)}
+svg text{font-family:var(--slug)}
+
+/* dock */
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:7;background:color-mix(in srgb,var(--stage) 95%,transparent);backdrop-filter:blur(10px);border-top:1px solid var(--rule);
+  padding-block:10px calc(10px + env(safe-area-inset-bottom,0px));padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.dk{max-width:1180px;margin:0 auto;display:grid;gap:8px}
+.nowline{font-size:14px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:center}
+.nowline b{color:var(--ink)}
+.ctl{display:flex;justify-content:center;align-items:center;gap:10px}
+.ctl button{width:42px;height:42px;border-radius:50%;border:1px solid var(--rule);background:var(--stage2);display:grid;place-items:center}
+.ctl button svg{width:20px;height:20px;fill:var(--ink)}
+.ctl button.play{width:58px;height:58px;background:var(--gold);border-color:var(--gold)}
+.ctl button.play svg{fill:var(--gold-ink);width:26px;height:26px}
+.opts2{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;font-size:13px;color:var(--muted)}
+.opts2 label{display:flex;align-items:center;gap:6px}
+.opts2 select{background:var(--stage2);border:1px solid var(--rule);border-radius:6px;padding:2px 6px}
+
+/* drawer + toast */
+.drawer{position:fixed;inset:0;z-index:9;background:rgba(0,0,0,.6);display:flex;justify-content:flex-end}
+.pane{width:min(440px,100%);height:100%;overflow:auto;background:var(--stage);border-left:1px solid var(--rule);
+  padding:calc(16px + env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) calc(16px + env(safe-area-inset-bottom,0px)) 16px}
+.pane h3{display:flex;justify-content:space-between;align-items:center;margin:0 0 10px;font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:26px}
+.pane .grp{font-family:var(--slug);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--c);margin:16px 0 6px}
+.pane .sc{display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:8px;align-items:baseline;width:100%;text-align:left;border:0;background:none;padding:8px;border-radius:6px}
+.pane .sc:hover,.pane .sc.now{background:var(--stage2)}
+.pane .sc .n{font-family:var(--slug);color:var(--muted);font-size:13px}
+.pane .sc .t{font-weight:600}
+.pane .sc .tm{font-family:var(--slug);font-size:12px;color:var(--faint);font-variant-numeric:tabular-nums}
+.pane .sc.seen .n{color:var(--gold)}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(178px + env(safe-area-inset-bottom,0px));z-index:8;background:var(--ink);color:var(--night);font-weight:600;padding:10px 16px;border-radius:999px;font-size:14px;max-width:calc(100% - 32px);text-align:center}
+
+/* cast view */
+.view{padding-top:22px}
+.vh{display:grid;gap:6px;margin-bottom:18px;max-width:70ch}
+.vh h2{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:clamp(32px,5vw,48px);margin:0;line-height:1}
+.vh p{margin:0;color:var(--muted)}
+.castgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.cc{border:1px solid var(--rule);border-radius:12px;background:var(--stage);padding:16px;display:grid;gap:10px;align-content:start;min-width:0}
+.cc .top{display:flex;gap:12px;align-items:center}
+.av{width:48px;height:48px;border-radius:50%;background:var(--who);color:var(--gold-ink);display:grid;place-items:center;font-family:var(--display);font-size:20px;flex:none}
+.cc h3{margin:0;font-size:19px;line-height:1.2}
+.cc .meta{font-size:13px;color:var(--muted)}
+.cc p{margin:0;font-size:15px;color:var(--muted)}
+.cc details{font-size:15px;color:var(--muted)}
+.cc summary{cursor:pointer;color:var(--ink);font-weight:600;font-size:14px}
+.cc details p{margin-top:6px}
+.prompt{font-family:var(--slug);font-size:13px;line-height:1.5;background:var(--night);border:1px solid var(--rule);border-radius:8px;padding:10px;color:var(--ink);white-space:pre-wrap;overflow-wrap:anywhere}
+.scn{display:flex;flex-wrap:wrap;gap:4px}
+.scn button{font-family:var(--slug);font-size:12px;border:1px solid var(--rule);background:var(--stage2);border-radius:4px;padding:2px 7px}
+.scn button:hover{border-color:var(--gold)}
+.sub{margin-top:28px}
+.sub h3{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:26px;margin:0 0 10px}
+.list{display:grid;gap:8px;grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.li{border:1px solid var(--rule);border-radius:10px;padding:12px;background:var(--stage);font-size:15px;color:var(--muted);display:grid;gap:8px;min-width:0}
+.li b{color:var(--ink)}
+
+/* map view */
+.arcwrap{border:1px solid var(--rule);border-radius:14px;background:var(--stage);padding:14px;overflow-x:auto}
+.arcwrap svg{display:block;width:100%;min-width:640px;height:auto}
+.beats{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-top:14px}
+@media (max-width:760px){.beats{grid-template-columns:minmax(0,1fr)}}
+.beat{border-top:2px solid var(--c);padding-top:10px;display:grid;gap:4px;text-align:left;background:none;border-left:0;border-right:0;border-bottom:0;color:var(--ink)}
+.beat .k{font-family:var(--slug);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--c)}
+.beat b{font-size:18px}
+.beat span{font-size:14px;color:var(--muted)}
+.beat .tm{font-family:var(--slug);font-size:12px;color:var(--faint)}
+.loops{display:grid;gap:10px;margin-top:8px}
+.loop{border:1px solid var(--rule);border-radius:10px;background:var(--stage);padding:14px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 14px;align-items:center}
+.loop .q{font-weight:600}
+.loop .st{font-family:var(--slug);font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:2px 8px;border-radius:3px;border:1px solid var(--rule);color:var(--muted)}
+.loop .st.done{color:var(--gold-ink);background:var(--gold);border-color:var(--gold)}
+.loop .meta2{grid-column:1/-1;display:flex;gap:8px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+.loop .ans{grid-column:1/-1;font-size:15px;color:var(--ink);margin:0}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+
+<div class="glow" aria-hidden="true"></div>
+<header>
+  <div class="hrow">
+    <div class="brand"><small>Mary's AI Movies · Full movie</small><b>A Poor Girl Helped a Billionaire CEO Grandpa Walk Again</b></div>
+    <nav aria-label="Views">
+      <a href="#watch" data-v="watch">Watch</a>
+      <a href="#cast" data-v="cast">Cast</a>
+      <a href="#map" data-v="map">Story map</a>
+    </nav>
+    <span class="score" id="score"></span>
+    <button class="chip" id="openList" type="button">All scenes</button>
+  </div>
+  <div class="ticks" id="ticks" aria-label="Scene progress"></div>
+</header>
+
+<div class="wrap">
+  <section id="v-watch">
+    <div class="hero">
+      <span class="eyebrow">An AI Nollywood movie · 60 minutes · 32 scenes</span>
+      <h1>A poor girl helped a billionaire CEO grandpa <em>walk again</em></h1>
+      <p id="logline"></p>
+      <p class="thesis" id="thesis"></p>
+      <div class="facts"><span>Press play to hear it read aloud</span><span>10 “what happens next?” guesses</span><span>Tap any line to jump</span></div>
+    </div>
+    <div class="watch">
+      <div>
+        <div class="scenehead" id="head"></div>
+        <div class="feed" id="feed" aria-live="polite"></div>
+        <div id="end"></div>
+        <p class="hint">Keys: <kbd>Space</kbd> play or pause · <kbd>→</kbd> next line · <kbd>←</kbd> previous line · <kbd>N</kbd> next scene.</p>
+      </div>
+      <aside class="rail">
+        <div class="panel">
+          <h4>Hope in the house</h4>
+          <div class="hopeval"><b id="hopeNum">0</b><span id="hopeWord"></span></div>
+          <div class="meter"><i id="hopeBar"></i></div>
+        </div>
+        <div class="panel">
+          <h4>Where we are in the story</h4>
+          <div id="miniArc"></div>
+          <div id="miniBeat" style="font-size:14px;color:var(--muted)"></div>
+        </div>
+        <div class="panel">
+          <h4>In this scene</h4>
+          <div class="people" id="people"></div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section id="v-cast" class="view" hidden>
+    <div class="vh">
+      <h2>The cast</h2>
+      <p>Generate one reference image per character from the AI prompt, then attach it to every shot so the face never changes. Tap a scene number to watch that scene.</p>
+    </div>
+    <div class="castgrid" id="castGrid"></div>
+    <div class="sub"><h3>Supporting cast</h3><div class="list" id="supGrid"></div></div>
+    <div class="sub"><h3>Key locations</h3><div class="list" id="locGrid"></div></div>
+  </section>
+
+  <section id="v-map" class="view" hidden>
+    <div class="vh">
+      <h2>How this story is built</h2>
+      <p>The 1M-view structure: start inside the conflict and never let the tension rest. Every dot is a scene. Tap one to watch it.</p>
+    </div>
+    <div class="arcwrap" id="bigArc"></div>
+    <div class="beats" id="beats"></div>
+    <div class="sub">
+      <h3>Open questions that keep viewers watching</h3>
+      <p style="color:var(--muted);margin:0 0 6px">Answers stay hidden until you've watched the scene that reveals them.</p>
+      <div class="loops" id="loops"></div>
+    </div>
+  </section>
+</div>
+
+<div class="dock">
+  <div class="dk">
+    <div class="nowline" id="nowTxt">Press play to start the movie</div>
+    <div class="ctl">
+      <button id="bPrevS" type="button" aria-label="Previous scene"><svg viewBox="0 0 24 24"><path d="M6 5h2v14H6zM20 5v14L9 12z"/></svg></button>
+      <button id="bPrev" type="button" aria-label="Previous line"><svg viewBox="0 0 24 24"><path d="M15.5 5 8.5 12l7 7-1.4 1.4L5.7 12l8.4-8.4z"/></svg></button>
+      <button class="play" id="bPlay" type="button" aria-label="Play"><svg viewBox="0 0 24 24" id="playIco"><path d="M7 4v16l13-8z"/></svg></button>
+      <button id="bNext" type="button" aria-label="Next line"><svg viewBox="0 0 24 24"><path d="M8.5 19 15.5 12l-7-7 1.4-1.4 8.4 8.4-8.4 8.4z"/></svg></button>
+      <button id="bNextS" type="button" aria-label="Next scene"><svg viewBox="0 0 24 24"><path d="M16 5h2v14h-2zM4 5v14l11-7z"/></svg></button>
+    </div>
+    <div class="opts2">
+      <label><input type="checkbox" id="optVoice" checked> Read aloud</label>
+      <label><input type="checkbox" id="optAct"> Read scene directions</label>
+      <label><input type="checkbox" id="optPolls" checked> Guessing games</label>
+      <label>Speed <select id="optSpeed"><option value="0.85">Slow</option><option value="1" selected>Normal</option><option value="1.2">Fast</option><option value="1.45">Faster</option></select></label>
+    </div>
+  </div>
+</div>
+
+<div class="drawer" id="drawer" hidden>
+  <div class="pane" role="dialog" aria-label="All scenes">
+    <h3>All 32 scenes <button class="chip" id="closeList" type="button">Close</button></h3>
+    <div id="sl"></div>
+  </div>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+const D = __DATA__;
+const S = D.scenes, POLLS = D.polls, SEC = Object.fromEntries(D.sections.map(s=>[s.key,s]));
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const store = {get(k,d){try{const v=localStorage.getItem("pgg_"+k);return v==null?d:JSON.parse(v)}catch(e){return d}},
+               set(k,v){try{localStorage.setItem("pgg_"+k,JSON.stringify(v))}catch(e){}}};
+
+const COLORS = {"IRETI":"#f2b632","CHIEF":"#f3ece0","FEMI":"#82b4ff","GABRIEL":"#7fd3bb","MAMA FUNMI":"#f3a6bb",
+  "DAYO":"#a9e07c","RONKE":"#ff6b55","MALLAM AUDU":"#dcb47e","DR. HASSAN":"#9fcbe3","LEKAN":"#c89bff"};
+const colorOf = k => COLORS[k] || "#bba98f";
+const initials = n => n.replace(/^(Chief|Aunty|Mr\.|Dr\.|Mama|Mallam)\s+/i,"").split(/\s+/).slice(0,2).map(w=>w[0]).join("").toUpperCase();
+const castByKey = Object.fromEntries(D.cast.map(c=>[c.key,c]));
+
+/* ---------- state ---------- */
+let si = Math.min(store.get("si",0), S.length-1), li = 0, playing = false, runId = 0, resumeAfter = false;
+let shown = store.get("shown",{0:3});
+let seen = new Set(store.get("seen",[0]));
+let answers = store.get("ans",{}), revealed = new Set(store.get("rev",[])), skipped = new Set();
+li = Math.min(store.get("li",0), S[si].lines.length-1);
+const save = () => { store.set("si",si); store.set("li",li); store.set("shown",shown); store.set("seen",[...seen]); store.set("ans",answers); store.set("rev",[...revealed]); };
+
+["optVoice","optAct","optPolls","optSpeed"].forEach(id=>{
+  const el=$(id), v=store.get(id,null);
+  if(v!==null){ if(el.type==="checkbox") el.checked=v; else el.value=v; }
+  el.addEventListener("change",()=>{ store.set(id, el.type==="checkbox"?el.checked:el.value);
+    if(id==="optVoice" && !el.checked && synth) synth.cancel(); });
+});
+const speed = () => parseFloat($("optSpeed").value) || 1;
+
+/* ---------- voices ---------- */
+const synth = ("speechSynthesis" in window) ? window.speechSynthesis : null;
+if(!synth){ $("optVoice").checked=false; $("optVoice").disabled=true; $("optAct").disabled=true; }
+let VO = {f:null,m:null,n:null};
+function pickVoices(){
+  if(!synth) return;
+  const vs = synth.getVoices().filter(v=>/^en/i.test(v.lang));
+  if(!vs.length) return;
+  const fem=/female|samantha|karen|moira|tessa|zira|susan|hazel|serena|victoria|fiona|libby|sonia|aria|jenny|ezinne|abeo|natasha|catherine/i;
+  const mal=/\bmale|daniel|david|mark|alex|george|rishi|fred|guy|ryan|thomas|oliver|arthur|william|james/i;
+  const ng = vs.filter(v=>/NG/i.test(v.lang)), pool = ng.length ? ng.concat(vs) : vs;
+  VO.f = pool.find(v=>fem.test(v.name)) || pool[0];
+  VO.m = pool.find(v=>mal.test(v.name) && !/female/i.test(v.name)) || pool.find(v=>v!==VO.f) || pool[0];
+  VO.n = pool.find(v=>/en-GB/i.test(v.lang) && mal.test(v.name) && !/female/i.test(v.name)) || VO.m;
+}
+if(synth){ pickVoices(); synth.onvoiceschanged = pickVoices; }
+const chunks = t => (t.match(/[^.!?…]+[.!?…]*["”’)]*\s*/g)||[t]).map(s=>s.trim()).filter(Boolean);
+function speak(text, g, p, narrator, myRun){
+  return new Promise(async res=>{
+    for(const part of chunks(text)){
+      if(myRun!==runId) return res(false);
+      await new Promise(r=>{
+        const u = new SpeechSynthesisUtterance(part);
+        u.voice = narrator ? VO.n : (g==="f" ? VO.f : VO.m);
+        u.pitch = narrator ? .95 : Math.min(2,Math.max(.1,p||1));
+        u.rate = (narrator ? 1.05 : 1) * speed();
+        let done=false; const fin=()=>{ if(!done){ done=true; clearTimeout(to); r(); } };
+        const to = setTimeout(fin, 2500 + part.split(/\s+/).length*650/speed());
+        u.onend=fin; u.onerror=fin; synth.speak(u);
+      });
+    }
+    res(myRun===runId);
+  });
+}
+const wait = (ms,myRun) => new Promise(r=>setTimeout(()=>r(myRun===runId),ms));
+const words = t => (t||"").split(/\s+/).filter(Boolean).length;
+
+/* ---------- arc chart ---------- */
+function arcSVG(w,h,pad,big){
+  const n=S.length, xs=i=>pad+i*(w-2*pad)/(n-1), ys=v=>h-pad-(v/100)*(h-2*pad-(big?30:6));
+  const P=D.tension.map((v,i)=>[xs(i),ys(v)]);
+  let d=`M${P[0][0]},${P[0][1]}`;
+  for(let i=0;i<P.length-1;i++){
+    const p0=P[Math.max(0,i-1)],p1=P[i],p2=P[i+1],p3=P[Math.min(P.length-1,i+2)];
+    d+=` C${p1[0]+(p2[0]-p0[0])/6},${p1[1]+(p2[1]-p0[1])/6} ${p2[0]-(p3[0]-p1[0])/6},${p2[1]-(p3[1]-p1[1])/6} ${p2[0]},${p2[1]}`;
+  }
+  let s=`<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="Story tension across the 32 scenes"><defs><linearGradient id="g${big?1:0}" x1="0" x2="1"><stop offset="0" stop-color="#e0402f"/><stop offset=".7" stop-color="#f08327"/><stop offset="1" stop-color="#f2c75a"/></linearGradient></defs>`;
+  s+=`<path d="${d}" fill="none" stroke="url(#g${big?1:0})" stroke-width="${big?4:3}" stroke-linecap="round"/>`;
+  P.forEach(([x,y],i)=>{
+    const sc=S[i], beat=D.sections.find(b=>b.dot===sc.n), here=i===si, c=SEC[sc.section].color;
+    if(big){
+      s+=`<g class="dot" data-s="${i}" tabindex="0" role="button" aria-label="Scene ${sc.n}: ${esc(sc.title)}" style="cursor:pointer"><title>Scene ${sc.n}: ${esc(sc.title)}</title>`+
+         `<circle cx="${x}" cy="${y}" r="${beat?11:6}" fill="${beat?'#f2b632':(seen.has(i)?c:'#3a2d22')}" stroke="${here?'#f6eee3':'#110d0a'}" stroke-width="${here?3:2}"/></g>`;
+      if(beat) s+=`<text x="${x}" y="${y-20}" text-anchor="middle" font-size="13" fill="#f6eee3">${esc(beat.name)}</text>`;
+    } else if(beat){
+      s+=`<circle cx="${x}" cy="${y}" r="4" fill="#f2b632"/>`;
+    }
+  });
+  const [cx,cy]=P[si];
+  if(!big) s+=`<circle cx="${cx}" cy="${cy}" r="7" fill="#f6eee3" stroke="#110d0a" stroke-width="2"/>`;
+  return s+`</svg>`;
+}
+
+/* ---------- rendering ---------- */
+function lineEl(ln,i){
+  const d=document.createElement("div");
+  d.className="ln "+ln.t; d.dataset.i=i;
+  if(ln.t==="dialogue"){
+    d.style.setProperty("--who", colorOf(ln.k));
+    d.innerHTML=`<div class="who">${esc(ln.who)}${ln.tag?`<span>${esc(ln.tag)}</span>`:""}</div><div class="say">${ln.html}</div>`;
+  } else if(ln.t==="establish"||ln.t==="aftermath"){
+    d.innerHTML=`<span class="tag">${ln.t==="establish"?"Establish":"Aftermath"}</span><p>${ln.html}</p>`;
+  } else if(ln.t==="screen"){
+    d.innerHTML=`<span class="tag">On screen · ${esc(ln.label)}</span><p>${ln.html}</p>`;
+  } else d.innerHTML=`<p>${ln.html}</p>`;
+  d.addEventListener("click",()=>{ jumpLine(i); });
+  return d;
+}
+function hopeWord(v){ return v<15?"The curtains are closed":v<35?"A crack of light":v<60?"One inch of sun":v<85?"The house is waking up":"Every window is open"; }
+function renderHead(){
+  const sc=S[si], sec=SEC[sc.section];
+  $("head").style.setProperty("--c", sec.color);
+  $("head").innerHTML=`<div class="row"><span class="sec" style="--c:${sec.color}">${esc(sec.name)} · ${esc(sec.beat)}</span><span class="num">Scene ${sc.n} of ${S.length} · ${sc.time[0]}–${sc.time[1]}</span></div>
+    <h2>${esc(sc.title)}</h2><div class="slugline"><b>${esc(sc.slug.split(" — ")[0])}</b> ${esc(sc.slug.split(" — ").slice(1).join(" — "))}</div>
+    <div class="tools"><button class="chip" type="button" id="showAll">Show the full scene</button><button class="chip" type="button" id="restartScene">Restart scene</button></div>`;
+  $("showAll").onclick=()=>{ shown[si]=sc.lines.length-1; renderFeed(); save(); };
+  $("restartScene").onclick=()=>{ pause(); li=0; renderFeed(); save(); };
+}
+function renderFeed(scroll=true){
+  const sc=S[si], last=Math.max(shown[si]||0, li);
+  shown[si]=last;
+  const f=$("feed"); f.innerHTML="";
+  for(let i=0;i<=last;i++){ const el=lineEl(sc.lines[i],i); el.classList.add(i<li?"past":i===li?"now":"ahead"); f.appendChild(el); }
+  const ln=sc.lines[li];
+  $("nowTxt").innerHTML = ln.t==="dialogue" ? `<b>${esc(ln.who)}:</b> ${esc(ln.say)}` : `<b>Scene ${sc.n}</b> · ${esc(ln.say||sc.title)}`;
+  if(scroll){ const cur=f.querySelector(".now"); if(cur && document.querySelector("#v-watch:not([hidden])")) cur.scrollIntoView({block:"center",behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"}); }
+}
+function renderRail(){
+  const v=D.hope[si];
+  document.documentElement.style.setProperty("--hope",(v/100).toFixed(2));
+  $("hopeNum").textContent=v+"%"; $("hopeWord").textContent=hopeWord(v); $("hopeBar").style.width=v+"%";
+  $("miniArc").innerHTML=arcSVG(268,90,8,false);
+  const sec=SEC[S[si].section]; $("miniBeat").innerHTML=`<b style="color:${sec.color}">${esc(sec.beat)}.</b> ${esc(sec.desc)}`;
+  const keys=[...new Set(S[si].lines.filter(l=>l.k).map(l=>l.k))];
+  $("people").innerHTML = keys.length ? keys.map(k=>{ const c=castByKey[k]; return `<a class="person" href="#cast" style="--who:${colorOf(k)}"><i>${initials(c?c.name:k)}</i>${esc(c?c.name.replace(/^(Chief Babatunde|Mr\.|Dr\.)\s+/,""):k)}</a>`; }).join("") : `<span style="color:var(--faint);font-size:14px">Minor characters only</span>`;
+}
+function renderTicks(){
+  $("ticks").innerHTML=S.map((sc,i)=>`<button type="button" style="--c:${SEC[sc.section].color}" class="${seen.has(i)?"seen":""} ${i===si?"now":""}" aria-label="Scene ${sc.n}: ${esc(sc.title)}" title="${sc.n}. ${esc(sc.title)}" data-s="${i}"></button>`).join("");
+}
+function renderScore(){
+  const done=POLLS.filter(p=>revealed.has(p.id)), right=done.filter(p=>answers[p.id]===p.a).length;
+  $("score").innerHTML = done.length ? `Guesses <b>${right}/${done.length}</b> right` : `${Object.keys(answers).length} of ${POLLS.length} guesses made`;
+}
+function renderList(){
+  let h=""; let cur=null;
+  S.forEach((sc,i)=>{
+    if(sc.section!==cur){ cur=sc.section; const s=SEC[cur]; h+=`<div class="grp" style="--c:${s.color}">${esc(s.name)} · ${esc(s.beat)}</div>`; }
+    h+=`<button type="button" class="sc ${i===si?"now":""} ${seen.has(i)?"seen":""}" data-s="${i}"><span class="n">${seen.has(i)?"✓":""}${sc.n}</span><span class="t">${esc(sc.title)}</span><span class="tm">${sc.time[0]}</span></button>`;
+  });
+  $("sl").innerHTML=h;
+}
+function render(scroll=true){ renderHead(); renderFeed(scroll); renderRail(); renderTicks(); renderScore(); $("end").innerHTML=""; save(); }
+
+/* ---------- navigation ---------- */
+function goScene(i, at=0){
+  si=Math.max(0,Math.min(S.length-1,i)); li=at; seen.add(si); shown[si]=Math.max(shown[si]||0, at);
+  render(); window.scrollTo({top:0,behavior:"auto"}); renderFeed();
+}
+function jumpLine(i){ const was=playing; pause(); li=i; renderFeed(); save(); if(was) run(); }
+function step(){ // move forward one line; returns false when playback must stop
+  const sc=S[si];
+  if(li<sc.lines.length-1){ li++; renderFeed(); save(); return true; }
+  return endOfScene();
+}
+function endOfScene(){
+  const n=S[si].n;
+  const rv=POLLS.filter(p=>p.rev===n && answers[p.id]!=null && !revealed.has(p.id));
+  if(rv.length){ showReveal(rv[0]); return false; }
+  const ask=$("optPolls").checked && POLLS.find(p=>p.at===n && answers[p.id]==null && !skipped.has(p.id));
+  if(ask){ showAsk(ask); return false; }
+  if(si<S.length-1){ goScene(si+1); return true; }
+  showFinale(); return false;
+}
+function continueAfterCard(){ $("end").innerHTML=""; const go=endOfScene(); if(go && resumeAfter) run(); resumeAfter=false; }
+
+/* ---------- guessing games ---------- */
+function showAsk(p){
+  resumeAfter = playing || resumeAfter; pause(true);
+  const revScene=S.find(s=>s.n===p.rev);
+  $("end").innerHTML=`<div class="card"><span class="k">What happens next?</span><h3>${esc(p.q)}</h3>
+    <div class="opts">${p.o.map((o,i)=>`<button type="button" data-o="${i}">${esc(o)}</button>`).join("")}</div>
+    <div class="row"><button class="btn ghost" type="button" id="skipQ">Skip this guess</button><span style="color:var(--faint);font-size:13px">The answer comes in Scene ${p.rev}: “${esc(revScene.title)}”.</span></div></div>`;
+  $("end").querySelectorAll("[data-o]").forEach(b=>b.onclick=()=>{
+    answers[p.id]=+b.dataset.o; save(); renderScore();
+    toast(`Locked in. You'll find out in Scene ${p.rev}.`); continueAfterCard();
+  });
+  $("skipQ").onclick=()=>{ skipped.add(p.id); continueAfterCard(); };
+  $("end").scrollIntoView({block:"center"});
+  if(synth && $("optVoice").checked){ const my=++runId; speak("What happens next? "+p.q, "f", 1, true, my); }
+}
+function showReveal(p){
+  resumeAfter = playing || resumeAfter; pause(true);
+  revealed.add(p.id); save(); renderScore();
+  const mine=answers[p.id], good=mine===p.a;
+  $("end").innerHTML=`<div class="card"><span class="k">Your guess from Scene ${p.at}</span><div class="verdict ${good?"good":"bad"}">${good?"You called it":"Didn't see that coming"}</div>
+    <h3>${esc(p.q)}</h3><div class="opts">${p.o.map((o,i)=>`<button type="button" disabled class="${i===p.a?"right":""} ${i===mine?"mine":""}">${esc(o)}${i===p.a?" ✓":""}${i===mine&&i!==p.a?" (your guess)":""}</button>`).join("")}</div>
+    <p style="margin:0;color:var(--muted)">${esc(p.why)}</p><div class="row"><button class="btn" type="button" id="goOn">Continue</button></div></div>`;
+  $("goOn").onclick=continueAfterCard;
+  $("end").scrollIntoView({block:"center"});
+}
+function showFinale(){
+  pause();
+  const done=POLLS.filter(p=>revealed.has(p.id)), right=done.filter(p=>answers[p.id]===p.a).length;
+  $("end").innerHTML=`<div class="card" style="text-align:center;justify-items:center"><span class="k">The end</span>
+    <div class="verdict good" style="color:var(--gold)">Hope is a person who refuses to leave</div>
+    <p style="margin:0;color:var(--muted)">${done.length?`You guessed ${right} of ${done.length} twists right.`:"You watched all 32 scenes."}</p>
+    <div class="row" style="justify-content:center"><button class="btn" type="button" id="again">Watch again from Scene 1</button><a class="chip" href="#map">See the story map</a></div></div>`;
+  $("again").onclick=()=>{ answers={}; revealed=new Set(); skipped=new Set(); seen=new Set([0]); shown={0:0}; goScene(0); };
+}
+
+/* ---------- playback ---------- */
+function setPlaying(v){ playing=v; $("bPlay").setAttribute("aria-label",v?"Pause":"Play");
+  $("playIco").innerHTML = v ? '<path d="M6 4h4v16H6zM14 4h4v16h-4z"/>' : '<path d="M7 4v16l13-8z"/>'; }
+function pause(keepResume){ runId++; if(synth) synth.cancel(); setPlaying(false); if(!keepResume) resumeAfter=false; }
+async function perform(ln,my){
+  const voice=synth && $("optVoice").checked, dirs=$("optAct").checked;
+  if(ln.t==="fade") return wait(900/speed(),my);
+  if(voice && ln.say && (ln.t==="dialogue" || dirs)) return speak(ln.say, ln.g, ln.p, ln.t!=="dialogue", my);
+  const base = ln.t==="dialogue" ? 330 : 260;
+  return wait(Math.max(1400, words(ln.say)*base)/speed(), my);
+}
+async function run(){
+  if($("end").innerHTML){ continueAfterCard(); if(!playing && $("end").innerHTML) return; }
+  const my=++runId; setPlaying(true);
+  while(my===runId){
+    const ok=await perform(S[si].lines[li],my);
+    if(!ok || my!==runId) return;
+    if(!step()){ if(my===runId) setPlaying(false); return; }
+    if(!(await wait(220,my))) return;
+  }
+}
+function toggle(){ if(playing) pause(); else run(); }
+function manualNext(){ const was=playing; pause(); if(step()===false) return; if(was) run(); }
+function manualPrev(){ const was=playing; pause(); if(li>0){ li--; renderFeed(); save(); } else if(si>0){ goScene(si-1, S[si-1].lines.length-1); } if(was) run(); }
+
+$("bPlay").onclick=toggle; $("bNext").onclick=manualNext; $("bPrev").onclick=manualPrev;
+$("bNextS").onclick=()=>{ const was=playing; pause(); if(si<S.length-1) goScene(si+1); if(was) run(); };
+$("bPrevS").onclick=()=>{ const was=playing; pause(); goScene(li>0?si:si-1); if(was) run(); };
+document.addEventListener("keydown",e=>{
+  if(e.target.closest("input,select,textarea") || $("v-watch").hidden) return;
+  if(e.key===" "){ e.preventDefault(); toggle(); }
+  else if(e.key==="ArrowRight") manualNext();
+  else if(e.key==="ArrowLeft") manualPrev();
+  else if(e.key==="n"||e.key==="N") $("bNextS").click();
+  else if(e.key==="Escape") $("drawer").hidden=true;
+});
+document.addEventListener("click",e=>{
+  const t=e.target.closest("[data-s]"); if(!t) return;
+  const i=+t.dataset.s; $("drawer").hidden=true; pause();
+  if(location.hash!=="#watch") location.hash="watch";
+  goScene(i);
+});
+document.addEventListener("keydown",e=>{ const t=e.target.closest && e.target.closest("g.dot"); if(t && (e.key==="Enter"||e.key===" ")){ e.preventDefault(); t.dispatchEvent(new MouseEvent("click",{bubbles:true})); } });
+$("openList").onclick=()=>{ renderList(); $("drawer").hidden=false; $("closeList").focus(); };
+$("closeList").onclick=()=>{ $("drawer").hidden=true; };
+$("drawer").addEventListener("click",e=>{ if(e.target.id==="drawer") $("drawer").hidden=true; });
+let tt; function toast(m){ const t=$("toast"); t.textContent=m; t.hidden=false; clearTimeout(tt); tt=setTimeout(()=>t.hidden=true,2600); }
+
+/* ---------- cast view ---------- */
+function copyBtn(text){ return `<button class="chip" type="button" data-copy="${esc(text)}">Copy prompt</button>`; }
+function renderCast(){
+  $("castGrid").innerHTML=D.cast.map(c=>`<article class="cc" style="--who:${colorOf(c.key)}">
+    <div class="top"><div class="av">${initials(c.name)}</div><div><h3>${esc(c.name)}</h3><div class="meta">${c.age} · ${esc(c.role)}</div></div></div>
+    ${c.who?`<p>${c.who}</p>`:""}
+    ${(c.body||c.wardrobe)?`<details><summary>Body language and wardrobe</summary>${c.body?`<p><b>Body language:</b> ${c.body}</p>`:""}${c.wardrobe?`<p><b>Wardrobe:</b> ${c.wardrobe}</p>`:""}</details>`:""}
+    <div class="prompt">${esc(c.prompt)}</div>
+    <div class="row">${copyBtn(c.prompt)}<span style="font-size:13px;color:var(--faint)">${c.scenes.length} scenes</span></div>
+    <div class="scn">${c.scenes.map(n=>`<button type="button" data-s="${n-1}" aria-label="Watch scene ${n}">${n}</button>`).join("")}</div>
+  </article>`).join("");
+  $("supGrid").innerHTML=D.support.map(s=>`<div class="li"><b>${esc(s.name)}</b><span>${s.desc}</span></div>`).join("");
+  $("locGrid").innerHTML=D.locations.map(l=>`<div class="li"><b>${esc(l.name)}</b><span>${esc(l.desc)}</span><div>${copyBtn("Photorealistic cinematic establishing shot, Lagos, Nigeria: "+l.name+". "+l.desc+" 16:9, 35mm film look.")}</div></div>`).join("");
+}
+document.addEventListener("click",e=>{
+  const b=e.target.closest("[data-copy]"); if(!b) return;
+  const text=b.dataset.copy;
+  const done=()=>{ b.textContent="Copied"; setTimeout(()=>b.textContent="Copy prompt",1600); };
+  const fallback=()=>{ const box=b.closest(".cc,.li"); const p=box&&box.querySelector(".prompt"); if(p){ const r=document.createRange(); r.selectNodeContents(p); const s=getSelection(); s.removeAllRanges(); s.addRange(r); toast("Selected. Press Ctrl+C or ⌘C to copy."); } else toast("Copy isn't available here."); };
+  try{ navigator.clipboard.writeText(text).then(done,fallback); }catch(err){ fallback(); }
+});
+
+/* ---------- map view ---------- */
+function renderMap(){
+  $("bigArc").innerHTML=arcSVG(1000,300,30,true);
+  const range=k=>{ const sc=S.filter(s=>s.section===k); return `${sc[0].time[0]}–${sc[sc.length-1].time[1]}`; };
+  $("beats").innerHTML=D.sections.map(s=>`<button type="button" class="beat" style="--c:${s.color}" data-s="${S.findIndex(x=>x.section===s.key)}"><span class="k">${esc(s.name)}</span><b>${esc(s.beat)}</b><span>${esc(s.desc)}</span><span class="tm">${range(s.key)}</span></button>`).join("");
+  $("loops").innerHTML=POLLS.map(p=>{
+    const open=!seen.has(p.rev-1), at=S[p.at-1], rv=S[p.rev-1];
+    return `<div class="loop"><span class="q">${esc(p.q)}</span><span class="st ${open?"":"done"}">${open?"Still open":"Answered"}</span>
+      <div class="meta2"><button class="chip" type="button" data-s="${p.at-1}">Planted: Scene ${p.at} · ${esc(at.title)}</button><button class="chip" type="button" data-s="${p.rev-1}">Answered: Scene ${p.rev} · ${esc(rv.title)}</button></div>
+      ${open?`<p class="ans" style="color:var(--faint)">Watch up to Scene ${p.rev} to unlock the answer.</p>`:`<p class="ans">${esc(p.o[p.a])}. ${esc(p.why)}</p>`}</div>`;
+  }).join("");
+}
+
+/* ---------- views ---------- */
+function route(boot){
+  const v=["watch","cast","map"].includes(location.hash.slice(1)) ? location.hash.slice(1) : "watch";
+  ["watch","cast","map"].forEach(k=>{ $("v-"+k).hidden = k!==v; });
+  document.querySelectorAll("nav a").forEach(a=>{ if(a.dataset.v===v) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current"); });
+  document.querySelector(".dock").hidden = v!=="watch";
+  if(v==="map") renderMap();
+  if(v==="watch") renderFeed(!boot);
+  if(!boot) window.scrollTo({top:0,behavior:"auto"});
+}
+window.addEventListener("hashchange", ()=>route(false));
+
+/* ---------- boot ---------- */
+$("logline").innerHTML=D.logline;
+$("thesis").textContent=D.contradiction;
+renderCast();
+seen.add(si);
+render(false);
+route(true);
+</script>
