@@ -1,0 +1,1105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Somber Journal Angle Plan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Fraunces:ital,opsz,wght@1,9..144,500;1,9..144,700&family=Manrope:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap">
+<style>*,*::before,*::after{box-sizing:border-box}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}
+
+/* Layout: a 1600x900 cinema stage, letterboxed and scaled to the window; one slide at a time, each building in like an animated deck. Single dark "movie premiere" look, deliberately not theme-switched. */
+:root{
+  --ink:#0b0c0e;       /* charcoal, from the Somber Journal banner */
+  --panel:#16181c;
+  --line:#2b2e34;
+  --gold:#ff8a1e;      /* brand orange (kept the token name the engine uses) */
+  --gold-soft:#ffc285;
+  --red:#ef4040;       /* "not working" */
+  --green:#37d67a;     /* money / "working" */
+  --white:#f5f6f8;
+  --muted:#a4a9b3;
+  --display:"Anton","Impact","Arial Narrow Bold",sans-serif;
+  --serif:"Fraunces","Georgia",serif;
+  --body:"Manrope","Segoe UI",system-ui,sans-serif;
+  --yt:"Roboto",Arial,sans-serif;
+  color-scheme:dark;
+}
+html,body{height:100%}
+body{background:var(--ink);color:var(--white);font-family:var(--body);overflow:hidden;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--ink)}
+
+/* ---------- deck frame ---------- */
+.deck{position:fixed;inset:0;padding-block:calc(env(safe-area-inset-top,0px) + 14px) calc(env(safe-area-inset-bottom,0px) + 64px);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex}
+.viewport{position:relative;flex:1;min-width:0}
+.stage{position:absolute;left:50%;top:50%;width:1600px;height:900px;transform-origin:center;transform:translate(-50%,-50%) scale(.5);background:radial-gradient(ellipse 70% 85% at 34% 28%,#24211d 0%,#131417 45%,var(--ink) 82%);border-radius:18px;overflow:hidden;box-shadow:0 0 0 1px var(--line),0 40px 120px rgba(0,0,0,.6)}
+.stage::after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 120%,rgba(255,138,30,.10),transparent 60%);z-index:5}
+.grain{position:absolute;inset:-50%;z-index:6;pointer-events:none;opacity:.06;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");animation:grain 1.2s steps(4) infinite}
+@keyframes grain{0%{transform:translate(0,0)}25%{transform:translate(-3%,2%)}50%{transform:translate(2%,-3%)}75%{transform:translate(-2%,-1%)}}
+
+.slide{position:absolute;inset:0;padding:70px 90px;display:flex;flex-direction:column;visibility:hidden}
+.slide.active,.slide.leaving{visibility:visible}
+.slide.leaving{z-index:1;pointer-events:none}
+.slide.active{z-index:2}
+/* morph-style transitions: everything blurs out sideways, the new slide blurs in; shared objects glide between slides (see morph() in the script) */
+.slide.active > *{animation:blurIn .8s cubic-bezier(.2,.8,.2,1) both;animation-delay:120ms}
+.slide.leaving > *{animation:blurOut .5s cubic-bezier(.6,0,.4,1) forwards!important}
+@keyframes blurIn{from{opacity:0;filter:blur(14px);transform:translateX(calc(var(--dir,1) * 70px))}}
+@keyframes blurOut{to{opacity:0;filter:blur(18px);transform:translateX(calc(var(--dir,1) * -110px))}}
+
+/* build-in animations: elements rest visible; animation only runs on the active slide */
+.slide.active .a{animation:fadeUp .8s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(var(--d,0) * 1ms + 250ms)}
+.slide.active .pop{animation:pop .7s cubic-bezier(.3,1.6,.5,1) both;animation-delay:calc(var(--d,0) * 1ms + 250ms)}
+.slide.active .fromL{animation:fromL .9s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(var(--d,0) * 1ms + 250ms)}
+.slide.active .fromR{animation:fromR .9s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(var(--d,0) * 1ms + 250ms)}
+.slide.active .zoom{animation:zoom 1.1s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(var(--d,0) * 1ms + 250ms)}
+.slide.active .wipe{animation:wipe 1s cubic-bezier(.7,0,.2,1) both;animation-delay:calc(var(--d,0) * 1ms + 250ms)}
+@keyframes fadeUp{from{opacity:0;filter:blur(10px);transform:translate(calc(var(--dir,1) * 60px),18px)}}
+@keyframes pop{from{opacity:0;transform:scale(.4)}}
+@keyframes fromL{from{opacity:0;filter:blur(12px);transform:translateX(-130px)}}
+@keyframes fromR{from{opacity:0;filter:blur(12px);transform:translateX(130px)}}
+@keyframes zoom{from{opacity:0;filter:blur(12px);transform:scale(.8)}}
+@keyframes wipe{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+
+/* ---------- type ---------- */
+.eyebrow{font:800 18px/1 var(--body);letter-spacing:.24em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:14px}
+.eyebrow::before{content:"";width:38px;height:3px;background:var(--red)}
+h1,h2{font-family:var(--display);font-weight:400;text-transform:uppercase;letter-spacing:.01em;line-height:.95;text-wrap:balance;margin:0}
+h2{font-size:84px;margin-top:18px}
+h2 .g{color:var(--gold)} h2 .r{color:var(--red)}
+.lede{font-size:26px;line-height:1.45;color:var(--muted);max-width:60ch;margin:18px 0 0}
+.lede b{color:var(--white);font-weight:700}
+.serif{font-family:var(--serif);font-style:italic;font-weight:500}
+.src{font-size:15px;color:var(--muted);letter-spacing:.02em}
+.src b{color:var(--gold-soft);font-weight:700}
+.num{font-variant-numeric:tabular-nums}
+
+/* ---------- shared bits ---------- */
+.row{display:flex;gap:40px;min-height:0;flex:1;margin-top:34px}
+.col{display:flex;flex-direction:column;gap:20px;min-width:0}
+.shot{border-radius:14px;overflow:hidden;box-shadow:0 0 0 1px var(--line),0 24px 60px rgba(0,0,0,.55);background:#000}
+.shot img{display:block;width:100%;height:100%;object-fit:cover}
+.tag{display:inline-flex;align-items:center;gap:8px;font:800 14px/1 var(--body);letter-spacing:.16em;text-transform:uppercase;padding:9px 14px;border-radius:999px;background:var(--red);color:var(--white)}
+.tag.gold{background:var(--gold);color:var(--ink)}
+.tag.ghost{background:transparent;box-shadow:inset 0 0 0 2px var(--line);color:var(--muted)}
+.fact{display:grid;grid-template-columns:auto 1fr;gap:4px 18px;align-items:baseline;padding:16px 0;border-top:1px solid var(--line)}
+.fact .v{font-family:var(--display);font-size:44px;color:var(--gold);grid-row:span 2;min-width:150px}
+.fact .t{font-size:21px;font-weight:700}
+.fact .s{font-size:16px;color:var(--muted)}
+.rule{display:grid;grid-template-columns:62px 1fr;gap:18px;align-items:start}
+.rule .k{width:62px;height:62px;border-radius:50%;display:grid;place-items:center;font-family:var(--display);font-size:30px;background:var(--gold);color:var(--ink)}
+.rule h3{margin:4px 0 6px;font-size:28px;font-weight:800}
+.rule p{margin:0;font-size:19px;line-height:1.45;color:var(--muted)}
+.rule p b{color:var(--white)}
+
+/* ---------- splash ---------- */
+.splash{position:fixed;inset:0;z-index:50;display:grid;place-items:center;background:radial-gradient(ellipse at center,#2a1d10 0%,var(--ink) 70%);transition:opacity .8s ease,visibility 0s .8s;cursor:pointer;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.splash.gone{opacity:0;visibility:hidden}
+.leader{position:absolute;width:min(46vmin,360px);aspect-ratio:1;max-width:100%;display:grid;place-items:center;animation:leaderOut .4s ease 2.7s forwards}
+.leader svg{position:absolute;inset:0;width:100%;height:100%}
+.leader .sweep{transform-origin:50% 50%;animation:sweep .9s linear 3}
+.leader .cd{font-family:var(--display);font-size:min(22vmin,170px);color:var(--white);position:relative}
+@keyframes sweep{to{transform:rotate(360deg)}}
+@keyframes leaderOut{to{opacity:0;transform:scale(1.6);visibility:hidden}}
+.welcome{position:relative;text-align:center;opacity:0;transform:scale(.3);animation:welcome 1s cubic-bezier(.3,1.5,.5,1) 2.9s forwards;max-width:100%}
+@keyframes welcome{to{opacity:1;transform:none}}
+.welcome .card{padding:clamp(26px,5vw,56px) clamp(22px,6vw,80px);border-radius:24px;background:linear-gradient(160deg,#2a1d10,#111215);box-shadow:0 0 0 2px var(--gold),0 0 80px rgba(255,138,30,.35),0 40px 100px rgba(0,0,0,.7)}
+.welcome .hi{font-family:var(--display);font-size:clamp(46px,11vw,128px);line-height:.9;text-transform:uppercase;color:var(--gold);letter-spacing:.02em}
+.welcome .hi span{display:inline-block;opacity:0;transform:translateY(40px) rotate(-8deg);animation:letter .6s cubic-bezier(.3,1.6,.5,1) forwards}
+@keyframes letter{to{opacity:1;transform:none}}
+.welcome .to{font-family:var(--serif);font-style:italic;font-size:clamp(22px,4.4vw,44px);color:var(--white);margin-top:8px}
+.welcome .sub{margin-top:18px;font-size:clamp(13px,1.8vw,18px);letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.welcome .go{margin-top:28px;display:inline-flex;gap:10px;align-items:center;font:800 17px/1 var(--body);letter-spacing:.14em;text-transform:uppercase;padding:16px 28px;border-radius:999px;background:var(--red);color:var(--white);border:0;cursor:pointer;animation:pulse 1.6s ease-in-out 4.2s infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 12px rgba(224,38,47,.0),0 0 0 0 rgba(224,38,47,.5);transform:scale(1.05)}}
+.spark{position:absolute;width:6px;height:6px;border-radius:50%;background:var(--gold);opacity:0;animation:spark 1.4s ease-out forwards}
+@keyframes spark{0%{opacity:1;transform:translate(0,0) scale(1)}100%{opacity:0;transform:translate(var(--x),var(--y)) scale(.3)}}
+
+
+/* ---------- slide transitions (PowerPoint-style) ---------- */
+.stage{perspective:2400px}
+.slide.leaving.nochild > *{animation:none!important}
+.slide.in-push{animation:pushIn 1s cubic-bezier(.76,0,.14,1) both}
+.slide.out-push{animation:pushOut 1s cubic-bezier(.76,0,.14,1) forwards}
+@keyframes pushIn{from{transform:translateX(calc(var(--dir,1) * 100%))}}
+@keyframes pushOut{to{transform:translateX(calc(var(--dir,1) * -100%))}}
+.slide.in-cube{transform-origin:calc(50% - var(--dir,1) * 50%) 50%;animation:cubeIn 1.2s cubic-bezier(.7,0,.25,1) both}
+.slide.out-cube{transform-origin:calc(50% + var(--dir,1) * 50%) 50%;animation:cubeOut 1.2s cubic-bezier(.7,0,.25,1) forwards}
+@keyframes cubeIn{from{transform:translateX(calc(var(--dir,1) * 100%)) rotateY(calc(var(--dir,1) * 90deg));filter:brightness(.4)}}
+@keyframes cubeOut{to{transform:translateX(calc(var(--dir,1) * -100%)) rotateY(calc(var(--dir,1) * -90deg));filter:brightness(.4)}}
+.slide.in-flip{animation:flipIn .6s cubic-bezier(.2,.8,.3,1) .5s both}
+.slide.out-flip{animation:flipOut .5s cubic-bezier(.6,0,.9,.4) forwards}
+@keyframes flipIn{from{transform:rotateY(calc(var(--dir,1) * -90deg)) scale(.85);filter:brightness(.5)}}
+@keyframes flipOut{to{transform:rotateY(calc(var(--dir,1) * 90deg)) scale(.85);filter:brightness(.5)}}
+.slide.in-iris{animation:irisIn 1.2s cubic-bezier(.7,0,.2,1) both}
+@keyframes irisIn{from{clip-path:circle(0% at 50% 50%)}to{clip-path:circle(75% at 50% 50%)}}
+.slide.out-iris{animation:dimOut 1.2s ease forwards}
+.slide.in-split{animation:splitIn 1.1s cubic-bezier(.7,0,.2,1) both}
+@keyframes splitIn{from{clip-path:inset(0 50% 0 50%)}to{clip-path:inset(0 0 0 0)}}
+.slide.out-split{animation:dimOut 1.1s ease forwards}
+.slide.in-wipe{animation:wipeIn 1.1s cubic-bezier(.7,0,.2,1) both}
+@keyframes wipeIn{from{clip-path:polygon(0 0,0 0,-20% 100%,0 100%)}to{clip-path:polygon(0 0,120% 0,100% 100%,0 100%)}}
+.slide.out-wipe{animation:dimOut 1.1s ease forwards}
+.slide.in-vortex{animation:vortexIn 1.3s cubic-bezier(.2,.9,.25,1) both}
+.slide.out-vortex{animation:vortexOut .8s cubic-bezier(.6,0,.9,.4) forwards}
+@keyframes vortexIn{from{transform:rotate(calc(var(--dir,1) * -200deg)) scale(.05);opacity:0;filter:blur(10px)}}
+@keyframes vortexOut{to{transform:scale(1.5);opacity:0;filter:blur(14px)}}
+@keyframes dimOut{to{filter:brightness(.3) blur(4px);transform:scale(.97)}}
+.curtains{position:absolute;inset:0;z-index:30;pointer-events:none;display:flex}
+.curtains i{flex:1;height:100%;background:repeating-linear-gradient(90deg,#5c0a10 0,#9b1520 30px,#c2202b 48px,#8a121c 70px,#5c0a10 96px);box-shadow:inset 0 -26px 0 -10px var(--gold),0 0 60px rgba(0,0,0,.8);transform:translateX(-101%)}
+.curtains i+i{transform:translateX(101%)}
+.curtains.run i{animation:curtL 2s cubic-bezier(.7,0,.3,1) both}
+.curtains.run i+i{animation-name:curtR}
+@keyframes curtL{0%{transform:translateX(-101%)}38%,58%{transform:translateX(0)}100%{transform:translateX(-101%)}}
+@keyframes curtR{0%{transform:translateX(101%)}38%,58%{transform:translateX(0)}100%{transform:translateX(101%)}}
+
+/* ---------- controls ---------- */
+.progress{position:fixed;left:0;right:0;top:env(safe-area-inset-top,0px);height:4px;background:var(--panel);z-index:20}
+.progress i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--red),var(--gold));transition:width .6s cubic-bezier(.2,.8,.2,1)}
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:20;display:flex;align-items:center;justify-content:center;gap:12px;padding-block:10px calc(env(safe-area-inset-bottom,0px) + 10px);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.bar button{font:700 15px/1 var(--body);color:var(--white);background:var(--panel);border:1px solid var(--line);border-radius:999px;height:42px;min-width:42px;padding:0 16px;cursor:pointer;display:inline-flex;align-items:center;gap:8px}
+.bar button:hover{border-color:var(--gold);color:var(--gold)}
+.bar button:focus-visible,.welcome .go:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.bar .count{font:700 15px/1 var(--body);color:var(--muted);min-width:70px;text-align:center}
+.dots{display:flex;gap:6px;flex-wrap:wrap;justify-content:center;max-width:46vw}
+.dots button{min-width:0;width:10px;height:10px;padding:0;border-radius:50%;background:var(--line);border:0}
+.dots button[aria-current="true"]{background:var(--gold);width:26px;border-radius:6px}
+@media (max-width:640px){.dots{display:none}.bar .hide-sm{display:none}}
+
+
+/* ================= Somber Journal deck ================= */
+h2 .r{color:var(--red)}
+.cf{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:20}
+.plus{position:absolute;z-index:22;pointer-events:none;font:800 18px/1 var(--body);color:#08200f;background:var(--green);padding:7px 11px;border-radius:999px;box-shadow:0 6px 20px rgba(0,0,0,.5);white-space:nowrap;animation:plusUp 1.1s cubic-bezier(.2,.8,.2,1) forwards}
+.plus.o{background:var(--gold);color:var(--ink)}
+@keyframes plusUp{0%{opacity:0;transform:translateY(10px) scale(.6)}15%{opacity:1;transform:none}100%{opacity:0;transform:translateY(-120px) scale(.9)}}
+.slide.active.s-rec > .plus{animation:plusUp 1.1s cubic-bezier(.2,.8,.2,1) forwards}
+
+/* hero circle (morph object) */
+.hero{position:absolute;border-radius:50%;z-index:3}
+.hero .disc{position:absolute;inset:0;border-radius:50%;overflow:hidden;box-shadow:0 30px 90px rgba(0,0,0,.65)}
+.hero .disc img{width:100%;height:100%;object-fit:cover;display:block}
+.hero::before{content:"";position:absolute;inset:-7%;border:3px solid var(--gold);border-radius:50%;animation:orbit 14s linear infinite}
+@keyframes orbit{from{transform:rotate(0) translate(-6%,4%)}to{transform:rotate(360deg) translate(-6%,4%)}}
+
+/* ---------- recreated channel page ---------- */
+.s-rec{padding:0}
+.slide.active.s-rec > *{animation:none}
+.s-rec > *{position:absolute}
+.laptop{inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 16%;transform-origin:50% 22%;transition:transform 1.3s cubic-bezier(.7,0,.3,1),opacity .9s ease .4s,filter 1.1s ease;z-index:5}
+.s-rec.dive .laptop{transform:scale(2.3);opacity:0;filter:blur(10px)}
+.rec-cam{left:0;top:0;width:1600px;height:900px;transform-origin:0 0;transition:transform .9s cubic-bezier(.76,0,.24,1),filter .8s ease,opacity .7s ease}
+#introCam{opacity:0;transform:scale(.92)}
+.s-rec.dive #introCam{opacity:1;transform:none;transition-delay:.45s}
+.s-rec.zoomv #introCam{transform:translate(0px,-1110px) scale(2.6)}
+.s-rec.done .rec-cam{filter:brightness(.42) blur(1px)}
+.s-rec.notrans,.s-rec.notrans *{transition:none!important}
+.rec{position:absolute;inset:0;background:#0f0f0f;font-family:var(--yt);color:#f1f1f1;overflow:hidden}
+.rbar{position:absolute;left:0;right:0;top:0;height:64px;display:flex;justify-content:center;align-items:center}
+.rsearch{width:600px;height:40px;border-radius:20px;border:1px solid #303030;background:#121212;color:#888;font-size:16px;display:flex;align-items:center;padding-left:18px}
+.rbanner{position:absolute;left:120px;top:80px;width:1360px;height:190px;border-radius:16px;overflow:hidden}
+.rbanner img{width:100%;height:100%;object-fit:cover;object-position:30% 50%;display:block}
+.ravatar{position:absolute;left:120px;top:296px;width:150px;height:150px;border-radius:50%}
+.ravatar .disc{position:absolute;inset:0;border-radius:50%;overflow:hidden}
+.ravatar .disc img{width:100%;height:100%;object-fit:cover;display:block}
+.rname{position:absolute;left:300px;top:304px;font-weight:700;font-size:44px;letter-spacing:-.01em}
+.rstats{position:absolute;left:302px;top:364px;font-size:18px;color:#aaa;white-space:nowrap}
+.rstats b{font-weight:500;color:#f1f1f1}
+.rsubs{display:inline-block;transition:color .3s}
+.rdesc{position:absolute;left:302px;top:396px;font-size:16px;color:#aaa}
+.rtabs{position:absolute;left:120px;top:462px;display:flex;gap:30px;font-size:17px;font-weight:500;color:#aaa}
+.rtabs .on{color:#f1f1f1;box-shadow:0 12px 0 -9px #f1f1f1}
+.rgrid{position:absolute;left:120px;top:512px;width:1360px;display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
+.rv{min-width:0;display:flex;flex-direction:column;gap:8px}
+.rt{position:relative;aspect-ratio:16/9;border-radius:10px;overflow:hidden;background:#222}
+.rt img{width:100%;height:100%;object-fit:cover;display:block}
+.dur{position:absolute;right:6px;bottom:6px;font-size:12px;font-weight:500;background:rgba(0,0,0,.8);padding:2px 5px;border-radius:4px}
+.rti{font-size:15px;font-weight:500;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.rme{font-size:13px;color:#aaa}
+.rviews{display:inline-block;font-weight:500;transition:color .3s,transform .3s}
+.s-rec.counting .rviews.hot,.s-rec.counting .rsubs{color:var(--green);text-shadow:0 0 10px rgba(55,214,122,.7)}
+.s-rec.done .rviews,.s-rec.done .rsubs{color:var(--green)}
+.intro-head,.close-head{left:0;right:0;top:300px;text-align:center;z-index:21;opacity:0;transform:translateY(40px) scale(.96);filter:blur(12px);transition:opacity .8s ease,transform .9s cubic-bezier(.2,.8,.2,1),filter .8s ease}
+.intro-head h1,.close-head h1{font-size:150px;line-height:.9;text-shadow:0 12px 60px rgba(0,0,0,.9)}
+.intro-head h1 span,.close-head h1 span{color:var(--gold)}
+.intro-head p{margin:18px 0 0;display:inline-block;font-size:24px;font-weight:700;padding:12px 22px;border-radius:999px;background:rgba(11,12,14,.8);box-shadow:0 0 0 1px var(--line)}
+.close-head p{margin:14px 0 0;font-size:34px;color:var(--gold-soft)}
+.s-rec.done .intro-head,.s-rec.done .close-head{opacity:1;transform:none;filter:none}
+.stamp2{left:1040px;top:120px;z-index:21;font-family:var(--display);font-size:80px;line-height:1;text-transform:uppercase;color:var(--green);border:6px solid var(--green);border-radius:16px;padding:14px 30px 12px;background:rgba(11,12,14,.75);text-align:center;opacity:0;transform:rotate(-16deg) scale(2.6);transition:opacity .25s ease,transform .55s cubic-bezier(.3,1.5,.5,1)}
+.stamp2 small{display:block;font:800 16px/1.4 var(--body);letter-spacing:.14em;color:var(--white);margin-top:6px}
+.s-rec.stamped .stamp2{opacity:1;transform:rotate(-8deg) scale(1)}
+.s-close2.done .close-head{top:520px}
+.replay{right:40px;bottom:30px;font:700 15px/1 var(--body);color:var(--muted);background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:12px 18px;cursor:pointer;z-index:25}
+.replay:hover{color:var(--gold);border-color:var(--gold)}
+
+/* title slide */
+.s-title{justify-content:flex-start;padding-top:96px}
+.s-title h1{font-size:200px;line-height:.86;color:var(--white)}
+.s-title h1 .g{color:var(--gold);display:inline-block}
+.s-title .underline{height:14px;width:560px;background:var(--gold);transform-origin:left;margin-top:18px;border-radius:2px}
+.slide.active .underline{animation:grow-x 1s cubic-bezier(.7,0,.2,1) .9s both}
+@keyframes grow-x{from{transform:scaleX(0)}}
+
+/* thesis jumps */
+.jumps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:40px}
+.jump{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:28px 28px 24px;display:grid;grid-template-columns:auto auto 1fr;align-items:baseline;gap:6px 14px}
+.jump .ch{grid-column:1 / -1;font-size:22px;font-weight:800;margin-bottom:6px}
+.jump .ch small{display:block;font-size:15px;font-weight:600;color:var(--muted)}
+.jump .from{font-family:var(--display);font-size:54px;color:var(--red)}
+.jump .arrow{font-size:34px;color:var(--muted)}
+.jump .to{font-family:var(--display);font-size:96px;line-height:1;color:var(--green);text-shadow:0 0 30px rgba(55,214,122,.3)}
+.jump .lbl{grid-column:1 / -1;font-size:15px;color:var(--muted)}
+
+/* case studies */
+.case{display:grid;grid-template-columns:1fr 1fr;gap:36px;margin-top:22px;flex:1;min-height:0}
+.ev{display:flex;flex-direction:column;gap:16px;min-width:0}
+.ev figure{margin:0;display:flex;flex-direction:column;gap:8px;min-height:0}
+.ev .shot{aspect-ratio:1400/620;max-height:262px}
+.ev .shot img{object-position:50% 50%}
+figcaption{font:800 14px/1 var(--body);letter-spacing:.16em;text-transform:uppercase}
+figcaption.bad,.vrow2 .bad{color:var(--red)}
+figcaption.good{color:var(--green)}
+.vrow2{display:grid;grid-template-columns:1fr 100px;gap:14px;align-items:center;padding:8px 14px;border-radius:12px;background:var(--panel);border:1px solid var(--line)}
+.vrow2 .t{font-size:16px;font-weight:600;line-height:1.3;color:var(--muted)}
+.vrow2 .t b{color:var(--white)}
+.vrow2 .v{font-family:var(--display);font-size:30px;color:var(--red);text-align:right}
+.vrow2 .v small{display:block;font:600 13px/1.2 var(--body);color:var(--muted)}
+.vrow2.win{border-color:rgba(55,214,122,.45);background:linear-gradient(90deg,rgba(55,214,122,.10),var(--panel))}
+.vrow2.win .t{color:var(--white)}
+.vrow2.win .t b{color:var(--gold)}
+.vrow2.win .v{color:var(--green);font-size:34px}
+.divider{display:flex;align-items:center;gap:14px;font:800 14px/1 var(--body);letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.divider::before,.divider::after{content:"";flex:1;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.take{margin:4px 0 0;font-size:18px;line-height:1.45;color:var(--muted)}
+.take b{color:var(--white)}
+
+/* pattern formula */
+.formula2{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:44px}
+.fx{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:30px 26px;text-align:center;min-width:0}
+.fx b{display:block;font-family:var(--display);font-weight:400;font-size:50px;text-transform:uppercase;color:var(--white)}
+.fx span{font-size:15px;color:var(--muted)}
+.fx.res{background:linear-gradient(160deg,rgba(55,214,122,.18),var(--panel));border-color:var(--green)}
+.fx.res b{color:var(--green)}
+.formula2 > i{font-style:normal;font-family:var(--display);font-size:46px;color:var(--gold)}
+.repeat{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:40px}
+.rp{border-top:3px solid var(--gold);padding-top:14px}
+.rp h3{margin:0 0 6px;font-size:26px}
+.rp p{margin:0;font-size:22px;color:var(--muted)}
+.rp p b{color:var(--gold)}
+
+/* today */
+.today-head{display:flex;gap:24px;align-items:center;font-size:30px}
+.today-head b{font-family:var(--display);font-weight:400;font-size:46px;color:var(--gold)}
+.today-head small{display:block;font-size:17px;color:var(--muted);margin-top:6px}
+.ours{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.ours figure{margin:0;display:flex;flex-direction:column;gap:6px;min-width:0}
+.ours .shot{aspect-ratio:16/9}
+.ours figcaption{font:600 14px/1.3 var(--body);letter-spacing:0;text-transform:none;color:var(--muted)}
+.ours figcaption b{color:var(--red);font-weight:800}
+.score h3{margin:0 0 6px;font-size:20px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.sc{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;border-radius:12px;background:var(--panel);border:1px solid var(--line);font-size:24px;font-weight:800}
+.sc em{font-style:normal;font-family:var(--display);font-size:28px;text-transform:uppercase;color:var(--red);border:3px solid var(--red);border-radius:8px;padding:2px 12px;opacity:0;transform:scale(2.6) rotate(-12deg);transition:opacity .2s ease,transform .45s cubic-bezier(.3,1.6,.5,1)}
+.sc em.ok{color:var(--green);border-color:var(--green)}
+.sc.on em{opacity:1;transform:rotate(-4deg)}
+
+/* script timeline */
+.tl2{margin-top:96px}
+.tl2 .track{position:relative;height:16px;border-radius:8px;background:var(--panel);box-shadow:inset 0 0 0 1px var(--line)}
+.tl2 .fill{position:absolute;left:0;top:0;bottom:0;width:88.9%;border-radius:8px;background:linear-gradient(90deg,var(--gold),#ffb26b)}
+.slide.active .tl2 .fill{animation:growW 2.4s cubic-bezier(.6,0,.3,1) .5s both}
+@keyframes growW{from{width:0}}
+.tl2 .mk{position:absolute;top:-8px;width:4px;height:32px;margin-left:-2px;border-radius:2px;background:var(--white)}
+.tl2 .mk span{position:absolute;bottom:40px;left:-6px;white-space:nowrap;font:800 15px/1 var(--body);color:var(--white);background:var(--ink);padding:6px 8px;border-radius:6px;box-shadow:0 0 0 1px var(--line)}
+.tl2 .mk.hook{background:var(--green);box-shadow:0 0 16px var(--green)}
+.tl2 .mk.hook span{color:#08200f;background:var(--green);bottom:40px}
+.tl2 .mk.late{background:var(--red)}
+.tl2 .mk.late span{color:var(--white);background:var(--red);bottom:auto;top:38px;left:-2px}
+.tl2 .mk.low span{bottom:auto;top:72px}
+.tl2 .mk.end span{left:auto;right:-6px}
+.tl2 .beat{position:absolute;top:2px;width:12px;height:12px;margin-left:-6px;border-radius:50%;background:var(--ink);box-shadow:0 0 0 3px var(--white)}
+.slide.active .tl2 .beat{animation:pop .5s cubic-bezier(.3,1.6,.5,1) both;animation-delay:calc(1s + var(--i,0) * 90ms)}
+.tl2 .scale{display:flex;justify-content:space-between;margin-top:12px;font-size:14px;color:var(--muted);font-variant-numeric:tabular-nums}
+.rules3{display:grid;grid-template-columns:1fr 1fr;gap:20px 40px;margin-top:110px}
+.rules3 .rule h3{font-size:24px}
+.rules3 .rule p{font-size:17px}
+
+/* phrases */
+.strikes{display:flex;flex-direction:column;gap:22px;margin-top:36px}
+.sk span{position:relative;display:inline-block;font-family:var(--serif);font-style:italic;font-size:46px;color:var(--white)}
+.sk span::after{content:"";position:absolute;left:-8px;right:-8px;top:52%;height:6px;background:var(--red);border-radius:3px;transform:scaleX(0);transform-origin:left;box-shadow:0 0 14px rgba(239,64,64,.7)}
+.slide.active .sk span::after{animation:strike .5s cubic-bezier(.7,0,.3,1) both;animation-delay:calc(var(--d) * 1ms + 500ms)}
+.slide.active .sk span{animation:dimTxt .5s ease both;animation-delay:calc(var(--d) * 1ms + 700ms)}
+@keyframes strike{to{transform:scaleX(1)}}
+@keyframes dimTxt{to{color:var(--muted)}}
+.sk small{display:block;margin-top:6px;font-size:17px;color:var(--muted)}
+.sk small b{color:var(--white)}
+.instead{margin-top:30px;padding:24px 28px;border-radius:16px;background:linear-gradient(160deg,rgba(55,214,122,.12),var(--panel));border:1px solid rgba(55,214,122,.4)}
+.instead h3{margin:0 0 8px;font-size:20px;letter-spacing:.14em;text-transform:uppercase;color:var(--green)}
+.instead .q{margin:0 0 8px;font-family:var(--serif);font-style:italic;font-size:26px;line-height:1.4;color:var(--white)}
+
+/* titles */
+.trules{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+.trules span{font-size:17px;padding:10px 14px;border-radius:10px;background:var(--panel);border:1px solid var(--line);color:var(--muted)}
+.trules b{color:var(--gold)}
+.rewrites{display:flex;flex-direction:column;gap:18px;margin-top:30px}
+.rw .old{display:flex;justify-content:space-between;gap:16px;font-size:18px;color:var(--muted);text-decoration:line-through;text-decoration-color:var(--red);padding:0 4px 6px}
+.rw .old em{font-style:normal;text-decoration:none;color:var(--red);font-weight:800;white-space:nowrap}
+.rw .new{display:grid;grid-template-columns:1fr 170px;gap:20px;align-items:center;padding:16px 20px;border-radius:14px;background:var(--panel);border:1px solid var(--gold)}
+.rw .new > span{font-size:26px;font-weight:800;min-height:1.3em}
+.rw .new > span .ant{color:var(--red)}
+.rw .new > span .tw{color:var(--green)}
+.cc{display:flex;align-items:center;gap:10px;font:800 16px/1 var(--body);color:var(--muted);font-variant-numeric:tabular-nums}
+.cc i{flex:1;height:8px;border-radius:4px;background:var(--line);position:relative;overflow:hidden}
+.cc i::after{content:"";position:absolute;left:0;top:0;bottom:0;width:var(--w,0%);background:var(--green);transition:width .1s linear}
+.cc b{color:var(--green);min-width:24px;text-align:right}
+
+/* thumbnail */
+.cmp2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.cmp2 figure{margin:0;display:flex;flex-direction:column;gap:8px;min-width:0}
+.cmp2 .shot{aspect-ratio:16/9}
+
+/* character */
+.charx{display:grid;grid-template-columns:1fr 120px 1.2fr;align-items:center;gap:20px;margin-top:30px;flex:1}
+.oldc{display:flex;flex-direction:column;align-items:center;gap:22px;position:relative}
+.oldc p{margin:0;text-align:center;font-size:19px;color:var(--muted)}
+.oldc p b{color:var(--white)}
+.xmark{position:absolute;top:0;left:50%;width:300px;height:300px;margin-left:-150px;pointer-events:none;z-index:5}
+.xmark::before,.xmark::after{content:"";position:absolute;left:50%;top:50%;width:380px;height:12px;margin:-6px 0 0 -190px;background:var(--red);border-radius:6px;box-shadow:0 0 20px rgba(239,64,64,.7);transform:rotate(45deg) scaleX(0)}
+.xmark::after{transform:rotate(-45deg) scaleX(0)}
+.s-char-on .xmark::before{animation:xa .35s cubic-bezier(.7,0,.3,1) forwards}
+.s-char-on .xmark::after{animation:xb .35s cubic-bezier(.7,0,.3,1) .25s forwards}
+@keyframes xa{to{transform:rotate(45deg) scaleX(1)}}
+@keyframes xb{to{transform:rotate(-45deg) scaleX(1)}}
+.s-char-on .oldc .hero{filter:grayscale(1) brightness(.6);transition:filter .8s ease .6s}
+.arrowbig{font-family:var(--display);font-size:120px;color:var(--gold);text-align:center}
+.slide.active .arrowbig{animation:fromL .8s cubic-bezier(.2,.8,.2,1) 1s both}
+.newc{display:flex;gap:30px;align-items:center}
+.sil{flex:none;width:300px;height:300px;border-radius:50%;display:grid;place-items:center;text-align:center;font-family:var(--display);font-size:56px;line-height:.95;color:var(--ink);background:radial-gradient(circle at 35% 30%,#fff3c4,var(--gold) 55%,#c25d00);box-shadow:0 0 0 8px rgba(255,138,30,.25),0 0 90px rgba(255,180,90,.55)}
+.slide.active .sil{animation:silIn 1s cubic-bezier(.3,1.5,.5,1) 1.2s both,glow 2.4s ease-in-out 2.2s infinite}
+@keyframes silIn{from{opacity:0;transform:scale(.2) rotate(-30deg);filter:blur(10px)}}
+@keyframes glow{50%{box-shadow:0 0 0 14px rgba(255,138,30,.18),0 0 130px rgba(255,190,100,.75)}}
+.newc ul{margin:0;padding-left:20px;font-size:21px;line-height:1.6;color:var(--white)}
+
+/* content tiles */
+.tiles4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:30px}
+.t4{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.t4 > b{font-family:var(--display);font-weight:400;font-size:62px;line-height:1;color:var(--green)}
+.t4 h3{margin:0;font-size:22px}
+.t4 p{margin:0;font-size:15px;line-height:1.45;color:var(--muted)}
+.dos{display:grid;grid-template-columns:1.3fr 1fr;gap:18px;margin-top:22px}
+.do,.dont{border-radius:16px;padding:20px 24px}
+.do{background:linear-gradient(160deg,rgba(55,214,122,.12),var(--panel));border:1px solid rgba(55,214,122,.4)}
+.dont{background:linear-gradient(160deg,rgba(239,64,64,.12),var(--panel));border:1px solid rgba(239,64,64,.4)}
+.do h3,.dont h3{margin:0 0 6px;font-size:18px;letter-spacing:.14em;text-transform:uppercase}
+.do h3{color:var(--green)} .dont h3{color:var(--red)}
+.do p,.dont p{margin:0;font-size:18px;line-height:1.5;color:var(--muted)}
+.do p b{color:var(--white)}
+
+/* ideas */
+.ideas{display:grid;grid-template-columns:1fr 1fr;gap:12px 20px;margin-top:30px}
+.idea{display:grid;grid-template-columns:1fr 50px;gap:14px;align-items:center;padding:14px 18px;border-radius:12px;background:var(--panel);border:1px solid var(--line)}
+.idea span{font-size:19px;font-weight:700;line-height:1.3}
+.idea em{font-style:normal;font-family:var(--display);font-size:24px;color:var(--green);text-align:right}
+
+/* production mock frame */
+.frame{position:relative;flex:1.1;aspect-ratio:16/9;border-radius:16px;overflow:hidden;background:#000;box-shadow:0 0 0 1px var(--line),0 30px 80px rgba(0,0,0,.6);max-width:100%}
+.shots img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0}
+.slide.active .shots img{animation:shotCycle 9s linear infinite}
+.slide.active .shots img:nth-child(2){animation-delay:3s}
+.slide.active .shots img:nth-child(3){animation-delay:6s}
+@keyframes shotCycle{0%{opacity:1;transform:scale(1) translate(0,0)}31%{opacity:1;transform:scale(1.14) translate(-2%,-2%)}33.4%,100%{opacity:0;transform:scale(1.14)}}
+.money{position:absolute;left:50%;top:44%;transform:translate(-50%,-50%);font-family:var(--display);font-size:120px;color:var(--green);text-shadow:0 6px 0 #0a3a1c,0 0 40px rgba(55,214,122,.7);-webkit-text-stroke:3px #0a3a1c}
+.slide.active .money{animation:moneyPop 3s cubic-bezier(.3,1.6,.5,1) 1s infinite}
+@keyframes moneyPop{0%{opacity:0;transform:translate(-50%,-50%) scale(.2) rotate(-10deg)}12%{opacity:1;transform:translate(-50%,-50%) scale(1.12) rotate(-3deg)}20%,70%{opacity:1;transform:translate(-50%,-50%) scale(1) rotate(-3deg)}85%,100%{opacity:0;transform:translate(-50%,-50%) scale(1.3)}}
+.sfx{position:absolute;font:800 15px/1 var(--body);color:var(--ink);background:var(--gold);padding:8px 12px;border-radius:999px;opacity:0}
+.sfx.s1{left:24px;top:24px}.sfx.s2{right:24px;top:24px}.sfx.s3{left:24px;bottom:70px}
+.slide.active .sfx{animation:sfx 3s ease infinite}
+.slide.active .sfx.s2{animation-delay:1s}.slide.active .sfx.s3{animation-delay:2s}
+@keyframes sfx{0%,100%{opacity:0;transform:translateY(8px)}10%,40%{opacity:1;transform:none}55%{opacity:0}}
+.clock{position:absolute;right:24px;bottom:64px;display:flex;align-items:center;gap:8px;font:800 13px/1 var(--body);color:var(--white);background:rgba(0,0,0,.6);padding:6px 10px 6px 6px;border-radius:999px}
+.clock svg{width:28px;height:28px;transform:rotate(-90deg)}
+.clock circle{fill:none;stroke:var(--gold);stroke-width:5;stroke-dasharray:100.5;stroke-dashoffset:100.5}
+.slide.active .clock circle{animation:tick 3s linear infinite}
+@keyframes tick{to{stroke-dashoffset:0}}
+.anim{position:absolute;left:24px;bottom:22px;font:800 14px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--white);background:var(--red);padding:8px 12px;border-radius:8px}
+.wave{position:absolute;right:24px;bottom:22px;display:flex;gap:3px;align-items:flex-end;height:28px}
+.wave i{width:4px;background:var(--gold);border-radius:2px;height:30%}
+.slide.active .wave i{animation:wv .8s ease-in-out infinite alternate}
+.wave i:nth-child(2n){animation-delay:.2s!important}.wave i:nth-child(3n){animation-delay:.4s!important}.wave i:nth-child(5n){animation-delay:.1s!important}
+@keyframes wv{to{height:100%}}
+
+/* six moves */
+.six{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}
+.sx{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px 24px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.sx > b{font-family:var(--display);font-weight:400;font-size:40px;color:var(--gold);line-height:1}
+.sx h3{margin:0;font-size:22px}
+.sx p{margin:0;font-size:16px;line-height:1.5;color:var(--muted)}
+.sx p b{color:var(--white)}
+
+/* roadmap */
+.road{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:56px}
+.rline{position:absolute;left:0;right:0;top:-22px;height:6px;border-radius:3px;background:var(--line);overflow:hidden}
+.rline i{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--green))}
+.slide.active .rline i{animation:growW 2.2s cubic-bezier(.6,0,.3,1) .4s both}
+.mo{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px}
+.mo span{font:800 13px/1 var(--body);letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.mo h3{margin:8px 0 6px;font-size:26px}
+.mo p{margin:0;font-size:16px;line-height:1.5;color:var(--muted)}
+.mo:last-child{border-color:var(--green);background:linear-gradient(160deg,rgba(55,214,122,.14),var(--panel))}
+.math2{display:flex;align-items:center;gap:18px;margin-top:40px;padding:24px 28px;border-radius:18px;background:var(--panel);border:1px dashed var(--line)}
+.math2 > div{flex:1;min-width:0}
+.math2 b{display:block;font-family:var(--display);font-weight:400;font-size:56px;line-height:1;color:var(--white)}
+.math2 span{font-size:15px;color:var(--muted)}
+.math2 > i{font-style:normal;font-family:var(--display);font-size:46px;color:var(--gold)}
+.math2 .res b{color:var(--green);font-size:72px}
+
+.slide.center{justify-content:center}
+.rw .new > span .ant{color:var(--red)}
+</style>
+</head>
+<body>
+<div class="progress" aria-hidden="true"><i id="prog"></i></div>
+
+<div class="splash" id="splash" role="dialog" aria-label="Welcome">
+  <div class="leader" aria-hidden="true">
+    <svg viewBox="0 0 200 200"><circle cx="100" cy="100" r="92" fill="none" stroke="#2b2e34" stroke-width="3"/><circle cx="100" cy="100" r="74" fill="none" stroke="#2b2e34" stroke-width="2"/><line x1="0" y1="100" x2="200" y2="100" stroke="#2b2e34" stroke-width="2"/><line x1="100" y1="0" x2="100" y2="200" stroke="#2b2e34" stroke-width="2"/><g class="sweep"><path d="M100 100 L100 8 A92 92 0 0 1 192 100 Z" fill="rgba(255,138,30,.2)"/></g></svg>
+    <div class="cd" id="cd">3</div>
+  </div>
+  <div class="welcome">
+    <div class="card">
+      <div class="hi" id="hi">Welcome</div>
+      <div class="to">to the presentation</div>
+      <div class="sub">Somber Journal · The Angle Plan</div>
+      <button class="go" id="go" type="button">Begin ▸</button>
+    </div>
+  </div>
+</div>
+
+<main class="deck">
+<div class="viewport" id="vp">
+<div class="stage" id="stage">
+<div class="grain" aria-hidden="true"></div>
+<div class="curtains" id="curtains" aria-hidden="true"><i></i><i></i></div>
+
+<!-- 1 INTRO: our real channel, views explode -->
+<section class="slide s-rec" data-name="Intro" data-t="iris" data-enter="intro" id="intro">
+  <img class="laptop" src="img/sj-laptop.jpg" alt="Photo of the Somber Journal channel open on a laptop">
+  <div class="rec-cam" id="introCam"><div class="rec"><div class="rbar"><div class="rsearch">Search</div></div><div class="rbanner"><img src="img/sj-banner.jpg" alt="Somber Journal banner: The money stories nobody tells you"></div><div class="ravatar" data-morph="hero"><div class="disc"><img src="img/sj-avatar.jpg" alt="Somber Journal avatar"></div></div><div class="rname">Somber Journal</div><div class="rstats"><b>@somberjournal</b> · <span class="rsubs">15</span> subscribers · 5 videos</div><div class="rdesc">POV: The Money Stories nobody tells you <b>...more</b></div><div class="rtabs"><span>Home</span><span class="on">Videos</span></div><div class="rgrid"><div class="rv"><div class="rt"><img src="img/sj-v1.jpg" alt=""><span class="dur">17:12</span></div><div class="rti">POV: What Your Family Stops Telling You at Every Level of Wealth from -$412 to $60…</div><div class="rme"><span class="rviews">0</span> views · 3 days ago</div></div><div class="rv"><div class="rt"><img src="img/sj-v2.jpg" alt=""><span class="dur">17:54</span></div><div class="rti">POV: What Getting Sick Costs You at Every Level of Wealth From $0 to $1 Billion</div><div class="rme"><span class="rviews">0</span> views · 10 days ago</div></div><div class="rv"><div class="rt"><img src="img/sj-v3.jpg" alt=""><span class="dur">15:23</span></div><div class="rti">POV: You are 40 and You Still Work for your Younger Brother</div><div class="rme"><span class="rviews">0</span> views · 13 days ago</div></div><div class="rv"><div class="rt"><img src="img/sj-v4.jpg" alt=""><span class="dur">16:52</span></div><div class="rti">POV: Divorced at 55, had $0, then At 56, $1.4M</div><div class="rme"><span class="rviews">0</span> views · 2 weeks ago</div></div><div class="rv"><div class="rt"><img src="img/sj-v5.jpg" alt=""><span class="dur">25:17</span></div><div class="rti">POV: You Still Live with Your Parents at 30</div><div class="rme"><span class="rviews">0</span> views · 3 weeks ago</div></div></div></div></div>
+  <canvas class="cf" id="cf0" width="1600" height="900" aria-hidden="true"></canvas>
+  <div class="intro-head"><h1>We can <span>change this.</span></h1><p>All we need is the right angle. Press → to begin.</p></div>
+</section>
+
+<!-- 2 TITLE -->
+<section class="slide s-title" data-name="Title" data-t="morph">
+  <div class="hero zoom" data-morph="hero" style="--d:500;right:110px;top:110px;width:400px;height:400px"><div class="disc"><img src="img/sj-avatar.jpg" alt="Somber Journal channel avatar"></div></div>
+  <div class="eyebrow a">Research presentation · Somber Journal</div>
+  <h1 style="margin-top:26px"><span class="a" style="--d:150;display:inline-block">Find</span> <span class="a" style="--d:350;display:inline-block">the</span><br><span class="g pop" style="--d:600">Angle.</span></h1>
+  <div class="underline"></div>
+  <p class="lede a" style="--d:1100;max-width:46ch">Why our videos are stuck at <b>7 to 70 views</b>, what channels in our niche did to reach <b>48K to 744K</b>, and the exact changes I'm making to get Somber Journal <b>monetized in 4 months</b>.</p>
+</section>
+
+<!-- 3 THESIS -->
+<section class="slide center" data-name="Thesis" data-t="cube" data-enter="thesis">
+  <div class="eyebrow a">First, the good news</div>
+  <h2 class="a" style="--d:120">Low views are <span class="g">fixable.</span></h2>
+  <p class="lede a" style="--d:250">Every channel below started with videos that got single, double or triple-digit views. Then each one <b>found an angle</b> and <b>repeated it</b>.</p>
+  <div class="jumps">
+    <div class="jump pop" style="--d:400"><div class="ch">POV Finance Life<small>709 subscribers</small></div><div class="from num">7</div><div class="arrow">→</div><div class="to num" data-to="48000">7</div><div class="lbl">worst video before → best video after</div></div>
+    <div class="jump pop" style="--d:600"><div class="ch">POV Finance<small>29.7K subscribers</small></div><div class="from num">316</div><div class="arrow">→</div><div class="to num" data-to="744000">316</div><div class="lbl">worst video before → best video after</div></div>
+    <div class="jump pop" style="--d:800"><div class="ch">Finance With Henry<small>5.49K subscribers</small></div><div class="from num">522</div><div class="arrow">→</div><div class="to num" data-to="20000">522</div><div class="lbl">worst video before → best video after</div></div>
+  </div>
+  <p class="src a" style="--d:1100">All numbers from the channels' own pages, captured 9 Nov 2026.</p>
+</section>
+
+<!-- 4 CASE 1 -->
+<section class="slide" data-name="Case: POV Finance Life" data-t="push">
+  <div class="eyebrow a">Case study 1 · POV Finance Life · 709 subscribers</div>
+  <h2 class="a" style="--d:120">7 views → <span class="g">48K in 7 days</span></h2>
+  <div class="case">
+    <div class="ev">
+      <figure class="fromL" style="--d:300"><figcaption class="bad">Before: teaching money</figcaption><div class="shot"><img src="img/ev-pfl-old.jpg" alt="POV Finance Life older videos: If You Don't Understand DEBT 7 views, In 25 Minutes 21 views, Leasing vs Buying 22 views"></div></figure>
+      <figure class="fromL" style="--d:550"><figcaption class="good">After: the boss angle</figcaption><div class="shot"><img src="img/ev-pfl-popular.jpg" alt="POV Finance Life popular videos: Your Boss Still Thinks You Need This Job 48K, Mortgage-Free 48K, Your Boss Just Realized 21K"></div></figure>
+    </div>
+    <div class="col">
+      <div class="vrow2 a" style="--d:500"><span class="t bad">If You Don't Understand DEBT, You Don't Understand Money</span><span class="v">7</span></div>
+      <div class="vrow2 a" style="--d:600"><span class="t bad">In 25 Minutes, You'll Understand Everything About Generational…</span><span class="v">21</span></div>
+      <div class="vrow2 a" style="--d:700"><span class="t bad">POV: You Make the Same Money Mistake Your Dad Did</span><span class="v">31</span></div>
+      <div class="divider a" style="--d:850"><span>They found the angle</span></div>
+      <div class="vrow2 win fromR" style="--d:1000"><span class="t"><b>POV: Your Boss</b> Still Thinks You Need This Job — <b>You Own the Building He Rents</b></span><span class="v">48K<small>7 days</small></span></div>
+      <div class="vrow2 win fromR" style="--d:1150"><span class="t">POV: You Became <b>Mortgage-Free</b> While Everyone Else Is Still Paying</span><span class="v">48K<small>1 month</small></span></div>
+      <div class="vrow2 win fromR" style="--d:1300"><span class="t"><b>POV: Your Boss</b> Just Realized He Can't Control You Anymore</span><span class="v">21K<small>3 weeks</small></span></div>
+      <p class="take a" style="--d:1500">Same channel, same art style. <b>New angle, then they repeated it.</b> The boss appears twice in their top three.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 5 CASE 2 -->
+<section class="slide" data-name="Case: POV Finance" data-t="flip">
+  <div class="eyebrow a">Case study 2 · POV Finance · 29.7K subscribers</div>
+  <h2 class="a" style="--d:120">Listicles flopped. <span class="g">Old money exploded.</span></h2>
+  <div class="case">
+    <div class="ev">
+      <figure class="fromL" style="--d:300"><figcaption class="bad">Before: "5 signs" listicles</figcaption><div class="shot"><img src="img/ev-povf-old.jpg" alt="POV Finance older videos: 5 Signs You Could Retire Sooner 316 views, What $1 Million Gets You 436, 7 Signs You're Ahead 2K"></div></figure>
+      <figure class="fromL" style="--d:550"><figcaption class="good">After: the quiet old-money winner</figcaption><div class="shot"><img src="img/ev-povf-popular.jpg" alt="POV Finance popular videos: Adopted the Old Money Mindset 744K, Chose Wealth Over Looking Rich 384K, Started Thinking Like Old Money 198K"></div></figure>
+    </div>
+    <div class="col">
+      <div class="vrow2 a" style="--d:500"><span class="t bad">5 Signs You Could Retire Sooner Than You Think</span><span class="v">316</span></div>
+      <div class="vrow2 a" style="--d:600"><span class="t bad">What $1 Million Actually Gets You In Retirement Today</span><span class="v">436</span></div>
+      <div class="vrow2 a" style="--d:700"><span class="t bad">7 Signs You're Ahead Of Most Retirees Financially</span><span class="v">2K</span></div>
+      <div class="divider a" style="--d:850"><span>They found the angle</span></div>
+      <div class="vrow2 win fromR" style="--d:1000"><span class="t">POV: You Adopted the <b>Old Money Mindset</b> — Your Life Changed</span><span class="v">744K<small>2 months</small></span></div>
+      <div class="vrow2 win fromR" style="--d:1150"><span class="t">POV: You Chose Wealth Over <b>Looking Rich</b></span><span class="v">384K<small>2 months</small></span></div>
+      <div class="vrow2 win fromR" style="--d:1300"><span class="t">POV: You Started Thinking Like <b>Old Money</b> — Everything Changed</span><span class="v">198K<small>2 months</small></span></div>
+      <p class="take a" style="--d:1500">"Old money" in all three winners. <b>They stopped teaching and started showing a quiet winner.</b></p>
+    </div>
+  </div>
+</section>
+
+<!-- 6 CASE 3 -->
+<section class="slide" data-name="Case: Finance With Henry" data-t="split">
+  <div class="eyebrow a">Case study 3 · Finance With Henry · 5.49K subscribers</div>
+  <h2 class="a" style="--d:120">"Every level" → <span class="g">"Nobody knows."</span></h2>
+  <div class="case">
+    <div class="ev">
+      <figure class="fromL" style="--d:300"><figcaption class="bad">3 months ago</figcaption><div class="shot"><img src="img/ev-henry-old.jpg" alt="Finance With Henry older videos: Your Friends at Every Level of Wealth 633 views, 9 Signs You're Quietly Becoming Rich 522"></div></figure>
+      <figure class="fromL" style="--d:550"><figcaption class="good">This month</figcaption><div class="shot"><img src="img/ev-henry-new.jpg" alt="Finance With Henry latest videos with big text thumbnails: She Has No Idea, What Does He Know, My Landlord"></div></figure>
+    </div>
+    <div class="col">
+      <div class="vrow2 a" style="--d:500"><span class="t bad">POV: Your Friends at <b>Every Level of Wealth</b></span><span class="v">633</span></div>
+      <div class="vrow2 a" style="--d:600"><span class="t bad">9 Signs You're Quietly Becoming Rich (Most People Miss #9)</span><span class="v">522</span></div>
+      <div class="divider a" style="--d:850"><span>They found the angle</span></div>
+      <div class="vrow2 win fromR" style="--d:1000"><span class="t">POV: You Became <b>Richer Than Your Boss</b> — And Kept It to Yourself</span><span class="v">20K<small>3 weeks</small></span></div>
+      <div class="vrow2 win fromR" style="--d:1150"><span class="t">POV: You <b>Look Broke to Everyone</b> — But You're Escaping the Rat Race</span><span class="v">14K<small>4 weeks</small></span></div>
+      <div class="vrow2 win fromR" style="--d:1300"><span class="t">POV: You're the Richest Person at the <b>Family Dinner — Nobody Knows</b></span><span class="v">12K<small>3 weeks</small></span></div>
+      <p class="take a" style="--d:1500">Their "every level of wealth" video got 633. <b>Ours got 7 and 20.</b> The format is the problem, not the effort.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 7 THE PATTERN -->
+<section class="slide center" data-name="The pattern" data-t="vortex">
+  <div class="eyebrow a" style="justify-content:center">The pattern</div>
+  <h2 class="a" style="--d:120;text-align:center">Find the angle. <span class="g">Repeat the angle.</span></h2>
+  <div class="formula2">
+    <div class="fx pop" style="--d:400"><b>POV</b><span>you are the hero</span></div><i class="pop" style="--d:520">+</i>
+    <div class="fx pop" style="--d:640"><b>An antagonist</b><span>boss, sibling, in-law, ex</span></div><i class="pop" style="--d:760">+</i>
+    <div class="fx pop" style="--d:880"><b>A quiet win</b><span>nobody knows you're winning</span></div><i class="pop" style="--d:1000">+</i>
+    <div class="fx pop" style="--d:1120"><b>The twist</b><span>you own what they need</span></div><i class="pop" style="--d:1240">=</i>
+    <div class="fx res pop" style="--d:1400"><b>Views</b><span>48K · 384K · 744K</span></div>
+  </div>
+  <div class="repeat">
+    <div class="rp fromL" style="--d:1600"><h3>POV Finance Life</h3><p><b>Boss</b> · <b>Boss</b> · Mortgage-free</p></div>
+    <div class="rp a" style="--d:1750"><h3>POV Finance</h3><p><b>Old money</b> · <b>Old money</b> · <b>Old money</b></p></div>
+    <div class="rp fromR" style="--d:1900"><h3>Finance With Henry</h3><p><b>Nobody knows</b> · Looks broke · Richer than boss</p></div>
+  </div>
+  <p class="take a" style="--d:2100;text-align:center">Once an angle works, they make it again and again. <b>Repetition is the strategy.</b></p>
+</section>
+
+<!-- 8 WARNING -->
+<section class="slide" data-name="What fails" data-t="wipe">
+  <div class="eyebrow a">And what fails</div>
+  <h2 class="a" style="--d:120">Fantasies and lessons <span class="r">die.</span></h2>
+  <div class="row">
+    <div class="col" style="flex:1">
+      <div class="shot zoom" style="--d:300;aspect-ratio:1400/1050"><img src="img/ev-tfp-old.jpg" alt="The Finance POV oldest videos: Money Doesn't Grow It Mutates 71 views, You Control the Flow of Money Between Billionaires 100, Hidden Money Behind Political Power 137"></div>
+      <div class="vrow2 a" style="--d:600"><span class="t bad">POV: You Control the Hidden Money Behind Political Power</span><span class="v">137</span></div>
+      <div class="vrow2 a" style="--d:700"><span class="t bad">POV: You Control the Flow of Money Between the World's Billionaires</span><span class="v">100</span></div>
+      <p class="src a" style="--d:800"><b>The Finance POV</b> · 219 subscribers after 37 videos</p>
+    </div>
+    <div class="col" style="flex:1">
+      <div class="shot zoom" style="--d:450;aspect-ratio:1400/1050"><img src="img/ev-max.jpg" alt="POV Finance Max: 9 subscribers, videos with 1, 17 and 13 views"></div>
+      <div class="vrow2 a" style="--d:900"><span class="t bad">POV: You Win $100M and Tell No One — Where Is Your Money 10 Years Later?</span><span class="v">17</span></div>
+      <div class="vrow2 a" style="--d:1000"><span class="t bad">POV: You're At An Old Money Dinner — Their 6 Money Rules Changed How You Think</span><span class="v">1</span></div>
+      <p class="src a" style="--d:1100"><b>POV Finance Max</b> · 9 subscribers after 22 videos</p>
+    </div>
+  </div>
+  <p class="take a" style="--d:1300">No antagonist. No one to beat. A $100M win or "controlling billionaires" is a fantasy nobody can picture. <b>Real people, real rooms, real money.</b></p>
+</section>
+
+<!-- 9 TODAY -->
+<section class="slide" data-name="Somber Journal today" data-t="iris" data-enter="score">
+  <div class="eyebrow a">Where we are</div>
+  <h2 class="a" style="--d:120">Somber Journal <span class="g">today</span></h2>
+  <div class="row" style="gap:50px">
+    <div class="col" style="flex:1.25">
+      <div class="today-head a" style="--d:250">
+        <div class="hero" data-morph="hero" style="position:relative;width:120px;height:120px;flex:none"><div class="disc"><img src="img/sj-avatar.jpg" alt=""></div></div>
+        <div><b>15</b> subscribers · <b>5</b> videos<small>"The money stories nobody tells you." New stories every week.</small></div>
+      </div>
+      <div class="ours">
+        <figure class="pop" style="--d:400"><div class="shot"><img src="img/sj-v1.jpg" alt="What Your Family Stops Telling You thumbnail"></div><figcaption><b>7 views</b> · Family at every level of wealth</figcaption></figure>
+        <figure class="pop" style="--d:500"><div class="shot"><img src="img/sj-v2.jpg" alt="What Getting Sick Costs You thumbnail"></div><figcaption><b>20 views</b> · Getting sick at every level</figcaption></figure>
+        <figure class="pop" style="--d:600"><div class="shot"><img src="img/sj-v3.jpg" alt="You are 40 and work for your younger brother thumbnail"></div><figcaption><b>17 views</b> · Working for your little brother</figcaption></figure>
+        <figure class="pop" style="--d:700"><div class="shot"><img src="img/sj-v4.jpg" alt="Divorced at 55 thumbnail"></div><figcaption><b>70 views</b> · Divorced at 55</figcaption></figure>
+        <figure class="pop" style="--d:800"><div class="shot"><img src="img/sj-v5.jpg" alt="You still live with your parents at 30 thumbnail"></div><figcaption><b>40 views</b> · Living with parents at 30</figcaption></figure>
+      </div>
+    </div>
+    <div class="col score" style="flex:.75">
+      <h3 class="a" style="--d:400">Honest scorecard</h3>
+      <div class="sc" data-k="0"><span>Script</span><em class="ok">Strong</em></div>
+      <div class="sc" data-k="1"><span>Title</span><em>Fix</em></div>
+      <div class="sc" data-k="2"><span>Content ideas</span><em>Fix</em></div>
+      <div class="sc" data-k="3"><span>Thumbnail</span><em>Fix</em></div>
+      <div class="sc" data-k="4"><span>Production</span><em>Fix</em></div>
+      <div class="sc" data-k="5"><span>Character</span><em>Change</em></div>
+      <p class="src a" style="--d:2200">The writing is good. <b>The packaging hides it.</b></p>
+    </div>
+  </div>
+</section>
+
+<!-- 10 SCRIPT -->
+<section class="slide" data-name="Script" data-t="push">
+  <div class="eyebrow a">01 · Script · our strength, sharpened</div>
+  <h2 class="a" style="--d:120">Money + antagonist in <span class="g">15 seconds.</span></h2>
+  <div class="tl2 a" style="--d:300">
+    <div class="track"><i class="fill"></i>
+      <b class="mk hook" style="left:1.25%"><span>0:15 · money + antagonist on screen</span></b>
+      <b class="mk late" style="left:3.6%"><span>0:43 · Divorce: "$500,000"</span></b>
+      <b class="mk late low" style="left:6.9%"><span>1:23 · Brother: "$38,000"</span></b>
+      <b class="beat" style="left:10%;--i:0"></b><b class="beat" style="left:17.5%;--i:1"></b><b class="beat" style="left:25%;--i:2"></b><b class="beat" style="left:32.5%;--i:3"></b><b class="beat" style="left:40%;--i:4"></b><b class="beat" style="left:47.5%;--i:5"></b><b class="beat" style="left:55%;--i:6"></b><b class="beat" style="left:62.5%;--i:7"></b><b class="beat" style="left:70%;--i:8"></b><b class="beat" style="left:77.5%;--i:9"></b><b class="beat" style="left:85%;--i:10"></b>
+      <b class="mk end" style="left:88.9%"><span>16–20 min</span></b>
+    </div>
+    <div class="scale"><span>0:00</span><span>5:00</span><span>10:00</span><span>15:00</span><span>20:00</span></div>
+  </div>
+  <div class="rules3">
+    <div class="rule fromL" style="--d:500"><div class="k">1</div><div><h3>Hook in 15 seconds</h3><p>Our divorce video reveals the money at <b>0:43</b>, the brother video at <b>1:23</b>. Both too late.</p></div></div>
+    <div class="rule fromL" style="--d:650"><div class="k">2</div><div><h3>One antagonist who gets worse</h3><p>Brother, friend, mom, boss. <b>The same person keeps pushing</b> until the twist.</p></div></div>
+    <div class="rule fromL" style="--d:800"><div class="k">3</div><div><h3>Something changes every 60–90s</h3><p>A small win or an open question. <b>Each dot on the timeline is one.</b></p></div></div>
+    <div class="rule fromR" style="--d:950"><div class="k">4</div><div><h3>Tease the payoff early</h3><p>Show a glimpse of the ending so viewers stay to see it land.</p></div></div>
+    <div class="rule fromR" style="--d:1100"><div class="k">5</div><div><h3>16–20 minutes, never slow</h3><p>No long sad scenes. <b>The protagonist keeps winning</b>, quietly.</p></div></div>
+    <div class="rule fromR" style="--d:1250"><div class="k">6</div><div><h3>No AI-slop phrases</h3><p>Fresh lines every script. Next slide.</p></div></div>
+  </div>
+</section>
+
+<!-- 11 PHRASES -->
+<section class="slide" data-name="Phrases" data-t="split">
+  <div class="eyebrow a">01 · Script · retire these lines</div>
+  <h2 class="a" style="--d:120">If every channel says it, <span class="g">we don't.</span></h2>
+  <div class="strikes">
+    <div class="sk" style="--d:400"><span>"Here's what nobody tells you about…"</span><small>In our brother script at 1:43. In our divorce script at 1:27 <b>and</b> 16:16. Even our banner says it.</small></div>
+    <div class="sk" style="--d:900"><span>"But here's the part that changes you."</span><small>Generic. The viewer has heard it a thousand times.</small></div>
+    <div class="sk" style="--d:1400"><span>"You realize something…"</span><small>Announces a feeling instead of showing it.</small></div>
+  </div>
+  <div class="instead a" style="--d:2000">
+    <h3>Instead: let an object carry the turn</h3>
+    <p class="q">"In your wallet, behind your license, there's a check stub folded so small it's gone soft at the edges. Thirty-eight thousand dollars."</p>
+    <p class="src">That line is already in our brother script. <b>It's the hook. It just needs to come first.</b></p>
+  </div>
+</section>
+
+<!-- 12 TITLE -->
+<section class="slide" data-name="Titles" data-t="cube" data-enter="titles">
+  <div class="eyebrow a">02 · Title</div>
+  <h2 class="a" style="--d:120">Antagonist. Twist. <span class="g">Under 70.</span></h2>
+  <div class="trules a" style="--d:250"><span><b>A twist</b> they have to click</span><span><b>A clear antagonist</b>: boss, sibling, in-law, ex</span><span><b>Real and relatable</b>, no abstract fantasies</span><span><b>Under 70 characters</b></span></div>
+  <div class="rewrites">
+    <div class="rw" style="--d:500">
+      <div class="old"><span>POV: You are 40 and You Still Work for your Younger Brother</span><em>17 views</em></div>
+      <div class="new"><span data-ant="Your Little Brother" data-title="POV: Your Little Brother Thinks You Work for Him — You Own 30%"></span><div class="cc"><i></i><b>0</b>/70</div></div>
+    </div>
+    <div class="rw" style="--d:1300">
+      <div class="old"><span>POV: Divorced at 55, had $0, then At 56, $1.4M</span><em>70 views</em></div>
+      <div class="new"><span data-ant="Your Ex-Wife" data-title="POV: Your Ex-Wife Took the House — She Never Knew About the Envelope"></span><div class="cc"><i></i><b>0</b>/70</div></div>
+    </div>
+    <div class="rw" style="--d:2100">
+      <div class="old"><span>POV: You Still Live with Your Parents at 30</span><em>40 views</em></div>
+      <div class="new"><span data-ant="Your Friends" data-title="POV: Your Friends Mock You for Living at Home — It's Paid Off"></span><div class="cc"><i></i><b>0</b>/70</div></div>
+    </div>
+  </div>
+  <p class="src a" style="--d:2600">Each rewrite is true to the script we already have: the 30% stake, the envelope in the lawyer's safe, the mortgage marked "Paid in full".</p>
+</section>
+
+<!-- 13 THUMBNAIL -->
+<section class="slide" data-name="Thumbnail" data-t="flip">
+  <div class="eyebrow a">03 · Thumbnail</div>
+  <h2 class="a" style="--d:120">Big face. <span class="g">Proof of money.</span> Daylight.</h2>
+  <div class="row">
+    <div class="col" style="flex:1">
+      <div class="cmp2">
+        <figure class="fromL" style="--d:300"><figcaption class="bad">Ours</figcaption><div class="shot"><img src="img/sj-v2.jpg" alt="Our hospital thumbnail: small faces, indoor night scene"></div></figure>
+        <figure class="fromR" style="--d:450"><figcaption class="good">Theirs · 48K</figcaption><div class="shot"><img src="img/ev-boss.jpg" alt="POV Finance Life thumbnail: angry boss at a toolbox, calm hero holding a property deed, bright daylight"></div></figure>
+      </div>
+      <p class="take a" style="--d:700">Their winner: the boss's angry face fills a third of the frame, the hero is calm, it's bright daylight, and the property deed is the proof. <b>Ours: eight small faces at night.</b></p>
+    </div>
+    <div class="col" style="flex:1;gap:16px">
+      <div class="rule fromR" style="--d:500"><div class="k">1</div><div><h3>Faces big and clear</h3><p>1 to 3 faces max. The antagonist's reaction is the hook.</p></div></div>
+      <div class="rule fromR" style="--d:650"><div class="k">2</div><div><h3>Show proof of money</h3><p>A deed, a "$0 mortgage" letter, a bank app, a car key.</p></div></div>
+      <div class="rule fromR" style="--d:800"><div class="k">3</div><div><h3>Bright daylight</h3><p>Leave the night scenes. Daylight reads on a phone.</p></div></div>
+      <div class="rule fromR" style="--d:950"><div class="k">4</div><div><h3>3 versions, A/B tested</h3><p>YouTube Studio's <b>Test &amp; Compare</b> tests up to 3 thumbnails per video and keeps the winner.</p></div></div>
+      <div class="rule fromR" style="--d:1100"><div class="k">5</div><div><h3>Ours, not a clone</h3><p>Learn the pattern, never copy another channel's art.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 14 CHARACTER -->
+<section class="slide" data-name="New character" data-t="morph" data-enter="char">
+  <div class="eyebrow a">Same name, new face</div>
+  <h2 class="a" style="--d:120">Somber Journal stays. <span class="g">The character changes.</span></h2>
+  <div class="charx">
+    <div class="oldc">
+      <div class="hero" data-morph="hero" style="position:relative;width:300px;height:300px"><div class="disc"><img src="img/sj-avatar.jpg" alt="Current hooded character"></div></div>
+      <div class="xmark" aria-hidden="true"></div>
+      <p>Hood up. Head down. Night.<br><b>Reads as sad, not as winning.</b></p>
+    </div>
+    <div class="arrowbig" aria-hidden="true">→</div>
+    <div class="newc">
+      <div class="sil"><span>NEW<br>LEAD</span></div>
+      <ul>
+        <li class="fromR" style="--d:1400">Friendly face, easy to read at thumbnail size</li>
+        <li class="fromR" style="--d:1550">One signature item, every video</li>
+        <li class="fromR" style="--d:1700">Calm and confident: the quiet winner</li>
+        <li class="fromR" style="--d:1850">Bright, daylight colour palette</li>
+      </ul>
+    </div>
+  </div>
+  <p class="take a" style="--d:2100">Every winner has a signature look: <b>Henry's red cap</b>, POV Finance Life's <b>green sweater</b>, Beanie Survives' <b>two beanies</b>. Viewers spot them in the feed before they read the title.</p>
+</section>
+
+<!-- 15 CONTENT -->
+<section class="slide center" data-name="Content ideas" data-t="vortex">
+  <div class="eyebrow a">04 · Content ideas</div>
+  <h2 class="a" style="--d:120">We tell stories. <span class="g">We don't teach.</span></h2>
+  <div class="tiles4">
+    <div class="t4 zoom" style="--d:300"><b class="num" data-to="744000">0</b><h3>Old money, quiet wealth</h3><p>"Adopted the Old Money Mindset" 744K · Money Life POV "Stop Chasing Status" 493K</p></div>
+    <div class="t4 zoom" style="--d:450"><b class="num" data-to="439000">0</b><h3>The rich friend nobody suspects</h3><p>Money Life POV "Became the Rich Friend" 439K · Henry "Family Dinner — Nobody Knows" 12K</p></div>
+    <div class="t4 zoom" style="--d:600"><b class="num" data-to="377000">0</b><h3>Paid in cash, mortgage-free</h3><p>Money Life POV "Paying Cash for Cars" 377K · POV Finance Life "Mortgage-Free" 48K</p></div>
+    <div class="t4 zoom" style="--d:750"><b class="num" data-to="48000">0</b><h3>The boss who underestimates you</h3><p>"You Own the Building He Rents" 48K in 7 days · Henry "Richer Than Your Boss" 20K</p></div>
+  </div>
+  <div class="dos">
+    <div class="do a" style="--d:1000"><h3>Every idea needs</h3><p><b>An antagonist</b> who doubts you · <b>a twist</b> · <b>a quiet win</b> nobody sees coming · <b>real life</b>: jobs, family dinners, rent, cars</p></div>
+    <div class="dont a" style="--d:1150"><h3>Drop</h3><p>"Every level of wealth" explainers (ours: 7, 20) · "5 signs" lists · $100M fantasies · lessons and advice</p></div>
+  </div>
+</section>
+
+<!-- 16 IDEAS -->
+<section class="slide center" data-name="Ready ideas" data-t="wipe">
+  <div class="eyebrow a">04 · Content ideas · ready to write</div>
+  <h2 class="a" style="--d:120">Ten we can make <span class="g">next.</span></h2>
+  <div class="ideas">
+    <div class="idea fromL" style="--d:300"><span>POV: Your Boss Mocks Your Old Car — You Just Bought His Building</span><em>64</em></div>
+    <div class="idea fromR" style="--d:380"><span>POV: Your Sister Thinks You're Broke — You Paid Off Mom's House</span><em>63</em></div>
+    <div class="idea fromL" style="--d:460"><span>POV: Your In-Laws Ignore You at Dinner — You Own the Restaurant</span><em>63</em></div>
+    <div class="idea fromR" style="--d:540"><span>POV: Your Ex Wants You Back — She Just Saw Your Net Worth</span><em>57</em></div>
+    <div class="idea fromL" style="--d:620"><span>POV: Your Landlord Raised the Rent — You Bought the Building</span><em>60</em></div>
+    <div class="idea fromR" style="--d:700"><span>POV: Your Coworkers Laugh at Your Packed Lunch — You Retire at 45</span><em>65</em></div>
+    <div class="idea fromL" style="--d:780"><span>POV: Your Brother-in-Law Calls You a Loser — You Hold His Loan</span><em>62</em></div>
+    <div class="idea fromR" style="--d:860"><span>POV: The Rich Neighbors Ignore You — Your House Is Paid Off</span><em>59</em></div>
+    <div class="idea fromL" style="--d:940"><span>POV: Your Manager Takes Credit for Your Work — You Bought the Company</span><em>69</em></div>
+    <div class="idea fromR" style="--d:1020"><span>POV: Your Mom Brags About Your Brother — You Pay Her Bills</span><em>58</em></div>
+  </div>
+  <p class="src a" style="--d:1300">Each one: a real antagonist, a quiet win, a twist, and under 70 characters (count on the right).</p>
+</section>
+
+<!-- 17 PRODUCTION -->
+<section class="slide center" data-name="Production" data-t="push">
+  <div class="eyebrow a">05 · How we make it</div>
+  <h2 class="a" style="--d:120">Nothing on screen <span class="g">stands still.</span></h2>
+  <div class="row" style="align-items:center">
+    <div class="frame zoom" style="--d:250">
+      <div class="shots"><img src="img/sj-v4.jpg" alt=""><img src="img/sj-v5.jpg" alt=""><img src="img/sj-v1.jpg" alt=""></div>
+      <div class="money">$38,000</div>
+      <div class="sfx s1">SFX · tap water</div><div class="sfx s2">SFX · car horn</div><div class="sfx s3">SFX · phone buzz</div>
+      <div class="clock"><svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="16"/></svg><span>new shot</span></div>
+      <div class="anim">Animated moment 7 / 15</div>
+      <div class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+    <div class="col" style="flex:.9;gap:14px">
+      <div class="rule fromR" style="--d:400"><div class="k">1</div><div><h3>Animate 10–15 key moments</h3><p>The twist, the reveal, the antagonist's reaction.</p></div></div>
+      <div class="rule fromR" style="--d:550"><div class="k">2</div><div><h3>Sound design everywhere</h3><p>Water at the sink, the car horn, the phone buzz.</p></div></div>
+      <div class="rule fromR" style="--d:700"><div class="k">3</div><div><h3>A voice that sounds human</h3><p>Natural pacing and breaths, never robotic.</p></div></div>
+      <div class="rule fromR" style="--d:850"><div class="k">4</div><div><h3>A new shot every few seconds</h3><p>Every still image moves: slow zoom, pan or push.</p></div></div>
+      <div class="rule fromR" style="--d:1000"><div class="k">5</div><div><h3>Money pops on screen</h3><p>Every dollar amount big, bold and green.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 18 MISSING -->
+<section class="slide center" data-name="What we're missing" data-t="cube">
+  <div class="eyebrow a">The part most channels miss</div>
+  <h2 class="a" style="--d:120">Six moves that <span class="g">monetize.</span></h2>
+  <div class="six">
+    <div class="sx pop" style="--d:300"><b>01</b><h3>Repeat a winner within 14 days</h3><p>When a video beats our average 10×, make two more on the same angle. Every case study did this.</p></div>
+    <div class="sx pop" style="--d:420"><b>02</b><h3>Volume wins</h3><p>They have 82, 102 and 186 videos. We have 5. <b>3 a week</b> gets us to ~50 by month 4.</p></div>
+    <div class="sx pop" style="--d:540"><b>03</b><h3>A series, not one-offs</h3><p>Beanie Survives: 110K subscribers from 26 videos, built as episodes. "Ep. 13" got 80K.</p></div>
+    <div class="sx pop" style="--d:660"><b>04</b><h3>Read the numbers at 48 hours</h3><p>Check click-through rate and first-minute retention in YouTube Studio. Weak click rate → swap the thumbnail.</p></div>
+    <div class="sx pop" style="--d:780"><b>05</b><h3>Shorts as trailers</h3><p>3 vertical cuts per video to pull new viewers in. Shorts views don't count toward the 4,000 hours, so the long video stays the core.</p></div>
+    <div class="sx pop" style="--d:900"><b>06</b><h3>Stay "authentic"</h3><p>Since July 2025 YouTube won't monetize mass-produced, repetitive AI content. Original scripts, one character and real editing keep us safe.</p></div>
+  </div>
+</section>
+
+<!-- 19 ROADMAP -->
+<section class="slide center" data-name="Roadmap" data-t="wipe" data-enter="road">
+  <div class="eyebrow a">The 4-month plan</div>
+  <h2 class="a" style="--d:120">Monetized by <span class="g">month 4.</span></h2>
+  <div class="road">
+    <div class="rline"><i></i></div>
+    <div class="mo pop" style="--d:400"><span>Month 1</span><h3>Reset</h3><p>New character, new thumbnails and titles. 12 videos on 2 angles.</p></div>
+    <div class="mo pop" style="--d:700"><span>Month 2</span><h3>Find the winner</h3><p>Test &amp; Compare every thumbnail. Repeat whatever beats our average.</p></div>
+    <div class="mo pop" style="--d:1000"><span>Month 3</span><h3>Double down</h3><p>Turn the winning angle into a series. Shorts trailers for each video.</p></div>
+    <div class="mo pop" style="--d:1300"><span>Month 4</span><h3>Apply</h3><p>1,000 subscribers + 4,000 watch hours → YouTube Partner Program.</p></div>
+  </div>
+  <div class="math2 a" style="--d:1600">
+    <div><b class="num" id="mViews">48,000</b><span>views on one video, like POV Finance Life's boss video</span></div>
+    <i>×</i>
+    <div><b class="num">6 min</b><span>average watched of an 18-minute story</span></div>
+    <i>=</i>
+    <div class="res"><b class="num" id="mHours">0</b><span>watch hours. The 4,000-hour goal from one hit.</span></div>
+  </div>
+</section>
+
+<!-- 20 CLOSE -->
+<section class="slide s-rec s-close2" data-name="Close" data-t="curtain" data-enter="close" id="close">
+  <div class="rec-cam" id="closeCam"><div class="rec"><div class="rbar"><div class="rsearch">Search</div></div><div class="rbanner"><img src="img/sj-banner.jpg" alt="Somber Journal banner: The money stories nobody tells you"></div><div class="ravatar"><div class="disc"><img src="img/sj-avatar.jpg" alt="Somber Journal avatar"></div></div><div class="rname">Somber Journal</div><div class="rstats"><b>@somberjournal</b> · <span class="rsubs">15</span> subscribers · 5 videos</div><div class="rdesc">POV: The Money Stories nobody tells you <b>...more</b></div><div class="rtabs"><span>Home</span><span class="on">Videos</span></div><div class="rgrid"><div class="rv"><div class="rt"><img src="img/sj-v1.jpg" alt=""><span class="dur">17:12</span></div><div class="rti">POV: What Your Family Stops Telling You at Every Level of Wealth from -$412 to $60…</div><div class="rme"><span class="rviews">0</span> views · 3 days ago</div></div><div class="rv"><div class="rt"><img src="img/sj-v2.jpg" alt=""><span class="dur">17:54</span></div><div class="rti">POV: What Getting Sick Costs You at Every Level of Wealth From $0 to $1 Billion</div><div class="rme"><span class="rviews">0</span> views · 10 days ago</div></div><div class="rv"><div class="rt"><img src="img/sj-v3.jpg" alt=""><span class="dur">15:23</span></div><div class="rti">POV: You are 40 and You Still Work for your Younger Brother</div><div class="rme"><span class="rviews">0</span> views · 13 days ago</div></div><div class="rv"><div class="rt"><img src="img/sj-v4.jpg" alt=""><span class="dur">16:52</span></div><div class="rti">POV: Divorced at 55, had $0, then At 56, $1.4M</div><div class="rme"><span class="rviews">0</span> views · 2 weeks ago</div></div><div class="rv"><div class="rt"><img src="img/sj-v5.jpg" alt=""><span class="dur">25:17</span></div><div class="rti">POV: You Still Live with Your Parents at 30</div><div class="rme"><span class="rviews">0</span> views · 3 weeks ago</div></div></div></div></div>
+  <div class="stamp2" aria-hidden="true">Monetized<small>1,000 subs · 4,000 watch hours</small></div>
+  <canvas class="cf" id="cf1" width="1600" height="900" aria-hidden="true"></canvas>
+  <div class="close-head"><h1>Let's find <span>our angle.</span></h1><p class="serif">Thank you.</p></div>
+  <button class="replay" type="button" id="replay">↻ Replay</button>
+</section>
+
+</div>
+</div>
+</main>
+
+<nav class="bar" aria-label="Slide controls">
+  <button type="button" id="prev" aria-label="Previous slide">◀<span class="hide-sm">Prev</span></button>
+  <div class="dots" id="dots"></div>
+  <span class="count num" id="count">1 / 20</span>
+  <button type="button" id="next" aria-label="Next slide"><span class="hide-sm">Next</span>▶</button>
+  <button type="button" id="fs" class="hide-sm" aria-label="Full screen">⛶</button>
+</nav>
+
+<script>
+(function(){
+  const stage=document.getElementById('stage'),vp=document.getElementById('vp');
+  const slides=[...stage.querySelectorAll('.slide')];
+  const reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let cur=-1;
+
+  function fit(){const s=Math.min(vp.clientWidth/1600,vp.clientHeight/900);stage.style.transform=`translate(-50%,-50%) scale(${s})`;}
+  addEventListener('resize',fit);fit();
+
+  // dots
+  const dots=document.getElementById('dots');
+  slides.forEach((s,i)=>{const b=document.createElement('button');b.type='button';b.setAttribute('aria-label','Go to slide '+(i+1)+': '+(s.dataset.name||''));b.onclick=()=>go(i);dots.appendChild(b);});
+
+  const timers=[];
+  function clearTimers(){while(timers.length)clearTimeout(timers.pop());}
+
+  function restore(sl){sl.querySelectorAll('[data-mt]').forEach(e=>{e.style.animation='';e.style.transition='';e.style.transform='';e.style.transformOrigin='';e.removeAttribute('data-mt');});}
+  // Morph: the new slide's object starts at the old object's box and glides home along a slight arc,
+  // while a ghost copy of the old object travels with it and dissolves (a true cross-morph).
+  function morph(old,s){
+    const sr=stage.getBoundingClientRect(),sc=sr.width/1600;
+    const ez='cubic-bezier(.76,0,.14,1)';
+    s.querySelectorAll('[data-morph]').forEach(el=>{
+      const src=old.querySelector('[data-morph="'+el.dataset.morph+'"]');if(!src)return;
+      const o=src.getBoundingClientRect();if(!o.width||!o.height)return;
+      for(let p=el;p&&p!==s;p=p.parentElement){p.style.animation='none';p.setAttribute('data-mt','');}
+      const n=el.getBoundingClientRect();if(!n.width||!n.height)return;
+      const dx=(o.left-n.left)/sc,dy=(o.top-n.top)/sc,sx=o.width/n.width,sy=o.height/n.height;
+      const lift=-Math.min(90,Math.hypot(dx,dy)*.12);
+      const ghost=src.cloneNode(true);ghost.removeAttribute('id');ghost.querySelectorAll('[id]').forEach(e=>e.removeAttribute('id'));
+      ghost.removeAttribute('data-morph');
+      Object.assign(ghost.style,{position:'absolute',left:(o.left-sr.left)/sc+'px',top:(o.top-sr.top)/sc+'px',width:o.width/sc+'px',height:o.height/sc+'px',margin:'0',right:'auto',bottom:'auto',zIndex:'40',pointerEvents:'none',transformOrigin:'0 0',animation:'none',opacity:'1',flex:'none'});
+      stage.appendChild(ghost);
+      src.style.opacity='0';
+      el.style.transformOrigin='0 0';
+      const mid=(a,f)=>a+(1-a)*f;
+      el.animate([
+        {transform:'translate('+dx+'px,'+dy+'px) scale('+sx+','+sy+')',opacity:0,filter:'blur(6px) brightness(1.4)'},
+        {offset:.5,transform:'translate('+dx*.45+'px,'+(dy*.45+lift)+'px) scale('+mid(sx,.55)*1.04+','+mid(sy,.55)*1.04+')',opacity:.85,filter:'blur(2px) brightness(1.15)'},
+        {transform:'none',opacity:1,filter:'blur(0) brightness(1)'}
+      ],{duration:1350,easing:ez,fill:'backwards'});
+      ghost.animate([
+        {transform:'none',opacity:1,filter:'blur(0)'},
+        {offset:.5,transform:'translate('+(-dx*.55)+'px,'+(-dy*.55+lift)+'px) scale('+mid(1/sx,.55)*1.04+','+mid(1/sy,.55)*1.04+')',opacity:.5,filter:'blur(3px)'},
+        {transform:'translate('+(-dx)+'px,'+(-dy)+'px) scale('+(1/sx)+','+(1/sy)+')',opacity:0,filter:'blur(8px)'}
+      ],{duration:1350,easing:ez,fill:'forwards'}).onfinish=()=>ghost.remove();
+    });
+  }
+  let closed=false;
+  const TRANS=['push','cube','flip','iris','split','wipe','vortex'];
+  function clearT(el){TRANS.forEach(t=>el.classList.remove('in-'+t,'out-'+t));el.classList.remove('nochild');}
+  function go(i){
+    i=Math.max(0,Math.min(slides.length-1,i));
+    if(i===cur)return;
+    clearTimers();
+    const dir=cur<0||i>cur?1:-1;
+    stage.style.setProperty('--dir',dir);
+    const old=cur>=0?slides[cur]:null,s=slides[i];
+    const t=reduce||!old?'none':(s.dataset.t||'morph');
+    cur=i;
+    document.getElementById('prog').style.width=((i+1)/slides.length*100)+'%';
+    document.getElementById('count').textContent=(i+1)+' / '+slides.length;
+    [...dots.children].forEach((d,k)=>d.setAttribute('aria-current',k===i?'true':'false'));
+    try{history.replaceState(null,'','#slide-'+(i+1));}catch(e){}
+    const swap=(tt)=>{
+      if(old){restore(old);clearT(old);old.classList.remove('active');old.classList.add('leaving');
+        if(TRANS.includes(tt)){old.classList.add('out-'+tt,'nochild');}
+        clearTimeout(old._t);old._t=setTimeout(()=>{old.classList.remove('leaving');clearT(old);old.querySelectorAll('[data-morph]').forEach(e=>e.style.opacity='');},TRANS.includes(tt)?1300:650);}
+      clearTimeout(s._t);s.classList.remove('leaving');clearT(s);s.querySelectorAll('[data-morph]').forEach(e=>e.style.opacity='');
+      void s.offsetWidth;
+      if(TRANS.includes(tt)){s.classList.add('in-'+tt);s._t=setTimeout(()=>clearT(s),1400);}
+      s.classList.add('active');
+      if(old&&tt==='morph')morph(old,s);
+      if(closed)runEnter(s);
+    };
+    if(t==='curtain'){
+      const c=document.getElementById('curtains');c.classList.remove('run');void c.offsetWidth;c.classList.add('run');
+      timers.push(setTimeout(()=>swap('none'),800));
+    } else swap(t);
+  }
+
+  function runEnter(s){const fn=enter[s.dataset.enter];if(fn)fn();countAll(s);}
+
+  // ---- helpers ----
+  const fmt=v=>v<1000?String(v):v<10000?(Math.floor(v/100)/10)+'K':Math.floor(v/1000)+'K';
+  function ease(p){return p<.5?4*p*p*p:1-Math.pow(-2*p+2,3)/2;}
+  // exponential count: flies through the small numbers and lands on big ones
+  function countExp(from,to,ms,onTick,done){
+    if(reduce){onTick(to,1);done&&done();return;}
+    const t0=performance.now(),me=cur,lf=Math.log(Math.max(from,1)),lt=Math.log(to);
+    (function f(t){
+      if(cur!==me)return;
+      const p=Math.min(1,(t-t0)/ms),v=p>=1?to:Math.round(Math.exp(lf+(lt-lf)*ease(p)));
+      onTick(v,p);
+      if(p<1)requestAnimationFrame(f);else done&&done();
+    })(t0);
+  }
+  function countLin(from,to,ms,onTick,done){
+    if(reduce){onTick(to,1);done&&done();return;}
+    const t0=performance.now(),me=cur;
+    (function f(t){
+      if(cur!==me)return;
+      const p=Math.min(1,(t-t0)/ms);onTick(Math.round(from+(to-from)*ease(p)),p);
+      if(p<1)requestAnimationFrame(f);else done&&done();
+    })(t0);
+  }
+  function popPlus(host,x,y,txt,cls){
+    if(reduce)return;const el=document.createElement('span');
+    el.className='plus'+(cls?' '+cls:'');el.textContent=txt;el.style.left=x+'px';el.style.top=y+'px';
+    host.appendChild(el);setTimeout(()=>el.remove(),1200);
+  }
+  function confetti(canvas,n){
+    if(reduce||!canvas)return;const c=canvas.getContext('2d'),W=canvas.width,H=canvas.height;
+    const cols=['#ff8a1e','#f5f6f8','#37d67a','#ffc285'];
+    const ps=Array.from({length:n},()=>({x:W/2,y:H/2,vx:(Math.random()-.5)*20,vy:(Math.random()-.8)*18,r:Math.random()*6+3,c:cols[Math.random()*4|0],a:Math.random()*6,life:1}));
+    (function f(){c.clearRect(0,0,W,H);let alive=0;ps.forEach(p=>{p.vy+=.4;p.x+=p.vx;p.y+=p.vy;p.a+=.2;p.life-=.011;if(p.life>0){alive++;c.globalAlpha=p.life;c.fillStyle=p.c;c.save();c.translate(p.x,p.y);c.rotate(p.a);c.fillRect(-p.r,-p.r/2,p.r*2,p.r);c.restore();}});c.globalAlpha=1;if(alive)requestAnimationFrame(f);else c.clearRect(0,0,W,H);})();
+  }
+  function resetSlide(sl,cls){sl.classList.add('notrans');sl.classList.remove(...cls);void sl.offsetWidth;sl.classList.remove('notrans');}
+
+  const START=[7,20,17,70,40],END=[50000,38000,41000,120000,64000];
+  function setRec(cam,views,subs){
+    cam.querySelectorAll('.rviews').forEach((e,k)=>{e.textContent=fmt(views[k]);});
+    cam.querySelector('.rsubs').textContent=subs>=1000&&subs%1000===0?fmt(subs):subs.toLocaleString('en-US');
+  }
+  // generic: any [data-to] number on a slide counts up when the slide opens
+  function countAll(s){
+    s.querySelectorAll('[data-to]').forEach((el,k)=>{
+      const to=+el.dataset.to,from=+(el.dataset.from||el.textContent.replace(/\D/g,'')||1);
+      timers.push(setTimeout(()=>countExp(Math.max(from,1),to,1700,v=>{el.textContent=fmt(v);}),900+k*150));
+    });
+  }
+
+  const enter={
+    intro(){
+      const sl=document.getElementById('intro'),cam=document.getElementById('introCam');
+      resetSlide(sl,['dive','zoomv','counting','done','stamped']);
+      setRec(cam,START,15);
+      const hot=cam.querySelectorAll('.rviews');hot.forEach(e=>e.classList.remove('hot'));hot[0].classList.add('hot');
+      if(reduce){sl.classList.add('dive','done');setRec(cam,END,1000);return;}
+      timers.push(setTimeout(()=>sl.classList.add('dive'),500));
+      timers.push(setTimeout(()=>sl.classList.add('zoomv'),1800));
+      timers.push(setTimeout(()=>{
+        sl.classList.add('counting');let last=0;
+        countExp(7,50000,1500,(v,p)=>{hot[0].textContent=fmt(v);const n=performance.now();if(n-last>90){last=n;popPlus(sl,560+Math.random()*420,560+Math.random()*120,'+'+fmt(Math.max(1,Math.round(v*.04)))+' views');}});
+      },2500));
+      timers.push(setTimeout(()=>{
+        sl.classList.remove('zoomv');hot.forEach(e=>e.classList.add('hot'));
+        const views=[50000,20,17,70,40];
+        [1,2,3,4].forEach(k=>countExp(START[k],END[k],1300,v=>{views[k]=v;hot[k].textContent=fmt(v);}));
+        const subsEl=cam.querySelector('.rsubs');
+        countLin(15,1000,1400,v=>{subsEl.textContent=v.toLocaleString('en-US');},()=>{subsEl.textContent='1K';});
+        let last=0;const t0=performance.now();
+        (function pp(){if(cur!==0||performance.now()-t0>1400)return;const n=performance.now();if(n-last>110){last=n;popPlus(sl,150+Math.random()*1300,520+Math.random()*140,Math.random()<.5?'+1 subscriber':'+'+(1+Math.random()*9|0)+'K views',Math.random()<.4?'o':'');}requestAnimationFrame(pp);})();
+      },4200));
+      timers.push(setTimeout(()=>{sl.classList.remove('counting');sl.classList.add('done');confetti(document.getElementById('cf0'),260);},5800));
+    },
+    score(){
+      const s=slides[cur];s.querySelectorAll('.sc').forEach(e=>e.classList.remove('on'));
+      s.querySelectorAll('.sc').forEach((e,k)=>timers.push(setTimeout(()=>e.classList.add('on'),900+k*230)));
+    },
+    titles(){
+      const rws=slides[cur].querySelectorAll('.rw');
+      rws.forEach((rw,k)=>{
+        const sp=rw.querySelector('.new > span'),txt=sp.dataset.title,cc=rw.querySelector('.cc'),b=cc.querySelector('b'),bar=cc.querySelector('i');
+        sp.textContent='';b.textContent='0';bar.style.setProperty('--w','0%');
+        const dash=txt.indexOf('—');
+        const ant=sp.dataset.ant||'';const esc=x=>x.replace(/&/g,'&amp;').replace(/</g,'&lt;');const paint=n=>{const t=esc(txt.slice(0,n));let h=t;const ai=t.indexOf(ant);if(ant&&ai>=0)h=t.slice(0,ai)+'<span class="ant">'+ant+'</span>'+t.slice(ai+ant.length);else if(ant&&n<5+ant.length)h=t.replace(/^(POV: )(.*)$/,'$1<span class="ant">$2</span>');sp.innerHTML=h.replace(/(— .*)$/,'<span class="tw">$1</span>');b.textContent=n;bar.style.setProperty('--w',(n/70*100)+'%');};
+        if(reduce){paint(txt.length);return;}
+        let n=0;const tick=()=>{paint(++n);if(n<txt.length)timers.push(setTimeout(tick,22));};
+        timers.push(setTimeout(tick,600+k*800));
+      });
+    },
+    char(){
+      const s=slides[cur];s.classList.remove('s-char-on');void s.offsetWidth;
+      timers.push(setTimeout(()=>s.classList.add('s-char-on'),reduce?0:1500));
+    },
+    road(){
+      const h=document.getElementById('mHours');h.textContent='0';
+      timers.push(setTimeout(()=>countLin(0,4800,1800,v=>{h.textContent=v.toLocaleString('en-US');}),reduce?0:2000));
+    },
+    close(){playClose();}
+  };
+  function playClose(){
+    clearTimers();
+    const sl=document.getElementById('close'),cam=document.getElementById('closeCam');
+    resetSlide(sl,['counting','done','stamped']);
+    setRec(cam,START,15);
+    const hot=cam.querySelectorAll('.rviews');hot.forEach(e=>e.classList.add('hot'));
+    if(reduce){setRec(cam,END,1000);sl.classList.add('done','stamped');return;}
+    timers.push(setTimeout(()=>{
+      sl.classList.add('counting');
+      [0,1,2,3,4].forEach(k=>countExp(START[k],END[k],1800,v=>{hot[k].textContent=fmt(v);}));
+      const subsEl=cam.querySelector('.rsubs');
+      countLin(15,1000,1900,v=>{subsEl.textContent=v.toLocaleString('en-US');},()=>{subsEl.textContent='1K';});
+      let last=0;const t0=performance.now(),me=cur;
+      (function pp(){if(cur!==me||performance.now()-t0>1900)return;const n=performance.now();if(n-last>100){last=n;popPlus(sl,150+Math.random()*1300,500+Math.random()*160,Math.random()<.5?'+1 subscriber':'+'+(1+Math.random()*9|0)+'K views',Math.random()<.4?'o':'');}requestAnimationFrame(pp);})();
+    },1200));
+    timers.push(setTimeout(()=>{sl.classList.add('stamped');confetti(document.getElementById('cf1'),300);},3300));
+    timers.push(setTimeout(()=>{sl.classList.remove('counting');sl.classList.add('done');},4100));
+  }
+  document.getElementById('replay').addEventListener('click',playClose);
+
+  // controls
+  document.getElementById('prev').onclick=()=>go(cur-1);
+  document.getElementById('next').onclick=()=>go(cur+1);
+  document.getElementById('fs').onclick=()=>{try{const p=document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen();p&&p.catch&&p.catch(()=>{});}catch(e){}};
+  addEventListener('keydown',e=>{
+    if(e.target.tagName==='INPUT')return;
+    if(!splash.classList.contains('gone')){if(['ArrowRight',' ','Enter','PageDown'].includes(e.key)){e.preventDefault();closeSplash();}return;}
+    if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();go(cur+1);}
+    else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();go(cur-1);}
+    else if(e.key==='Home')go(0);else if(e.key==='End')go(slides.length-1);
+    else if(e.key==='f'||e.key==='F')document.getElementById('fs').click();
+  });
+  let tx=null;
+  vp.addEventListener('touchstart',e=>{tx=e.touches[0].clientX;},{passive:true});
+  vp.addEventListener('touchend',e=>{if(tx===null)return;const dx=e.changedTouches[0].clientX-tx;if(Math.abs(dx)>50)go(cur+(dx<0?1:-1));tx=null;});
+
+  // splash
+  const splash=document.getElementById('splash');
+  const hi=document.getElementById('hi');hi.innerHTML=[...hi.textContent].map((ch,k)=>`<span style="animation-delay:${3.1+k*.07}s">${ch}</span>`).join('');
+  const cd=document.getElementById('cd');[2,1].forEach((n,k)=>setTimeout(()=>{cd.textContent=n;},900*(k+1)));
+  setTimeout(()=>{if(reduce)return;for(let k=0;k<28;k++){const s=document.createElement('i');s.className='spark';const a=Math.random()*Math.PI*2,d=160+Math.random()*260;s.style.cssText=`left:50%;top:50%;--x:${Math.cos(a)*d}px;--y:${Math.sin(a)*d}px;animation-delay:${Math.random()*.2}s`;splash.appendChild(s);}},3000);
+  function closeSplash(){if(closed)return;closed=true;splash.classList.add('gone');const start=slides[cur];restore(start);start.classList.remove('active');void start.offsetWidth;start.classList.add('active');runEnter(start);}
+  splash.addEventListener('click',closeSplash);
+  setTimeout(closeSplash,12000);
+
+  const m=/^#slide-(\d+)$/.exec(location.hash);
+  go(m?(+m[1]-1):0);
+  if(m||reduce)closeSplash();
+  addEventListener('hashchange',()=>{const h=/^#slide-(\d+)$/.exec(location.hash);if(h)go(+h[1]-1);});
+})();
+</script>
+</body>
+</html>
