@@ -1,0 +1,40 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@page{size:A4;margin:14mm}
+body{font-family:Arial,Helvetica,sans-serif;color:#1f2937;margin:0}
+h1{text-align:center;font-size:22px;margin:0 0 4px}
+.sub{text-align:center;color:#6b7280;font-size:13px;margin-bottom:18px}
+.flow{display:flex;flex-direction:column;align-items:center}
+.block{width:78%;border-radius:12px;padding:14px 18px;border:3px solid;box-sizing:border-box;position:relative}
+.block h2{margin:0 0 4px;font-size:18px}
+.block p{margin:0;font-size:12.5px;line-height:1.45}
+.num{position:absolute;top:-12px;left:-12px;width:28px;height:28px;border-radius:50%;color:#fff;font-weight:bold;display:flex;align-items:center;justify-content:center;font-size:14px}
+.done{background:#e5e7eb;border-color:#9ca3af;color:#6b7280}
+.done h2,.done p{text-decoration:line-through;text-decoration-thickness:2px;text-decoration-color:#dc2626}
+.done .num{background:#9ca3af}
+.tag{float:right;font-size:11px;font-weight:bold;padding:2px 8px;border-radius:10px;text-decoration:none!important}
+.done .tag{background:#16a34a;color:#fff}
+.approve{background:#fef3c7;border-color:#f59e0b}.approve .num{background:#f59e0b}.approve .tag{background:#f59e0b;color:#fff}
+.visual{background:#dbeafe;border-color:#3b82f6}.visual .num{background:#3b82f6}
+.anim{background:#ede9fe;border-color:#8b5cf6}.anim .num{background:#8b5cf6}
+.edit{background:#dcfce7;border-color:#22c55e}.edit .num{background:#22c55e}
+.pend{background:#fff;color:#374151;border:1px solid #d1d5db}
+.arrow{font-size:26px;color:#6b7280;line-height:1;margin:4px 0}
+.legend{margin-top:16px;font-size:11.5px;color:#4b5563;text-align:center}
+</style></head><body>
+<h1>Video Workflow Map</h1>
+<div class="sub">"A Poor Girl Helped a Billionaire CEO Grandpa Walk Again"</div>
+<div class="flow">
+ <div class="block done"><div class="num">1</div><span class="tag">✓ DONE</span><h2>Script</h2><p>Story written: the poor girl, the billionaire CEO grandpa, how she helps him walk again, and the ending.</p></div>
+ <div class="arrow">▼</div>
+ <div class="block done"><div class="num">2</div><span class="tag">✓ DONE</span><h2>Characters</h2><p>Character designs finished: the girl, the grandpa, and the supporting cast (family, staff, doctors).</p></div>
+ <div class="arrow">▼</div>
+ <div class="block approve"><div class="num">3</div><span class="tag">⏳ WAITING</span><h2>Send to Mr. Chinedu for Approval</h2><p>Send the script and characters to Mr. Chinedu. Wait for approval or change requests before moving on.</p></div>
+ <div class="arrow">▼</div>
+ <div class="block visual"><div class="num">4</div><span class="tag pend">TO DO</span><h2>Visual Generation</h2><p>Generate the scene images for each part of the script, keeping each character's look the same in every scene.</p></div>
+ <div class="arrow">▼</div>
+ <div class="block anim"><div class="num">5</div><span class="tag pend">TO DO</span><h2>Image Animation</h2><p>Animate the images: movement, expressions, and the key moment when Grandpa stands and walks again.</p></div>
+ <div class="arrow">▼</div>
+ <div class="block edit"><div class="num">6</div><span class="tag pend">TO DO</span><h2>Editing</h2><p>Put the clips together with voiceover, music, sound effects, captions, transitions, thumbnail, then export and upload.</p></div>
+</div>
+<div class="legend">Crossed out = finished &nbsp;•&nbsp; Yellow = waiting on approval &nbsp;•&nbsp; Coloured = still to do</div>
+</body></html>
