@@ -24,10 +24,14 @@ C = [
  ("kehinde","Kehinde Alade","—","Ireti's late father","Seen only in photographs. Danfo driver, broad smile, a burn scar across his right palm.","Supporting cast"),
 ]
 def img(slug):
-    for ext,mt in ((".jpg","jpeg"),(".jpeg","jpeg"),(".png","png"),(".webp","webp")):
+    import io
+    from PIL import Image
+    for ext in (".jpg",".jpeg",".png",".webp"):
         p = HERE/"images"/(slug+ext)
         if p.exists():
-            return f'<img src="data:image/{mt};base64,{base64.b64encode(p.read_bytes()).decode()}">'
+            im = Image.open(p).convert("RGB"); im.thumbnail((1000,1000))
+            b = io.BytesIO(); im.save(b,"JPEG",quality=82)
+            return f'<img src="data:image/jpeg;base64,{base64.b64encode(b.getvalue()).decode()}">'
     return '<div class="ph">Character image<br><small>to be added</small></div>'
 e = html.escape
 cards = {}
@@ -45,14 +49,14 @@ body{{font-family:Arial,Helvetica,sans-serif;color:#1f2937;margin:0;font-size:11
 .cover h1{{margin:6px 0 4px;font-size:24px}} .cover p{{margin:0;color:#d1d5db;font-size:12px}}
 h2{{font-size:15px;border-bottom:3px solid #f59e0b;padding-bottom:4px;margin:14px 0 10px;break-after:avoid}}
 .grid{{display:grid;grid-template-columns:1fr 1fr;gap:10px}}
-.card{{display:flex;border:1px solid #d1d5db;border-radius:8px;overflow:hidden;break-inside:avoid;height:58mm}}
-.photo{{width:44mm;flex:none;background:#f3f4f6}}
+.card{{display:flex;flex-direction:column;border:1px solid #d1d5db;border-radius:8px;overflow:hidden;break-inside:avoid}}
+.photo{{width:100%;aspect-ratio:16/9;background:#f3f4f6}}
 .photo img{{width:100%;height:100%;object-fit:cover;display:block}}
-.ph{{height:100%;display:flex;align-items:center;justify-content:center;text-align:center;color:#9ca3af;border-right:2px dashed #d1d5db;font-size:11px}}
+.ph{{height:100%;display:flex;align-items:center;justify-content:center;text-align:center;color:#9ca3af;border-bottom:2px dashed #d1d5db;font-size:11px}}
 .info{{padding:8px 10px;display:flex;flex-direction:column;flex:1}}
 .name{{font-weight:bold;font-size:13px}} .age{{color:#6b7280;font-weight:normal}}
 .role{{color:#b45309;font-weight:bold;margin:2px 0 4px}}
-.info p{{margin:0 0 6px;line-height:1.35;color:#374151}}
+.info p{{margin:0 0 6px;min-height:28px;line-height:1.35;color:#374151}}
 .ap{{display:flex;gap:10px;white-space:nowrap;font-size:10px;font-weight:bold;margin-top:auto}}
 .line{{border-bottom:1px solid #9ca3af;margin-top:6px;padding-bottom:10px;color:#6b7280}}
 .sign{{break-inside:avoid;margin-top:18px;border:2px solid #111827;border-radius:8px;padding:14px 18px}}
