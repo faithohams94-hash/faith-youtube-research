@@ -1,0 +1,383 @@
+<title>Davis Alozie Mentorship Timetable</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: a production rundown. Agreement header, launch week as a day-by-day run sheet,
+   the repeating 7-day cycle, then the full 22-week calendar with checkpoints. */
+:root {
+  --bg: #eef2f4;
+  --surface: #ffffff;
+  --ink: #12222d;
+  --muted: #566a77;
+  --line: #d3dde3;
+  --accent: #1d5f86;
+  --accent-soft: #dcebf4;
+  --rec: #cf3a33;
+  --gold: #a86b00;
+  --gold-soft: #fbefd6;
+  --ph-launch: #cf3a33; --ph-foundation: #1d5f86; --ph-growth: #2f7d4f; --ph-scale: #6a4fb0; --ph-monetization: #a86b00;
+  --f-display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --f-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e171d; --surface: #15222b; --ink: #e5edf1; --muted: #93a7b3; --line: #2a3a45;
+    --accent: #7cbbe0; --accent-soft: #1b3443; --rec: #ff6b61; --gold: #f0b54a; --gold-soft: #33280f;
+    --ph-launch: #ff6b61; --ph-foundation: #7cbbe0; --ph-growth: #6fcf93; --ph-scale: #b7a2f2; --ph-monetization: #f0b54a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e171d; --surface: #15222b; --ink: #e5edf1; --muted: #93a7b3; --line: #2a3a45;
+  --accent: #7cbbe0; --accent-soft: #1b3443; --rec: #ff6b61; --gold: #f0b54a; --gold-soft: #33280f;
+  --ph-launch: #ff6b61; --ph-foundation: #7cbbe0; --ph-growth: #6fcf93; --ph-scale: #b7a2f2; --ph-monetization: #f0b54a;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.55;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 32px 64px;
+}
+.wrap { max-width: 1040px; margin: 0 auto; display: grid; gap: 48px; }
+h1, h2, h3 { font-family: var(--f-display); text-wrap: balance; margin: 0; letter-spacing: -0.01em; }
+h1 { font-size: clamp(30px, 5vw, 46px); line-height: 1.05; font-weight: 700; }
+h2 { font-size: 24px; font-weight: 600; }
+h3 { font-size: 17px; font-weight: 600; }
+p { margin: 0; }
+.eyebrow { font-family: var(--f-mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); display: flex; align-items: center; gap: 8px; }
+.rec { width: 9px; height: 9px; border-radius: 50%; background: var(--rec); display: inline-block; }
+.mono { font-family: var(--f-mono); font-variant-numeric: tabular-nums; }
+.dim { color: var(--muted); }
+
+/* Header */
+header { display: grid; gap: 20px; }
+.lede { max-width: 64ch; color: var(--muted); font-size: 16px; }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.fact { background: var(--surface); padding: 14px 16px; display: grid; gap: 4px; min-width: 0; }
+.fact dt { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.fact dd { margin: 0; font-weight: 600; }
+.fact dd small { display: block; font-weight: 400; color: var(--muted); font-size: 13px; }
+.goal { border-left: 3px solid var(--gold); background: var(--gold-soft); padding: 14px 18px; border-radius: 0 8px 8px 0; display: grid; gap: 4px; }
+.goal strong { font-family: var(--f-display); font-size: 17px; }
+
+section { display: grid; gap: 18px; }
+.sec-head { display: grid; gap: 6px; }
+.sec-head p { color: var(--muted); max-width: 66ch; }
+
+/* Launch week run sheet */
+.run { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.day { display: grid; grid-template-columns: 112px 1fr; gap: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.day.start { border-color: var(--rec); }
+.when { padding: 14px; background: var(--accent-soft); display: grid; align-content: start; gap: 2px; }
+.day.start .when { background: color-mix(in srgb, var(--rec) 14%, var(--surface)); }
+.when .dow { font-family: var(--f-mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+.when .num { font-family: var(--f-display); font-size: 28px; font-weight: 700; line-height: 1; }
+.when .mon { font-size: 13px; color: var(--muted); }
+.what { padding: 14px 18px; display: grid; gap: 8px; min-width: 0; }
+.what-top { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 14px; }
+.time { font-family: var(--f-mono); font-size: 12.5px; color: var(--accent); white-space: nowrap; }
+.what ul { margin: 0; padding-left: 18px; display: grid; gap: 3px; }
+.due { font-size: 13.5px; color: var(--muted); border-top: 1px dashed var(--line); padding-top: 8px; }
+.due b { color: var(--ink); font-weight: 600; }
+.tag { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--rec); }
+
+/* Weekly cycle */
+.cycle { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 8px; }
+.slot { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px; display: grid; align-content: start; gap: 6px; min-width: 0; }
+.slot.weekend { background: var(--accent-soft); border-color: transparent; }
+.slot .d { font-family: var(--f-mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); display: flex; justify-content: space-between; gap: 6px; }
+.slot h3 { font-size: 15.5px; }
+.slot p { font-size: 13.5px; color: var(--muted); }
+.slot.prod { border-color: var(--rec); }
+.flow { font-size: 13.5px; color: var(--muted); }
+
+/* Phases */
+.phases { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 10px; }
+.phase { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; display: grid; gap: 6px; align-content: start; }
+.phase p { font-size: 13.5px; }
+.phase-when { font-family: var(--f-mono); font-size: 12px; color: var(--muted); }
+.ph { font-family: var(--f-mono); font-size: 11.5px; letter-spacing: 0.06em; text-transform: uppercase; font-weight: 500; display: inline-flex; align-items: center; gap: 6px; }
+.ph::before { content: ""; width: 8px; height: 8px; border-radius: 2px; background: currentColor; }
+.ph-launch { color: var(--ph-launch); } .ph-foundation { color: var(--ph-foundation); } .ph-growth { color: var(--ph-growth); }
+.ph-scale { color: var(--ph-scale); } .ph-monetization { color: var(--ph-monetization); }
+
+/* Calendar table */
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; min-width: 620px; font-size: 14px; }
+th { text-align: left; font-family: var(--f-mono); font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); padding: 10px 14px; border-bottom: 1px solid var(--line); }
+td { padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+tr:last-child td { border-bottom: 0; }
+td.wk { font-family: var(--f-mono); font-variant-numeric: tabular-nums; color: var(--muted); width: 56px; }
+td.dt { font-variant-numeric: tabular-nums; white-space: nowrap; }
+td.ms { display: grid; gap: 1px; }
+td.ms span { color: var(--muted); }
+tr.is-ms td { background: var(--gold-soft); }
+tr.is-ms td.ms strong { color: var(--gold); }
+
+/* Rules + money */
+.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; display: grid; gap: 12px; align-content: start; min-width: 0; }
+.panel ul { margin: 0; padding-left: 18px; display: grid; gap: 6px; }
+.pay { display: grid; gap: 10px; }
+.pay-row { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; align-items: baseline; padding-bottom: 10px; border-bottom: 1px solid var(--line); }
+.pay-row:last-child { border-bottom: 0; padding-bottom: 0; }
+.pay-row .amt { font-family: var(--f-display); font-size: 20px; font-weight: 700; }
+.pay-row small { grid-column: 1 / -1; color: var(--muted); font-size: 13px; }
+.status { justify-self: start; font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 8px; border-radius: 99px; }
+.status.paid { color: var(--ph-growth); background: color-mix(in srgb, var(--ph-growth) 14%, transparent); }
+.status.due { color: var(--gold); background: var(--gold-soft); }
+.ladder { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 6px; }
+.rung { display: grid; gap: 2px; padding: 10px; border-radius: 8px; background: var(--bg); min-width: 0; }
+.rung b { font-family: var(--f-display); font-size: 18px; font-variant-numeric: tabular-nums; }
+.rung span { font-size: 12px; color: var(--muted); }
+.rung.key { background: var(--gold-soft); }
+.rung.key b { color: var(--gold); }
+.note { font-size: 13px; color: var(--muted); }
+
+footer { display: grid; gap: 6px; border-top: 1px solid var(--line); padding-top: 18px; font-size: 13.5px; color: var(--muted); }
+.sign { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px; margin-top: 14px; }
+.sign div { border-top: 1px solid var(--ink); padding-top: 6px; color: var(--ink); }
+.sign small { display: block; color: var(--muted); }
+
+@media (max-width: 860px) {
+  .cycle { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ladder { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 520px) {
+  .day { grid-template-columns: 1fr; }
+  .when { grid-template-columns: auto auto 1fr; align-items: baseline; gap: 8px; }
+  .when .num { font-size: 22px; }
+  .cycle { grid-template-columns: 1fr; }
+  .ladder { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+</style>
+
+<div class="wrap">
+
+<header>
+  <p class="eyebrow"><span class="rec" aria-hidden="true"></span>YouTube Monetization Mentorship · Timetable</p>
+  <h1>Building and monetizing Davis Alozie's channel</h1>
+  <p class="lede">We build the channel from the ground up and work on it together, every day, until it is monetized. Classes run seven days a week. Treat every class as a working session and arrive with the day's deliverable done.</p>
+
+  <dl class="facts">
+    <div class="fact"><dt>Student</dt><dd>Davis Alozie</dd></div>
+    <div class="fact"><dt>Coach</dt><dd>Faith Ashanwi</dd></div>
+    <div class="fact"><dt>Program</dt><dd class="mono">14 Nov 2026 – 14 Apr 2027<small>Starts Saturday, ends Wednesday</small></dd></div>
+    <div class="fact"><dt>Weekday classes · Mon–Fri</dt><dd class="mono">10:00 PM – 11:00 PM<small>1 hour</small></dd></div>
+    <div class="fact"><dt>Weekend classes · Sat–Sun</dt><dd class="mono">10:00 PM – 12:00 AM<small>2 hours. Opening Saturday is 1 hour.</small></dd></div>
+    <div class="fact"><dt>Total contact time</dt><dd class="mono">195 hours<small>152 days of classes</small></dd></div>
+  </dl>
+
+  <div class="goal">
+    <strong>Goal: a monetized channel by 14 April 2027</strong>
+    <p>First 3 months: reach at least <b>500 subscribers</b> by Sunday 14 February 2027.</p>
+  </div>
+</header>
+
+<section aria-labelledby="launch">
+  <div class="sec-head">
+    <p class="eyebrow">Week 1 · Sat 14 – Fri 20 Nov 2026</p>
+    <h2 id="launch">Launch week</h2>
+    <p>The weekend is for research only. Monday and Tuesday set up scripting, tools and the production schedule. Production starts officially on Wednesday.</p>
+  </div>
+  <ol class="run">
+    <li class="day start">
+      <div class="when"><span class="dow">Sat</span><span class="num">14</span><span class="mon">Nov 2026</span></div>
+      <div class="what">
+        <div class="what-top"><h3>Kickoff and niche generation</h3><span class="time">10:00–11:00 PM · 1 hr</span></div>
+        <ul>
+          <li>Introductions, the program agreement and what is expected each day.</li>
+          <li>Talk through the channel Davis wants to open.</li>
+          <li>Generate niche ideas and test niche combinations.</li>
+        </ul>
+        <p class="due"><b>Due Sunday:</b> a shortlist of the strongest niches, each with example channels.</p>
+      </div>
+    </li>
+    <li class="day">
+      <div class="when"><span class="dow">Sun</span><span class="num">15</span><span class="mon">Nov 2026</span></div>
+      <div class="what">
+        <div class="what-top"><h3>Final niche and niche research</h3><span class="time">10:00 PM–12:00 AM · 2 hrs</span></div>
+        <ul>
+          <li>Finalize the niche. This decision is made today.</li>
+          <li>Research it: competitor channels, top videos, audience, and gaps we can fill.</li>
+          <li>Confirm the niche is worth it and agree what we need to do.</li>
+          <li>Build the channel strategy.</li>
+        </ul>
+        <p class="due"><b>Due Monday:</b> final niche and written strategy.</p>
+      </div>
+    </li>
+    <li class="day">
+      <div class="when"><span class="dow">Mon</span><span class="num">16</span><span class="mon">Nov 2026</span></div>
+      <div class="what">
+        <div class="what-top"><h3>Production planning</h3><span class="time">10:00–11:00 PM · 1 hr</span></div>
+        <ul>
+          <li>How we script: structure, length and voice.</li>
+          <li>The tools we need.</li>
+          <li>Production dates and delivery times.</li>
+          <li>How we approach thumbnails and titles.</li>
+        </ul>
+        <p class="due"><b>Due Tuesday:</b> tool list sorted, first script drafts started.</p>
+      </div>
+    </li>
+    <li class="day">
+      <div class="when"><span class="dow">Tue</span><span class="num">17</span><span class="mon">Nov 2026</span></div>
+      <div class="what">
+        <div class="what-top"><h3>Tools, timetable and scripts</h3><span class="time">10:00–11:00 PM · 1 hr</span></div>
+        <ul>
+          <li>Get and set up every tool.</li>
+          <li>Draw up the production and delivery timetable.</li>
+          <li>Write all the scripts needed for this week's production.</li>
+        </ul>
+        <p class="due"><b>Due Wednesday:</b> tools ready, this week's scripts written.</p>
+      </div>
+    </li>
+    <li class="day start">
+      <div class="when"><span class="dow">Wed</span><span class="num">18</span><span class="mon">Nov 2026</span></div>
+      <div class="what">
+        <div class="what-top"><h3>Production starts officially</h3><span class="time">10:00–11:00 PM · 1 hr</span></div>
+        <p class="tag">First day of production</p>
+        <ul>
+          <li>Start producing the week's videos.</li>
+          <li>Begin posting.</li>
+        </ul>
+      </div>
+    </li>
+    <li class="day">
+      <div class="when"><span class="dow">Thu</span><span class="num">19</span><span class="mon">Nov 2026</span></div>
+      <div class="what">
+        <div class="what-top"><h3>Production continues</h3><span class="time">10:00–11:00 PM · 1 hr</span></div>
+        <ul>
+          <li>Edit and review the videos in progress.</li>
+          <li>Fix problems before they reach the upload.</li>
+        </ul>
+      </div>
+    </li>
+    <li class="day">
+      <div class="when"><span class="dow">Fri</span><span class="num">20</span><span class="mon">Nov 2026</span></div>
+      <div class="what">
+        <div class="what-top"><h3>Finish and post</h3><span class="time">10:00–11:00 PM · 1 hr</span></div>
+        <ul>
+          <li>Finish and post this week's videos.</li>
+          <li>Note early numbers for Saturday's review.</li>
+        </ul>
+        <p class="due"><b>From Saturday 21 Nov:</b> the standard weekly cycle begins.</p>
+      </div>
+    </li>
+  </ol>
+</section>
+
+<section aria-labelledby="cycle">
+  <div class="sec-head">
+    <p class="eyebrow">Week 2 onward · from Sat 21 Nov 2026</p>
+    <h2 id="cycle">The weekly cycle</h2>
+    <p>Every week after launch runs on the same seven days. Videos are finished before Sunday and posting starts from there.</p>
+  </div>
+  <ol class="cycle">
+    <li class="slot weekend"><span class="d"><span>Sat</span><span>2 hrs</span></span><h3>Debrief and research</h3><p>Break down everything we did that week. Check the numbers. Research next week's topics and agree the changes to make.</p></li>
+    <li class="slot weekend"><span class="d"><span>Sun</span><span>2 hrs</span></span><h3>Implement</h3><p>Make the agreed changes. Plan next week's videos and start writing.</p></li>
+    <li class="slot"><span class="d"><span>Mon</span><span>1 hr</span></span><h3>Scripts</h3><p>Write and submit scripts. Review them together until every script is ready.</p></li>
+    <li class="slot"><span class="d"><span>Tue</span><span>1 hr</span></span><h3>Titles and thumbnails</h3><p>Titles, thumbnails and descriptions ready. Everything is set for production.</p></li>
+    <li class="slot prod"><span class="d"><span>Wed</span><span>1 hr</span></span><h3>Production starts</h3><p>Start producing the week's videos.</p></li>
+    <li class="slot prod"><span class="d"><span>Thu</span><span>1 hr</span></span><h3>Production</h3><p>Continue producing and editing. Review cuts.</p></li>
+    <li class="slot prod"><span class="d"><span>Fri</span><span>1 hr</span></span><h3>Finish and post</h3><p>Videos finished before the weekend. Post and schedule.</p></li>
+  </ol>
+  <p class="flow">Weekday classes: 10:00–11:00 PM. Weekend classes: 10:00 PM–12:00 AM.</p>
+</section>
+
+<section aria-labelledby="phases">
+  <div class="sec-head">
+    <p class="eyebrow">14 Nov 2026 – 14 Apr 2027</p>
+    <h2 id="phases">Program phases</h2>
+  </div>
+  <ol class="phases">
+<li class="phase"><span class="ph ph-launch">Launch</span><p class="phase-when">Week 1 · Sat 14 Nov – Fri 20 Nov</p><p>Niche chosen, channel set up, tools in place, first videos produced from Wednesday.</p></li>
+<li class="phase"><span class="ph ph-foundation">Foundation</span><p class="phase-when">Weeks 2–5 · Sat 21 Nov – Fri 18 Dec</p><p>Lock in the weekly rhythm. Publish every week without missing a slot. Learn to read YouTube Studio.</p></li>
+<li class="phase"><span class="ph ph-growth">Growth</span><p class="phase-when">Weeks 6–13 · Sat 19 Dec – Fri 12 Feb</p><p>Improve click-through and retention. Repeat the formats that work. Push hard toward 500 subscribers.</p></li>
+<li class="phase"><span class="ph ph-scale">Scale</span><p class="phase-when">Weeks 14–18 · Sat 13 Feb – Fri 19 Mar</p><p>Double down on winning topics. Raise quality and output. Build watch hours.</p></li>
+<li class="phase"><span class="ph ph-monetization">Monetization</span><p class="phase-when">Weeks 19–22 · Sat 20 Mar – Wed 14 Apr</p><p>Close the gap to 1,000 subscribers and 4,000 watch hours, then apply to the YouTube Partner Program.</p></li>
+  </ol>
+</section>
+
+<section aria-labelledby="cal">
+  <div class="sec-head">
+    <p class="eyebrow">Week by week</p>
+    <h2 id="cal">Full calendar</h2>
+    <p>Each week runs Saturday to Friday. Monthly reviews fall on the 14th.</p>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Week</th><th>Dates</th><th>Phase</th><th>Checkpoint</th></tr></thead>
+      <tbody>
+<tr class="is-ms"><td class="wk">W01</td><td class="dt">Sat 14 Nov – Fri 20 Nov</td><td><span class="ph ph-launch">Launch</span></td><td class="ms"><strong>Channel launch</strong><span>Niche final by Sun 15 Nov. First video in production Wed 18 Nov.</span></td></tr>
+<tr><td class="wk">W02</td><td class="dt">Sat 21 Nov – Fri 27 Nov</td><td><span class="ph ph-foundation">Foundation</span></td><td class="ms"><span class="dim">Standard week</span></td></tr>
+<tr><td class="wk">W03</td><td class="dt">Sat 28 Nov – Fri 4 Dec</td><td><span class="ph ph-foundation">Foundation</span></td><td class="ms"><span class="dim">Standard week</span></td></tr>
+<tr><td class="wk">W04</td><td class="dt">Sat 5 Dec – Fri 11 Dec</td><td><span class="ph ph-foundation">Foundation</span></td><td class="ms"><span class="dim">Standard week</span></td></tr>
+<tr class="is-ms"><td class="wk">W05</td><td class="dt">Sat 12 Dec – Fri 18 Dec</td><td><span class="ph ph-foundation">Foundation</span></td><td class="ms"><strong>Month 1 review · Mon 14 Dec</strong><span>Target: 100 subscribers.</span></td></tr>
+<tr class="is-hol"><td class="wk">W06</td><td class="dt">Sat 19 Dec – Fri 25 Dec</td><td><span class="ph ph-growth">Growth</span></td><td class="ms"><strong>Holiday week</strong><span>Fri 25 Dec is Christmas. Agree the class time in advance.</span></td></tr>
+<tr class="is-hol"><td class="wk">W07</td><td class="dt">Sat 26 Dec – Fri 1 Jan</td><td><span class="ph ph-growth">Growth</span></td><td class="ms"><strong>Holiday week</strong><span>Fri 1 Jan is New Year&#x27;s Day. Agree the class time in advance.</span></td></tr>
+<tr><td class="wk">W08</td><td class="dt">Sat 2 Jan – Fri 8 Jan</td><td><span class="ph ph-growth">Growth</span></td><td class="ms"><span class="dim">Standard week</span></td></tr>
+<tr class="is-ms"><td class="wk">W09</td><td class="dt">Sat 9 Jan – Fri 15 Jan</td><td><span class="ph ph-growth">Growth</span></td><td class="ms"><strong>Month 2 review · Thu 14 Jan</strong><span>Target: 250 subscribers.</span></td></tr>
+<tr><td class="wk">W10</td><td class="dt">Sat 16 Jan – Fri 22 Jan</td><td><span class="ph ph-growth">Growth</span></td><td class="ms"><span class="dim">Standard week</span></td></tr>
+<tr><td class="wk">W11</td><td class="dt">Sat 23 Jan – Fri 29 Jan</td><td><span class="ph ph-growth">Growth</span></td><td class="ms"><span class="dim">Standard week</span></td></tr>
+<tr><td class="wk">W12</td><td class="dt">Sat 30 Jan – Fri 5 Feb</td><td><span class="ph ph-growth">Growth</span></td><td class="ms"><span class="dim">Standard week</span></td></tr>
+<tr><td class="wk">W13</td><td class="dt">Sat 6 Feb – Fri 12 Feb</td><td><span class="ph ph-growth">Growth</span></td><td class="ms"><span class="dim">Standard week</span></td></tr>
+<tr class="is-ms"><td class="wk">W14</td><td class="dt">Sat 13 Feb – Fri 19 Feb</td><td><span class="ph ph-scale">Scale</span></td><td class="ms"><strong>3-month checkpoint · Sun 14 Feb</strong><span>Goal: 500 subscribers. Second 300K payment due.</span></td></tr>
+<tr><td class="wk">W15</td><td class="dt">Sat 20 Feb – Fri 26 Feb</td><td><span class="ph ph-scale">Scale</span></td><td class="ms"><span class="dim">Standard week</span></td></tr>
+<tr><td class="wk">W16</td><td class="dt">Sat 27 Feb – Fri 5 Mar</td><td><span class="ph ph-scale">Scale</span></td><td class="ms"><span class="dim">Standard week</span></td></tr>
+<tr><td class="wk">W17</td><td class="dt">Sat 6 Mar – Fri 12 Mar</td><td><span class="ph ph-scale">Scale</span></td><td class="ms"><span class="dim">Standard week</span></td></tr>
+<tr class="is-ms"><td class="wk">W18</td><td class="dt">Sat 13 Mar – Fri 19 Mar</td><td><span class="ph ph-scale">Scale</span></td><td class="ms"><strong>Month 4 review · Sun 14 Mar</strong><span>Target: 750 subscribers.</span></td></tr>
+<tr><td class="wk">W19</td><td class="dt">Sat 20 Mar – Fri 26 Mar</td><td><span class="ph ph-monetization">Monetization</span></td><td class="ms"><span class="dim">Standard week</span></td></tr>
+<tr><td class="wk">W20</td><td class="dt">Sat 27 Mar – Fri 2 Apr</td><td><span class="ph ph-monetization">Monetization</span></td><td class="ms"><span class="dim">Standard week</span></td></tr>
+<tr><td class="wk">W21</td><td class="dt">Sat 3 Apr – Fri 9 Apr</td><td><span class="ph ph-monetization">Monetization</span></td><td class="ms"><span class="dim">Standard week</span></td></tr>
+<tr class="is-ms"><td class="wk">W22</td><td class="dt">Sat 10 Apr – Wed 14 Apr</td><td><span class="ph ph-monetization">Monetization</span></td><td class="ms"><strong>Program ends · Wed 14 Apr</strong><span>Target: monetization requirements met and YPP application in.</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section aria-labelledby="terms">
+  <div class="sec-head">
+    <p class="eyebrow">Agreement</p>
+    <h2 id="terms">Targets, payment and expectations</h2>
+  </div>
+  <div class="two">
+    <div class="panel">
+      <h3>Subscriber targets</h3>
+      <div class="ladder">
+        <div class="rung"><span>14 Dec</span><b>100</b><span>Month 1</span></div>
+        <div class="rung"><span>14 Jan</span><b>250</b><span>Month 2</span></div>
+        <div class="rung key"><span>14 Feb</span><b>500</b><span>Month 3 goal</span></div>
+        <div class="rung"><span>14 Mar</span><b>750</b><span>Month 4</span></div>
+        <div class="rung"><span>14 Apr</span><b>1,000</b><span>Monetize</span></div>
+      </div>
+      <p class="note">500 by 14 Feb is the agreed goal. The other numbers are pacing targets. To join the YouTube Partner Program, the channel needs 1,000 subscribers plus either 4,000 public watch hours in the last 12 months or 10 million public Shorts views in the last 90 days.</p>
+    </div>
+    <div class="panel">
+      <h3>Payment</h3>
+      <div class="pay">
+        <div class="pay-row"><span>Months 1–3 · 14 Nov – 14 Feb</span><span class="amt mono">300K</span><span class="status paid">Paid</span></div>
+        <div class="pay-row"><span>Months 4–6 · from 14 Feb</span><span class="amt mono">300K</span><span class="status due">Due 14 Feb 2027</span></div>
+      </div>
+      <h3>What the student commits to</h3>
+      <ul>
+        <li>Attend every class. There is a class every day.</li>
+        <li>Come to each class with the previous day's deliverable done.</li>
+        <li>Keep to the weekly cycle so videos are finished and posted before Sunday.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Mentorship agreement between Faith Ashanwi (coach) and Davis Alozie (student). Prepared Saturday 14 November 2026.</p>
+  <div class="sign">
+    <div>Faith Ashanwi<small>Coach</small></div>
+    <div>Davis Alozie<small>Student</small></div>
+  </div>
+</footer>
+
+</div>
