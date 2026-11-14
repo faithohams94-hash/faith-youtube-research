@@ -38,6 +38,10 @@ C = {  # face/body locks matched to the approved character images
  "ajala": ("COMMANDER AJALA (72)", "elderly Nigerian man, dark skin, white beard, round dark sunglasses, cream fedora hat, huge joyful smile", "booming, joyful elderly Yoruba-Nigerian male voice"),
 }
 
+PHOTO_REFS = {  # shots that need Kehinde's photo uploaded as a prop
+ "6.1": "KEHINDE photo (framed on the wall)", "6.5": "KEHINDE photo (framed on the wall)", "6.7": "KEHINDE photo (framed on the wall)",
+ "27.7": "KEHINDE photo (he is the man in the green shirt)", "27.12": "KEHINDE photo (on the phone screen)"}
+
 def parse(text):
     scenes, sc, sh = [], None, None
     for raw in text.splitlines():
@@ -65,7 +69,10 @@ def build_prompts(sc, sh):
     if bad: raise SystemExit(f"unknown character {bad} in shot {sh['id']}")
     chars = [k for k in sh["who"] if k in C]
     look = " ".join(f"{C[k][0]}: {C[k][1]}; wearing {sc['wear'].get(k, 'the outfit in the reference')}." for k in chars)
-    img = (f"Create one image. {sh['img']} SETTING (keep identical in every shot of this scene): {sc['set']}"
+    names = ", ".join([C[k][0] for k in chars] + ([PHOTO_REFS[sh["id"]]] if sh["id"] in PHOTO_REFS else []))
+    head = (f"CHARACTERS IN THIS IMAGE: {names}. I have uploaded their character sheets; copy each face exactly. " if names
+            else "CHARACTERS IN THIS IMAGE: none (scenery only, no main characters). ")
+    img = (f"{head}Create one image. {sh['img']} SETTING (keep identical in every shot of this scene): {sc['set']}"
            + (f" CHARACTERS (match attached references exactly): {look}" if look else "") + f" {IMAGE_LOCK}")
     voices = " ".join(f"{C[k][0]} voice: {C[k][2]}." for k in chars)
     cont = " This clip continues directly from the previous clip: same positions, same light, no jump." if sh["start"].lower().startswith("last frame") else ""
@@ -82,12 +89,19 @@ def main():
     txt = []
     toc = "".join(f'<li><a href="#s{s["num"]}">Scene {s["num"]}: {e(s["title"])}</a> <span>· {len(s["shots"])} shots</span></li>' for s in scenes)
     body = []
+    checklist = []
     for s in scenes:
-        body.append(f'<section id="s{s["num"]}"><h2>Scene {s["num"]} · {e(s["title"])}</h2><div class="set"><b>Scene set (stays the same in every shot):</b> {e(s["set"])}</div>')
-        txt.append(f"\n\n==================== SCENE {s['num']}: {s['title']} ====================\n")
+        sc_chars = []
+        for x in s["shots"]:
+            for k in x["who"]:
+                if k in C and k not in sc_chars: sc_chars.append(k)
+        upl = ", ".join([C[k][0] for k in sc_chars] + (["KEHINDE photo"] if any(x["id"] in PHOTO_REFS for x in s["shots"]) else [])) or "None"
+        checklist.append(f"<tr><td><b>Scene {s['num']}</b><br>{e(s['title'])}</td><td><b>{e(upl)}</b></td><td>" + "<br>".join(f"{x['id']}: {e(', '.join([C[k][0] for k in x['who'] if k in C] + ([PHOTO_REFS[x['id']]] if x['id'] in PHOTO_REFS else [])) or 'scenery only')}" for x in s["shots"]) + "</td></tr>")
+        body.append(f'<section id="s{s["num"]}"><h2>Scene {s["num"]} · {e(s["title"])}</h2><div class="upl"><b>Upload these character sheets for this scene:</b> {e(upl)}</div><div class="set"><b>Scene set (stays the same in every shot):</b> {e(s["set"])}</div>')
+        txt.append(f"\n\n==================== SCENE {s['num']}: {s['title']} ====================\nUPLOAD THESE CHARACTER SHEETS: {upl}\n")
         for sh in s["shots"]:
             img, vid = build_prompts(s, sh)
-            who = ", ".join(C[k][0] for k in sh["who"] if k in C) or "No main characters"
+            who = ", ".join([C[k][0] for k in sh["who"] if k in C] + ([PHOTO_REFS[sh["id"]]] if sh["id"] in PHOTO_REFS else [])) or "None (scenery only)"
             body.append(f'<div class="shot"><div class="hd"><b>Shot {sh["id"]}</b> · {e(sh["label"])}<span>10 sec · Start: {e(sh["start"])} · Attach refs: {e(who)}</span></div>'
                         f'<div class="lab img">IMAGE PROMPT · ChatGPT</div><div class="p">{e(img)}</div>'
                         f'<div class="lab vid">VIDEO PROMPT · Grok (image-to-video, 10s)</div><div class="p">{e(vid)}</div></div>')
@@ -99,7 +113,7 @@ def main():
 .cover{{background:#111827;color:#fff;border-radius:10px;padding:20px 22px;margin-bottom:12px}} .cover h1{{margin:4px 0;font-size:22px}}
 .cover .k{{color:#f59e0b;letter-spacing:2px;font-size:10px;font-weight:bold}} .cover p{{margin:2px 0;color:#d1d5db;font-size:11px}}
 h2{{font-size:14px;border-bottom:3px solid #f59e0b;padding-bottom:3px;margin:16px 0 6px;break-after:avoid}} h3{{font-size:12px;margin:12px 0 4px}}
-section{{break-before:page}} .set{{background:#fef3c7;border-radius:6px;padding:6px 8px;margin-bottom:8px}}
+section{{break-before:page}} .upl{{background:#dbeafe;border-radius:6px;padding:6px 8px;margin-bottom:6px;font-size:10.5px}} .set{{background:#fef3c7;border-radius:6px;padding:6px 8px;margin-bottom:8px}}
 .shot{{border:1px solid #d1d5db;border-radius:7px;padding:6px 8px;margin-bottom:7px;break-inside:avoid}}
 .hd{{font-size:10.5px;margin-bottom:4px}} .hd span{{float:right;color:#6b7280;font-size:9px}}
 .lab{{font-weight:bold;font-size:8.5px;letter-spacing:1px;margin-top:4px}} .img{{color:#1d4ed8}} .vid{{color:#b45309}}
@@ -112,6 +126,7 @@ table{{border-collapse:collapse;width:100%;font-size:9.5px}} td,th{{border:1px s
 <p>{len(scenes)} scenes · {total} shots · every shot has an image prompt (ChatGPT) and a 10-second video prompt (Grok)</p></div>
 {guide.replace("{{IMAGE_LOCK}}", e(IMAGE_LOCK)).replace("{{VIDEO_LOCK}}", e(VIDEO_LOCK)).replace("{{CAST}}", "".join(f"<tr><td><b>{e(v[0])}</b></td><td>{e(v[1])}</td><td>{e(v[2])}</td></tr>" for v in C.values()))}
 <h2>Scenes</h2><ol class="toc">{toc}</ol>
+<section><h2>Character upload checklist</h2><p>Which character sheets to upload for each scene, and who is in each shot.</p><table><tr><th style="width:20%">Scene</th><th style="width:28%">Upload for this scene</th><th>Characters in each shot</th></tr>{"".join(checklist)}</table></section>
 {"".join(body)}</body></html>'''
     (HERE / "prompt_pack.html").write_text(page)
     (HERE / "All_Prompts_copy_paste.txt").write_text("IMAGE + VIDEO PROMPTS — A Poor Girl Helped a Billionaire CEO Grandpa Walk Again\n" + "".join(txt))
