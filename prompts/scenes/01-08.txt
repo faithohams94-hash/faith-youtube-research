@@ -43,6 +43,12 @@ IMG: Low-angle medium shot of Chief raising the phone in anger, lamp light behin
 VID: Chief throws the phone down onto the marble floor. The screen cracks and small pieces of glass scatter across the floor. He stands breathing hard, leaning on his cane, staring at the broken phone.
 START: Last frame of 1.6
 
+--- 1.7b | After-action: the broken phone
+WHO: chief
+IMG: Low close-up on the marble floor: the cracked phone lying among small pieces of glass, Chief's feet and the tip of his ivory cane softly blurred behind it.
+VID: Hold on the broken phone. Chief's cane tip shifts slightly, then goes still. His heavy breathing slowly calms. Rain taps the window. No dialogue.
+START: New image
+
 --- 1.8 | Nurse Grace rushes in
 WHO: chief, grace
 IMG: Wide shot from inside the bedroom: the door is open and Nurse Grace has just stepped in, worried. Chief stands by the window, not looking at her; the broken phone lies on the floor between them.

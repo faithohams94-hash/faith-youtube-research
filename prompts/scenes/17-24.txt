@@ -190,6 +190,12 @@ IMG: Close-up of Chief, arms folded, face like stone.
 VID: Chief: "No." Silence. Femi's voice: "…Grandpa?" Chief: "No surgery."
 START: New image
 
+--- 19.5b | After-action: the room goes silent
+WHO: femi, hassan, ireti
+IMG: Wide shot of the bedroom: Femi frozen mid-smile, Dr. Hassan lowering his hand from the scan, Ireti by the wall with her hands at her mouth, all staring toward Chief (out of frame).
+VID: Nobody moves. Femi's smile slowly fades. Dr. Hassan glances at Femi. Ireti's hands drop from her mouth. Silence, only a clock ticking. No dialogue.
+START: New image
+
 --- 19.6 | "Walk to where?"
 WHO: chief, femi
 IMG: Two-shot: Femi pleading, Chief calm and terrible.
@@ -276,6 +282,12 @@ START: New image
 WHO: ireti, chief
 IMG: Two-shot: Ireti with a small brave smile, Chief stunned.
 VID: Ireti: "That's why I took this job. For the money. I won't lie to you." Beat. "I came for the money, sir. But I stay for you." Chief stares at her.
+START: New image
+
+--- 20.7b | After-action: Chief hears the truth
+WHO: chief
+IMG: Close-up of Chief in the lamplight, stunned, eyes wet, lips slightly parted, looking down at Ireti (out of frame).
+VID: Chief stares at her. His chin trembles. He swallows slowly, blinks, and a tear gathers in his eye. No dialogue.
 START: New image
 
 --- 20.8 | "Don't waste it in the dark."

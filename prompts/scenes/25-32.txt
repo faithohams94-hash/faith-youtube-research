@@ -56,6 +56,12 @@ IMG: Close shot of Chief's face over Ireti's shoulder.
 VID: Chief looks at her for a long moment. Then, slowly and deliberately, he turns his face away to the side. Ireti stops breathing.
 START: Last frame of 25.7
 
+--- 25.8b | After-action: Ireti stops breathing
+WHO: ireti
+IMG: Close-up of Ireti kneeling, tears on her cheeks, staring at Chief's turned head (out of frame).
+VID: Ireti doesn't breathe. Her lips part but no sound comes. One tear falls. She slowly lowers her eyes to the floor. No dialogue.
+START: New image
+
 --- 25.9 | "Leave."
 WHO: femi, ireti
 IMG: Femi standing over Ireti; Ireti slowly rising.
@@ -238,6 +244,12 @@ IMG: Close-up of Mama Funmi, tears rolling.
 VID: Mama Funmi, tears rolling: "He couldn't read, sir." Silence in the whole ward.
 START: New image
 
+--- 27.11b | After-action: the silent ward
+WHO: ireti, chief, femi
+IMG: Wide shot of the dim ward: patients watching in silence from their beds, Femi frozen behind the wheelchair, Ireti with both hands over her mouth, Chief bent forward.
+VID: Total silence. The ceiling fan turns slowly. A patient in the next bed slowly sits up to watch. Ireti's shoulders shake. No dialogue.
+START: New image
+
 --- 27.12 | The photo on the phone
 WHO: ireti, chief
 IMG: Ireti showing Chief her phone with the photo of her smiling father waving, the burn scar on his palm.
@@ -360,6 +372,12 @@ IMG: Low-angle shot of Chief pushing himself up on the bars, legs shaking.
 VID: Chief pushes up. His legs shake violently. Then he STANDS, fully upright, trembling. The puppy barks wildly.
 START: New image
 
+--- 29.3b | After-action: they see him stand
+WHO: ireti, hassan
+IMG: Ireti at the far end of the parallel bars with her hands over her mouth, eyes filling; Dr. Hassan behind her gripping the physiotherapist's arm.
+VID: Ireti's hands cover her mouth as tears rise. Dr. Hassan tightens his grip on the physio's arm. The puppy keeps barking. No dialogue.
+START: New image
+
 --- 29.4 | "One step."
 WHO: ireti, chief
 IMG: Over Ireti's shoulder down the bars to Chief standing, trembling.
@@ -446,6 +464,12 @@ START: New image
 WHO: chief
 IMG: Wide shot down the length of the boardroom: Chief walking alone with his cane, board members turning their heads.
 VID: Step by slow step, Chief walks the length of the boardroom alone. Every head turns with him. Lekan's raised hand drops.
+START: New image
+
+--- 30.8b | After-action: Lekan's face drains
+WHO: lekan
+IMG: Close-up of Lekan at the head of the boardroom table, his hand still half-raised, his face draining, eyes fixed on Chief approaching (out of frame).
+VID: Lekan's raised hand slowly drops. His smile disappears. He swallows hard and his eyes stay fixed ahead. No dialogue.
 START: New image
 
 --- 30.9 | Femi is speechless

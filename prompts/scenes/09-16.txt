@@ -316,6 +316,12 @@ IMG: Wide shot in the rain: Chief under the umbrella, soaked Ireti, and Femi run
 VID: Chief: "You're FIRED." Femi runs up: "Grandpa! What's going on?" Chief: "Fire her. Today."
 START: New image
 
+--- 14.6b | After-action: soaked but steady
+WHO: ireti
+IMG: Close-up of Ireti soaked by the rain, holding the small umbrella out over Chief (out of frame), calm, with a small steady smile.
+VID: Rain runs down Ireti's face and braids. She does not move the umbrella away from him. She blinks the rain away and keeps her small, steady smile. No dialogue.
+START: New image
+
 --- 14.7 | "Nine days. That's a record."
 WHO: femi, ireti, chief
 IMG: Femi looking at soaked Ireti holding the umbrella over his grandfather.
