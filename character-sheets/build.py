@@ -2,16 +2,19 @@
 import html, pathlib, subprocess
 HERE = pathlib.Path(__file__).parent
 
-LOOK = ("Photorealistic, like real photos from a film's costume and make-up test, not an illustration and not a 3D render. "
- "Soft, even, natural studio daylight, warm-neutral cinematic colour, gently muted. Matte natural skin with real pores and texture: "
- "no shine, no glow, no HDR, no airbrushing, no beautifying. Same person, same face, same skin tone, same hair and same body build in every view. "
+LOOK = ("CINEMATIC LOOK: match the attached image's photographic style exactly: the same warm golden natural light, the same soft movie colour grade, "
+ "the same realistic skin rendering and the same fine film grain, as if these were extra frames shot by the same cinematographer on the same day. "
+ "Photorealistic real photographs, not an illustration and not a 3D render. Matte natural skin with real pores and texture: no shine, no glow, no HDR, no airbrushing, no beautifying. "
  "Nothing cropped: full-body views show the whole person from head to feet. Evenly spaced on one clean sheet. No text, no labels, no numbers, no logos, no watermark. "
  "This is a fictional adult character.")
 
+IDENTITY = ("IDENTITY LOCK: this must be the SAME person as in the attached image, not a lookalike. Copy exactly: the face shape, eyes, eyebrows, nose, lips, jawline, "
+ "hairline and hairstyle, beard or facial hair, skin tone, age, height, weight and body build. Do not slim, lighten, age, de-age, smooth or beautify. "
+ "If the attached image shows only part of the body, continue the same build naturally for the full-body views. ")
+
 def sheet(name, look, outfit, expr, pose_note=""):
-    return (f"CHARACTER SHEET: {name}. Use the attached image as the ONLY reference for this person. Copy the face, skin tone, hairstyle and body build exactly. "
-            f"Do not change, slim down, lighten, age or beautify them. Person: {look}. "
-            f"Make one wide 16:9 character reference sheet on a plain light-grey studio background showing the same person in the same outfit: "
+    return (f"CHARACTER SHEET: {name}. The attached image is my approved character. Use it as the ONLY reference for this person. {IDENTITY}Person: {look}. "
+            f"Make one wide 16:9 character reference sheet on a plain, softly lit warm-neutral background (lit with the same warm cinematic light as the attached image) showing the same person in the same outfit: "
             f"top row, four full-body views side by side: front, three-quarter, side profile and back{pose_note}; "
             f"bottom row, five head-and-shoulders close-ups: a neutral face from the front, a neutral face in three-quarter view, and three expressions: {expr}. "
             f"Outfit in every view: {outfit}. {LOOK}")
@@ -19,8 +22,8 @@ def sheet(name, look, outfit, expr, pose_note=""):
 def wardrobe(name, outfits, pose_note=""):
     n = len(outfits)
     lst = "; ".join(f"({i+1}) {o}" for i, o in enumerate(outfits))
-    return (f"WARDROBE SHEET: {name}. Use the attached character sheet as the ONLY reference for this person; keep the face, skin tone, hair and body build exactly the same. "
-            f"Make one wide 16:9 sheet on a plain light-grey studio background showing the same person {n} times, full body, front view, standing side by side{pose_note}, "
+    return (f"WARDROBE SHEET: {name}. Attach BOTH the approved character image and the character sheet. Use them as the ONLY reference for this person. {IDENTITY}"
+            f"Make one wide 16:9 sheet on a plain, softly lit warm-neutral background showing the same person {n} times, full body, front view, standing side by side{pose_note}, "
             f"each in a different outfit from the film, left to right: {lst}. Same neutral, relaxed pose and same lighting for all. {LOOK}")
 
 CHARS = [
@@ -144,7 +147,7 @@ CHARS = [
   "", None),
 ]
 
-KEHINDE = ("PHOTO PROP: KEHINDE ALADE (Ireti's late father). Use the attached image as the ONLY reference and keep this man's face, smile and build exactly. "
+KEHINDE = ("PHOTO PROP: KEHINDE ALADE (Ireti's late father). The attached image is my approved photo of him. Keep this man's face, smile, skin tone and build exactly the same, not a lookalike, and match its warm, faded photographic colour. "
  "Make one wide 16:9 sheet on a plain light-grey background with three old family photographs of the same man laid side by side, each slightly faded with soft worn edges like real photos from about 2008: "
  "(1) smiling broadly beside a yellow Lagos danfo bus, waving with his right palm open to show a healed burn scar across it, in a grey T-shirt; "
  "(2) a head-and-shoulders portrait, broad smile, in a green short-sleeved shirt; (3) the same portrait in a simple dark wooden frame. "
@@ -161,8 +164,8 @@ def main():
         if wr:
             wp = wardrobe(name.replace(" (standing)", ""), wr, "")
             if name.startswith("Dayo"): wp = wp.replace("This is a fictional adult character.", "This is a fictional 17-year-old schoolboy in ordinary everyday clothes.")
-            block += f'<div class="lab">2 · WARDROBE SHEET PROMPT (attach the character sheet you just made)</div><div class="p">{e(wp)}</div>'
-            txt.append(f"\n[2] WARDROBE SHEET PROMPT (attach the character sheet from step 1)\n{wp}\n")
+            block += f'<div class="lab">2 · WARDROBE SHEET PROMPT (attach the approved image AND the character sheet you just made)</div><div class="p">{e(wp)}</div>'
+            txt.append(f"\n[2] WARDROBE SHEET PROMPT (attach the approved image AND the character sheet from step 1)\n{wp}\n")
         items.append(block + "</div>")
     items.append(f'<div class="c"><h2>Kehinde Alade (photo only)</h2><div class="lab">PHOTO PROP PROMPT</div><div class="p">{e(KEHINDE)}</div></div>')
     txt.append(f"\n\n========== Kehinde Alade (photo only) ==========\n\n[PHOTO PROP PROMPT] (attach the approved Kehinde image)\n{KEHINDE}\n")
@@ -178,8 +181,8 @@ ol{{margin:4px 0 0;padding-left:18px;line-height:1.5}} .how{{border:1px solid #d
 <div class="how"><b>How to use</b><ol>
 <li>Open a new ChatGPT chat for each character.</li>
 <li>Attach that character's <b>approved image</b> (from the character approval sheet) and paste prompt 1. You get a sheet with front, three-quarter, side and back views plus face close-ups.</li>
-<li>If the face drifts, reply: <i>"Same sheet. Make the face exactly like the attached photo. Change nothing else."</i></li>
-<li>For characters with a wardrobe prompt, attach the <b>character sheet you just made</b> and paste prompt 2 to get every outfit from the film.</li>
+<li>Check the sheet side by side with the approved image. If the face, body size or colour is even slightly different, reply: <i>"This is not the same person. Make every face and the body build exactly like the attached approved image, with the same warm cinematic light. Change nothing else."</i></li>
+<li>For characters with a wardrobe prompt, attach <b>both the approved image and the character sheet you just made</b> and paste prompt 2 to get every outfit from the film.</li>
 <li>Save the sheets with the character's name. From now on, these are the "character sheets" you upload with every shot in the prompt pack.</li>
 <li>There are no name labels on the sheets, because AI spells badly. Add names in Canva if you want them.</li></ol></div>
 {"".join(items)}</body></html>'''

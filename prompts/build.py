@@ -5,8 +5,9 @@ HERE = pathlib.Path(__file__).parent
 IMAGE_LOCK = ("STRICT LOOK — do not deviate: photorealistic still frame from a high-budget Nigerian drama film, wide 16:9, "
  "35mm cinema lens, shallow depth of field. Light comes only from real sources in the scene (windows, lamps, sun, bulbs). "
  "Soft, natural, warm-neutral movie colour grade, gently muted, not saturated. Matte natural skin with visible pores and texture: "
- "NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic look. Fine film grain. Every face, hairstyle and body build must match "
- "the attached character reference images exactly. All people are fictional adults unless stated. No readable text, logos, captions or "
+ "NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic look. Fine film grain. Every face, hairstyle, skin tone, age and body build must match "
+ "the attached approved character images exactly: the same people, not lookalikes; never slimmer, lighter, younger or more glamorous. "
+ "Match the warm, natural cinematic light and colour of those approved images. All people are fictional adults unless stated. No readable text, logos, captions or "
  "watermarks anywhere unless this prompt gives the exact words.")
 
 VIDEO_LOCK = ("RULES — follow every rule exactly: ONE continuous 10-second shot that begins exactly on the provided image. "
@@ -70,7 +71,7 @@ def build_prompts(sc, sh):
     chars = [k for k in sh["who"] if k in C]
     look = " ".join(f"{C[k][0]}: {C[k][1]}; wearing {sc['wear'].get(k, 'the outfit in the reference')}." for k in chars)
     names = ", ".join([C[k][0] for k in chars] + ([PHOTO_REFS[sh["id"]]] if sh["id"] in PHOTO_REFS else []))
-    head = (f"CHARACTERS IN THIS IMAGE: {names}. I have uploaded their character sheets; copy each face exactly. " if names
+    head = (f"CHARACTERS IN THIS IMAGE: {names}. I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes. " if names
             else "CHARACTERS IN THIS IMAGE: none (scenery only, no main characters). ")
     img = (f"{head}Create one image. {sh['img']} SETTING (keep identical in every shot of this scene): {sc['set']}"
            + (f" CHARACTERS (match attached references exactly): {look}" if look else "") + f" {IMAGE_LOCK}")
