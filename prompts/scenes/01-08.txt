@@ -58,8 +58,14 @@ START: Last frame of 1.8
 --- 1.10 | "Paid to forget me"
 WHO: chief, grace
 IMG: Medium shot of Chief pointing his ivory cane toward Grace (off-frame edge), lamp light hard on his face.
-VID: Chief, shaking with anger: "Everybody in this house is paid to smile at me. My children too. Paid with my money to forget me! Go home to your own father, if he's still alive, and see whether you'll even visit him."
+VID: Chief, shaking with anger: "Everybody in this house is paid to smile at me. My children too. Paid with my money to forget me!"
 START: New image
+
+--- 1.10b | "Go home to your own father"
+WHO: chief, grace
+IMG: Close-up of Chief with his cane still raised, breathing hard; Grace blurred by the dresser behind.
+VID: Chief, cold and cruel: "Go home to your own father, if he's still alive, and see whether you'll even visit him." Grace's eyes fill with tears.
+START: Last frame of 1.10
 
 --- 1.11 | "My father is dead, sir."
 WHO: grace, chief
@@ -188,7 +194,7 @@ START: New image
 --- 2.11 | "You're not coming?"
 WHO: femi, gabriel
 IMG: Hospital corridor: Femi pacing with a phone to his ear, Gabriel leaning against the wall; through the glass wall behind them, Chief in bed facing the wall.
-VID: Femi on the phone: "Dad, he fell down twenty-two steps. The doctor says he can't walk." Pause. "You're not coming?" A man's voice on the phone (Segun): "Hire the best caretaker in Lagos, Femi. Pay anything. Money is not the problem."
+VID: Femi on the phone: "Dad, he fell down twenty-two steps. He can't walk." Pause. "You're not coming?" A man's voice on the phone (Segun): "Hire the best caretaker in Lagos. Pay anything. Money is not the problem."
 START: New image
 
 --- 2.12 | "Money is the only thing…"
@@ -304,7 +310,13 @@ START: New image
 --- 4.4 | "Am I a bank?"
 WHO: ireti, jide, chioma
 IMG: Wider counter shot: Ireti pleading, Mr. Jide dismissive, Chioma leaning on the counter chewing gum.
-VID: Ireti: "Sir, please. I need an advance on next month's salary. My mother…" Mr. Jide: "Advance? Ah-ah. Am I a bank? Forty thousand. End of month. Like everybody." Chioma: "Ireti and her 'my mother.' Everybody has a mother."
+VID: Ireti: "Sir, please. I need an advance on next month's salary. My mother…" Mr. Jide: "Advance? Ah-ah. Am I a bank? Forty thousand. End of month."
+START: New image
+
+--- 4.4b | "Everybody has a mother."
+WHO: chioma, ireti, jide
+IMG: Close-up of Chioma leaning on the counter chewing gum, Ireti beside her looking hurt.
+VID: Chioma, chewing gum: "Ireti and her 'my mother.' Everybody has a mother." Ireti looks down, hurt. Mr. Jide laughs.
 START: New image
 
 --- 4.5 | Dayo calls
@@ -356,14 +368,20 @@ START: New image
 --- 5.5 | "You think I'm blind?"
 WHO: dayo, ireti
 IMG: Close-up of Dayo, hurt and serious, Ireti soft in the foreground.
-VID: Dayo: "Sister, I see how you're struggling. You walk home to save transport. You eat once a day. You think I'm blind?" Ireti: "It's my responsibility, Dayo. Not yours." Dayo, quietly: "No problem."
+VID: Dayo: "Sister, I see how you're struggling. You eat once a day. You think I'm blind?" Ireti: "It's my responsibility, Dayo. Not yours." Dayo, quietly: "No problem."
 START: New image
 
 --- 5.6 | "The time I have"
 WHO: funmi, ireti
 IMG: Medium shot of Mama Funmi calmly stirring the pot, Ireti turned toward her.
-VID: Mama Funmi: "Ireti. At least thank your brother." Ireti: "Mummy, you know what the doctor said!" Mama Funmi, calm, still stirring: "That's exactly why I'm cooking. I'm making the best of the time I have with you and your brother."
+VID: Mama Funmi: "Ireti. Why are you shouting? At least thank your brother." Ireti: "Mummy, you know what the doctor said! You shouldn't be at a hot stove!"
 START: New image
+
+--- 5.6b | "Making the best of the time"
+WHO: funmi, ireti
+IMG: Close-up of Mama Funmi calmly stirring the pot, steam rising, looking at Ireti.
+VID: Mama Funmi, calm, still stirring: "I know what the doctor said. That's exactly why I'm cooking. I'm making the best of the time I have with you and your brother."
+START: Last frame of 5.6
 
 --- 5.7 | Dayo hears it
 WHO: dayo, funmi, ireti
@@ -374,7 +392,7 @@ START: New image
 --- 5.8 | The news on TV
 WHO: ireti, funmi, dayo
 IMG: All three sitting on the mat eating, faces lit by the small TV; the TV shows a photo of Chief smiling.
-VID: A newsreader's voice from the TV: "Billionaire industrialist Chief Babatunde Adenuga is reported to be in a wheelchair after a fall at his Banana Island home." Dayo, open-mouthed: "Mummy, look at this man's house! This man is rich o!"
+VID: A newsreader's voice from the TV: "Billionaire Chief Babatunde Adenuga is reported to be in a wheelchair after a fall. Doctors say he may never walk again." Dayo, open-mouthed: "Mummy, look! This man is rich o!"
 START: New image
 
 --- 5.9 | "Money can't buy legs."

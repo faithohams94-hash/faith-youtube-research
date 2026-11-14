@@ -11,26 +11,32 @@ START: New image
 --- 9.2 | Femi isn't eating
 WHO: femi, gabriel
 IMG: Two-shot at the table: Gabriel eating, Femi not eating, rubbing his eyes, the thick CV folder beside his plate.
-VID: Femi: "He's not himself, Gabe. He sits in that dark room staring at the phone, waiting for my father to call. When the phone rings and it's not family, he throws it." He rubs his eyes.
+VID: Femi: "He's not himself, Gabe. He sits in that dark room waiting for my father to call. When it's not family, he throws the phone." He rubs his eyes.
 START: New image
 
 --- 9.3 | Three hundred nurses
 WHO: femi, gabriel
 IMG: Close shot of Femi slapping his hand on the thick folder of CVs.
-VID: Femi: "Twelve caretakers. He made a nurse with twenty years' experience cry on day one." Gabriel: "And the shortlist?" Femi slaps the folder: "Three hundred nurses. Certificates from London, Canada, everywhere. They'll all quit by Friday."
+VID: Femi: "He made a nurse with twenty years' experience cry on day one." Gabriel: "And the shortlist?" Femi slaps the folder: "Three hundred nurses. They'll all quit by Friday."
 START: New image
 
 --- 9.4 | "I know someone."
 WHO: gabriel, femi
 IMG: Close-up of Gabriel leaning forward with a small smile.
-VID: Gabriel: "I know someone." Femi: "Who?" Gabriel: "A waitress. Ireti. Her colleague insulted me, and she fixed it, paid for it from her own pocket, and smiled like it cost nothing. She studied Nursing."
+VID: Gabriel: "I know someone." Femi: "Who?" Gabriel: "A waitress. Ireti. Her colleague insulted me, and she fixed it, paid from her own pocket, and smiled. She studied Nursing."
 START: New image
 
 --- 9.5 | "I hire people for a living."
 WHO: femi, gabriel
 IMG: Two-shot: Femi unimpressed, Gabriel firm.
-VID: Femi: "Gabe. Being nice in a restaurant doesn't mean she'll survive my grandfather." Gabriel: "Femi. I hire people for a living. I know a good girl when I see one. She told the panel: 'Maybe the others had somewhere else to go. I don't.'"
+VID: Femi: "Gabe. Being nice in a restaurant doesn't mean she'll survive my grandfather." Gabriel: "Femi. I hire people for a living. I know a good girl when I see one."
 START: Last frame of 9.4
+
+--- 9.5b | "I don't."
+WHO: femi, gabriel
+IMG: Close-up of Femi going quiet and thoughtful; Gabriel blurred across the table.
+VID: Gabriel: "And she told the panel, 'Maybe the others had somewhere else to go. I don't.'" Femi goes quiet, thinking.
+START: Last frame of 9.5
 
 --- 9.6 | Lekan calls
 WHO: femi
@@ -167,7 +173,7 @@ START: New image
 --- 12.4 | "I run this house."
 WHO: ronke
 IMG: Aunty Ronke standing with her hands folded, five cooks in white lined up behind her.
-VID: Ronke: "You're welcome. I'm Aunty Ronke. I run this house." She smiles only with her mouth. "This job is very hard. And I promise you, before the first month ends, you'll be out of this house."
+VID: Ronke: "You're welcome. I'm Aunty Ronke. I run this house." She smiles only with her mouth. "This job is very hard. Before the first month ends, you'll be out of this house."
 START: New image
 
 --- 12.5 | "Then I'll enjoy the month."
@@ -179,7 +185,7 @@ START: New image
 --- 12.6 | The locked cabinet
 WHO: ronke, ireti
 IMG: Ronke tapping a locked wooden medicine cabinet, Ireti beside her.
-VID: Ronke: "Massage his legs every morning. Take him outside for air. Make sure he eats. And his medication…" She taps the cabinet. "I handle the medication. You give him only what I give you. Understood?" Ireti: "Understood, ma."
+VID: Ronke: "Massage his legs every morning. Make sure he eats. And his medication…" She taps the cabinet. "I handle the medication. You give him only what I give you." Ireti: "Understood, ma."
 START: New image
 
 --- 12.7 | His back to the door
@@ -237,7 +243,7 @@ START: Last frame of 13.2
 --- 13.4 | "I'm mourning the fish."
 WHO: ireti, chief
 IMG: Ireti looking down at her soaked scrubs, then picking up the bowl with a small smile.
-VID: Ireti: "Sir, the soup didn't do anything to you. Next time, throw the bowl at me and spare the soup." Chief's eyes flick to her: "Are you mocking me?" Ireti: "No, sir. I'm mourning the fish."
+VID: Ireti: "The soup didn't do anything to you. Next time, throw the bowl at me and spare the soup." Chief's eyes flick to her: "Are you mocking me?" Ireti: "No, sir. I'm mourning the fish."
 START: New image
 
 --- 13.5 | "Don't touch me with your poor hands."
@@ -289,7 +295,7 @@ START: New image
 --- 14.3 | "Let me steal your frown."
 WHO: chief, ireti
 IMG: Ireti pushing Chief's wheelchair toward the door; Chief furious.
-VID: Chief: "You people from the gutter. You come into rich people's houses, smiling, smiling, and then you steal." Ireti, pushing him: "Then let me steal your frown, sir. I promise you won't miss it."
+VID: Chief: "You people from the gutter. You come into rich people's houses smiling, and then you steal." Ireti, pushing him: "Then let me steal your frown, sir."
 START: New image
 
 --- 14.4 | Down the ramp
@@ -405,8 +411,14 @@ START: New image
 --- 16.2 | "Was he always so hard?"
 WHO: ireti, audu
 IMG: Ireti and Mallam Audu sitting on the bench with their tea.
-VID: Ireti: "Mallam, why is he like this? Was he always so… hard?" Mallam Audu laughs gently: "Hard? Oga used to dance in that garden. He painted pictures. Every Tuesday, young boys came and he taught them business, free of charge."
+VID: Ireti: "Mallam, why is he like this? Was he always so… hard?" Mallam Audu laughs gently: "Hard? Oga used to dance in that garden. He painted pictures."
 START: New image
+
+--- 16.2b | Free business lessons
+WHO: audu, ireti
+IMG: Close shot of Mallam Audu smiling at the memory, tea cup in hand, sunset on his face.
+VID: Mallam Audu: "Every Tuesday, young boys came here, and he taught them business, free of charge." Ireti smiles, surprised.
+START: Last frame of 16.2
 
 --- 16.3 | Madam Abike died
 WHO: audu, ireti

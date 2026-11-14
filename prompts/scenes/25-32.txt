@@ -11,19 +11,25 @@ START: New image
 --- 25.2 | "In HER bag."
 WHO: ronke, ireti, femi
 IMG: Ronke holding up the diamond necklace in front of Femi; Ireti in the doorway, stunned.
-VID: Ronke: "Mama Abike's necklace. From Chief's locked box. In HER bag." Ireti: "That's… I've never seen it before in my life." Ronke: "These gutter girls, sir. I told you from the first day."
+VID: Ronke: "Mama Abike's necklace. From Chief's locked box. In HER bag." Ireti: "I've never seen it before in my life." Ronke: "These gutter girls, sir. I told you."
 START: New image
 
 --- 25.3 | "Is this how you planned it?"
 WHO: femi, ireti
 IMG: Femi cold and hurt, facing Ireti.
-VID: Femi: "Ireti. Is this how you planned to get your 'thirty-eight weeks'?" Ireti: "Sir, please, listen. I didn't take it. There's something I must tell you about the medicine. Dr. Hassan just called…"
+VID: Femi: "Ireti. Is this how you planned to get your thirty-eight weeks?" Ireti: "Sir, I didn't take it. I must tell you about the medicine. Dr. Hassan just called…"
 START: New image
 
 --- 25.4 | Ronke cuts in
 WHO: ronke, femi
 IMG: Ronke stepping in front of Ireti, loud; Femi glancing at his buzzing phone.
-VID: Ronke, loudly: "Now she'll start inventing stories about medicine to save herself! Sir, she's been sniffing around my cabinet for weeks!" Femi's phone buzzes. He glances at it, stressed: "The AGM is in two weeks. If the press hears there's a thief in Chief's house…"
+VID: Ronke, loudly: "Now she'll start inventing stories about medicine to save herself! She's been sniffing around my cabinet for weeks!" Femi's phone buzzes.
+START: New image
+
+--- 25.4b | "A thief in Chief's house"
+WHO: femi
+IMG: Close-up of Femi glancing at his buzzing phone, stressed, security men behind him.
+VID: Femi looks at the phone, then turns to the security men: "The AGM is in two weeks. If the press hears there's a thief in Chief's house…" He rubs his forehead.
 START: New image
 
 --- 25.5 | The lift dings
@@ -105,13 +111,25 @@ START: New image
 --- 26.4 | What Audu saw
 WHO: audu, chief
 IMG: Close shot of Mallam Audu speaking to Chief, steady.
-VID: Mallam Audu: "At noon today, I saw Madam Ronke go into the staff quarters with a velvet box. She came out without it. And every Friday for six years, Mr. Lekan's driver gives her a brown envelope through my gate."
+VID: Mallam Audu: "At noon today, I saw Madam Ronke go into the staff quarters with a velvet box. She came out without it."
+START: New image
+
+--- 26.4b | The brown envelopes
+WHO: audu, ronke
+IMG: Ronke's face freezing in the lamplight, Mallam Audu in the foreground.
+VID: Mallam Audu: "And every Friday for six years, Mr. Lekan's driver gives her a brown envelope through my gate." Ronke's face freezes.
 START: New image
 
 --- 26.5 | The lab report
 WHO: hassan, chief
 IMG: Dr. Hassan appearing behind Audu and handing Chief a sealed envelope.
-VID: Dr. Hassan: "Chief. Miss Alade asked me to give you this if anything ever happened to her. The blue tablet is a sedative and a blood-pressure crash drug. Not prescribed. It's why you were dizzy. It's why you fell."
+VID: Dr. Hassan: "Chief. Miss Alade asked me to give you this if anything ever happened to her." He hands over the envelope.
+START: New image
+
+--- 26.5b | The lab report
+WHO: chief, hassan
+IMG: Close-up of Chief reading the lab report, hands shaking, Dr. Hassan beside him.
+VID: Chief reads, his hands shaking. Dr. Hassan: "The blue tablet is a sedative and a blood-pressure crash drug. Not prescribed. It's why you were dizzy. It's why you fell."
 START: New image
 
 --- 26.6 | "Swallow it."
@@ -123,7 +141,7 @@ START: New image
 --- 26.7 | She drops to her knees
 WHO: ronke
 IMG: Ronke on her knees on the floor, sobbing.
-VID: Ronke drops to her knees, sobbing: "It was Mr. Lekan! He said keep you weak, keep you sad, until the AGM, so the doctors would sign that you're not fit… He promised me a house in Lekki…"
+VID: Ronke drops to her knees, sobbing: "It was Mr. Lekan! He said keep you weak until the AGM, so the doctors would sign you're not fit… He promised me a house in Lekki…"
 START: New image
 
 --- 26.8 | Femi hears it
@@ -175,7 +193,7 @@ START: New image
 --- 27.4 | "Forgive a stupid old man."
 WHO: chief, ireti
 IMG: Chief stopped in front of Ireti, looking up at her.
-VID: Chief: "I turned my face away from you. The same way I turned it away from my own grandson." His voice breaks. "Forgive a stupid old man." Ireti, crying: "Sir, you're here. In this place."
+VID: Chief: "I turned my face away from you. The same way I turned it from my own grandson." His voice breaks. "Forgive a stupid old man." Ireti, crying: "Sir, you're here."
 START: New image
 
 --- 27.5 | "I can come to yours."
@@ -187,7 +205,7 @@ START: New image
 --- 27.6 | The burning car
 WHO: funmi, chief
 IMG: Close-up of Mama Funmi on the pillow, a faint smile.
-VID: Mama Funmi: "Her father was like that too. Always saving people. He once pulled a rich man out of a burning car. On the Ibadan expressway. Night. A black Mercedes, upside down…" Chief goes completely still.
+VID: Mama Funmi: "Her father was like that too. He once pulled a rich man out of a burning car. On the Ibadan expressway. A black Mercedes, upside down…" Chief goes completely still.
 START: New image
 
 --- 27.7 | Flashback: the expressway (optional)
@@ -281,7 +299,7 @@ START: New image
 --- 28.5 | One minute and twelve seconds
 WHO: ireti, segun
 IMG: Two-shot: Ireti steady, Segun slowly sitting back.
-VID: Ireti: "On his seventy-fifth birthday, he waited with a cake and one candle. Then Mr. Segun called for one minute and twelve seconds. That night, he fell down twenty-two steps." Segun slowly sits back.
+VID: Ireti: "On his seventy-fifth birthday, he waited with a cake. Mr. Segun called for one minute and twelve seconds. That night, he fell down twenty-two steps." Segun slowly sits back.
 START: New image
 
 --- 28.6 | "He's waiting."
@@ -291,16 +309,28 @@ VID: Segun, hoarse: "We thought… we thought he was just old." Ireti: "He's not
 START: New image
 
 --- 28.7 | The proxy forms
-WHO: ireti, kunle, lola
-IMG: The wall screen: Kunle sitting up, Lola shocked; Ireti in the foreground.
-VID: Ireti: "Mr. Lekan has been drugging your father to keep him weak until Thursday's AGM." Kunle: "Lekan sent us proxy forms last month. Routine paperwork, he said…" Lola: "I signed it. I didn't even read it."
+WHO: ireti, segun
+IMG: Close-up of Ireti speaking firmly across the desk; Segun blurred in the foreground.
+VID: Ireti: "Mr. Lekan has been drugging your father to keep him weak until Thursday's AGM, to take control of his shares." Segun stares at her.
+START: New image
+
+--- 28.7b | The proxy forms
+WHO: kunle, lola
+IMG: The wall screen: Kunle sitting up in his office, Lola in London with her hand at her mouth.
+VID: Kunle on screen: "Lekan sent us proxy forms last month. Routine paperwork, he said…" Lola: "I signed it. I didn't even read it."
 START: New image
 
 --- 28.8 | "For once, let us walk toward him."
 WHO: segun, femi, ireti
 IMG: Segun standing up at his desk; Femi turning from the window.
-VID: Segun: "We all signed it." Femi: "Then sign the revocation. Tonight. Gabriel has the papers." Segun: "We'll sign. And don't tell Daddy. Let us come ourselves. For once, let us be the ones walking toward him."
+VID: Segun: "We all signed it." Femi: "Then sign the revocation. Tonight. Gabriel has the papers." Segun stands: "We'll sign."
 START: New image
+
+--- 28.8b | "Let us come ourselves."
+WHO: segun, ireti
+IMG: Close-up of Segun standing at his desk, eyes wet, speaking to Ireti.
+VID: Segun, to Ireti: "And don't tell Daddy. Let us come ourselves. For once, let us be the ones walking toward him." Ireti nods.
+START: Last frame of 28.8
 
 --- 28.9 | Into the Abuja sun
 WHO: femi, ireti
@@ -427,19 +457,25 @@ START: New image
 --- 30.10 | "About my legs?"
 WHO: chief, lekan
 IMG: Chief stopping beside Lekan at the head of the table, both hands resting on his cane.
-VID: Chief: "Lekan. You were saying something… about my legs?" Lekan, white, stammering: "Chief… God is great, this is a miracle! I was only…" Chief: "You were only putting me to sleep. Every evening. For six years."
+VID: Chief: "Lekan. You were saying something… about my legs?" Lekan, white: "Chief… God is great, this is a miracle!" Chief: "You were putting me to sleep. Every evening. For six years."
 START: New image
 
 --- 30.11 | The evidence
 WHO: gabriel, hassan
 IMG: Gabriel laying papers on the table and holding up a phone; Dr. Hassan beside him.
-VID: Gabriel: "Proxy revocations, signed last night by Segun, Kunle and Lola Adenuga. And this…" He plays a recording. Ronke's voice: "It was Mr. Lekan! He said keep you weak until the AGM…" Dr. Hassan: "And the lab report. The police have a copy."
+VID: Gabriel lays papers on the table: "Proxy revocations, signed last night by Segun, Kunle and Lola Adenuga. And this…" He presses play on his phone.
 START: New image
+
+--- 30.11b | The recording
+WHO: hassan
+IMG: Dr. Hassan placing a report on the boardroom table beside a phone playing a recording; board members staring.
+VID: Ronke's recorded voice from the phone: "It was Mr. Lekan! He said keep you weak until the AGM…" Dr. Hassan: "And the lab report. The police have a copy."
+START: Last frame of 30.11
 
 --- 30.12 | "Waiting for me to fall."
 WHO: lekan, chief
 IMG: Lekan looking around the table for an ally; no one meets his eyes.
-VID: Lekan, desperate: "Chief, twenty years! Twenty years I stood by you!" Chief: "Twenty years you stood by me, Lekan. Waiting for me to fall. And when I fell, a waitress picked me up."
+VID: Lekan, desperate: "Chief, twenty years I stood by you!" Chief: "Twenty years you stood by me, Lekan. Waiting for me to fall. And when I fell, a waitress picked me up."
 START: New image
 
 --- 30.13 | Led away

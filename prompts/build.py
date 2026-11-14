@@ -14,6 +14,7 @@ VIDEO_LOCK = ("RULES — follow every rule exactly: ONE continuous 10-second sho
  "nothing appears, disappears, opens, closes or changes unless written below. Only the people described move, at natural real-life speed. "
  "Camera moves only as written: slow and steady, no shake, no zoom bursts. No cuts, no morphing, no warping faces or hands, no extra fingers, "
  "no flicker, no new people, no text on screen. Muted cinematic film look, soft natural light, matte skin: no shine, no glow, no bright flashes. "
+ "Pacing: the action and every spoken line start in the first second and are fully finished before the 10 seconds end, at a natural speaking speed; never rushed, never cut off mid-word, and the shot ends on a calm held moment. "
  "Speech: Nigerian English accents, only the named speaker's lips move, everyone else listens and reacts silently.")
 
 C = {  # face/body locks matched to the approved character images
@@ -68,7 +69,7 @@ def build_prompts(sc, sh):
            + (f" CHARACTERS (match attached references exactly): {look}" if look else "") + f" {IMAGE_LOCK}")
     voices = " ".join(f"{C[k][0]} voice: {C[k][2]}." for k in chars)
     cont = " This clip continues directly from the previous clip: same positions, same light, no jump." if sh["start"].lower().startswith("last frame") else ""
-    vid = (f"ACTION (10 seconds): {sh['vid']}{cont}" + (f" VOICES: {voices}" if voices else "")
+    vid = (f"LENGTH: exactly 10 seconds. ACTION: {sh['vid']}{cont}" + (f" VOICES: {voices}" if voices else "")
            + f" SETTING: {sc['set']} Sound: natural room and ambient sound only, no music. {VIDEO_LOCK}")
     return img, vid
 

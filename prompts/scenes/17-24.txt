@@ -147,7 +147,7 @@ START: New image
 --- 18.8 | The call to "LEKAN B."
 WHO: ronke
 IMG: In the dim pantry among sacks of rice: Ronke whispering into her phone.
-VID: Ronke whispers: "Sir… the new girl is asking questions. About the tablets. Yes, sir. He's smiling now. He went to a concert. No, sir, I won't let it spoil anything before the AGM."
+VID: Ronke whispers: "Sir… the new girl is asking questions. About the tablets. Yes, sir. He's smiling now. He went to a concert. No, sir, nothing will spoil the AGM."
 START: New image
 
 --- 18.9 | "I'll handle her."
@@ -239,7 +239,7 @@ START: New image
 --- 20.2 | Tea in the dark
 WHO: ireti, chief
 IMG: Ireti setting a cup of tea down and sitting on the floor beside Chief's wheelchair; Chief facing the mirror in lamplight.
-VID: Chief: "If you came to beg me about surgery, save your breath." Ireti: "I didn't come to beg. I came to ask a question. Why don't you want to walk, sir?"
+VID: Chief: "If you came to beg me about surgery, save your breath." Ireti: "I didn't come to beg. Why don't you want to walk, sir?"
 START: New image
 
 --- 20.3 | "I learned."
@@ -251,7 +251,7 @@ START: New image
 --- 20.4 | "Like a question mark."
 WHO: chief
 IMG: Same close-up, his voice cracking.
-VID: Chief: "I sold my first car to pay Segun's school fees in London. I worked until my back bent like a question mark. I gave them everything. And now they're busy." His voice cracks.
+VID: Chief: "I sold my first car to pay Segun's school fees. I worked until my back bent like a question mark. I gave them everything. And now they're busy." His voice cracks.
 START: Last frame of 20.3
 
 --- 20.5 | "Nobody is walking toward me."
@@ -263,7 +263,13 @@ START: New image
 --- 20.6 | The truth
 WHO: ireti
 IMG: Close-up of Ireti looking at her hands, then deciding.
-VID: Ireti: "Can I tell you the truth, sir? My mother is dying. She has a growth on her heart. The doctor gave her one year. That was three months ago. The surgery is in India. Thirty-eight million."
+VID: Ireti: "Can I tell you the truth, sir? My mother is dying. She has a growth on her heart."
+START: New image
+
+--- 20.6b | "Thirty-eight million."
+WHO: chief, ireti
+IMG: Close-up of Chief listening, stunned, in the lamplight; Ireti soft in the foreground.
+VID: Ireti: "The doctor gave her one year. That was three months ago. The surgery is in India. Thirty-eight million." Chief stares at her, stunned.
 START: New image
 
 --- 20.7 | "But I stay for you."
@@ -274,8 +280,14 @@ START: New image
 
 --- 20.8 | "Don't waste it in the dark."
 WHO: chief, ireti
-IMG: Close shot of Ireti taking Chief's hand.
-VID: Chief, hoarse: "Your mother is dying… and you're here. Washing an old man's feet." Ireti takes his hand: "She told me to make the best of the time I have. You have more time than her, sir. Please don't waste it sitting in the dark."
+IMG: Close-up of Chief, hoarse and moved, eyes wet in the lamplight.
+VID: Chief, hoarse: "Your mother is dying… and you're here. Washing an old man's feet. Taking pepper soup on your chest."
+START: New image
+
+--- 20.8b | "Don't waste it in the dark."
+WHO: ireti, chief
+IMG: Close shot of Ireti taking Chief's hand in both of hers, lamplight.
+VID: Ireti takes his hand: "She told me to make the best of the time I have. You have more time, sir. Don't waste it in the dark." Chief's eyes fill.
 START: New image
 
 --- 20.9 | "I'll pay for it."
@@ -287,8 +299,14 @@ START: New image
 --- 20.10 | "Fine. I'll do the surgery."
 WHO: chief, ireti
 IMG: Close two-shot, Chief looking at her as if hearing a forgotten language.
-VID: Chief, after a long pause: "…Fine. I'll do the surgery. On one condition. When I wake up, yours is the first face I see." Ireti laughs through tears: "Sir, my face in the morning is not for the faint-hearted." Chief: "I'll take the risk."
+VID: Chief, after a long pause: "…Fine. I'll do the surgery. On one condition. When I wake up, yours is the first face I see."
 START: New image
+
+--- 20.10b | "I'll take the risk."
+WHO: ireti, chief
+IMG: Close-up of Ireti laughing through tears beside the wheelchair, Chief's face softening.
+VID: Ireti laughs through tears: "Sir, my face in the morning is not for the faint-hearted." Chief: "I'll take the risk."
+START: Last frame of 20.10
 
 --- 20.11 | The blessing
 WHO: ireti, chief
@@ -389,7 +407,7 @@ WEAR: chief=a bright colourful ankara shirt, in his wheelchair, holding a microp
 --- 23.1 | Flashback: the business show
 WHO: chief, ireti
 IMG: Living room a week earlier: Chief and Ireti watching a TV business show.
-VID: Chief grumbles at the TV: "This boy is talking rubbish. Profit before cash flow?" Wistful: "I used to teach young people for free. Every Tuesday. Two hundred of them in this garden. I miss it." Close on Ireti: an idea.
+VID: Chief grumbles at the TV: "This boy is talking rubbish." Then, wistful: "I used to teach young people for free. Every Tuesday. Two hundred of them in this garden. I miss it." Close on Ireti: an idea.
 START: New image
 
 --- 23.2 | The flyer
