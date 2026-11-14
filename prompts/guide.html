@@ -1,0 +1,30 @@
+<h2>How to use this pack</h2>
+<table>
+<tr><th style="width:22%">Step</th><th>What to do</th></tr>
+<tr><td><b>1. Set up ChatGPT once</b></td><td>Open a new ChatGPT chat for each scene. Paste the <b>ChatGPT setup message</b> below first, and attach the approved character images for the characters in that scene. Then paste the shot image prompts one at a time.</td></tr>
+<tr><td><b>2. Make the image</b></td><td>For each shot, attach the character reference images listed on the shot ("Attach refs") and paste the IMAGE PROMPT. If something is wrong, reply: <i>"Same image, only fix: [one thing]."</i></td></tr>
+<tr><td><b>3. Make the video in Grok</b></td><td>Upload the image to Grok Imagine, choose <b>10 seconds</b>, paste the VIDEO PROMPT exactly. Don't shorten the RULES part. That part is what stops glitches.</td></tr>
+<tr><td><b>4. No breaks between clips</b></td><td>When a shot says <b>Start: last frame of the previous shot</b>, pause the previous Grok clip on its very last frame, save it as an image, and use that image as the start for this clip instead of a new ChatGPT image. Use the image prompt only if you need a fresh angle. This makes the two clips join perfectly.</td></tr>
+<tr><td><b>5. Edit</b></td><td>Put the clips in shot order. Add the on-screen titles ("SUPER" text), music and the opening title card in CapCut. AI tools spell words badly, so text is never generated inside the images.</td></tr>
+<tr><td><b>If Grok glitches</b></td><td>Regenerate the same clip. Don't change the prompt. If a door, curtain or face still changes, add at the start: <i>"Camera locked, almost no movement."</i></td></tr>
+</table>
+
+<h3>ChatGPT setup message (paste once at the start of every new chat)</h3>
+<div class="lock">You are the director of photography on my Nigerian drama film. For every image I ask for in this chat, you must follow these rules with no exceptions:
+1. Every image is a photorealistic still from a real cinema film, wide 16:9, never an illustration, never a 3D render.
+2. The faces, hair, skin tone and body build of my characters must match the reference images I attach, exactly. Never change a face. Never make anyone younger, slimmer, lighter-skinned or more glamorous.
+3. Light comes only from real sources in the scene. Soft, natural, warm-neutral movie grade, gently muted. Matte natural skin with real texture. No shine, no glow, no HDR, no airbrushing, no oversaturated colours.
+4. The setting, props, wardrobe and time of day I describe for a scene stay identical in every image of that scene, unless I say they change.
+5. No readable text, logos or watermarks unless I give the exact words.
+6. All characters are fictional adults (one is a 17-year-old boy in ordinary school scenes).
+Do not add anything I did not ask for. If you can't follow a rule, tell me instead of changing the image. Reply "Ready" and wait for my first shot.</div>
+
+<h3>Image lock (already inside every image prompt)</h3>
+<div class="lock">{{IMAGE_LOCK}}</div>
+<h3>Video lock (already inside every video prompt)</h3>
+<div class="lock">{{VIDEO_LOCK}}</div>
+
+<h3>Character sheet (face and voice locks used in every prompt)</h3>
+<table><tr><th style="width:18%">Character</th><th>Look (matches the approved images)</th><th style="width:26%">Voice</th></tr>{{CAST}}</table>
+<p><b>Other faces in the film</b> (no reference needed; describe them as written): Mama Abike's oil portrait (smiling woman in a gold gele), the physiotherapist, interview panel, security man, cooks, board members, police officers, the twins and grandchildren. <b>Kehinde Alade</b> appears only as his approved photo: use that image as a framed photo prop.</p>
+<p><b>Grok and ChatGPT safety:</b> The fall, the fire flashback and the arrest are written with no blood, no injuries and no weapons, so neither tool should block them. If one is blocked, regenerate once, then remove the word that describes the action (for example "falls") and describe only what we see ("lying still at the foot of the stairs").</p>

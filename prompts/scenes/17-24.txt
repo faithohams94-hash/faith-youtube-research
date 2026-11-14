@@ -1,0 +1,481 @@
+=== 17 | The concert | Chief's bedroom, Lagos Civic Hall, the car · night
+SET: Night. Chief's bedroom: curtains open two inches, lamps on, a TV showing grainy old 1978 concert footage of a man in a white suit playing a gold guitar. Lagos Civic Hall on a Saturday night: outside, coloured neon lights and a crowd in matching aso-ebi outfits, a ramp to the entrance; inside, a warm stage with a brass band, spotlights and a dancing crowd. The car ride home: the back seat of a dark luxury car, city lights passing.
+WEAR: ireti=a light-blue scrubs top and white trousers in the bedroom, a simple neat dress at the concert; chief=a grey kaftan in the bedroom, a royal-blue agbada with matching fila at the concert, in his wheelchair; ajala=a crisp cream suit, cream fedora, round dark sunglasses, holding a gold guitar
+
+--- 17.1 | Old concert footage
+WHO:
+IMG: A TV screen in a dim bedroom showing grainy old 1978-style concert footage: a young musician in a white suit playing a gold guitar, a crowd dancing.
+VID: The old footage plays on the TV, slightly flickering like old film. Juju guitar music from the TV speaker. Camera slowly pulls back to reveal the room.
+START: New image
+
+--- 17.2 | Dancing fingers
+WHO: ireti, chief
+IMG: Ireti massaging Chief's legs; close on his fingers on the wheelchair armrest tapping in rhythm.
+VID: Chief's fingers tap perfectly to the music. Ireti, teasing: "Sir. Your fingers are dancing." Chief stops them: "They're not." Ireti: "They are. They were doing… this." She does a small juju shoulder dance.
+START: New image
+
+--- 17.3 | "A chicken in a generator."
+WHO: chief, ireti
+IMG: Close-up of Chief, a tiny laugh escaping despite himself.
+VID: Chief gives a tiny breath of a laugh: "That's not how you dance juju. You look like a chicken in a generator." He looks back at the TV, softer.
+START: New image
+
+--- 17.4 | "Eleven times. I counted."
+WHO: chief
+IMG: Chief watching the TV, the screen light on his face, memory in his eyes.
+VID: Chief, softly: "1978. I danced to that exact song with Abike, in her father's compound in Ibadan. She stepped on my feet eleven times. I counted."
+START: New image
+
+--- 17.5 | "Who will carry a cripple?"
+WHO: ireti, chief
+IMG: Two-shot: Ireti kneeling, looking up hopefully; Chief turning cold.
+VID: Ireti: "Sir, Commander Ajala is doing his farewell concert. This Saturday. At Civic Hall." Chief, cold again: "And who will carry a cripple to a concert? You?" Ireti: "Yes, sir. Me."
+START: New image
+
+--- 17.6 | He stops himself
+WHO: chief, ireti
+IMG: Close shot of Chief catching himself mid-sentence; Ireti's face steady.
+VID: Chief: "With what money? Those tickets cost more than your father's…" He stops himself. Ireti's smile doesn't move, but her eyes flicker.
+START: Last frame of 17.5
+
+--- 17.7 | Establishing: Civic Hall
+WHO:
+IMG: Exterior of a Lagos concert hall at night with coloured neon lights, a crowd in matching aso-ebi outfits gathering at the entrance.
+VID: Slow pan across the lively crowd arriving, people greeting and laughing. Muffled band music from inside.
+START: New image
+
+--- 17.8 | Up the ramp
+WHO: ireti, chief
+IMG: Ireti pushing Chief in his royal-blue agbada up the ramp to the entrance, Chief grumbling.
+VID: Chief grumbles: "If anybody I know sees me here…" Ireti: "Then they'll see you enjoying yourself, sir. It'll be breaking news." She keeps pushing.
+START: New image
+
+--- 17.9 | Commander Ajala spots him
+WHO: ajala
+IMG: On stage: the 72-year-old Commander Ajala in his cream suit shading his eyes against the stage lights, gold guitar on his shoulder, brass section behind.
+VID: The band stops. Ajala shades his eyes and leans into the microphone: "Wait… wait! Is that Chief Babatunde Adenuga in the house?!" A spotlight swings toward the crowd.
+START: New image
+
+--- 17.10 | The spotlight
+WHO: chief, ireti
+IMG: Chief in his wheelchair caught in a warm spotlight in the crowd, Ireti behind him holding the handles.
+VID: The crowd turns and cheers. Ajala's voice: "Baba Abike! The man who danced to my first record before I had shoes! This one is for you, Chief. And for Mama Abike in heaven!" Chief's chin trembles.
+START: New image
+
+--- 17.11 | Dancing the wheelchair
+WHO: ireti, chief
+IMG: Ireti holding the wheelchair handles, rocking it gently side to side to the beat, the crowd dancing around them.
+VID: The band starts the song. Ireti rocks the wheelchair gently from side to side in rhythm, dancing around it. The crowd joins in. Juju music, brass, cheering.
+START: New image
+
+--- 17.12 | The first real smile
+WHO: chief
+IMG: Close-up of Chief, his mouth breaking into a wide, wet-eyed smile under the warm stage light.
+VID: Chief's mouth twitches, then breaks into a wide smile, the first real one of the film, eyes wet. He nods to the music. The song continues.
+START: Last frame of 17.11
+
+--- 17.13 | The ticket stub
+WHO: chief, ireti
+IMG: Back seat of a car at night: Chief holding a concert ticket stub, Ireti beside him looking out the window, city lights passing.
+VID: Chief turns the stub over and reads the price. Quietly: "You paid for these yourself." Ireti, still looking out the window: "Yes, sir." Chief: "Why?"
+START: New image
+
+--- 17.14 | "At that price, it was cheap."
+WHO: ireti, chief
+IMG: Close-up of Ireti in the passing city lights.
+VID: Ireti: "Because you smiled tonight, sir." She shrugs. "At that price, it was cheap." Chief looks at her for a long moment.
+START: New image
+
+--- 17.15 | "Ireti. Hope."
+WHO: chief, ireti
+IMG: Two-shot in the back seat, passing lights.
+VID: Chief: "What's your name again?" Ireti, smiling: "Twenty-three days, sir, and you still don't know my name?" Chief: "I'm asking now." Ireti: "Ireti." Chief turns to the window, very softly: "Ireti. Hope."
+START: New image
+
+--- 17.16 | His hand on hers
+WHO: chief, ireti
+IMG: Close shot of the car seat between them: Chief's hand slowly resting on top of Ireti's hand.
+VID: Chief's hand slowly moves and rests on top of hers. Neither of them looks down. City lights slide across their hands. Slow fade.
+START: New image
+
+=== 18 | The blue tablet | Mansion kitchen, medicine cabinet and pantry · after midnight
+SET: The mansion kitchen after midnight: one small light over the sink, the rest in deep shadow, a big fridge humming, a locked wooden medicine cabinet on the wall, a pantry door with a key hanging on a nail inside it. The pantry: shelves and sacks of rice, very dim.
+WEAR: ireti=a light-blue scrubs top and white trousers; ronke=a long dark nightgown, black head wrap
+
+--- 18.1 | Establishing: the dark kitchen
+WHO:
+IMG: A large mansion kitchen at night, only one small light over the sink, shadows everywhere, the fridge humming.
+VID: Very slow push into the dark kitchen. The fridge hums. A clock ticks. Nothing moves.
+START: New image
+
+--- 18.2 | The prescription list
+WHO: ireti
+IMG: Close shot of Ireti under the sink light reading hospital discharge papers, her finger running down a printed list.
+VID: Ireti runs her finger down the list, slowly, then stops. She frowns and looks up at the locked medicine cabinet.
+START: New image
+
+--- 18.3 | The key on the nail
+WHO: ireti
+IMG: Ireti opening the pantry door and finding a small key hanging on a nail inside.
+VID: Ireti lifts the key off the nail quietly, glances behind her, and goes to the cabinet. She unlocks it slowly.
+START: New image
+
+--- 18.4 | The brown bottle
+WHO: ireti
+IMG: Close-up inside the cabinet: an unlabelled brown bottle full of small blue tablets in Ireti's hand.
+VID: Ireti opens the bottle, takes out one blue tablet and slips it into her scrubs pocket. She closes the bottle carefully.
+START: New image
+
+--- 18.5 | "What are you looking for?"
+WHO: ronke, ireti
+IMG: Ronke standing in the dark doorway in her nightgown; Ireti turning from the open cabinet.
+VID: Ronke's voice: "What are you looking for?" Ireti spins around, then calm: "Cotton wool, ma. Chief's ear is itching." Ronke steps closer, staring at the open cabinet.
+START: New image
+
+--- 18.6 | "Learn faster."
+WHO: ronke, ireti
+IMG: Close two-shot: Ronke very close to Ireti in the dim light.
+VID: Ronke: "Cotton wool is in the bathroom. Not in my cabinet." Ireti: "Sorry, ma. I'm still learning the house." Ronke, a thin smile: "Learn faster." Ireti walks out.
+START: New image
+
+--- 18.7 | One is missing
+WHO: ronke
+IMG: Ronke alone at the cabinet counting the blue tablets in the brown bottle with her finger.
+VID: Ronke counts the tablets with her finger. She stops. Counts again. Her face changes: one is missing. She locks the cabinet.
+START: New image
+
+--- 18.8 | The call to "LEKAN B."
+WHO: ronke
+IMG: In the dim pantry among sacks of rice: Ronke whispering into her phone.
+VID: Ronke whispers: "Sir… the new girl is asking questions. About the tablets. Yes, sir. He's smiling now. He went to a concert. No, sir, I won't let it spoil anything before the AGM."
+START: New image
+
+--- 18.9 | "I'll handle her."
+WHO: ronke
+IMG: Close-up of Ronke lowering the phone and looking up at the ceiling.
+VID: Ronke: "Yes, sir. I'll handle her." She hangs up and looks up toward Chief's room above. Slow fade.
+START: Last frame of 18.8
+
+=== 19 | "You can walk again." | Chief's bedroom · day
+SET: The mansion in daytime. A white medical van in the driveway. Chief's bedroom: curtains open a few inches, daylight, a lightbox on a stand with spine scans, the tall mirror. Upstairs corridor and the top of the staircase.
+WEAR: hassan=a clean white doctor's coat over a light blue shirt, stethoscope; femi=a white shirt with sleeves rolled up and navy suit trousers; ireti=a light-blue scrubs top and white trousers; chief=a grey kaftan, wool blanket on his knees, in his wheelchair, arms folded
+
+--- 19.1 | Establishing: the medical van
+WHO:
+IMG: A white medical van parked in the mansion driveway, portable scan equipment being wheeled up a ramp into the house.
+VID: Two technicians wheel the equipment up the ramp. Palm trees sway. Slow pan toward the house.
+START: New image
+
+--- 19.2 | The new scans
+WHO: hassan, femi, ireti, chief
+IMG: Wide shot of the bedroom: Dr. Hassan clipping scans onto the lightbox, Femi beside him, Ireti by the wall, Chief in his wheelchair with arms folded.
+VID: Dr. Hassan: "The swelling has gone down. And this is good news. The nerve isn't severed. It's compressed. Pinched." Femi leans in, hardly breathing.
+START: New image
+
+--- 19.3 | "You could walk again."
+WHO: hassan, femi
+IMG: Two-shot: Dr. Hassan pointing at the scan, Femi's face lighting up.
+VID: Dr. Hassan: "With surgery on the spine, and six months of hard rehabilitation…" Femi: "He can walk?" Dr. Hassan: "I can't promise. But there's a real chance. Chief, you could walk again."
+START: New image
+
+--- 19.4 | Joy in the room
+WHO: femi, hassan, ireti
+IMG: Femi laughing and hugging Dr. Hassan; Ireti covering her mouth by the wall.
+VID: Femi laughs out loud and hugs Dr. Hassan. Ireti covers her mouth with both hands, eyes shining. Then everyone turns toward Chief.
+START: New image
+
+--- 19.5 | "No."
+WHO: chief
+IMG: Close-up of Chief, arms folded, face like stone.
+VID: Chief: "No." Silence. Femi's voice: "…Grandpa?" Chief: "No surgery."
+START: New image
+
+--- 19.6 | "Walk to where?"
+WHO: chief, femi
+IMG: Two-shot: Femi pleading, Chief calm and terrible.
+VID: Femi: "Grandpa, he just said you can walk!" Chief: "Walk to where, Femi? To the window? To wait for children who don't come?"
+START: New image
+
+--- 19.7 | "Legs are not my problem."
+WHO: chief
+IMG: Close-up of Chief, quiet and hard.
+VID: Chief: "I walked on two good legs for seventy-five years, and they still left me. Legs are not my problem." He turns his wheelchair to face the mirror. "Let me sit. Everyone out."
+START: New image
+
+--- 19.8 | "OUT!"
+WHO: femi, chief, ireti
+IMG: Femi stepping toward Chief's back; Ireti and Dr. Hassan near the door.
+VID: Femi: "Grandpa, please…" Chief roars without turning: "OUT!" Everyone leaves quietly.
+START: New image
+
+--- 19.9 | Femi hits the wall
+WHO: femi
+IMG: The upstairs corridor: Femi with his fist against the wall, head bowed.
+VID: Femi punches the wall softly, breathes, and walks off down the corridor.
+START: New image
+
+--- 19.10 | "Doctor, please. Test this."
+WHO: ireti, hassan
+IMG: At the top of the staircase: Ireti stopping Dr. Hassan, glancing around, pressing something small into his palm.
+VID: Ireti whispers: "Doctor, please. Test this. Quietly. Don't tell anyone in this house. Not even Aunty Ronke." Dr. Hassan looks at the small blue tablet in his palm: "Where did you get this?"
+START: New image
+
+--- 19.11 | "Every night, he gets dizzy."
+WHO: ireti, hassan
+IMG: Close two-shot at the top of the stairs, both serious.
+VID: Ireti: "From his evening tray. Every night. And every night, he gets dizzy." Dr. Hassan's face goes very serious. He closes his hand around the tablet. Slow fade.
+START: Last frame of 19.10
+
+=== 20 | "What's the point?" | Chief's bedroom · night
+SET: Night at the mansion: the moon over the lagoon, one lamp on in Chief's dark bedroom, the tall mirror, a cup of tea on a small table, Chief in his wheelchair facing the mirror. A dark corridor outside the bedroom door.
+WEAR: chief=a grey kaftan, wool blanket over his knees, in his wheelchair; ireti=a light-blue scrubs top and white trousers; ronke=a black housekeeper's dress with white collar
+
+--- 20.1 | Establishing: moon over the lagoon
+WHO:
+IMG: The moon over the Lagos lagoon at night, the dark mansion with only one lamp-lit window.
+VID: Slow push toward the single lit window. Water ripples. Crickets.
+START: New image
+
+--- 20.2 | Tea in the dark
+WHO: ireti, chief
+IMG: Ireti setting a cup of tea down and sitting on the floor beside Chief's wheelchair; Chief facing the mirror in lamplight.
+VID: Chief: "If you came to beg me about surgery, save your breath." Ireti: "I didn't come to beg. I came to ask a question. Why don't you want to walk, sir?"
+START: New image
+
+--- 20.3 | "I learned."
+WHO: chief
+IMG: Close-up of Chief in the lamplight, barely above a whisper.
+VID: Chief: "When Abike died, Segun was fourteen. Kunle, ten. Lola, seven. I didn't know how to plait hair. I learned. I didn't know how to cook. I learned."
+START: New image
+
+--- 20.4 | "Like a question mark."
+WHO: chief
+IMG: Same close-up, his voice cracking.
+VID: Chief: "I sold my first car to pay Segun's school fees in London. I worked until my back bent like a question mark. I gave them everything. And now they're busy." His voice cracks.
+START: Last frame of 20.3
+
+--- 20.5 | "Nobody is walking toward me."
+WHO: chief, ireti
+IMG: Chief finally turning to look at Ireti on the floor beside him.
+VID: Chief: "If my own blood can't love me, why would a girl I pay love me?" He looks at her. "What's the point of walking, if nobody is walking toward me?"
+START: New image
+
+--- 20.6 | The truth
+WHO: ireti
+IMG: Close-up of Ireti looking at her hands, then deciding.
+VID: Ireti: "Can I tell you the truth, sir? My mother is dying. She has a growth on her heart. The doctor gave her one year. That was three months ago. The surgery is in India. Thirty-eight million."
+START: New image
+
+--- 20.7 | "But I stay for you."
+WHO: ireti, chief
+IMG: Two-shot: Ireti with a small brave smile, Chief stunned.
+VID: Ireti: "That's why I took this job. For the money. I won't lie to you." Beat. "I came for the money, sir. But I stay for you." Chief stares at her.
+START: New image
+
+--- 20.8 | "Don't waste it in the dark."
+WHO: chief, ireti
+IMG: Close shot of Ireti taking Chief's hand.
+VID: Chief, hoarse: "Your mother is dying… and you're here. Washing an old man's feet." Ireti takes his hand: "She told me to make the best of the time I have. You have more time than her, sir. Please don't waste it sitting in the dark."
+START: New image
+
+--- 20.9 | "I'll pay for it."
+WHO: chief, ireti
+IMG: Chief looking at himself in the mirror, eyes filling; Ireti beside him.
+VID: Chief: "I'll pay for your mother's surgery. Tomorrow." Ireti, firmly: "No, sir. If you pay, you'll always wonder whether I loved you for money. I'll earn it. Thirty-eight weeks."
+START: New image
+
+--- 20.10 | "Fine. I'll do the surgery."
+WHO: chief, ireti
+IMG: Close two-shot, Chief looking at her as if hearing a forgotten language.
+VID: Chief, after a long pause: "…Fine. I'll do the surgery. On one condition. When I wake up, yours is the first face I see." Ireti laughs through tears: "Sir, my face in the morning is not for the faint-hearted." Chief: "I'll take the risk."
+START: New image
+
+--- 20.11 | The blessing
+WHO: ireti, chief
+IMG: Ireti resting her head against the arm of the wheelchair; Chief lifting his hand to rest it on her head.
+VID: Ireti lays her head against the wheelchair arm. Slowly, Chief lifts his hand and rests it on her head, the way a grandfather blesses a child. The lamp glows softly.
+START: New image
+
+--- 20.12 | Ronke at the door
+WHO: ronke
+IMG: The dark corridor: Ronke with her ear pressed against the bedroom door.
+VID: Ronke listens, then straightens and walks away fast down the corridor, already dialling her phone. Slow fade.
+START: New image
+
+=== 21 | The first face | Private hospital recovery room · sunrise
+SET: The private hospital at sunrise. A corridor with a lit sign above the operating theatre door (no readable text). A bright, clean recovery room with soft early sunlight through blinds, a monitor beeping, white sheets.
+WEAR: chief=a pale blue hospital gown, in bed; ireti=a light-blue scrubs top, hair messy, tired eyes; femi=a white shirt and navy trousers, holding two cups of coffee
+
+--- 21.1 | The light switches off
+WHO:
+IMG: A hospital corridor at sunrise, the red light above an operating theatre door glowing.
+VID: The red light above the door switches off. Soft sunrise light falls across the empty corridor floor. Quiet.
+START: New image
+
+--- 21.2 | "You're ugly in the morning."
+WHO: chief, ireti
+IMG: Chief's point of view coming into focus: Ireti's tired face inches away, messy hair, dark circles under her eyes.
+VID: The image slowly sharpens into focus on Ireti's face. Chief's croaky voice: "You're ugly in the morning." Ireti grins: "And you're alive, sir. We're both lucky."
+START: New image
+
+--- 21.3 | The rusty laugh
+WHO: chief
+IMG: Chief in the hospital bed laughing weakly, wincing.
+VID: Chief laughs, a real, rusty, painful laugh. He winces, then laughs again. Morning light on his face.
+START: New image
+
+--- 21.4 | "He's laughing."
+WHO: femi, ireti
+IMG: Femi frozen in the doorway with two coffees, looking at the bed.
+VID: Femi stands frozen, whispering to himself: "He's laughing." He looks at Ireti, really looks at her, for the first time. Slow fade.
+START: New image
+
+=== 22 | The house wakes up | Adenuga mansion montage · days and weeks
+SET: The Adenuga mansion over several sunny weeks. The façade with curtains opening one by one. A rehab room with parallel bars, mats and a standing frame. The grand hall now with dust sheets coming off, a piano and an easel with an unfinished garden painting. The garden: green lawn, the stone fountain, palm trees, warm late-afternoon sun.
+WEAR: chief=colourful ankara shirts and trousers, in his wheelchair or standing frame; ireti=a light-blue scrubs top and white trousers; audu=a white kaftan and cap
+
+--- 22.1 | Curtains open
+WHO:
+IMG: Front façade of the white mansion in morning sun, the first curtain sliding open.
+VID: One by one, curtains slide open across the windows of the façade until the whole house is glowing with sunlight. Birds sing.
+START: New image
+
+--- 22.2 | The standing frame
+WHO: chief, ireti
+IMG: Rehab room: Chief sweating, strapped into a standing frame, a physiotherapist counting, Ireti cheering from the side.
+VID: Physio: "…nine… ten! Good, Chief!" Chief, gasping: "I'll sue you. Both of you." Ireti: "With which legs, sir? Come and catch us first!"
+START: New image
+
+--- 22.3 | The easel
+WHO: ireti, chief
+IMG: Grand hall: Ireti pulling a dust sheet off an easel, revealing an unfinished painting of the garden; Chief in his wheelchair nearby.
+VID: Ireti: "Sir… you paint?" Chief, gruff: "Painted. Past tense." Ireti puts a brush in his hand: "Present continuous, sir."
+START: New image
+
+--- 22.4 | The puppy
+WHO: ireti, chief
+IMG: Garden: Ireti walking up the driveway carrying a fluffy brown puppy; Chief recoiling in his wheelchair.
+VID: Chief: "What is that? Who brought this rat into my house?!" Ireti: "He's a gift, sir. From me. He needs a name." She puts the puppy on his lap. The puppy licks his hand.
+START: New image
+
+--- 22.5 | "…Monday."
+WHO: chief, ireti
+IMG: Close shot of Chief reluctantly stroking the puppy's ears.
+VID: Chief, grumbling: "…Monday." Ireti: "Monday? Why Monday?" Chief: "Because Mondays used to be the worst day in this house. Let's see if he can fix it."
+START: New image
+
+--- 22.6 | Painting in the garden
+WHO: chief
+IMG: Late afternoon: Chief painting at the easel in the garden, the puppy asleep on his feet.
+VID: Chief paints slowly and carefully. The puppy sleeps. A light breeze moves the trees.
+START: New image
+
+--- 22.7 | The fountain bursts
+WHO: ireti, audu, chief
+IMG: Ireti and Mallam Audu kneeling at the dry stone fountain, fixing a pipe; Chief watching from his easel.
+VID: Water bursts out of the fountain and soaks Ireti and Mallam Audu. They shriek and laugh. Chief laughs so hard he nearly drops his brush.
+START: New image
+
+--- 22.8 | Ronke behind the curtain
+WHO: ronke
+IMG: An upstairs window: Ronke behind a curtain looking down at the laughing garden, not smiling.
+VID: Ronke watches without blinking, then lets the curtain fall closed. Slow fade.
+START: New image
+
+=== 23 | Tuesdays with Chief | Mansion gate and garden · Tuesday morning
+SET: Tuesday morning at the mansion, bright sun. The front gate and quiet street. The big green lawn with two hundred young Nigerians sitting with notebooks, a small microphone stand, palm trees, the stone fountain flowing. Chief's living room for the flashback: a TV showing a business show.
+WEAR: chief=a bright colourful ankara shirt, in his wheelchair, holding a microphone; ireti=a light-blue scrubs top and white trousers; audu=a white kaftan and cap, holding his cap in his hand; lekan=a black agbada with silver embroidery, holding flowers
+
+--- 23.1 | Flashback: the business show
+WHO: chief, ireti
+IMG: Living room a week earlier: Chief and Ireti watching a TV business show.
+VID: Chief grumbles at the TV: "This boy is talking rubbish. Profit before cash flow?" Wistful: "I used to teach young people for free. Every Tuesday. Two hundred of them in this garden. I miss it." Close on Ireti: an idea.
+START: New image
+
+--- 23.2 | The flyer
+WHO: ireti
+IMG: Close shot of Ireti's cracked phone showing a gold flyer with Chief's photo (no readable text), her thumb pressing to post it.
+VID: Ireti taps to post the flyer. The share count on the screen starts rising fast. She smiles. (Add flyer words in editing.)
+START: New image
+
+--- 23.3 | "TWO HUNDRED young people!"
+WHO: audu, chief, ireti
+IMG: Mallam Audu running up the driveway with his cap in his hand toward Chief and Ireti.
+VID: Mallam Audu, out of breath: "Oga! Oga! There are… there are TWO HUNDRED young people at the gate!" Chief turns to Ireti, stunned: "What did you do?" Ireti, innocent: "I opened the gate, sir. You do the rest."
+START: New image
+
+--- 23.4 | The lawn full of young people
+WHO:
+IMG: Wide shot of the sunny lawn with two hundred young Nigerians sitting with notebooks: tailors, programmers, food sellers.
+VID: Slow crane down over the crowd settling on the grass, chatting, opening notebooks. Birds and murmuring voices.
+START: New image
+
+--- 23.5 | Rule number one
+WHO: chief, ireti
+IMG: Chief in his wheelchair at the front of the lawn holding a microphone, looking across at Ireti.
+VID: Chief looks terrified, then begins: "Rule number one of business." He looks at Ireti. "Never despise the person who serves your food. One day she might be the one who serves you your life back." The crowd claps. Ireti looks down, embarrassed.
+START: New image
+
+--- 23.6 | "My biggest mistake"
+WHO: chief
+IMG: A young man standing in the crowd raising his hand; Chief listening.
+VID: Young man: "Sir, what's the biggest mistake you ever made?" Long pause. Chief: "I gave my children everything except my time. And then I was surprised when they gave me everything except theirs."
+START: New image
+
+--- 23.7 | Applause
+WHO: chief
+IMG: The crowd on its feet applauding; Chief moved, holding the microphone.
+VID: The garden goes quiet, then the applause comes even louder. People stand. Chief nods slowly, eyes wet.
+START: New image
+
+--- 23.8 | Lekan arrives
+WHO: lekan
+IMG: A black car on the driveway; Lekan stepping out with flowers and freezing at the sight of the crowd.
+VID: Lekan steps out, sees the crowd and Chief laughing with the microphone, and freezes. Then he forces a smile.
+START: New image
+
+--- 23.9 | "Let it work."
+WHO: lekan, chief
+IMG: Two-shot: Lekan with flowers beside Chief's wheelchair, smiling falsely.
+VID: Lekan: "Chief! Ah! All this excitement… is it good for your heart?" Chief, smiling: "My heart has been bored for ten years, Lekan. Let it work." Lekan's smile stays. His eyes don't.
+START: New image
+
+--- 23.10 | The look to the window
+WHO: lekan, ronke
+IMG: Lekan looking up at the house; Ronke at an upstairs window behind the curtain.
+VID: Lekan glances up at the window. Ronke looks back down at him. Slow fade.
+START: New image
+
+=== 24 | The lab result | Mansion garden and gazebo · hot afternoon
+SET: A hot afternoon at the mansion. The green lawn, a butterfly, the fountain flowing, the vine-covered gazebo. The grand hall inside: bright, curtains open, marble floor, the staircase and the portrait.
+WEAR: ireti=a light-blue scrubs top and white trousers; hassan=a white coat (voice only); femi=a navy three-piece suit; ronke=a black housekeeper's dress with white collar
+
+--- 24.1 | Monday chases a butterfly
+WHO:
+IMG: A small fluffy brown puppy chasing a butterfly across a sunny lawn, the fountain behind.
+VID: The puppy bounds after the butterfly across the grass. Soft heat haze, birds singing.
+START: New image
+
+--- 24.2 | Behind the gazebo
+WHO: ireti
+IMG: Ireti stepping behind the vine-covered gazebo with her phone to her ear.
+VID: Ireti answers quietly. Dr. Hassan's voice on the phone: "Ireti. That tablet. It's not for blood pressure. It's a strong sedative, mixed with a drug that crashes blood pressure."
+START: New image
+
+--- 24.3 | "He'll fall."
+WHO: ireti
+IMG: Close-up of Ireti, her hand slowly covering her mouth.
+VID: Dr. Hassan's voice: "Give it to a seventy-five-year-old man every evening, and he'll be dizzy, confused and depressed. And he'll fall." Ireti, behind her hand: "The stairs."
+START: Last frame of 24.2
+
+--- 24.4 | "Tell Femi. Today."
+WHO: ireti
+IMG: Ireti lowering the phone, pale, staring toward the house.
+VID: Dr. Hassan's voice: "Somebody has been putting him to sleep for a long time. Tell Femi. Today." Ireti whispers: "Somebody pushed him down those stairs without ever touching him." She starts running.
+START: New image
+
+--- 24.5 | Her bag on the floor
+WHO: femi, ronke, ireti
+IMG: From the doorway: the grand hall with Femi, Ronke and two security men standing around Ireti's faded nylon bag lying open on the marble floor.
+VID: Ireti stops dead in the doorway, out of breath. Everyone turns to look at her. Silence. Slow fade.
+START: New image

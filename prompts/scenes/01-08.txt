@@ -1,0 +1,552 @@
+=== 1 | Cold open: twenty-two steps | Adenuga mansion, Banana Island · dusk, storm
+SET: Adenuga mansion on Banana Island at dusk during a rainstorm. Chief's huge bedroom: cream walls, heavy brown curtains closed, one tall window with rain streaking down, polished white marble floor, dark wood dresser, a silver tray with a small untouched birthday cake (one unlit candle) and a folded white card on the side table, warm table lamps lit, cold grey-blue storm light at the window. Outside the bedroom: a landing at the top of a grand curved white marble staircase of 22 steps, a dim crystal chandelier, and at the foot of the stairs a huge gold-framed oil portrait of a smiling Nigerian woman in a gold gele.
+WEAR: chief=a white kaftan, leaning on an ivory-handled walking cane; grace=navy blue nurse scrubs with a small name badge on the chest and a stethoscope; ronke=a black housekeeper's dress with a white collar; segun=a charcoal suit and brown paisley tie (seen only on a phone screen)
+
+--- 1.1 | Establishing: the lagoon and the closed mansion
+WHO:
+IMG: High aerial view over the Lagos lagoon at dusk, dark storm clouds rolling in, a large white three-storey mansion on the water's edge with every curtain closed and one dim lit window.
+VID: Slow, smooth drone glide toward the mansion over the grey water. Storm clouds drift, the first rain starts to fall, distant thunder rumbles. The mansion stays exactly the same; all curtains stay closed.
+
+--- 1.2 | The untouched cake and the lonely man
+WHO: chief
+IMG: Wide shot of the dim bedroom. In the foreground, the silver tray with the small birthday cake and one unlit candle, untouched. In the background, Chief stands at the rainy window with his back half to camera, leaning on his cane, holding a phone up on a video call.
+VID: Very slow push-in from the cake toward Chief. Rain runs down the window. A cheerful man's voice comes from the phone speaker (Segun, off-screen): "Happy birthday, Daddy! Did the wine arrive? I sent the expensive one." Chief does not turn around.
+START: New image
+
+--- 1.3 | "My son did not."
+WHO: chief, segun
+IMG: Over-the-shoulder close shot of Chief holding the phone; the phone screen shows Segun in a busy glass office in Abuja, adjusting his tie. Chief's tired face in soft lamp light, rain-light on one side.
+VID: Chief stares at the screen and says slowly: "The wine arrived." He pauses. "My son did not." On the screen, Segun laughs it off: "Daddy, please, not today." Chief's jaw tightens.
+START: New image
+
+--- 1.4 | The twins
+WHO: chief
+IMG: Medium close-up of Chief's face, side-lit by the lamp, the phone held low in his hand, eyes wet but hard.
+VID: Chief speaks into the phone, quiet and hurt: "When are you bringing the twins? I last saw them when they were seven. They're twelve now. I know them from photographs, Segun. Like strangers in a newspaper." He blinks slowly.
+START: Last frame of 1.3
+
+--- 1.5 | "Every month is a bad month."
+WHO: chief, segun
+IMG: Close-up of the phone screen in Chief's hand: Segun in his office, distracted, glancing off-screen as someone calls him.
+VID: Segun on screen: "It's a bad month. The merger, the Senate committee…" Chief's voice, flat: "Every month is a bad month." Segun glances away, then: "Christmas. I promise. We'll all come at Christmas."
+START: New image
+
+--- 1.6 | Call ended
+WHO: chief, segun
+IMG: Medium shot of Chief by the window holding the phone, his face lit by the screen.
+VID: Chief, quietly: "You promised last Christmas." On the phone, Segun hurries: "Daddy, they're calling me in. I love you. Bye-bye!" The screen freezes and goes still. Chief stares at it. His jaw tightens and his hand starts to shake.
+START: Last frame of 1.5
+
+--- 1.7 | The phone hits the marble
+WHO: chief
+IMG: Low-angle medium shot of Chief raising the phone in anger, lamp light behind him, rain on the window.
+VID: Chief throws the phone down onto the marble floor. The screen cracks and small pieces of glass scatter across the floor. He stands breathing hard, leaning on his cane, staring at the broken phone.
+START: Last frame of 1.6
+
+--- 1.8 | Nurse Grace rushes in
+WHO: chief, grace
+IMG: Wide shot from inside the bedroom: the door is open and Nurse Grace has just stepped in, worried. Chief stands by the window, not looking at her; the broken phone lies on the floor between them.
+VID: Grace: "Sir! Sir, is everything okay?" Chief, without looking: "Leave my room." Grace steps closer gently: "Sir, your blood pressure. Please, let me help you to the chair…" and softly takes his elbow.
+START: New image
+
+--- 1.9 | "Don't touch me!"
+WHO: chief, grace
+IMG: Medium two-shot: Grace holding Chief's elbow, Chief turning on her with fury, the dark wood dresser just behind her.
+VID: Chief pulls his arm free and pushes her hand away hard; Grace stumbles back one step and bumps against the dresser, unhurt. Chief shouts: "Don't touch me! Why are you here? Mm? Because I pay you!"
+START: Last frame of 1.8
+
+--- 1.10 | "Paid to forget me"
+WHO: chief, grace
+IMG: Medium shot of Chief pointing his ivory cane toward Grace (off-frame edge), lamp light hard on his face.
+VID: Chief, shaking with anger: "Everybody in this house is paid to smile at me. My children too. Paid with my money to forget me! Go home to your own father, if he's still alive, and see whether you'll even visit him."
+START: New image
+
+--- 1.11 | "My father is dead, sir."
+WHO: grace, chief
+IMG: Close-up of Grace against the dresser, straightening slowly, tears in her eyes; Chief soft and out of focus in the background.
+VID: Silence, only rain. Grace slowly straightens up, tears falling. Quietly: "My father is dead, sir." In the background, Chief's face flickers with shame; he opens his mouth but says nothing.
+START: New image
+
+--- 1.12 | The badge on the dresser
+WHO: grace, chief
+IMG: Close shot of Grace's hands unpinning the name badge from her scrubs above the dresser top.
+VID: Grace unpins her badge and places it gently on the dresser. Camera follows her hands, then her face as she turns and walks out through the open door without looking back. Chief remains still, his head lowered.
+START: Last frame of 1.11
+
+--- 1.13 | Aunty Ronke and the blue tablet
+WHO: ronke, chief
+IMG: Aunty Ronke standing in the open doorway holding a silver tray with a glass of water and one small blue tablet; Chief in the foreground, side-on.
+VID: Ronke steps in calmly: "Your evening tablet, sir. You've been shouting. It's for your pressure." She holds the tray out. Chief takes the blue tablet without looking at her.
+START: New image
+
+--- 1.14 | She watches him swallow
+WHO: ronke, chief
+IMG: Over Chief's shoulder onto Ronke's face as he drinks the water; her eyes fixed on him.
+VID: Chief swallows the tablet and drinks. Ronke watches him swallow, a beat too long, without blinking. Then she steps back out and slowly closes the bedroom door. The door stays closed.
+START: Last frame of 1.13
+
+--- 1.15 | "Grace, come back."
+WHO: chief
+IMG: Chief alone at the dresser, looking down at Grace's name badge; his face softening.
+VID: Chief picks up the badge and looks at it; his hard face softens. He turns and limps slowly toward the door with his cane, opens it and steps out toward the staircase landing.
+START: New image
+
+--- 1.16 | Top of the twenty-two steps
+WHO: chief
+IMG: Wide shot from below looking up the grand curved marble staircase: Chief at the top, one hand on the banister, cane in the other, the chandelier above him, the portrait at the bottom of frame.
+VID: Chief calls down the stairs, almost gentle: "Grace… Grace, come back. I didn't mean…" He blinks hard. Rain echoes in the empty hall.
+START: New image
+
+--- 1.17 | His vision blurs
+WHO: chief
+IMG: Point-of-view shot from the top of the staircase looking down the 22 marble steps, the chandelier glowing at the top of frame, slightly soft focus.
+VID: The view slowly drifts out of focus and gently tilts to one side, the chandelier light swimming. Chief's voice, confused: "Grace…?" His breathing gets heavy.
+START: New image
+
+--- 1.18 | The fall
+WHO: chief
+IMG: Wide shot from the bottom of the staircase: Chief at the top, his cane slipping on the polished marble, his body tipping forward.
+VID: In slow motion, the cane slips and Chief loses his balance, sliding and rolling down the curved staircase. The cane clatters down after him. He comes to rest at the bottom of the stairs, lying still. No blood, no injuries shown.
+START: Last frame of 1.16
+
+--- 1.19 | Beneath Mama Abike's portrait
+WHO: chief
+IMG: Low close shot along the marble floor: Chief lying still at the foot of the staircase, eyes half closed, the huge portrait of the smiling woman in the gold gele above him.
+VID: Silence except rain. Chief's fingers twitch and slowly reach toward the portrait, then stop. Camera slowly rises up to the portrait's smiling face.
+START: New image
+
+--- 1.20 | She waits
+WHO: ronke
+IMG: Looking up from the bottom of the stairs to the dark upstairs corridor: a door opened a crack, half of Aunty Ronke's face visible, watching.
+VID: The door stays open just a crack. Ronke looks down without moving, without screaming, without running. She waits. Slow fade to black at the end.
+START: New image
+
+=== 2 | "He will not walk again." | Private hospital, Ikoyi · night, rain
+SET: A modern private hospital in Ikoyi at night, rain outside. VIP suite: soft dim lighting, a large hospital bed with white sheets, a heart monitor beeping softly, a drip stand, a lightbox on the wall, a big window with rain and city lights, a glass wall to the corridor. Corridor: polished floor, cool soft light.
+WEAR: chief=a pale blue hospital gown, lying in bed with a drip in his arm; femi=a navy three-piece suit with the tie pulled loose, two phones in his hands; gabriel=a grey suit with a white open-collar shirt; hassan=a clean white doctor's coat over a light blue shirt, stethoscope; lekan=a black agbada with silver embroidery, carrying a big bouquet of white lilies; ronke=a black housekeeper's dress with white collar, holding an overnight bag; segun=a charcoal suit (voice only)
+
+--- 2.1 | Establishing: ambulance in the rain
+WHO:
+IMG: Exterior of a sleek private hospital at night, rain falling, an ambulance at the entrance with its blue light flashing softly on wet ground.
+VID: Slow push toward the entrance. Rain falls steadily, the ambulance light pulses gently, a paramedic closes the ambulance door. Sound of rain and a distant siren fading.
+START: New image
+
+--- 2.2 | Femi bursts in
+WHO: chief, femi, gabriel, hassan
+IMG: Wide shot of the VIP suite: Chief unconscious in bed with tubes and a monitor; Dr. Hassan holds an X-ray up to the lightbox; Femi has just come through the door with Gabriel behind him.
+VID: Femi strides to the doctor: "Doctor, talk to me. How bad?" Dr. Hassan turns, holding the X-ray. Gabriel stays near the door. The monitor beeps softly.
+START: New image
+
+--- 2.3 | The X-ray
+WHO: hassan, femi
+IMG: Two-shot: Dr. Hassan pointing at the X-ray on the lightbox, Femi beside him, tense.
+VID: Dr. Hassan: "He fractured his hip, and the fall bruised his lower spine. There's severe swelling around the nerves." He lowers the X-ray. "Mr. Adenuga, I'll be honest with you."
+START: Last frame of 2.2
+
+--- 2.4 | "Your grandfather will not walk again."
+WHO: hassan, femi
+IMG: Close-up of Femi's face as he listens, the two phones in his hand; Dr. Hassan soft in the background.
+VID: Dr. Hassan (off-screen): "From what I see tonight, your grandfather will not walk again." Femi's phones buzz and then slowly go quiet in his hands. He stares, stunned.
+START: New image
+
+--- 2.5 | "The spine doesn't read passports."
+WHO: femi, hassan
+IMG: Medium two-shot of Femi pleading with Dr. Hassan beside the bed.
+VID: Femi: "There must be something. Germany. America. I'll fly in any specialist…" Dr. Hassan, gently: "You can fly him anywhere in the world, but the spine doesn't read passports. Prepare him."
+START: New image
+
+--- 2.6 | Chief has heard everything
+WHO: chief
+IMG: Close-up of Chief in the hospital bed, his eyes slowly opening, monitor light on his face.
+VID: Chief's eyes open slowly. He stares at the ceiling. He has heard everything. A single slow breath. The monitor beeps.
+START: New image
+
+--- 2.7 | Femi takes his hand
+WHO: femi, chief
+IMG: Medium shot: Femi sitting on the edge of the bed holding his grandfather's hand in both of his.
+VID: Femi, softly: "Grandpa. I'm here. Everything will be fine. I promise you." Chief looks down at the hands holding his.
+START: New image
+
+--- 2.8 | He turns his face to the wall
+WHO: chief, femi
+IMG: Close shot over Femi's shoulder onto Chief's face on the pillow.
+VID: Slowly and deliberately, Chief turns his face away to the wall. His hand stays limp. Femi is left holding a hand that doesn't hold back; his face falls.
+START: Last frame of 2.7
+
+--- 2.9 | Lekan arrives with lilies
+WHO: lekan, chief, ronke
+IMG: Wide shot: Lekan entering through the door with a huge bouquet of white lilies; in the corner, Aunty Ronke stands holding the overnight bag.
+VID: Lekan, loud and warm: "Chief! Ah! God forbid bad thing!" He puts the flowers down and pats Chief's blanket. "Rest, Chief. Rest. Femi and I will carry the company. You don't need to worry about anything."
+START: New image
+
+--- 2.10 | The secret nod
+WHO: lekan, ronke
+IMG: Medium shot across the room: Lekan by the bed, Aunty Ronke in the corner; their eyes meet.
+VID: Lekan glances at Ronke. The smallest nod passes between them. Nobody else notices. Ronke looks down at the bag. The monitor beeps steadily.
+START: New image
+
+--- 2.11 | "You're not coming?"
+WHO: femi, gabriel
+IMG: Hospital corridor: Femi pacing with a phone to his ear, Gabriel leaning against the wall; through the glass wall behind them, Chief in bed facing the wall.
+VID: Femi on the phone: "Dad, he fell down twenty-two steps. The doctor says he can't walk." Pause. "You're not coming?" A man's voice on the phone (Segun): "Hire the best caretaker in Lagos, Femi. Pay anything. Money is not the problem."
+START: New image
+
+--- 2.12 | "Money is the only thing…"
+WHO: femi, gabriel, chief
+IMG: Two-shot in the corridor: Femi lowering the phone, Gabriel beside him; Chief visible through the glass behind them.
+VID: Femi, bitter, to Gabriel: "Money is the only thing in this family that's never the problem." Gabriel puts a hand on his shoulder. Behind the glass, Chief stares at the wall. Slow fade.
+START: Last frame of 2.11
+
+=== 3 | One year | Public hospital, Ikeja · day
+SET: A crowded government hospital in Ikeja in the daytime. A long female ward with twelve metal beds, peeling green paint, a slow ceiling fan turning, louvre windows with soft dusty daylight, faded curtains, women and relatives on benches. Corridor: worn tiles, a green wall, a wooden bench. Mama Funmi's bed is the last bed by the window.
+WEAR: ireti=a faded yellow ankara blouse and black skirt, brown slippers mended with tape; funmi=a faded blue wrapper and blouse with the wine head wrap, lying in the bed; dayo=a faded green secondary-school uniform shirt and dark trousers; okoro=a faded white doctor's coat over a blue shirt, stethoscope, holding a brown file
+
+--- 3.1 | Establishing: the public hospital
+WHO:
+IMG: Exterior of a busy old public hospital in Ikeja on a hot day: a peeling green sign without readable words, women waiting on benches under a shade, people walking past.
+VID: Slow pan across the hospital front: women fanning themselves on benches, a nurse walking past, a danfo bus passing on the road. Sound of distant traffic and voices.
+START: New image
+
+--- 3.2 | The ward
+WHO: ireti, funmi, dayo
+IMG: Wide shot down the long ward: the ceiling fan turning, twelve beds; at the far end by the window, Ireti sits braiding her mother's hair while Dayo sits on the floor with a book.
+VID: Slow dolly down the aisle toward the last bed. Patients rest, a relative fans a woman. The ceiling fan turns slowly. Soft ward sounds.
+START: New image
+
+--- 3.3 | "The past tense of money?"
+WHO: dayo, ireti, funmi
+IMG: Medium three-shot at the bedside: Ireti braiding Mama Funmi's hair, Dayo on the floor looking up from a thick exam book.
+VID: Dayo: "Sister, what's the past tense of 'seek'?" Ireti: "Sought." Dayo: "And the past tense of 'money'?" Ireti, deadpan: "Finished." Mama Funmi laughs, then coughs. Ireti's smile drops.
+START: New image
+
+--- 3.4 | Pure water money
+WHO: ireti, dayo
+IMG: Close shot of Ireti handing Dayo a crumpled small naira note.
+VID: Ireti: "Dayo, go and buy pure water. Two sachets. Take this." Dayo stands up: "Two sachets of water for a hundred naira. This country." He walks off down the ward.
+START: New image
+
+--- 3.5 | The lullaby
+WHO: ireti, funmi
+IMG: Close two-shot: Ireti holding her mother's hand on the white sheet, Mama Funmi with eyes closing, soft window light.
+VID: Ireti hums an old Yoruba lullaby softly. Mama Funmi closes her eyes, at peace. Ireti strokes her hand.
+START: New image
+
+--- 3.6 | Dr. Okoro at the door
+WHO: okoro, ireti
+IMG: From the bedside looking toward the ward doorway: Dr. Okoro standing there holding a brown file, Ireti turning her head toward him.
+VID: Dr. Okoro: "Miss Alade. Can I talk to you?" Ireti gently lets go of her mother's hand and stands up.
+START: New image
+
+--- 3.7 | He closes the file
+WHO: okoro, ireti
+IMG: Corridor two-shot: Dr. Okoro and Ireti facing each other by the green wall; he holds the brown file.
+VID: Dr. Okoro closes the file before he speaks. Ireti sees it, and knows. He says gently: "The growth on your mother's heart is bigger than we thought. It's pressing on the valve. Without surgery… I'd give her one year. Maybe less."
+START: New image
+
+--- 3.8 | "One year."
+WHO: ireti
+IMG: Close-up of Ireti, her hand going to the wall to steady herself.
+VID: Ireti puts her hand flat on the wall. Barely a whisper: "One year." Her eyes fill with tears.
+START: New image
+
+--- 3.9 | Thirty-eight million
+WHO: okoro, ireti
+IMG: Two-shot in the corridor, Dr. Okoro leaning in kindly.
+VID: Dr. Okoro: "There's a hospital in Chennai, in India, that does this operation every week. But it costs about thirty-eight million naira." Ireti, a small broken laugh: "Thirty-eight million."
+START: Last frame of 3.8
+
+--- 3.10 | She slides to the floor
+WHO: okoro, ireti
+IMG: Wide corridor shot: Dr. Okoro walking away; Ireti alone against the green wall.
+VID: Dr. Okoro touches her shoulder: "I'm sorry, my dear." He walks away. Ireti slides down the wall to the floor and cries, covering her mouth so the ward won't hear.
+START: New image
+
+--- 3.11 | "Since when does dust enter a hospital?"
+WHO: ireti, funmi
+IMG: Back at the bedside: Ireti fluffing her mother's pillow with a forced smile; Mama Funmi looking up at her.
+VID: Mama Funmi: "Why are you crying?" Ireti: "I'm not crying, Mummy. Dust." Mama Funmi, quietly: "Since when does dust enter a hospital?" Ireti: "This hospital? Everything enters this hospital. Even goats."
+START: New image
+
+--- 3.12 | Laughing, then breaking
+WHO: funmi, ireti
+IMG: Close shot from Mama Funmi's side: Mama Funmi laughing on the pillow, Ireti standing behind her head.
+VID: Mama Funmi laughs. Ireti laughs with her, and behind her mother's head, where her mother can't see, her face crumples. She presses her lips together.
+START: Last frame of 3.11
+
+--- 3.13 | The notebook at night
+WHO: ireti
+IMG: Night, a hospital bench under one fluorescent tube; Ireti alone writing in a small notebook.
+VID: Ireti writes slowly, stops, stares at the page, then underlines something twice. She closes her eyes. Quiet night sounds, a fan humming. (Add the notebook text in editing.)
+START: New image
+
+=== 4 | Forty thousand naira | Bukka Royale restaurant, Ikeja · day
+SET: Bukka Royale, a busy local Lagos restaurant (bukka) in Ikeja in the daytime: plastic chairs and tables, a serving counter with big steel pots, steam rising, a menu painted on the wall, fans turning, daylight from the open front, customers eating. Outside: a busy Ikeja street with yellow danfo buses, hawkers and roadside grill smoke.
+WEAR: ireti=a black T-shirt and a plain orange apron; jide=a maroon polo shirt and a stained white apron, sweat on his face; chioma=a yellow T-shirt and a dark brown apron, gold sunglasses on her head; dayo=a faded green school shirt (voice only)
+
+--- 4.1 | Establishing: Ikeja street
+WHO:
+IMG: A busy Ikeja street in daylight: yellow danfo buses, a hawker with snacks on a tray, smoke rising from a roadside grill, the front of a small busy local restaurant with plastic chairs.
+VID: Slow pan across the street to the restaurant entrance: danfo conductors shouting, a hawker walking, smoke drifting. Natural street noise.
+START: New image
+
+--- 4.2 | Four plates on one arm
+WHO: ireti, jide
+IMG: Inside the busy bukka: Ireti carrying four plates on one arm between tables; Mr. Jide at the counter waving her over.
+VID: Ireti sets plates down for customers. Mr. Jide shouts from the counter: "Ireti! You broke a plate on Monday. Two thousand naira. From your salary." Ireti walks over.
+START: New image
+
+--- 4.3 | "Did Chioma's name appear on the plate?"
+WHO: ireti, jide
+IMG: Counter two-shot: Mr. Jide leaning on the counter, Ireti in front of him.
+VID: Ireti: "Sir, the plate was already cracked. Chioma dropped it…" Mr. Jide: "Did Chioma's name appear on the plate?" He laughs loudly at his own joke.
+START: New image
+
+--- 4.4 | "Am I a bank?"
+WHO: ireti, jide, chioma
+IMG: Wider counter shot: Ireti pleading, Mr. Jide dismissive, Chioma leaning on the counter chewing gum.
+VID: Ireti: "Sir, please. I need an advance on next month's salary. My mother…" Mr. Jide: "Advance? Ah-ah. Am I a bank? Forty thousand. End of month. Like everybody." Chioma: "Ireti and her 'my mother.' Everybody has a mother."
+START: New image
+
+--- 4.5 | Dayo calls
+WHO: ireti
+IMG: Close shot of Ireti stepping aside by the kitchen hatch, phone to her ear, eyes closed.
+VID: Dayo's voice on the phone: "Sister, JAMB registration closes on Friday. Twenty-five thousand." Ireti, eyes closed: "I'll find it." Dayo: "You said that last week." Ireti: "And I'm saying it again this week. Go and read."
+START: New image
+
+--- 4.6 | Counting money on the danfo
+WHO: ireti
+IMG: Evening inside a packed yellow danfo bus: Ireti by the window counting a few small naira notes from her purse, tired passengers around her.
+VID: Ireti counts the notes slowly, sighs, folds them back into her purse. The bus rocks gently, evening light passes over her face.
+START: New image
+
+--- 4.7 | The billboard
+WHO: ireti, chief
+IMG: View through the danfo window: a giant roadside billboard of Chief smiling proudly in a dark suit, with no readable text.
+VID: The billboard slides past the window as the bus moves. Ireti turns her head and keeps looking back at his face until it's gone. (Add the billboard words in editing if wanted.)
+START: New image
+
+=== 5 | The sweet food | The Alade home, Mushin · evening
+SET: A poor face-me-I-face-you compound in Mushin at dusk: a narrow yard, children playing barefoot, a woman frying puff-puff, a roaring generator, one bare bulb. The Alade room: one small room with a mat on the floor, a thin mattress, a kerosene stove, a small old TV, a small framed photo on the wall, plastic chairs, warm yellow bulb light.
+WEAR: ireti=a faded yellow ankara blouse and black skirt, taped brown slippers; funmi=a faded blue wrapper and blouse, wine head wrap, a shawl over her shoulders; dayo=a white singlet and shorts
+
+--- 5.1 | Establishing: the compound at dusk
+WHO:
+IMG: A crowded face-me-I-face-you compound in Mushin at dusk: barefoot children playing, a woman frying puff-puff over a small fire, washing lines, one bulb glowing.
+VID: Slow pan across the yard: children run past, oil sizzles, a generator rumbles. Natural evening noise.
+START: New image
+
+--- 5.2 | Mama Funmi at the stove
+WHO: ireti, funmi, dayo
+IMG: Ireti pushing open the door of the small room and stopping; Mama Funmi in a shawl at the kerosene stove stirring a pot of jollof rice, fried fish beside it; Dayo eating on the mat.
+VID: Ireti stops in the doorway: "Ah! Mummy! What are you doing? You're supposed to be resting!" Dayo, mouth full: "Sister, sit down and taste it first. This food is SWEET."
+START: New image
+
+--- 5.3 | "Where did the money come from?"
+WHO: ireti, funmi, dayo
+IMG: Medium three-shot: Ireti standing, Mama Funmi and Dayo exchanging a look.
+VID: Ireti: "Where did the money for fish come from?" Mama Funmi and Dayo exchange a look. Dayo, proudly: "Me. I help people in my class fill their workbooks. Five hundred naira per book."
+START: New image
+
+--- 5.4 | "You did WHAT?"
+WHO: ireti, dayo
+IMG: Two-shot: Ireti angry, Dayo standing up from the mat.
+VID: Ireti, sharp: "You did WHAT? Don't ever do that again! You're writing JAMB in two months. Read YOUR books!" Dayo stands, hurt.
+START: New image
+
+--- 5.5 | "You think I'm blind?"
+WHO: dayo, ireti
+IMG: Close-up of Dayo, hurt and serious, Ireti soft in the foreground.
+VID: Dayo: "Sister, I see how you're struggling. You walk home to save transport. You eat once a day. You think I'm blind?" Ireti: "It's my responsibility, Dayo. Not yours." Dayo, quietly: "No problem."
+START: New image
+
+--- 5.6 | "The time I have"
+WHO: funmi, ireti
+IMG: Medium shot of Mama Funmi calmly stirring the pot, Ireti turned toward her.
+VID: Mama Funmi: "Ireti. At least thank your brother." Ireti: "Mummy, you know what the doctor said!" Mama Funmi, calm, still stirring: "That's exactly why I'm cooking. I'm making the best of the time I have with you and your brother."
+START: New image
+
+--- 5.7 | Dayo hears it
+WHO: dayo, funmi, ireti
+IMG: Close shot of Dayo slowly lowering his plate, confused.
+VID: The room goes very still. Dayo: "Mummy… what do you mean, 'the time you have'?" Mama Funmi, too quickly: "Nothing. Ireti, go and bathe. The rice is getting cold." She looks at Ireti and gently shakes her head: not in front of him.
+START: New image
+
+--- 5.8 | The news on TV
+WHO: ireti, funmi, dayo
+IMG: All three sitting on the mat eating, faces lit by the small TV; the TV shows a photo of Chief smiling.
+VID: A newsreader's voice from the TV: "Billionaire industrialist Chief Babatunde Adenuga is reported to be in a wheelchair after a fall at his Banana Island home." Dayo, open-mouthed: "Mummy, look at this man's house! This man is rich o!"
+START: New image
+
+--- 5.9 | "Money can't buy legs."
+WHO: funmi, ireti, dayo
+IMG: Close shot of Mama Funmi and Ireti watching the TV glow.
+VID: Mama Funmi: "He's very, very rich. And money can't buy legs." Ireti, watching: "He looks sad. Even smiling, his eyes are sad." Dayo: "Sister, with that money, I'd be sad in a jet." All three laugh.
+START: Last frame of 5.8
+
+--- 5.10 | Crying under the bulb
+WHO: ireti
+IMG: Night in the yard: Ireti sitting alone on an upturned bucket under the single bulb, crying into her wrapper.
+VID: Ireti cries silently. From inside the room, Mama Funmi's soft voice: "Ireti. Come." Ireti wipes her face and looks toward the door.
+START: New image
+
+=== 6 | "Take care of your brother." | The Alade home · night
+SET: The small Alade room at night, lit by one candle on the floor: Dayo asleep and snoring on the mat, Mama Funmi on a thin mattress, a small framed photo on the wall of a smiling man waving with a burn scar on his right palm (use the Kehinde reference image as the photo), deep shadows, warm candlelight.
+WEAR: ireti=a faded yellow blouse and wrapper; funmi=a faded blue wrapper, wine head wrap; dayo=a white singlet
+
+--- 6.1 | One candle
+WHO: dayo
+IMG: Wide shot of the dark room lit by one candle; Dayo asleep on the mat; the small framed photo of the smiling man on the wall.
+VID: The candle flame flickers gently. Dayo snores softly. Slow push-in toward the framed photo on the wall.
+START: New image
+
+--- 6.2 | "Hospital walls are thin."
+WHO: ireti, funmi
+IMG: Close two-shot: Ireti kneeling beside her mother's mattress in candlelight.
+VID: Mama Funmi whispers: "I heard the doctor. Hospital walls are thin." Ireti: "Mummy…" Mama Funmi: "I know I'm dying. I'm not afraid." She takes Ireti's face in her hands.
+START: New image
+
+--- 6.3 | "Promise me."
+WHO: funmi, ireti
+IMG: Close-up of Mama Funmi holding Ireti's face, candlelight on both.
+VID: Mama Funmi: "When I go, take care of your brother. Make sure he finishes school. Promise me." Ireti: "No." Mama Funmi: "Ireti…" Ireti: "No, Mummy. I'll find a way."
+START: Last frame of 6.2
+
+--- 6.4 | "I'll find a way."
+WHO: ireti, funmi
+IMG: Close-up of Ireti, firm, tears falling.
+VID: Mama Funmi (off-screen): "How? We don't even have thirty-eight thousand." Ireti, firm, tears falling: "I'll find a way. I don't know how. But I'll find a way."
+START: New image
+
+--- 6.5 | "You sound like your father."
+WHO: funmi, ireti
+IMG: Mama Funmi looking up at the framed photo on the wall, smiling faintly; Ireti beside her.
+VID: Mama Funmi: "You sound like your father. Do you remember what he used to say?" Ireti, a wet laugh: "When the fire is high, somebody has to put their hand in."
+START: New image
+
+--- 6.6 | The scar story
+WHO: funmi, ireti
+IMG: Close shot of Mama Funmi drifting off on the pillow, Ireti leaning in.
+VID: Mama Funmi, yawning: "He put his hand in a fire once. For a stranger. That's how he got that scar. I'll tell you that story one day…" Ireti: "Tell me now." But her mother is asleep.
+START: New image
+
+--- 6.7 | "Daddy. Show me the fire."
+WHO: ireti
+IMG: Ireti standing at the wall, pressing her palm flat against the glass of her father's photo, candlelight on her face.
+VID: Ireti presses her right palm flat on the glass over her father's scarred palm. She whispers: "Daddy. Show me the fire." The candle flickers. Slow fade.
+START: New image
+
+=== 7 | Amala, not eba | Bukka Royale · lunchtime rush
+SET: Bukka Royale at the lunchtime rush: packed tables, steam rising from big pots of ewedu and gbegiri, a radio playing fuji music low, plastic chairs scraping, a kitchen hatch to the back, warm daylight from the open front, a corner table by the wall.
+WEAR: ireti=a black T-shirt and a plain orange apron; chioma=a yellow T-shirt, dark brown apron, gold sunglasses on her head; gabriel=a grey suit with a white open-collar shirt, phone in hand; jide=a maroon polo shirt and stained white apron
+
+--- 7.1 | Establishing: the lunch rush
+WHO:
+IMG: Wide shot of the packed bukka at lunchtime: steam over the pots, customers eating, a woman serving behind the counter, ceiling fans turning.
+VID: Slow pan across the busy room: steam rises, customers eat with their hands, a waiter passes with plates. Low fuji music from a radio, chatter and clinking.
+START: New image
+
+--- 7.2 | Gabriel orders
+WHO: gabriel, chioma
+IMG: Gabriel sitting at the corner table on a phone call; Chioma standing over him chewing gum.
+VID: Gabriel on the phone: "No, tell the board three o'clock, not two…" He covers the phone: "Amala, please, with ewedu. Assorted. Five meats." Back to the phone: "No, not you, I'm ordering food…" Chioma walks off.
+START: New image
+
+--- 7.3 | The wrong plate
+WHO: gabriel, chioma
+IMG: Chioma putting down a steaming plate of eba with ewedu and meats; Gabriel ending his call and looking down.
+VID: Gabriel looks at the plate: "Sorry, madam. I asked for amala." Chioma: "You said eba." Gabriel, polite: "I said amala. Please, just change it for me."
+START: New image
+
+--- 7.4 | "It's not my problem!"
+WHO: chioma, gabriel
+IMG: Chioma with one hand on her hip, Gabriel seated looking up at her.
+VID: Chioma: "Oga, once food is served, it's sold. My madam will kill me." Gabriel: "I'll pay for both. It's not about…" Chioma: "It's not my problem!" She hisses and storms off toward the kitchen.
+START: Last frame of 7.3
+
+--- 7.5 | Ireti saw everything
+WHO: ireti, gabriel
+IMG: From across the room: Ireti holding a tray, watching Gabriel sigh at his plate.
+VID: Ireti puts her tray down and walks over to his table. "Good afternoon, sir. I'm so sorry for my colleague's attitude. Please give me one minute." She takes the plate.
+START: New image
+
+--- 7.6 | Paying from her own pocket
+WHO: ireti
+IMG: Through the kitchen hatch: Ireti talking to the cook and pulling small naira notes from her apron pocket.
+VID: Ireti hands the cook the money from her own pocket and nods. The cook scoops amala onto a fresh plate. Steam rises.
+START: New image
+
+--- 7.7 | "On the house."
+WHO: ireti, gabriel
+IMG: Ireti placing a perfect plate of amala with ewedu, gbegiri and five meats in front of Gabriel.
+VID: Ireti: "Amala, sir. With extra gbegiri. On the house." Gabriel, touched: "On the house? Did your manager approve that?" Ireti, smiling: "My manager doesn't know. Let's keep it that way." Gabriel laughs.
+START: New image
+
+--- 7.8 | "Ireti. Hope."
+WHO: gabriel, ireti
+IMG: Two-shot at the table: Gabriel looking up at Ireti with interest.
+VID: Gabriel: "Thank you. Truly. What's your name?" Ireti: "Ireti, sir." Gabriel: "Ireti. Hope. You speak beautifully. Aren't you too young to be working in a restaurant?"
+START: Last frame of 7.7
+
+--- 7.9 | "Now I nurse plates."
+WHO: ireti, gabriel
+IMG: Close-up of Ireti, a small brave smile.
+VID: Ireti: "I was studying Nursing, sir. 300 level. My father died, and the school fees died with him." She shrugs, smiling: "Now I nurse plates." Gabriel goes quiet, impressed: "Nursing."
+START: New image
+
+--- 7.10 | The gold card
+WHO: gabriel, ireti
+IMG: Close shot of Gabriel writing on the back of a gold-edged business card.
+VID: Gabriel hands her the card: "Come to this address tomorrow, eight a.m. Tell them Gabriel sent you." Ireti: "Sir… what is it for?" Gabriel stands: "A job nobody can keep. Something tells me you might." He leaves money on the table.
+START: New image
+
+--- 7.11 | Mr. Jide snatches the card
+WHO: jide, ireti
+IMG: Mr. Jide snatching the card out of Ireti's hand, reading it with a mocking face.
+VID: Mr. Jide reads it and laughs: "Adenuga Crest Tower? You?" He flicks the card at her and it falls to the floor. "If you go for any interview tomorrow, don't bother coming back here."
+START: New image
+
+--- 7.12 | She wipes it clean
+WHO: ireti
+IMG: Close shot: Ireti bending to pick the gold card up off the floor.
+VID: Ireti picks the card up slowly and wipes it clean on her apron. She looks at it, then up toward the door. Slow fade.
+START: New image
+
+=== 8 | The queue of a thousand | Adenuga Crest Tower, Victoria Island · morning
+SET: Victoria Island in bright morning sun. Adenuga Crest Tower: a 40-floor glass tower with a gold "AC" logo near the top, a long queue of hundreds of job applicants (nurses in white, graduates in suits, people holding folders) snaking around the block, a security gate. Inside: a plain interview hall with a long table and three panelists, a single chair in front.
+WEAR: ireti=a faded yellow ankara blouse and black skirt, brown slippers mended with tape, holding a gold-edged card
+
+--- 8.1 | Establishing: the gold tower
+WHO:
+IMG: Low-angle view of a 40-floor glass tower in Victoria Island with a gold "AC" logo, a huge queue of people around the block in morning sun.
+VID: Slow tilt down from the gold logo to the long queue on the street. Cars pass. City sounds.
+START: New image
+
+--- 8.2 | The end of the queue
+WHO: ireti
+IMG: Ireti joining the end of the queue in her faded blouse and taped slippers; a woman in a sharp suit in front of her looking her up and down.
+VID: The woman in the suit turns: "Is this the cleaners' line?" Ireti, politely: "I don't know, ma. Is it?" People around them laugh. Ireti keeps her head up.
+START: New image
+
+--- 8.3 | The security gate
+WHO: ireti
+IMG: At the gate: a security man in uniform blocking Ireti, who holds out the gold card.
+VID: Security man: "Where's your CV? Your certificates?" Ireti holds out the card: "Gabriel Okafor sent me." He reads it, his face changes, and he steps aside, still confused.
+START: New image
+
+--- 8.4 | The panel
+WHO: ireti
+IMG: Inside the interview hall: three panelists at a long table; Ireti sitting alone in a chair that's too big for her.
+VID: Female panelist: "Caretaker to Chief Babatunde Adenuga. Twelve caretakers in four months. One lasted two days. Why should we give YOU this job?" Ireti pauses: "Because I won't leave." The panel laughs.
+START: New image
+
+--- 8.5 | "I don't."
+WHO: ireti
+IMG: Close-up of Ireti, calm, the laughing panel blurred in front of her.
+VID: Panelist: "That's what all twelve of them said." Ireti: "Then maybe they had somewhere else to go, ma." Beat. "I don't." The laughter stops. The panelists look at each other.
+START: New image
+
+--- 8.6 | The long walk home
+WHO: ireti
+IMG: Afternoon heat on a long Lagos expressway: Ireti walking on the roadside with her slippers in her hand, the gold tower far behind her.
+VID: Ireti walks barefoot along the hot roadside, cars rushing past. She looks back once at the distant gold tower and shakes her head at herself, then keeps walking. Slow fade.
+START: New image

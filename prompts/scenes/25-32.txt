@@ -1,0 +1,613 @@
+=== 25 | The necklace | Mansion grand hall · day
+SET: The grand hall in bright daytime, curtains open, polished marble floor, the curved staircase and the huge portrait of the smiling woman in the gold gele and a diamond necklace. On the floor: Ireti's faded nylon bag lying open with a sparkling diamond necklace on top, an empty open velvet jewellery box beside it. A lift door at the side.
+WEAR: ireti=a light-blue scrubs top and white trousers, brown slippers; ronke=a black housekeeper's dress with white collar; femi=a navy three-piece suit; chief=a bright ankara shirt, sweaty from rehab, in his wheelchair with the brown puppy on his lap; dayo=a green school shirt (voice only)
+
+--- 25.1 | The empty velvet box
+WHO:
+IMG: Cold close-up of an open, empty velvet jewellery box on a marble floor beside a faded nylon bag.
+VID: Very slow push in on the empty box. Silence, then footsteps on marble.
+START: New image
+
+--- 25.2 | "In HER bag."
+WHO: ronke, ireti, femi
+IMG: Ronke holding up the diamond necklace in front of Femi; Ireti in the doorway, stunned.
+VID: Ronke: "Mama Abike's necklace. From Chief's locked box. In HER bag." Ireti: "That's… I've never seen it before in my life." Ronke: "These gutter girls, sir. I told you from the first day."
+START: New image
+
+--- 25.3 | "Is this how you planned it?"
+WHO: femi, ireti
+IMG: Femi cold and hurt, facing Ireti.
+VID: Femi: "Ireti. Is this how you planned to get your 'thirty-eight weeks'?" Ireti: "Sir, please, listen. I didn't take it. There's something I must tell you about the medicine. Dr. Hassan just called…"
+START: New image
+
+--- 25.4 | Ronke cuts in
+WHO: ronke, femi
+IMG: Ronke stepping in front of Ireti, loud; Femi glancing at his buzzing phone.
+VID: Ronke, loudly: "Now she'll start inventing stories about medicine to save herself! Sir, she's been sniffing around my cabinet for weeks!" Femi's phone buzzes. He glances at it, stressed: "The AGM is in two weeks. If the press hears there's a thief in Chief's house…"
+START: New image
+
+--- 25.5 | The lift dings
+WHO: chief
+IMG: The lift door opening: Chief wheeling out, sweaty and happy, the puppy on his lap.
+VID: The lift dings and opens. Chief rolls out smiling: "What's all this noise? Ireti, I did fifteen today…" He sees the necklace and the open bag. His smile drains away.
+START: New image
+
+--- 25.6 | "The oldest trick in Lagos."
+WHO: ronke, chief
+IMG: Ronke leaning toward Chief, gentle and poisonous.
+VID: Ronke: "I'm sorry, sir. And I'm sure she told you a sad story about a dying mother too? That's the oldest trick in Lagos." Chief turns slowly to Ireti.
+START: New image
+
+--- 25.7 | "You KNOW me."
+WHO: chief, ireti
+IMG: Ireti kneeling beside Chief's wheelchair, tears falling, looking up at him.
+VID: Chief, barely: "Is it true?" Ireti, kneeling: "Sir. Look at me. You know me. You KNOW me."
+START: New image
+
+--- 25.8 | He turns his face away
+WHO: chief, ireti
+IMG: Close shot of Chief's face over Ireti's shoulder.
+VID: Chief looks at her for a long moment. Then, slowly and deliberately, he turns his face away to the side. Ireti stops breathing.
+START: Last frame of 25.7
+
+--- 25.9 | "Leave."
+WHO: femi, ireti
+IMG: Femi standing over Ireti; Ireti slowly rising.
+VID: Femi, quietly: "Leave. Before I call the police." Ireti stands. She picks up her bag, leaving the necklace on the floor.
+START: New image
+
+--- 25.10 | "Take your medicine from someone else."
+WHO: ireti, chief
+IMG: Ireti at the door turning back toward Chief's turned head.
+VID: Ireti: "Please take your medicine from someone else tonight, sir. Anybody else." Her phone rings. She answers as she walks out.
+START: New image
+
+--- 25.11 | "Mummy collapsed!"
+WHO: ireti
+IMG: Ireti on the front steps with the phone to her ear, face breaking.
+VID: Dayo's voice, sobbing: "Sister! Mummy collapsed! They've taken her to the emergency… she's not waking up!" Ireti drops her bag.
+START: New image
+
+--- 25.12 | Barefoot down the driveway
+WHO: ireti
+IMG: Wide shot down the long palm-lined driveway: Ireti running barefoot toward the gate, her slippers left behind, the puppy chasing her.
+VID: Ireti runs down the driveway barefoot. The puppy leaps after her, barking. At the gate, Mallam Audu catches the puppy and watches her go.
+START: New image
+
+--- 25.13 | The tear
+WHO: ronke, chief
+IMG: The hall: Ronke picking up the necklace and smiling up at the portrait; Chief in the background, face turned to the wall.
+VID: Ronke smiles at the portrait. Behind her, Chief sits with his face still turned to the wall. A single tear runs down into his beard. Slow fade.
+START: New image
+
+=== 26 | "Swallow it." | Chief's bedroom · night
+SET: Night. The mansion façade with curtains closing again one by one. Chief's bedroom dark again: curtains closed, one lamp, the tall mirror, the easel covered with a sheet, the puppy whining at the door. The bedroom doorway opens onto the dark corridor. An en-suite toilet visible through a side door.
+WEAR: chief=a grey kaftan, in his wheelchair; ronke=a black housekeeper's dress with white collar; audu=a white kaftan, cap held in his hands; hassan=a white coat over a light blue shirt, holding a sealed envelope; femi=a navy suit, tie loose
+
+--- 26.1 | The curtains close again
+WHO:
+IMG: Night view of the mansion façade, curtains closing across the windows one by one.
+VID: One by one, the curtains slide closed until the house is dark again. A dog whines faintly.
+START: New image
+
+--- 26.2 | The tablet in his palm
+WHO: ronke, chief
+IMG: Ronke holding the silver tray with water and one blue tablet; Chief picking the tablet up and looking at it.
+VID: Ronke: "Your evening tablet, sir." Chief holds the blue tablet on his palm and stares at it. Ireti's voice echoes softly: "Take your medicine from someone else tonight."
+START: New image
+
+--- 26.3 | Mallam Audu comes upstairs
+WHO: audu, ronke
+IMG: Mallam Audu standing in the doorway with his cap in his hands; Ronke turning sharply.
+VID: Mallam Audu: "Oga. Forgive me. I've served you thirty years. I must say what my eyes saw." Ronke, sharply: "Mallam, go back to your gate!"
+START: New image
+
+--- 26.4 | What Audu saw
+WHO: audu, chief
+IMG: Close shot of Mallam Audu speaking to Chief, steady.
+VID: Mallam Audu: "At noon today, I saw Madam Ronke go into the staff quarters with a velvet box. She came out without it. And every Friday for six years, Mr. Lekan's driver gives her a brown envelope through my gate."
+START: New image
+
+--- 26.5 | The lab report
+WHO: hassan, chief
+IMG: Dr. Hassan appearing behind Audu and handing Chief a sealed envelope.
+VID: Dr. Hassan: "Chief. Miss Alade asked me to give you this if anything ever happened to her. The blue tablet is a sedative and a blood-pressure crash drug. Not prescribed. It's why you were dizzy. It's why you fell."
+START: New image
+
+--- 26.6 | "Swallow it."
+WHO: chief, ronke
+IMG: Chief holding the blue tablet out to Ronke on his flat palm, hands shaking.
+VID: Chief, very quietly: "Ronke. Swallow it." Ronke: "Sir…" Chief: "You've given it to me a thousand times. Swallow one." Ronke's hands start to tremble.
+START: New image
+
+--- 26.7 | She drops to her knees
+WHO: ronke
+IMG: Ronke on her knees on the floor, sobbing.
+VID: Ronke drops to her knees, sobbing: "It was Mr. Lekan! He said keep you weak, keep you sad, until the AGM, so the doctors would sign that you're not fit… He promised me a house in Lekki…"
+START: New image
+
+--- 26.8 | Femi hears it
+WHO: femi, chief
+IMG: Femi rushing in through the doorway, going pale.
+VID: Femi rushes in just in time to hear it and goes white: "Uncle Lekan…" Chief, cold and calm: "Don't call the police yet. Let Lekan think he's winning."
+START: New image
+
+--- 26.9 | "Where's Ireti?"
+WHO: chief, femi
+IMG: Two-shot: Chief looking at Femi; Femi ashamed.
+VID: Chief: "Femi. Where's Ireti?" Femi: "I threw her out, Grandpa. Her mother collapsed. She ran barefoot." Chief closes his eyes. When he opens them, there is fire in them.
+START: New image
+
+--- 26.10 | "We're going to Mushin."
+WHO: chief, femi
+IMG: Close-up of Chief, determined.
+VID: Chief: "Bring my blue agbada. We're going to Mushin." Femi: "Grandpa, you haven't left this house without her in months…" Chief: "Then it's time I went to find her."
+START: New image
+
+--- 26.11 | Flushed away
+WHO: chief, audu
+IMG: Chief at the en-suite toilet dropping the blue tablet into the bowl; Mallam Audu in the doorway.
+VID: Chief drops the blue tablet into the toilet and flushes. The puppy barks. Mallam Audu bows his head. Slow fade.
+START: New image
+
+=== 27 | Twice from the fire | Public hospital, Ikeja · night
+SET: The public hospital at night: a broken streetlight, a muddy car park, three black SUVs arriving. The long female ward at night: dim fluorescent tubes, the ceiling fan turning, patients in beds, Mama Funmi in the last bed by the window with an oxygen mask, Dayo asleep against the wall.
+WEAR: ireti=a light-blue scrubs top, white trousers, barefoot, eyes swollen; funmi=a faded blue wrapper, wine head wrap, oxygen mask; dayo=a green school shirt; chief=a royal-blue agbada with matching fila, in his wheelchair; femi=a navy suit, tie loose
+
+--- 27.1 | Establishing: the convoy
+WHO:
+IMG: Night outside the old public hospital: a broken streetlight, mud, three black SUVs pulling up, onlookers staring.
+VID: The three SUVs roll slowly through the mud and stop. Onlookers turn and whisper. Car doors open. Night insects and distant generators.
+START: New image
+
+--- 27.2 | Beside her mother
+WHO: ireti, funmi, dayo
+IMG: The dim ward: Ireti sitting on the floor holding her mother's hand; Mama Funmi on an oxygen mask; Dayo asleep against the wall.
+VID: Ireti holds her mother's hand, eyes swollen. The oxygen hisses softly. The fan turns. Then the whole ward goes quiet and every patient turns to look toward the door.
+START: New image
+
+--- 27.3 | Down the long aisle
+WHO: femi, chief
+IMG: Femi pushing Chief's wheelchair down the long aisle between the beds, Chief in his royal-blue agbada.
+VID: Femi pushes Chief slowly down the aisle. Patients watch in silence. Ireti rises in shock: "Sir…?"
+START: New image
+
+--- 27.4 | "Forgive a stupid old man."
+WHO: chief, ireti
+IMG: Chief stopped in front of Ireti, looking up at her.
+VID: Chief: "I turned my face away from you. The same way I turned it away from my own grandson." His voice breaks. "Forgive a stupid old man." Ireti, crying: "Sir, you're here. In this place."
+START: New image
+
+--- 27.5 | "I can come to yours."
+WHO: chief, funmi
+IMG: Two-shot: Chief by the bed; Mama Funmi pulling her oxygen mask down weakly.
+VID: Chief: "You came to my dark house. I can come to yours." Mama Funmi pulls her mask down and squints: "Chief… Adenuga? From the TV?" Chief: "Madam. Your daughter saved my life."
+START: New image
+
+--- 27.6 | The burning car
+WHO: funmi, chief
+IMG: Close-up of Mama Funmi on the pillow, a faint smile.
+VID: Mama Funmi: "Her father was like that too. Always saving people. He once pulled a rich man out of a burning car. On the Ibadan expressway. Night. A black Mercedes, upside down…" Chief goes completely still.
+START: New image
+
+--- 27.7 | Flashback: the expressway (optional)
+WHO:
+IMG: Night on a dark highway years ago: an overturned black car with flames rising from its far side, a man in a green shirt running toward it, seen from a distance, no injuries visible.
+VID: Seen from a distance, the man runs to the car and pulls another man clear, wrapping his arm with his own shirt. Flames flicker behind them. No blood, no injuries shown. Muffled, dreamlike sound.
+START: New image
+
+--- 27.8 | "What's your name?"
+WHO: funmi
+IMG: Close-up of Mama Funmi smiling through tears.
+VID: Mama Funmi: "He came home with no shirt and burnt hands. Laughing. He said the rich man kept shouting, 'What's your name? What's your name?'"
+START: New image
+
+--- 27.9 | "…And he said, 'Kehinde.'"
+WHO: chief, funmi, ireti
+IMG: Close-up of Chief, barely breathing, Ireti behind him with her hand flying to her mouth.
+VID: Chief, barely a whisper: "…And he said, 'Kehinde.'" Mama Funmi stares at him. Ireti's hand flies to her mouth.
+START: New image
+
+--- 27.10 | The scar on his arm
+WHO: chief
+IMG: Chief pulling back his agbada sleeve to show an old jagged scar on his right arm.
+VID: Chief, shaking: "2010. September. I was fifty-nine." He pulls back his sleeve to show the old scar. "For sixteen years I put his name in every newspaper in Nigeria. Nobody came."
+START: New image
+
+--- 27.11 | "He couldn't read, sir."
+WHO: funmi, chief
+IMG: Close-up of Mama Funmi, tears rolling.
+VID: Mama Funmi, tears rolling: "He couldn't read, sir." Silence in the whole ward.
+START: New image
+
+--- 27.12 | The photo on the phone
+WHO: ireti, chief
+IMG: Ireti showing Chief her phone with the photo of her smiling father waving, the burn scar on his palm.
+VID: Ireti holds out the phone. Chief takes it in both hands and looks at the photo. He weeps openly.
+START: New image
+
+--- 27.13 | "Two Alades. Twice."
+WHO: chief, ireti
+IMG: Chief taking both of Ireti's hands.
+VID: Chief: "Your father pulled me out of the fire. Then I lost my legs and my heart, and you pulled me out again. Two Alades. Twice." Ireti, sobbing: "Sir…"
+START: New image
+
+--- 27.14 | "Your father paid in advance."
+WHO: chief, ireti, femi
+IMG: Chief squeezing Ireti's hands; Femi behind the wheelchair.
+VID: Chief, to Femi: "Her mother goes to India this week." Ireti: "Sir, no. I want to earn it…" Chief: "You did earn it. Sixteen years ago, your father paid in advance." Ireti collapses into his lap, crying.
+START: New image
+
+--- 27.15 | "Air ambulance to Chennai."
+WHO: femi, dayo
+IMG: Femi on his phone; Dayo awake now against the wall, open-mouthed.
+VID: Femi, quietly on the phone: "Air ambulance to Chennai. Thursday. Best surgeon. Whatever it costs." Dayo stares, open-mouthed.
+START: New image
+
+--- 27.16 | "Finish what you started."
+WHO: funmi, ireti
+IMG: Mama Funmi pulling Ireti close to whisper.
+VID: Mama Funmi whispers: "Don't come to India. Dayo will come with me. Go and finish what you started. Your father never left a fire half-done." Slow fade.
+START: New image
+
+=== 28 | "Let us come ourselves." | Segun's office, Abuja · day
+SET: Abuja in bright daytime: wide roads, Aso Rock in the distance, a sleek glass office tower. Segun's office: a big desk, a large wall screen showing two video-call windows (Kunle in a Port Harcourt bank office, Lola in a London living room), a tall window with Abuja beyond. Outside: the tower entrance in strong sun.
+WEAR: ireti=her one good dress, a simple neat navy dress; segun=a charcoal suit and brown paisley tie; femi=a navy three-piece suit; kunle=a dark pinstripe suit and blue tie (on screen); lola=a burgundy blazer (on screen)
+
+--- 28.1 | Establishing: Abuja
+WHO:
+IMG: Aerial view of Abuja in daylight: wide roads, Aso Rock in the distance, a sleek glass office tower.
+VID: Slow drone glide toward the glass tower. Traffic moves on wide roads. Bright, calm sky.
+START: New image
+
+--- 28.2 | "Is he okay?"
+WHO: segun, ireti, femi
+IMG: Segun at his desk checking his watch; Ireti sitting across from him; Femi by the window; the wall screen showing Kunle and Lola.
+VID: Segun checks his watch: "Femi said this was urgent. You're Daddy's caretaker? Is he okay?" Ireti: "He's not okay, sir. He hasn't been okay for ten years."
+START: New image
+
+--- 28.3 | "He pushes you away first."
+WHO: kunle, ireti
+IMG: The wall screen with Kunle speaking; Ireti in the foreground.
+VID: Kunle on screen: "Daddy's fine. He's just… old. He pushes everyone away." Ireti: "With respect, sir, he pushes you away first, so you won't be the one who leaves."
+START: New image
+
+--- 28.4 | "Every Sunday?"
+WHO: ireti, lola
+IMG: Close-up of Ireti speaking; Lola on the screen behind, hand going to her mouth.
+VID: Ireti: "Every Sunday for ten years he wears his blue agbada and sits at the window, watching the gate. Waiting for you." Lola on screen, quietly: "Every Sunday?"
+START: New image
+
+--- 28.5 | One minute and twelve seconds
+WHO: ireti, segun
+IMG: Two-shot: Ireti steady, Segun slowly sitting back.
+VID: Ireti: "On his seventy-fifth birthday, he waited with a cake and one candle. Then Mr. Segun called for one minute and twelve seconds. That night, he fell down twenty-two steps." Segun slowly sits back.
+START: New image
+
+--- 28.6 | "He's waiting."
+WHO: segun, ireti, femi
+IMG: Close-up of Segun, shaken, looking at Femi; Femi nodding.
+VID: Segun, hoarse: "We thought… we thought he was just old." Ireti: "He's not old, sir. He's waiting." Segun, his voice cracking: "…Oh."
+START: New image
+
+--- 28.7 | The proxy forms
+WHO: ireti, kunle, lola
+IMG: The wall screen: Kunle sitting up, Lola shocked; Ireti in the foreground.
+VID: Ireti: "Mr. Lekan has been drugging your father to keep him weak until Thursday's AGM." Kunle: "Lekan sent us proxy forms last month. Routine paperwork, he said…" Lola: "I signed it. I didn't even read it."
+START: New image
+
+--- 28.8 | "For once, let us walk toward him."
+WHO: segun, femi, ireti
+IMG: Segun standing up at his desk; Femi turning from the window.
+VID: Segun: "We all signed it." Femi: "Then sign the revocation. Tonight. Gabriel has the papers." Segun: "We'll sign. And don't tell Daddy. Let us come ourselves. For once, let us be the ones walking toward him."
+START: New image
+
+--- 28.9 | Into the Abuja sun
+WHO: femi, ireti
+IMG: Outside the tower in bright sun: Ireti walking out, Femi following her.
+VID: Femi: "You took a night bus to Abuja. With your own money. For a family that's not yours." Ireti, smiling: "He's a grandfather, sir. Every family needs one." Femi looks at her as if seeing everything for the first time.
+START: New image
+
+=== 29 | Seven steps | Mansion rehab room · night, rain
+SET: The mansion at night with every light on and rain on the glass. The rehab room: long parallel bars, mats, warm practical lights, rain streaking the big window, the brown puppy on a mat.
+WEAR: chief=a white vest and grey track trousers, sweating; ireti=a light-blue scrubs top and white trousers; hassan=a white coat over a light blue shirt; dayo=a T-shirt (on a phone screen, in a hospital corridor)
+
+--- 29.1 | Establishing: every light on
+WHO:
+IMG: The mansion at night in the rain with every window lit.
+VID: Rain falls on the glowing house. Slow push toward the rehab room window.
+START: New image
+
+--- 29.2 | "No frame tonight."
+WHO: chief, ireti, hassan
+IMG: Wide shot down the parallel bars: Chief gripping the bars at one end, sweat on his face; Ireti standing ten steps away at the far end with her arms open; Dr. Hassan and a physiotherapist beside the bars.
+VID: Physio: "No frame tonight, Chief. Just you." Chief, through gritted teeth: "If I fall, I'm firing all of you." Ireti: "If you fall, sir, I'm the one you'll fall on. Come."
+START: New image
+
+--- 29.3 | He stands
+WHO: chief
+IMG: Low-angle shot of Chief pushing himself up on the bars, legs shaking.
+VID: Chief pushes up. His legs shake violently. Then he STANDS, fully upright, trembling. The puppy barks wildly.
+START: New image
+
+--- 29.4 | "One step."
+WHO: ireti, chief
+IMG: Over Ireti's shoulder down the bars to Chief standing, trembling.
+VID: Ireti whispers: "One step, sir. Only one." Chief's right foot slides forward an inch, then a full step. Then the left.
+START: New image
+
+--- 29.5 | Three, four, five, six
+WHO: chief, hassan
+IMG: Side tracking shot of Chief taking slow steps between the bars, Dr. Hassan gripping the physio's arm in the background.
+VID: Camera tracks slowly beside him. Three. Four. Chief is crying. Five. Six. His knees start to wobble.
+START: Last frame of 29.4
+
+--- 29.6 | Into her arms
+WHO: chief, ireti
+IMG: Chief lunging forward at the end of the bars into Ireti's arms.
+VID: On the seventh step his knees buckle and he lunges forward into Ireti's arms. She holds him up. Both laughing and sobbing. Chief, gasping: "Seven." Ireti: "Seven steps!"
+START: New image
+
+--- 29.7 | "I'm allowed one drama."
+WHO: chief, ireti
+IMG: Close two-shot, Ireti pulling back to look at him, Chief with a wicked glint.
+VID: Chief: "Don't tell Femi." Ireti: "Sir?!" Chief: "Let him see it at the AGM. Let Lekan see it. I'm a billionaire, Ireti. I'm allowed one drama."
+START: New image
+
+--- 29.8 | "She'll LIVE!"
+WHO: ireti, dayo
+IMG: Ireti holding her phone on a video call: Dayo on the screen in a hospital corridor, crying with joy.
+VID: Dayo on screen: "Sister! Mummy is awake! The surgery was successful! The doctor said she'll live! She'll LIVE!" Ireti collapses onto the mat, sobbing with joy.
+START: New image
+
+--- 29.9 | Nine steps
+WHO: chief, ireti
+IMG: Chief, still holding the bars, taking wobbly steps toward Ireti's phone on the mat.
+VID: Chief takes two more wobbly steps toward the phone, just to see Dayo's face, smiling through tears. Nine steps. Slow fade.
+START: New image
+
+=== 30 | The AGM | Adenuga Crest Tower boardroom, 40th floor · day
+SET: Morning at the gold tower: reporters with cameras gathering outside the lobby. The boardroom on the 40th floor: a long dark table, twelve board members in suits, tall windows over Lagos, a big screen on the wall, heavy wooden double doors, a polished marble floor at the entrance.
+WEAR: lekan=a black agbada with silver embroidery, holding a remote and three forms; femi=a navy three-piece suit; chief=a cream agbada, leaning on his ivory-handled cane, standing; ireti=a simple neat navy dress; gabriel=a grey suit, white shirt, holding papers; hassan=a dark suit with a white shirt; ronke=a black dress, in handcuffs, with two police officers
+
+--- 30.1 | Establishing: reporters at the tower
+WHO:
+IMG: The gold glass tower in morning sun, reporters with cameras gathering outside the lobby doors.
+VID: Reporters adjust cameras and chatter. Slow tilt up the glass tower to the 40th floor.
+START: New image
+
+--- 30.2 | "Permanently incapacitated."
+WHO: lekan, femi
+IMG: The boardroom: Lekan standing at the head of the long table with a remote; the screen behind him shows a photo of Chief slumped in his wheelchair; Femi tense at the far end.
+VID: Lekan: "Ladies and gentlemen, it breaks my heart. Our founder, Chief Babatunde Adenuga, is permanently incapacitated." He clicks the remote. "Paralysed. Depressed. Mentally unstable. He is not the man we knew."
+START: New image
+
+--- 30.3 | "That doctor never examined him!"
+WHO: femi, lekan
+IMG: Femi standing up angrily at the end of the table.
+VID: Femi stands: "That doctor never examined him!" Lekan: "Sit down, Femi." He holds up three forms. "His own children have given me their proxy votes."
+START: New image
+
+--- 30.4 | The motion
+WHO: lekan
+IMG: Close shot of Lekan holding up the forms, calm and sure.
+VID: Lekan: "I move that Chief's fifty-one percent be placed in a board trust under the Vice-Chairman's control. And that the board votes no confidence in our young CEO." Murmurs around the table.
+START: New image
+
+--- 30.5 | "He'll never walk again."
+WHO: lekan, femi
+IMG: Board members beginning to raise their hands; Femi gripping the table.
+VID: Femi: "My grandfather isn't here today because…" Lekan, gently: "Because he can't walk, Femi. He'll never walk again. Let the old man rest. All in favour…" Hands begin to rise.
+START: New image
+
+--- 30.6 | TAP.
+WHO:
+IMG: Close-up on the closed wooden double doors at the end of the boardroom, the polished marble floor in front.
+VID: A sharp TAP sounds outside the doors. Everyone turns. TAP. The sound of an ivory cane tip on marble. TAP.
+START: New image
+
+--- 30.7 | The doors open
+WHO: chief, ireti, gabriel, hassan, ronke
+IMG: The double doors open: Chief standing in a cream agbada with his ivory cane, his arm through Ireti's; behind them Gabriel, Dr. Hassan, two police officers and Aunty Ronke in handcuffs.
+VID: The doors swing open. Chief stands still in the doorway. The room stops breathing. He gently takes his arm out of Ireti's. She nods.
+START: New image
+
+--- 30.8 | He walks alone
+WHO: chief
+IMG: Wide shot down the length of the boardroom: Chief walking alone with his cane, board members turning their heads.
+VID: Step by slow step, Chief walks the length of the boardroom alone. Every head turns with him. Lekan's raised hand drops.
+START: New image
+
+--- 30.9 | Femi is speechless
+WHO: femi
+IMG: Close-up of Femi rising slowly from his chair, eyes filling.
+VID: Femi rises slowly. His mouth opens but nothing comes out. His eyes fill. Finally, a whisper: "…Grandpa."
+START: New image
+
+--- 30.10 | "About my legs?"
+WHO: chief, lekan
+IMG: Chief stopping beside Lekan at the head of the table, both hands resting on his cane.
+VID: Chief: "Lekan. You were saying something… about my legs?" Lekan, white, stammering: "Chief… God is great, this is a miracle! I was only…" Chief: "You were only putting me to sleep. Every evening. For six years."
+START: New image
+
+--- 30.11 | The evidence
+WHO: gabriel, hassan
+IMG: Gabriel laying papers on the table and holding up a phone; Dr. Hassan beside him.
+VID: Gabriel: "Proxy revocations, signed last night by Segun, Kunle and Lola Adenuga. And this…" He plays a recording. Ronke's voice: "It was Mr. Lekan! He said keep you weak until the AGM…" Dr. Hassan: "And the lab report. The police have a copy."
+START: New image
+
+--- 30.12 | "Waiting for me to fall."
+WHO: lekan, chief
+IMG: Lekan looking around the table for an ally; no one meets his eyes.
+VID: Lekan, desperate: "Chief, twenty years! Twenty years I stood by you!" Chief: "Twenty years you stood by me, Lekan. Waiting for me to fall. And when I fell, a waitress picked me up."
+START: New image
+
+--- 30.13 | Led away
+WHO: lekan
+IMG: Two police officers leading Lekan out past the tall windows.
+VID: The officers take Lekan by the arms and lead him out calmly. He doesn't look back. Down below through the window, camera flashes from the reporters in the lobby.
+START: New image
+
+--- 30.14 | "All in favour?"
+WHO: chief
+IMG: Chief at the head of the table facing the board.
+VID: Chief: "I have a motion. Femi Adenuga remains CEO. And Babatunde Adenuga remains alive. All in favour?" Every hand at the table goes up. Board members stand and applaud, one by one.
+START: New image
+
+--- 30.15 | "She walked me."
+WHO: femi, chief, ireti
+IMG: Femi hugging his grandfather hard like a little boy; over Femi's shoulder, Chief looking at Ireti by the door.
+VID: Femi, crying into his shoulder: "You walked. You WALKED." Chief, looking at Ireti by the door: "No, my son. She walked me." Ireti smiles through tears. Slow fade.
+START: New image
+
+=== 31 | They came by themselves | Adenuga mansion, bedroom, staircase and dining hall · Sunday evening
+SET: Sunday at golden hour at the mansion. Every curtain open, the fountain flowing, the brown puppy chasing his tail on the lawn. Chief's bedroom window looking down at the gate and driveway. The grand staircase of 22 steps and the portrait at its foot. The dining hall: a long table full of candles, jollof rice, pounded yam and dishes, warm candlelight and lamps.
+WEAR: chief=a royal-blue agbada with matching fila, standing with his ivory cane; ireti=a light-blue scrubs top and white trousers; segun=a smart casual shirt and trousers; kunle=a smart casual shirt and trousers; lola=an elegant travel dress
+
+--- 31.1 | Establishing: golden hour
+WHO:
+IMG: The mansion at golden hour: every curtain open, the fountain flowing, a brown puppy chasing its tail on the lawn.
+VID: Slow push toward the house over the lawn. Water sparkles in the fountain. The puppy spins. Birds.
+START: New image
+
+--- 31.2 | Habit
+WHO: chief, ireti
+IMG: Chief standing at his bedroom window with his cane in his royal-blue agbada; Ireti bringing him tea.
+VID: Ireti: "Sir, you don't have to wait at the window anymore. You have Tuesdays now. You have Monday. You have me." Chief, smiling sadly: "Habit, my daughter. Ten years of habit."
+START: New image
+
+--- 31.3 | Three cars
+WHO:
+IMG: View from the window down to the gate: three black cars rolling up the driveway.
+VID: A horn sounds, then another, then a third. Three black cars roll slowly up the driveway and stop.
+START: New image
+
+--- 31.4 | The teacup shakes
+WHO: chief
+IMG: Close-up of Chief's hand holding a teacup, starting to shake.
+VID: Chief squints toward the window. The teacup in his hand starts to shake.
+START: New image
+
+--- 31.5 | Eleven people
+WHO: segun, kunle, lola
+IMG: The driveway: car doors open; Segun with twin twelve-year-olds, Kunle with his wife and two sons, Lola with her husband and a baby daughter, all looking up at the window.
+VID: The families step out and look up. Lola waves. The twins shout: "GRANDPA!"
+START: New image
+
+--- 31.6 | "They came by themselves."
+WHO: chief, ireti
+IMG: Two-shot at the window: Chief stunned, Ireti grinning through tears.
+VID: Chief, his voice gone: "Ireti…" Ireti, tears streaming: "I didn't tell them anything, sir. They came by themselves."
+START: New image
+
+--- 31.7 | The top of the stairs
+WHO: chief, segun
+IMG: Chief standing at the top of the grand staircase with his cane; below, his children rushing into the hall and looking up.
+VID: Chief stops at the top and looks down. Segun, looking up, voice breaking: "Daddy. We're sorry. We thought you were just old. We didn't know you were waiting."
+START: New image
+
+--- 31.8 | Down the twenty-two steps
+WHO: chief, ireti
+IMG: Chief walking down the curved staircase holding the banister, Ireti one step behind him.
+VID: Step by step, holding the banister, Chief walks down the staircase that broke him. Ireti stays one step behind. Slow, steady camera.
+START: New image
+
+--- 31.9 | Beneath the portrait
+WHO: chief, segun, kunle, lola
+IMG: At the foot of the stairs beneath the portrait: Chief surrounded by his children and grandchildren in one big embrace.
+VID: His family surrounds him in one big crying embrace. Chief holds them, eyes closed. The portrait smiles above them.
+START: New image
+
+--- 31.10 | The full table
+WHO: chief, ireti
+IMG: The long dining table full of family, candles and food; Ireti in her scrubs quietly serving at the edge with the cooks.
+VID: Laughter and chatter, children arguing. Chief taps his glass: "Ireti. Come and sit." Ireti, shaking her head: "Sir, this is family." Chief: "Exactly." He pulls out the empty chair at his right hand. "Sit."
+START: New image
+
+--- 31.11 | "That was Mummy's chair."
+WHO: segun, chief
+IMG: Close shot of Segun looking at the empty chair beside his father.
+VID: The table goes quiet. Segun, softly: "Daddy, that was Mummy's chair. Nobody has sat there in twenty-five years." Chief, looking at Ireti: "I know."
+START: New image
+
+--- 31.12 | "My granddaughter."
+WHO: ireti, chief
+IMG: Ireti slowly sitting in the chair; a twin leaning over toward Chief.
+VID: Ireti sits slowly. A twin: "Grandpa, who is she?" Chief, without hesitation: "Your aunty. My granddaughter. The one who found the way home for all of you."
+START: New image
+
+--- 31.13 | Something to live for
+WHO: lola, segun, chief, ireti
+IMG: Lola reaching across the table to squeeze Ireti's hand; Segun raising his glass; Chief sitting back, smiling with his eyes closed.
+VID: Lola squeezes Ireti's hand. Segun raises his glass to her. The table erupts in laughter. Chief closes his eyes and smiles like a man who finally has something to live for. Slow fade.
+START: New image
+
+=== 32 | Hope is a person | New house in Lekki and the mansion garden · months later
+SET: Months later, bright sunny day. A beautiful new white bungalow in Lekki with a red-tiled roof, a garden and a ribbon tied across the gate, a black car outside. A university gate. The mansion garden full of young people on a Tuesday. The grand hall with a new painting beside the portrait. The mansion garden at sunset with the fountain flowing.
+WEAR: funmi=a cream lace iro and buba, healthy and glowing; dayo=a brand-new university T-shirt; chief=a cream agbada with his ivory cane (standing), later without the cane; ireti=a cream lace iro and buba with a gold gele at the house, a crisp white nursing-school uniform at the university, a simple dress at sunset; femi=a smart casual shirt
+
+--- 32.1 | Establishing: the new house
+WHO:
+IMG: A beautiful new white bungalow with a red-tiled roof and a garden in Lekki, a ribbon tied across the gate, bright sun.
+VID: Slow glide toward the gate. A black car pulls up and stops. Birds sing.
+START: New image
+
+--- 32.2 | "Your new house."
+WHO: funmi, dayo, chief
+IMG: Mama Funmi stepping out of the car, healthy and glowing; Dayo beside her; Chief at the gate holding out a set of keys.
+VID: Chief: "Madam. Your new house." Mama Funmi, crying and shaking her head: "Chief, it's too much…" Chief: "It's not a gift. It's a debt."
+START: New image
+
+--- 32.3 | "Paid in full."
+WHO: chief, funmi
+IMG: Close shot of Chief writing in a small old notebook in big letters.
+VID: Chief writes in the notebook in big letters, then shows it to her. (Add "PAID IN FULL — SEPTEMBER 2010" in editing.) Mama Funmi laughs through her tears and hugs him.
+START: New image
+
+--- 32.4 | The scholarship
+WHO: dayo, ireti, chief, femi
+IMG: Dayo holding up an admission letter; Ireti turning to Chief; Femi leaning on the car.
+VID: Dayo: "Sister! Full scholarship! The Kehinde Alade Foundation!" Ireti, to Chief: "The what foundation?" Chief, innocently: "I don't know. Ask Femi." Femi holds up both hands: not me.
+START: New image
+
+--- 32.5 | Nursing school
+WHO: ireti, chief, femi
+IMG: Ireti in a crisp white nursing-school uniform walking through a university gate with books; Chief and Femi waving from a car.
+VID: Ireti walks proudly through the gate. Chief and Femi wave from the car like proud parents. She turns and waves back.
+START: New image
+
+--- 32.6 | Tuesday, standing
+WHO: chief
+IMG: The mansion garden full of three hundred young people; Chief standing at the microphone with no cane, the brown puppy at his feet.
+VID: Chief stands tall at the microphone without his cane, speaking. The crowd laughs and claps. The puppy wags its tail.
+START: New image
+
+--- 32.7 | The painting called "IRETI"
+WHO:
+IMG: The grand hall: beside the portrait of the woman in the gold gele hangs a new painting of a young woman in light-blue scrubs opening a curtain, sunlight pouring in.
+VID: Slow push in on the new painting. Sunlight moves gently across the frame. (Add the title "IRETI" in editing.)
+START: New image
+
+--- 32.8 | "Can I ask you a stupid question?"
+WHO: ireti, chief
+IMG: Sunset in the garden: Chief and Ireti sitting side by side on the edge of the flowing fountain, sharing tea.
+VID: Ireti: "Sir. Can I ask you a stupid question?" Chief, smiling: "You've earned one." Ireti: "What did you learn? From all of this?"
+START: New image
+
+--- 32.9 | "Hope is a person."
+WHO: chief, ireti
+IMG: Close-up of Chief in the sunset light, turning to Ireti.
+VID: Chief, watching the sun: "I thought hope was a feeling. Something you wait for at a window." He turns to her. "It's not. Hope is a person. A person who refuses to leave."
+START: New image
+
+--- 32.10 | Her head on his shoulder
+WHO: ireti, chief
+IMG: Two-shot on the fountain edge: Ireti leaning her head on Chief's shoulder, his arm around her.
+VID: Ireti leans her head on his shoulder. He puts his arm around her. The fountain flows. The sun sinks.
+START: New image
+
+--- 32.11 | Final crane shot
+WHO:
+IMG: High wide view of the mansion garden at sunset: two small figures on the fountain edge, a puppy running circles on the lawn, every window of the mansion glowing gold, the lagoon and Lagos beyond.
+VID: Slow, high crane shot pulling back and up from the fountain, revealing the glowing mansion, the lagoon and Lagos at sunset. Gentle wind. Fade out. (Add the closing titles in editing.)
+START: New image
