@@ -21,7 +21,7 @@ VIDEO_LOCK = ("ORDERS, NO EXCEPTIONS: generate ONLY what is written; anything no
  "5) Doors, curtains, props and lights never change unless written; closed doors stay closed. "
  "6) Real-life speed; five fingers per hand; feet on the ground. 7) Camera only as written, else locked tripod; no shake, no zoom. "
  "8) Muted film look, matte skin; no shine, glow, bloom or flares. "
- "9) Only the ONE named speaker talks, word for word; all other lips stay closed. If NOBODY SPEAKS is written, there is no talking at all. "
+ "9) Each line belongs ONLY to the character named as its owner: never give a line to anyone else, never swap speakers; only the ONE named speaker talks, word for word; all other lips stay closed. If NOBODY SPEAKS is written, there is no talking at all. "
  "10) No music, no singing, no extra sounds. 11) Finish every word before 10 seconds; end on a still moment. If unsure, move LESS; never invent.")
 
 C = {  # name, face/body lock, voice lock, body-language lock (from the script)
@@ -142,10 +142,15 @@ def build_prompts(sc, c, nxt=None):
             sname, svis, svoice, sbody = C[spk][0], VIS[spk], C[spk][2], C[spk][3]
         listeners = [C[k][0] for k in chars if k != spk]
         lines = " ".join(c["lines"])
-        speech = (f"SPEAKER: ONLY {sname} ({svis}) speaks in this clip. Only {sname}'s lips move. "
-                  f"{sname} SAYS, word for word, nothing added, nothing changed: \"{lines}\" "
-                  f"{sname}'S VOICE: {svoice}. "
-                  + (f"EVERYONE ELSE ({', '.join(listeners)}) is completely silent with lips closed for all 10 seconds; they only listen and react. " if listeners else "Nobody else speaks. ")
+        split_clip = "FRAMING FOR THIS SHOT" in c["img"]
+        where = (f" {sname} is the person in sharp focus, closest to the camera, facing it." if split_clip else "")
+        silent_list = "".join(f" {n} does NOT speak this line and does NOT speak at all: {n}'s mouth stays closed for all 10 seconds." for n in listeners)
+        speech = (f"LINE OWNERSHIP (MOST IMPORTANT ORDER): this line belongs to {sname} and to nobody else. "
+                  f"The ONLY person who talks in this clip is {sname} = {svis}.{where} "
+                  f"{sname} SAYS, word for word, nothing added, nothing changed, nothing left out: \"{lines}\" "
+                  f"These words come out of {sname}'s mouth only.{silent_list} "
+                  + ("A face on a phone, TV or screen does NOT talk. " if any("screen" in sc['wear'].get(k, '') for k in chars if k != spk) else "")
+                  + f"{sname}'S VOICE (only voice in this clip): {svoice}. "
                   + (f"BODY LANGUAGE: {sbody.split(';')[0]}. " if sbody else ""))
     else:
         speech = "SPEECH: NOBODY SPEAKS IN THIS CLIP. No voices, no talking, no whispering, no humming, no lip movement. Only the ambient sound. "
@@ -155,8 +160,9 @@ def build_prompts(sc, c, nxt=None):
     else:
         chain_out = " FINAL FRAME (last 2 seconds): hold still on a calm, clean frame with everyone in place."
     vid = (f"10-SECOND CLIP. FOLLOW EVERY ORDER EXACTLY. {shot_type(c).split(':')[0]}. FIRST FRAME: the uploaded image. "
+           + speech
            + (f"WHO IS IN THE FRAME: {cast} " if cast else "WHO IS IN THE FRAME: no main characters. ")
-           + speech + f"ACTION: {action}{chain_in}{chain_out} "
+           + f"ACTION: {action}{chain_in}{chain_out} "
            + "MOOD: same brightness and darkness as the image; do not brighten. "
            + (f"SOUND: clean, clear dialogue over {AMBIENCE.get(sc['num'], 'quiet natural ambience')}; no music. " if c["mode"] == "speak" else f"SOUND: only {AMBIENCE.get(sc['num'], 'quiet natural ambience')}; no voices, no music. ") + VIDEO_LOCK)
     extra = ""
