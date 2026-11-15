@@ -43,20 +43,29 @@ def turns(shot):
         off = bool(OFF.search(tag)) or (not spk.startswith("x:") and spk not in shot["who"])
         if spk == "segun" and re.search(r"phone|screen", tag, re.I):
             off = True
-        out.append({"spk": spk, "off": off, "seg": seg, "lines": re.findall(r'"([^"]*)"', seg)})
+        out.append({"spk": spk, "off": off, "seg": seg, "tag": tag, "lines": re.findall(r'"([^"]*)"', seg)})
         prev = spk
     # merge consecutive turns of the same speaker / same on-off state
     merged = []
     for t in out:
         if merged and merged[-1]["spk"] == t["spk"] and merged[-1]["off"] == t["off"]:
             merged[-1]["seg"] += " " + t["seg"]; merged[-1]["lines"] += t["lines"]
-        elif merged and t["off"] and merged[-1]["off"]:
-            merged[-1]["seg"] += " " + t["seg"]; merged[-1]["pairs"].append((t["spk"], " ".join(t["lines"])))
         else:
             d = dict(t); d["pairs"] = [(t["spk"], " ".join(t["lines"]))]; merged.append(d)
     for m in merged:  # same-speaker merges must update pairs too
         if m["off"] and len(m["pairs"]) == 1: m["pairs"] = [(m["spk"], " ".join(m["lines"]))]
     return pre, merged
+
+SOURCE_FIX = {"2.4": "offscreen", "6.4.1": "offscreen", "11.4.1": "offscreen", "24.3.1": "phone", "24.4.1": "phone",
+              "28.3.1": "videocall", "28.4.2": "videocall", "28.7b.1": "videocall", "17.10": "pa", "26.2.2": "memory"}
+
+def source(tag, shot):
+    t = (tag + " " + shot["vid"]).lower() if "voice" not in tag.lower() else tag.lower()
+    if "recorded" in tag.lower(): return "recording"
+    if "tv" in tag.lower() or "newsreader" in tag.lower(): return "tv"
+    if re.search(r"phone|screen|call", tag, re.I): return "phone"
+    if re.search(r"on the phone|video call|phone to her ear|phone to his ear|on speaker|answers", shot["vid"] + " " + shot["img"], re.I) and not re.search(r"echo|inside|from inside|distant", tag, re.I): return "phone"
+    return "offscreen"
 
 def strip_quotes(text):
     text = re.sub(r'(?:(?<=^)|(?<=[.!?…"\)]\s))[A-Z][^":.!?]{0,90}?:\s*"[^"]*"', "", text)
@@ -82,11 +91,12 @@ def expand(scene, C, VIS):
             action = (pre + " " if i == 0 and pre else "")
             if t["off"]:
                 listeners = [k for k in sh["who"] if k in C and k != t["spk"]]
-                c["mode"] = "silent"; c["speaker"] = None
+                c["mode"] = "voice"; c["speaker"] = t["spk"]; c["lines"] = t["lines"]; c["source"] = source(t["tag"], sh)
+                c["listeners"] = listeners
                 c["img"] = sh["img"] if i == 0 else (f"Same moment, same place and same light as before: {sh['img']} " +
-                           (f"FRAMING FOR THIS SHOT: medium close-up on {', '.join(C[k][0] for k in listeners)} listening, face fully visible." if listeners else ""))
-                c["vid"] = (action + strip_quotes(t["seg"]) + (" The people on screen listen silently and react only with their faces and bodies." if listeners else "")).strip()
-                c["offlines"] = [(C[n][0] if n in C else n.replace("x:", "").upper(), l) for n, l in t["pairs"] if l]
+                           (f"FRAMING FOR THIS SHOT: medium close-up on {', '.join(C[k][0] for k in listeners)} listening, face fully visible, mouth closed." if listeners else ""))
+                c["vid"] = (action + strip_quotes(t["seg"])).strip()
+                c["offlines"] = [(C[t["spk"]][0] if t["spk"] in C else t["spk"].replace("x:", "").upper(), " ".join(t["lines"]))]
             else:
                 spk = t["spk"]; c["mode"] = "speak"; c["speaker"] = spk; c["lines"] = t["lines"]
                 if spk.startswith("x:"):
@@ -98,6 +108,8 @@ def expand(scene, C, VIS):
                             f"face fully visible, turned toward the camera at a slight angle, lit only by the scene's own light"
                             + (f"; {', '.join(C[k][0] for k in others)} softly out of focus at the edge of the frame, listening." if others else "."))
                 c["vid"] = action + t["seg"]
+            if c.get("mode") == "voice" and c["id"] in SOURCE_FIX:
+                c["source"] = SOURCE_FIX[c["id"]]
             clips.append(c)
         rename[sh["id"]] = clips[-1]["id"]
     for c in clips:  # keep "last frame of X" pointing at the right clip
