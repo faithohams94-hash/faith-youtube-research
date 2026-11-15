@@ -68,7 +68,8 @@ def source(tag, shot):
     return "offscreen"
 
 def strip_quotes(text):
-    text = re.sub(r'(?:(?<=^)|(?<=[.!?…"\)]\s))[A-Z][^":.!?]{0,90}?:\s*"[^"]*"', "", text)
+    text = re.sub(r'(?:(?<=^)|(?<=[.!?…"\)]\s))(?:(?:Dr|Mr)\. )?[A-Z][^":.!?]{0,90}?:\s*"[^"]*"', "", text)
+    text = re.sub(r'\b(?:Dr|Mr)\.(?=\s*$|\s+(?:This|The)\b)', "", text)
     text = re.sub(r'"[^"]*"', "", text)
     return re.sub(r"\s+", " ", text).strip()
 
@@ -93,8 +94,8 @@ def expand(scene, C, VIS):
                 listeners = [k for k in sh["who"] if k in C and k != t["spk"]]
                 c["mode"] = "voice"; c["speaker"] = t["spk"]; c["lines"] = t["lines"]; c["source"] = source(t["tag"], sh)
                 c["listeners"] = listeners
-                c["img"] = sh["img"] if i == 0 else (f"Same moment, same place and same light as before: {sh['img']} " +
-                           (f"FRAMING FOR THIS SHOT: medium close-up on {', '.join(C[k][0] for k in listeners)} listening, face fully visible, mouth closed." if listeners else ""))
+                c["img"] = (f"Same moment, same place and same light as before: {sh['img']} " +
+                           (f"FRAMING FOR THIS SHOT: medium close-up on {', '.join(C[k][0] for k in listeners)} listening, face clearly visible in three-quarter or side view (never from behind), mouth closed, the emotion of the moment on the face." if listeners else ""))
                 c["vid"] = (action + strip_quotes(t["seg"])).strip()
                 c["offlines"] = [(C[t["spk"]][0] if t["spk"] in C else t["spk"].replace("x:", "").upper(), " ".join(t["lines"]))]
             else:

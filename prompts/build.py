@@ -21,7 +21,7 @@ VIDEO_LOCK = ("ORDERS, NO EXCEPTIONS: generate ONLY what is written; anything no
  "5) Doors, curtains, props and lights never change unless written; closed doors stay closed. "
  "6) Real-life speed; five fingers per hand; feet on the ground. 7) Camera only as written, else locked tripod; no shake, no zoom. "
  "8) Muted film look, matte skin; no shine, glow, bloom or flares. "
- "9) ONE voice at a time: when the phone or an off-screen voice talks, everyone in the frame is silent with mouths closed; when a person in the frame talks, the phone is silent. Each line belongs ONLY to the character named as its owner: never give a line to anyone else, never swap speakers; only the ONE named speaker talks, word for word; all other lips stay closed. If NOBODY SPEAKS is written, there is no talking at all. "
+ "9) Each line belongs ONLY to the character named as its owner: never give a line to anyone else, never swap speakers; only the ONE named speaker talks, word for word; all other lips stay closed. If NOBODY SPEAKS is written, there is no talking at all. "
  "10) No music, no singing, no extra sounds. 11) Finish every word before 10 seconds; end on a still moment. If unsure, move LESS; never invent.")
 
 C = {  # name, face/body lock, voice lock, body-language lock (from the script)
@@ -135,7 +135,9 @@ def build_prompts(sc, c, nxt=None):
     # ---- video
     cast = " ".join(f"{C[k][0]} = {VIS[k]}, wearing {sc['wear'].get(k, 'the same clothes as in the image')}." for k in chars)
     action = re.sub(r'"[^"]*"', "(says the line above)", c["vid"]) if c["mode"] == "speak" else c["vid"]
-    if c["mode"] == "voice" and not action: action = "The listener hears the voice and reacts silently with face and body."
+    action = re.sub(r"\b(?:Dr|Mr)\.(?!\s+(?:Hassan|Okoro|Jide|Lekan|Bello|Bamidele)\b)\s*", "", action).strip()
+    if c["mode"] == "voice":
+        action = re.sub(r"[Ss]low(ly)? push[- ]in[^.]*\.|[Cc]amera slowly[^.]*\.", "", action).strip() or "The listener holds still and listens with mouth closed; the emotion of what they hear shows only in the eyes and face: a slow blink, a breath, a small nod or a tightening jaw."
     if c["mode"] == "speak":
         spk = c["speaker"]
         if spk.startswith("x:"):
@@ -151,29 +153,14 @@ def build_prompts(sc, c, nxt=None):
                   f"The ONLY person who talks in this clip is {sname} = {svis}.{where} "
                   f"{sname} SAYS, word for word, nothing added, nothing changed, nothing left out: \"{lines}\" "
                   f"These words come out of {sname}'s mouth only.{silent_list} "
-                  + "No voice comes from any phone, TV or screen in this clip, and no voice comes from off-screen: the phone is silent while " + sname + " talks. "
+                  + "No other voice is heard. "
                   + f"{sname}'S VOICE (only voice in this clip): {svoice}. "
                   + (f"BODY LANGUAGE: {sbody.split(';')[0]}. " if sbody else ""))
     elif c["mode"] == "voice":
-        spk = c["speaker"]
-        vname = C[spk][0] if spk in C else spk.replace("x:", "").upper()
-        vvoice = C[spk][2] if spk in C else "a clear, professional Nigerian news voice"
-        src = {"phone": "out of the phone's small speaker, exactly like a real phone call: slightly tinny, compressed, thin and a little distant, clearly coming from the phone and NOT from a person in the room",
-               "tv": "out of the TV speaker, like a real TV broadcast: slightly boxy and distant, clearly coming from the TV",
-               "recording": "out of the phone's small speaker as a voice recording: slightly tinny and compressed",
-               "offscreen": "from off-screen, outside the frame: a real person's voice in the same place but not visible, a little further away",
-               "videocall": "out of the big wall screen's speakers, exactly like a video call: slightly compressed and digital, clearly coming from the screen and NOT from a person in the room",
-               "pa": "through the concert hall's loudspeakers from the stage microphone, big and echoing, clearly coming from the stage",
-               "memory": "as a soft, echoing memory inside his head, gentle and distant, like a remembered voice; nobody in the room says it"}[c.get("source", "offscreen")]
-        listeners = [C[k][0] for k in chars if k != spk]
-        lines = " ".join(c["lines"])
-        fem = {"ireti", "funmi", "ronke", "grace", "chioma", "lola"}
-        shut = "".join(f" {C[k][0]} keeps {'her' if k in fem else 'his'} mouth completely CLOSED for all 10 seconds: {C[k][0]} does NOT talk, does NOT mouth the words, does NOT lip-sync; {'she' if k in fem else 'he'} only listens and reacts with face and body." for k in chars if k != spk)
-        onscreen = (f" If {vname}'s small face is visible on the phone screen, only that tiny face on the screen may move its lips." if c.get("source") in ("phone", "videocall") and spk in chars else "")
-        speech = (f"VOICE OWNERSHIP (MOST IMPORTANT ORDER): the ONLY voice in this clip is {vname}'s voice, and it comes {src}. "
-                  f"{vname}'S VOICE says, word for word, nothing added, nothing changed: \"{lines}\" "
-                  f"{vname}'s voice: {vvoice}, heard through that speaker.{shut}{onscreen} "
-                  f"Nobody in the room speaks in this clip. ")
+        speech = ("SPEECH: NOBODY SPEAKS IN THIS CLIP. No voices, no talking, no lip movement. The person on screen is LISTENING to someone "
+                  + {"phone": "on a phone call", "videocall": "on a video call", "tv": "on the TV", "recording": "on a recording", "pa": "on stage",
+                     "memory": "in a memory", "offscreen": "off-screen"}[c.get("source", "offscreen")]
+                  + ": mouth closed the whole time, reacting only with eyes, face and breathing. Camera stays still. ")
     else:
         speech = "SPEECH: NOBODY SPEAKS IN THIS CLIP. No voices, no talking, no whispering, no humming, no lip movement. Only the ambient sound. "
     chain_in = " This clip continues directly from the previous clip: same positions, same light, no jump." if c["start"].lower().startswith("last frame") else ""
@@ -190,10 +177,16 @@ def build_prompts(sc, c, nxt=None):
               else f"SOUND: the one voice described above, over {AMBIENCE.get(sc['num'], 'quiet natural ambience')}; no other voices, no music. " if c["mode"] == "voice"
               else f"SOUND: only {AMBIENCE.get(sc['num'], 'quiet natural ambience')}; no voices, no music. ") + VIDEO_LOCK)
     extra = ""
-    for who, line in c.get("offlines", []):
-        key = next((k for k in C if C[k][0] == who), None)
-        extra += (f"\nBACKUP (only if Grok still moves the listener's mouth): make this clip with NOBODY SPEAKS and add this line in editing: {who}: \"{line}\""
-                  + (f"\nVOICE CLIP PROMPT (optional, Grok): Upload {who}'s approved image. 10-SECOND CLIP. ONLY {who} ({VIS[key]}) speaks, word for word, nothing added: \"{line}\" VOICE: {C[key][2]}. Keep the face exactly as in the image, same brightness, no music. Use only the audio from this clip." if key else ""))
+    FX = {"phone": "Telephone", "videocall": "Telephone (lighter)", "recording": "Telephone", "tv": "Radio or Telephone",
+          "pa": "Megaphone or Hall reverb", "memory": "Echo", "offscreen": "no effect; lower the volume a little and add light Reverb"}
+    if c["mode"] == "voice":
+        spk = c["speaker"]; key = spk if spk in C else None
+        who = C[key][0] if key else spk.replace("x:", "").upper()
+        line = " ".join(c["lines"])
+        extra = (f"\nVOICE FOR THIS CLIP (added in CapCut, not by Grok): {who}: \"{line}\""
+                 + (f"\n  Step 1. Make the voice: upload {who}'s approved image to Grok and paste: 10-SECOND CLIP. ONLY {who} ({VIS[key]}) speaks, facing the camera, word for word, nothing added: \"{line}\" VOICE: {C[key][2]}. Keep the face exactly as in the image, same brightness, no music, no other sounds."
+                    if key else f"\n  Step 1. Make the voice: record it yourself or with a text-to-speech voice: clear, professional Nigerian voice.")
+                 + f"\n  Step 2. In CapCut, put that audio under this clip (Extract audio), then Audio > Voice effects > {FX[c.get('source','offscreen')]}.")
     return img, vid, extra
 
 def main():

@@ -9,8 +9,8 @@ VID: Slow, smooth drone glide toward the mansion over the grey water. Storm clou
 
 --- 1.2 | The untouched cake and the lonely man
 WHO: chief
-IMG: Wide shot of the dim bedroom. In the foreground, the silver tray with the small birthday cake and one unlit candle, untouched. In the background, Chief stands at the rainy window with his back half to camera, leaning on his cane, holding a phone up on a video call.
-VID: Very slow push-in from the cake toward Chief. Rain runs down the window. A cheerful man's voice comes from the phone speaker (Segun, off-screen): "Happy birthday, Daddy! Did the wine arrive? I sent the expensive one." Chief does not turn around.
+IMG: Medium shot from the side of the dim bedroom: Chief stands at the rainy window in side profile, his face clearly visible and lit by the warm lamp, holding a phone up on a video call, tired, hurt eyes; the untouched birthday cake on its silver tray soft and out of focus in the foreground.
+VID: Chief listens to a cheerful voice on the phone (Segun, off-screen): "Happy birthday, Daddy! Did the wine arrive? I sent the expensive one." His jaw tightens, his eyes turn wet, and he breathes out slowly. Rain runs down the window.
 START: New image
 
 --- 1.3 | "My son did not."
