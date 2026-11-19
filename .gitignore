@@ -1,3 +1,5 @@
 **/voiceover/**/*.mp3
 **/voiceover/*.mp3
 **/voiceover/*.wav
+__pycache__/
+ep1-leftovers-building/cards/*.html
