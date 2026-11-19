@@ -4,26 +4,26 @@
  "out_html": "build/book.html",
  "characters": "characters.md",
  "title": "The Celebrity Has a Secret",
- "kicker": "A LAGOS DRAMA · STORY BY MARY LADE",
+ "kicker": "SOMBER JOURNAL · DRAMA SCRIPT · DIALOGUE ONLY",
  "tagline": "Everyone knows her name. Nobody knows what it cost her.",
  "blurb": "Forty thousand fans scream her name. Three weeks later, a photographer grabs her wrist, the internet calls her cold, and a faded bracelet arrives in a delivery box. Somebody from before the blonde hair has found her, and he has given her until Friday.",
  "spot": "SIENNA VALE — PERFORMER TONIGHT",
  "meta": [
   [
    "46",
-   "SCENES"
+   "scenes"
   ],
   [
    "~50",
-   "MINUTES"
+   "minutes"
   ],
   [
-   "100%",
-   "DIALOGUE"
+   "All",
+   "dialogue"
   ],
   [
    "40",
-   "CHARACTERS"
+   "characters"
   ]
  ],
  "threads": [
@@ -137,5 +137,6 @@
   "FEMI KEYS": "#7a4a1a",
   "OGA PIUS": "#6b4a2b",
   "MR. BANJO": "#5a5a5a"
- }
+ },
+ "style": "journal"
 }

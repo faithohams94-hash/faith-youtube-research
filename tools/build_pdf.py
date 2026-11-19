@@ -115,13 +115,80 @@ h2.sec{{font-size:24pt;margin:0 0 4mm}}
 .tc{{text-align:center;font-family:"Playfair Display",Gloock,serif;color:#9a6b12;font-size:14pt;margin:6mm 0}}
 '''
 
+JOURNAL = cfg.get('style') == 'journal'
+if JOURNAL:
+    css = """
+@page{size:A4;margin:16mm 15mm 18mm}
+*{box-sizing:border-box}
+body{font-family:"DejaVu Serif",Georgia,serif;font-size:10.2pt;line-height:1.5;color:#1c1f1e;margin:0}
+.sans,.ln .w,.shead h3,.nav,.track,.aa,.card,.toc a,.howto,.ch h4,.th h4,.meta{font-family:"DejaVu Sans",Helvetica,Arial,sans-serif}
+a{color:inherit}
+.jcard{background:#0f1513;color:#f2f0ea;border-radius:3.5mm;padding:8mm 9mm 7mm;margin-bottom:5mm}
+.jcard small{display:block;font-family:"DejaVu Sans",sans-serif;font-weight:700;color:#e0b13a;font-size:8pt;letter-spacing:.26em;margin-bottom:3mm}
+.jcard h1{font-family:"DejaVu Serif",serif;font-weight:700;font-size:23pt;line-height:1.18;margin:0 0 3mm}
+.jcard .sub{font-family:"DejaVu Sans",sans-serif;color:#a6aba8;font-size:8.6pt}
+.jcard .tag{font-style:italic;color:#d8d4cb;font-size:10.5pt;margin:0 0 2.5mm}
+.jcard .blurb{color:#c7c9c4;font-size:9.4pt;line-height:1.5;margin:0 0 3mm}
+.howto{border:1px solid #d6dad8;border-radius:2.5mm;padding:3.4mm 4.5mm;font-size:8.6pt;color:#4a4f4d;line-height:1.55;margin-bottom:5mm}
+.howto b{color:#1c1f1e}
+.howto ul{margin:1mm 0 0;padding-left:4.5mm}
+h2.sec{font-family:"DejaVu Sans",sans-serif;font-weight:700;font-size:12pt;letter-spacing:.04em;text-transform:uppercase;border-bottom:1.5px solid #e0b13a;padding-bottom:1.6mm;margin:0 0 4mm}
+.ch{border:1px solid #e3e5e3;border-radius:2.5mm;padding:3mm 4mm;margin-bottom:3mm;page-break-inside:avoid}
+.ch h4{margin:0 0 1mm;font-size:10.4pt;font-weight:700}
+.ch .who{font-size:9pt;color:#4a4f4d;margin:0 0 1.6mm}
+.ch .pl{font-family:"DejaVu Sans",sans-serif;font-weight:700;font-size:6.8pt;letter-spacing:.16em;color:#9a7414;margin-top:1.6mm}
+.ch .pr{background:#fff7dc;border:1px solid #ecd27a;border-radius:1.6mm;padding:1.8mm 2.6mm;font-size:8.4pt;line-height:1.45;margin-top:.6mm}
+.ch a{font-size:7.6pt;color:#8a8f8c;text-decoration:none;font-weight:400}
+.th{border:1px solid #e3e5e3;border-radius:2.5mm;padding:3mm 4mm;margin-bottom:3mm;page-break-inside:avoid}
+.th h4{margin:0 0 .6mm;font-size:10.4pt}
+.th p{margin:0 0 2mm;color:#4a4f4d;font-size:9pt}
+.th a{display:inline-block;font-family:"DejaVu Sans",sans-serif;font-weight:700;font-size:7.4pt;background:#0f1513;color:#e0b13a;text-decoration:none;border-radius:1.4mm;padding:.8mm 2.2mm;margin:0 1.4mm 1.4mm 0}
+.toc{page-break-before:always}
+.toc .acth{font-family:"DejaVu Sans",sans-serif;font-weight:700;font-size:7.6pt;letter-spacing:.18em;color:#9a7414;margin:4mm 0 1mm}
+.toc a{display:grid;grid-template-columns:9mm 1fr 15mm;text-decoration:none;padding:.9mm 0;border-bottom:1px solid #eef0ee;font-size:8.8pt}
+.toc .n{color:#9a7414;font-weight:700}.toc .t{text-align:right;color:#8a8f8c}
+.actpage{page-break-before:always;margin:4mm 0 5mm;background:#0f1513;color:#f2f0ea;border-radius:3mm;padding:5mm 7mm}
+.actpage small{display:block;font-family:"DejaVu Sans",sans-serif;font-weight:700;letter-spacing:.24em;font-size:7.6pt;color:#e0b13a}
+.actpage h2{font-family:"DejaVu Serif",serif;font-weight:700;font-size:16pt;margin:1.6mm 0 0}
+.scene{margin-top:7mm}
+.nav{display:flex;justify-content:space-between;font-size:7pt;margin-bottom:1.6mm}
+.nav a{color:#9a9e9c;text-decoration:none}
+.shead{display:flex;align-items:center;gap:2.6mm;border-bottom:1.5px solid #e0b13a;padding-bottom:1.6mm;margin-bottom:1.4mm;page-break-after:avoid}
+.badge{background:#0f1513;color:#e0b13a;font-family:"DejaVu Sans",sans-serif;font-weight:700;font-size:7.4pt;border-radius:1.4mm;padding:.9mm 2mm;white-space:nowrap}
+.shead h3{margin:0;font-size:10.6pt;font-weight:700;text-transform:uppercase;letter-spacing:.02em}
+.slug{font-family:"DejaVu Sans",sans-serif;font-size:7.4pt;color:#7d827f;text-transform:uppercase;letter-spacing:.04em;margin-bottom:2mm;page-break-after:avoid}
+.track{display:flex;gap:4.5mm;margin:0 0 2.6mm;font-size:7.8pt;color:#7d827f}
+.track span{display:flex;align-items:center;gap:1.4mm}
+.track i{display:inline-block;width:4.2mm;height:4.2mm;border:1.2px solid #c9971c;border-radius:1mm;font-style:normal;font-size:3pt;line-height:1;color:#fff;overflow:hidden}
+.act{margin:2mm 0;color:#2e3230}
+.act.open{font-style:italic;color:#3c403e;border-left:2px solid #e0b13a;padding-left:3.4mm}
+.ln{margin:2mm 0 0;page-break-inside:avoid}
+.ln .w{font-weight:700;font-size:7.8pt;letter-spacing:.1em;color:#1c1f1e}
+.ln .w em{font-style:normal;font-weight:400;color:#8a8f8c;margin-left:1.4mm;letter-spacing:.04em}
+.ln .s{margin-top:.3mm}
+.ln .dir{color:#7d827f;font-style:italic}
+.ln.sing .s{font-style:italic}
+.aa{margin:.8mm 0 2.2mm;font-size:7.6pt;line-height:1.4;color:#5d625f;border:1px solid #e6e8e6;border-radius:1.6mm;padding:1.1mm 2.2mm;page-break-inside:avoid}
+.aa b{color:#1c1f1e}
+.card{display:flex;align-items:center;flex-wrap:wrap;gap:1.6mm;margin:2.8mm 0;background:#fff7dc;border:1px solid #ecd27a;border-radius:2mm;padding:2mm 3mm;page-break-inside:avoid}
+.card small{font-weight:700;color:#9a7414;font-size:6.8pt;letter-spacing:.16em;margin-right:1.6mm}
+.card p{margin:0;background:#fff;border:1px solid #d9dcd9;border-radius:1.2mm;padding:.5mm 1.8mm;font-weight:700;font-size:7.8pt}
+.tc{margin:3mm 0;display:flex;align-items:center;gap:1.6mm;background:#fff7dc;border:1px solid #ecd27a;border-radius:2mm;padding:2mm 3mm;font-family:"DejaVu Sans",sans-serif;font-weight:700;font-size:7.8pt}
+h2.sec{page-break-before:auto!important}
+.ln .w{color:#1c1f1e!important}
+.tc::before{content:"ON SCREEN";color:#9a7414;font-size:6.8pt;letter-spacing:.16em;margin-right:1.6mm}
+"""
+
 o = [f'''<!doctype html><html><head><meta charset="utf-8"><title>{e(cfg['title'])}</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Figtree:ital,wght@0,400;0,600;0,700;1,400&family=Courier+Prime:wght@400;700&display=swap">
 <style>{css}</style></head><body>''']
 
 h1 = cfg['title'].split(' ')
 mid = len(h1) // 2
-o.append(f'''<section class="cover"><div><small class="m">{e(cfg['kicker'])}</small>
+if JOURNAL:
+    o.append(f'''<section><div class="jcard"><small>{e(cfg['kicker'])}</small><h1>{e(cfg['title'])}</h1><p class="tag">{e(cfg['tagline'])}</p><p class="blurb">{e(cfg['blurb'])}</p><div class="sub">''' + ' · '.join(f'{e(v)} {e(l.lower())}' for v, l in cfg['meta']) + '</div></div>')
+else:
+    o.append(f'''<section class="cover"><div><small class="m">{e(cfg['kicker'])}</small>
 <h1 class="d">{e(' '.join(h1[:mid]))} <span>{e(' '.join(h1[mid:]))}</span></h1>
 <p class="tag d">{e(cfg['tagline'])}</p><p>{e(cfg['blurb'])}</p>
 <div class="spot"><b>{e(cfg.get('spot', 'PERFORMER TONIGHT'))}</b></div></div>
@@ -133,12 +200,18 @@ for s in S:
         if it['k'] == 'line':
             first.setdefault(it['who'], s['n'])
 
-o.append('<section><h2 class="sec d">How to use this PDF</h2><div class="howto"><ul style="margin:0;padding-left:5mm">'
-         '<li><b>Tap</b> any scene in the contents or any thread to jump to it. Every scene has ◀ Previous, All scenes and Next ▶ links, and your PDF app\'s bookmarks list every scene.</li>'
-         '<li><b>Scene opening</b> (gold box): the establishing shot, before anyone speaks.</li>'
-         '<li><b>After-action</b> (lilac box under each line): <b>Lip-sync</b> for the mouth and delivery, <b>Body</b> for posture and movement. Paste it into your video prompt for that shot.</li>'
-         '<li><b>Production checkboxes</b> on every scene (Images, Voice, Edited). Tick them as you go; most PDF apps save them.</li>'
-         '<li><b>Characters</b>: every character with an image prompt, next. Tap "first appears" to jump to their first scene.</li></ul></div>')
+opening_li = ('<li><b>Scene opening</b> (italic, gold rule): the establishing shot, before anyone speaks.</li>' if JOURNAL
+              else '<li><b>Scene opening</b> (gold box): the establishing shot, before anyone speaks.</li>')
+aa_li = ('<li><b>After-action</b> (small boxed line under each line of dialogue): ' if JOURNAL
+         else '<li><b>After-action</b> (lilac box under each line): ')
+o.append(('' if JOURNAL else '<section><h2 class="sec d">How to use this PDF</h2>')
+         + '<div class="howto">' + ('<b>How to use this script:</b> ' if JOURNAL else '')
+         + '<ul style="margin:0;padding-left:5mm">'
+         + '<li><b>Tap</b> any scene in the contents or any thread to jump to it. Every scene has ◀ Previous, All scenes and Next ▶ links, and your PDF app\'s bookmarks list every scene.</li>'
+         + opening_li
+         + aa_li + '<b>Lip-sync</b> for the mouth and delivery, <b>Body</b> for posture and movement. Paste it into your video prompt for that shot.</li>'
+         + '<li><b>Production checkboxes</b> on every scene (Images, Voice, Edited). Tick them as you go; most PDF apps save them.</li>'
+         + '<li><b>Characters</b>: every character with an image prompt, next. Tap "first appears" to jump to their first scene.</li></ul></div>')
 if chars:
     o.append('<h2 class="sec d" style="page-break-before:always">Characters &amp; image prompts</h2>'
              '<p style="color:#6b6260;margin-top:-2mm;font-size:9.4pt">Add this to every prompt: <i>cinematic film still, photorealistic, shot on ARRI Alexa, 35mm lens, shallow depth of field, natural skin texture, soft film grain, modern Lagos, Nigeria</i>. Save your best result for each main character as their reference face.</p>')
@@ -183,7 +256,9 @@ for s in S:
     prev = f'<a href="#s{n-1}">◀ Scene {n-1}</a>' if n > 1 else '<span></span>'
     nxt = f'<a href="#s{n+1}">Scene {n+1} ▶</a>' if n < last else '<span></span>'
     o.append(f'<section class="scene" id="s{n}"><div class="nav m">{prev}<a href="#toc">All scenes</a>{nxt}</div>'
-             f'<div class="shead"><div class="n m">SCENE {n} OF {last} · {e(s["time"])}</div><h3 class="d">{e(tc(s["title"]))}</h3><div class="slug m">{e(s["slug"])}</div></div>'
+             + (f'<div class="shead"><span class="badge">{e(s["time"])}</span><h3>Scene {n}: {e(s["title"])}</h3></div><div class="slug">{e(s["slug"])}</div>' if JOURNAL else
+                f'<div class="shead"><div class="n m">SCENE {n} OF {last} · {e(s["time"])}</div><h3 class="d">{e(tc(s["title"]))}</h3><div class="slug m">{e(s["slug"])}</div></div>')
+             + 
              f'<div class="track"><span><i>CHKs{n}x0</i>Images</span><span><i>CHKs{n}x1</i>Voice</span><span><i>CHKs{n}x2</i>Edited</span></div>')
     opened = False
     for it in s['items']:
