@@ -1,6 +1,6 @@
 # They Pitied Me for Bringing Leftovers to Work... Until I Bought the Building
 
-**Somber Journal · Episode 1 · First-person · about 14½ minutes (2,281 narration words)**
+**Somber Journal · Episode 1 · First-person · about 15 minutes (2,356 narration words)**
 
 How to read this script:
 - Plain paragraphs are the narration (the only part the voice reads).
@@ -125,7 +125,7 @@ I'm going to need it later.
 
 ---
 
-## [4:45 – 7:00] PART 2: THE MATH NOBODY CHECKED
+## [4:45 – 7:10] PART 2: THE MATH NOBODY CHECKED
 
 Here's what nobody in that breakroom ever did. The math.
 
@@ -171,6 +171,8 @@ The whole room laughs. Dana laughs too, then looks sorry about it.
 
 I thank him. I use that lunchbox for the next three years.
 
+Later, Dana finds me by the coat rack. Are you okay? she asks quietly. Better than okay, I tell her. She smiles like she's being kind about it. She doesn't believe me. Nobody does.
+
 Two weeks later, Marcus asks HR for an advance on his January paycheck.
 
 That same month, my boring little account crosses sixty-two thousand dollars.
@@ -179,7 +181,7 @@ That same month, my boring little account crosses sixty-two thousand dollars.
 
 ---
 
-## [7:00 – 10:00] PART 3: FROM SAVER TO OWNER
+## [7:10 – 10:15] PART 3: FROM SAVER TO OWNER
 
 Here's where most people stop. And here's where I almost did.
 
@@ -227,7 +229,7 @@ Remember the folder on my desk. The one with the red tab. Because the next time 
 
 ---
 
-## [10:00 – 10:55] PART 4: THE RENT ROLL
+## [10:15 – 11:20] PART 4: THE RENT ROLL
 
 [ON SCREEN: YEAR 5]
 
@@ -247,6 +249,8 @@ I read the tenant's name three times.
 
 It's the company I used to work for.
 
+I turn to the last page. Two signatures on the original lease. One of them is Marcus's. Senior director. The man who told me nobody promotes the guy eating rice in the corner signed the lease that now pays my mortgage.
+
 I don't celebrate. I check the numbers. I sign.
 
 Then the renewal deadline comes.
@@ -259,7 +263,7 @@ Which brings us back to this morning.
 
 ---
 
-## [10:55 – 13:55] THE REVEAL
+## [11:20 – 14:20] THE REVEAL
 
 [ON SCREEN: 10:00 AM]
 
@@ -323,7 +327,7 @@ You were the only one who looked sorry, I tell her.
 
 ---
 
-## [13:55 – 14:40] THE CLOSE
+## [14:20 – 15:05] THE CLOSE
 
 When the door clicks shut, I open the container. It's gone cold. I eat it anyway.
 
