@@ -1,0 +1,231 @@
+{
+ "scenes": "the-celebrity-has-a-secret/build/scenes.json",
+ "out": "the-celebrity-has-a-secret/player.html",
+ "title": "The Celebrity Has a Secret",
+ "kicker": "A Lagos drama · Story by Mary Lade",
+ "h1": "The Celebrity Has a Secret",
+ "key": "chs_",
+ "cast": {
+  "SIENNA": [
+   "#ff8fb3",
+   "f",
+   1.08
+  ],
+  "MARA": [
+   "#8fb4ff",
+   "f",
+   0.9
+  ],
+  "TOBI": [
+   "#78d8c4",
+   "m",
+   1.15
+  ],
+  "JUNE": [
+   "#ffb08a",
+   "f",
+   1.05
+  ],
+  "ELI": [
+   "#b9b2ff",
+   "m",
+   1.0
+  ],
+  "KEMI": [
+   "#f4c35a",
+   "f",
+   0.88
+  ],
+  "DANIEL": [
+   "#9cc7e0",
+   "m",
+   0.7
+  ],
+  "VICTOR": [
+   "#ec6a66",
+   "m",
+   0.62
+  ],
+  "ADA": [
+   "#d9b8e8",
+   "f",
+   0.9
+  ],
+  "MAYA": [
+   "#a9e07c",
+   "f",
+   1.35
+  ],
+  "RUTH": [
+   "#e8c9a0",
+   "f",
+   0.95
+  ],
+  "BEN": [
+   "#9fe0e0",
+   "m",
+   0.8
+  ],
+  "UNCLE SULE": [
+   "#c7d08a",
+   "m",
+   0.72
+  ],
+  "STAGE MANAGER": [
+   "#9a97ad",
+   "m",
+   1.0
+  ],
+  "KOLA": [
+   "#9a97ad",
+   "m",
+   1.0
+  ],
+  "FUNKE": [
+   "#f6d27a",
+   "f",
+   1.1
+  ],
+  "WIG STYLIST": [
+   "#e7a0e8",
+   "f",
+   1.1
+  ],
+  "STYLIST": [
+   "#e7a0e8",
+   "f",
+   1.2
+  ],
+  "CROWD": [
+   "#e9a23b",
+   "m",
+   1.2
+  ],
+  "FAN IN FRONT ROW": [
+   "#ff9fd0",
+   "f",
+   1.3
+  ],
+  "CRYING FAN": [
+   "#ff9fd0",
+   "f",
+   1.3
+  ],
+  "DANCER": [
+   "#a9e07c",
+   "f",
+   1.2
+  ],
+  "GUITARIST": [
+   "#9a97ad",
+   "m",
+   0.9
+  ],
+  "PAPARAZZO 1": [
+   "#9a97ad",
+   "m",
+   0.9
+  ],
+  "PAPARAZZO 2": [
+   "#9a97ad",
+   "m",
+   0.8
+  ],
+  "NEWS ANCHOR": [
+   "#8fb4ff",
+   "f",
+   1.0
+  ],
+  "PHOTOGRAPHER": [
+   "#ec6a66",
+   "m",
+   0.85
+  ],
+  "DELE": [
+   "#ec6a66",
+   "m",
+   0.85
+  ],
+  "HOST": [
+   "#f4c35a",
+   "m",
+   0.95
+  ],
+  "WOMAN IN OLD CLIP": [
+   "#ff9fd0",
+   "f",
+   1.2
+  ],
+  "MRS ADE": [
+   "#ffb08a",
+   "f",
+   0.85
+  ],
+  "EXECUTIVE": [
+   "#9a97ad",
+   "m",
+   0.75
+  ],
+  "LAWYER": [
+   "#9cc7e0",
+   "f",
+   0.88
+  ],
+  "OGA PIUS": [
+   "#d2a982",
+   "m",
+   0.7
+  ],
+  "ZAINAB": [
+   "#a9e07c",
+   "f",
+   1.2
+  ],
+  "FEMI KEYS": [
+   "#d2a982",
+   "m",
+   0.85
+  ],
+  "MR. BANJO": [
+   "#c8c3d6",
+   "m",
+   0.6
+  ],
+  "VENUE SECURITY MANAGER": [
+   "#9a97ad",
+   "m",
+   0.85
+  ],
+  "INSPECTOR": [
+   "#9a97ad",
+   "f",
+   0.9
+  ],
+  "SECURITY CHIEF": [
+   "#9a97ad",
+   "m",
+   0.8
+  ],
+  "BLOG EDITOR": [
+   "#9a97ad",
+   "m",
+   1.0
+  ],
+  "BLOGGER": [
+   "#ff9fd0",
+   "f",
+   1.25
+  ],
+  "PRODUCER": [
+   "#9a97ad",
+   "m",
+   1.05
+  ],
+  "CAFÉ OWNER": [
+   "#9a97ad",
+   "m",
+   0.8
+  ]
+ },
+ "read_directions": true
+}

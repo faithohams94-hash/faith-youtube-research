@@ -1,0 +1,372 @@
+<title>__TITLE__</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gloock&family=Figtree:wght@400;500;600;700&family=Courier+Prime:wght@400;700&display=swap">
+<style>
+/* Layout: one centred "stage" column like a lit set; scene unfolds line by line; remote-control bar pinned to the bottom. Deliberately single dark look (night-time Lagos, kerosene lamp). */
+:root{
+  --night:#0e1120; --stage:#161a2c; --stage2:#1d2238; --rule:#2b3150;
+  --ink:#efe8db; --muted:#a3a0b4; --faint:#6e6c82;
+  --lamp:#e9a23b; --lamp-ink:#1b1306; --blood:#d0525a; --ok:#7fd49a;
+  --display:"Gloock",Georgia,"Times New Roman",serif;
+  --body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --slug:"Courier Prime","Courier New",Courier,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{background:var(--night);color:var(--ink)}
+body{font-family:var(--body);font-size:16px;line-height:1.55;margin:0;padding-bottom:calc(150px + env(safe-area-inset-bottom,0px))}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,select:focus-visible{outline:2px solid var(--lamp);outline-offset:2px}
+
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--night) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--rule);padding:10px 16px 8px}
+.hrow{max-width:820px;margin:0 auto;display:flex;align-items:center;gap:12px}
+.brand{flex:1;min-width:0}
+.brand small{display:block;font-family:var(--slug);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--lamp)}
+.brand h1{font-family:var(--display);font-weight:400;font-size:clamp(20px,4vw,26px);margin:0;line-height:1.1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chip{border:1px solid var(--rule);background:var(--stage);border-radius:999px;padding:6px 12px;font-size:13px;white-space:nowrap}
+.chip:hover{border-color:var(--lamp)}
+.score{font-family:var(--slug);font-size:12px;color:var(--muted)}
+.score b{color:var(--lamp)}
+.ticks{max-width:820px;margin:8px auto 0;display:grid;grid-template-columns:repeat(__N__,1fr);gap:2px}
+.ticks button{height:6px;border:0;border-radius:2px;background:var(--rule);padding:0}
+.ticks button.seen{background:color-mix(in srgb,var(--lamp) 45%,var(--rule))}
+.ticks button.now{background:var(--lamp)}
+
+main{max-width:820px;margin:0 auto;padding:24px 16px}
+.scenehead{padding-block:8px 18px;border-bottom:1px dashed var(--rule);margin-bottom:18px}
+.scenehead .num{font-family:var(--slug);color:var(--lamp);font-size:13px;letter-spacing:.12em}
+.scenehead h2{font-family:var(--display);font-weight:400;font-size:clamp(28px,6vw,44px);line-height:1.05;margin:4px 0 8px;text-wrap:balance}
+.scenehead .slug{font-family:var(--slug);font-size:13px;color:var(--muted);text-transform:uppercase}
+.scenehead .slug span{color:var(--faint)}
+.scenehead.enter h2{animation:rise .7s ease both}
+@keyframes rise{from{opacity:.2;transform:translateY(8px);letter-spacing:.04em}to{opacity:1;transform:none}}
+
+.feed{display:flex;flex-direction:column;gap:14px}
+.it{transition:opacity .3s, transform .3s;opacity:.55}
+.it.cur{opacity:1}
+.it.fresh{animation:appear .45s ease both}
+@keyframes appear{from{opacity:0;transform:translateY(6px)}}
+.act{font-style:italic;color:var(--muted);border-left:2px solid var(--rule);padding:2px 0 2px 14px;max-width:62ch}
+.it.cur.act{border-left-color:var(--lamp);color:var(--ink)}
+.line{display:grid;grid-template-columns:42px 1fr;gap:12px;align-items:start}
+.av{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;font-family:var(--slug);font-weight:700;font-size:13px;color:var(--night);background:var(--c)}
+.bub{min-width:0}
+.who{font-family:var(--slug);font-weight:700;font-size:12.5px;letter-spacing:.08em;color:var(--c)}
+.who em{font-style:normal;color:var(--faint);font-weight:400;margin-left:6px}
+.say{background:var(--stage);border:1px solid var(--rule);border-radius:4px 14px 14px 14px;padding:10px 14px;margin-top:4px;font-size:17px;max-width:62ch}
+.it.cur .say{border-color:var(--c);background:var(--stage2);box-shadow:0 0 0 1px color-mix(in srgb,var(--c) 30%,transparent),0 8px 30px -12px color-mix(in srgb,var(--c) 50%,transparent)}
+.dir{color:var(--faint);font-style:italic;font-size:14px}
+.word.spoken{color:var(--c)}
+.narr .say{background:transparent;border:0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);border-radius:0;font-family:var(--display);font-size:20px;line-height:1.35;padding:12px 2px}
+.narr .av{background:transparent;border:1px solid var(--lamp);color:var(--lamp)}
+.it.cur.narr .say{box-shadow:none;background:transparent;border-color:var(--lamp)}
+.card{align-self:center;text-align:center;background:#0a0c16;border:1px solid var(--blood);border-radius:12px;padding:16px 20px;max-width:520px;width:100%}
+.card small{display:block;font-family:var(--slug);font-size:11px;letter-spacing:.16em;color:var(--blood);margin-bottom:6px}
+.card p{margin:0;font-family:var(--slug);font-size:18px;font-weight:700}
+.card.paper{background:#f1e7cf;border-color:#c9b98f;color:#2a2318}
+.card.paper small{color:#8a6d2c}
+.card.mw{background:transparent;border-color:var(--lamp);border-style:dashed}.card.mw small{color:var(--lamp)}
+.titlecard{text-align:center;font-family:var(--display);font-size:clamp(22px,5vw,32px);color:var(--lamp);padding:28px 0;letter-spacing:.02em;text-wrap:balance}
+
+.endbox{margin-top:26px;border:1px solid var(--rule);background:var(--stage);border-radius:16px;padding:18px}
+.endbox h3{font-family:var(--display);font-weight:400;font-size:24px;margin:0 0 4px;text-wrap:balance}
+.endbox p{margin:0 0 12px;color:var(--muted)}
+.opts{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:8px}
+.opt{background:var(--stage2);border:1px solid var(--rule);border-radius:10px;padding:10px 12px;text-align:left}
+.opt:hover{border-color:var(--lamp)}
+.opt.pick{border-color:var(--lamp);background:color-mix(in srgb,var(--lamp) 18%,var(--stage2))}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:12px}
+.btn{background:var(--lamp);color:var(--lamp-ink);border:0;border-radius:999px;padding:10px 18px;font-weight:700}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--rule)}
+.count{font-family:var(--slug);font-size:12px;color:var(--faint)}
+.reveal{margin-top:18px;border-radius:14px;padding:14px 16px;border:1px solid var(--ok);background:color-mix(in srgb,var(--ok) 10%,var(--stage))}
+.reveal.miss{border-color:var(--blood);background:color-mix(in srgb,var(--blood) 10%,var(--stage))}
+.reveal b{font-family:var(--slug);letter-spacing:.1em;font-size:12px}
+
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:6;background:color-mix(in srgb,var(--stage) 96%,transparent);backdrop-filter:blur(10px);border-top:1px solid var(--rule);padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px))}
+.dk{max-width:820px;margin:0 auto;display:flex;flex-direction:column;gap:8px}
+.ctl{display:flex;align-items:center;justify-content:center;gap:10px}
+.ctl button{background:var(--stage2);border:1px solid var(--rule);border-radius:999px;width:44px;height:44px;display:grid;place-items:center}
+.ctl button:hover{border-color:var(--lamp)}
+.ctl .play{width:60px;height:60px;background:var(--lamp);border:0;color:var(--lamp-ink)}
+.ctl svg{width:20px;height:20px;fill:currentColor}
+.ctl .play svg{width:26px;height:26px}
+.opts2{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 14px;font-size:13px;color:var(--muted)}
+.opts2 label{display:flex;align-items:center;gap:6px;cursor:pointer}
+.opts2 select{background:var(--stage2);color:var(--ink);border:1px solid var(--rule);border-radius:8px;padding:3px 6px;font:inherit}
+.nowline{font-family:var(--slug);font-size:12px;color:var(--faint);text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+.drawer{position:fixed;inset:0;z-index:10;display:flex;justify-content:flex-end;background:rgba(5,6,12,.6)}
+.drawer .pane{width:min(420px,100%);height:100%;background:var(--stage);border-left:1px solid var(--rule);overflow:auto;padding:calc(16px + env(safe-area-inset-top,0px)) 16px 24px}
+.pane h3{font-family:var(--display);font-weight:400;font-size:26px;margin:0 0 12px;display:flex;justify-content:space-between;align-items:center}
+.sl{display:flex;flex-direction:column;gap:2px}
+.sl button{display:grid;grid-template-columns:34px 1fr auto;gap:8px;align-items:baseline;text-align:left;background:transparent;border:0;border-radius:8px;padding:8px}
+.sl button:hover{background:var(--stage2)}
+.sl button.now{background:color-mix(in srgb,var(--lamp) 16%,transparent)}
+.sl .n{font-family:var(--slug);color:var(--lamp);font-size:12px}
+.sl .t{min-width:0}
+.sl .tm{font-family:var(--slug);font-size:11px;color:var(--faint);font-variant-numeric:tabular-nums}
+.sl .seen .t::after{content:" ✓";color:var(--ok);font-size:12px}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(160px + env(safe-area-inset-bottom,0px));z-index:9;background:var(--ink);color:var(--night);padding:8px 14px;border-radius:999px;font-size:14px;font-weight:600;max-width:calc(100% - 32px);text-align:center}
+.hint{color:var(--faint);font-size:13px;text-align:center;margin-top:28px}
+kbd{font-family:var(--slug);border:1px solid var(--rule);border-radius:4px;padding:0 4px;font-size:12px}
+@media (max-width:520px){.score{display:none}.say{font-size:16px}.line{grid-template-columns:34px 1fr;gap:10px}.av{width:34px;height:34px;font-size:11px}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<header>
+  <div class="hrow">
+    <div class="brand"><small>__KICKER__</small><h1>__H1__</h1></div>
+    <span class="score" id="score"></span>
+    <button class="chip" id="openList" aria-label="Open scene list">Scenes</button>
+  </div>
+  <div class="ticks" id="ticks" aria-label="Scene progress"></div>
+</header>
+
+<main>
+  <div class="scenehead" id="head"></div>
+  <div class="feed" id="feed" aria-live="polite"></div>
+  <div id="end"></div>
+  <p class="hint">Press <kbd>Space</kbd> to play or pause. <kbd>→</kbd> next line, <kbd>←</kbd> back. Tap any line to jump to it.</p>
+</main>
+
+<div class="dock">
+  <div class="dk">
+    <div class="nowline" id="nowTxt">Press play and listen while you work</div>
+    <div class="ctl">
+      <button id="bPrevS" aria-label="Previous scene"><svg viewBox="0 0 24 24"><path d="M6 5h2v14H6zM20 5v14L9 12z"/></svg></button>
+      <button id="bPrev" aria-label="Previous line"><svg viewBox="0 0 24 24"><path d="M15.5 5 8.5 12l7 7-1.4 1.4L5.7 12l8.4-8.4z"/></svg></button>
+      <button class="play" id="bPlay" aria-label="Play"><svg viewBox="0 0 24 24" id="playIco"><path d="M7 4v16l13-8z"/></svg></button>
+      <button id="bNext" aria-label="Next line"><svg viewBox="0 0 24 24"><path d="M8.5 19 15.5 12l-7-7 1.4-1.4 8.4 8.4-8.4 8.4z"/></svg></button>
+      <button id="bNextS" aria-label="Next scene"><svg viewBox="0 0 24 24"><path d="M16 5h2v14h-2zM4 5v14l11-7z"/></svg></button>
+    </div>
+    <div class="opts2">
+      <label><input type="checkbox" id="optVoice" checked> Read aloud</label>
+      <label><input type="checkbox" id="optAct" __ACTCHECKED__> Read scene directions</label>
+      <input type="checkbox" id="optPolls" hidden>
+      <label>Speed <select id="optSpeed"><option value="0.85">Slow</option><option value="1" selected>Normal</option><option value="1.2">Fast</option><option value="1.45">Faster</option></select></label>
+    </div>
+  </div>
+</div>
+
+<div class="drawer" id="drawer" hidden>
+  <div class="pane" role="dialog" aria-label="Scene list">
+    <h3>All __N__ scenes <button class="chip" id="closeList">Close</button></h3>
+    <div class="sl" id="sl"></div>
+  </div>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+const SCENES = __SCENES__;
+
+const CAST = __CAST__
+const cast = w => CAST[w] || ["#c8c3d6","m",1];
+
+/* Guessing games: asked at the end of scene `at`, answered when scene `rev` finishes */
+const POLLS = [];
+
+const $ = id => document.getElementById(id);
+const store = {get(k,d){try{const v=localStorage.getItem("__KEY__"+k);return v==null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem("__KEY__"+k,JSON.stringify(v))}catch(e){}}};
+
+let si = store.get("si",0), li = 0, playing = false, runId = 0;
+let seen = new Set(store.get("seen",[0]));
+let answers = store.get("ans",{});
+const synth = ("speechSynthesis" in window) ? window.speechSynthesis : null;
+if(!synth){ $("optVoice").checked=false; $("optVoice").disabled=true; $("optAct").disabled=true; }
+["optVoice","optAct","optPolls","optSpeed"].forEach(id=>{const v=store.get(id,null); if(v!==null){ if($(id).type==="checkbox"){ if(!$(id).disabled) $(id).checked=v;} else $(id).value=v; } $(id).addEventListener("change",()=>{store.set(id,$(id).type==="checkbox"?$(id).checked:$(id).value); if(id==="optVoice"&&!$(id).checked&&synth) synth.cancel();});});
+const speed = () => parseFloat($("optSpeed").value);
+
+/* voices */
+let VO = {f:null,m:null,n:null};
+function pickVoices(){
+  if(!synth) return;
+  const vs = synth.getVoices().filter(v=>/^en/i.test(v.lang));
+  if(!vs.length) return;
+  const fem=/female|samantha|karen|moira|tessa|zira|susan|hazel|serena|victoria|fiona|libby|sonia|aria|jenny|ezinne|abeo|google uk english female|natasha|catherine/i;
+  const mal=/male|daniel|david|mark|alex|george|rishi|fred|guy|ryan|thomas|oliver|arthur|google uk english male|william|james/i;
+  const ng = vs.filter(v=>/NG/i.test(v.lang));
+  const pool = ng.length>=2?ng.concat(vs):vs;
+  VO.f = pool.find(v=>fem.test(v.name)&&!/\bmale\b/i.test(v.name.replace(/female/i,""))) || pool[0];
+  VO.m = pool.find(v=>mal.test(v.name)&&!/female/i.test(v.name)) || pool.find(v=>v!==VO.f) || pool[0];
+  VO.n = pool.find(v=>/en-GB/i.test(v.lang)&&mal.test(v.name)&&!/female/i.test(v.name)) || VO.m;
+}
+if(synth){ pickVoices(); synth.onvoiceschanged = pickVoices; }
+
+function chunks(t){ return (t.match(/[^.!?…]+[.!?…]*["”’)]*\s*/g)||[t]).map(s=>s.trim()).filter(Boolean); }
+function speak(text, who, myRun, onWord){
+  return new Promise(async res=>{
+    const [,g,p] = cast(who);
+    const parts = chunks(text);
+    for(const part of parts){
+      if(myRun!==runId) return res(false);
+      await new Promise(r=>{
+        const u = new SpeechSynthesisUtterance(part.replace(/naira/gi,"nyra"));
+        u.voice = who==="NARRATOR"||who==="_ACT"? VO.n : (g==="f"?VO.f:VO.m);
+        u.pitch = who==="_ACT"?0.95:Math.min(2,Math.max(0.1,p));
+        u.rate = (who==="_ACT"?1.08:who==="NARRATOR"?0.9:1) * speed();
+        let done=false; const fin=()=>{if(!done){done=true;clearTimeout(to);r();}};
+        const to=setTimeout(fin, 2500 + part.split(/\s+/).length*650/speed());
+        u.onend=fin; u.onerror=fin;
+        u.onboundary=e=>{ if(onWord && e.name!=="sentence") onWord(); };
+        synth.speak(u);
+      });
+    }
+    res(myRun===runId);
+  });
+}
+const wait = (ms,myRun)=>new Promise(r=>setTimeout(()=>r(myRun===runId),ms));
+const words = t => t.split(/\s+/).filter(Boolean).length;
+
+function lineText(it){
+  if(it.k==="line") return it.segs.filter(s=>s.s).map(s=>s.s).join(" ");
+  if(it.k==="card") return (it.who==="ON PAPER"?"The note reads: ":it.who==="MEANWHILE"?"Meanwhile. ":"On screen: ")+it.t;
+  return it.t;
+}
+function esc(s){return s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+function initials(w){ if(w==="NARRATOR") return "◉"; return w.replace(/^(YOUNG|DR\.|MRS\.|INSPECTOR) /,"").split(/\s+/).map(x=>x[0]).join("").slice(0,2); }
+
+function renderItem(it,i){
+  const d=document.createElement("div"); d.className="it"; d.dataset.i=i;
+  if(it.k==="act"){ d.classList.add("act"); d.textContent=it.t; }
+  else if(it.k==="line"){
+    const [c]=cast(it.who); d.classList.add("line"); if(it.who==="NARRATOR") d.classList.add("narr");
+    d.style.setProperty("--c",c);
+    const body = it.segs.map(s=> s.d?`<span class="dir">(${esc(s.d)})</span> `: s.s.split(/(\s+)/).map(w=>/\S/.test(w)?`<span class="word">${esc(w)}</span>`:w).join("")+" ").join("");
+    d.innerHTML=`<div class="av" aria-hidden="true">${initials(it.who)}</div><div class="bub"><div class="who">${esc(it.who)}${it.tag?`<em>${esc(it.tag)}</em>`:""}</div><div class="say">${body}</div></div>`;
+  }
+  else if(it.k==="card"){ d.classList.add("card"); if(it.who==="ON PAPER") d.classList.add("paper"); if(it.who==="MEANWHILE") d.classList.add("mw"); d.innerHTML=`<small>${it.who==="ON PAPER"?"WRITTEN NOTE":it.who==="MEANWHILE"?"MEANWHILE":"ON SCREEN"}</small><p>${esc(it.t)}</p>`; }
+  else { d.classList.add("titlecard"); d.textContent=it.t; }
+  d.addEventListener("click",()=>{ const was=playing; stop(); li=i; draw(); if(was) play(); });
+  return d;
+}
+
+function drawHead(anim){
+  const s=SCENES[si];
+  const h=$("head"); h.className="scenehead"+(anim?" enter":"");
+  h.innerHTML=`<div class="num">SCENE ${s.n} OF ${SCENES.length} · ${esc(s.time)}</div><h2>${esc(s.title)}</h2><div class="slug">${esc(s.slug)}</div>`;
+}
+function draw(anim){
+  const s=SCENES[si], feed=$("feed");
+  const have = feed.dataset.si==si ? feed.children.length : 0;
+  if(feed.dataset.si!=si){ feed.innerHTML=""; feed.dataset.si=si; drawHead(true); }
+  while(feed.children.length>li+1) feed.lastChild.remove();
+  for(let i=feed.children.length;i<=li;i++){ const el=renderItem(s.items[i],i); if(i>=have) el.classList.add("fresh"); feed.appendChild(el); }
+  [...feed.children].forEach((el,i)=>el.classList.toggle("cur",i===li));
+  drawEnd(); ticks(); list();
+  const cur=feed.children[li]; if(cur) cur.scrollIntoView({block:"center",behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});
+  const it=s.items[li]; $("nowTxt").textContent=`Scene ${s.n} · ${it.k==="line"?it.who+": ":""}${lineText(it)}`.slice(0,140);
+  store.set("si",si);
+}
+function atEnd(){ return li>=SCENES[si].items.length-1; }
+
+function pollFor(n){ return $("optPolls").checked ? POLLS.find(p=>p.at===n && answers[p.id]===undefined) : null; }
+function revealsFor(n){ return POLLS.filter(p=>p.rev===n && answers[p.id]!==undefined); }
+function updateScore(){
+  const done=POLLS.filter(p=>answers[p.id]!==undefined && seen.has(SCENES.findIndex(s=>s.n===p.rev)) && revealedOnce.has(p.id));
+  const right=done.filter(p=>answers[p.id]===p.a).length;
+  $("score").innerHTML=done.length?`Detective score <b>${right}/${done.length}</b>`:"";
+}
+let revealedOnce = new Set(store.get("rev",[]));
+
+let countdown=null;
+function drawEnd(){
+  const box=$("end"); box.innerHTML=""; clearInterval(countdown);
+  if(!atEnd()) return;
+  const n=SCENES[si].n;
+  revealsFor(n).forEach(p=>{
+    revealedOnce.add(p.id); store.set("rev",[...revealedOnce]);
+    const ok=answers[p.id]===p.a;
+    const r=document.createElement("div"); r.className="reveal"+(ok?"":" miss");
+    r.innerHTML=`<b>${ok?"YOU CALLED IT":"PLOT TWIST"}</b><div>You guessed “${esc(p.o[answers[p.id]])}”. ${esc(p.why)}</div>`;
+    box.appendChild(r);
+  });
+  updateScore();
+  const p=pollFor(n);
+  if(p){
+    const b=document.createElement("div"); b.className="endbox";
+    b.innerHTML=`<h3>${esc(p.q)}</h3><p>Lock in your guess. The answer comes later in the story.</p><div class="opts">${p.o.map((o,i)=>`<button class="opt" data-i="${i}">${esc(o)}</button>`).join("")}</div><div class="row"><button class="btn ghost" id="skipPoll">Skip</button><span class="count" id="cd"></span></div>`;
+    box.appendChild(b);
+    b.querySelectorAll(".opt").forEach(o=>o.onclick=()=>{ answers[p.id]=+o.dataset.i; store.set("ans",answers); o.classList.add("pick"); toast("Guess locked in. Keep watching…"); setTimeout(()=>{ if(playing) nextScene(true); else drawEnd(); },700); });
+    $("skipPoll").onclick=()=>{ answers[p.id]=-1; store.set("ans",answers); nextScene(playing); };
+    if(playing){ let t=15; $("cd").textContent=`Story continues in ${t}s`; countdown=setInterval(()=>{ t--; if($("cd")) $("cd").textContent=`Story continues in ${t}s`; if(t<=0){ clearInterval(countdown); if(answers[p.id]===undefined){answers[p.id]=-1;store.set("ans",answers);} if(playing) nextScene(true);} },1000); }
+    return;
+  }
+  if(si<SCENES.length-1){
+    const b=document.createElement("div"); b.className="endbox";
+    b.innerHTML=`<p>Up next · Scene ${SCENES[si+1].n}</p><h3>${esc(SCENES[si+1].title)}</h3><div class="row"><button class="btn" id="goNext">Continue</button></div>`;
+    box.appendChild(b); $("goNext").onclick=()=>nextScene(playing);
+  } else {
+    const right=POLLS.filter(p=>answers[p.id]===p.a).length;
+    const b=document.createElement("div"); b.className="endbox";
+    b.innerHTML=`<h3>The end</h3><p>You guessed ${right} of ${POLLS.length} twists correctly.</p><div class="row"><button class="btn" id="restart">Watch again from Scene 1</button></div>`;
+    box.appendChild(b); $("restart").onclick=()=>{ answers={}; store.set("ans",answers); revealedOnce=new Set(); store.set("rev",[]); goScene(0); };
+  }
+}
+
+function goScene(i, keepPlaying){ const was=keepPlaying??playing; stop(); si=Math.max(0,Math.min(SCENES.length-1,i)); li=0; seen.add(si); store.set("seen",[...seen]); draw(true); window.scrollTo({top:0}); if(was) play(); }
+function nextScene(keep){ if(si<SCENES.length-1) goScene(si+1,keep); else stop(); }
+
+async function runLoop(){
+  const my=++runId;
+  while(my===runId){
+    const s=SCENES[si], it=s.items[li];
+    const text=lineText(it);
+    const useVoice = $("optVoice").checked && synth && (it.k!=="act" || $("optAct").checked);
+    let ok;
+    if(useVoice){
+      const who = it.k==="line"? it.who : "_ACT";
+      const el=$("feed").children[li]; const ws=el?[...el.querySelectorAll(".word")]:[]; let wi=0;
+      ok = await speak(text, who, my, ()=>{ if(ws[wi]) ws[wi++].classList.add("spoken"); });
+      if(ok) ws.forEach(w=>w.classList.add("spoken"));
+      ok = ok && await wait(250/speed(),my);
+    } else {
+      ok = await wait(Math.max(1400, words(text)*(it.k==="act"?230:300))/speed() + 400, my);
+    }
+    if(!ok) return;
+    if(!atEnd()){ li++; draw(); continue; }
+    if(pollFor(s.n)) return; // poll handles continuation with countdown
+    if(si>=SCENES.length-1){ stop(); return; }
+    if(!(await wait(1800,my))) return;
+    nextScene(true); return;
+  }
+}
+
+let lock=null;
+async function play(){ playing=true; setIcon(); try{ lock = await navigator.wakeLock?.request("screen"); }catch(e){} if(atEnd() && pollFor(SCENES[si].n)){ drawEnd(); return; } if(atEnd()&&si<SCENES.length-1){ nextScene(true); return; } drawEnd(); runLoop(); }
+function stop(){ playing=false; runId++; clearInterval(countdown); if(synth) synth.cancel(); setIcon(); try{lock?.release();}catch(e){} lock=null; const c=$("cd"); if(c) c.textContent=""; }
+function setIcon(){ $("playIco").innerHTML = playing?'<path d="M6 4h4v16H6zM14 4h4v16h-4z"/>':'<path d="M7 4v16l13-8z"/>'; $("bPlay").setAttribute("aria-label",playing?"Pause":"Play"); }
+
+function step(d){ const was=playing; stop(); const s=SCENES[si];
+  if(d>0){ if(!atEnd()) li++; else if(!pollFor(s.n)) { nextScene(was); return; } }
+  else { if(li>0) li--; else if(si>0){ goScene(si-1,false); li=SCENES[si].items.length-1; draw(); } }
+  draw(); if(was) play(); }
+
+function ticks(){ const t=$("ticks"); if(!t.children.length){ SCENES.forEach((s,i)=>{const b=document.createElement("button"); b.title=`Scene ${s.n}: ${s.title}`; b.setAttribute("aria-label",b.title); b.onclick=()=>goScene(i); t.appendChild(b);}); }
+  [...t.children].forEach((b,i)=>{ b.className=(i===si?"now":seen.has(i)?"seen":""); }); }
+function list(){ const l=$("sl"); if(!l.children.length){ SCENES.forEach((s,i)=>{ const b=document.createElement("button"); b.innerHTML=`<span class="n">${String(s.n).padStart(2,"0")}</span><span class="t">${esc(s.title)}</span><span class="tm">${esc(s.time.split("–")[0].split(" ")[0])}</span>`; b.onclick=()=>{ $("drawer").hidden=true; goScene(i); }; l.appendChild(b); }); }
+  [...l.children].forEach((b,i)=>{ b.classList.toggle("now",i===si); b.classList.toggle("seen",seen.has(i)&&i!==si); }); }
+
+let tt; function toast(m){ const t=$("toast"); t.textContent=m; t.hidden=false; clearTimeout(tt); tt=setTimeout(()=>t.hidden=true,2200); }
+
+$("bPlay").onclick=()=> playing?stop():play();
+$("bNext").onclick=()=>step(1); $("bPrev").onclick=()=>step(-1);
+$("bNextS").onclick=()=>nextScene(playing); $("bPrevS").onclick=()=>goScene(si-1);
+$("openList").onclick=()=>{ $("drawer").hidden=false; const n=$("sl").querySelector(".now"); n&&n.scrollIntoView({block:"center"}); };
+$("closeList").onclick=()=>$("drawer").hidden=true;
+$("drawer").onclick=e=>{ if(e.target.id==="drawer") $("drawer").hidden=true; };
+document.addEventListener("keydown",e=>{
+  if(e.target.closest("select,input")) return;
+  if(e.code==="Space"){ e.preventDefault(); playing?stop():play(); }
+  else if(e.key==="ArrowRight") step(1); else if(e.key==="ArrowLeft") step(-1);
+  else if(e.key==="Escape") $("drawer").hidden=true;
+});
+document.addEventListener("visibilitychange",async()=>{ if(playing && document.visibilityState==="visible"){ try{ lock=await navigator.wakeLock?.request("screen"); }catch(e){} } });
+
+if(si>=SCENES.length) si=0;
+seen.add(si);
+draw(true);
+if(si>0) toast(`Welcome back. You're on Scene ${SCENES[si].n}.`);
+</script>

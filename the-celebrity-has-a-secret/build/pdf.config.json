@@ -1,0 +1,141 @@
+{
+ "script": "script.md",
+ "scenes": "build/scenes.json",
+ "out_html": "build/book.html",
+ "characters": "characters.md",
+ "title": "The Celebrity Has a Secret",
+ "kicker": "A LAGOS DRAMA · STORY BY MARY LADE",
+ "tagline": "Everyone knows her name. Nobody knows what it cost her.",
+ "blurb": "Forty thousand fans scream her name. Three weeks later, a photographer grabs her wrist, the internet calls her cold, and a faded bracelet arrives in a delivery box. Somebody from before the blonde hair has found her, and he has given her until Friday.",
+ "spot": "SIENNA VALE — PERFORMER TONIGHT",
+ "meta": [
+  [
+   "46",
+   "SCENES"
+  ],
+  [
+   "~50",
+   "MINUTES"
+  ],
+  [
+   "100%",
+   "DIALOGUE"
+  ],
+  [
+   "40",
+   "CHARACTERS"
+  ]
+ ],
+ "threads": [
+  [
+   "The Night Everybody Loved Her",
+   "The door, the lips, the walk, the song and the news.",
+   [
+    "PERFORMER TONIGHT",
+    "ONLY HER LIPS",
+    "THE WALK",
+    "FOREVER IN LOVE",
+    "\"LAGOS STOOD STILL\""
+   ]
+  ],
+  [
+   "The Wall",
+   "The hand on her wrist and the 'Ice Queen' headlines.",
+   [
+    "THE HAND",
+    "ICE",
+    "THE ICE QUEEN",
+    "\"SHE MOVED HIS HAND\"",
+    "ONE QUESTION"
+   ]
+  ],
+  [
+   "The Warnings",
+   "Flowers, a bracelet, a borrowed pass and a deadline.",
+   [
+    "WRONG NAME",
+    "THE BRACELET",
+    "SOMEBODY BORROWED A PASS",
+    "THE BACK SEAT",
+    "THE WRONG THEORY"
+   ]
+  ],
+  [
+   "June",
+   "The small house, the long lens and the orange gate.",
+   [
+    "THE SMALL HOUSE",
+    "THE STORY THEY INVENTED",
+    "THE BRACELET",
+    "THE BLANK PAGE",
+    "SHE GOES HOME"
+   ]
+  ],
+  [
+   "Eli's Investigation",
+   "From 'LAUNDRY?' to the man at the table.",
+   [
+    "THE ASSIGNMENT",
+    "THE FIRST BOOKING",
+    "AN OLD JOB",
+    "INSTALMENTS",
+    "THE PRICE OF A STORY",
+    "THE MAN AT THE TABLE",
+    "WHAT ELI PUBLISHES",
+    "\"THAT'S HOW YOU TELL IT\""
+   ]
+  ],
+  [
+   "Naomi",
+   "The name, the rooftop, the truth and the call.",
+   [
+    "NAOMI",
+    "THE ROOFTOP",
+    "WHAT HAPPENED BEFORE SIENNA",
+    "THE NEXT CALL",
+    "THE NEXT STEPS"
+   ]
+  ],
+  [
+   "Her Own Words",
+   "The blank page, the drive, the interview and Lagos watching.",
+   [
+    "THE BLANK PAGE",
+    "NO SAD SONG",
+    "THE DRIVE",
+    "BEFORE THE CAMERAS",
+    "THE INTERVIEW",
+    "LAGOS WATCHES"
+   ]
+  ],
+  [
+   "Maya",
+   "The girl in Ikorodu who finds her next step.",
+   [
+    "THE BUTTON",
+    "THE GIRL WATCHING",
+    "AFTER BREAKFAST"
+   ]
+  ]
+ ],
+ "colors": {
+  "SIENNA": "#b8325a",
+  "MARA": "#2f4f8f",
+  "TOBI": "#13806c",
+  "JUNE": "#c25a1e",
+  "ELI": "#5a4fc0",
+  "KEMI": "#8a6d2c",
+  "DANIEL": "#33363d",
+  "VICTOR": "#8f2a2a",
+  "ADA": "#6a3f9a",
+  "MAYA": "#a87400",
+  "RUTH": "#8a5a2b",
+  "BEN": "#2a6a8a",
+  "UNCLE SULE": "#4c7a2a",
+  "MRS ADE": "#9a3f6a",
+  "LAWYER": "#3d5a80",
+  "FEMI KEYS": "#7a4a1a",
+  "OGA PIUS": "#6b4a2b",
+  "MR. BANJO": "#5a5a5a"
+ }
+}
