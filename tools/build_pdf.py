@@ -112,6 +112,7 @@ h2.sec{{font-size:24pt;margin:0 0 4mm}}
 .card{{margin:3.4mm auto;max-width:125mm;text-align:center;border:1.5px solid #a2353a;border-radius:3mm;padding:2.6mm 5mm;page-break-inside:avoid}}
 .card small{{display:block;color:#a2353a;font-size:7.4pt;letter-spacing:.18em}}
 .card p{{margin:1mm 0 0;font-family:"Courier Prime",monospace;font-weight:700;font-size:10.6pt}}
+.post{{margin:3mm 0 1.6mm;border-left:3px solid #1d1a20;background:#f3f1f4;padding:2mm 3mm;font-size:9.2pt}} .trans{{margin:1.6mm 0;background:#141018;color:#f5efe6;padding:2mm 3mm;font-style:italic;font-size:9.2pt}} .post span,.trans span{{display:block;font-family:"Courier Prime",monospace;font-style:normal;font-size:7.4pt;letter-spacing:.16em;color:#9a6b12}}
 .tc{{text-align:center;font-family:"Playfair Display",Gloock,serif;color:#9a6b12;font-size:14pt;margin:6mm 0}}
 '''
 
@@ -176,6 +177,10 @@ h2.sec{font-family:"DejaVu Sans",sans-serif;font-weight:700;font-size:12pt;lette
 .tc{margin:3mm 0;display:flex;align-items:center;gap:1.6mm;background:#fff7dc;border:1px solid #ecd27a;border-radius:2mm;padding:2mm 3mm;font-family:"DejaVu Sans",sans-serif;font-weight:700;font-size:7.8pt}
 h2.sec{page-break-before:auto!important}
 .ln .w{color:#1c1f1e!important}
+.post{margin:3mm 0 1.6mm;border:1px solid #d6dad8;border-left:3px solid #1c1f1e;border-radius:1.6mm;padding:2mm 3mm;font-size:9pt;color:#2e3230;page-break-inside:avoid}
+.trans{margin:1.6mm 0 2mm;background:#0f1513;color:#e9e6de;border-radius:1.6mm;padding:2mm 3mm;font-size:9pt;font-style:italic;page-break-inside:avoid}
+.post span,.trans span{display:block;font-family:"DejaVu Sans",sans-serif;font-style:normal;font-weight:700;font-size:6.8pt;letter-spacing:.18em;margin-bottom:.8mm;color:#9a7414}
+.trans span{color:#e0b13a}
 .tc::before{content:"ON SCREEN";color:#9a7414;font-size:6.8pt;letter-spacing:.16em;margin-right:1.6mm}
 """
 
@@ -210,6 +215,7 @@ o.append(('' if JOURNAL else '<section><h2 class="sec d">How to use this PDF</h2
          + '<li><b>Tap</b> any scene in the contents or any thread to jump to it. Every scene has ◀ Previous, All scenes and Next ▶ links, and your PDF app\'s bookmarks list every scene.</li>'
          + opening_li
          + aa_li + '<b>Lip-sync</b> for the mouth and delivery, <b>Body</b> for posture and movement. Paste it into your video prompt for that shot.</li>'
+         + '<li><b>Post-action</b> (outlined box at the end of a scene): what happens after the conversation, who stays behind and how they react. <b>Transition</b> (dark box): the bridge shot into the next scene, so the film flows without jumps.</li>'
          + '<li><b>Production checkboxes</b> on every scene (Images, Voice, Edited). Tick them as you go; most PDF apps save them.</li>'
          + '<li><b>Characters</b>: every character with an image prompt, next. Tap "first appears" to jump to their first scene.</li></ul></div>')
 if chars:
@@ -264,7 +270,13 @@ for s in S:
     for it in s['items']:
         k = it['k']
         if k == 'act':
-            o.append(f'<div class="act{"" if opened else " open"}">{e(it["t"])}</div>')
+            txt = it['t']
+            if txt.startswith('POST-ACTION'):
+                o.append(f'<div class="post"><span>POST-ACTION</span>{e(txt.split("—", 1)[1].strip())}</div>')
+            elif txt.startswith('TRANSITION'):
+                o.append(f'<div class="trans"><span>TRANSITION ▸ NEXT SCENE</span>{e(txt.split("→", 1)[1].strip())}</div>')
+            else:
+                o.append(f'<div class="act{"" if opened else " open"}">{e(txt)}</div>')
             opened = True
         elif k == 'aa':
             o.append(f'<div class="aa">↳ {aa_html(it["t"])}</div>')

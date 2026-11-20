@@ -11,6 +11,7 @@
 - **Dialogue.** `**NAME:** words`. These are the only spoken words in the film.
 - **After-action** (`↳` line under each line of dialogue). **Lip-sync** says how the mouth moves and the delivery. **Body** gives posture, hands, eyes and movement. Use it to prompt the shot of that line.
 - **ON SCREEN** cards are text the audience reads: phone screens, headlines, messages.
+- **Post-action and transition:** every scene ends with a **POST-ACTION** (what happens after the conversation: who stays, how they react, the room after everyone leaves) and a **TRANSITION** (the bridge shot that carries us into the next scene: the time, the place, who arrives and how). Shoot them so the film flows from one scene into the next without jumps.
 - **Continuity:** Sienna's bleached-blonde hair and grey contacts stay the same until the final scene, where the contacts come out and her real brown eyes show. Her hair stays blonde.
 - **Care rules (from the original script):** the abuse is never shown or re-enacted, and Victor is never shown or hinted at before Scene 31. June's child is never seen or named.
 
@@ -33,6 +34,9 @@
 **KOLA:** *(into his headset, walking away)* She's awake, she's calm, she's coming. Tell the band to breathe.
 *↳ After action. Lip-sync: fast, half-whispered into the mic, a small grin at the end. Body: walking quickly, glancing back over his shoulder at the door with a mix of nerves and pride.*
 
+*POST-ACTION — Kola's footsteps fade down the corridor. A runner with a tray of water bottles hurries past and glances at the gold star on the door, the way people glance at a church door. The bass thumps on. The door stays shut.*
+
+*TRANSITION → The camera passes straight through the white door. Inside, the noise of the corridor drops to a hum, and the warm glow of the mirror bulbs fills the frame.*
 ---
 
 ## SCENE 2 — ONLY HER LIPS
@@ -73,6 +77,9 @@
 **MARA:** I'm saying it with love.
 *↳ After action. Lip-sync: dry, small smile. Body: taps the tablet against her palm, then reaches out and adjusts the gown's shoulder with quick, practised fingers.*
 
+*POST-ACTION — Mara leaves to check on the band. Funke and Sade pack their brushes in silence, both looking at the woman in gold who has turned her back to the mirror. Tobi quietly slips the biscuit packet back into his tote. Sienna takes one slow breath, alone with her own reflection, and opens the door.*
+
+*TRANSITION → The door swings open onto the black corridor. The camera drops to the floor, to the first gold heel touching the concrete.*
 ---
 
 ## SCENE 3 — THE WALK
@@ -98,6 +105,9 @@
 
 *Blackout. The crowd screams into the dark.*
 
+*POST-ACTION — In the darkness of the wings, Daniel stands with his arms folded, eyes on the crowd. Kola lets out the breath he has been holding. For one second, the corridor behind them is completely empty.*
+
+*TRANSITION → A single white beam cuts through the black. Smoke rises into it. The roar of 40,000 people pours out of the dark like rain.*
 ---
 
 ## SCENE 4 — FOREVER IN LOVE
@@ -146,6 +156,9 @@
 
 *Sienna catches the fan's eye and presses her hand to her heart toward her. Close on Sienna's face: joy, and something else just behind it for half a second. Then the stage lights blind white.*
 
+*POST-ACTION — The last firework fades. Sienna bows low and holds it as the crowd keeps chanting. She straightens, waves once more, and walks back into the dark wings while the band plays her off. On stage, the empty spotlight stays on the spot where she stood.*
+
+*TRANSITION → The heavy stage curtain swings shut behind her. Backstage lights flicker on, and the crew is already running toward her down the corridor.*
 ---
 
 ## SCENE 5 — "YOU WERE UNREAL"
@@ -175,6 +188,9 @@
 **MARA:** Enjoy it. Tomorrow I'm back to being your schedule.
 *↳ After action. Lip-sync: dry, then a short laugh. Body: lets go, checks her tablet again, but still smiling.*
 
+*POST-ACTION — The crew disperses: dancers to the showers, the band to their cases. Mara walks off with her phone already at her ear, talking money. Tobi stays, carrying Sienna's heels like precious cargo. In the sudden quiet, Sienna leans her head back against the wall for a second and smiles at the ceiling.*
+
+*TRANSITION → Daniel touches his earpiece. "Car's ready." A dresser drapes a cream coat over Sienna's shoulders. Down the long corridor, the steel exit doors wait, and beyond them, the sound of shouting.*
 ---
 
 ## SCENE 6 — THE FLASHES
@@ -197,6 +213,9 @@
 
 *The door shuts. Through the tinted window, the flashes keep exploding like lightning as the car pulls away.*
 
+*POST-ACTION — On the pavement, the paparazzi lower their cameras and check their screens, comparing shots. Dele, the loudest of them, shows his to a colleague and smirks. The fans slowly drift toward the road, still singing the chorus.*
+
+*TRANSITION → Wide aerial shot: the Maybach's tail-lights join the river of traffic along Ozumba Mbadiwe, the lagoon black and glittering beside it. Then cut to the bright lights of a television studio across the city.*
 ---
 
 ## SCENE 7 — "LAGOS STOOD STILL"
@@ -232,6 +251,9 @@
 
 **TITLE CARD:** *THREE WEEKS LATER.*
 
+*POST-ACTION — In the newsroom, Chioma Bello turns to her next story. On a tiny TV in a roadside bar in Yaba, the same broadcast plays to a few men drinking beer; one of them taps the screen and says, "That girl can sing." In the car, Sienna has fallen asleep against the window, the phone glowing in her lap. Uncle Sule turns the radio down.*
+
+*TRANSITION → The title card fades. Time-lapse: three weeks of Lagos sunrises and sunsets over Victoria Island. Then night again. White marquee lights. A red carpet being rolled out.*
 ---
 
 ## ACT ONE — THE WALL
@@ -292,7 +314,9 @@
 
 **TITLE CARD:** *THE CELEBRITY HAS A SECRET*
 
+*POST-ACTION — In the lobby, the viral clip is already spreading on a dozen phones. A security guard shows a cleaner. Tobi watches Sienna walk into the ballroom, smiling for the cameras as if nothing happened. He sees her wrist is still pressed against her gown.*
 
+*TRANSITION → Hours later. The awards are over. The car glides through empty Ikoyi streets past dark mansions, through a tall black gate, and up to a white house with one light on in the kitchen.*
 ---
 
 ## SCENE 9 — ICE
@@ -323,6 +347,9 @@
 
 *He nods and leaves. The front door closes. Sienna stands alone. She lifts the frozen bag and looks at the red marks of fingers on her wrist. Her breath shakes. She presses the cold bag back against it and closes her eyes.*
 
+*POST-ACTION — Sienna stands at the counter until the frozen bag is soft and wet. She drops it in the sink and switches off the freezer light. The kitchen goes dark. Her phone lights up again on the counter, illuminating nothing but her hand. She leaves it there and walks upstairs.*
+
+*TRANSITION → Dawn over Ikoyi: the first gold light on the lagoon and the house's white walls. Inside, a breakfast tray is carried up the stairs into the dressing room.*
 ---
 
 ## SCENE 10 — THE ICE QUEEN
@@ -373,7 +400,9 @@
 
 *Silence. Tobi quietly turns off his tablet. As the screen dims, one last notification slides across it: "WHAT IS SIENNA HIDING?"*
 
+*POST-ACTION — Zara hangs the blue outfit on the rail and leaves. Tobi slides the tablet into his bag and follows her out. Mara stays a moment, watching Sienna's back at the mirror. Sienna doesn't turn around. Mara picks up her bag and leaves without another word.*
 
+*TRANSITION → Outside in the driveway, the late-morning sun bakes the paving stones. Mara walks to her white SUV, climbs in and shuts the door. She doesn't start the engine. She just sits.*
 ---
 
 ## SCENE 11 — "SHE MOVED HIS HAND"
@@ -399,6 +428,9 @@
 **MARA:** *(to herself)* What are you so afraid of?
 *↳ After action. Lip-sync: whispered, puzzled, almost tender. Body: leans her forehead on the steering wheel for a second, then straightens and drives off.*
 
+*POST-ACTION — Mara reverses out of the driveway. In the house, the curtain upstairs moves slightly, as if someone stepped back from it.*
+
+*TRANSITION → The afternoon. The glowing purple set of Star Talk Lagos. The audience lights come up and a floor manager counts the host in with his fingers.*
 ---
 
 ## SCENE 12 — ONE QUESTION
@@ -464,6 +496,9 @@
 **SIENNA:** *(locking the phone, face down)* Nothing. Wrong number.
 *↳ After action. Lip-sync: too quick, too light. Body: slides the phone into her bag, stands, turns to the mirror so Mara can only see her back.*
 
+*POST-ACTION — Mara watches Sienna's back for a long moment, then leaves to deal with the producers. Alone, Sienna sits down slowly in front of the dressing-room mirror. She takes the phone out of her bag, reads the message again, and deletes it. Her hand stays on the phone.*
+
+*TRANSITION → Across the city, on a monitor in a busy newsroom in Yaba, the same interview is playing back. The frozen frame is Sienna's falling smile.*
 ---
 
 ## SCENE 13 — THE ASSIGNMENT
@@ -514,7 +549,9 @@
 
 *Eli stops the clip. Rewinds it. Plays it again: "That girl from the laundry." He grabs a sticky note and writes one word in thick marker, then sticks it to his screen: "LAUNDRY?"*
 
+*POST-ACTION — Eli sits back, staring at the sticky note. Kemi, through the glass of her office, watches him and shakes her head with a small, knowing smile. Around them, the newsroom carries on: phones ringing, someone laughing at a meme.*
 
+*TRANSITION → The next morning. The same desk, now covered in more sticky notes. A young fact-checker drags a chair over, opens her sticker-covered laptop and sits down beside Eli.*
 ---
 
 ## SCENE 14 — THE FIRST BOOKING
@@ -561,6 +598,9 @@
 **ELI:** *(staring at the screen)* No. She's something harder to explain.
 *↳ After action. Lip-sync: thoughtful, low. Body: leans back, tapping the pen against his lips.*
 
+*POST-ACTION — Zainab goes back to her own desk. Eli stays, staring at the screen where the bar's address is open on a map. He writes "2016, TUESDAYS" on a new sticky note and puts it beside "LAUNDRY?". In the Blue Note Lounge, Oga Pius pours himself a small drink and looks at the corner stage for a long time.*
+
+*TRANSITION → Afternoon traffic on the Lekki–Epe Expressway. A black SUV turns into the car park of a low building with a neon sign: "STUDIO". Inside, a red RECORDING light comes on above a door.*
 ---
 
 ## SCENE 15 — THE NOTE
@@ -599,6 +639,9 @@
 **FEMI KEYS:** *(pressing the button, grinning)* It was the take. We're keeping it.
 *↳ After action. Lip-sync: warm, decisive. Body: gives her a thumbs up through the glass.*
 
+*POST-ACTION — Sienna comes out of the booth, takes off the headphones and drinks a whole bottle of water in one go. Femi saves the take and labels it on screen: "FREE — KEEPER." Tobi offers her a plantain chip. She takes three.*
+
+*TRANSITION → Sienna and Tobi walk down a corridor lined with platinum discs to the big rehearsal studio next door, where eight dancers are stretching on the wooden floor and the speakers are already pumping.*
 ---
 
 ## SCENE 16 — WRONG NAME
@@ -664,7 +707,9 @@
 
 *In her fist, she folds the little card smaller and smaller until it creases, then holds it so tightly her hand shakes.*
 
+*POST-ACTION — Daniel leaves to make calls. Sienna stays at the window, the creased card in her fist. Below, in the car park, she can see Tobi carrying the flowers to the bins. She watches until he's done, then turns off the studio lights. Only the city light comes through the glass.*
 
+*TRANSITION → Downstairs. The car park, lit orange by street lamps. The night insects are loud. Daniel comes out of the side door, phone in hand, and leans against the SUV.*
 ---
 
 ## SCENE 17 — TWO MEN IN A CAR PARK
@@ -695,6 +740,9 @@
 
 *Tobi nods. As he turns, he looks back at the bin. A single red rose has fallen onto the tarmac. He stands on it as he walks away.*
 
+*POST-ACTION — Daniel watches Tobi go, then looks up at the dark studio window. A shadow moves behind it: Sienna, coming down. He straightens and opens the back door for her before she reaches the car.*
+
+*TRANSITION → A few nights later. Surulere: narrow streets, a kiosk selling bread under a single bulb, children playing football in the road. Sienna's car stops outside a small block of flats with a green gate. She gets out alone in a hoodie, arms full of takeaway containers, and climbs the stairs.*
 ---
 
 ## SCENE 18 — THE SMALL HOUSE
@@ -764,6 +812,9 @@
 
 *LATER. The front door. June and Sienna hug goodbye in the doorway, swaying, laughing at something. Hard cut to the outside. EXT. PUBLIC ROAD OPPOSITE — CONTINUOUS. Through the window of a parked car, a long telephoto lens points at the doorway. We see only the camera and a photographer's hands: a cheap watch and a press lanyard. The shutter fires: click-click-click-click. On the camera's little screen, the frame freezes: Sienna embracing June at the door, and behind them, through the open doorway, a child's school bag on a hook.*
 
+*POST-ACTION — June locks the door and leans her back against it, smiling. She checks on her sleeping child, then starts clearing the containers. Outside, the parked car with the long lens pulls away without its headlights on. Nobody sees it go.*
+
+*TRANSITION → Morning in Ikoyi. Gardeners water the hedges. Inside, a coffee machine finishes pouring. Tobi walks down the corridor toward the home office, holding his tablet as if it's hot.*
 ---
 
 ## SCENE 19 — THE STORY THEY INVENTED
@@ -824,6 +875,9 @@
 
 *She walks out before Mara can answer. The door swings shut. Mara sits very still, looking at the photo of the school bag on the tablet.*
 
+*POST-ACTION — Mara stays alone in the office, staring at the photo of the school bag. Then she picks up the phone and calls the blog's legal department, her voice cold and fast. Down the hall, a car engine starts as Sienna leaves to meet Daniel at June's.*
+
+*TRANSITION → Later that day. The dressing room is cluttered with a tall stack of designer garment boxes delivered while everyone was out. Tobi sits cross-legged among them with a clipboard, humming.*
 ---
 
 ## SCENE 20 — THE BRACELET
@@ -878,6 +932,9 @@
 **SIENNA:** *(whispering)* Orange.
 *↳ After action. Lip-sync: a whisper, almost a laugh. Body: her head tips back against the wall, the bracelet still held to her chest.*
 
+*POST-ACTION — Sienna stays on the floor with the phone against her ear long after June has hung up, listening to the silence. Then she stands, puts the bracelet in its clear sleeve into her bag, and looks at her reflection: blonde hair, grey eyes. A premiere invitation lies on the dressing table: TONIGHT.*
+
+*TRANSITION → Night. Searchlights sweep the sky over the IMAX in Lekki. A giant poster of "LAST LIGHT OVER LAGOS" glows above the entrance. Cars queue to drop off guests on the red carpet.*
 ---
 
 ## SCENE 21 — SOMEBODY BORROWED A PASS
@@ -935,7 +992,9 @@
 **SIENNA:** Someone who shouldn't have been there.
 *↳ After action. Lip-sync: hollow, staring past Mara. Body: arms wrapped around herself, emerald gown glittering under the fluorescent light.*
 
+*POST-ACTION — Back in the reception hall, the party carries on as if nothing happened. Eli stands near the staff door where she disappeared, recorder still in his hand, looking at the exit where the blurred guest stood. Nobody is there now. He turns to a waiter and asks something; the waiter shrugs.*
 
+*TRANSITION → Rain begins to fall over Lekki. Through the windscreen of Sienna's car, the wipers start. The premiere's lights shrink in the rear window as the car pulls onto the expressway.*
 ---
 
 ## SCENE 22 — THE BACK SEAT
@@ -966,6 +1025,9 @@
 **DANIEL:** *(after a long beat)* Until then, I don't leave the house.
 *↳ After action. Lip-sync: low, a promise. Body: turns back to face the road, settles into the seat like a wall.*
 
+*POST-ACTION — The car turns through the gates in Ikoyi. Daniel gets out first and checks the garden with a torch before opening her door. Upstairs, a light comes on in Sienna's room and stays on all night. In the gatehouse, Daniel settles into a chair facing the gate.*
+
+*TRANSITION → Mushin, a few days later. A busy market road: okadas, traders shouting and a generator roaring. Eli walks along the pavement, checking an address on his phone, and stops at a small shop with a faded sign: "MRS ADE'S QUICK WASH."*
 ---
 
 ## SCENE 23 — AN OLD JOB
@@ -1027,7 +1089,9 @@
 **MRS ADE:** It is. *(beat)* And if you write that she's unkind, I'll send you my water bill.
 *↳ After action. Lip-sync: deadpan, then a wink. Body: goes back to folding with a snap of the sheet.*
 
+*POST-ACTION — Eli leaves with his bag on his shoulder. Mrs Ade watches him through the steamy window until he's gone, then pats the photograph in her apron pocket. She takes out her old phone, scrolls to a number saved as "MY SINGING DAUGHTER", and hesitates.*
 
+*TRANSITION → Evening. Lagos traffic crawls along Ikorodu Road at dusk, brake lights stretching to the horizon. In the back of a car stuck in the middle of it, a phone begins to ring.*
 ---
 
 ## SCENE 24 — "NOT YET"
@@ -1068,6 +1132,9 @@
 **UNCLE SULE:** *(handing a paper bag back over his shoulder)* Then eat this bird. Suya. I stopped at the junction.
 *↳ After action. Lip-sync: grinning. Body: reaches back with the warm paper bag without taking his eyes off the road.*
 
+*POST-ACTION — Sienna eats the suya with her fingers in the back seat, laughing at something Uncle Sule says about his wife's cooking. In the laundry, Mrs Ade switches off the last light, locks the door and walks home, humming one of Sienna's songs under her breath.*
+
+*TRANSITION → The next morning. Victoria Island's glass towers glint in the sun. A lift rises to the top floor of a building with a perfume logo on the door. In a cool white boardroom, an executive arranges a glossy mood board on an easel.*
 ---
 
 ## SCENE 25 — EVERYBODY WANTS AN ANSWER
@@ -1118,6 +1185,9 @@
 
 *Mara stands alone in the car park, watching the car pull away.*
 
+*POST-ACTION — Mara stands in the hot car park for a long time. Upstairs, through the boardroom window, the executive watches her too. Mara takes out her phone, opens her calendar, looks at the week of photoshoots and launches, and for the first time doesn't know what to do with it.*
+
+*TRANSITION → That night. Yaba. The newsroom windows are some of the only lights still on in the street. Inside, Kemi sits in her glass office with her feet up, eating suya from newspaper, when Eli knocks on her door with a long strip of paper.*
 ---
 
 ## ACT TWO — THE NAME
@@ -1179,7 +1249,9 @@
 
 *She looks at him, caught completely off guard. Her eyes fill. She doesn't cry. She pushes the phone across the counter, face down, toward him. It's a small act of trust.*
 
+*POST-ACTION — Kemi leans back, studying Eli's face as he stares at the email attachment. She says nothing. In the kitchen across the city, Tobi slowly picks up Sienna's phone and turns it over. He reads the message. He looks at her. Neither speaks. The kettle clicks off.*
 
+*TRANSITION → Two days later. Yaba. A narrow staircase above a phone shop, with a hand-painted sign: "BANJO VOICE ACADEMY — SINGING · PIANO · CONFIDENCE." Eli climbs the stairs and knocks on a door where piano scales are playing.*
 ---
 
 ## SCENE 27 — INSTALMENTS
@@ -1218,6 +1290,9 @@
 
 *Eli sits very still. Then he picks up his recorder and puts it back in his bag without switching it on.*
 
+*POST-ACTION — Eli thanks Mr. Banjo and leaves. The old man sits alone at the piano and plays the opening bars of a song very softly, the same melody Sienna sang at the arena. Outside, Eli stands on the busy pavement, looking at the initials he scribbled in his notebook: "N.C."*
+
+*TRANSITION → That evening. Heavy rain over Ikoyi. Water streams down the tall windows of Sienna's house. Cars pull up at the gate one after another, Mara's SUV and a dark saloon, and Daniel lets them in under umbrellas.*
 ---
 
 ## SCENE 28 — NAOMI
@@ -1266,7 +1341,9 @@
 
 *Silence except for the rain. Mara looks at the bracelet, then slowly reaches for her laptop, where the publicity calendar is open (premiere, photoshoot, sponsor launch), and closes it.*
 
+*POST-ACTION — The meeting breaks up quietly. The lawyer gathers her notes and is walked to her car by Daniel. Mara squeezes Sienna's shoulder on her way out and doesn't say anything. June stays. When the door closes, Sienna picks up the notebook again, holds it a moment, and puts it back in the drawer. Then she goes upstairs.*
 
+*TRANSITION → The rain stops. Up the internal stairs to the roof: a wet, shining terrace, potted palms dripping, the Lagos skyline across the lagoon.*
 ---
 
 ## SCENE 29 — THE ROOFTOP
@@ -1307,6 +1384,9 @@
 
 *Tobi smiles, surprised and pleased, and starts to talk. The camera rises slowly above the two of them, two small figures on a shining rooftop, talking, with the whole of Lagos glittering behind them.*
 
+*POST-ACTION — Hours later, the mugs are empty on the wet table. Tobi has gone home. Sienna sits alone on the rooftop wrapped in the blanket, watching the sky turn grey-blue at the edge. She is almost smiling. She falls asleep there.*
+
+*TRANSITION → Morning in Yaba. The Lagos Lens newsroom is busy again. Kemi walks through it holding a printout, stops at Eli's desk, says "My office. Now," and closes the blinds behind them.*
 ---
 
 ## SCENE 30 — THE PRICE OF A STORY
@@ -1351,6 +1431,9 @@
 
 *He attaches the sender's email and presses SEND. Immediately his phone, face up on the desk, starts ringing. "UNKNOWN NUMBER." It rings. And rings. Eli and Kemi both stare at it. He doesn't answer. He clicks SAVE on the email and lets the phone ring out.*
 
+*POST-ACTION — The phone finally stops ringing. Eli and Kemi look at each other. Kemi takes off her glasses and rubs her eyes. Eli reads the email he just sent one more time. Then a reply arrives from an unfamiliar address: "I will come to your office. Thursday. 11 a.m."*
+
+*TRANSITION → Thursday, 10:58 a.m. Close on the reception desk: a man's hand with a gold wristwatch signs the visitors' book in neat, sloping handwriting. We never see his face. Eli's voice says, "This way, sir," and two pairs of shoes walk down the corridor toward a small room with a camera on a tripod.*
 ---
 
 ## SCENE 31 — THE MAN AT THE TABLE
@@ -1426,6 +1509,9 @@
 **KEMI:** Now decide whether you'll help him tell it.
 *↳ After action. Lip-sync: low, grave. Body: switches off the camera with one click.*
 
+*POST-ACTION — Eli and Kemi sit in the bare room for a long time. Then Kemi stands, picks up the printouts and leaves. Eli stays, staring at the empty chair. Through the window, down in the street, he sees Victor get into a taxi, check his reflection in the window and smooth his shirt as the car drives away.*
+
+*TRANSITION → That evening. Ikoyi. The sky over the lagoon turns orange and then violet. In Sienna's living room, June turns on one lamp and sets a cup of tea on the table in front of Sienna. Mara arrives and sits in the armchair opposite.*
 ---
 
 ## SCENE 32 — WHAT HAPPENED BEFORE SIENNA
@@ -1498,6 +1584,9 @@
 
 *They sit together, three women on a sofa as dusk turns to night. There is no music yet.*
 
+*POST-ACTION — Night falls completely. Mara is the first to stand. She carries the cold cup to the kitchen and washes it herself, something she has never done in this house. June makes up the guest room. Sienna sits on the sofa a little longer, then switches off the lamp.*
+
+*TRANSITION → The next morning, grey and quiet. The private office again. The lawyer arrives with a briefcase and lays out forms. Daniel closes the door and stands in front of it. Sienna sits down at the desk and places her phone in the middle.*
 ---
 
 ## SCENE 33 — THE NEXT CALL
@@ -1554,6 +1643,9 @@
 **LAWYER (FUNMI):** You can be frightened and still set a boundary. We'll deal with the next steps together.
 *↳ After action. Lip-sync: warm, steady. Body: closes her legal pad and reaches over to touch Sienna's arm.*
 
+*POST-ACTION — The lawyer begins writing up the call. Daniel steps out to brief his team. June stays in her chair, still holding Sienna's hand, and neither of them lets go. Through the window, a gardener is cutting the hedges as if it's any other morning.*
+
+*TRANSITION → Over the following days, the city keeps moving: a police station in Ikoyi, a security office at the arena, a gossip blog office and a boardroom on Victoria Island.*
 ---
 
 ## SCENE 34 — THE NEXT STEPS
@@ -1587,6 +1679,9 @@
 
 *Nobody claps. The threat hasn't disappeared. But for the first time, the people around Sienna are moving in the same direction.*
 
+*POST-ACTION — The last folder is closed. In Ikoyi, Sienna walks out into her garden for the first time in a week and stands in the sun with her eyes closed. Behind her, Daniel stands at a distance, watching the gate.*
+
+*TRANSITION → Yaba. Kemi's office, blinds open again, sunlight striping the desk. Eli sits across from her and turns his laptop toward her.*
 ---
 
 ## ACT THREE — HER OWN WORDS
@@ -1639,6 +1734,9 @@
 
 *She sits. The others quietly leave. Close on the blank page. Her pen touches the paper. This decision belongs to her.*
 
+*POST-ACTION — Hours pass. The sun moves across the office floor. Sienna writes, crosses out and writes again. Tobi brings tea and leaves it without speaking. By sunset, she has crumpled the first page and started another. She takes the pen and paper with her to the dining room.*
+
+*TRANSITION → Midnight. The long dining table glows under a single lamp, covered in crumpled pages. June arrives in her headscarf with a paper cone of groundnuts and sits down opposite her friend.*
 ---
 
 ## SCENE 36 — THE BLANK PAGE
@@ -1669,6 +1767,9 @@
 
 *Sienna writes it down. Then another line. Then another. June watches her friend's hand moving faster and faster across the page. She smiles, gets up quietly and puts a blanket over Sienna's shoulders without interrupting her.*
 
+*POST-ACTION — June falls asleep on the sofa near the table. At 3 a.m., Sienna finally puts down the pen. She reads the page once, folds it in half and holds it against her chest. Then she covers June with a second blanket and turns off the lamp.*
+
+*TRANSITION → The next afternoon. Victoria Island. The Channels 9 building, with satellite dishes on the roof and a giant screen on the front showing tonight's promo: "SIENNA VALE — IN HER OWN WORDS — 8PM." Inside, a busy production office.*
 ---
 
 ## SCENE 37 — NO SAD SONG
@@ -1697,6 +1798,9 @@
 
 *The producer looks at the whiteboard. Slowly, he picks up the marker and wipes out "CHILDHOOD PHOTO — OPEN" and "PIANO UNDER".*
 
+*POST-ACTION — The producer stares at the whiteboard, then gets up and walks to the edit suite to cancel the piano track. Ada stays at her desk, reading her questions one more time. She crosses one out, thinks, and writes nothing in its place.*
+
+*TRANSITION → Golden hour. Ikoyi. Uncle Sule polishes the car's windscreen in the driveway. The front door opens and Sienna comes out in a simple cream outfit with the folded page in her hand, June beside her and Daniel behind them.*
 ---
 
 ## SCENE 38 — THE DRIVE
@@ -1723,6 +1827,9 @@
 **SIENNA:** *(touching his shoulder)* Turn it up loud, Uncle Sule.
 *↳ After action. Lip-sync: smiling, eyes shining. Body: squeezes his shoulder, then opens the door.*
 
+*POST-ACTION — Sienna, June and Daniel walk across the car park to the studio entrance. Uncle Sule watches them through the windscreen until the doors close behind them. Then he reclines his seat a little, tunes the radio to the right station and turns the volume up.*
+
+*TRANSITION → Inside the Channels 9 building: a corridor, a QUIET PLEASE sign, a dressing-room door with a paper sign taped to it: "SIENNA VALE".*
 ---
 
 ## SCENE 39 — BEFORE THE CAMERAS
@@ -1764,10 +1871,13 @@
 
 *The FLOOR MANAGER leans in and signals "two minutes" with his fingers. Sienna stands. She looks once at June. June mouths something silently: "Orange gate." Sienna laughs under her breath, then walks out toward the set.*
 
+*POST-ACTION — Tobi and Mara walk out after her and take their places in the shadows behind the cameras. June stays in the dressing room for a moment, alone, looking at the biscuit packet. She takes one, smiles, then follows them to the set.*
+
+*TRANSITION → Across the lagoon, forty minutes outside the city: Ikorodu. A bus park, a mosque and narrow streets of small flats. In one window on the second floor, a TV glows blue. It's 7:55 PM.*
 ---
 
 ## SCENE 40 — THE BUTTON
-**INT. MODEST FAMILY FLAT, IKORODU — EARLY EVENING**
+**INT. MODEST FAMILY FLAT, IKORODU — 7:55 PM**
 *(~36:12–37:00)*
 
 *A small, tidy flat with second-hand furniture, a ceiling fan wobbling slightly, and a pot of stew bubbling on a gas cooker in the corner. On the small table: a pile of bills, a calculator and a school exercise book. RUTH (40s), still in her nurse's-aide uniform, sits with a white school shirt and a needle, looking for a missing button. MAYA (15) rushes in from her room holding the TV remote like a microphone.*
@@ -1797,6 +1907,9 @@
 
 *Maya switches on the TV. The Channels 9 logo appears. She slides off the sofa onto the rug, as close to the screen as she can get, hugging her knees. Ruth and Ben exchange a quick, worried look over her head about the bills, then both look at the TV.*
 
+*POST-ACTION — In the living room in Ikorodu, nobody moves. Ruth lays the needle and shirt in her lap. Ben leans forward. Maya hugs her knees tighter. The Channels 9 theme music plays out of the old TV.*
+
+*TRANSITION → Through the TV screen, into the studio: the theme music fades, a red light comes on above camera one, and Ada Nwosu turns to her guest.*
 ---
 
 ## SCENE 41 — THE INTERVIEW
@@ -1918,7 +2031,9 @@
 **ADA:** Thank you, Sienna.
 *↳ After action. Lip-sync: warm, quiet. Body: reaches over and briefly touches Sienna's hand.*
 
+*POST-ACTION — The red light goes off. Ada and Sienna sit for a moment in silence. Then Ada reaches across and squeezes her hand. Behind the cameras, Tobi is wiping his eyes and pretending he isn't. June is already walking toward the set.*
 
+*TRANSITION → Out across Lagos: the same broadcast is still glowing on screens in laundries, bars, hostels and parked cars all over the city.*
 ---
 
 ## SCENE 42 — LAGOS WATCHES
@@ -1952,7 +2067,9 @@
 **UNCLE SULE:** *(to himself)* Small clubs. *(beat)* Look at her now.
 *↳ After action. Lip-sync: muffled behind his hands, choked. Body: rocking slightly in the driver's seat.*
 
+*POST-ACTION — One by one, the screens across Lagos switch to the news. Mrs Ade locks up. Oga Pius turns the music back on. Mr. Banjo closes his piano. The young fan falls asleep holding her ticket stub. In the car park, Uncle Sule dries his face and sits up straight because his passenger is coming.*
 
+*TRANSITION → Back in Yaba, the end credits are rolling on the big wall screen in the empty Lagos Lens newsroom.*
 ---
 
 ## SCENE 43 — "THAT'S HOW YOU TELL IT"
@@ -1975,6 +2092,9 @@
 
 *She walks off toward her office. Eli looks back at the frozen last frame of the interview: Sienna sitting back in her chair with a small, free smile. He opens his desk drawer, takes out the crumpled "LAUNDRY?" sticky note he kept from the first day, smooths it flat, looks at it for a moment, then drops it in the bin.*
 
+*POST-ACTION — Eli shuts down his computer. He switches off the desk lamp, picks up his bag and walks out past Kemi's office. She's on the phone, but she lifts her mug to him through the glass as he goes. The newsroom is dark.*
+
+*TRANSITION → Ikorodu, the same moment. The credits have finished on the old TV in the small flat. Maya is still sitting on the rug, staring at the screen.*
 ---
 
 ## SCENE 44 — THE GIRL WATCHING
@@ -2055,12 +2175,54 @@
 
 *Maya picks up a pen. Under "WHAT I WANT TO BECOME", she writes in big, careful capitals: "AN ARCHITECT". Below it, smaller: "ASK ABOUT SUBJECTS AND COURSES". She underlines it twice. Her dream now has a next step.*
 
+*POST-ACTION — Ruth and Ben go to the kitchen to wash up, their heads close together, talking quietly and smiling. Maya stays on the sofa reading what she wrote over and over. Then she carries the exercise book to her room and lays it on top of her school bag, ready for tomorrow.*
 
+*TRANSITION → Later that night. Ikoyi. The car comes back through the gates. The house's lights are on in the kitchen. Inside, June is already at the counter putting food into two bowls.*
 ---
 
-## SCENE 45 — AFTER BREAKFAST
+## SCENE 45 — SHE GOES HOME
+**INT. SIENNA'S HOME, IKOYI — KITCHEN — LATER THAT NIGHT**
+*(~44:45–45:21)*
+
+*The big white kitchen, but warm now: soft lamps, the city quiet outside. June sets two steaming bowls on the counter. Sienna walks in wearing comfortable clothes, an old T-shirt and joggers, with her blonde hair tied up loosely. Her grey contacts are out. For the first time in the film, her real brown eyes are visible, the same eyes as the girl in the photograph. Her hair stays blonde. She doesn't have to undo her chosen identity to be herself.*
+
+**JUNE:** How do you feel?
+*↳ After action. Lip-sync: soft, curious. Body: pushes a bowl toward the stool beside her.*
+
+**SIENNA:** Tired. Hungry. A little lighter.
+*↳ After action. Lip-sync: relaxed, each word slower than the last. Body: climbs onto the stool, pulls the bowl close and breathes in the steam.*
+
+**JUNE:** Good. There is food, and you can deal with the plates.
+*↳ After action. Lip-sync: bossy, teasing. Body: points her spoon at the sink full of pots.*
+
+**SIENNA:** I've just done a national interview.
+*↳ After action. Lip-sync: mock outrage. Body: hand on her chest.*
+
+**JUNE:** These are national plates.
+*↳ After action. Lip-sync: deadpan. Body: doesn't even look up from her bowl.*
+
+*Sienna bursts out laughing, a big, free laugh. Her phone on the counter starts lighting up with notifications, dozens, then hundreds. She glances at it. Then she turns it face down.*
+
+**JUNE:** Aren't you going to see what people are saying?
+*↳ After action. Lip-sync: curious, gentle. Body: nods at the phone.*
+
+**SIENNA:** Tomorrow. Tonight I'm eating.
+*↳ After action. Lip-sync: calm, content, a smile in it. Body: picks up her spoon and takes a big bite.*
+
+*They sit side by side, eating and laughing about nothing. No threatening message interrupts the ending.*
+
+*CUT BRIEFLY TO: Maya's bedroom in Ikorodu. Her exercise book rests on top of her school bag, open to "AN ARCHITECT". Her school shirt hangs on the door, its button sewn back on.*
+
+*CUT BACK TO: Sienna and June laughing at the kitchen counter, soft lamplight. The camera slowly pulls back through the window into the Lagos night, past the city lights, up toward the sky.*
+
+*POST-ACTION — Hours later, the bowls are empty and the plates are washed and stacked: national plates, done. June has gone to bed in the guest room. Sienna stands alone at the kitchen window in the dark, looking out over the city lights. She turns her phone over at last, reads one message from Mrs Ade ("PROUD OF YOU, MY DAUGHTER"), smiles, and goes to bed.*
+
+*TRANSITION → Morning sun over Ikorodu. Hawkers set out their wares and school buses honk. Ben, in a T-shirt on his day off, walks down the street holding Maya's hand. She clutches her exercise book. They stop at a small shop with a hand-painted sign: "SHARP-SHARP CYBER CAFÉ".*
+---
+
+## SCENE 46 — AFTER BREAKFAST
 **INT. "SHARP-SHARP CYBER CAFÉ", IKORODU — NEXT MORNING**
-*(~44:45–45:41)*
+*(~45:21 — END)*
 
 *A crowded little cyber café with old desktop computers in rows, a printer humming and a hand-written sign: "₦200 PER 30 MINUTES." Ben, on his day off and in a T-shirt, sits beside Maya at a computer. Maya types carefully, her exercise book open beside the keyboard. The receipt stamped "30 MINS" sits on the desk.*
 
@@ -2095,42 +2257,7 @@
 **BEN:** *(standing, digging in his pocket for coins)* Another thirty minutes, please. *(beat)* My daughter is building something.
 *↳ After action. Lip-sync: proud, loud enough for the whole café. Body: slaps two hundred naira on the counter.*
 
----
-
-## SCENE 46 — SHE GOES HOME
-**INT. SIENNA'S HOME, IKOYI — KITCHEN — LATER THAT NIGHT**
-*(~45:41 — END)*
-
-*The big white kitchen, but warm now: soft lamps, the city quiet outside. June sets two steaming bowls on the counter. Sienna walks in wearing comfortable clothes, an old T-shirt and joggers, with her blonde hair tied up loosely. Her grey contacts are out. For the first time in the film, her real brown eyes are visible, the same eyes as the girl in the photograph. Her hair stays blonde. She doesn't have to undo her chosen identity to be herself.*
-
-**JUNE:** How do you feel?
-*↳ After action. Lip-sync: soft, curious. Body: pushes a bowl toward the stool beside her.*
-
-**SIENNA:** Tired. Hungry. A little lighter.
-*↳ After action. Lip-sync: relaxed, each word slower than the last. Body: climbs onto the stool, pulls the bowl close and breathes in the steam.*
-
-**JUNE:** Good. There is food, and you can deal with the plates.
-*↳ After action. Lip-sync: bossy, teasing. Body: points her spoon at the sink full of pots.*
-
-**SIENNA:** I've just done a national interview.
-*↳ After action. Lip-sync: mock outrage. Body: hand on her chest.*
-
-**JUNE:** These are national plates.
-*↳ After action. Lip-sync: deadpan. Body: doesn't even look up from her bowl.*
-
-*Sienna bursts out laughing, a big, free laugh. Her phone on the counter starts lighting up with notifications, dozens, then hundreds. She glances at it. Then she turns it face down.*
-
-**JUNE:** Aren't you going to see what people are saying?
-*↳ After action. Lip-sync: curious, gentle. Body: nods at the phone.*
-
-**SIENNA:** Tomorrow. Tonight I'm eating.
-*↳ After action. Lip-sync: calm, content, a smile in it. Body: picks up her spoon and takes a big bite.*
-
-*They sit side by side, eating and laughing about nothing. No threatening message interrupts the ending.*
-
-*CUT BRIEFLY TO: Maya's bedroom in Ikorodu. Her exercise book rests on top of her school bag, open to "AN ARCHITECT". Her school shirt hangs on the door, its button sewn back on.*
-
-*CUT BACK TO: Sienna and June laughing at the kitchen counter, soft lamplight. The camera slowly pulls back through the window into the Lagos night, past the city lights, up toward the sky.*
+*POST-ACTION — Ben pays and sits back down. Maya leans her head on his shoulder as the page loads. The café owner, grumbling, turns the fan toward them. Outside the window, the ordinary Lagos morning carries on.*
 
 *FADE OUT.*
 
