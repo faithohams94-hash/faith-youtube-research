@@ -1,0 +1,407 @@
+SCENE 16: Every Sunday | Gatehouse and Chief's bedroom · Sunday evening
+UPLOAD THESE CHARACTER SHEETS: IRETI (23), MALLAM AUDU (62), CHIEF ADENUGA (75)
+PASTE THE CHATGPT SETUP MESSAGE FIRST. In Grok: highest quality, 10 seconds, paste the whole video prompt.
+
+======================================================================
+SHOT 16.1 | The gatehouse at sunset | Start: New image
+======================================================================
+
+[IMAGE PROMPT - ChatGPT]
+CHARACTERS IN THIS IMAGE: none (scenery only, no main characters in focus).
+Create one image, highest resolution, sharp and clear.
+FRAME: A small gatehouse at sunset, an old radio on a table, two cups of steaming tea on a wooden bench, golden light through the trees.
+SETTING (identical in every shot of this scene): Sunday at sunset at the Adenuga mansion. The gatehouse: a small room with a wooden bench outside, an old radio playing Hausa music softly, two cups of steaming tea, golden sunset light through the trees. Chief's bedroom: the tall window looking down on the empty gate and driveway, warm dusk light.
+DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
+
+[VIDEO PROMPT - Grok]
+1. SCENE: Establishing a quiet Sunday sunset at the gate.
+2. STAR & FOCUS: The two cups of tea.
+3. DIALOGUE: NONE. Nobody speaks. Every mouth stays closed. No voices at all.
+4. TIMESTAMPS:
+   0:00-0:05 - Steam rises from the tea.
+   0:05-0:10 - Soft Hausa music plays from the radio; the camera pushes toward the bench.
+5. CAMERA: Slow push-in. Smooth and steady, no shake, no sudden zoom.
+6. MOOD & LIGHTING: Sunday sunset. Golden, quiet, tender and sad. Warm low golden light through the trees at the gatehouse; in the bedroom, dusk light fading from gold to blue.
+7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
+8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
+9. SOUND: no voices, only soft Hausa music from a small radio, evening birds. No music, no extra sounds.
+10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
+
+======================================================================
+SHOT 16.2 | "Was he always so hard?" | Start: New image
+======================================================================
+
+[IMAGE PROMPT - ChatGPT]
+CHARACTERS IN THIS IMAGE: IRETI (23), MALLAM AUDU (62). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
+Create one image, highest resolution, sharp and clear.
+FRAME: Medium shot of Ireti on the bench with her tea, facing the camera; Mallam Audu beside her in three-quarter view. The face of IRETI is clearly visible, facing the camera, with the mouth in view.
+SETTING (identical in every shot of this scene): Sunday at sunset at the Adenuga mansion. The gatehouse: a small room with a wooden bench outside, an old radio playing Hausa music softly, two cups of steaming tea, golden sunset light through the trees. Chief's bedroom: the tall window looking down on the empty gate and driveway, warm dusk light.
+CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a light-blue scrubs top and white trousers. MALLAM AUDU (62): older northern Nigerian man, dark skin, grey-white beard, kind eyes, white embroidered cap (hula); wearing a long white kaftan and white cap.
+DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
+
+[VIDEO PROMPT - Grok]
+1. SCENE: Ireti asks the gateman about Chief.
+2. STAR & FOCUS: IRETI's face, centre frame.
+3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
+   0:01-0:05 - IRETI (the young woman with long black braids in a low ponytail, wearing a light-blue scrubs top and white trousers) says: "Mallam, why is he like this? Was he always so… hard?"
+   IRETI's voice: soft, clear, medium-high pitch, warm Yoruba-Nigerian accent, gentle steady pace; she gets quieter, not louder, when hurt. These words come ONLY from IRETI's mouth.
+   MALLAM AUDU (the older man with a grey-white beard and a white cap, wearing a long white kaftan and white cap) does NOT talk: mouth closed the whole time, only reacting.
+   No phone, TV or off-screen voice is heard. Nobody else says these lines.
+4. TIMESTAMPS:
+   0:00-0:01 - Ireti holds her tea.
+   0:01-0:05 - She asks quietly.
+   0:05-0:10 - Mallam Audu laughs gently.
+5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
+6. MOOD & LIGHTING: Sunday sunset. Golden, quiet, tender and sad. Warm low golden light through the trees at the gatehouse; in the bedroom, dusk light fading from gold to blue.
+7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+9. SOUND: the dialogue above, clean and clear, over soft Hausa music from a small radio, evening birds. No music, no extra sounds.
+10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
+
+======================================================================
+SHOT 16.3 | "He painted pictures." | Start: New image
+======================================================================
+
+[IMAGE PROMPT - ChatGPT]
+CHARACTERS IN THIS IMAGE: MALLAM AUDU (62). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
+Create one image, highest resolution, sharp and clear.
+FRAME: Close-up of Mallam Audu facing the camera, smiling at the memory, sunset on his face. The face of MALLAM AUDU is clearly visible, facing the camera, with the mouth in view.
+SETTING (identical in every shot of this scene): Sunday at sunset at the Adenuga mansion. The gatehouse: a small room with a wooden bench outside, an old radio playing Hausa music softly, two cups of steaming tea, golden sunset light through the trees. Chief's bedroom: the tall window looking down on the empty gate and driveway, warm dusk light.
+CHARACTERS: MALLAM AUDU (62): older northern Nigerian man, dark skin, grey-white beard, kind eyes, white embroidered cap (hula); wearing a long white kaftan and white cap.
+DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
+
+[VIDEO PROMPT - Grok]
+1. SCENE: The gateman remembers who Chief used to be.
+2. STAR & FOCUS: MALLAM AUDU's face, centre frame.
+3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
+   0:01-0:08 - MALLAM AUDU (the older man with a grey-white beard and a white cap, wearing a long white kaftan and white cap) says: "Hard? Oga used to dance in that garden. He painted pictures. Every Tuesday, he taught young boys business, free of charge."
+   MALLAM AUDU's voice: soft, warm, husky, strong Hausa-Nigerian accent, slow and gentle. These words come ONLY from MALLAM AUDU's mouth.
+   No phone, TV or off-screen voice is heard. Nobody else says these lines.
+4. TIMESTAMPS:
+   0:00-0:01 - Mallam Audu smiles.
+   0:01-0:08 - He remembers fondly.
+   0:08-0:10 - He sips his tea.
+5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
+6. MOOD & LIGHTING: Sunday sunset. Golden, quiet, tender and sad. Warm low golden light through the trees at the gatehouse; in the bedroom, dusk light fading from gold to blue.
+7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+9. SOUND: the dialogue above, clean and clear, over soft Hausa music from a small radio, evening birds. No music, no extra sounds.
+10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
+
+======================================================================
+SHOT 16.4 | Madam Abike died | Start: New image
+======================================================================
+
+[IMAGE PROMPT - ChatGPT]
+CHARACTERS IN THIS IMAGE: MALLAM AUDU (62). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
+Create one image, highest resolution, sharp and clear.
+FRAME: Same close-up of Mallam Audu, sadder now. The face of MALLAM AUDU is clearly visible, facing the camera, with the mouth in view.
+SETTING (identical in every shot of this scene): Sunday at sunset at the Adenuga mansion. The gatehouse: a small room with a wooden bench outside, an old radio playing Hausa music softly, two cups of steaming tea, golden sunset light through the trees. Chief's bedroom: the tall window looking down on the empty gate and driveway, warm dusk light.
+CHARACTERS: MALLAM AUDU (62): older northern Nigerian man, dark skin, grey-white beard, kind eyes, white embroidered cap (hula); wearing a long white kaftan and white cap.
+DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
+
+[VIDEO PROMPT - Grok]
+1. SCENE: The gateman tells the loss.
+2. STAR & FOCUS: MALLAM AUDU's face, centre frame.
+3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
+   0:01-0:09 - MALLAM AUDU (the older man with a grey-white beard and a white cap, wearing a long white kaftan and white cap) says: "Then Madam Abike died, twenty-five years ago. He raised the three children alone. Sold his first car to pay Segun's school fees."
+   MALLAM AUDU's voice: soft, warm, husky, strong Hausa-Nigerian accent, slow and gentle. These words come ONLY from MALLAM AUDU's mouth.
+   No phone, TV or off-screen voice is heard. Nobody else says these lines.
+4. TIMESTAMPS:
+   0:00-0:01 - His smile fades.
+   0:01-0:09 - He speaks slowly.
+   0:09-0:10 - He looks at the house.
+5. CAMERA: Very slow push-in. Smooth and steady, no shake, no sudden zoom.
+6. MOOD & LIGHTING: Sunday sunset. Golden, quiet, tender and sad. Warm low golden light through the trees at the gatehouse; in the bedroom, dusk light fading from gold to blue.
+7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+9. SOUND: the dialogue above, clean and clear, over soft Hausa music from a small radio, evening birds. No music, no extra sounds.
+10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
+
+======================================================================
+SHOT 16.5 | "And now?" | Start: New image
+======================================================================
+
+[IMAGE PROMPT - ChatGPT]
+CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
+Create one image, highest resolution, sharp and clear.
+FRAME: Close-up of Ireti facing the camera, listening closely. The face of IRETI is clearly visible, facing the camera, with the mouth in view.
+SETTING (identical in every shot of this scene): Sunday at sunset at the Adenuga mansion. The gatehouse: a small room with a wooden bench outside, an old radio playing Hausa music softly, two cups of steaming tea, golden sunset light through the trees. Chief's bedroom: the tall window looking down on the empty gate and driveway, warm dusk light.
+CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a light-blue scrubs top and white trousers.
+DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
+
+[VIDEO PROMPT - Grok]
+1. SCENE: Ireti asks.
+2. STAR & FOCUS: IRETI's face, centre frame.
+3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
+   0:02-0:03 - IRETI (the young woman with long black braids in a low ponytail, wearing a light-blue scrubs top and white trousers) says: "And now?"
+   IRETI's voice: soft, clear, medium-high pitch, warm Yoruba-Nigerian accent, gentle steady pace; she gets quieter, not louder, when hurt. These words come ONLY from IRETI's mouth.
+   No phone, TV or off-screen voice is heard. Nobody else says these lines.
+4. TIMESTAMPS:
+   0:00-0:02 - Ireti waits.
+   0:02-0:03 - She asks softly.
+   0:03-0:10 - She listens.
+5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
+6. MOOD & LIGHTING: Sunday sunset. Golden, quiet, tender and sad. Warm low golden light through the trees at the gatehouse; in the bedroom, dusk light fading from gold to blue.
+7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+9. SOUND: the dialogue above, clean and clear, over soft Hausa music from a small radio, evening birds. No music, no extra sounds.
+10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
+
+======================================================================
+SHOT 16.6 | "Money to the money's owner." | Start: New image
+======================================================================
+
+[IMAGE PROMPT - ChatGPT]
+CHARACTERS IN THIS IMAGE: MALLAM AUDU (62). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
+Create one image, highest resolution, sharp and clear.
+FRAME: Close-up of Mallam Audu facing the camera, shaking his head. The face of MALLAM AUDU is clearly visible, facing the camera, with the mouth in view.
+SETTING (identical in every shot of this scene): Sunday at sunset at the Adenuga mansion. The gatehouse: a small room with a wooden bench outside, an old radio playing Hausa music softly, two cups of steaming tea, golden sunset light through the trees. Chief's bedroom: the tall window looking down on the empty gate and driveway, warm dusk light.
+CHARACTERS: MALLAM AUDU (62): older northern Nigerian man, dark skin, grey-white beard, kind eyes, white embroidered cap (hula); wearing a long white kaftan and white cap.
+DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
+
+[VIDEO PROMPT - Grok]
+1. SCENE: The gateman describes the children who never visit.
+2. STAR & FOCUS: MALLAM AUDU's face, centre frame.
+3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
+   0:01-0:09 - MALLAM AUDU (the older man with a grey-white beard and a white cap, wearing a long white kaftan and white cap) says: "Now his children are big people. Abuja. Port Harcourt. London. They send wine. They send cakes. They send money to the money's owner."
+   MALLAM AUDU's voice: soft, warm, husky, strong Hausa-Nigerian accent, slow and gentle. These words come ONLY from MALLAM AUDU's mouth.
+   No phone, TV or off-screen voice is heard. Nobody else says these lines.
+4. TIMESTAMPS:
+   0:00-0:01 - Mallam Audu sighs.
+   0:01-0:09 - He speaks with gentle sadness.
+   0:09-0:10 - He shakes his head.
+5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
+6. MOOD & LIGHTING: Sunday sunset. Golden, quiet, tender and sad. Warm low golden light through the trees at the gatehouse; in the bedroom, dusk light fading from gold to blue.
+7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+9. SOUND: the dialogue above, clean and clear, over soft Hausa music from a small radio, evening birds. No music, no extra sounds.
+10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
+
+======================================================================
+SHOT 16.7 | "Nobody comes." | Start: Last frame of 16.6
+======================================================================
+
+[IMAGE PROMPT - ChatGPT]
+CHARACTERS IN THIS IMAGE: MALLAM AUDU (62). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
+Create one image, highest resolution, sharp and clear.
+FRAME: Same close-up of Mallam Audu, quiet. The face of MALLAM AUDU is clearly visible, facing the camera, with the mouth in view.
+SETTING (identical in every shot of this scene): Sunday at sunset at the Adenuga mansion. The gatehouse: a small room with a wooden bench outside, an old radio playing Hausa music softly, two cups of steaming tea, golden sunset light through the trees. Chief's bedroom: the tall window looking down on the empty gate and driveway, warm dusk light.
+CHARACTERS: MALLAM AUDU (62): older northern Nigerian man, dark skin, grey-white beard, kind eyes, white embroidered cap (hula); wearing a long white kaftan and white cap.
+DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
+
+[VIDEO PROMPT - Grok]
+1. SCENE: The gateman tells her about the Sundays.
+2. STAR & FOCUS: MALLAM AUDU's face, centre frame.
+3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
+   0:01-0:09 - MALLAM AUDU (the older man with a grey-white beard and a white cap, wearing a long white kaftan and white cap) says: "Every Sunday, my daughter, Oga wears his blue agbada and sits by the window. Waiting. Ten years. Nobody comes."
+   MALLAM AUDU's voice: soft, warm, husky, strong Hausa-Nigerian accent, slow and gentle. These words come ONLY from MALLAM AUDU's mouth.
+   No phone, TV or off-screen voice is heard. Nobody else says these lines.
+4. TIMESTAMPS:
+   0:00-0:01 - Mallam Audu lowers his voice.
+   0:01-0:09 - He speaks slowly.
+   0:09-0:10 - He looks down.
+5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
+6. MOOD & LIGHTING: Sunday sunset. Golden, quiet, tender and sad. Warm low golden light through the trees at the gatehouse; in the bedroom, dusk light fading from gold to blue.
+7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+9. SOUND: the dialogue above, clean and clear, over soft Hausa music from a small radio, evening birds. No music, no extra sounds.
+10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
+
+======================================================================
+SHOT 16.8 | "He's lonely." | Start: New image
+======================================================================
+
+[IMAGE PROMPT - ChatGPT]
+CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
+Create one image, highest resolution, sharp and clear.
+FRAME: Close-up of Ireti facing the camera, eyes filling. The face of IRETI is clearly visible, facing the camera, with the mouth in view.
+SETTING (identical in every shot of this scene): Sunday at sunset at the Adenuga mansion. The gatehouse: a small room with a wooden bench outside, an old radio playing Hausa music softly, two cups of steaming tea, golden sunset light through the trees. Chief's bedroom: the tall window looking down on the empty gate and driveway, warm dusk light.
+CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a light-blue scrubs top and white trousers.
+DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
+
+[VIDEO PROMPT - Grok]
+1. SCENE: Ireti understands him.
+2. STAR & FOCUS: IRETI's face, centre frame.
+3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
+   0:02-0:05 - IRETI (the young woman with long black braids in a low ponytail, wearing a light-blue scrubs top and white trousers) says: "He's not wicked. He's lonely."
+   IRETI's voice: soft, clear, medium-high pitch, warm Yoruba-Nigerian accent, gentle steady pace; she gets quieter, not louder, when hurt. These words come ONLY from IRETI's mouth.
+   No phone, TV or off-screen voice is heard. Nobody else says these lines.
+4. TIMESTAMPS:
+   0:00-0:02 - Ireti's eyes fill.
+   0:02-0:05 - She says it almost to herself.
+   0:05-0:10 - She looks up at the house.
+5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
+6. MOOD & LIGHTING: Sunday sunset. Golden, quiet, tender and sad. Warm low golden light through the trees at the gatehouse; in the bedroom, dusk light fading from gold to blue.
+7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+9. SOUND: the dialogue above, clean and clear, over soft Hausa music from a small radio, evening birds. No music, no extra sounds.
+10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
+
+======================================================================
+SHOT 16.9 | "The same clothes." | Start: New image
+======================================================================
+
+[IMAGE PROMPT - ChatGPT]
+CHARACTERS IN THIS IMAGE: MALLAM AUDU (62). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
+Create one image, highest resolution, sharp and clear.
+FRAME: Medium close-up of Mallam Audu facing the camera, wise. The face of MALLAM AUDU is clearly visible, facing the camera, with the mouth in view.
+SETTING (identical in every shot of this scene): Sunday at sunset at the Adenuga mansion. The gatehouse: a small room with a wooden bench outside, an old radio playing Hausa music softly, two cups of steaming tea, golden sunset light through the trees. Chief's bedroom: the tall window looking down on the empty gate and driveway, warm dusk light.
+CHARACTERS: MALLAM AUDU (62): older northern Nigerian man, dark skin, grey-white beard, kind eyes, white embroidered cap (hula); wearing a long white kaftan and white cap.
+DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
+
+[VIDEO PROMPT - Grok]
+1. SCENE: The gateman's wisdom.
+2. STAR & FOCUS: MALLAM AUDU's face, centre frame.
+3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
+   0:01-0:05 - MALLAM AUDU (the older man with a grey-white beard and a white cap, wearing a long white kaftan and white cap) says: "In this house, those two wear the same clothes."
+   MALLAM AUDU's voice: soft, warm, husky, strong Hausa-Nigerian accent, slow and gentle. These words come ONLY from MALLAM AUDU's mouth.
+   No phone, TV or off-screen voice is heard. Nobody else says these lines.
+4. TIMESTAMPS:
+   0:00-0:01 - Mallam Audu nods.
+   0:01-0:05 - He says it gently.
+   0:05-0:10 - He sips his tea.
+5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
+6. MOOD & LIGHTING: Sunday sunset. Golden, quiet, tender and sad. Warm low golden light through the trees at the gatehouse; in the bedroom, dusk light fading from gold to blue.
+7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+9. SOUND: the dialogue above, clean and clear, over soft Hausa music from a small radio, evening birds. No music, no extra sounds.
+10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
+
+======================================================================
+SHOT 16.10 | The man at the window | Start: New image
+======================================================================
+
+[IMAGE PROMPT - ChatGPT]
+CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
+Create one image, highest resolution, sharp and clear.
+FRAME: Chief's bedroom at dusk: Chief in a royal-blue agbada and fila, perfectly dressed, sitting in his wheelchair at the window in side profile, his face visible, looking down at the empty gate.
+SETTING (identical in every shot of this scene): Sunday at sunset at the Adenuga mansion. The gatehouse: a small room with a wooden bench outside, an old radio playing Hausa music softly, two cups of steaming tea, golden sunset light through the trees. Chief's bedroom: the tall window looking down on the empty gate and driveway, warm dusk light.
+CHARACTERS: CHIEF ADENUGA (75): elderly Nigerian man, very dark brown skin, deep wrinkles, short snow-white hair, full white beard, heavy-lidded tired eyes, broad but frail frame; wearing a royal-blue agbada with a matching fila cap, in his wheelchair.
+DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
+
+[VIDEO PROMPT - Grok]
+1. SCENE: Chief waits at the window, as every Sunday.
+2. STAR & FOCUS: CHIEF ADENUGA's face and body, centre frame.
+3. DIALOGUE: NONE. Nobody speaks. Every mouth stays closed. No voices at all.
+4. TIMESTAMPS:
+   0:00-0:06 - Chief sits very still, watching the empty driveway.
+   0:06-0:10 - Behind him, the door opens quietly.
+5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
+6. MOOD & LIGHTING: Sunday sunset. Golden, quiet, tender and sad. Warm low golden light through the trees at the gatehouse; in the bedroom, dusk light fading from gold to blue.
+7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
+8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
+9. SOUND: no voices, only soft Hausa music from a small radio, evening birds. No music, no extra sounds.
+10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
+
+======================================================================
+SHOT 16.11 | "What do you want?" | Start: New image
+======================================================================
+
+[IMAGE PROMPT - ChatGPT]
+CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
+Create one image, highest resolution, sharp and clear.
+FRAME: Close-up of Chief in profile at the window, not turning, his face visible. The face of CHIEF ADENUGA is clearly visible, facing the camera, with the mouth in view.
+SETTING (identical in every shot of this scene): Sunday at sunset at the Adenuga mansion. The gatehouse: a small room with a wooden bench outside, an old radio playing Hausa music softly, two cups of steaming tea, golden sunset light through the trees. Chief's bedroom: the tall window looking down on the empty gate and driveway, warm dusk light.
+CHARACTERS: CHIEF ADENUGA (75): elderly Nigerian man, very dark brown skin, deep wrinkles, short snow-white hair, full white beard, heavy-lidded tired eyes, broad but frail frame; wearing a royal-blue agbada with a matching fila cap, in his wheelchair.
+DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
+
+[VIDEO PROMPT - Grok]
+1. SCENE: Chief speaks without turning.
+2. STAR & FOCUS: CHIEF ADENUGA's face, centre frame.
+3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
+   0:02-0:04 - CHIEF ADENUGA (the elderly man with snow-white hair and a full white beard, wearing a royal-blue agbada with a matching fila cap) says: "What do you want?"
+   CHIEF ADENUGA's voice: very deep, slow, gravelly bass, strong Yoruba-Nigerian accent, long heavy pauses; booming only when angry. These words come ONLY from CHIEF ADENUGA's mouth.
+   No phone, TV or off-screen voice is heard. Nobody else says these lines.
+4. TIMESTAMPS:
+   0:00-0:02 - Chief keeps looking out.
+   0:02-0:04 - He asks without turning.
+   0:04-0:10 - He waits.
+5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
+6. MOOD & LIGHTING: Sunday sunset. Golden, quiet, tender and sad. Warm low golden light through the trees at the gatehouse; in the bedroom, dusk light fading from gold to blue.
+7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+9. SOUND: the dialogue above, clean and clear, over soft Hausa music from a small radio, evening birds. No music, no extra sounds.
+10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
+
+======================================================================
+SHOT 16.12 | "Nothing, sir." | Start: New image
+======================================================================
+
+[IMAGE PROMPT - ChatGPT]
+CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
+Create one image, highest resolution, sharp and clear.
+FRAME: Close-up of Ireti at the door, facing the camera, gentle. The face of IRETI is clearly visible, facing the camera, with the mouth in view.
+SETTING (identical in every shot of this scene): Sunday at sunset at the Adenuga mansion. The gatehouse: a small room with a wooden bench outside, an old radio playing Hausa music softly, two cups of steaming tea, golden sunset light through the trees. Chief's bedroom: the tall window looking down on the empty gate and driveway, warm dusk light.
+CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a light-blue scrubs top and white trousers.
+DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
+
+[VIDEO PROMPT - Grok]
+1. SCENE: Ireti answers simply.
+2. STAR & FOCUS: IRETI's face, centre frame.
+3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
+   0:02-0:03 - IRETI (the young woman with long black braids in a low ponytail, wearing a light-blue scrubs top and white trousers) says: "Nothing, sir."
+   IRETI's voice: soft, clear, medium-high pitch, warm Yoruba-Nigerian accent, gentle steady pace; she gets quieter, not louder, when hurt. These words come ONLY from IRETI's mouth.
+   No phone, TV or off-screen voice is heard. Nobody else says these lines.
+4. TIMESTAMPS:
+   0:00-0:02 - Ireti stands at the door.
+   0:02-0:03 - She answers.
+   0:03-0:10 - She walks toward him.
+5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
+6. MOOD & LIGHTING: Sunday sunset. Golden, quiet, tender and sad. Warm low golden light through the trees at the gatehouse; in the bedroom, dusk light fading from gold to blue.
+7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+9. SOUND: the dialogue above, clean and clear, over soft Hausa music from a small radio, evening birds. No music, no extra sounds.
+10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
+
+======================================================================
+SHOT 16.13 | She sits beside him | Start: New image
+======================================================================
+
+[IMAGE PROMPT - ChatGPT]
+CHARACTERS IN THIS IMAGE: IRETI (23), CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
+Create one image, highest resolution, sharp and clear.
+FRAME: Ireti sitting on a stool beside Chief's wheelchair at the window, both in side profile, looking down at the empty gate.
+SETTING (identical in every shot of this scene): Sunday at sunset at the Adenuga mansion. The gatehouse: a small room with a wooden bench outside, an old radio playing Hausa music softly, two cups of steaming tea, golden sunset light through the trees. Chief's bedroom: the tall window looking down on the empty gate and driveway, warm dusk light.
+CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a light-blue scrubs top and white trousers. CHIEF ADENUGA (75): elderly Nigerian man, very dark brown skin, deep wrinkles, short snow-white hair, full white beard, heavy-lidded tired eyes, broad but frail frame; wearing a royal-blue agbada with a matching fila cap, in his wheelchair.
+DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
+
+[VIDEO PROMPT - Grok]
+1. SCENE: She sits with him in silence.
+2. STAR & FOCUS: IRETI's face and body, centre frame.
+3. DIALOGUE: NONE. Nobody speaks. Every mouth stays closed. No voices at all.
+4. TIMESTAMPS:
+   0:00-0:05 - Ireti pulls a stool up beside him and sits.
+   0:05-0:10 - They both look down at the gate. He doesn't send her away.
+5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
+6. MOOD & LIGHTING: Sunday sunset. Golden, quiet, tender and sad. Warm low golden light through the trees at the gatehouse; in the bedroom, dusk light fading from gold to blue.
+7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
+8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
+9. SOUND: no voices, only soft Hausa music from a small radio, evening birds. No music, no extra sounds.
+10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
+
+======================================================================
+SHOT 16.14 | An inch apart | Start: New image
+======================================================================
+
+[IMAGE PROMPT - ChatGPT]
+CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
+Create one image, highest resolution, sharp and clear.
+FRAME: Close-up of Chief's hand on the armrest and Ireti's hand on the windowsill, an inch apart, in the last golden light.
+SETTING (identical in every shot of this scene): Sunday at sunset at the Adenuga mansion. The gatehouse: a small room with a wooden bench outside, an old radio playing Hausa music softly, two cups of steaming tea, golden sunset light through the trees. Chief's bedroom: the tall window looking down on the empty gate and driveway, warm dusk light.
+CHARACTERS: CHIEF ADENUGA (75): elderly Nigerian man, very dark brown skin, deep wrinkles, short snow-white hair, full white beard, heavy-lidded tired eyes, broad but frail frame; wearing a royal-blue agbada with a matching fila cap, in his wheelchair. IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a light-blue scrubs top and white trousers.
+DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
+
+[VIDEO PROMPT - Grok]
+1. SCENE: For the first time in ten years of Sundays, he isn't waiting alone.
+2. STAR & FOCUS: The two hands, an inch apart.
+3. DIALOGUE: NONE. Nobody speaks. Every mouth stays closed. No voices at all.
+4. TIMESTAMPS:
+   0:00-0:06 - Neither hand moves.
+   0:06-0:10 - The light slowly fades from gold to blue. Slow fade.
+5. CAMERA: Static, then fade. Smooth and steady, no shake, no sudden zoom.
+6. MOOD & LIGHTING: Sunday sunset. Golden, quiet, tender and sad. Warm low golden light through the trees at the gatehouse; in the bedroom, dusk light fading from gold to blue.
+7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
+8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
+9. SOUND: no voices, only soft Hausa music from a small radio, evening birds. No music, no extra sounds.
+10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.

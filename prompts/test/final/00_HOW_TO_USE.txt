@@ -1,0 +1,16 @@
+HOW TO USE THESE PROMPTS (A Poor Girl Helped a Billionaire CEO Grandpa Walk Again)
+
+1. One scene at a time. Open Scene_XX.txt. The top line tells you which character sheets to upload.
+2. ChatGPT (images): new chat per scene. Paste the setup message from the Production Guide, upload the
+   character sheets, then paste each [IMAGE PROMPT] in order. Ask for the highest resolution.
+3. Grok (video): upload the image, choose the HIGHEST quality and 10 seconds, paste the WHOLE [VIDEO PROMPT].
+   Every video prompt has 10 parts: Scene, Star & Focus, Dialogue, Timestamps, Camera, Mood & Lighting,
+   Look, Lip-sync & Body, Sound, Duration.
+4. One speaker per clip. The DIALOGUE part names who speaks (by face and clothes) and who must stay silent.
+   Phone, TV and video-call voices are marked "VOICE FROM THE PHONE / TV / SCREEN": the person on screen
+   keeps their mouth shut and the voice sounds like a real phone line.
+5. "Start: Last frame of X" = use the last frame of clip X as this clip's start image (no new image needed),
+   so the two clips join with no break.
+6. If a clip goes wrong: regenerate once with the same prompt. For a phone clip that still moves the
+   listener's mouth, use the BACKUP note under that clip.
+7. Edit in CapCut: put clips in shot order, trim each to its best moment, add titles and music.

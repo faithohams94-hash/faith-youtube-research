@@ -1,0 +1,771 @@
+## 19 | "You can walk again."
+MOOD: Daytime in Chief's bedroom, curtains open a few inches. Hope, then a crushing refusal. Soft daylight across the room, the cool glow of the scan lightbox, natural and real.
+
+# 19.1 | The medical van | who:
+F: A white medical van parked in the mansion driveway, portable scan equipment being wheeled up a ramp into the house.
+S: Establishing the doctors arriving with new scans.
+X: The equipment going up the ramp.
+T: 0:00-0:06 | Two technicians wheel the equipment up the ramp.
+T: 0:06-0:10 | Palm trees sway; the camera pans toward the house.
+C: Slow pan.
+
+# 19.2 | The new scans | who: hassan, femi, ireti, chief
+F: Wide shot of the bedroom: Dr. Hassan clipping scans onto a lightbox, facing the camera; Femi beside him with sleeves rolled up; Ireti by the wall; Chief in his wheelchair with arms folded.
+S: The doctor shows the new scans.
+D: 0:01-0:06 | hassan | The swelling has gone down. And this… is good news.
+T: 0:00-0:01 | Dr. Hassan clips the scan up.
+T: 0:01-0:06 | He speaks, pointing.
+T: 0:06-0:10 | Femi leans in.
+C: Static.
+
+# 19.3 | "It's compressed." | who: hassan, femi
+F: Medium close-up of Dr. Hassan pointing at the scan on the lightbox, facing the camera; Femi soft beside him.
+S: The doctor explains the nerve is only pinched.
+D: 0:01-0:06 | hassan | The nerve isn't severed. It's compressed. Pinched.
+T: 0:00-0:01 | Dr. Hassan taps the scan.
+T: 0:01-0:06 | He explains clearly.
+T: 0:06-0:10 | He turns to Femi.
+C: Static.
+
+# 19.4 | "Six months of hard rehab" | who: hassan
+F: Close-up of Dr. Hassan facing the camera, hopeful but careful.
+S: The doctor explains what it would take.
+D: 0:01-0:07 | hassan | With decompression surgery on the spine, and then six months of hard rehabilitation…
+T: 0:00-0:01 | Dr. Hassan takes a breath.
+T: 0:01-0:07 | He speaks carefully.
+T: 0:07-0:10 | He pauses.
+C: Static.
+
+# 19.5 | "He can walk?" | who: femi
+F: Close-up of Femi facing the camera, hardly breathing.
+S: Femi can't believe it.
+D: 0:02-0:04 | femi | He can walk?
+T: 0:00-0:02 | Femi stares.
+T: 0:02-0:04 | He asks, barely breathing.
+T: 0:04-0:10 | He waits.
+C: Static.
+
+# 19.6 | "You could walk again." | who: hassan, chief
+F: Medium shot of Dr. Hassan turning to Chief, facing the camera, gentle.
+S: The doctor tells Chief he could walk.
+D: 0:01-0:07 | hassan | I can't promise. But there's a real chance. Chief, you could walk again.
+T: 0:00-0:01 | Dr. Hassan turns to Chief.
+T: 0:01-0:07 | He says it gently.
+T: 0:07-0:10 | He smiles.
+C: Static.
+
+# 19.7 | Joy in the room | who: femi, hassan, ireti
+F: Femi laughing and hugging Dr. Hassan; Ireti by the wall covering her mouth with both hands, eyes shining.
+S: Joy fills the room.
+T: 0:00-0:05 | Femi laughs out loud and hugs Dr. Hassan.
+T: 0:05-0:08 | Ireti covers her mouth, eyes shining.
+T: 0:08-0:10 | Everyone turns toward Chief.
+C: Static.
+
+# 19.8 | "No." | who: chief
+F: Close-up of Chief in his wheelchair facing the camera, arms folded, face like stone.
+S: Chief refuses.
+D: 0:03-0:04 | chief | No.
+T: 0:00-0:03 | Chief stares at nothing.
+T: 0:03-0:04 | He says it.
+T: 0:04-0:10 | Silence.
+C: Static.
+
+# 19.9 | After-action: the room goes silent | who: femi, hassan, ireti
+F: Wide shot of the bedroom: Femi frozen mid-smile, Dr. Hassan lowering his hand, Ireti by the wall, all staring toward Chief (out of frame).
+S: The joy dies.
+T: 0:00-0:05 | Nobody moves; Femi's smile slowly fades.
+T: 0:05-0:10 | Dr. Hassan glances at Femi; Ireti's hands drop.
+C: Static.
+
+# 19.10 | "…Grandpa?" | who: femi
+F: Close-up of Femi facing the camera, confused.
+S: Femi can't understand.
+D: 0:02-0:04 | femi | …Grandpa?
+T: 0:00-0:02 | Femi stares.
+T: 0:02-0:04 | He says it quietly.
+T: 0:04-0:10 | He waits.
+C: Static.
+
+# 19.11 | "No surgery." | who: chief
+F: Close-up of Chief facing the camera, calm and terrible.
+S: Chief repeats his refusal.
+D: 0:02-0:04 | chief | No surgery.
+T: 0:00-0:02 | Chief looks at Femi.
+T: 0:02-0:04 | He says it firmly.
+T: 0:04-0:10 | He holds his stare.
+C: Static.
+
+# 19.12 | "He just said you can walk!" | who: femi
+F: Medium close-up of Femi facing the camera, pleading.
+S: Femi pleads.
+D: 0:01-0:04 | femi | Grandpa, he just said you can walk!
+T: 0:00-0:01 | Femi steps forward.
+T: 0:01-0:04 | He pleads.
+T: 0:04-0:10 | He spreads his hands.
+C: Static.
+
+# 19.13 | "Walk to where?" | who: chief
+F: Close-up of Chief facing the camera, calm and cold.
+S: Chief explains his despair.
+D: 0:01-0:07 | chief | Walk to where, Femi? To the window? To wait for children who don't come?
+T: 0:00-0:01 | Chief tilts his head.
+T: 0:01-0:07 | He speaks slowly and bitterly.
+T: 0:07-0:10 | His jaw tightens.
+C: Very slow push-in.
+
+# 19.14 | "Legs are not my problem." | who: chief
+F: Close-up of Chief facing the camera, quiet and hard.
+S: Chief says the real wound.
+D: 0:01-0:08 | chief | I walked on two good legs for seventy-five years, and they still left me. Legs are not my problem.
+T: 0:00-0:01 | Chief breathes in.
+T: 0:01-0:08 | He says it quietly.
+T: 0:08-0:10 | He turns his wheelchair toward the mirror.
+C: Static.
+
+# 19.15 | "Everyone out." | who: chief
+F: Medium shot of Chief facing the mirror, his face visible in profile and in the mirror.
+S: Chief sends everyone away.
+D: 0:01-0:04 | chief | Let me sit. Everyone out.
+T: 0:00-0:01 | Chief stares at the mirror.
+T: 0:01-0:04 | He says it.
+T: 0:04-0:10 | He doesn't move.
+C: Static.
+
+# 19.16 | "Grandpa, please…" | who: femi
+F: Close-up of Femi facing the camera, desperate.
+S: Femi tries once more.
+D: 0:02-0:04 | femi | Grandpa, please…
+T: 0:00-0:02 | Femi steps toward him.
+T: 0:02-0:04 | He pleads softly.
+T: 0:04-0:10 | He stops.
+C: Static.
+
+# 19.17 | "OUT!" | who: chief
+F: Medium shot of Chief from the side at the mirror, roaring, his face visible in profile.
+S: Chief roars.
+D: 0:01-0:02 | chief | OUT!
+T: 0:00-0:01 | Chief grips the armrests.
+T: 0:01-0:02 | He roars.
+T: 0:02-0:10 | Footsteps leave; he stays still, breathing hard.
+C: Static.
+
+# 19.18 | Femi hits the wall | who: femi
+F: The upstairs corridor: Femi with his fist against the wall, head bowed, his face visible in profile.
+S: Femi's frustration.
+T: 0:00-0:04 | Femi punches the wall softly.
+T: 0:04-0:07 | He breathes hard.
+T: 0:07-0:10 | He walks off down the corridor.
+C: Static.
+
+# 19.19 | "Test this." | who: ireti, hassan
+F: At the top of the staircase: Ireti stopping Dr. Hassan, facing the camera, glancing around, pressing something small into his palm.
+S: Ireti secretly gives the doctor the blue tablet.
+D: 0:01-0:08 | ireti | Doctor, please. Test this. Quietly. Don't tell anyone in this house. Not even Aunty Ronke.
+T: 0:00-0:01 | Ireti glances around.
+T: 0:01-0:08 | She whispers urgently.
+T: 0:08-0:10 | She presses the tablet into his palm.
+C: Static.
+
+# 19.20 | "Where did you get this?" | who: hassan
+F: Close-up of Dr. Hassan facing the camera, looking at the small blue tablet in his palm, then at her.
+S: The doctor is concerned.
+D: 0:02-0:04 | hassan | Where did you get this?
+T: 0:00-0:02 | Dr. Hassan looks at the tablet.
+T: 0:02-0:04 | He asks quietly.
+T: 0:04-0:10 | He looks up at her.
+C: Static.
+
+# 19.21 | "Every night, he gets dizzy." | who: ireti, hassan
+F: Close-up of Ireti facing the camera, serious, whispering.
+S: Ireti explains.
+D: 0:01-0:06 | ireti | From his evening tray. Every night. And every night, he gets dizzy.
+T: 0:00-0:01 | Ireti leans in.
+T: 0:01-0:06 | She whispers.
+T: 0:06-0:10 | Dr. Hassan's hand closes around the tablet at the edge of the frame. Slow fade.
+C: Static.
+
+## 20 | "What's the point?"
+MOOD: Night. The most intimate scene of the film. One warm lamp in a dark bedroom, moonlight at the window, deep shadows, faces softly lit, tears catching the light.
+
+# 20.1 | Moon over the lagoon | who:
+F: The moon over the Lagos lagoon at night, the dark mansion with only one lamp-lit window.
+S: Establishing a quiet night.
+X: The one lit window.
+T: 0:00-0:10 | Slow push toward the single lit window; the water ripples.
+C: Slow push-in.
+
+# 20.2 | Tea in the dark | who: ireti, chief
+F: Ireti setting a cup of tea down and sitting on the floor beside Chief's wheelchair; Chief facing the mirror in lamplight, his face visible in profile.
+S: Ireti comes to sit with him.
+D: 0:03-0:07 | chief | If you came to beg me about surgery, save your breath.
+T: 0:00-0:03 | Ireti puts the tea down and sits on the floor.
+T: 0:03-0:07 | Chief speaks without looking at her.
+T: 0:07-0:10 | He stares at the mirror.
+C: Static.
+
+# 20.3 | "Why don't you want to walk?" | who: ireti
+F: Close-up of Ireti on the floor looking up, facing the camera, soft lamplight.
+S: Ireti asks the real question.
+D: 0:01-0:07 | ireti | I didn't come to beg. I came to ask a question. Why don't you want to walk, sir?
+T: 0:00-0:01 | Ireti looks up at him.
+T: 0:01-0:07 | She asks gently.
+T: 0:07-0:10 | She waits.
+C: Static.
+
+# 20.4 | "I learned." | who: chief
+F: Close-up of Chief in the lamplight, facing the camera at three-quarters, barely above a whisper.
+S: Chief tells how he raised his children alone.
+D: 0:01-0:09 | chief | When Abike died, Segun was fourteen. Kunle, ten. Lola, seven. I didn't know how to plait hair. I learned.
+T: 0:00-0:01 | Chief breathes.
+T: 0:01-0:09 | He speaks slowly, barely above a whisper.
+T: 0:09-0:10 | He swallows.
+C: Very slow push-in.
+
+# 20.5 | "I sold my first car." | who: chief
+F: Same close-up of Chief, his voice breaking.
+S: Chief tells what he gave up.
+D: 0:01-0:09 | chief | I didn't know how to cook. I learned. I sold my first car to pay Segun's school fees in London.
+T: 0:00-0:01 | Chief continues.
+T: 0:01-0:09 | He speaks slowly.
+T: 0:09-0:10 | He pauses.
+C: Static.
+start: Last frame of 20.4
+
+# 20.6 | "Like a question mark." | who: chief
+F: Same close-up of Chief, eyes wet.
+S: Chief's bitterness breaks through.
+D: 0:01-0:09 | chief | I worked until my back bent like a question mark. I gave them everything. And now they're busy.
+T: 0:00-0:01 | Chief's voice cracks.
+T: 0:01-0:09 | He speaks with pain.
+T: 0:09-0:10 | He presses his lips together.
+C: Static.
+start: Last frame of 20.5
+
+# 20.7 | "Nobody is walking toward me." | who: chief, ireti
+F: Close-up of Chief finally turning to look at Ireti on the floor beside him, facing the camera.
+S: Chief asks what the point is.
+D: 0:01-0:09 | chief | If my own blood can't love me, why would a girl I pay love me? What's the point of walking, if nobody is walking toward me?
+T: 0:00-0:01 | Chief turns his head to her.
+T: 0:01-0:09 | He asks, broken.
+T: 0:09-0:10 | He waits.
+C: Static.
+
+# 20.8 | After-action: Ireti decides | who: ireti
+F: Close-up of Ireti looking at her hands, then up, deciding.
+S: Ireti decides to tell the truth.
+T: 0:00-0:05 | Ireti looks down at her hands.
+T: 0:05-0:10 | She breathes in and looks up at him, decided.
+C: Static.
+
+# 20.9 | "My mother is dying." | who: ireti
+F: Close-up of Ireti facing the camera, steady.
+S: Ireti tells him the truth.
+D: 0:01-0:07 | ireti | Can I tell you the truth, sir? My mother is dying. She has a growth on her heart.
+T: 0:00-0:01 | Ireti takes a breath.
+T: 0:01-0:07 | She says it steadily.
+T: 0:07-0:10 | Her chin trembles.
+C: Static.
+
+# 20.10 | "Thirty-eight million." | who: ireti
+F: Same close-up of Ireti, tears rising.
+S: Ireti explains the surgery.
+D: 0:01-0:08 | ireti | The doctor gave her one year. That was three months ago. The surgery is in India. Thirty-eight million.
+T: 0:00-0:01 | Ireti continues.
+T: 0:01-0:08 | She speaks quietly.
+T: 0:08-0:10 | A tear falls.
+C: Static.
+start: Last frame of 20.9
+
+# 20.11 | "But I stay for you." | who: ireti, chief
+F: Close-up of Ireti facing the camera, a small brave smile through tears.
+S: Ireti's confession.
+D: 0:01-0:05 | ireti | That's why I took this job. For the money. I won't lie to you.
+D: 0:07-0:09 | ireti | But I stay for you.
+T: 0:00-0:01 | Ireti smiles bravely.
+T: 0:01-0:05 | She admits it.
+T: 0:05-0:07 | A pause.
+T: 0:07-0:09 | She says it softly.
+T: 0:09-0:10 | She holds his eyes.
+C: Very slow push-in.
+
+# 20.12 | After-action: Chief hears the truth | who: chief
+F: Close-up of Chief in the lamplight, stunned, eyes wet, lips slightly parted, looking down at Ireti (out of frame).
+S: Chief is deeply moved.
+T: 0:00-0:05 | Chief stares at her; his chin trembles.
+T: 0:05-0:10 | He swallows slowly; a tear gathers.
+C: Static.
+
+# 20.13 | "Washing an old man's feet." | who: chief
+F: Close-up of Chief facing the camera, hoarse.
+S: Chief can't believe what she's done for him.
+D: 0:01-0:08 | chief | Your mother is dying… and you're here. Washing an old man's feet. Taking pepper soup on your chest.
+T: 0:00-0:01 | Chief's voice is hoarse.
+T: 0:01-0:08 | He speaks slowly.
+T: 0:08-0:10 | He shakes his head.
+C: Static.
+
+# 20.14 | "Don't waste it in the dark." | who: ireti, chief
+F: Close shot of Ireti taking Chief's hand in both of hers, facing the camera, lamplight.
+S: Ireti asks him to live.
+D: 0:01-0:09 | ireti | She told me to make the best of the time I have. You have more time than her, sir. Please don't waste it sitting in the dark.
+T: 0:00-0:01 | Ireti takes his hand.
+T: 0:01-0:09 | She says it gently.
+T: 0:09-0:10 | She squeezes his hand.
+C: Static.
+
+# 20.15 | The mirror | who: chief
+F: Chief looking at himself in the tall mirror, eyes filling; his face visible in the mirror and in profile.
+S: Chief looks at the old man he has become.
+T: 0:00-0:06 | Chief's eyes fill as he looks at himself in the mirror.
+T: 0:06-0:10 | He breathes out.
+C: Static.
+
+# 20.16 | "I'll pay for her surgery." | who: chief
+F: Close-up of Chief facing the camera, decisive.
+S: Chief offers to pay.
+D: 0:01-0:05 | chief | I'll pay for your mother's surgery. Tomorrow. Tell Femi…
+T: 0:00-0:01 | Chief turns to her.
+T: 0:01-0:05 | He says it.
+T: 0:05-0:10 | He is interrupted.
+C: Static.
+
+# 20.17 | "No, sir." | who: ireti
+F: Close-up of Ireti facing the camera, firm.
+S: Ireti refuses his money.
+D: 0:01-0:08 | ireti | No, sir. If you pay, you'll always wonder whether I loved you for money. Like everyone else.
+T: 0:00-0:01 | Ireti shakes her head.
+T: 0:01-0:08 | She says it firmly.
+T: 0:08-0:10 | She holds his gaze.
+C: Static.
+
+# 20.18 | "Let me earn it." | who: ireti
+F: Same close-up of Ireti, gentle and firm.
+S: Ireti will earn it herself.
+D: 0:01-0:05 | ireti | I'll earn it. Thirty-eight weeks. Let me earn it.
+T: 0:00-0:01 | Ireti smiles slightly.
+T: 0:01-0:05 | She says it.
+T: 0:05-0:10 | She waits.
+C: Static.
+start: Last frame of 20.17
+
+# 20.19 | "Fine. I'll do the surgery." | who: chief
+F: Close-up of Chief facing the camera, looking at her as if hearing a forgotten language.
+S: Chief agrees to the surgery, on one condition.
+D: 0:02-0:09 | chief | …Fine. I'll do the surgery. On one condition. When I wake up, yours is the first face I see.
+T: 0:00-0:02 | A long pause.
+T: 0:02-0:09 | He says it slowly.
+T: 0:09-0:10 | He waits.
+C: Very slow push-in.
+
+# 20.20 | "Not for the faint-hearted." | who: ireti
+F: Close-up of Ireti laughing through tears, facing the camera.
+S: Ireti laughs.
+D: 0:01-0:05 | ireti | Sir, my face in the morning is not for the faint-hearted.
+T: 0:00-0:01 | Ireti laughs through tears.
+T: 0:01-0:05 | She jokes.
+T: 0:05-0:10 | She wipes her eyes.
+C: Static.
+
+# 20.21 | "I'll take the risk." | who: chief
+F: Close-up of Chief facing the camera, a small smile.
+S: Chief smiles.
+D: 0:02-0:04 | chief | I'll take the risk.
+T: 0:00-0:02 | Chief smiles a little.
+T: 0:02-0:04 | He says it.
+T: 0:04-0:10 | He looks at her warmly.
+C: Static.
+
+# 20.22 | The blessing | who: ireti, chief
+F: Ireti resting her head against the arm of the wheelchair; Chief lifting his hand to rest it on her head, both faces visible.
+S: Chief blesses her like a grandfather.
+T: 0:00-0:04 | Ireti lays her head against the wheelchair arm.
+T: 0:04-0:10 | Slowly, Chief lifts his hand and rests it on her head, like a grandfather blessing a child.
+C: Static.
+
+# 20.23 | Ronke at the door | who: ronke
+F: The dark corridor: Ronke with her ear pressed against the bedroom door, her face visible in profile.
+S: Ronke has heard everything.
+T: 0:00-0:05 | Ronke listens at the door.
+T: 0:05-0:10 | She straightens and walks away fast, already dialling her phone. Slow fade.
+C: Static.
+
+## 21 | The first face
+MOOD: Sunrise in a private hospital. Clean, soft, warm early light through blinds. Exhausted, tender, then joyful.
+
+# 21.1 | The light switches off | who:
+F: A hospital corridor at sunrise, a red light glowing above an operating theatre door.
+S: The surgery is over.
+X: The red light above the door.
+T: 0:00-0:05 | The red light above the door switches off.
+T: 0:05-0:10 | Soft sunrise light falls across the empty corridor.
+C: Static.
+
+# 21.2 | "You're ugly in the morning." | who: chief, ireti
+F: Chief in the recovery bed waking, facing the camera, groggy; Ireti's tired face close beside him, messy hair, dark circles under her eyes.
+S: Chief wakes from surgery and sees her face first.
+D: 0:03-0:06 | chief | You're ugly in the morning.
+T: 0:00-0:03 | Chief's eyes flutter open and focus on her.
+T: 0:03-0:06 | He croaks it.
+T: 0:06-0:10 | Ireti grins.
+C: Static.
+
+# 21.3 | "We're both lucky." | who: ireti
+F: Close-up of Ireti grinning, facing the camera, tired and happy.
+S: Ireti answers.
+D: 0:01-0:05 | ireti | And you're alive, sir. We're both lucky.
+T: 0:00-0:01 | Ireti grins.
+T: 0:01-0:05 | She says it warmly.
+T: 0:05-0:10 | She squeezes his hand.
+C: Static.
+
+# 21.4 | The rusty laugh | who: chief
+F: Chief in the hospital bed laughing weakly, facing the camera, wincing.
+S: Chief laughs for real.
+T: 0:00-0:04 | Chief laughs, a real, rusty, painful laugh.
+T: 0:04-0:07 | He winces.
+T: 0:07-0:10 | He laughs again.
+C: Static.
+
+# 21.5 | "He's laughing." | who: femi
+F: Femi frozen in the doorway with two coffees, facing the camera.
+S: Femi hears his grandfather laugh for the first time in ten years.
+D: 0:04-0:06 | femi | He's laughing.
+T: 0:00-0:04 | Femi stands frozen.
+T: 0:04-0:06 | He whispers it to himself.
+T: 0:06-0:10 | He looks at Ireti, really looks at her, for the first time. Slow fade.
+C: Very slow push-in.
+
+## 22 | The house wakes up
+MOOD: Sunny weeks of healing. Bright warm daylight pouring in, open curtains, green garden, sparkling water. Joyful, alive, still natural and cinematic.
+
+# 22.1 | Curtains open | who:
+F: Front façade of the white mansion in morning sun, the first curtain sliding open.
+S: The house wakes up.
+X: The windows of the façade.
+T: 0:00-0:10 | One by one, curtains slide open until the whole house glows with sunlight.
+C: Static wide.
+
+# 22.2 | The standing frame | who: chief, ireti
+F: Rehab room: Chief sweating, strapped into a standing frame, facing the camera; a physiotherapist counting; Ireti cheering from the side.
+S: Rehab begins.
+D: 0:01-0:04 | x:Physio=the physiotherapist in a navy polo shirt | …nine… ten! Good, Chief!
+T: 0:00-0:01 | Chief strains in the frame.
+T: 0:01-0:04 | The physio counts.
+T: 0:04-0:10 | Chief gasps; Ireti claps.
+C: Static.
+
+# 22.3 | "I'll sue you." | who: chief
+F: Close-up of Chief in the frame, sweating, facing the camera.
+S: Chief jokes through the pain.
+D: 0:01-0:03 | chief | I'll sue you. Both of you.
+T: 0:00-0:01 | Chief gasps.
+T: 0:01-0:03 | He grumbles.
+T: 0:03-0:10 | He hangs on, breathing.
+C: Static.
+
+# 22.4 | "Come and catch us first!" | who: ireti
+F: Close-up of Ireti facing the camera, laughing.
+S: Ireti teases him.
+D: 0:01-0:04 | ireti | With which legs, sir? Come and catch us first!
+T: 0:00-0:01 | Ireti laughs.
+T: 0:01-0:04 | She teases.
+T: 0:04-0:10 | She claps.
+C: Static.
+
+# 22.5 | The easel | who: ireti, chief
+F: Grand hall: Ireti pulling a dust sheet off an easel, revealing an unfinished painting of the garden, facing the camera; Chief in his wheelchair nearby.
+S: Ireti finds his old painting.
+D: 0:03-0:05 | ireti | Sir… you paint?
+T: 0:00-0:03 | Ireti pulls the sheet away.
+T: 0:03-0:05 | She asks, amazed.
+T: 0:05-0:10 | She turns to him.
+C: Static.
+
+# 22.6 | "Past tense." | who: chief
+F: Close-up of Chief facing the camera, gruff.
+S: Chief brushes it off.
+D: 0:02-0:04 | chief | Painted. Past tense.
+T: 0:00-0:02 | Chief looks at the painting.
+T: 0:02-0:04 | He says it gruffly.
+T: 0:04-0:10 | He looks away.
+C: Static.
+
+# 22.7 | "Present continuous." | who: ireti, chief
+F: Close-up of Ireti putting a paintbrush in Chief's hand, facing the camera, smiling.
+S: Ireti makes him paint again.
+D: 0:01-0:05 | ireti | Present continuous, sir. I failed English, but not that one.
+T: 0:00-0:01 | Ireti puts the brush in his hand.
+T: 0:01-0:05 | She says it with a grin.
+T: 0:05-0:10 | He looks at the brush.
+C: Static.
+
+# 22.8 | The puppy | who: ireti, chief
+F: Garden: Ireti walking up the driveway carrying a fluffy brown puppy; Chief recoiling in his wheelchair, facing the camera.
+S: Ireti brings him a puppy.
+D: 0:03-0:07 | chief | What is that? Who brought this rat into my house?!
+T: 0:00-0:03 | Ireti walks up with the puppy.
+T: 0:03-0:07 | Chief recoils and shouts.
+T: 0:07-0:10 | Ireti laughs.
+C: Static.
+
+# 22.9 | "He needs a name." | who: ireti, chief
+F: Close-up of Ireti placing the puppy on Chief's lap, facing the camera.
+S: Ireti gives him the puppy.
+D: 0:01-0:05 | ireti | He's a gift, sir. From me. He needs a name.
+T: 0:00-0:01 | Ireti places the puppy on his lap.
+T: 0:01-0:05 | She says it.
+T: 0:05-0:10 | The puppy licks his hand.
+C: Static.
+
+# 22.10 | "…Monday." | who: chief
+F: Close shot of Chief reluctantly stroking the puppy's ears, facing the camera.
+S: Chief names the puppy.
+D: 0:03-0:04 | chief | …Monday.
+T: 0:00-0:03 | Chief fights the puppy, then gives in and strokes it.
+T: 0:03-0:04 | He grumbles the name.
+T: 0:04-0:10 | He scratches its ears.
+C: Static.
+
+# 22.11 | "Why Monday?" | who: ireti
+F: Close-up of Ireti facing the camera, curious.
+S: Ireti asks.
+D: 0:02-0:04 | ireti | Monday? Why Monday?
+T: 0:00-0:02 | Ireti tilts her head.
+T: 0:02-0:04 | She asks.
+T: 0:04-0:10 | She waits.
+C: Static.
+
+# 22.12 | "Let's see if he can fix it." | who: chief
+F: Close-up of Chief facing the camera, the puppy on his lap, a small smile.
+S: Chief explains the name.
+D: 0:01-0:08 | chief | Because Mondays used to be the worst day in this house. Let's see if he can fix it.
+T: 0:00-0:01 | Chief looks at the puppy.
+T: 0:01-0:08 | He says it.
+T: 0:08-0:10 | He smiles.
+C: Static.
+
+# 22.13 | Painting in the garden | who: chief
+F: Late afternoon: Chief painting at the easel in the garden, facing the camera at three-quarters, the puppy asleep on his feet.
+S: Chief paints again.
+T: 0:00-0:06 | Chief paints slowly and carefully.
+T: 0:06-0:10 | The puppy sleeps; a breeze moves the trees.
+C: Static.
+
+# 22.14 | The fountain bursts | who: ireti, audu, chief
+F: Ireti and Mallam Audu kneeling at the dry stone fountain fixing a pipe, facing the camera; Chief at his easel in the background.
+S: They fix the fountain; it bursts and soaks them.
+T: 0:00-0:04 | Ireti and Mallam Audu work on the pipe.
+T: 0:04-0:07 | Water bursts out and soaks them; they laugh.
+T: 0:07-0:10 | Chief laughs so hard he nearly drops his brush.
+C: Static.
+
+# 22.15 | Ronke behind the curtain | who: ronke
+F: An upstairs window: Ronke behind a curtain looking down at the laughing garden, facing the camera, not smiling.
+S: Ronke watches with cold eyes.
+T: 0:00-0:06 | Ronke watches without blinking.
+T: 0:06-0:10 | She lets the curtain fall closed. Slow fade.
+C: Static.
+
+## 23 | Tuesdays with Chief
+MOOD: Bright Tuesday morning. Big, hopeful, uplifting. Clear sunlight on a green lawn, crowds of young people, warm natural colour.
+
+# 23.1 | Flashback: the business show | who: chief, ireti
+F: Living room a week earlier: Chief and Ireti watching a TV business show, Chief facing the camera, grumbling at the screen.
+S: Chief misses teaching young people.
+D: 0:01-0:09 | chief | This boy is talking rubbish. I used to teach young people for free. Every Tuesday. Two hundred of them in this garden. I miss it.
+T: 0:00-0:01 | Chief scowls at the TV.
+T: 0:01-0:09 | He grumbles, then turns wistful.
+T: 0:09-0:10 | Ireti glances at him.
+C: Static.
+
+# 23.2 | An idea | who: ireti
+F: Close-up of Ireti facing the camera, an idea forming.
+S: Ireti has an idea.
+T: 0:00-0:05 | Ireti looks at Chief, thinking.
+T: 0:05-0:10 | A small smile spreads: an idea.
+C: Very slow push-in.
+
+# 23.3 | The flyer | who: ireti
+F: Close shot of Ireti's cracked phone showing a gold flyer with Chief's photo (no readable text), her thumb pressing to post it.
+S: Ireti posts the flyer online.
+X: The phone screen.
+T: 0:00-0:04 | Ireti taps to post the flyer.
+T: 0:04-0:10 | The share count on the screen rises fast; she smiles.
+C: Static close-up.
+
+# 23.4 | "TWO HUNDRED young people!" | who: audu, chief, ireti
+F: Mallam Audu running up the driveway with his cap in his hand toward Chief and Ireti, facing the camera.
+S: The gateman runs in with news.
+D: 0:02-0:07 | audu | Oga! Oga! There are… there are TWO HUNDRED young people at the gate!
+T: 0:00-0:02 | Mallam Audu runs up, out of breath.
+T: 0:02-0:07 | He shouts the news.
+T: 0:07-0:10 | He bends over, catching his breath.
+C: Static.
+
+# 23.5 | "What did you do?" | who: chief, ireti
+F: Close-up of Chief turning to Ireti, facing the camera, stunned.
+S: Chief asks Ireti.
+D: 0:02-0:04 | chief | What did you do?
+T: 0:00-0:02 | Chief turns to her.
+T: 0:02-0:04 | He asks, stunned.
+T: 0:04-0:10 | He waits.
+C: Static.
+
+# 23.6 | "You do the rest." | who: ireti
+F: Close-up of Ireti facing the camera, innocent smile.
+S: Ireti's answer.
+D: 0:01-0:05 | ireti | I opened the gate, sir. You do the rest.
+T: 0:00-0:01 | Ireti smiles innocently.
+T: 0:01-0:05 | She says it.
+T: 0:05-0:10 | She shrugs.
+C: Static.
+
+# 23.7 | The lawn full of young people | who:
+F: Wide shot of the sunny lawn with two hundred young Nigerians sitting with notebooks: tailors, programmers, food sellers.
+S: The garden fills with young people.
+X: The crowd on the lawn.
+T: 0:00-0:10 | The crowd settles on the grass, chatting and opening notebooks.
+C: Slow crane down over the crowd.
+
+# 23.8 | Rule number one | who: chief, ireti
+F: Chief in his wheelchair in a bright ankara shirt at the front of the lawn holding a microphone, facing the camera, nervous then confident.
+S: Chief begins teaching again.
+D: 0:02-0:09 | chief | Rule number one of business. Never despise the person who serves your food. One day she might be the one who serves you your life back.
+T: 0:00-0:02 | Chief looks terrified, then breathes.
+T: 0:02-0:09 | He speaks, looking toward Ireti.
+T: 0:09-0:10 | The crowd claps.
+C: Very slow push-in.
+
+# 23.9 | After-action: Ireti embarrassed | who: ireti
+F: Close-up of Ireti in the crowd, facing the camera, looking down, embarrassed and moved.
+S: Ireti is moved.
+T: 0:00-0:05 | Ireti looks down, embarrassed.
+T: 0:05-0:10 | She smiles, eyes wet.
+C: Static.
+
+# 23.10 | The young man's question | who: chief
+F: Medium shot of a young man standing in the crowd, facing the camera, raising his hand; Chief at the edge of the frame.
+S: A young man asks a big question.
+D: 0:01-0:04 | x:Young man=the young man in a blue shirt standing in the crowd | Sir, what's the biggest mistake you ever made?
+T: 0:00-0:01 | The young man raises his hand.
+T: 0:01-0:04 | He asks.
+T: 0:04-0:10 | The crowd goes quiet.
+C: Static.
+
+# 23.11 | "Except my time." | who: chief
+F: Close-up of Chief with the microphone, facing the camera, honest.
+S: Chief answers with the truth.
+D: 0:02-0:09 | chief | I gave my children everything except my time. And then I was surprised when they gave me everything except theirs.
+T: 0:00-0:02 | A long pause.
+T: 0:02-0:09 | He says it slowly.
+T: 0:09-0:10 | The garden is silent.
+C: Very slow push-in.
+
+# 23.12 | Applause | who: chief
+F: The crowd on its feet applauding; Chief in the foreground, moved, holding the microphone.
+S: The crowd applauds.
+T: 0:00-0:05 | The applause is even louder; people stand.
+T: 0:05-0:10 | Chief nods slowly, eyes wet.
+C: Static.
+
+# 23.13 | Lekan arrives | who: lekan
+F: A black car on the driveway; Lekan stepping out with flowers, facing the camera, freezing at the sight of the crowd.
+S: Lekan arrives and is shocked.
+T: 0:00-0:04 | Lekan steps out with flowers.
+T: 0:04-0:07 | He sees the crowd and freezes.
+T: 0:07-0:10 | He forces a smile.
+C: Static.
+
+# 23.14 | "Is it good for your heart?" | who: lekan, chief
+F: Medium shot of Lekan with flowers beside Chief's wheelchair, facing the camera, smiling falsely.
+S: Lekan pretends to worry.
+D: 0:01-0:06 | lekan | Chief! Ah! All this excitement… is it good for your heart?
+T: 0:00-0:01 | Lekan smiles widely.
+T: 0:01-0:06 | He says it with fake concern.
+T: 0:06-0:10 | He waits.
+C: Static.
+
+# 23.15 | "Let it work." | who: chief, lekan
+F: Close-up of Chief facing the camera, smiling.
+S: Chief is alive again.
+D: 0:01-0:06 | chief | My heart has been bored for ten years, Lekan. Let it work.
+T: 0:00-0:01 | Chief smiles.
+T: 0:01-0:06 | He says it.
+T: 0:06-0:10 | He turns back to the crowd.
+C: Static.
+
+# 23.16 | The look to the window | who: lekan, ronke
+F: Lekan looking up at the house, his smile staying but his eyes cold; Ronke at an upstairs window behind the curtain.
+S: Lekan and Ronke exchange a look.
+T: 0:00-0:05 | Lekan's smile stays; his eyes go cold.
+T: 0:05-0:10 | He glances up at the window; Ronke looks back down. Slow fade.
+C: Static.
+
+## 24 | The lab result
+MOOD: A hot afternoon. Bright and still outside, then shock. Strong sun, heat haze, deep shade behind the gazebo; inside, the bright grand hall suddenly cold.
+
+# 24.1 | Monday chases a butterfly | who:
+F: A small fluffy brown puppy chasing a butterfly across a sunny lawn, the fountain behind.
+S: A calm hot afternoon.
+X: The puppy.
+T: 0:00-0:10 | The puppy bounds after the butterfly across the grass.
+C: Slow pan following the puppy.
+
+# 24.2 | Behind the gazebo | who: ireti
+F: Ireti stepping behind the vine-covered gazebo with her phone to her ear, facing the camera.
+S: Dr. Hassan calls with the lab result.
+D: 0:01-0:08 | phone:hassan | Ireti. That tablet. It's not for blood pressure. It's a strong sedative, mixed with a drug that crashes blood pressure.
+T: 0:00-0:01 | Ireti answers quietly.
+T: 0:01-0:08 | Dr. Hassan's voice plays from the phone.
+T: 0:08-0:10 | Ireti's face goes still.
+C: Static.
+
+# 24.3 | "And he'll fall." | who: ireti
+F: Close-up of Ireti with the phone to her ear, facing the camera, her hand slowly covering her mouth.
+S: Ireti realises what it did.
+D: 0:01-0:08 | phone:hassan | Give it to a seventy-five-year-old man every evening, and he'll be dizzy, confused and depressed. And he'll fall.
+T: 0:00-0:01 | Ireti listens.
+T: 0:01-0:08 | The voice plays from the phone; her hand rises to her mouth.
+T: 0:08-0:10 | Her eyes widen.
+C: Static.
+
+# 24.4 | "The stairs." | who: ireti
+F: Close-up of Ireti facing the camera, hand over her mouth.
+S: Ireti connects it to the fall.
+D: 0:02-0:04 | ireti | The stairs.
+T: 0:00-0:02 | Ireti lowers her hand.
+T: 0:02-0:04 | She whispers.
+T: 0:04-0:10 | She stares at the house.
+C: Static.
+
+# 24.5 | "Tell Femi. Today." | who: ireti
+F: Same close-up of Ireti with the phone at her ear, pale.
+S: The doctor tells her to act now.
+D: 0:01-0:06 | phone:hassan | Somebody has been putting him to sleep for a long time. Tell Femi. Today.
+T: 0:00-0:01 | Ireti listens.
+T: 0:01-0:06 | The voice plays from the phone.
+T: 0:06-0:10 | Ireti nods, pale.
+C: Static.
+
+# 24.6 | "Without ever touching him." | who: ireti
+F: Close-up of Ireti lowering the phone, facing the camera.
+S: Ireti understands everything.
+D: 0:01-0:06 | ireti | Somebody pushed him down those stairs without ever touching him.
+T: 0:00-0:01 | Ireti lowers the phone.
+T: 0:01-0:06 | She whispers.
+T: 0:06-0:10 | She turns and starts running.
+C: Static.
+
+# 24.7 | Running to the house | who: ireti
+F: Ireti running across the sunny lawn toward the house, facing the camera.
+S: Ireti runs to tell Femi.
+T: 0:00-0:10 | Ireti runs across the lawn toward the house.
+C: Tracking backward in front of her.
+
+# 24.8 | Her bag on the floor | who: femi, ronke, ireti
+F: From the doorway: the bright grand hall with Femi, Ronke and two security men standing around Ireti's faded nylon bag lying open on the marble floor; Ireti in the foreground.
+S: Ireti walks into a trap.
+T: 0:00-0:04 | Ireti stops dead in the doorway, out of breath.
+T: 0:04-0:10 | Everyone turns to look at her. Silence. Slow fade.
+C: Static.

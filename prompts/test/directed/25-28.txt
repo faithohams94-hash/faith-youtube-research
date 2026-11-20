@@ -1,0 +1,823 @@
+## 25 | The necklace
+MOOD: Bright day in the grand hall, but the mood turns cold and cruel. Clear daylight from tall windows on white marble, sharp shadows, tense and painful.
+
+# 25.1 | The empty velvet box | who:
+F: Cold close-up of an open, empty velvet jewellery box on a marble floor beside a faded nylon bag.
+S: Something has been stolen.
+X: The empty velvet box.
+T: 0:00-0:07 | Very slow push in on the empty box.
+T: 0:07-0:10 | Footsteps on marble.
+C: Very slow push-in.
+
+# 25.2 | "In HER bag." | who: ronke, femi, ireti
+F: Medium shot of Ronke holding up a sparkling diamond necklace in front of Femi, facing the camera; Ireti in the doorway at the edge of the frame.
+S: Ronke accuses Ireti of theft.
+D: 0:01-0:06 | ronke | Mama Abike's necklace. From Chief's locked box. In HER bag.
+T: 0:00-0:01 | Ronke holds up the necklace.
+T: 0:01-0:06 | She accuses, loud and cold.
+T: 0:06-0:10 | She points at Ireti.
+C: Static.
+
+# 25.3 | "I've never seen it." | who: ireti
+F: Close-up of Ireti facing the camera, stunned.
+S: Ireti denies it.
+D: 0:01-0:05 | ireti | That's… I've never seen it before in my life.
+T: 0:00-0:01 | Ireti stares, shocked.
+T: 0:01-0:05 | She says it, stunned.
+T: 0:05-0:10 | She shakes her head.
+C: Static.
+
+# 25.4 | "These gutter girls." | who: ronke, femi
+F: Close-up of Ronke facing the camera, contempt in her eyes.
+S: Ronke twists the knife.
+D: 0:01-0:05 | ronke | These gutter girls, sir. I told you from the first day.
+T: 0:00-0:01 | Ronke turns to Femi.
+T: 0:01-0:05 | She says it with contempt.
+T: 0:05-0:10 | She folds her arms.
+C: Static.
+
+# 25.5 | "Your thirty-eight weeks?" | who: femi
+F: Close-up of Femi facing the camera, cold and hurt.
+S: Femi turns on her.
+D: 0:01-0:06 | femi | Ireti. Is this how you planned to get your 'thirty-eight weeks'?
+T: 0:00-0:01 | Femi looks at her, hurt.
+T: 0:01-0:06 | He says it coldly.
+T: 0:06-0:10 | He waits.
+C: Very slow push-in.
+
+# 25.6 | "Listen to me." | who: ireti
+F: Close-up of Ireti facing the camera, desperate.
+S: Ireti tries to tell him about the medicine.
+D: 0:01-0:08 | ireti | Sir, please, listen to me. I didn't take it. There's something I must tell you about the medicine. Dr. Hassan just called…
+T: 0:00-0:01 | Ireti steps forward.
+T: 0:01-0:08 | She speaks fast, desperate.
+T: 0:08-0:10 | She is cut off.
+C: Static.
+
+# 25.7 | Ronke cuts in | who: ronke
+F: Medium close-up of Ronke facing the camera, loud.
+S: Ronke drowns her out.
+D: 0:01-0:08 | ronke | Now she'll start inventing stories about medicine to save herself! She's been sniffing around my cabinet for weeks!
+T: 0:00-0:01 | Ronke steps in front of Ireti.
+T: 0:01-0:08 | She speaks loudly over her.
+T: 0:08-0:10 | She glares.
+C: Static.
+
+# 25.8 | "A thief in Chief's house" | who: femi
+F: Close-up of Femi glancing at his buzzing phone, facing the camera, stressed; security men behind him.
+S: Femi worries about the scandal.
+D: 0:03-0:08 | femi | The AGM is in two weeks. If the press hears there's a thief in Chief's house…
+T: 0:00-0:03 | Femi's phone buzzes; he glances at it.
+T: 0:03-0:08 | He speaks to the security men.
+T: 0:08-0:10 | He rubs his forehead.
+C: Static.
+
+# 25.9 | The lift dings | who: chief
+F: The lift door opening at the side of the hall: Chief rolling out, sweaty and happy, the brown puppy on his lap, facing the camera.
+S: Chief arrives, happy, and sees.
+D: 0:02-0:05 | chief | What's all this noise? Ireti, I did fifteen today…
+T: 0:00-0:02 | The lift opens; Chief rolls out smiling.
+T: 0:02-0:05 | He calls out happily.
+T: 0:05-0:10 | He sees the necklace and the open bag; his smile drains away.
+C: Static.
+
+# 25.10 | "The oldest trick in Lagos." | who: ronke
+F: Close-up of Ronke leaning toward Chief, facing the camera, gentle and poisonous.
+S: Ronke poisons his mind.
+D: 0:01-0:09 | ronke | I'm sorry, sir. And I'm sure she told you a sad story about a dying mother too? That's the oldest trick in Lagos.
+T: 0:00-0:01 | Ronke softens her voice.
+T: 0:01-0:09 | She says it gently and poisonously.
+T: 0:09-0:10 | She steps back.
+C: Very slow push-in.
+
+# 25.11 | "Is it true?" | who: chief
+F: Close-up of Chief facing the camera, everything hanging on her answer.
+S: Chief asks Ireti.
+D: 0:03-0:04 | chief | Is it true?
+T: 0:00-0:03 | Chief turns slowly to Ireti.
+T: 0:03-0:04 | He asks, barely.
+T: 0:04-0:10 | He waits.
+C: Static.
+
+# 25.12 | "You KNOW me." | who: ireti, chief
+F: Ireti kneeling beside Chief's wheelchair, tears falling, looking up, facing the camera.
+S: Ireti begs him to believe her.
+D: 0:01-0:05 | ireti | Sir. Look at me. You know me. You KNOW me.
+T: 0:00-0:01 | Ireti kneels.
+T: 0:01-0:05 | She pleads through tears.
+T: 0:05-0:10 | She holds his eyes.
+C: Static.
+
+# 25.13 | He turns his face away | who: chief, ireti
+F: Close shot of Chief's face over Ireti's shoulder.
+S: Chief turns away from her.
+T: 0:00-0:05 | Chief looks at her for a long moment.
+T: 0:05-0:10 | Then, slowly and deliberately, he turns his face away to the side.
+C: Static.
+
+# 25.14 | After-action: Ireti stops breathing | who: ireti
+F: Close-up of Ireti kneeling, tears on her cheeks, staring at Chief's turned head (out of frame).
+S: Ireti is broken.
+T: 0:00-0:05 | Ireti doesn't breathe; her lips part but no sound comes.
+T: 0:05-0:10 | One tear falls; she lowers her eyes.
+C: Static.
+
+# 25.15 | "Leave." | who: femi
+F: Close-up of Femi facing the camera, quiet and cold.
+S: Femi throws her out.
+D: 0:02-0:05 | femi | Leave. Before I call the police.
+T: 0:00-0:02 | Femi looks down at her.
+T: 0:02-0:05 | He says it quietly.
+T: 0:05-0:10 | He turns away.
+C: Static.
+
+# 25.16 | She picks up her bag | who: ireti
+F: Medium shot of Ireti standing, picking up her bag, leaving the necklace on the floor, facing the camera.
+S: Ireti leaves with dignity.
+T: 0:00-0:05 | Ireti stands slowly.
+T: 0:05-0:10 | She picks up her bag and leaves the necklace on the floor.
+C: Static.
+
+# 25.17 | "Take your medicine from someone else." | who: ireti, chief
+F: Ireti at the door, facing the camera, turning back toward Chief's turned head in the background.
+S: Ireti's last warning.
+D: 0:01-0:06 | ireti | Please take your medicine from someone else tonight, sir. Anybody else.
+T: 0:00-0:01 | Ireti turns back.
+T: 0:01-0:06 | She says it gently.
+T: 0:06-0:10 | Her phone rings; she answers as she walks out.
+C: Static.
+
+# 25.18 | "Mummy collapsed!" | who: ireti
+F: Close-up of Ireti on the front steps with the phone to her ear, facing the camera, her face breaking.
+S: Her brother calls: their mother has collapsed.
+D: 0:01-0:08 | phone:dayo | Sister! Sister, Mummy collapsed! They've taken her to the emergency… Sister, she's not waking up!
+T: 0:00-0:01 | Ireti answers.
+T: 0:01-0:08 | Dayo's sobbing voice plays from the phone.
+T: 0:08-0:10 | Ireti drops her bag.
+C: Static.
+
+# 25.19 | Barefoot down the driveway | who: ireti
+F: Wide shot down the long palm-lined driveway: Ireti running barefoot toward the gate, her slippers left behind, the brown puppy chasing her.
+S: Ireti runs to her mother.
+T: 0:00-0:06 | Ireti runs barefoot down the driveway; the puppy chases, barking.
+T: 0:06-0:10 | At the gate, Mallam Audu catches the puppy and watches her go.
+C: Static wide.
+
+# 25.20 | The tear | who: ronke, chief
+F: The hall: Ronke picking up the necklace and smiling up at the portrait; Chief in the background with his face turned to the wall, his face visible in profile.
+S: Ronke wins; Chief breaks.
+T: 0:00-0:05 | Ronke smiles at the portrait.
+T: 0:05-0:10 | Behind her, a single tear runs down into Chief's beard. Slow fade.
+C: Slow push-in on Chief.
+
+## 26 | "Swallow it."
+MOOD: Night. The house dark again. One lamp, deep shadows, cold tension that turns to fire. Faces lit from the side, eyes catching the light.
+
+# 26.1 | The curtains close again | who:
+F: Night view of the mansion façade, curtains closing across the windows one by one.
+S: The house goes dark again.
+X: The windows.
+T: 0:00-0:10 | One by one, the curtains slide closed until the house is dark.
+C: Static wide.
+
+# 26.2 | The tablet in his palm | who: ronke, chief
+F: Chief's dark bedroom: Ronke holding the silver tray with water and one blue tablet; Chief, facing the camera, picking the tablet up and looking at it.
+S: The tablet again, but Chief hesitates.
+D: 0:01-0:03 | ronke | Your evening tablet, sir.
+T: 0:00-0:01 | Ronke holds out the tray.
+T: 0:01-0:03 | She says it.
+T: 0:03-0:10 | Chief holds the tablet on his palm and stares at it.
+C: Static.
+
+# 26.3 | Ireti's words echo | who: chief
+F: Close-up of Chief staring at the blue tablet on his palm, facing the camera.
+S: He remembers Ireti's warning.
+D: 0:02-0:06 | memory:ireti | Take your medicine from someone else tonight.
+T: 0:00-0:02 | Chief stares at the tablet.
+T: 0:02-0:06 | Ireti's voice echoes softly in his memory.
+T: 0:06-0:10 | His eyes narrow.
+C: Very slow push-in.
+
+# 26.4 | Mallam Audu comes upstairs | who: audu, ronke
+F: Mallam Audu standing in the doorway with his cap in his hands, facing the camera; Ronke turning sharply.
+S: The gateman comes upstairs for the first time in thirty years.
+D: 0:01-0:07 | audu | Oga. Forgive me. I've served you thirty years. I must say what my eyes saw.
+T: 0:00-0:01 | Mallam Audu steps into the doorway.
+T: 0:01-0:07 | He speaks humbly.
+T: 0:07-0:10 | Ronke turns sharply.
+C: Static.
+
+# 26.5 | "Go back to your gate!" | who: ronke
+F: Close-up of Ronke facing the camera, sharp.
+S: Ronke tries to stop him.
+D: 0:01-0:03 | ronke | Mallam, go back to your gate!
+T: 0:00-0:01 | Ronke snaps around.
+T: 0:01-0:03 | She orders him.
+T: 0:03-0:10 | She glares.
+C: Static.
+
+# 26.6 | What Audu saw | who: audu, chief
+F: Close-up of Mallam Audu facing the camera, steady, ignoring her.
+S: The gateman tells what he saw.
+D: 0:01-0:08 | audu | At noon today, I saw Madam Ronke go into the staff quarters with a velvet box. She came out without it.
+T: 0:00-0:01 | Mallam Audu ignores her.
+T: 0:01-0:08 | He speaks steadily.
+T: 0:08-0:10 | He holds Chief's eyes.
+C: Static.
+
+# 26.7 | The brown envelopes | who: audu
+F: Same close-up of Mallam Audu.
+S: The gateman reveals the bribes.
+D: 0:01-0:07 | audu | And every Friday for six years, Mr. Lekan's driver gives her a brown envelope through my gate.
+T: 0:00-0:01 | Mallam Audu continues.
+T: 0:01-0:07 | He speaks calmly.
+T: 0:07-0:10 | He bows his head.
+C: Static.
+start: Last frame of 26.6
+
+# 26.8 | After-action: Ronke freezes | who: ronke
+F: Close-up of Ronke facing the camera, her face freezing.
+S: Ronke is exposed.
+T: 0:00-0:05 | Ronke's face freezes.
+T: 0:05-0:10 | Her eyes dart to the door.
+C: Static.
+
+# 26.9 | Dr. Hassan's envelope | who: hassan, chief
+F: Dr. Hassan appearing in the doorway, facing the camera, holding a sealed envelope out to Chief.
+S: The doctor brings the lab report.
+D: 0:01-0:06 | hassan | Chief. Miss Alade asked me to give you this if anything ever happened to her.
+T: 0:00-0:01 | Dr. Hassan steps in.
+T: 0:01-0:06 | He speaks gravely.
+T: 0:06-0:10 | He hands Chief the envelope.
+C: Static.
+
+# 26.10 | "It's why you fell." | who: hassan, chief
+F: Close-up of Dr. Hassan facing the camera, serious.
+S: The doctor explains the drug.
+D: 0:01-0:09 | hassan | The blue tablet is a sedative and a blood-pressure crash drug. Not prescribed. It's why you were dizzy. It's why you fell.
+T: 0:00-0:01 | Dr. Hassan looks at Chief.
+T: 0:01-0:09 | He says it clearly.
+T: 0:09-0:10 | Silence.
+C: Static.
+
+# 26.11 | Reading the report | who: chief
+F: Close-up of Chief reading the lab report, hands shaking, facing the camera.
+S: Chief reads the truth.
+T: 0:00-0:05 | Chief reads; his hands shake.
+T: 0:05-0:10 | Slowly he looks up toward Ronke.
+C: Static.
+
+# 26.12 | "Swallow it." | who: chief, ronke
+F: Chief holding the blue tablet out to Ronke on his flat palm, facing the camera.
+S: Chief makes her face it.
+D: 0:02-0:04 | chief | Ronke. Swallow it.
+T: 0:00-0:02 | Chief holds out the tablet on his flat palm.
+T: 0:02-0:04 | He says it very quietly.
+T: 0:04-0:10 | He doesn't blink.
+C: Very slow push-in.
+
+# 26.13 | "Sir…" | who: ronke
+F: Close-up of Ronke facing the camera, frightened.
+S: Ronke panics.
+D: 0:02-0:03 | ronke | Sir…
+T: 0:00-0:02 | Ronke stares at the tablet.
+T: 0:02-0:03 | She whispers.
+T: 0:03-0:10 | Her hands begin to tremble.
+C: Static.
+
+# 26.14 | "Swallow one." | who: chief
+F: Close-up of Chief facing the camera, cold fire.
+S: Chief insists.
+D: 0:01-0:05 | chief | You've given it to me a thousand times. Swallow one.
+T: 0:00-0:01 | Chief leans forward.
+T: 0:01-0:05 | He says it coldly.
+T: 0:05-0:10 | He holds out the tablet.
+C: Static.
+
+# 26.15 | She drops to her knees | who: ronke
+F: Ronke on her knees on the floor, sobbing, facing the camera.
+S: Ronke confesses.
+D: 0:01-0:09 | ronke | It was Mr. Lekan! He said just keep you weak, keep you sad, until the AGM, so the doctors would sign that you're not fit…
+T: 0:00-0:01 | Ronke drops to her knees.
+T: 0:01-0:09 | She confesses, sobbing.
+T: 0:09-0:10 | She gasps.
+C: Static.
+
+# 26.16 | "A house in Lekki" | who: ronke
+F: Close-up of Ronke on her knees, sobbing.
+S: Ronke admits her price.
+D: 0:01-0:04 | ronke | He promised me a house, sir, a house in Lekki…
+T: 0:00-0:01 | Ronke sobs.
+T: 0:01-0:04 | She says it, broken.
+T: 0:04-0:10 | She covers her face.
+C: Static.
+start: Last frame of 26.15
+
+# 26.17 | Femi hears it | who: femi
+F: Femi rushing in through the doorway, facing the camera, going pale.
+S: Femi hears the confession.
+D: 0:03-0:05 | femi | Uncle Lekan…
+T: 0:00-0:03 | Femi rushes in and stops.
+T: 0:03-0:05 | He whispers, going white.
+T: 0:05-0:10 | He stares at Ronke.
+C: Static.
+
+# 26.18 | "Let Lekan think he's winning." | who: chief
+F: Close-up of Chief facing the camera, cold and calm.
+S: Chief starts planning.
+D: 0:01-0:05 | chief | Don't call the police yet. Let Lekan think he's winning.
+T: 0:00-0:01 | Chief looks at Femi.
+T: 0:01-0:05 | He says it calmly.
+T: 0:05-0:10 | His eyes are steady.
+C: Static.
+
+# 26.19 | "Where's Ireti?" | who: chief
+F: Same close-up of Chief, softer.
+S: Chief asks for Ireti.
+D: 0:02-0:04 | chief | Femi. Where's Ireti?
+T: 0:00-0:02 | Chief's face changes.
+T: 0:02-0:04 | He asks.
+T: 0:04-0:10 | He waits.
+C: Static.
+
+# 26.20 | "I threw her out." | who: femi
+F: Close-up of Femi facing the camera, ashamed.
+S: Femi confesses.
+D: 0:01-0:07 | femi | I threw her out, Grandpa. Her mother collapsed. She ran barefoot.
+T: 0:00-0:01 | Femi lowers his eyes.
+T: 0:01-0:07 | He says it, ashamed.
+T: 0:07-0:10 | He looks up.
+C: Static.
+
+# 26.21 | Fire in his eyes | who: chief
+F: Close-up of Chief facing the camera, eyes closed, then opening with fire.
+S: Chief finds his strength.
+T: 0:00-0:05 | Chief closes his eyes.
+T: 0:05-0:10 | When he opens them, there is fire in them.
+C: Very slow push-in.
+
+# 26.22 | "We're going to Mushin." | who: chief
+F: Same close-up of Chief, determined.
+S: Chief decides to go to her.
+D: 0:01-0:05 | chief | Bring my blue agbada. We're going to Mushin.
+T: 0:00-0:01 | Chief straightens.
+T: 0:01-0:05 | He orders it.
+T: 0:05-0:10 | He grips the armrests.
+C: Static.
+start: Last frame of 26.21
+
+# 26.23 | "You haven't left this house" | who: femi
+F: Close-up of Femi facing the camera, surprised.
+S: Femi is surprised.
+D: 0:01-0:05 | femi | Grandpa, you haven't left this house without her in months…
+T: 0:00-0:01 | Femi blinks.
+T: 0:01-0:05 | He says it.
+T: 0:05-0:10 | He waits.
+C: Static.
+
+# 26.24 | "Time I went to find her." | who: chief
+F: Close-up of Chief facing the camera, resolved.
+S: Chief goes to find her.
+D: 0:01-0:04 | chief | Then it's time I went to find her.
+T: 0:00-0:01 | Chief looks at Femi.
+T: 0:01-0:04 | He says it simply.
+T: 0:04-0:10 | He turns his wheelchair toward the door.
+C: Static.
+
+# 26.25 | Flushed away | who: chief, audu
+F: Chief at the en-suite toilet dropping the blue tablet into the bowl, his face visible in profile; Mallam Audu in the doorway.
+S: Chief throws the poison away.
+T: 0:00-0:04 | Chief drops the blue tablet into the toilet.
+T: 0:04-0:07 | He flushes.
+T: 0:07-0:10 | The puppy barks; Mallam Audu bows his head. Slow fade.
+C: Static.
+
+## 27 | Twice from the fire
+MOOD: Night in the public hospital ward. Dim, raw, holy. Weak fluorescent tubes, deep shadows, faces lit softly, tears catching the light. The most emotional scene of the film.
+
+# 27.1 | The convoy | who:
+F: Night outside the old public hospital: a broken streetlight, mud, three black SUVs pulling up, onlookers staring.
+S: The billionaire's convoy arrives at the poor hospital.
+X: The three black SUVs.
+T: 0:00-0:06 | Three black SUVs roll slowly through the mud and stop.
+T: 0:06-0:10 | Onlookers turn and whisper.
+C: Static wide.
+
+# 27.2 | Beside her mother | who: ireti, funmi, dayo
+F: The dim ward: Ireti sitting on the floor holding her mother's hand, facing the camera; Mama Funmi on an oxygen mask; Dayo asleep against the wall.
+S: Ireti keeps watch over her mother.
+T: 0:00-0:05 | Ireti holds her mother's hand, eyes swollen; the oxygen hisses softly.
+T: 0:05-0:10 | The whole ward goes quiet; every patient turns toward the door.
+C: Static.
+
+# 27.3 | Down the long aisle | who: femi, chief
+F: Femi pushing Chief's wheelchair down the long aisle between the beds, both facing the camera, Chief in his royal-blue agbada.
+S: Chief comes to her.
+T: 0:00-0:10 | Femi pushes Chief slowly down the aisle; patients watch in silence.
+C: Slow tracking backward in front of them.
+
+# 27.4 | "Sir…?" | who: ireti
+F: Close-up of Ireti rising in shock, facing the camera.
+S: Ireti can't believe he came.
+D: 0:03-0:04 | ireti | Sir…?
+T: 0:00-0:03 | Ireti rises slowly.
+T: 0:03-0:04 | She whispers.
+T: 0:04-0:10 | She stares.
+C: Static.
+
+# 27.5 | "Forgive a stupid old man." | who: chief, ireti
+F: Close-up of Chief stopped in front of Ireti, looking up at her, facing the camera.
+S: Chief apologises.
+D: 0:01-0:09 | chief | I turned my face away from you. The same way I turned it away from my own grandson. Forgive a stupid old man.
+T: 0:00-0:01 | Chief looks up at her.
+T: 0:01-0:09 | He speaks, his voice breaking.
+T: 0:09-0:10 | His eyes fill.
+C: Very slow push-in.
+
+# 27.6 | "You're here. In this place." | who: ireti
+F: Close-up of Ireti facing the camera, crying.
+S: Ireti is overwhelmed.
+D: 0:01-0:04 | ireti | Sir, you're here. In this place.
+T: 0:00-0:01 | Ireti cries.
+T: 0:01-0:04 | She says it.
+T: 0:04-0:10 | She shakes her head in disbelief.
+C: Static.
+
+# 27.7 | "I can come to yours." | who: chief
+F: Close-up of Chief facing the camera, gentle.
+S: Chief explains.
+D: 0:01-0:05 | chief | You came to my dark house. I can come to yours.
+T: 0:00-0:01 | Chief smiles gently.
+T: 0:01-0:05 | He says it.
+T: 0:05-0:10 | He holds her eyes.
+C: Static.
+
+# 27.8 | Mama Funmi stirs | who: funmi, chief
+F: Mama Funmi in the bed pulling her oxygen mask down weakly, facing the camera, squinting at the man in the wheelchair.
+S: Ireti's mother wakes and sees him.
+D: 0:03-0:06 | funmi | Chief… Adenuga? From the TV?
+T: 0:00-0:03 | Mama Funmi pulls her mask down.
+T: 0:03-0:06 | She asks faintly.
+T: 0:06-0:10 | She squints.
+C: Static.
+
+# 27.9 | "Your daughter saved my life." | who: chief
+F: Close-up of Chief facing the camera, sincere.
+S: Chief thanks her mother.
+D: 0:01-0:04 | chief | Madam. Your daughter saved my life.
+T: 0:00-0:01 | Chief turns to her.
+T: 0:01-0:04 | He says it.
+T: 0:04-0:10 | He bows his head slightly.
+C: Static.
+
+# 27.10 | "Her father was like that too." | who: funmi
+F: Close-up of Mama Funmi on the pillow facing the camera, a faint smile.
+S: Mama Funmi remembers her husband.
+D: 0:01-0:08 | funmi | Her father was like that too. Always saving people. He once pulled a rich man out of a burning car.
+T: 0:00-0:01 | Mama Funmi smiles faintly.
+T: 0:01-0:08 | She speaks weakly.
+T: 0:08-0:10 | She coughs softly.
+C: Static.
+
+# 27.11 | "A black Mercedes, upside down" | who: funmi
+F: Same close-up of Mama Funmi, remembering.
+S: Mama Funmi describes the crash.
+D: 0:01-0:07 | funmi | On the Ibadan expressway. Night. A black Mercedes, upside down…
+T: 0:00-0:01 | Mama Funmi's eyes drift to the memory.
+T: 0:01-0:07 | She speaks slowly.
+T: 0:07-0:10 | She pauses.
+C: Static.
+start: Last frame of 27.10
+
+# 27.12 | After-action: Chief goes still | who: chief
+F: Close-up of Chief facing the camera, frozen.
+S: Chief recognises his own story.
+T: 0:00-0:05 | Chief goes completely still.
+T: 0:05-0:10 | His breathing stops; his eyes widen.
+C: Very slow push-in.
+
+# 27.13 | Flashback: the expressway | who: | photo: KEHINDE photo (he is the man in the green shirt)
+F: Night on a dark highway years ago: an overturned black car with flames rising from its far side, a man in a green shirt running toward it, seen from a distance, no injuries visible.
+S: Flashback: a stranger pulls a man from a burning car.
+X: The man running to the car.
+M: Night flashback: orange firelight in the dark, dreamlike and soft.
+T: 0:00-0:05 | Seen from a distance, the man runs to the overturned car.
+T: 0:05-0:10 | He pulls another man clear and wraps his arm with his own shirt. No blood, no injuries shown.
+C: Static wide, slightly dreamlike.
+
+# 27.14 | "He came home laughing." | who: funmi
+F: Close-up of Mama Funmi smiling through tears, facing the camera.
+S: Mama Funmi remembers him coming home.
+D: 0:01-0:09 | funmi | He came home with no shirt and burnt hands. Laughing. He said the rich man kept shouting, 'What's your name? What's your name?'
+T: 0:00-0:01 | Mama Funmi smiles.
+T: 0:01-0:09 | She remembers, smiling through tears.
+T: 0:09-0:10 | She breathes.
+C: Static.
+
+# 27.15 | "…And he said, 'Kehinde.'" | who: chief
+F: Close-up of Chief facing the camera, barely breathing.
+S: Chief finishes the story.
+D: 0:03-0:06 | chief | …And he said, 'Kehinde.'
+T: 0:00-0:03 | Chief stares at her.
+T: 0:03-0:06 | He whispers it.
+T: 0:06-0:10 | Tears fill his eyes.
+C: Static.
+
+# 27.16 | After-action: Ireti's hand flies to her mouth | who: ireti
+F: Close-up of Ireti facing the camera, her hand flying to her mouth.
+S: Ireti realises.
+T: 0:00-0:04 | Ireti's hand flies to her mouth.
+T: 0:04-0:10 | Her eyes fill with tears.
+C: Static.
+
+# 27.17 | The scar | who: chief
+F: Chief pulling back his agbada sleeve to show an old jagged scar on his right arm, facing the camera.
+S: Chief shows his scar.
+D: 0:01-0:05 | chief | 2010. September. I was fifty-nine.
+T: 0:00-0:01 | Chief pulls back his sleeve.
+T: 0:01-0:05 | He says it, shaking.
+T: 0:05-0:10 | He shows the jagged scar.
+C: Static.
+
+# 27.18 | "Nobody came." | who: chief
+F: Close-up of Chief facing the camera, tears falling.
+S: Chief searched for years.
+D: 0:01-0:08 | chief | For sixteen years I put his name in every newspaper in Nigeria. Nobody came.
+T: 0:00-0:01 | Chief breathes.
+T: 0:01-0:08 | He speaks through tears.
+T: 0:08-0:10 | He shakes his head.
+C: Very slow push-in.
+
+# 27.19 | "He couldn't read, sir." | who: funmi
+F: Close-up of Mama Funmi facing the camera, tears rolling.
+S: The heartbreaking reason.
+D: 0:03-0:05 | funmi | He couldn't read, sir.
+T: 0:00-0:03 | Mama Funmi's tears roll.
+T: 0:03-0:05 | She says it softly.
+T: 0:05-0:10 | Silence.
+C: Static.
+
+# 27.20 | After-action: the silent ward | who: ireti, chief, femi
+F: Wide shot of the dim ward: patients watching in silence, Femi frozen behind the wheelchair, Ireti with both hands over her mouth, Chief bent forward.
+S: The whole ward is silent.
+T: 0:00-0:05 | Total silence; the ceiling fan turns.
+T: 0:05-0:10 | A patient slowly sits up to watch; Ireti's shoulders shake.
+C: Static wide.
+
+# 27.21 | The photo on the phone | who: ireti, chief | photo: KEHINDE photo (on the phone screen)
+F: Ireti showing Chief her phone with a photo of her smiling father waving, the burn scar on his palm.
+S: Ireti shows him her father.
+T: 0:00-0:04 | Ireti holds out the phone.
+T: 0:04-0:10 | Chief takes it in both hands and weeps openly.
+C: Static.
+
+# 27.22 | "Two Alades. Twice." | who: chief, ireti
+F: Chief taking both of Ireti's hands, facing the camera.
+S: Chief understands the whole story.
+D: 0:01-0:09 | chief | Your father pulled me out of the fire. Then I lost my legs and my heart, and you pulled me out again. Two Alades. Twice.
+T: 0:00-0:01 | Chief takes her hands.
+T: 0:01-0:09 | He speaks through tears.
+T: 0:09-0:10 | He squeezes her hands.
+C: Very slow push-in.
+
+# 27.23 | "Her mother goes to India." | who: chief, femi
+F: Close-up of Chief facing the camera, firm.
+S: Chief decides.
+D: 0:01-0:04 | chief | Her mother goes to India this week.
+T: 0:00-0:01 | Chief turns to Femi.
+T: 0:01-0:04 | He says it firmly.
+T: 0:04-0:10 | He looks back at Ireti.
+C: Static.
+
+# 27.24 | "I want to earn it…" | who: ireti
+F: Close-up of Ireti facing the camera, sobbing.
+S: Ireti protests.
+D: 0:01-0:05 | ireti | Sir, no. I told you, I want to earn it…
+T: 0:00-0:01 | Ireti shakes her head.
+T: 0:01-0:05 | She protests, sobbing.
+T: 0:05-0:10 | She waits.
+C: Static.
+
+# 27.25 | "Your father paid in advance." | who: chief, ireti
+F: Close-up of Chief squeezing Ireti's hands, facing the camera.
+S: Chief's answer.
+D: 0:01-0:07 | chief | You did earn it. Sixteen years ago, your father paid in advance.
+T: 0:00-0:01 | Chief squeezes her hands.
+T: 0:01-0:07 | He says it gently.
+T: 0:07-0:10 | Ireti collapses into his lap, crying.
+C: Static.
+
+# 27.26 | "Air ambulance to Chennai." | who: femi, dayo
+F: Femi on his phone, facing the camera; Dayo awake now against the wall, open-mouthed.
+S: Femi arranges everything.
+D: 0:01-0:07 | femi | Air ambulance to Chennai. Thursday. Best surgeon. Whatever it costs.
+T: 0:00-0:01 | Femi lifts the phone.
+T: 0:01-0:07 | He speaks quietly and fast.
+T: 0:07-0:10 | Dayo stares, open-mouthed.
+C: Static.
+
+# 27.27 | "Finish what you started." | who: funmi, ireti
+F: Mama Funmi pulling Ireti close to whisper, facing the camera.
+S: Her mother sends her back to finish the job.
+D: 0:01-0:09 | funmi | Don't come to India. Dayo will come with me. Go and finish what you started. Your father never left a fire half-done.
+T: 0:00-0:01 | Mama Funmi pulls Ireti close.
+T: 0:01-0:09 | She whispers.
+T: 0:09-0:10 | She smiles. Slow fade.
+C: Very slow push-in.
+
+## 28 | "Let us come ourselves."
+MOOD: Bright day in Abuja. Cool, polished, powerful office, then deep guilt. Clean daylight through tall windows, a big glowing wall screen, sharp and clear.
+
+# 28.1 | Abuja | who:
+F: Aerial view of Abuja in daylight: wide roads, Aso Rock in the distance, a sleek glass office tower.
+S: Establishing Abuja.
+X: The glass tower.
+T: 0:00-0:10 | Slow drone glide toward the glass tower; traffic moves on wide roads.
+C: Slow drone glide.
+
+# 28.2 | "Is he okay?" | who: segun, ireti, femi
+F: Segun at his desk checking his watch, facing the camera; Ireti sitting across from him; Femi by the window; a wall screen showing Kunle and Lola.
+S: Segun meets Ireti.
+D: 0:01-0:06 | segun | Femi said this was urgent. You're Daddy's caretaker? Is he okay?
+T: 0:00-0:01 | Segun checks his watch.
+T: 0:01-0:06 | He asks, hurried.
+T: 0:06-0:10 | He waits.
+C: Static.
+
+# 28.3 | "Not okay for ten years." | who: ireti
+F: Close-up of Ireti facing the camera, calm and firm.
+S: Ireti tells the truth.
+D: 0:01-0:05 | ireti | He's not okay, sir. He hasn't been okay for ten years.
+T: 0:00-0:01 | Ireti looks at him.
+T: 0:01-0:05 | She says it calmly.
+T: 0:05-0:10 | She holds his gaze.
+C: Static.
+
+# 28.4 | Kunle: "He's just old." | who: kunle
+F: The wall screen: Kunle in a Port Harcourt bank office on the video call, facing the camera.
+S: Kunle dismisses it.
+D: 0:01-0:06 | screen:kunle | Daddy's fine. He's just… old. He's grumpy. He pushes everyone away.
+T: 0:00-0:01 | Kunle shrugs on the screen.
+T: 0:01-0:06 | His voice plays from the wall screen's speakers.
+T: 0:06-0:10 | He looks away.
+C: Static.
+
+# 28.5 | "He pushes you away first." | who: ireti
+F: Close-up of Ireti facing the camera, firm and respectful.
+S: Ireti explains Chief's heart.
+D: 0:01-0:07 | ireti | With respect, sir, he pushes you away first, so you won't be the one who leaves.
+T: 0:00-0:01 | Ireti turns to the screen.
+T: 0:01-0:07 | She says it gently.
+T: 0:07-0:10 | Silence.
+C: Static.
+
+# 28.6 | "Every Sunday for ten years" | who: ireti
+F: Close-up of Ireti facing the camera, emotional.
+S: Ireti tells them about the Sundays.
+D: 0:01-0:08 | ireti | Every Sunday for ten years he wears his blue agbada and sits at the window, watching the gate. Waiting for you.
+T: 0:00-0:01 | Ireti breathes.
+T: 0:01-0:08 | She speaks with feeling.
+T: 0:08-0:10 | She looks at each of them.
+C: Very slow push-in.
+
+# 28.7 | Lola: "Every Sunday?" | who: lola
+F: The wall screen: Lola in a London living room, facing the camera, her hand going to her mouth.
+S: Lola is shaken.
+D: 0:03-0:05 | screen:lola | Every Sunday?
+T: 0:00-0:03 | Lola's hand goes to her mouth.
+T: 0:03-0:05 | Her voice plays from the screen, quiet.
+T: 0:05-0:10 | Her eyes fill.
+C: Static.
+
+# 28.8 | "Every Sunday, nobody comes." | who: ireti
+F: Close-up of Ireti facing the camera.
+S: Ireti tells them about the birthday.
+D: 0:01-0:08 | ireti | Every Sunday, ma. And every Sunday, nobody comes. On his seventy-fifth birthday, he waited with a cake and one candle.
+T: 0:00-0:01 | Ireti nods.
+T: 0:01-0:08 | She speaks steadily.
+T: 0:08-0:10 | She turns to Segun.
+C: Static.
+
+# 28.9 | "One minute and twelve seconds." | who: ireti, segun
+F: Close-up of Ireti facing the camera, looking at Segun.
+S: Ireti tells Segun what his call did.
+D: 0:01-0:08 | ireti | Then Mr. Segun called for one minute and twelve seconds. That night, he fell down twenty-two steps.
+T: 0:00-0:01 | Ireti looks at Segun.
+T: 0:01-0:08 | She says it quietly.
+T: 0:08-0:10 | She holds his eyes.
+C: Static.
+
+# 28.10 | After-action: Segun sits back | who: segun
+F: Close-up of Segun facing the camera, slowly sitting back in shock.
+S: Segun is hit by guilt.
+T: 0:00-0:05 | Segun slowly sits back.
+T: 0:05-0:10 | He looks at Femi; his face falls.
+C: Static.
+
+# 28.11 | "We thought he was just old." | who: segun
+F: Same close-up of Segun, hoarse.
+S: Segun admits it.
+D: 0:02-0:05 | segun | We thought… we thought he was just old.
+T: 0:00-0:02 | Segun swallows.
+T: 0:02-0:05 | He says it, hoarse.
+T: 0:05-0:10 | He looks down.
+C: Static.
+
+# 28.12 | "He's waiting." | who: ireti
+F: Close-up of Ireti facing the camera, soft.
+S: Ireti corrects him.
+D: 0:02-0:04 | ireti | He's not old, sir. He's waiting.
+T: 0:00-0:02 | Ireti looks at him.
+T: 0:02-0:04 | She says it softly.
+T: 0:04-0:10 | She waits.
+C: Static.
+
+# 28.13 | "…Oh." | who: segun
+F: Close-up of Segun facing the camera, his voice cracking.
+S: Segun finally understands.
+D: 0:03-0:04 | segun | …Oh.
+T: 0:00-0:03 | Segun stares.
+T: 0:03-0:04 | His voice cracks.
+T: 0:04-0:10 | His eyes fill.
+C: Very slow push-in.
+
+# 28.14 | The plot | who: ireti
+F: Close-up of Ireti facing the camera, serious.
+S: Ireti reveals Lekan's plan.
+D: 0:01-0:09 | ireti | And there's one more thing. Mr. Lekan has been drugging your father to keep him weak until Thursday's AGM, to take control of his shares.
+T: 0:00-0:01 | Ireti leans forward.
+T: 0:01-0:09 | She says it clearly.
+T: 0:09-0:10 | Silence.
+C: Static.
+
+# 28.15 | Kunle: "Proxy forms" | who: kunle
+F: The wall screen: Kunle sitting up in his office, facing the camera.
+S: Kunle realises they were tricked.
+D: 0:01-0:07 | screen:kunle | Lekan? Wait. Lekan sent us proxy forms last month. He said it was routine paperwork…
+T: 0:00-0:01 | Kunle sits up.
+T: 0:01-0:07 | His voice plays from the screen.
+T: 0:07-0:10 | He looks horrified.
+C: Static.
+
+# 28.16 | Lola: "I signed it." | who: lola
+F: The wall screen: Lola in London, facing the camera, horrified.
+S: Lola admits she signed.
+D: 0:01-0:04 | screen:lola | I signed it. I didn't even read it.
+T: 0:00-0:01 | Lola covers her face.
+T: 0:01-0:04 | Her voice plays from the screen.
+T: 0:04-0:10 | She shakes her head.
+C: Static.
+
+# 28.17 | "We all signed it." | who: segun
+F: Close-up of Segun facing the camera, closing his eyes.
+S: Segun admits they all signed.
+D: 0:02-0:04 | segun | We all signed it.
+T: 0:00-0:02 | Segun closes his eyes.
+T: 0:02-0:04 | He says it.
+T: 0:04-0:10 | He opens his eyes, ashamed.
+C: Static.
+
+# 28.18 | "Sign the revocation." | who: femi
+F: Femi turning from the window, facing the camera, firm.
+S: Femi has the solution.
+D: 0:01-0:05 | femi | Then sign the revocation. Tonight. Gabriel has the papers.
+T: 0:00-0:01 | Femi turns from the window.
+T: 0:01-0:05 | He says it firmly.
+T: 0:05-0:10 | He waits.
+C: Static.
+
+# 28.19 | "We'll sign." | who: segun
+F: Medium shot of Segun standing up at his desk, facing the camera.
+S: Segun agrees.
+D: 0:02-0:03 | segun | We'll sign.
+T: 0:00-0:02 | Segun stands.
+T: 0:02-0:03 | He says it.
+T: 0:03-0:10 | He turns to Ireti.
+C: Static.
+
+# 28.20 | "Let us come ourselves." | who: segun, ireti
+F: Close-up of Segun facing the camera, eyes wet, speaking to Ireti.
+S: Segun asks Ireti to keep it a secret.
+D: 0:01-0:08 | segun | And… don't tell Daddy. Let us come ourselves. For once, let us be the ones walking toward him.
+T: 0:00-0:01 | Segun looks at Ireti.
+T: 0:01-0:08 | He says it, his voice breaking.
+T: 0:08-0:10 | Ireti nods.
+C: Very slow push-in.
+
+# 28.21 | Into the Abuja sun | who: femi, ireti
+F: Outside the tower in bright sun: Ireti walking out, Femi following her, Femi facing the camera.
+S: Femi sees who she really is.
+D: 0:02-0:08 | femi | You took a night bus to Abuja. With your own money. For a family that's not yours.
+T: 0:00-0:02 | Femi catches up with her.
+T: 0:02-0:08 | He says it, amazed.
+T: 0:08-0:10 | He waits.
+C: Tracking backward in front of them.
+
+# 28.22 | "Every family needs one." | who: ireti
+F: Close-up of Ireti in the bright sun, facing the camera, smiling.
+S: Ireti's answer.
+D: 0:01-0:05 | ireti | He's a grandfather, sir. Every family needs one.
+T: 0:00-0:01 | Ireti smiles.
+T: 0:01-0:05 | She says it simply.
+T: 0:05-0:10 | Femi looks at her as if seeing the whole story for the first time. Slow fade.
+C: Static.

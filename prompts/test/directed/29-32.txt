@@ -1,0 +1,680 @@
+## 29 | Seven steps
+MOOD: Night, rain on the glass, every light in the house on. Triumphant and tearful. Warm practical lights in the rehab room, rain streaks on the window, faces glowing with sweat and tears.
+
+# 29.1 | Every light on | who:
+F: The mansion at night in the rain with every window lit.
+S: Establishing the house alive with light.
+X: The glowing house.
+T: 0:00-0:10 | Rain falls on the glowing house; the camera pushes toward the rehab room window.
+C: Slow push-in.
+
+# 29.2 | "No frame tonight." | who: chief, ireti, hassan
+F: Wide shot down the parallel bars: Chief gripping the bars at one end, sweat on his face; Ireti at the far end with her arms open; Dr. Hassan and a physiotherapist beside the bars; the physiotherapist facing the camera.
+S: The big night: Chief will try to walk.
+D: 0:01-0:04 | x:Physio=the physiotherapist in a navy polo shirt | No frame tonight, Chief. Just you.
+T: 0:00-0:01 | The physio steps back from the frame.
+T: 0:01-0:04 | He says it.
+T: 0:04-0:10 | Chief grips the bars, breathing hard.
+C: Static wide.
+
+# 29.3 | "I'm firing all of you." | who: chief
+F: Close-up of Chief gripping the parallel bars, sweating, facing the camera.
+S: Chief jokes through his fear.
+D: 0:01-0:04 | chief | If I fall, I'm firing all of you.
+T: 0:00-0:01 | Chief grits his teeth.
+T: 0:01-0:04 | He says it through gritted teeth.
+T: 0:04-0:10 | He tightens his grip.
+C: Static.
+
+# 29.4 | "I'm the one you'll fall on." | who: ireti
+F: Ireti at the far end of the bars, arms open, facing the camera.
+S: Ireti calls him to her.
+D: 0:01-0:05 | ireti | If you fall, sir, I'm the one you'll fall on. Come.
+T: 0:00-0:01 | Ireti opens her arms wider.
+T: 0:01-0:05 | She says it softly.
+T: 0:05-0:10 | She waits, eyes shining.
+C: Static.
+
+# 29.5 | He stands | who: chief
+F: Low-angle shot of Chief pushing himself up on the bars, legs shaking, facing the camera.
+S: Chief stands for the first time.
+T: 0:00-0:05 | Chief pushes up; his legs shake violently.
+T: 0:05-0:08 | He STANDS, fully upright, trembling.
+T: 0:08-0:10 | The puppy barks wildly.
+C: Static low angle.
+
+# 29.6 | After-action: they see him stand | who: ireti, hassan
+F: Ireti at the far end of the bars with her hands over her mouth, eyes filling; Dr. Hassan behind her gripping the physiotherapist's arm.
+S: They watch the miracle.
+T: 0:00-0:05 | Ireti's hands cover her mouth as tears rise.
+T: 0:05-0:10 | Dr. Hassan tightens his grip on the physio's arm.
+C: Static.
+
+# 29.7 | "One step, sir." | who: ireti
+F: Close-up of Ireti facing the camera, whispering.
+S: Ireti guides him.
+D: 0:02-0:05 | ireti | One step, sir. Only one.
+T: 0:00-0:02 | Ireti breathes.
+T: 0:02-0:05 | She whispers.
+T: 0:05-0:10 | She holds out her hands.
+C: Static.
+
+# 29.8 | The first steps | who: chief
+F: Side tracking shot of Chief between the bars, facing forward with his face in profile, his right foot sliding forward.
+S: Chief takes his first steps.
+T: 0:00-0:03 | His right foot slides forward an inch, then a full step.
+T: 0:03-0:06 | Then the left.
+T: 0:06-0:10 | Three. Four. He is crying.
+C: Slow tracking beside him.
+
+# 29.9 | Five, six… seven | who: chief, ireti
+F: Chief near the end of the bars, knees wobbling, lunging forward into Ireti's arms, both faces visible.
+S: Seven steps, and he falls into her arms.
+T: 0:00-0:04 | Five. Six. His knees wobble.
+T: 0:04-0:07 | On seven, his knees buckle and he lunges forward.
+T: 0:07-0:10 | Ireti catches and holds him up; both laughing and sobbing.
+C: Static.
+
+# 29.10 | "Seven." | who: chief, ireti
+F: Close two-shot: Chief held up in Ireti's arms, facing the camera, gasping.
+S: Chief counts his steps.
+D: 0:02-0:03 | chief | Seven.
+T: 0:00-0:02 | Chief gasps for breath.
+T: 0:02-0:03 | He says it.
+T: 0:03-0:10 | He laughs through tears.
+C: Static.
+
+# 29.11 | "Seven steps!" | who: ireti, chief
+F: Close-up of Ireti holding Chief, facing the camera, crying with joy.
+S: Ireti celebrates.
+D: 0:01-0:03 | ireti | Seven steps!
+T: 0:00-0:01 | Ireti laughs.
+T: 0:01-0:03 | She shouts with joy.
+T: 0:03-0:10 | She holds him tight.
+C: Static.
+
+# 29.12 | "Don't tell Femi." | who: chief
+F: Close-up of Chief facing the camera, a wicked glint in his eye.
+S: Chief has a plan.
+D: 0:02-0:03 | chief | Don't tell Femi.
+T: 0:00-0:02 | A glint appears in his eye.
+T: 0:02-0:03 | He says it.
+T: 0:03-0:10 | He smiles slyly.
+C: Static.
+
+# 29.13 | "Sir?!" | who: ireti
+F: Close-up of Ireti pulling back, facing the camera, surprised.
+S: Ireti is surprised.
+D: 0:02-0:03 | ireti | Sir?!
+T: 0:00-0:02 | Ireti pulls back.
+T: 0:02-0:03 | She exclaims.
+T: 0:03-0:10 | She stares at him.
+C: Static.
+
+# 29.14 | "I'm allowed one drama." | who: chief
+F: Close-up of Chief facing the camera, grinning.
+S: Chief explains his surprise.
+D: 0:01-0:08 | chief | Let him see it at the AGM. Let Lekan see it. I'm a billionaire, Ireti. I'm allowed one drama.
+T: 0:00-0:01 | Chief grins.
+T: 0:01-0:08 | He says it playfully.
+T: 0:08-0:10 | He winks.
+C: Static.
+
+# 29.15 | "She'll LIVE!" | who: ireti, dayo
+F: Ireti holding her phone on a video call: Dayo on the screen in a hospital corridor in India, crying with joy.
+S: Dayo calls from India with the news.
+D: 0:01-0:08 | phone:dayo | Sister! Mummy is awake! The surgery was successful! The doctor said she'll live! She'll LIVE!
+T: 0:00-0:01 | Ireti answers the call.
+T: 0:01-0:08 | Dayo's voice plays from the phone.
+T: 0:08-0:10 | Ireti collapses onto the mat, sobbing with joy.
+C: Static.
+
+# 29.16 | Nine steps | who: chief, ireti
+F: Chief, still holding the bars, taking wobbly steps toward Ireti's phone on the mat, smiling through tears, facing the camera.
+S: Chief walks two more steps just to see Dayo's face.
+T: 0:00-0:06 | Chief takes two more wobbly steps toward the phone.
+T: 0:06-0:10 | Nine steps; he smiles through tears. Slow fade.
+C: Static.
+
+## 30 | The AGM
+MOOD: A big corporate morning. Cold, tense, powerful, then triumphant. Clean cool daylight through tall boardroom windows, polished dark wood and marble, sharp and grand.
+
+# 30.1 | Reporters at the tower | who:
+F: The gold glass tower in morning sun, reporters with cameras gathering outside the lobby doors.
+S: The day of the AGM.
+X: The reporters at the entrance.
+T: 0:00-0:05 | Reporters adjust cameras and chatter.
+T: 0:05-0:10 | The camera tilts up the glass tower to the 40th floor.
+C: Slow tilt up.
+
+# 30.2 | "Permanently incapacitated." | who: lekan, femi
+F: The boardroom: Lekan standing at the head of the long table with a remote, facing the camera; a screen behind him showing Chief slumped in his wheelchair; Femi tense at the far end.
+S: Lekan makes his move.
+D: 0:01-0:09 | lekan | Ladies and gentlemen, it breaks my heart. Our founder, Chief Babatunde Adenuga, is permanently incapacitated.
+T: 0:00-0:01 | Lekan clicks the remote.
+T: 0:01-0:09 | He speaks with fake sadness.
+T: 0:09-0:10 | He pauses for effect.
+C: Static.
+
+# 30.3 | "Not the man we knew." | who: lekan
+F: Close-up of Lekan facing the camera, sad smile.
+S: Lekan describes Chief as unfit.
+D: 0:01-0:09 | lekan | Paralysed, depressed, mentally unstable. He smashes phones. He took a waitress to a concert. He is not the man we knew.
+T: 0:00-0:01 | Lekan shakes his head.
+T: 0:01-0:09 | He speaks with fake regret.
+T: 0:09-0:10 | He sighs.
+C: Very slow push-in.
+
+# 30.4 | "That doctor never examined him!" | who: femi
+F: Femi standing up angrily at the end of the table, facing the camera.
+S: Femi fights back.
+D: 0:01-0:03 | femi | That doctor never examined him!
+T: 0:00-0:01 | Femi stands.
+T: 0:01-0:03 | He shouts.
+T: 0:03-0:10 | He glares down the table.
+C: Static.
+
+# 30.5 | "Sit down, Femi." | who: lekan
+F: Medium shot of Lekan holding up three forms, facing the camera, calm and sure.
+S: Lekan plays his card.
+D: 0:01-0:07 | lekan | Sit down, Femi. His own children, Segun, Kunle and Lola, have given me their proxy votes.
+T: 0:00-0:01 | Lekan holds up the forms.
+T: 0:01-0:07 | He says it calmly.
+T: 0:07-0:10 | He smiles.
+C: Static.
+
+# 30.6 | The motion | who: lekan
+F: Close-up of Lekan facing the camera, confident.
+S: Lekan moves to take control.
+D: 0:01-0:09 | lekan | I move that Chief's fifty-one percent be placed in a board trust under the Vice-Chairman's control. And no confidence in our young CEO.
+T: 0:00-0:01 | Lekan leans on the table.
+T: 0:01-0:09 | He says it smoothly.
+T: 0:09-0:10 | Murmurs around the table.
+C: Static.
+
+# 30.7 | "He'll never walk again." | who: lekan, femi
+F: Medium shot of Lekan facing the camera; board members beginning to raise their hands; Femi gripping the table at the edge of the frame.
+S: Lekan calls the vote.
+D: 0:01-0:09 | lekan | Because he can't walk, Femi. He'll never walk again. Let the old man rest. All in favour…
+T: 0:00-0:01 | Lekan turns to Femi.
+T: 0:01-0:09 | He says it almost kindly.
+T: 0:09-0:10 | Hands begin to rise.
+C: Static.
+
+# 30.8 | TAP. | who:
+F: Close-up on the closed wooden double doors at the end of the boardroom, the polished marble floor in front.
+S: A sound stops the vote.
+X: The double doors.
+T: 0:00-0:03 | A sharp TAP sounds outside the doors.
+T: 0:03-0:06 | Everyone turns. TAP.
+T: 0:06-0:10 | The sound of an ivory cane tip on marble. TAP.
+C: Very slow push-in.
+
+# 30.9 | The doors open | who: chief, ireti, gabriel, hassan, ronke
+F: The double doors open: Chief standing in a cream agbada with his ivory cane, his arm through Ireti's, facing the camera; behind them Gabriel, Dr. Hassan, two police officers and Aunty Ronke in handcuffs.
+S: Chief arrives, standing.
+T: 0:00-0:04 | The doors swing open.
+T: 0:04-0:07 | Chief stands still in the doorway; the room stops breathing.
+T: 0:07-0:10 | He gently takes his arm out of Ireti's; she nods.
+C: Static.
+
+# 30.10 | He walks alone | who: chief
+F: Wide shot down the length of the boardroom: Chief walking alone with his cane toward the camera, board members turning their heads.
+S: Chief walks the length of the boardroom.
+T: 0:00-0:07 | Step by slow step, Chief walks the length of the room alone.
+T: 0:07-0:10 | Every head turns with him.
+C: Slow backward move in front of him.
+
+# 30.11 | After-action: Lekan's face drains | who: lekan
+F: Close-up of Lekan at the head of the table, his hand still half-raised, his face draining, eyes fixed on Chief approaching (out of frame).
+S: Lekan's plan collapses.
+T: 0:00-0:05 | Lekan's raised hand slowly drops.
+T: 0:05-0:10 | His smile disappears; he swallows hard.
+C: Static.
+
+# 30.12 | Femi is speechless | who: femi
+F: Close-up of Femi rising slowly from his chair, facing the camera, eyes filling.
+S: Femi sees his grandfather walking.
+D: 0:07-0:09 | femi | …Grandpa.
+T: 0:00-0:04 | Femi rises slowly; his mouth opens but nothing comes out.
+T: 0:04-0:07 | His eyes fill.
+T: 0:07-0:09 | He whispers.
+T: 0:09-0:10 | A tear falls.
+C: Very slow push-in.
+
+# 30.13 | "About my legs?" | who: chief, lekan
+F: Chief stopping beside Lekan at the head of the table, both hands resting on his cane, facing the camera.
+S: Chief confronts Lekan.
+D: 0:02-0:06 | chief | Lekan. You were saying something… about my legs?
+T: 0:00-0:02 | Chief rests both hands on the cane.
+T: 0:02-0:06 | He says it calmly.
+T: 0:06-0:10 | He waits.
+C: Static.
+
+# 30.14 | "This is a miracle!" | who: lekan
+F: Close-up of Lekan facing the camera, white, stammering.
+S: Lekan panics.
+D: 0:01-0:05 | lekan | Chief… Chief, God is great, this is a miracle! I was only…
+T: 0:00-0:01 | Lekan forces a smile.
+T: 0:01-0:05 | He stammers.
+T: 0:05-0:10 | He is cut off.
+C: Static.
+
+# 30.15 | "Putting me to sleep." | who: chief
+F: Close-up of Chief facing the camera, cold.
+S: Chief exposes him.
+D: 0:01-0:05 | chief | You were only putting me to sleep. Every evening. For six years.
+T: 0:00-0:01 | Chief looks at him.
+T: 0:01-0:05 | He says it coldly.
+T: 0:05-0:10 | He nods to Gabriel.
+C: Static.
+
+# 30.16 | The proxy revocations | who: gabriel
+F: Gabriel laying papers on the table, facing the camera.
+S: Gabriel presents the evidence.
+D: 0:01-0:07 | gabriel | Proxy revocations, signed last night by Segun, Kunle and Lola Adenuga. And this…
+T: 0:00-0:01 | Gabriel lays the papers down.
+T: 0:01-0:07 | He speaks.
+T: 0:07-0:10 | He holds up his phone and presses play.
+C: Static.
+
+# 30.17 | The recording | who: hassan
+F: Close shot of a phone playing a recording on the boardroom table; Dr. Hassan beside it, his face visible; board members staring.
+S: Ronke's confession plays.
+D: 0:01-0:07 | phone:ronke | It was Mr. Lekan! He said keep you weak, keep you sad, until the AGM…
+T: 0:00-0:01 | The phone plays.
+T: 0:01-0:07 | Ronke's recorded voice plays from the phone.
+T: 0:07-0:10 | The board members stare.
+C: Static.
+
+# 30.18 | "The police have a copy." | who: hassan
+F: Close-up of Dr. Hassan facing the camera, calm.
+S: The doctor adds the lab report.
+D: 0:01-0:05 | hassan | And the lab report on the tablets. The police have a copy.
+T: 0:00-0:01 | Dr. Hassan lays down a report.
+T: 0:01-0:05 | He says it calmly.
+T: 0:05-0:10 | Lekan looks around for an ally; no one meets his eyes.
+C: Static.
+
+# 30.19 | "Twenty years!" | who: lekan
+F: Close-up of Lekan facing the camera, desperate.
+S: Lekan begs.
+D: 0:01-0:05 | lekan | Chief, twenty years! Twenty years I stood by you!
+T: 0:00-0:01 | Lekan turns to Chief.
+T: 0:01-0:05 | He begs.
+T: 0:05-0:10 | He waits.
+C: Static.
+
+# 30.20 | "A waitress picked me up." | who: chief
+F: Close-up of Chief facing the camera, steady.
+S: Chief's final blow.
+D: 0:01-0:08 | chief | Twenty years you stood by me, Lekan. Waiting for me to fall. And when I fell, a waitress picked me up.
+T: 0:00-0:01 | Chief looks at him.
+T: 0:01-0:08 | He says it slowly.
+T: 0:08-0:10 | He turns away.
+C: Very slow push-in.
+
+# 30.21 | Led away | who: lekan
+F: Two police officers leading Lekan out past the tall windows, his face visible in profile.
+S: Lekan is arrested.
+T: 0:00-0:06 | The officers take Lekan by the arms and lead him out calmly.
+T: 0:06-0:10 | Down below through the window, camera flashes from the reporters.
+C: Static.
+
+# 30.22 | "All in favour?" | who: chief
+F: Chief at the head of the table facing the board and the camera.
+S: Chief takes back his company.
+D: 0:01-0:08 | chief | I have a motion. Femi Adenuga remains CEO. And Babatunde Adenuga remains alive. All in favour?
+T: 0:00-0:01 | Chief faces the board.
+T: 0:01-0:08 | He says it with a small smile.
+T: 0:08-0:10 | Every hand goes up.
+C: Static.
+
+# 30.23 | Applause | who:
+F: The board members standing and applauding around the long table.
+S: The board applauds.
+T: 0:00-0:10 | Board members stand one by one and applaud.
+C: Slow pan along the table.
+
+# 30.24 | "You WALKED." | who: femi, chief
+F: Femi hugging his grandfather hard like a little boy, Femi's face visible over Chief's shoulder, facing the camera.
+S: Femi embraces his grandfather.
+D: 0:02-0:05 | femi | You walked. You WALKED.
+T: 0:00-0:02 | Femi hugs him hard.
+T: 0:02-0:05 | He says it, crying into his shoulder.
+T: 0:05-0:10 | Chief pats his back.
+C: Static.
+
+# 30.25 | "She walked me." | who: chief, ireti
+F: Chief looking over Femi's shoulder toward Ireti standing by the door, Chief facing the camera.
+S: Chief gives the credit to Ireti.
+D: 0:02-0:05 | chief | No, my son. She walked me.
+T: 0:00-0:02 | Chief looks over Femi's shoulder at Ireti.
+T: 0:02-0:05 | He says it softly.
+T: 0:05-0:10 | Ireti smiles through tears by the door. Slow fade.
+C: Very slow push-in.
+
+## 31 | They came by themselves
+MOOD: Sunday golden hour, then a candle-lit family dinner. Warm, glowing, overwhelming joy. Golden sunset light pouring through open windows; at dinner, warm candlelight and lamps, faces glowing.
+
+# 31.1 | Golden hour | who:
+F: The mansion at golden hour: every curtain open, the fountain flowing, a brown puppy chasing its tail on the lawn.
+S: The house is alive.
+X: The fountain and the puppy.
+T: 0:00-0:10 | The camera pushes over the lawn toward the house; water sparkles; the puppy spins.
+C: Slow push-in.
+
+# 31.2 | At the window, standing | who: chief, ireti
+F: Chief standing at his bedroom window with his cane in his royal-blue agbada, facing the camera at three-quarters; Ireti bringing him tea.
+S: Chief still waits at the window by habit.
+D: 0:01-0:09 | ireti | Sir, you don't have to wait at the window anymore. You have Tuesdays now. You have Monday. You have me.
+T: 0:00-0:01 | Ireti hands him the tea.
+T: 0:01-0:09 | She says it gently.
+T: 0:09-0:10 | She smiles.
+C: Static.
+
+# 31.3 | "Habit, my daughter." | who: chief
+F: Close-up of Chief facing the camera, smiling sadly.
+S: Chief explains.
+D: 0:01-0:05 | chief | Habit, my daughter. Ten years of habit.
+T: 0:00-0:01 | Chief smiles sadly.
+T: 0:01-0:05 | He says it.
+T: 0:05-0:10 | He looks back out the window.
+C: Static.
+
+# 31.4 | Three cars | who:
+F: View from the window down to the gate: three black cars rolling up the driveway.
+S: Cars arrive.
+X: The three cars.
+T: 0:00-0:03 | A horn sounds, then another, then a third.
+T: 0:03-0:10 | Three black cars roll slowly up the driveway and stop.
+C: Static.
+
+# 31.5 | The teacup shakes | who: chief
+F: Close-up of Chief's face and his hand holding a teacup, starting to shake.
+S: Chief sees who it is.
+T: 0:00-0:05 | Chief squints toward the window.
+T: 0:05-0:10 | The teacup in his hand starts to shake.
+C: Static.
+
+# 31.6 | Eleven people | who: segun, kunle, lola
+F: The driveway: car doors open; Segun with twin twelve-year-old boys, Kunle with his wife and two sons, Lola with her husband and a baby daughter, all looking up at the window.
+S: The whole family has come.
+D: 0:05-0:06 | x:The twins=the two twelve-year-old boys beside Segun | GRANDPA!
+T: 0:00-0:04 | The families step out and look up; Lola waves.
+T: 0:04-0:05 | The twins look up.
+T: 0:05-0:06 | The twins shout together.
+T: 0:06-0:10 | Everyone smiles up at the window.
+C: Static wide.
+
+# 31.7 | "Ireti…" | who: chief, ireti
+F: Close-up of Chief at the window facing the camera, his voice gone.
+S: Chief can barely speak.
+D: 0:03-0:04 | chief | Ireti…
+T: 0:00-0:03 | Chief stares down.
+T: 0:03-0:04 | He whispers.
+T: 0:04-0:10 | His eyes fill.
+C: Static.
+
+# 31.8 | "They came by themselves." | who: ireti
+F: Close-up of Ireti facing the camera, tears streaming, grinning.
+S: Ireti tells him she didn't call them.
+D: 0:01-0:06 | ireti | I didn't tell them anything, sir. They came by themselves.
+T: 0:00-0:01 | Ireti grins through tears.
+T: 0:01-0:06 | She says it.
+T: 0:06-0:10 | She nods toward the door.
+C: Static.
+
+# 31.9 | The top of the stairs | who: chief
+F: Chief standing at the top of the grand staircase with his cane, facing the camera, looking down.
+S: Chief at the top of the stairs that broke him.
+T: 0:00-0:05 | Chief walks to the top of the staircase.
+T: 0:05-0:10 | He stops and looks down.
+C: Static.
+
+# 31.10 | "We didn't know you were waiting." | who: segun
+F: Segun at the foot of the stairs looking up, facing the camera, his voice breaking; the family behind him.
+S: Segun apologises.
+D: 0:01-0:09 | segun | Daddy. We're sorry. We thought you were just old. We didn't know you were waiting.
+T: 0:00-0:01 | Segun looks up.
+T: 0:01-0:09 | He speaks, voice breaking.
+T: 0:09-0:10 | He wipes his eyes.
+C: Static.
+
+# 31.11 | Down the twenty-two steps | who: chief, ireti
+F: Chief walking down the curved staircase holding the banister, facing the camera, Ireti one step behind him.
+S: Chief walks down the staircase that broke him.
+T: 0:00-0:10 | Step by step, holding the banister, Chief walks down; Ireti stays one step behind.
+C: Slow, steady backward move in front of him.
+
+# 31.12 | Beneath the portrait | who: chief, segun, kunle, lola
+F: At the foot of the stairs beneath the portrait: Chief surrounded by his children and grandchildren in one big embrace, faces visible.
+S: The family embraces him.
+T: 0:00-0:06 | His family surrounds him in one big crying embrace.
+T: 0:06-0:10 | Chief holds them, eyes closed; the portrait smiles above them.
+C: Slow push-in.
+
+# 31.13 | The full table | who: chief, ireti
+F: The long dining table full of family, candles and food; Ireti in her scrubs quietly serving at the edge; Chief at the head of the table facing the camera.
+S: Dinner with the whole family.
+M: Warm candlelight and lamps, faces glowing, joyful.
+D: 0:03-0:05 | chief | Ireti. Come and sit.
+T: 0:00-0:03 | Laughter and chatter; Chief taps his glass.
+T: 0:03-0:05 | He calls to her.
+T: 0:05-0:10 | Ireti looks up from serving.
+C: Static.
+
+# 31.14 | "This is family." | who: ireti
+F: Close-up of Ireti holding a serving dish, facing the camera, smiling and shaking her head.
+S: Ireti declines.
+M: Warm candlelight, joyful.
+D: 0:01-0:03 | ireti | Sir, this is family.
+T: 0:00-0:01 | Ireti smiles.
+T: 0:01-0:03 | She says it.
+T: 0:03-0:10 | She shakes her head gently.
+C: Static.
+
+# 31.15 | "Exactly." | who: chief
+F: Close-up of Chief facing the camera, pulling out the empty chair at his right hand.
+S: Chief insists.
+M: Warm candlelight, joyful.
+D: 0:01-0:02 | chief | Exactly.
+D: 0:05-0:06 | chief | Sit.
+T: 0:00-0:01 | Chief smiles.
+T: 0:01-0:02 | He says it.
+T: 0:02-0:05 | He pulls out the empty chair.
+T: 0:05-0:06 | He says it.
+T: 0:06-0:10 | The table goes quiet.
+C: Static.
+
+# 31.16 | "That was Mummy's chair." | who: segun
+F: Close-up of Segun looking at the empty chair, facing the camera.
+S: Segun recognises the chair.
+M: Warm candlelight.
+D: 0:01-0:06 | segun | Daddy, that was Mummy's chair. Nobody has sat there in twenty-five years.
+T: 0:00-0:01 | Segun looks at the chair.
+T: 0:01-0:06 | He says it softly.
+T: 0:06-0:10 | He looks at his father.
+C: Static.
+
+# 31.17 | "I know." | who: chief
+F: Close-up of Chief facing the camera, looking at Ireti.
+S: Chief chooses her.
+M: Warm candlelight.
+D: 0:02-0:03 | chief | I know.
+T: 0:00-0:02 | Chief looks at Ireti.
+T: 0:02-0:03 | He says it.
+T: 0:03-0:10 | Ireti slowly sits.
+C: Static.
+
+# 31.18 | "Who is she?" | who: chief
+F: Medium shot of a twelve-year-old twin boy leaning over toward Chief at the table, the boy facing the camera.
+S: A grandson asks who she is.
+M: Warm candlelight.
+D: 0:01-0:03 | x:Twin=the twelve-year-old boy leaning toward Chief | Grandpa, who is she?
+T: 0:00-0:01 | The twin leans over.
+T: 0:01-0:03 | He asks.
+T: 0:03-0:10 | He waits.
+C: Static.
+
+# 31.19 | "My granddaughter." | who: chief, ireti
+F: Close-up of Chief facing the camera, without hesitation.
+S: Chief claims her as family.
+M: Warm candlelight.
+D: 0:01-0:08 | chief | Your aunty. My granddaughter. The one who found the way home for all of you.
+T: 0:00-0:01 | Chief smiles.
+T: 0:01-0:08 | He says it without hesitation.
+T: 0:08-0:10 | Ireti's eyes fill.
+C: Very slow push-in.
+
+# 31.20 | Something to live for | who: lola, segun, chief, ireti
+F: Lola reaching across the table to squeeze Ireti's hand; Segun raising his glass; Chief sitting back, smiling with his eyes closed.
+S: The family accepts her.
+M: Warm candlelight, joyful.
+T: 0:00-0:04 | Lola squeezes Ireti's hand; Segun raises his glass to her.
+T: 0:04-0:07 | The table erupts in laughter.
+T: 0:07-0:10 | Chief closes his eyes and smiles. Slow fade.
+C: Slow pan along the table to Chief.
+
+## 32 | Hope is a person
+MOOD: Months later. Bright, warm, golden and hopeful, ending in a glowing sunset. Clean sunlight, soft warm colours, then deep gold and orange at the fountain.
+
+# 32.1 | The new house | who:
+F: A beautiful new white bungalow with a red-tiled roof and a garden in Lekki, a ribbon tied across the gate, bright sun.
+S: A new house waits.
+X: The ribboned gate.
+T: 0:00-0:06 | The camera glides toward the gate.
+T: 0:06-0:10 | A black car pulls up and stops.
+C: Slow glide.
+
+# 32.2 | "Your new house." | who: chief, funmi, dayo
+F: Mama Funmi stepping out of the car, healthy and glowing; Dayo beside her; Chief at the gate facing the camera, holding out a set of keys.
+S: Chief gives Ireti's mother a house.
+D: 0:02-0:04 | chief | Madam. Your new house.
+T: 0:00-0:02 | Chief holds out the keys.
+T: 0:02-0:04 | He says it warmly.
+T: 0:04-0:10 | Mama Funmi stares, hand over her heart.
+C: Static.
+
+# 32.3 | "It's too much…" | who: funmi
+F: Close-up of Mama Funmi facing the camera, crying and shaking her head.
+S: Mama Funmi can't accept.
+D: 0:01-0:04 | funmi | Chief, it's too much…
+T: 0:00-0:01 | Mama Funmi shakes her head.
+T: 0:01-0:04 | She says it, crying.
+T: 0:04-0:10 | She covers her mouth.
+C: Static.
+
+# 32.4 | "It's a debt." | who: chief
+F: Close-up of Chief facing the camera, gentle.
+S: Chief explains.
+D: 0:01-0:04 | chief | It's not a gift. It's a debt.
+T: 0:00-0:01 | Chief smiles.
+T: 0:01-0:04 | He says it.
+T: 0:04-0:10 | He takes out a small old notebook.
+C: Static.
+
+# 32.5 | "Paid in full." | who: chief, funmi
+F: Close shot of Chief writing in a small old notebook in big letters, his face visible.
+S: Chief writes the debt as paid.
+T: 0:00-0:06 | Chief writes in the notebook in big letters.
+T: 0:06-0:10 | He shows it to her; Mama Funmi laughs through tears and hugs him.
+C: Static.
+
+# 32.6 | "Full scholarship!" | who: dayo
+F: Dayo holding up an admission letter, facing the camera, overjoyed.
+S: Dayo got a scholarship.
+D: 0:01-0:05 | dayo | Sister! Full scholarship! The Kehinde Alade Foundation!
+T: 0:00-0:01 | Dayo holds up the letter.
+T: 0:01-0:05 | He shouts with joy.
+T: 0:05-0:10 | He jumps.
+C: Static.
+
+# 32.7 | "The what foundation?" | who: ireti
+F: Close-up of Ireti turning to Chief, facing the camera, surprised.
+S: Ireti asks Chief.
+D: 0:02-0:04 | ireti | The what foundation?
+T: 0:00-0:02 | Ireti turns to Chief.
+T: 0:02-0:04 | She asks.
+T: 0:04-0:10 | She narrows her eyes, smiling.
+C: Static.
+
+# 32.8 | "Ask Femi." | who: chief, femi
+F: Close-up of Chief facing the camera, innocent; Femi leaning on the car behind him holding up both hands.
+S: Chief plays innocent.
+D: 0:01-0:04 | chief | I don't know. Ask Femi.
+T: 0:00-0:01 | Chief shrugs innocently.
+T: 0:01-0:04 | He says it.
+T: 0:04-0:10 | Behind him, Femi holds up both hands: not me.
+C: Static.
+
+# 32.9 | Nursing school | who: ireti, chief, femi
+F: Ireti in a crisp white nursing-school uniform walking through a university gate with books, facing the camera; Chief and Femi waving from a car.
+S: Ireti goes back to nursing school.
+T: 0:00-0:06 | Ireti walks proudly through the gate.
+T: 0:06-0:10 | She turns and waves at Chief and Femi.
+C: Slow tracking.
+
+# 32.10 | Tuesday, standing | who: chief
+F: The mansion garden full of three hundred young people; Chief standing at the microphone with no cane, facing the camera, the brown puppy at his feet.
+S: Chief teaches again, standing.
+T: 0:00-0:06 | Chief stands tall at the microphone, speaking with his hands.
+T: 0:06-0:10 | The crowd laughs and claps; the puppy wags its tail.
+C: Static.
+
+# 32.11 | The painting called "IRETI" | who:
+F: The grand hall: beside the portrait of the woman in the gold gele hangs a new painting of a young woman in light-blue scrubs opening a curtain, sunlight pouring in.
+S: Chief's new painting.
+X: The new painting.
+T: 0:00-0:10 | Slow push in on the new painting; sunlight moves gently across the frame.
+C: Slow push-in.
+
+# 32.12 | "A stupid question?" | who: ireti, chief
+F: Sunset in the garden: Ireti and Chief sitting side by side on the edge of the flowing fountain, sharing tea, Ireti facing the camera at three-quarters.
+S: A quiet sunset conversation.
+D: 0:01-0:04 | ireti | Sir. Can I ask you a stupid question?
+T: 0:00-0:01 | Ireti sips her tea.
+T: 0:01-0:04 | She asks.
+T: 0:04-0:10 | She waits.
+C: Static.
+
+# 32.13 | "You've earned one." | who: chief
+F: Close-up of Chief in the sunset, facing the camera, smiling.
+S: Chief smiles.
+D: 0:02-0:03 | chief | You've earned one.
+T: 0:00-0:02 | Chief smiles.
+T: 0:02-0:03 | He says it.
+T: 0:03-0:10 | He sips his tea.
+C: Static.
+
+# 32.14 | "What did you learn?" | who: ireti
+F: Close-up of Ireti in the sunset, facing the camera.
+S: Ireti asks the last question.
+D: 0:02-0:04 | ireti | What did you learn? From all of this?
+T: 0:00-0:02 | Ireti looks at him.
+T: 0:02-0:04 | She asks.
+T: 0:04-0:10 | She waits.
+C: Static.
+
+# 32.15 | "Hope is a person." | who: chief
+F: Close-up of Chief in the sunset light, turning to Ireti, facing the camera.
+S: Chief's answer, the heart of the film.
+D: 0:01-0:09 | chief | I thought hope was a feeling. Something you wait for at a window. It's not. Hope is a person. A person who refuses to leave.
+T: 0:00-0:01 | Chief watches the sun.
+T: 0:01-0:09 | He says it slowly, turning to her.
+T: 0:09-0:10 | He smiles.
+C: Very slow push-in.
+
+# 32.16 | Her head on his shoulder | who: ireti, chief
+F: Two-shot on the fountain edge: Ireti leaning her head on Chief's shoulder, his arm around her, both faces visible.
+S: A grandfather and granddaughter.
+T: 0:00-0:05 | Ireti leans her head on his shoulder.
+T: 0:05-0:10 | He puts his arm around her; the fountain flows; the sun sinks.
+C: Static.
+
+# 32.17 | Final crane shot | who:
+F: High wide view of the mansion garden at sunset: two small figures on the fountain edge, a puppy running circles on the lawn, every window of the mansion glowing gold, the lagoon and Lagos beyond.
+S: The end of the film.
+X: The two small figures at the fountain and the glowing mansion.
+T: 0:00-0:10 | Slow, high crane shot pulling back and up, revealing the glowing mansion, the lagoon and Lagos at sunset. Fade out.
+C: Slow crane up and back.
