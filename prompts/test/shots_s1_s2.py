@@ -186,7 +186,7 @@ shot("1", id="1.20", title="Grace: 'My father is dead, sir.'", who=["grace", "ch
  timeline=[("0:00-0:03", "Silence. Grace slowly straightens up, tears falling."), ("0:03-0:05", "She says the line quietly."), ("0:05-0:10", "Behind her, Chief's face flickers with shame; he opens his mouth slightly but no words come.")],
  camera="Static close-up.", start="New image")
 
-shot("1", id="1.21", title="The badge on the dresser", who=["grace", "chief"], ref=["grace"],
+shot("1", id="1.21", title="The badge on the dresser", who=["grace", "chief"], ref=["grace", "chief"],
  frame="Close shot of Grace's hands unpinning the small name badge from the chest of her navy scrubs, just above the dark wood dresser top, her chin and the lower part of her face softly visible at the top of the frame, warm lamp light on her hands.",
  scene="Humiliated and grieving, the nurse quietly quits: she takes off her name badge, leaves it on the dresser and walks out with her dignity.",
  focus="Grace: first her trembling hands and the badge, then her tear-streaked face as she turns to leave.",
