@@ -234,13 +234,14 @@ shot("1", id="1.26", title="His vision blurs", who=[],
  timeline=[("0:00-0:04", "The view slowly drifts out of focus."), ("0:04-0:08", "The image gently tilts to one side; the chandelier light swims."), ("0:08-0:10", "Heavy breathing is heard.")],
  camera="Slow drifting tilt, soft focus.", start="New image")
 
-shot("1", id="1.27", title="The fall", who=["chief"],
- frame="Wide shot from the bottom of the staircase: Chief at the top, his cane slipping on the polished marble, his body tipping forward.",
- scene="The old man falls down the staircase.",
- focus="Chief on the staircase.",
- dialogue=[],
- timeline=[("0:00-0:02", "His cane slips on the marble."), ("0:02-0:07", "In slow motion he loses his balance and slides and rolls down the curved stairs; the cane clatters after him."), ("0:07-0:10", "He comes to rest at the bottom, lying still. No blood, no injuries shown.")],
- camera="Static wide; slow motion.", start="New image")
+shot("1", id="1.27", title="The fall (5 seconds)", who=["chief"], dur=5,
+ frame="Wide shot from the bottom of the grand curved white marble staircase looking up: Chief at the top step caught at the exact moment he loses his balance, his ivory cane sliding out from under him on the polished marble, his body tipping forward and sideways, one hand reaching for the banister and missing, his face visible with shock in his eyes; the dim chandelier above him, the huge portrait at the bottom of the frame.",
+ scene="An elderly man in a white kaftan loses his balance at the top of a grand marble staircase and falls all the way down to the bottom.",
+ focus="Chief's whole body as he falls, centre frame, from the top step to the bottom of the stairs.",
+ dialogue=[], timeline=[("0:00-0:01", "His ivory cane slides out from under him on the polished marble. His knees buckle and his body pitches forward. His hand grabs for the banister and misses."), ("0:01-0:04", "He falls hard onto his side and tumbles down the curved staircase, rolling over the steps, his kaftan twisting around him. The cane bounces and clatters down the steps ahead of him."), ("0:04-0:05", "He lands at the bottom of the stairs on the marble floor beneath the portrait and lies completely still. The cane rolls to a stop beside him. No blood, no injuries shown.")],
+ camera="Static wide shot from the bottom of the staircase looking up, the whole staircase in frame so the full fall is seen. Real-time speed with weight and gravity, a slight slow motion only on the first moment he tips forward.",
+ extra_look="Real body weight and physics: he truly falls, he does not float, glide or slide gently.",
+ sound="the cane clattering down the marble steps, the dull thuds of his body on the stairs, rain on the windows, distant thunder", start="New image")
 
 shot("1", id="1.28", title="Beneath Mama Abike's portrait", who=["chief"],
  frame="Low close shot along the marble floor: Chief lying still at the foot of the staircase, eyes half closed, the huge portrait of the smiling woman in the gold gele above him.",

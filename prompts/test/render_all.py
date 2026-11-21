@@ -106,15 +106,15 @@ def video(scn, s):
         L.append(f"   {t} - {a}")
     L.append(f"5. CAMERA: {s['camera']} Smooth and steady, no shake, no sudden zoom.")
     L.append(f"6. MOOD & LIGHTING: {s.get('mood') or MOODS[scn]}")
-    L.append(f"7. LOOK / EFFECT: {LOOK}")
+    L.append(f"7. LOOK / EFFECT: {LOOK}" + (f" {s['extra_look']}" if s.get('extra_look') else ""))
     on_talk = any(parse_owner(o)[0] in ("on", "x") for _, o, _ in s["dialogue"])
     if on_talk:
         L.append("8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.")
     else:
         L.append("8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.")
-    snd = build.AMBIENCE.get(scn, "quiet room tone")
+    snd = s.get("sound") or build.AMBIENCE.get(scn, "quiet room tone")
     L.append(f"9. SOUND: {'the dialogue above, clean and clear, over ' if s['dialogue'] else 'no voices, only '}{snd}. No music, no extra sounds.")
-    L.append("10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.")
+    L.append(f"10. DURATION: exactly {s.get('dur', 10)} seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.")
     return "\n".join(L)
 
 def image(scn, s):

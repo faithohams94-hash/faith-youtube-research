@@ -789,31 +789,31 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
 
 ======================================================================
-SHOT 1.27 | The fall | Start: New image
+SHOT 1.27 | The fall (5 seconds) | Start: New image
 ======================================================================
 
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Wide shot from the bottom of the staircase: Chief at the top, his cane slipping on the polished marble, his body tipping forward.
+FRAME: Wide shot from the bottom of the grand curved white marble staircase looking up: Chief at the top step caught at the exact moment he loses his balance, his ivory cane sliding out from under him on the polished marble, his body tipping forward and sideways, one hand reaching for the banister and missing, his face visible with shock in his eyes; the dim chandelier above him, the huge portrait at the bottom of the frame.
 SETTING (identical in every shot of this scene): Adenuga mansion on Banana Island at dusk during a rainstorm. Chief's huge bedroom: cream walls, heavy brown curtains closed, one tall window with rain streaking down, polished white marble floor, dark wood dresser, a silver tray with a small untouched birthday cake (one unlit candle) and a folded white card on the side table, warm table lamps lit, cold grey-blue storm light at the window. Outside the bedroom: a landing at the top of a grand curved white marble staircase of 22 steps, a dim crystal chandelier, and at the foot of the stairs a huge gold-framed oil portrait of a smiling Nigerian woman in a gold gele.
 CHARACTERS: CHIEF ADENUGA (75): elderly Nigerian man, very dark brown skin, deep wrinkles, short snow-white hair, full white beard, heavy-lidded tired eyes, broad but frail frame; wearing a white kaftan, leaning on an ivory-handled walking cane.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
 
 [VIDEO PROMPT - Grok]
-1. SCENE: The old man falls down the staircase.
-2. STAR & FOCUS: Chief on the staircase.
+1. SCENE: An elderly man in a white kaftan loses his balance at the top of a grand marble staircase and falls all the way down to the bottom.
+2. STAR & FOCUS: Chief's whole body as he falls, centre frame, from the top step to the bottom of the stairs.
 3. DIALOGUE: NONE. Nobody speaks. Every mouth stays closed. No voices at all.
 4. TIMESTAMPS:
-   0:00-0:02 - His cane slips on the marble.
-   0:02-0:07 - In slow motion he loses his balance and slides and rolls down the curved stairs; the cane clatters after him.
-   0:07-0:10 - He comes to rest at the bottom, lying still. No blood, no injuries shown.
-5. CAMERA: Static wide; slow motion. Smooth and steady, no shake, no sudden zoom.
+   0:00-0:01 - His ivory cane slides out from under him on the polished marble. His knees buckle and his body pitches forward. His hand grabs for the banister and misses.
+   0:01-0:04 - He falls hard onto his side and tumbles down the curved staircase, rolling over the steps, his kaftan twisting around him. The cane bounces and clatters down the steps ahead of him.
+   0:04-0:05 - He lands at the bottom of the stairs on the marble floor beneath the portrait and lies completely still. The cane rolls to a stop beside him. No blood, no injuries shown.
+5. CAMERA: Static wide shot from the bottom of the staircase looking up, the whole staircase in frame so the full fall is seen. Real-time speed with weight and gravity, a slight slow motion only on the first moment he tips forward. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Dusk during a storm. Dim, moody, heavy with loneliness. Warm amber lamp light on the faces, cold blue-grey storm light from the window, deep soft shadows. Keep it exactly this dark; never brighten.
-7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
+7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen. Real body weight and physics: he truly falls, he does not float, glide or slide gently.
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
-9. SOUND: no voices, only rain on the windows, distant thunder, a quiet clock ticking. No music, no extra sounds.
-10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
+9. SOUND: no voices, only the cane clattering down the marble steps, the dull thuds of his body on the stairs, rain on the windows, distant thunder. No music, no extra sounds.
+10. DURATION: exactly 5 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
 
 ======================================================================
 SHOT 1.28 | Beneath Mama Abike's portrait | Start: New image
