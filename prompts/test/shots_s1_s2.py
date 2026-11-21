@@ -186,13 +186,13 @@ shot("1", id="1.20", title="Grace: 'My father is dead, sir.'", who=["grace", "ch
  timeline=[("0:00-0:03", "Silence. Grace slowly straightens up, tears falling."), ("0:03-0:05", "She says the line quietly."), ("0:05-0:10", "Behind her, Chief's face flickers with shame; he opens his mouth slightly but no words come.")],
  camera="Static close-up.", start="New image")
 
-shot("1", id="1.21", title="The badge on the dresser", who=["grace", "chief"],
- frame="Close shot of Grace's hands unpinning the name badge from her scrubs above the dresser top.",
- scene="The nurse quits in silence.",
- focus="Grace's hands and the badge.",
- dialogue=[],
- timeline=[("0:00-0:03", "Grace unpins her badge."), ("0:03-0:05", "She places it gently on the dresser."), ("0:05-0:10", "She turns and walks out through the open door without looking back.")],
- camera="Static, then a gentle tilt up to her face as she turns.", start="New image")
+shot("1", id="1.21", title="The badge on the dresser", who=["grace", "chief"], ref=["grace"],
+ frame="Close shot of Grace's hands unpinning the small name badge from the chest of her navy scrubs, just above the dark wood dresser top, her chin and the lower part of her face softly visible at the top of the frame, warm lamp light on her hands.",
+ scene="Humiliated and grieving, the nurse quietly quits: she takes off her name badge, leaves it on the dresser and walks out with her dignity.",
+ focus="Grace: first her trembling hands and the badge, then her tear-streaked face as she turns to leave.",
+ dialogue=[], timeline=[("0:00-0:03", "Grace's fingers tremble as she slowly unpins the name badge from her scrubs."), ("0:03-0:05", "She places the badge gently on the dresser and rests her fingertips on it for one second."), ("0:05-0:07", "The camera tilts up to her face: tears on her cheeks, lips pressed together, she breathes in and lifts her chin with dignity."), ("0:07-0:10", "She turns and walks out through the open door without looking back. Behind her, Chief stands still with his head lowered.")],
+ camera="Static close shot on her hands, then a slow, smooth tilt up to her face at 0:05, then the camera stays still as she walks away.",
+ sound="her soft unsteady breath, the tiny click of the badge on the wood, her footsteps leaving on the marble, rain on the windows, a clock ticking", start="New image")
 
 shot("1", id="1.22", title="Aunty Ronke and the blue tablet", who=["ronke", "chief"],
  frame="Aunty Ronke standing in the open doorway facing the camera, holding a silver tray with a glass of water and one small blue tablet; Chief in the foreground in profile.",

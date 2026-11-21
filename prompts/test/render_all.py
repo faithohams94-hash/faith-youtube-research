@@ -57,6 +57,9 @@ def parse_owner(o):
 
 def video(scn, s):
     who = s["who"]; L = []
+    if s.get("ref"):
+        refs = " ".join(f"IMAGE {i+2} is the face of {name(k).upper()} ({ident(scn, k)}): {name(k)}'s face MUST be exactly the face in image {i+2} in every frame, the same person, not a lookalike, especially when the camera shows the face." for i, k in enumerate(s["ref"]))
+        L.append(f"0. REFERENCE IMAGES: IMAGE 1 is the first frame of the video. {refs}")
     L.append(f"1. SCENE: {s['scene']}")
     focus = s.get("focus")
     if not focus:
