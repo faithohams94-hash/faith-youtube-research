@@ -34,7 +34,9 @@ SHOT 11.2 | He doesn't offer her a seat | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: FEMI (33), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Wide shot: Femi seated behind a huge glass desk facing the camera; Ireti standing in front with her hands folded, no chair offered. The face of FEMI is clearly visible, facing the camera, with the mouth in view.
+FRAME: Wide shot: Femi seated behind a huge glass desk face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens; Ireti standing in front with her hands folded, no chair offered. The face of FEMI is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: It turns toward the glass office. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: FEMI looks directly into IRETI's eyes while speaking. IRETI looks back at FEMI. Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
 SETTING (identical in every shot of this scene): Femi's office on the 40th floor: a huge glass desk, floor-to-ceiling windows with all of Lagos spread out to the sea and ships on the horizon, a leather chair, a glass wall facing the corridor, bright soft daylight.
 CHARACTERS: FEMI (33): tall well-built Nigerian man, dark skin, sharp low-cut fade, short neat black beard, rimless gold-framed glasses; wearing a navy three-piece suit, gold cufflinks. IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a faded yellow ankara blouse and black skirt, taped slippers.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -42,6 +44,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Femi warns her about his grandfather.
 2. STAR & FOCUS: FEMI's face, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: It turns toward the glass office. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: FEMI looks directly into IRETI's eyes while speaking. IRETI looks back at FEMI. Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
+2C. EMOTION: faces and bodies show exactly what this moment means: Femi warns her about his grandfather. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:09 - FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit) says: "I'll be direct. My grandfather has destroyed twelve caretakers. He'll insult you. Throw food at you."
    FEMI's voice: smooth, clear baritone, polished Lagos-Nigerian accent with a light British-educated touch, quick and precise. These words come ONLY from FEMI's mouth.
@@ -51,6 +56,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:01 - Femi leans back.
    0:01-0:09 - He speaks bluntly.
    0:09-0:10 - He watches her reaction.
+4A. CONTINUITY OUT: end on: He watches her reaction. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Daytime on the 40th floor. Cool, powerful, intimidating, then quietly emotional. Soft bright daylight from huge windows, Lagos and the sea behind, clean modern glass.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -65,7 +72,9 @@ SHOT 11.3 | "He'll fire you every day." | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: FEMI (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Medium close-up of Femi facing the camera, serious. The face of FEMI is clearly visible, facing the camera, with the mouth in view.
+FRAME: Medium close-up of Femi face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, serious. The face of FEMI is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: He watches her reaction. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: FEMI looks directly into IRETI's eyes while speaking (IRETI is just off-camera, exactly where the previous shot placed her). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
 SETTING (identical in every shot of this scene): Femi's office on the 40th floor: a huge glass desk, floor-to-ceiling windows with all of Lagos spread out to the sea and ships on the horizon, a leather chair, a glass wall facing the corridor, bright soft daylight.
 CHARACTERS: FEMI (33): tall well-built Nigerian man, dark skin, sharp low-cut fade, short neat black beard, rimless gold-framed glasses; wearing a navy three-piece suit, gold cufflinks.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -73,6 +82,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Femi describes the job.
 2. STAR & FOCUS: FEMI's face, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: He watches her reaction. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: FEMI looks directly into IRETI's eyes while speaking (IRETI is just off-camera, exactly where the previous shot placed her). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
+2C. EMOTION: faces and bodies show exactly what this moment means: Femi describes the job. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:09 - FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit) says: "He'll fire you every day. It's a live-in job, six days a week. Massage, fresh air, medication, meals. Can you do it?"
    FEMI's voice: smooth, clear baritone, polished Lagos-Nigerian accent with a light British-educated touch, quick and precise. These words come ONLY from FEMI's mouth.
@@ -81,6 +93,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:01 - Femi leans forward.
    0:01-0:09 - He lists the duties.
    0:09-0:10 - He waits.
+4A. CONTINUITY OUT: end on: He waits. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Daytime on the 40th floor. Cool, powerful, intimidating, then quietly emotional. Soft bright daylight from huge windows, Lagos and the sea behind, clean modern glass.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -95,7 +109,9 @@ SHOT 11.4 | "Yes, sir." | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Close-up of Ireti facing the camera, hands folded, steady. The face of IRETI is clearly visible, facing the camera, with the mouth in view.
+FRAME: Close-up of Ireti face turned three-quarters toward the camera, eyes on FEMI, never looking into the lens, hands folded, steady. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: He waits. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: IRETI looks directly into FEMI's eyes while speaking (FEMI is just off-camera, exactly where the previous shot placed him). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
 SETTING (identical in every shot of this scene): Femi's office on the 40th floor: a huge glass desk, floor-to-ceiling windows with all of Lagos spread out to the sea and ships on the horizon, a leather chair, a glass wall facing the corridor, bright soft daylight.
 CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a faded yellow ankara blouse and black skirt, taped slippers.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -103,6 +119,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Ireti accepts.
 2. STAR & FOCUS: IRETI's face, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: He waits. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: IRETI looks directly into FEMI's eyes while speaking (FEMI is just off-camera, exactly where the previous shot placed him). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
+2C. EMOTION: faces and bodies show exactly what this moment means: Ireti accepts. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:02-0:03 - IRETI (the young woman with long black braids in a low ponytail, wearing a faded yellow ankara blouse and black skirt) says: "Yes, sir."
    IRETI's voice: soft, clear, medium-high pitch, warm Yoruba-Nigerian accent, gentle steady pace; she gets quieter, not louder, when hurt. These words come ONLY from IRETI's mouth.
@@ -111,6 +130,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:02 - Ireti holds his gaze.
    0:02-0:03 - She answers.
    0:03-0:10 - She stays still.
+4A. CONTINUITY OUT: end on: She stays still. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Daytime on the 40th floor. Cool, powerful, intimidating, then quietly emotional. Soft bright daylight from huge windows, Lagos and the sea behind, clean modern glass.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -125,7 +146,9 @@ SHOT 11.5 | "Everyone says yes." | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: FEMI (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Medium close-up of Femi facing the camera, unimpressed. The face of FEMI is clearly visible, facing the camera, with the mouth in view.
+FRAME: Medium close-up of Femi face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, unimpressed. The face of FEMI is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: She stays still. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: FEMI looks directly into IRETI's eyes while speaking (IRETI is just off-camera, exactly where the previous shot placed her). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
 SETTING (identical in every shot of this scene): Femi's office on the 40th floor: a huge glass desk, floor-to-ceiling windows with all of Lagos spread out to the sea and ships on the horizon, a leather chair, a glass wall facing the corridor, bright soft daylight.
 CHARACTERS: FEMI (33): tall well-built Nigerian man, dark skin, sharp low-cut fade, short neat black beard, rimless gold-framed glasses; wearing a navy three-piece suit, gold cufflinks.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -133,6 +156,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Femi tells her the salary.
 2. STAR & FOCUS: FEMI's face, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: She stays still. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: FEMI looks directly into IRETI's eyes while speaking (IRETI is just off-camera, exactly where the previous shot placed her). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
+2C. EMOTION: faces and bodies show exactly what this moment means: Femi tells her the salary. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:07 - FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit) says: "Everyone says yes in this office. The salary is one million naira."
    FEMI's voice: smooth, clear baritone, polished Lagos-Nigerian accent with a light British-educated touch, quick and precise. These words come ONLY from FEMI's mouth.
@@ -141,6 +167,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:01 - Femi sighs.
    0:01-0:07 - He says it flatly.
    0:07-0:10 - He watches her.
+4A. CONTINUITY OUT: end on: He watches her. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Daytime on the 40th floor. Cool, powerful, intimidating, then quietly emotional. Soft bright daylight from huge windows, Lagos and the sea behind, clean modern glass.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -155,7 +183,9 @@ SHOT 11.6 | "A month?" | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Close-up of Ireti facing the camera, stunned. The face of IRETI is clearly visible, facing the camera, with the mouth in view.
+FRAME: Close-up of Ireti face turned three-quarters toward the camera, eyes on FEMI, never looking into the lens, stunned. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: He watches her. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: IRETI looks directly into FEMI's eyes while speaking (FEMI is just off-camera, exactly where the previous shot placed him). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
 SETTING (identical in every shot of this scene): Femi's office on the 40th floor: a huge glass desk, floor-to-ceiling windows with all of Lagos spread out to the sea and ships on the horizon, a leather chair, a glass wall facing the corridor, bright soft daylight.
 CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a faded yellow ankara blouse and black skirt, taped slippers.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -163,6 +193,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Ireti can't believe the number.
 2. STAR & FOCUS: IRETI's face, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: He watches her. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: IRETI looks directly into FEMI's eyes while speaking (FEMI is just off-camera, exactly where the previous shot placed him). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
+2C. EMOTION: faces and bodies show exactly what this moment means: Ireti can't believe the number. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:02-0:04 - IRETI (the young woman with long black braids in a low ponytail, wearing a faded yellow ankara blouse and black skirt) says: "One million… a month?"
    IRETI's voice: soft, clear, medium-high pitch, warm Yoruba-Nigerian accent, gentle steady pace; she gets quieter, not louder, when hurt. These words come ONLY from IRETI's mouth.
@@ -171,6 +204,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:02 - Ireti's eyes widen.
    0:02-0:04 - She asks, stunned.
    0:04-0:10 - She waits, barely breathing.
+4A. CONTINUITY OUT: end on: She waits, barely breathing. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Daytime on the 40th floor. Cool, powerful, intimidating, then quietly emotional. Soft bright daylight from huge windows, Lagos and the sea behind, clean modern glass.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -185,7 +220,9 @@ SHOT 11.7 | "A week." | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: FEMI (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Close-up of Femi facing the camera, deadpan. The face of FEMI is clearly visible, facing the camera, with the mouth in view.
+FRAME: Close-up of Femi face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, deadpan. The face of FEMI is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: She waits, barely breathing. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: FEMI looks directly into IRETI's eyes while speaking (IRETI is just off-camera, exactly where the previous shot placed her). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
 SETTING (identical in every shot of this scene): Femi's office on the 40th floor: a huge glass desk, floor-to-ceiling windows with all of Lagos spread out to the sea and ships on the horizon, a leather chair, a glass wall facing the corridor, bright soft daylight.
 CHARACTERS: FEMI (33): tall well-built Nigerian man, dark skin, sharp low-cut fade, short neat black beard, rimless gold-framed glasses; wearing a navy three-piece suit, gold cufflinks.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -193,6 +230,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Femi corrects her.
 2. STAR & FOCUS: FEMI's face, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: She waits, barely breathing. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: FEMI looks directly into IRETI's eyes while speaking (IRETI is just off-camera, exactly where the previous shot placed her). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
+2C. EMOTION: faces and bodies show exactly what this moment means: Femi corrects her. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:02-0:03 - FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit) says: "A week."
    FEMI's voice: smooth, clear baritone, polished Lagos-Nigerian accent with a light British-educated touch, quick and precise. These words come ONLY from FEMI's mouth.
@@ -201,6 +241,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:02 - Femi looks at her.
    0:02-0:03 - He says it.
    0:03-0:10 - He raises an eyebrow at her silence.
+4A. CONTINUITY OUT: end on: He raises an eyebrow at her silence. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Daytime on the 40th floor. Cool, powerful, intimidating, then quietly emotional. Soft bright daylight from huge windows, Lagos and the sea behind, clean modern glass.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -215,7 +257,9 @@ SHOT 11.8 | After-action: she grips the chair | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Medium shot of Ireti gripping the back of the chair in front of her, facing the camera, lips moving silently as she calculates.
+FRAME: Medium shot of Ireti gripping the back of the chair in front of her, face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens, lips moving silently as she calculates.
+CONTINUITY: this frame comes straight after: He raises an eyebrow at her silence. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
 SETTING (identical in every shot of this scene): Femi's office on the 40th floor: a huge glass desk, floor-to-ceiling windows with all of Lagos spread out to the sea and ships on the horizon, a leather chair, a glass wall facing the corridor, bright soft daylight.
 CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a faded yellow ankara blouse and black skirt, taped slippers.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -223,10 +267,15 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Ireti calculates, overwhelmed.
 2. STAR & FOCUS: IRETI's face and body, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: He raises an eyebrow at her silence. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
+2C. EMOTION: faces and bodies show exactly what this moment means: Ireti calculates, overwhelmed. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE: NONE. Nobody speaks. Every mouth stays closed. No voices at all.
 4. TIMESTAMPS:
    0:00-0:05 - Ireti grips the chair; her lips move silently, counting.
    0:05-0:10 - Her eyes fill with tears.
+4A. CONTINUITY OUT: end on: Her eyes fill with tears. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Daytime on the 40th floor. Cool, powerful, intimidating, then quietly emotional. Soft bright daylight from huge windows, Lagos and the sea behind, clean modern glass.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -241,7 +290,9 @@ SHOT 11.9 | "Are you all right?" | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: FEMI (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Close-up of Femi facing the camera, frowning. The face of FEMI is clearly visible, facing the camera, with the mouth in view.
+FRAME: Close-up of Femi face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, frowning. The face of FEMI is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: Her eyes fill with tears. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: FEMI looks directly into IRETI's eyes while speaking (IRETI is just off-camera, exactly where the previous shot placed her). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
 SETTING (identical in every shot of this scene): Femi's office on the 40th floor: a huge glass desk, floor-to-ceiling windows with all of Lagos spread out to the sea and ships on the horizon, a leather chair, a glass wall facing the corridor, bright soft daylight.
 CHARACTERS: FEMI (33): tall well-built Nigerian man, dark skin, sharp low-cut fade, short neat black beard, rimless gold-framed glasses; wearing a navy three-piece suit, gold cufflinks.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -249,6 +300,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Femi notices.
 2. STAR & FOCUS: FEMI's face, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: Her eyes fill with tears. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: FEMI looks directly into IRETI's eyes while speaking (IRETI is just off-camera, exactly where the previous shot placed her). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
+2C. EMOTION: faces and bodies show exactly what this moment means: Femi notices. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:02-0:04 - FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit) says: "Are you all right?"
    FEMI's voice: smooth, clear baritone, polished Lagos-Nigerian accent with a light British-educated touch, quick and precise. These words come ONLY from FEMI's mouth.
@@ -257,6 +311,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:02 - Femi frowns.
    0:02-0:04 - He asks.
    0:04-0:10 - He leans forward slightly.
+4A. CONTINUITY OUT: end on: He leans forward slightly. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Daytime on the 40th floor. Cool, powerful, intimidating, then quietly emotional. Soft bright daylight from huge windows, Lagos and the sea behind, clean modern glass.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -271,7 +327,9 @@ SHOT 11.10 | "Thirty-eight weeks." | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Close-up of Ireti facing the camera, almost whispering, tears in her eyes. The face of IRETI is clearly visible, facing the camera, with the mouth in view.
+FRAME: Close-up of Ireti face turned three-quarters toward the camera, eyes on FEMI, never looking into the lens, almost whispering, tears in her eyes. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: He leans forward slightly. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: IRETI looks directly into FEMI's eyes while speaking (FEMI is just off-camera, exactly where the previous shot placed him). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
 SETTING (identical in every shot of this scene): Femi's office on the 40th floor: a huge glass desk, floor-to-ceiling windows with all of Lagos spread out to the sea and ships on the horizon, a leather chair, a glass wall facing the corridor, bright soft daylight.
 CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a faded yellow ankara blouse and black skirt, taped slippers.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -279,6 +337,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Ireti realises she can save her mother.
 2. STAR & FOCUS: IRETI's face, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: He leans forward slightly. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: IRETI looks directly into FEMI's eyes while speaking (FEMI is just off-camera, exactly where the previous shot placed him). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
+2C. EMOTION: faces and bodies show exactly what this moment means: Ireti realises she can save her mother. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:03 - IRETI (the young woman with long black braids in a low ponytail, wearing a faded yellow ankara blouse and black skirt) says: "Thirty-eight weeks."
    IRETI's voice: soft, clear, medium-high pitch, warm Yoruba-Nigerian accent, gentle steady pace; she gets quieter, not louder, when hurt. These words come ONLY from IRETI's mouth.
@@ -290,6 +351,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:03-0:05 - A pause; she smiles through tears.
    0:05-0:09 - She explains.
    0:09-0:10 - A tear falls.
+4A. CONTINUITY OUT: end on: A tear falls. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Very slow push-in. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Daytime on the 40th floor. Cool, powerful, intimidating, then quietly emotional. Soft bright daylight from huge windows, Lagos and the sea behind, clean modern glass.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -304,7 +367,9 @@ SHOT 11.11 | "I don't know what that means." | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: FEMI (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Close-up of Femi facing the camera, confused. The face of FEMI is clearly visible, facing the camera, with the mouth in view.
+FRAME: Close-up of Femi face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, confused. The face of FEMI is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: A tear falls. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: FEMI looks directly into IRETI's eyes while speaking (IRETI is just off-camera, exactly where the previous shot placed her). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
 SETTING (identical in every shot of this scene): Femi's office on the 40th floor: a huge glass desk, floor-to-ceiling windows with all of Lagos spread out to the sea and ships on the horizon, a leather chair, a glass wall facing the corridor, bright soft daylight.
 CHARACTERS: FEMI (33): tall well-built Nigerian man, dark skin, sharp low-cut fade, short neat black beard, rimless gold-framed glasses; wearing a navy three-piece suit, gold cufflinks.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -312,6 +377,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Femi doesn't understand.
 2. STAR & FOCUS: FEMI's face, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: A tear falls. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: FEMI looks directly into IRETI's eyes while speaking (IRETI is just off-camera, exactly where the previous shot placed her). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
+2C. EMOTION: faces and bodies show exactly what this moment means: Femi doesn't understand. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:02-0:05 - FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit) says: "I… don't know what that means."
    FEMI's voice: smooth, clear baritone, polished Lagos-Nigerian accent with a light British-educated touch, quick and precise. These words come ONLY from FEMI's mouth.
@@ -320,6 +388,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:02 - Femi tilts his head.
    0:02-0:05 - He says it, confused.
    0:05-0:10 - He watches her.
+4A. CONTINUITY OUT: end on: He watches her. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Daytime on the 40th floor. Cool, powerful, intimidating, then quietly emotional. Soft bright daylight from huge windows, Lagos and the sea behind, clean modern glass.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -334,7 +404,9 @@ SHOT 11.12 | "It means thank you, sir." | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Close-up of Ireti wiping her eyes fast, facing the camera. The face of IRETI is clearly visible, facing the camera, with the mouth in view.
+FRAME: Close-up of Ireti wiping her eyes fast, face turned three-quarters toward the camera, eyes on FEMI, never looking into the lens. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: He watches her. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: IRETI looks directly into FEMI's eyes while speaking (FEMI is just off-camera, exactly where the previous shot placed him). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
 SETTING (identical in every shot of this scene): Femi's office on the 40th floor: a huge glass desk, floor-to-ceiling windows with all of Lagos spread out to the sea and ships on the horizon, a leather chair, a glass wall facing the corridor, bright soft daylight.
 CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a faded yellow ankara blouse and black skirt, taped slippers.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -342,6 +414,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Ireti thanks him.
 2. STAR & FOCUS: IRETI's face, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: He watches her. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: IRETI looks directly into FEMI's eyes while speaking (FEMI is just off-camera, exactly where the previous shot placed him). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
+2C. EMOTION: faces and bodies show exactly what this moment means: Ireti thanks him. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:02-0:04 - IRETI (the young woman with long black braids in a low ponytail, wearing a faded yellow ankara blouse and black skirt) says: "It means thank you, sir."
    IRETI's voice: soft, clear, medium-high pitch, warm Yoruba-Nigerian accent, gentle steady pace; she gets quieter, not louder, when hurt. These words come ONLY from IRETI's mouth.
@@ -350,6 +425,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:02 - Ireti wipes her eyes fast.
    0:02-0:04 - She thanks him.
    0:04-0:10 - She smiles.
+4A. CONTINUITY OUT: end on: She smiles. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Daytime on the 40th floor. Cool, powerful, intimidating, then quietly emotional. Soft bright daylight from huge windows, Lagos and the sea behind, clean modern glass.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -364,7 +441,9 @@ SHOT 11.13 | "Survive one week first." | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: FEMI (33), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Medium shot of Femi standing and handing Ireti an address card across the glass desk, facing the camera. The face of FEMI is clearly visible, facing the camera, with the mouth in view.
+FRAME: Medium shot of Femi standing and handing Ireti an address card across the glass desk, face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens. The face of FEMI is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: She smiles. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: FEMI looks directly into IRETI's eyes while speaking. IRETI looks back at FEMI. Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
 SETTING (identical in every shot of this scene): Femi's office on the 40th floor: a huge glass desk, floor-to-ceiling windows with all of Lagos spread out to the sea and ships on the horizon, a leather chair, a glass wall facing the corridor, bright soft daylight.
 CHARACTERS: FEMI (33): tall well-built Nigerian man, dark skin, sharp low-cut fade, short neat black beard, rimless gold-framed glasses; wearing a navy three-piece suit, gold cufflinks. IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a faded yellow ankara blouse and black skirt, taped slippers.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -372,6 +451,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Femi gives her the address.
 2. STAR & FOCUS: FEMI's face, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: She smiles. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: FEMI looks directly into IRETI's eyes while speaking. IRETI looks back at FEMI. Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
+2C. EMOTION: faces and bodies show exactly what this moment means: Femi gives her the address. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:05 - FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit) says: "Don't thank me yet. Survive one week first."
    FEMI's voice: smooth, clear baritone, polished Lagos-Nigerian accent with a light British-educated touch, quick and precise. These words come ONLY from FEMI's mouth.
@@ -381,6 +463,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:01 - Femi stands.
    0:01-0:05 - He hands her the card and speaks.
    0:05-0:10 - Ireti takes the card and walks out.
+4A. CONTINUITY OUT: end on: Ireti takes the card and walks out. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Daytime on the 40th floor. Cool, powerful, intimidating, then quietly emotional. Soft bright daylight from huge windows, Lagos and the sea behind, clean modern glass.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -396,6 +480,8 @@ SHOT 11.14 | "38 weeks?" | Start: New image
 CHARACTERS IN THIS IMAGE: FEMI (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Femi at his desk watching through the glass wall as Ireti walks away down the corridor; a notepad in front of him.
+CONTINUITY: this frame comes straight after: Ireti takes the card and walks out. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: FEMI's eyes follow the action exactly as written; he never looks into the camera lens.
 SETTING (identical in every shot of this scene): Femi's office on the 40th floor: a huge glass desk, floor-to-ceiling windows with all of Lagos spread out to the sea and ships on the horizon, a leather chair, a glass wall facing the corridor, bright soft daylight.
 CHARACTERS: FEMI (33): tall well-built Nigerian man, dark skin, sharp low-cut fade, short neat black beard, rimless gold-framed glasses; wearing a navy three-piece suit, gold cufflinks.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -403,10 +489,15 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Femi is curious about her.
 2. STAR & FOCUS: FEMI's face and body, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: Ireti takes the card and walks out. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: FEMI's eyes follow the action exactly as written; he never looks into the camera lens.
+2C. EMOTION: faces and bodies show exactly what this moment means: Femi is curious about her. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE: NONE. Nobody speaks. Every mouth stays closed. No voices at all.
 4. TIMESTAMPS:
    0:00-0:05 - Femi watches her go.
    0:05-0:10 - He writes on his notepad and circles it, puzzled.
+4A. CONTINUITY OUT: end on: He writes on his notepad and circles it, puzzled. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Daytime on the 40th floor. Cool, powerful, intimidating, then quietly emotional. Soft bright daylight from huge windows, Lagos and the sea behind, clean modern glass.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.

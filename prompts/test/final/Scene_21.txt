@@ -34,7 +34,9 @@ SHOT 21.2 | "You're ugly in the morning." | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Chief in the recovery bed waking, facing the camera, groggy; Ireti's tired face close beside him, messy hair, dark circles under her eyes. The face of CHIEF ADENUGA is clearly visible, facing the camera, with the mouth in view.
+FRAME: Chief in the recovery bed waking, face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, groggy; Ireti's tired face close beside him, messy hair, dark circles under her eyes. The face of CHIEF ADENUGA is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: Soft sunrise light falls across the empty corridor. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: CHIEF ADENUGA looks directly into IRETI's eyes while speaking. IRETI looks back at CHIEF ADENUGA. Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
 SETTING (identical in every shot of this scene): The private hospital at sunrise. A corridor with a lit sign above the operating theatre door (no readable text). A bright, clean recovery room with soft early sunlight through blinds, a monitor beeping, white sheets.
 CHARACTERS: CHIEF ADENUGA (75): elderly Nigerian man, very dark brown skin, deep wrinkles, short snow-white hair, full white beard, heavy-lidded tired eyes, broad but frail frame; wearing a pale blue hospital gown, in bed. IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a light-blue scrubs top, hair messy, tired eyes.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -42,6 +44,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Chief wakes from surgery and sees her face first.
 2. STAR & FOCUS: CHIEF ADENUGA's face, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: Soft sunrise light falls across the empty corridor. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: CHIEF ADENUGA looks directly into IRETI's eyes while speaking. IRETI looks back at CHIEF ADENUGA. Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
+2C. EMOTION: faces and bodies show exactly what this moment means: Chief wakes from surgery and sees her face first. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:03-0:06 - CHIEF ADENUGA (the elderly man with snow-white hair and a full white beard, wearing a pale blue hospital gown) says: "You're ugly in the morning."
    CHIEF ADENUGA's voice: very deep, slow, gravelly bass, strong Yoruba-Nigerian accent, long heavy pauses; booming only when angry. These words come ONLY from CHIEF ADENUGA's mouth.
@@ -51,6 +56,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:03 - Chief's eyes flutter open and focus on her.
    0:03-0:06 - He croaks it.
    0:06-0:10 - Ireti grins.
+4A. CONTINUITY OUT: end on: Ireti grins. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Sunrise in a private hospital. Clean, soft, warm early light through blinds. Exhausted, tender, then joyful.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -65,7 +72,9 @@ SHOT 21.3 | "We're both lucky." | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Close-up of Ireti grinning, facing the camera, tired and happy. The face of IRETI is clearly visible, facing the camera, with the mouth in view.
+FRAME: Close-up of Ireti grinning, face turned three-quarters toward the camera, eyes on CHIEF ADENUGA, never looking into the lens, tired and happy. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: Ireti grins. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: IRETI looks directly into CHIEF ADENUGA's eyes while speaking (CHIEF ADENUGA is just off-camera, exactly where the previous shot placed him). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
 SETTING (identical in every shot of this scene): The private hospital at sunrise. A corridor with a lit sign above the operating theatre door (no readable text). A bright, clean recovery room with soft early sunlight through blinds, a monitor beeping, white sheets.
 CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a light-blue scrubs top, hair messy, tired eyes.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -73,6 +82,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Ireti answers.
 2. STAR & FOCUS: IRETI's face, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: Ireti grins. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: IRETI looks directly into CHIEF ADENUGA's eyes while speaking (CHIEF ADENUGA is just off-camera, exactly where the previous shot placed him). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
+2C. EMOTION: faces and bodies show exactly what this moment means: Ireti answers. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:05 - IRETI (the young woman with long black braids in a low ponytail, wearing a light-blue scrubs top) says: "And you're alive, sir. We're both lucky."
    IRETI's voice: soft, clear, medium-high pitch, warm Yoruba-Nigerian accent, gentle steady pace; she gets quieter, not louder, when hurt. These words come ONLY from IRETI's mouth.
@@ -81,6 +93,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:01 - Ireti grins.
    0:01-0:05 - She says it warmly.
    0:05-0:10 - She squeezes his hand.
+4A. CONTINUITY OUT: end on: She squeezes his hand. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Sunrise in a private hospital. Clean, soft, warm early light through blinds. Exhausted, tender, then joyful.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -95,7 +109,9 @@ SHOT 21.4 | The rusty laugh | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Chief in the hospital bed laughing weakly, facing the camera, wincing.
+FRAME: Chief in the hospital bed laughing weakly, face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens, wincing.
+CONTINUITY: this frame comes straight after: She squeezes his hand. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: CHIEF ADENUGA's eyes follow the action exactly as written; he never looks into the camera lens.
 SETTING (identical in every shot of this scene): The private hospital at sunrise. A corridor with a lit sign above the operating theatre door (no readable text). A bright, clean recovery room with soft early sunlight through blinds, a monitor beeping, white sheets.
 CHARACTERS: CHIEF ADENUGA (75): elderly Nigerian man, very dark brown skin, deep wrinkles, short snow-white hair, full white beard, heavy-lidded tired eyes, broad but frail frame; wearing a pale blue hospital gown, in bed.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -103,11 +119,16 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Chief laughs for real.
 2. STAR & FOCUS: CHIEF ADENUGA's face and body, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: She squeezes his hand. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: CHIEF ADENUGA's eyes follow the action exactly as written; he never looks into the camera lens.
+2C. EMOTION: faces and bodies show exactly what this moment means: Chief laughs for real. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE: NONE. Nobody speaks. Every mouth stays closed. No voices at all.
 4. TIMESTAMPS:
    0:00-0:04 - Chief laughs, a real, rusty, painful laugh.
    0:04-0:07 - He winces.
    0:07-0:10 - He laughs again.
+4A. CONTINUITY OUT: end on: He laughs again. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Sunrise in a private hospital. Clean, soft, warm early light through blinds. Exhausted, tender, then joyful.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -122,7 +143,9 @@ SHOT 21.5 | "He's laughing." | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: FEMI (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Femi frozen in the doorway with two coffees, facing the camera. The face of FEMI is clearly visible, facing the camera, with the mouth in view.
+FRAME: Femi frozen in the doorway with two coffees, face turned three-quarters toward the camera, eyes on CHIEF ADENUGA, never looking into the lens. The face of FEMI is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: He laughs again. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: FEMI looks directly into CHIEF ADENUGA's eyes while speaking (CHIEF ADENUGA is just off-camera, exactly where the previous shot placed him). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
 SETTING (identical in every shot of this scene): The private hospital at sunrise. A corridor with a lit sign above the operating theatre door (no readable text). A bright, clean recovery room with soft early sunlight through blinds, a monitor beeping, white sheets.
 CHARACTERS: FEMI (33): tall well-built Nigerian man, dark skin, sharp low-cut fade, short neat black beard, rimless gold-framed glasses; wearing a white shirt and navy trousers, holding two cups of coffee.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -130,6 +153,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Femi hears his grandfather laugh for the first time in ten years.
 2. STAR & FOCUS: FEMI's face, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: He laughs again. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: FEMI looks directly into CHIEF ADENUGA's eyes while speaking (CHIEF ADENUGA is just off-camera, exactly where the previous shot placed him). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
+2C. EMOTION: faces and bodies show exactly what this moment means: Femi hears his grandfather laugh for the first time in ten years. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:04-0:06 - FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a white shirt and navy trousers) says: "He's laughing."
    FEMI's voice: smooth, clear baritone, polished Lagos-Nigerian accent with a light British-educated touch, quick and precise. These words come ONLY from FEMI's mouth.
@@ -138,6 +164,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:04 - Femi stands frozen.
    0:04-0:06 - He whispers it to himself.
    0:06-0:10 - He looks at Ireti, really looks at her, for the first time. Slow fade.
+4A. CONTINUITY OUT: end on: He looks at Ireti, really looks at her, for the first time. Slow fade. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Very slow push-in. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Sunrise in a private hospital. Clean, soft, warm early light through blinds. Exhausted, tender, then joyful.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.

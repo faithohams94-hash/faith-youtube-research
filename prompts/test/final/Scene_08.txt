@@ -34,7 +34,9 @@ SHOT 8.2 | The end of the queue | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Medium shot of Ireti joining the end of the queue in her faded blouse and taped slippers, facing the camera; smartly dressed applicants around her.
+FRAME: Medium shot of Ireti joining the end of the queue in her faded blouse and taped slippers, face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens; smartly dressed applicants around her.
+CONTINUITY: this frame comes straight after: It reveals the long queue snaking around the block. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
 SETTING (identical in every shot of this scene): Victoria Island in bright morning sun. Adenuga Crest Tower: a 40-floor glass tower with a gold "AC" logo near the top, a long queue of hundreds of job applicants (nurses in white, graduates in suits, people holding folders) snaking around the block, a security gate. Inside: a plain interview hall with a long table and three panelists, a single chair in front.
 CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a faded yellow ankara blouse and black skirt, brown slippers mended with tape, holding a gold-edged card.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -42,10 +44,15 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Ireti joins the queue, out of place.
 2. STAR & FOCUS: IRETI's face and body, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: It reveals the long queue snaking around the block. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
+2C. EMOTION: faces and bodies show exactly what this moment means: Ireti joins the queue, out of place. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE: NONE. Nobody speaks. Every mouth stays closed. No voices at all.
 4. TIMESTAMPS:
    0:00-0:05 - Ireti steps into the queue, holding the gold card.
    0:05-0:10 - A woman in a sharp suit ahead of her turns and looks her up and down.
+4A. CONTINUITY OUT: end on: A woman in a sharp suit ahead of her turns and looks her up and down. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Bright morning in Victoria Island. Big, intimidating, hopeful. Strong clean daylight on glass and concrete; inside, flat cool office light; later harsh afternoon heat haze on the expressway.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -60,7 +67,9 @@ SHOT 8.3 | "Is this the cleaners' line?" | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Medium close-up of a woman in a sharp grey suit in the queue facing the camera, smirking at Ireti, who is at the edge of the frame.
+FRAME: Medium close-up of a woman in a sharp grey suit in the queue face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens, smirking at Ireti, who is at the edge of the frame.
+CONTINUITY: this frame comes straight after: A woman in a sharp suit ahead of her turns and looks her up and down. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
 SETTING (identical in every shot of this scene): Victoria Island in bright morning sun. Adenuga Crest Tower: a 40-floor glass tower with a gold "AC" logo near the top, a long queue of hundreds of job applicants (nurses in white, graduates in suits, people holding folders) snaking around the block, a security gate. Inside: a plain interview hall with a long table and three panelists, a single chair in front.
 CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a faded yellow ankara blouse and black skirt, brown slippers mended with tape, holding a gold-edged card.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -68,6 +77,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: A woman mocks Ireti's clothes.
 2. STAR & FOCUS: IRETI's face and body, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: A woman in a sharp suit ahead of her turns and looks her up and down. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
+2C. EMOTION: faces and bodies show exactly what this moment means: A woman mocks Ireti's clothes. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:03 - WOMAN IN THE QUEUE (the woman in the sharp grey suit) says: "Is this the cleaners' line?"
    Woman in the queue's voice: a natural Nigerian voice, clearly different from every main character. These words come ONLY from Woman in the queue's mouth.
@@ -77,6 +89,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:01 - The woman smirks.
    0:01-0:03 - She asks, mocking.
    0:03-0:10 - People nearby laugh.
+4A. CONTINUITY OUT: end on: People nearby laugh. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Bright morning in Victoria Island. Big, intimidating, hopeful. Strong clean daylight on glass and concrete; inside, flat cool office light; later harsh afternoon heat haze on the expressway.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -91,7 +105,9 @@ SHOT 8.4 | "Is it?" | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Close-up of Ireti facing the camera, polite and calm. The face of IRETI is clearly visible, facing the camera, with the mouth in view.
+FRAME: Close-up of Ireti face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens, polite and calm. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: People nearby laugh. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: IRETI looks at the person she is speaking to, just off-camera. Nobody looks into the camera lens at any moment.
 SETTING (identical in every shot of this scene): Victoria Island in bright morning sun. Adenuga Crest Tower: a 40-floor glass tower with a gold "AC" logo near the top, a long queue of hundreds of job applicants (nurses in white, graduates in suits, people holding folders) snaking around the block, a security gate. Inside: a plain interview hall with a long table and three panelists, a single chair in front.
 CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a faded yellow ankara blouse and black skirt, brown slippers mended with tape, holding a gold-edged card.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -99,6 +115,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Ireti answers politely.
 2. STAR & FOCUS: IRETI's face, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: People nearby laugh. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: IRETI looks at the person she is speaking to, just off-camera. Nobody looks into the camera lens at any moment.
+2C. EMOTION: faces and bodies show exactly what this moment means: Ireti answers politely. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:04 - IRETI (the young woman with long black braids in a low ponytail, wearing a faded yellow ankara blouse and black skirt) says: "I don't know, ma. Is it?"
    IRETI's voice: soft, clear, medium-high pitch, warm Yoruba-Nigerian accent, gentle steady pace; she gets quieter, not louder, when hurt. These words come ONLY from IRETI's mouth.
@@ -107,6 +126,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:01 - Ireti smiles politely.
    0:01-0:04 - She answers calmly.
    0:04-0:10 - She keeps her head up as people laugh.
+4A. CONTINUITY OUT: end on: She keeps her head up as people laugh. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Bright morning in Victoria Island. Big, intimidating, hopeful. Strong clean daylight on glass and concrete; inside, flat cool office light; later harsh afternoon heat haze on the expressway.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -121,7 +142,9 @@ SHOT 8.5 | The security gate | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Medium shot at the gate: a security man in uniform facing the camera, blocking the way; Ireti in front of him.
+FRAME: Medium shot at the gate: a security man in uniform face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens, blocking the way; Ireti in front of him.
+CONTINUITY: this frame comes straight after: She keeps her head up as people laugh. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
 SETTING (identical in every shot of this scene): Victoria Island in bright morning sun. Adenuga Crest Tower: a 40-floor glass tower with a gold "AC" logo near the top, a long queue of hundreds of job applicants (nurses in white, graduates in suits, people holding folders) snaking around the block, a security gate. Inside: a plain interview hall with a long table and three panelists, a single chair in front.
 CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a faded yellow ankara blouse and black skirt, brown slippers mended with tape, holding a gold-edged card.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -129,6 +152,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Security stops her.
 2. STAR & FOCUS: IRETI's face and body, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: She keeps her head up as people laugh. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
+2C. EMOTION: faces and bodies show exactly what this moment means: Security stops her. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:04 - SECURITY MAN (the security man in a dark uniform) says: "Where's your CV? Your certificates?"
    Security man's voice: a natural Nigerian voice, clearly different from every main character. These words come ONLY from Security man's mouth.
@@ -138,6 +164,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:01 - The security man holds up a hand.
    0:01-0:04 - He asks, stern.
    0:04-0:10 - He waits, unimpressed.
+4A. CONTINUITY OUT: end on: He waits, unimpressed. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Bright morning in Victoria Island. Big, intimidating, hopeful. Strong clean daylight on glass and concrete; inside, flat cool office light; later harsh afternoon heat haze on the expressway.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -152,7 +180,9 @@ SHOT 8.6 | "Gabriel Okafor sent me." | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Close-up of Ireti facing the camera, holding out the gold card. The face of IRETI is clearly visible, facing the camera, with the mouth in view.
+FRAME: Close-up of Ireti face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens, holding out the gold card. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: He waits, unimpressed. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: IRETI looks at the person she is speaking to, just off-camera. Nobody looks into the camera lens at any moment.
 SETTING (identical in every shot of this scene): Victoria Island in bright morning sun. Adenuga Crest Tower: a 40-floor glass tower with a gold "AC" logo near the top, a long queue of hundreds of job applicants (nurses in white, graduates in suits, people holding folders) snaking around the block, a security gate. Inside: a plain interview hall with a long table and three panelists, a single chair in front.
 CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a faded yellow ankara blouse and black skirt, brown slippers mended with tape, holding a gold-edged card.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -160,6 +190,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Ireti shows the card.
 2. STAR & FOCUS: IRETI's face, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: He waits, unimpressed. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: IRETI looks at the person she is speaking to, just off-camera. Nobody looks into the camera lens at any moment.
+2C. EMOTION: faces and bodies show exactly what this moment means: Ireti shows the card. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:04 - IRETI (the young woman with long black braids in a low ponytail, wearing a faded yellow ankara blouse and black skirt) says: "Gabriel Okafor sent me."
    IRETI's voice: soft, clear, medium-high pitch, warm Yoruba-Nigerian accent, gentle steady pace; she gets quieter, not louder, when hurt. These words come ONLY from IRETI's mouth.
@@ -168,6 +201,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:01 - Ireti holds out the card.
    0:01-0:04 - She says it clearly.
    0:04-0:10 - She waits.
+4A. CONTINUITY OUT: end on: She waits. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Bright morning in Victoria Island. Big, intimidating, hopeful. Strong clean daylight on glass and concrete; inside, flat cool office light; later harsh afternoon heat haze on the expressway.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -182,7 +217,9 @@ SHOT 8.7 | The security man steps aside | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Medium shot of the security man reading the card, facing the camera, his face changing; Ireti at the edge of the frame.
+FRAME: Medium shot of the security man reading the card, face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens, his face changing; Ireti at the edge of the frame.
+CONTINUITY: this frame comes straight after: She waits. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
 SETTING (identical in every shot of this scene): Victoria Island in bright morning sun. Adenuga Crest Tower: a 40-floor glass tower with a gold "AC" logo near the top, a long queue of hundreds of job applicants (nurses in white, graduates in suits, people holding folders) snaking around the block, a security gate. Inside: a plain interview hall with a long table and three panelists, a single chair in front.
 CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a faded yellow ankara blouse and black skirt, brown slippers mended with tape, holding a gold-edged card.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -190,11 +227,16 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: The card changes everything.
 2. STAR & FOCUS: IRETI's face and body, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: She waits. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
+2C. EMOTION: faces and bodies show exactly what this moment means: The card changes everything. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE: NONE. Nobody speaks. Every mouth stays closed. No voices at all.
 4. TIMESTAMPS:
    0:00-0:04 - The security man reads the card.
    0:04-0:07 - His eyes widen.
    0:07-0:10 - He steps aside to let her through, confused.
+4A. CONTINUITY OUT: end on: He steps aside to let her through, confused. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Bright morning in Victoria Island. Big, intimidating, hopeful. Strong clean daylight on glass and concrete; inside, flat cool office light; later harsh afternoon heat haze on the expressway.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -209,7 +251,9 @@ SHOT 8.8 | The panel | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Inside a plain interview hall: three panelists at a long table, a female panelist in the middle facing the camera; Ireti sitting alone in a chair that's too big for her in the foreground.
+FRAME: Inside a plain interview hall: three panelists at a long table, a female panelist in the middle face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens; Ireti sitting alone in a chair that's too big for her in the foreground.
+CONTINUITY: this frame comes straight after: He steps aside to let her through, confused. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
 SETTING (identical in every shot of this scene): Victoria Island in bright morning sun. Adenuga Crest Tower: a 40-floor glass tower with a gold "AC" logo near the top, a long queue of hundreds of job applicants (nurses in white, graduates in suits, people holding folders) snaking around the block, a security gate. Inside: a plain interview hall with a long table and three panelists, a single chair in front.
 CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a faded yellow ankara blouse and black skirt, brown slippers mended with tape, holding a gold-edged card.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -217,6 +261,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: The interview panel questions her.
 2. STAR & FOCUS: IRETI's face and body, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: He steps aside to let her through, confused. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
+2C. EMOTION: faces and bodies show exactly what this moment means: The interview panel questions her. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:09 - FEMALE PANELIST (the woman in the middle of the panel, in glasses and a dark blazer) says: "Caretaker to Chief Babatunde Adenuga. Twelve caretakers in four months. Why should we give YOU this job?"
    Female panelist's voice: a natural Nigerian voice, clearly different from every main character. These words come ONLY from Female panelist's mouth.
@@ -226,6 +273,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:01 - The panelist looks over her glasses.
    0:01-0:09 - She asks, sceptical.
    0:09-0:10 - She waits.
+4A. CONTINUITY OUT: end on: She waits. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Bright morning in Victoria Island. Big, intimidating, hopeful. Strong clean daylight on glass and concrete; inside, flat cool office light; later harsh afternoon heat haze on the expressway.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -240,7 +289,9 @@ SHOT 8.9 | "Because I won't leave." | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Close-up of Ireti in the big chair, facing the camera, calm. The face of IRETI is clearly visible, facing the camera, with the mouth in view.
+FRAME: Close-up of Ireti in the big chair, face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens, calm. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: She waits. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: IRETI looks at the person she is speaking to, just off-camera. Nobody looks into the camera lens at any moment.
 SETTING (identical in every shot of this scene): Victoria Island in bright morning sun. Adenuga Crest Tower: a 40-floor glass tower with a gold "AC" logo near the top, a long queue of hundreds of job applicants (nurses in white, graduates in suits, people holding folders) snaking around the block, a security gate. Inside: a plain interview hall with a long table and three panelists, a single chair in front.
 CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a faded yellow ankara blouse and black skirt, brown slippers mended with tape, holding a gold-edged card.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -248,6 +299,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Ireti gives her answer.
 2. STAR & FOCUS: IRETI's face, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: She waits. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: IRETI looks at the person she is speaking to, just off-camera. Nobody looks into the camera lens at any moment.
+2C. EMOTION: faces and bodies show exactly what this moment means: Ireti gives her answer. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:03-0:05 - IRETI (the young woman with long black braids in a low ponytail, wearing a faded yellow ankara blouse and black skirt) says: "Because I won't leave."
    IRETI's voice: soft, clear, medium-high pitch, warm Yoruba-Nigerian accent, gentle steady pace; she gets quieter, not louder, when hurt. These words come ONLY from IRETI's mouth.
@@ -256,6 +310,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:03 - Ireti thinks.
    0:03-0:05 - She answers simply.
    0:05-0:10 - Laughter from the panel off-screen; she holds steady.
+4A. CONTINUITY OUT: end on: Laughter from the panel off-screen; she holds steady. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Bright morning in Victoria Island. Big, intimidating, hopeful. Strong clean daylight on glass and concrete; inside, flat cool office light; later harsh afternoon heat haze on the expressway.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -270,7 +326,9 @@ SHOT 8.10 | "That's what all twelve said." | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Medium shot of the female panelist laughing with the panel, facing the camera.
+FRAME: Medium shot of the female panelist laughing with the panel, face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens.
+CONTINUITY: this frame comes straight after: Laughter from the panel off-screen; she holds steady. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
 SETTING (identical in every shot of this scene): Victoria Island in bright morning sun. Adenuga Crest Tower: a 40-floor glass tower with a gold "AC" logo near the top, a long queue of hundreds of job applicants (nurses in white, graduates in suits, people holding folders) snaking around the block, a security gate. Inside: a plain interview hall with a long table and three panelists, a single chair in front.
 CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a faded yellow ankara blouse and black skirt, brown slippers mended with tape, holding a gold-edged card.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -278,6 +336,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: The panel laughs at her.
 2. STAR & FOCUS: IRETI's face and body, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: Laughter from the panel off-screen; she holds steady. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
+2C. EMOTION: faces and bodies show exactly what this moment means: The panel laughs at her. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:04 - FEMALE PANELIST (the woman in the middle of the panel, in glasses and a dark blazer) says: "That's what all twelve of them said."
    Female panelist's voice: a natural Nigerian voice, clearly different from every main character. These words come ONLY from Female panelist's mouth.
@@ -287,6 +348,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:01 - The panel laughs.
    0:01-0:04 - The panelist says it, amused.
    0:04-0:10 - She shakes her head.
+4A. CONTINUITY OUT: end on: She shakes her head. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Bright morning in Victoria Island. Big, intimidating, hopeful. Strong clean daylight on glass and concrete; inside, flat cool office light; later harsh afternoon heat haze on the expressway.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -301,7 +364,9 @@ SHOT 8.11 | "I don't." | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Close-up of Ireti facing the camera, quiet and steady. The face of IRETI is clearly visible, facing the camera, with the mouth in view.
+FRAME: Close-up of Ireti face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens, quiet and steady. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: She shakes her head. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: IRETI looks at the person she is speaking to, just off-camera. Nobody looks into the camera lens at any moment.
 SETTING (identical in every shot of this scene): Victoria Island in bright morning sun. Adenuga Crest Tower: a 40-floor glass tower with a gold "AC" logo near the top, a long queue of hundreds of job applicants (nurses in white, graduates in suits, people holding folders) snaking around the block, a security gate. Inside: a plain interview hall with a long table and three panelists, a single chair in front.
 CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a faded yellow ankara blouse and black skirt, brown slippers mended with tape, holding a gold-edged card.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -309,6 +374,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Ireti's answer silences the room.
 2. STAR & FOCUS: IRETI's face, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: She shakes her head. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: IRETI looks at the person she is speaking to, just off-camera. Nobody looks into the camera lens at any moment.
+2C. EMOTION: faces and bodies show exactly what this moment means: Ireti's answer silences the room. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:05 - IRETI (the young woman with long black braids in a low ponytail, wearing a faded yellow ankara blouse and black skirt) says: "Then maybe they had somewhere else to go, ma."
    IRETI's voice: soft, clear, medium-high pitch, warm Yoruba-Nigerian accent, gentle steady pace; she gets quieter, not louder, when hurt. These words come ONLY from IRETI's mouth.
@@ -320,6 +388,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:05-0:07 - A pause.
    0:07-0:08 - She finishes.
    0:08-0:10 - The laughter stops; silence.
+4A. CONTINUITY OUT: end on: The laughter stops; silence. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Very slow push-in. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Bright morning in Victoria Island. Big, intimidating, hopeful. Strong clean daylight on glass and concrete; inside, flat cool office light; later harsh afternoon heat haze on the expressway.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -360,6 +430,8 @@ SHOT 8.13 | The long walk home | Start: New image
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Afternoon heat on a long Lagos expressway: Ireti walking on the roadside barefoot with her slippers in her hand, the gold tower far behind her.
+CONTINUITY: this frame comes straight after: They look at each other in silence. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
 SETTING (identical in every shot of this scene): Victoria Island in bright morning sun. Adenuga Crest Tower: a 40-floor glass tower with a gold "AC" logo near the top, a long queue of hundreds of job applicants (nurses in white, graduates in suits, people holding folders) snaking around the block, a security gate. Inside: a plain interview hall with a long table and three panelists, a single chair in front.
 CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a faded yellow ankara blouse and black skirt, brown slippers mended with tape, holding a gold-edged card.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -367,11 +439,16 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Ireti walks home to save money.
 2. STAR & FOCUS: IRETI's face and body, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: They look at each other in silence. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
+2C. EMOTION: faces and bodies show exactly what this moment means: Ireti walks home to save money. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE: NONE. Nobody speaks. Every mouth stays closed. No voices at all.
 4. TIMESTAMPS:
    0:00-0:05 - Ireti walks along the hot roadside; cars rush past.
    0:05-0:08 - She looks back once at the distant tower.
    0:08-0:10 - She shakes her head at herself and keeps walking.
+4A. CONTINUITY OUT: end on: She shakes her head at herself and keeps walking. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Slow tracking shot beside her. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Harsh afternoon sun, heat haze, dusty.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.

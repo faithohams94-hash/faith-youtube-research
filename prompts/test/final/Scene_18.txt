@@ -33,7 +33,9 @@ SHOT 18.2 | The prescription list | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Close shot of Ireti under the sink light reading hospital discharge papers, facing the camera, her finger running down a printed list.
+FRAME: Close shot of Ireti under the sink light reading hospital discharge papers, face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens, her finger running down a printed list.
+CONTINUITY: this frame comes straight after: Very slow push into the dark kitchen; nothing moves. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
 SETTING (identical in every shot of this scene): The mansion kitchen after midnight: one small light over the sink, the rest in deep shadow, a big fridge humming, a locked wooden medicine cabinet on the wall, a pantry door with a key hanging on a nail inside it. The pantry: shelves and sacks of rice, very dim.
 CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a light-blue scrubs top and white trousers.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -41,11 +43,16 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Ireti checks his prescriptions.
 2. STAR & FOCUS: IRETI's face and body, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: Very slow push into the dark kitchen; nothing moves. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
+2C. EMOTION: faces and bodies show exactly what this moment means: Ireti checks his prescriptions. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE: NONE. Nobody speaks. Every mouth stays closed. No voices at all.
 4. TIMESTAMPS:
    0:00-0:05 - Ireti runs her finger down the list.
    0:05-0:08 - She stops and frowns: no blue tablet.
    0:08-0:10 - She looks up at the locked medicine cabinet.
+4A. CONTINUITY OUT: end on: She looks up at the locked medicine cabinet. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: After midnight in the kitchen. Tense, secret, thriller. One small light over the sink, everything else in deep shadow, the hum of the fridge.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -61,6 +68,8 @@ SHOT 18.3 | The key on the nail | Start: New image
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Ireti opening the pantry door and finding a small key hanging on a nail inside, her face visible in the dim light.
+CONTINUITY: this frame comes straight after: She looks up at the locked medicine cabinet. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
 SETTING (identical in every shot of this scene): The mansion kitchen after midnight: one small light over the sink, the rest in deep shadow, a big fridge humming, a locked wooden medicine cabinet on the wall, a pantry door with a key hanging on a nail inside it. The pantry: shelves and sacks of rice, very dim.
 CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a light-blue scrubs top and white trousers.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -68,11 +77,16 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Ireti finds the key.
 2. STAR & FOCUS: IRETI's face and body, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: She looks up at the locked medicine cabinet. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
+2C. EMOTION: faces and bodies show exactly what this moment means: Ireti finds the key. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE: NONE. Nobody speaks. Every mouth stays closed. No voices at all.
 4. TIMESTAMPS:
    0:00-0:04 - Ireti lifts the key off the nail.
    0:04-0:06 - She glances behind her.
    0:06-0:10 - She unlocks the cabinet slowly.
+4A. CONTINUITY OUT: end on: She unlocks the cabinet slowly. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: After midnight in the kitchen. Tense, secret, thriller. One small light over the sink, everything else in deep shadow, the hum of the fridge.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -88,6 +102,8 @@ SHOT 18.4 | The brown bottle | Start: New image
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up inside the cabinet: an unlabelled brown bottle full of small blue tablets in Ireti's hand.
+CONTINUITY: this frame comes straight after: She unlocks the cabinet slowly. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
 SETTING (identical in every shot of this scene): The mansion kitchen after midnight: one small light over the sink, the rest in deep shadow, a big fridge humming, a locked wooden medicine cabinet on the wall, a pantry door with a key hanging on a nail inside it. The pantry: shelves and sacks of rice, very dim.
 CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a light-blue scrubs top and white trousers.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -95,10 +111,15 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Ireti takes one tablet as evidence.
 2. STAR & FOCUS: The blue tablets.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: She unlocks the cabinet slowly. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
+2C. EMOTION: faces and bodies show exactly what this moment means: Ireti takes one tablet as evidence. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE: NONE. Nobody speaks. Every mouth stays closed. No voices at all.
 4. TIMESTAMPS:
    0:00-0:05 - Ireti opens the bottle and takes out one blue tablet.
    0:05-0:10 - She slips it into her scrubs pocket and closes the bottle.
+4A. CONTINUITY OUT: end on: She slips it into her scrubs pocket and closes the bottle. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static close-up. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: After midnight in the kitchen. Tense, secret, thriller. One small light over the sink, everything else in deep shadow, the hum of the fridge.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -113,7 +134,9 @@ SHOT 18.5 | "What are you looking for?" | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: AUNTY RONKE (52), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Ronke standing in the dark doorway in her nightgown, facing the camera; Ireti turning from the open cabinet in the foreground. The face of AUNTY RONKE is clearly visible, facing the camera, with the mouth in view.
+FRAME: Ronke standing in the dark doorway in her nightgown, face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens; Ireti turning from the open cabinet in the foreground. The face of AUNTY RONKE is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: She slips it into her scrubs pocket and closes the bottle. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: AUNTY RONKE looks directly into IRETI's eyes while speaking. IRETI looks back at AUNTY RONKE. Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
 SETTING (identical in every shot of this scene): The mansion kitchen after midnight: one small light over the sink, the rest in deep shadow, a big fridge humming, a locked wooden medicine cabinet on the wall, a pantry door with a key hanging on a nail inside it. The pantry: shelves and sacks of rice, very dim.
 CHARACTERS: AUNTY RONKE (52): Nigerian woman, dark brown skin, sharp cheekbones, neat makeup, cold eyes, tight black head wrap; wearing a long dark nightgown, black head wrap. IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a light-blue scrubs top and white trousers.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -121,6 +144,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Ronke catches her.
 2. STAR & FOCUS: AUNTY RONKE's face, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: She slips it into her scrubs pocket and closes the bottle. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: AUNTY RONKE looks directly into IRETI's eyes while speaking. IRETI looks back at AUNTY RONKE. Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
+2C. EMOTION: faces and bodies show exactly what this moment means: Ronke catches her. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:03 - AUNTY RONKE (the woman in a tight black head wrap and white collar, wearing a long dark nightgown) says: "What are you looking for?"
    AUNTY RONKE's voice: low, crisp, cold alto, clipped Yoruba-Nigerian accent, every word precise and controlled. These words come ONLY from AUNTY RONKE's mouth.
@@ -130,6 +156,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:01 - Ronke steps out of the dark.
    0:01-0:03 - She asks coldly.
    0:03-0:10 - Ireti spins around.
+4A. CONTINUITY OUT: end on: Ireti spins around. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: After midnight in the kitchen. Tense, secret, thriller. One small light over the sink, everything else in deep shadow, the hum of the fridge.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -144,7 +172,9 @@ SHOT 18.6 | "Cotton wool." | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Close-up of Ireti facing the camera, calm on the outside. The face of IRETI is clearly visible, facing the camera, with the mouth in view.
+FRAME: Close-up of Ireti face turned three-quarters toward the camera, eyes on AUNTY RONKE, never looking into the lens, calm on the outside. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: Ireti spins around. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: IRETI looks directly into AUNTY RONKE's eyes while speaking (AUNTY RONKE is just off-camera, exactly where the previous shot placed her). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
 SETTING (identical in every shot of this scene): The mansion kitchen after midnight: one small light over the sink, the rest in deep shadow, a big fridge humming, a locked wooden medicine cabinet on the wall, a pantry door with a key hanging on a nail inside it. The pantry: shelves and sacks of rice, very dim.
 CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a light-blue scrubs top and white trousers.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -152,6 +182,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Ireti covers.
 2. STAR & FOCUS: IRETI's face, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: Ireti spins around. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: IRETI looks directly into AUNTY RONKE's eyes while speaking (AUNTY RONKE is just off-camera, exactly where the previous shot placed her). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
+2C. EMOTION: faces and bodies show exactly what this moment means: Ireti covers. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:04 - IRETI (the young woman with long black braids in a low ponytail, wearing a light-blue scrubs top and white trousers) says: "Cotton wool, ma. Chief's ear is itching."
    IRETI's voice: soft, clear, medium-high pitch, warm Yoruba-Nigerian accent, gentle steady pace; she gets quieter, not louder, when hurt. These words come ONLY from IRETI's mouth.
@@ -160,6 +193,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:01 - Ireti composes herself.
    0:01-0:04 - She answers calmly.
    0:04-0:10 - She holds still.
+4A. CONTINUITY OUT: end on: She holds still. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: After midnight in the kitchen. Tense, secret, thriller. One small light over the sink, everything else in deep shadow, the hum of the fridge.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -174,7 +209,9 @@ SHOT 18.7 | "Not in my cabinet." | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: AUNTY RONKE (52). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Close-up of Ronke facing the camera, stepping closer, staring past Ireti at the open cabinet. The face of AUNTY RONKE is clearly visible, facing the camera, with the mouth in view.
+FRAME: Close-up of Ronke face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, stepping closer, staring past Ireti at the open cabinet. The face of AUNTY RONKE is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: She holds still. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: AUNTY RONKE looks directly into IRETI's eyes while speaking (IRETI is just off-camera, exactly where the previous shot placed her). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
 SETTING (identical in every shot of this scene): The mansion kitchen after midnight: one small light over the sink, the rest in deep shadow, a big fridge humming, a locked wooden medicine cabinet on the wall, a pantry door with a key hanging on a nail inside it. The pantry: shelves and sacks of rice, very dim.
 CHARACTERS: AUNTY RONKE (52): Nigerian woman, dark brown skin, sharp cheekbones, neat makeup, cold eyes, tight black head wrap; wearing a long dark nightgown, black head wrap.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -182,6 +219,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Ronke doesn't believe her.
 2. STAR & FOCUS: AUNTY RONKE's face, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: She holds still. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: AUNTY RONKE looks directly into IRETI's eyes while speaking (IRETI is just off-camera, exactly where the previous shot placed her). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
+2C. EMOTION: faces and bodies show exactly what this moment means: Ronke doesn't believe her. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:05 - AUNTY RONKE (the woman in a tight black head wrap and white collar, wearing a long dark nightgown) says: "Cotton wool is in the bathroom. Not in my cabinet."
    AUNTY RONKE's voice: low, crisp, cold alto, clipped Yoruba-Nigerian accent, every word precise and controlled. These words come ONLY from AUNTY RONKE's mouth.
@@ -190,6 +230,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:01 - Ronke steps closer.
    0:01-0:05 - She says it coldly.
    0:05-0:10 - She stares at the cabinet.
+4A. CONTINUITY OUT: end on: She stares at the cabinet. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Very slow push-in. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: After midnight in the kitchen. Tense, secret, thriller. One small light over the sink, everything else in deep shadow, the hum of the fridge.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -204,7 +246,9 @@ SHOT 18.8 | "Still learning the house." | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Close-up of Ireti facing the camera, polite. The face of IRETI is clearly visible, facing the camera, with the mouth in view.
+FRAME: Close-up of Ireti face turned three-quarters toward the camera, eyes on AUNTY RONKE, never looking into the lens, polite. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: She stares at the cabinet. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: IRETI looks directly into AUNTY RONKE's eyes while speaking (AUNTY RONKE is just off-camera, exactly where the previous shot placed her). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
 SETTING (identical in every shot of this scene): The mansion kitchen after midnight: one small light over the sink, the rest in deep shadow, a big fridge humming, a locked wooden medicine cabinet on the wall, a pantry door with a key hanging on a nail inside it. The pantry: shelves and sacks of rice, very dim.
 CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a light-blue scrubs top and white trousers.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -212,6 +256,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Ireti apologises.
 2. STAR & FOCUS: IRETI's face, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: She stares at the cabinet. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: IRETI looks directly into AUNTY RONKE's eyes while speaking (AUNTY RONKE is just off-camera, exactly where the previous shot placed her). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
+2C. EMOTION: faces and bodies show exactly what this moment means: Ireti apologises. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:04 - IRETI (the young woman with long black braids in a low ponytail, wearing a light-blue scrubs top and white trousers) says: "Sorry, ma. I'm still learning the house."
    IRETI's voice: soft, clear, medium-high pitch, warm Yoruba-Nigerian accent, gentle steady pace; she gets quieter, not louder, when hurt. These words come ONLY from IRETI's mouth.
@@ -220,6 +267,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:01 - Ireti lowers her eyes.
    0:01-0:04 - She apologises.
    0:04-0:10 - She waits.
+4A. CONTINUITY OUT: end on: She waits. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: After midnight in the kitchen. Tense, secret, thriller. One small light over the sink, everything else in deep shadow, the hum of the fridge.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -234,7 +283,9 @@ SHOT 18.9 | "Learn faster." | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: AUNTY RONKE (52). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Close-up of Ronke facing the camera, a thin smile. The face of AUNTY RONKE is clearly visible, facing the camera, with the mouth in view.
+FRAME: Close-up of Ronke face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, a thin smile. The face of AUNTY RONKE is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: She waits. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: AUNTY RONKE looks directly into IRETI's eyes while speaking (IRETI is just off-camera, exactly where the previous shot placed her). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
 SETTING (identical in every shot of this scene): The mansion kitchen after midnight: one small light over the sink, the rest in deep shadow, a big fridge humming, a locked wooden medicine cabinet on the wall, a pantry door with a key hanging on a nail inside it. The pantry: shelves and sacks of rice, very dim.
 CHARACTERS: AUNTY RONKE (52): Nigerian woman, dark brown skin, sharp cheekbones, neat makeup, cold eyes, tight black head wrap; wearing a long dark nightgown, black head wrap.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -242,6 +293,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Ronke threatens her.
 2. STAR & FOCUS: AUNTY RONKE's face, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: She waits. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: AUNTY RONKE looks directly into IRETI's eyes while speaking (IRETI is just off-camera, exactly where the previous shot placed her). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
+2C. EMOTION: faces and bodies show exactly what this moment means: Ronke threatens her. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:02-0:03 - AUNTY RONKE (the woman in a tight black head wrap and white collar, wearing a long dark nightgown) says: "Learn faster."
    AUNTY RONKE's voice: low, crisp, cold alto, clipped Yoruba-Nigerian accent, every word precise and controlled. These words come ONLY from AUNTY RONKE's mouth.
@@ -250,6 +304,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:02 - Ronke smiles thinly.
    0:02-0:03 - She says it.
    0:03-0:10 - She watches Ireti leave.
+4A. CONTINUITY OUT: end on: She watches Ireti leave. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: After midnight in the kitchen. Tense, secret, thriller. One small light over the sink, everything else in deep shadow, the hum of the fridge.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -264,7 +320,9 @@ SHOT 18.10 | One is missing | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: AUNTY RONKE (52). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Ronke alone at the cabinet counting the blue tablets in the brown bottle with her finger, facing the camera.
+FRAME: Ronke alone at the cabinet counting the blue tablets in the brown bottle with her finger, face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens.
+CONTINUITY: this frame comes straight after: She watches Ireti leave. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: AUNTY RONKE's eyes follow the action exactly as written; she never looks into the camera lens.
 SETTING (identical in every shot of this scene): The mansion kitchen after midnight: one small light over the sink, the rest in deep shadow, a big fridge humming, a locked wooden medicine cabinet on the wall, a pantry door with a key hanging on a nail inside it. The pantry: shelves and sacks of rice, very dim.
 CHARACTERS: AUNTY RONKE (52): Nigerian woman, dark brown skin, sharp cheekbones, neat makeup, cold eyes, tight black head wrap; wearing a long dark nightgown, black head wrap.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -272,11 +330,16 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Ronke discovers one is missing.
 2. STAR & FOCUS: AUNTY RONKE's face and body, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: She watches Ireti leave. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: AUNTY RONKE's eyes follow the action exactly as written; she never looks into the camera lens.
+2C. EMOTION: faces and bodies show exactly what this moment means: Ronke discovers one is missing. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE: NONE. Nobody speaks. Every mouth stays closed. No voices at all.
 4. TIMESTAMPS:
    0:00-0:05 - Ronke counts the tablets with her finger.
    0:05-0:07 - She stops and counts again.
    0:07-0:10 - Her face changes: one is missing. She locks the cabinet.
+4A. CONTINUITY OUT: end on: Her face changes: one is missing. She locks the cabinet. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: After midnight in the kitchen. Tense, secret, thriller. One small light over the sink, everything else in deep shadow, the hum of the fridge.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -291,7 +354,9 @@ SHOT 18.11 | The call to "LEKAN B." | Start: New image
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: AUNTY RONKE (52). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: In the dim pantry among sacks of rice: Ronke whispering into her phone, facing the camera. The face of AUNTY RONKE is clearly visible, facing the camera, with the mouth in view.
+FRAME: In the dim pantry among sacks of rice: Ronke whispering into her phone, face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens. The face of AUNTY RONKE is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: Her face changes: one is missing. She locks the cabinet. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: AUNTY RONKE looks directly into IRETI's eyes while speaking (IRETI is just off-camera, exactly where the previous shot placed her). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
 SETTING (identical in every shot of this scene): The mansion kitchen after midnight: one small light over the sink, the rest in deep shadow, a big fridge humming, a locked wooden medicine cabinet on the wall, a pantry door with a key hanging on a nail inside it. The pantry: shelves and sacks of rice, very dim.
 CHARACTERS: AUNTY RONKE (52): Nigerian woman, dark brown skin, sharp cheekbones, neat makeup, cold eyes, tight black head wrap; wearing a long dark nightgown, black head wrap.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -299,6 +364,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Ronke reports to Lekan.
 2. STAR & FOCUS: AUNTY RONKE's face, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: Her face changes: one is missing. She locks the cabinet. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: AUNTY RONKE looks directly into IRETI's eyes while speaking (IRETI is just off-camera, exactly where the previous shot placed her). Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
+2C. EMOTION: faces and bodies show exactly what this moment means: Ronke reports to Lekan. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:09 - AUNTY RONKE (the woman in a tight black head wrap and white collar, wearing a long dark nightgown) says: "Sir… the new girl is asking questions. About the tablets. He's smiling now. He went to a concert."
    AUNTY RONKE's voice: low, crisp, cold alto, clipped Yoruba-Nigerian accent, every word precise and controlled. These words come ONLY from AUNTY RONKE's mouth.
@@ -307,6 +375,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:01 - Ronke presses the phone to her ear.
    0:01-0:09 - She whispers urgently.
    0:09-0:10 - She listens.
+4A. CONTINUITY OUT: end on: She listens. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: After midnight in the kitchen. Tense, secret, thriller. One small light over the sink, everything else in deep shadow, the hum of the fridge.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
@@ -321,7 +391,9 @@ SHOT 18.12 | "I'll handle her." | Start: Last frame of 18.11
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: AUNTY RONKE (52). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Close-up of Ronke facing the camera, cold, phone to her ear. The face of AUNTY RONKE is clearly visible, facing the camera, with the mouth in view.
+FRAME: Close-up of Ronke face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens, cold, phone to her ear. The face of AUNTY RONKE is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: She listens. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: AUNTY RONKE speaks into the phone at her ear, eyes looking ahead or down into the distance as people do on a call. Nobody looks into the camera lens at any moment.
 SETTING (identical in every shot of this scene): The mansion kitchen after midnight: one small light over the sink, the rest in deep shadow, a big fridge humming, a locked wooden medicine cabinet on the wall, a pantry door with a key hanging on a nail inside it. The pantry: shelves and sacks of rice, very dim.
 CHARACTERS: AUNTY RONKE (52): Nigerian woman, dark brown skin, sharp cheekbones, neat makeup, cold eyes, tight black head wrap; wearing a long dark nightgown, black head wrap.
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
@@ -329,6 +401,9 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 [VIDEO PROMPT - Grok]
 1. SCENE: Ronke promises to deal with Ireti.
 2. STAR & FOCUS: AUNTY RONKE's face, centre frame.
+2A. CONTINUITY IN: this clip begins on the exact last frame of the previous clip (She listens.) and carries straight on: same positions, same eyelines, same emotion, same things in their hands.
+2B. EYE CONTACT: AUNTY RONKE speaks into the phone at her ear, eyes looking ahead or down into the distance as people do on a call. Nobody looks into the camera lens at any moment.
+2C. EMOTION: faces and bodies show exactly what this moment means: Ronke promises to deal with Ireti. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:07 - AUNTY RONKE (the woman in a tight black head wrap and white collar, wearing a long dark nightgown) says: "No, sir, I won't let it spoil anything before the AGM. Yes, sir. I'll handle her."
    AUNTY RONKE's voice: low, crisp, cold alto, clipped Yoruba-Nigerian accent, every word precise and controlled. These words come ONLY from AUNTY RONKE's mouth.
@@ -337,6 +412,8 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
    0:00-0:01 - Ronke listens.
    0:01-0:07 - She whispers.
    0:07-0:10 - She hangs up and looks up toward Chief's room. Slow fade.
+4A. CONTINUITY OUT: end on: She hangs up and looks up toward Chief's room. Slow fade. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: After midnight in the kitchen. Tense, secret, thriller. One small light over the sink, everything else in deep shadow, the hum of the fridge.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.

@@ -55,6 +55,53 @@ def parse_owner(o):
         src, k = o.split(":", 1); return (src, k.strip(), None)
     return ("on", o.strip(), None)
 
+
+def onscreen_speakers(s):
+    return [parse_owner(o)[1] for _, o, _ in s["dialogue"] if parse_owner(o)[0] == "on"]
+
+def plan_continuity(shots):
+    """Give every shot its previous shot, its conversation partner and eyeline notes."""
+    for i, s in enumerate(shots):
+        s["_prev"] = shots[i - 1] if i > 0 else None
+        sp = list(dict.fromkeys(onscreen_speakers(s)))
+        s["_speaker"] = sp[0] if sp else None
+        partner = None
+        if s["_speaker"]:
+            others = [w for w in s["who"] if w != s["_speaker"]]
+            if others:
+                partner = others[0]
+            else:
+                for j in list(range(i - 1, max(-1, i - 4), -1)) + list(range(i + 1, min(len(shots), i + 4))):
+                    for k in onscreen_speakers(shots[j]) + shots[j]["who"]:
+                        if k != s["_speaker"] and k in C:
+                            partner = k; break
+                    if partner: break
+        s["_partner"] = partner
+    return shots
+
+def eyeline(scn, s):
+    who = s["who"]
+    if not who:
+        return None
+    phone = any(parse_owner(o)[0] in ("phone", "screen") for _, o, _ in s["dialogue"])
+    if s.get("_speaker"):
+        S, P = s["_speaker"], s.get("_partner")
+        fr = s["frame"].lower()
+        if re.search(r"phone (?:held|to)|on the phone|phone up|holding (?:his|her) phone|phone in (?:his|her) hand|phone call|phone low", fr):
+            if scn != "1" and not re.search(r"video call|screen", fr + " " + s["scene"].lower()):
+                return f"{name(S)} speaks into the phone at {pro(S)} ear, eyes looking ahead or down into the distance as people do on a call. Nobody looks into the camera lens at any moment."
+            return f"{name(S)} keeps {pro(S)} eyes on the phone screen, talking to the face on the video call. Nobody looks into the camera lens at any moment."
+        if P:
+            off = "" if P in who else f" ({name(P)} is just off-camera, exactly where the previous shot placed {'her' if P in FEM else 'him'})"
+            back = "".join(f" {name(w)} looks back at {name(S)}." for w in who if w != S)
+            return f"{name(S)} looks directly into {name(P)}'s eyes while speaking{off}.{back} Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment."
+        return f"{name(S)} looks at the person {she(S)} is speaking to, just off-camera. Nobody looks into the camera lens at any moment."
+    if phone:
+        return "Everyone in the frame keeps their eyes on the phone or screen they are listening to, or looks down in thought. Nobody looks into the camera lens at any moment."
+    if len(who) > 1:
+        return "Everyone keeps looking where they were looking in the first frame (at each other, or at the action), and only changes when the timestamps say so. Nobody looks into the camera lens at any moment."
+    return f"{name(who[0])}'s eyes follow the action exactly as written; {she(who[0])} never looks into the camera lens."
+
 def video(scn, s):
     who = s["who"]; L = []
     if s.get("ref"):
@@ -67,6 +114,18 @@ def video(scn, s):
         focus = (f"{name(on[0])}'s face, centre frame." if on and on[0] in C else
                  f"{name(who[0])}'s face and body, centre frame." if who else "The place itself, centre frame.")
     L.append(f"2. STAR & FOCUS: {focus}")
+    prev = s.get("_prev")
+    if prev and who:
+        pend = prev["timeline"][-1][1] if prev.get("timeline") else ""
+        if s["start"].lower().startswith("last frame"):
+            L.append(f"2A. CONTINUITY IN: this clip begins on the exact last frame of the previous clip ({pend}) and carries straight on: same positions, same eyelines, same emotion, same things in their hands.")
+        else:
+            L.append(f"2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: {pend} At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.")
+    ey = eyeline(scn, s)
+    if ey:
+        L.append(f"2B. EYE CONTACT: {ey}")
+    if who:
+        L.append(f"2C. EMOTION: faces and bodies show exactly what this moment means: {s['scene']} Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.")
     if s["dialogue"]:
         d = ["3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):"]
         voiced, speakers_on, voices_off = set(), set(), set()
@@ -107,6 +166,9 @@ def video(scn, s):
     L.append("4. TIMESTAMPS:")
     for t, a in s["timeline"]:
         L.append(f"   {t} - {a}")
+    if who:
+        L.append(f"4A. CONTINUITY OUT: end on: {s['timeline'][-1][1]} Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.")
+        L.append("4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.")
     L.append(f"5. CAMERA: {s['camera']} Smooth and steady, no shake, no sudden zoom.")
     L.append(f"6. MOOD & LIGHTING: {s.get('mood') or MOODS[scn]}")
     L.append(f"7. LOOK / EFFECT: {LOOK}" + (f" {s['extra_look']}" if s.get('extra_look') else ""))
@@ -128,8 +190,16 @@ def image(scn, s):
     look = " ".join(f"{C[k][0]}: {C[k][1]}; wearing {sc['wear'].get(k, 'the outfit in the reference')}." for k in who)
     speak = [parse_owner(o)[1] for _, o, _ in s["dialogue"] if parse_owner(o)[0] == "on"]
     speak = list(dict.fromkeys(speak))
-    face = (" The face of " + " and ".join(name(k) for k in speak) + " is clearly visible, facing the camera, with the mouth in view." if speak else "")
-    return (f"{head}\nCreate one image, highest resolution, sharp and clear.\nFRAME: {s['frame']}{face}\nSETTING (identical in every shot of this scene): {sc['set']}"
+    face = (" The face of " + " and ".join(name(k) for k in speak) + " is clearly visible in three-quarter view with the mouth in view." if speak else "")
+    ey = eyeline(scn, s)
+    frame = s["frame"]
+    P = s.get("_partner")
+    look_at = f"eyes on {name(P)}" if P else "eyes on the other person or the action"
+    frame = re.sub(r"facing the camera(?: at three-quarters)?", f"face turned three-quarters toward the camera, {look_at}, never looking into the lens", frame)
+    prev = s.get("_prev")
+    cont = (f"\nCONTINUITY: this frame comes straight after: {prev['timeline'][-1][1]} Same positions, same eyelines, same props in their hands, same wardrobe and light." if prev and who and prev.get("timeline") else "")
+    eyes = f"\nEYES: {ey}" if ey else ""
+    return (f"{head}\nCreate one image, highest resolution, sharp and clear.\nFRAME: {frame}{face}{cont}{eyes}\nSETTING (identical in every shot of this scene): {sc['set']}"
             + (f"\nCHARACTERS: {look}" if look else "") + f"\n{build.IMAGE_LOCK}")
 
 def parse_dsl(text):
@@ -184,7 +254,7 @@ def main():
     out = HERE / "final"; out.mkdir(exist_ok=True)
     total = 0
     for scn in sorted(ALL, key=int):
-        sc = SCENES[scn]; shots = ALL[scn]
+        sc = SCENES[scn]; shots = plan_continuity(ALL[scn])
         ups = []
         for s in shots:
             check(scn, s)
