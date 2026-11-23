@@ -502,7 +502,7 @@ def main():
                f"PASTE THE CHATGPT SETUP MESSAGE FIRST. In Grok: highest quality, 10 seconds, paste the whole video prompt.\n"]
         for s in shots:
             txt.append(f"\n{'='*70}\nSHOT {s['id']} | {s['title']} | Start: {s['start']}\n{'='*70}\n"
-                       + (f"\n[IMAGE PROMPT - Google Flow]\n{image_flow(scn, s)}\n" if int(scn) >= 7 else f"\n[IMAGE PROMPT - ChatGPT]\n{image(scn, s)}\n")
+                       + f"\n[IMAGE PROMPT - ChatGPT]\n{image(scn, s)}\n"
                        + f"\n[VIDEO PROMPT - Grok]\n{video(scn, s)}\n")
             if voice_only(scn, s):
                 txt.append("\n" + capcut_voice(scn, s) + "\n")
