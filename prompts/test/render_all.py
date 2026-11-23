@@ -344,6 +344,74 @@ def capcut_voice(scn, s):
         out.append(f"  Step 2 - in CapCut: Extract audio, place it under this clip at {t}, then Audio > Voice effects > {FX[kind]}.")
     return "\n".join(out)
 
+FRAMING_RE = re.compile(r"^(?:same\s+)?(?:(?:medium|wide|close|low|extreme|low-angle|high|cold)[ -])*(?:close-up|close shot|shot|two-shot|over-the-shoulder shot|view)(?:\s+(?:of|at|from|on|over))?[:,]?\s*", re.I)
+LENS_RE = re.compile(r",?\s*face turned three-quarters toward the camera, [^,]*, never looking into the lens", re.I)
+
+def flow_look(k, scn):
+    """Neutral, Flow-friendly description of a character (no ages, no body or skin rules)."""
+    base = {"ireti": "an adult woman with long black box braids tied back in a low ponytail and small silver stud earrings",
+            "chief": "an elderly man with short snow-white hair and a full white beard",
+            "femi": "an adult man with a short low-cut fade, a neat short black beard and rimless gold glasses",
+            "gabriel": "an adult man with short curly hair, a full beard and clear aviator glasses",
+            "funmi": "a middle-aged woman with a wine-coloured head wrap",
+            "dayo": "a slim young man with a low haircut",
+            "ronke": "a middle-aged woman with a tight black head wrap and neat make-up",
+            "audu": "an older man with a grey-white beard and a white embroidered cap",
+            "hassan": "a middle-aged doctor with short greying hair and a salt-and-pepper beard",
+            "lekan": "a heavy-set older man with gold-rimmed glasses and a thin moustache",
+            "grace": "an adult woman with her hair in cornrows pulled into a low bun",
+            "okoro": "a big older doctor with greying curly hair and a full grey beard",
+            "jide": "a short, heavy man with a short beard",
+            "chioma": "an adult woman with curly hair pulled up, gold sunglasses on her head and big gold hoop earrings",
+            "segun": "a middle-aged man with short hair and a full beard with some grey",
+            "kunle": "a big man with a clean bald head, dark rectangular glasses and a neat goatee",
+            "lola": "a middle-aged woman with big, voluminous dark wavy hair and gold drop earrings",
+            "ajala": "an elderly man with a white beard, round dark sunglasses and a cream fedora"}[k]
+    wear = SCENES[scn]["wear"].get(k, "")
+    return f"{name(k).upper()}: {base}" + (f", wearing {wear}" if wear else "")
+
+def image_flow(scn, s):
+    """Image prompt written for Google Flow: calm, neutral wording, one clear framing."""
+    sc = SCENES[scn]; who = s["who"]
+    detail = LENS_RE.sub("", s["frame"])
+    detail = re.sub(r",?\s*facing the camera(?: at three-quarters)?", "", detail)
+    if s.get("_cover"):
+        S, P, cov = s["_speaker"], s["_partner"], s["_cover"]
+        framing = {"WIDE": f"A wide two-shot showing both {name(S)} and {name(P)} in their places, both faces clearly visible in three-quarter view, looking at each other; {name(S)} is speaking.",
+                   "CLOSE": f"A medium close-up of {name(S)} speaking, face clearly visible in three-quarter view, looking at {name(P)} just out of frame.",
+                   "OTS": f"An over-the-shoulder shot: over {name(P)}'s shoulder onto {name(S)}'s face; the back of {name(P)}'s head soft in the foreground; {name(S)} in sharp focus, looking at {name(P)}."}[cov]
+        detail = FRAMING_RE.sub("", detail)
+        frame = f"{framing} Details of the moment: {detail}"
+    else:
+        frame = detail
+    L = ["A photorealistic still frame from a Nigerian drama film, wide 16:9, shot on a 35mm cinema lens with shallow depth of field."]
+    if who:
+        L.append("Use my uploaded character images for the people in this shot and keep their faces, hairstyles and builds the same as in those images." + (" The framed photo uses my uploaded photo of the father." if s.get("photo") else ""))
+    L.append(f"SCENE: {sc['set']}")
+    L.append(f"FRAMING: {frame}")
+    if s.get("_block"):
+        L.append(f"POSITIONS (keep these exactly): {s['_block']}")
+    prev = s.get("_prev")
+    if prev and who and prev.get("timeline"):
+        L.append(f"CONTINUITY: this frame comes straight after: {prev['timeline'][-1][1]} Same positions, clothes, props and light as that moment.")
+    if who:
+        L.append("PEOPLE: " + " | ".join(flow_look(k, scn) for k in who) + ".")
+        L.append("Nobody looks into the camera; people look at each other or at what they are doing.")
+    L.append("LOOK: natural light from real sources only, a soft, slightly muted film colour grade, gentle film grain, natural skin texture with no glossy or airbrushed look, realistic hands and posture. All people shown are adults. No text, logos or watermarks anywhere.")
+    out = "\n".join(L)
+    for a, b in FLOW_SOFTEN:
+        out = re.sub(a, b, out, flags=re.I)
+    return out
+
+FLOW_SOFTEN = [
+    (r"burnt at the edges", "frayed and darkened at the edges"), (r"\bburnt\b", "scorched"), (r"\bburn scar\b", "healed scar"),
+    (r"there is fire in them", "there is new determination in them"), (r"fire in (his|her) eyes", r"determination in \1 eyes"), (r"cold fire", "cold determination"),
+    (r"with flames rising from its far side", "with a soft orange glow behind it"), (r"flames flicker behind them", "a soft orange glow behind them"),
+    (r"\s*No blood, no injuries (shown|visible)\.?", ""), (r",?\s*no injuries visible", ""),
+    (r"Aunty Ronke in handcuffs", "Aunty Ronke escorted by two police officers"), (r"Ronke in handcuffs", "Ronke escorted by two police officers"), (r"in handcuffs", "escorted by police"),
+    (r"\bslapping\b", "brushing"), (r"\bslaps\b", "brushes"), (r"\bpoisonous\b", "cold"),
+]
+
 def image(scn, s):
     sc = SCENES[scn]; who = s["who"]
     names = ", ".join([C[k][0] for k in who] + ([s["photo"]] if s.get("photo") else []))
@@ -434,7 +502,8 @@ def main():
                f"PASTE THE CHATGPT SETUP MESSAGE FIRST. In Grok: highest quality, 10 seconds, paste the whole video prompt.\n"]
         for s in shots:
             txt.append(f"\n{'='*70}\nSHOT {s['id']} | {s['title']} | Start: {s['start']}\n{'='*70}\n"
-                       f"\n[IMAGE PROMPT - ChatGPT]\n{image(scn, s)}\n\n[VIDEO PROMPT - Grok]\n{video(scn, s)}\n")
+                       + (f"\n[IMAGE PROMPT - Google Flow]\n{image_flow(scn, s)}\n" if int(scn) >= 7 else f"\n[IMAGE PROMPT - ChatGPT]\n{image(scn, s)}\n")
+                       + f"\n[VIDEO PROMPT - Grok]\n{video(scn, s)}\n")
             if voice_only(scn, s):
                 txt.append("\n" + capcut_voice(scn, s) + "\n")
             elif any(parse_owner(o)[0] in ("phone", "screen", "tv") for _, o, _ in s["dialogue"]):
