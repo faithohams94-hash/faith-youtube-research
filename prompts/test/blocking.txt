@@ -1,0 +1,151 @@
+# Staging (blocking) for each scene from Scene 8 on. Each line applies from that shot until the next line.
+# The camera always stays on the same side of the action, so people never swap sides of the frame.
+
+## 8
+8.2 | Outside the tower in the queue: Ireti stands at the end of the queue on the LEFT of the frame; the woman in the sharp grey suit stands just in front of her on the RIGHT, half-turned back toward Ireti. Both standing. Ireti calm and dignified; the woman mocking and superior.
+8.5 | At the gate: Ireti stands on the LEFT of the frame holding the gold card; the security man stands on the RIGHT in front of the gate, facing her. Both standing. Ireti hopeful but nervous; the security man stern, then confused.
+8.8 | Interview hall: the three panelists sit behind the long table on the RIGHT side of the frame, the female panelist in the middle; Ireti sits alone in a big chair on the LEFT, facing them across the room. Everyone stays seated. Ireti nervous but steady; the panel sceptical, then silenced.
+8.13 | Expressway: Ireti walks alone along the roadside from LEFT to RIGHT, slippers in her hand. Tired, sad, a little hopeful.
+
+## 9
+9.2 | Rooftop table: Femi sits on the LEFT side of the table facing RIGHT; Gabriel sits on the RIGHT side facing LEFT; the table and plates between them; the lagoon behind Femi. Both stay seated the whole scene. Femi tired and troubled; Gabriel calm, warm and confident.
+
+## 10
+10.2 | Night, the small room: Ireti sits on the mat in the CENTRE; Dayo asleep on the mat on the LEFT; Mama Funmi lying on her mattress on the RIGHT.
+10.3 | Ireti is now standing in the CENTRE with the phone; Dayo sits up, then stands, on the LEFT; Mama Funmi sits up on her mattress on the RIGHT. Pure joy and disbelief.
+10.5 | Ireti kneels on the mattress hugging her mother on the RIGHT; Dayo stands on the LEFT. Laughing and crying with joy.
+10.8 | Morning at the door: Ireti stands in the doorway on the LEFT holding her small nylon bag; Mama Funmi stands facing her on the RIGHT with both hands on her head; Dayo stands beside his mother, behind her right shoulder. Hopeful, emotional, blessed.
+
+## 11
+11.2 | Femi's office: Femi sits behind the huge glass desk on the RIGHT of the frame, facing LEFT; Ireti stands in front of the desk on the LEFT, hands folded, facing him. Femi stays seated, Ireti stays standing. Femi cold and direct; Ireti humble and determined.
+11.13 | Femi stands up behind the desk on the RIGHT to hand her the card; Ireti still standing on the LEFT. Femi curious; Ireti overwhelmed with quiet joy.
+11.14 | Femi sits back down alone at the desk, watching through the glass wall as Ireti walks away to the LEFT. Puzzled, intrigued.
+
+## 12
+12.2 | Gatehouse: Mallam Audu stands at the gatehouse door on the LEFT; Ireti stands on the RIGHT with her nylon bag, facing him. Both standing. Audu kind and knowing; Ireti nervous.
+12.4 | Grand hall: Ireti stands alone just inside the doorway, small in the room. Nervous, overwhelmed.
+12.5 | Grand hall: Aunty Ronke stands on the LEFT with five cooks in white lined up behind her; Ireti stands on the RIGHT facing her, holding her bag. Both standing. Ronke cold and superior; Ireti polite and unafraid.
+12.11 | Chief's bedroom: Chief sits in his wheelchair on the RIGHT by the tall mirror; Ronke and Ireti stand together in the doorway on the LEFT. Chief cold and closed; Ireti calm and kind; Ronke satisfied.
+12.16 | Upstairs hallway: Ireti stands alone at the family photo. Thoughtful, moved.
+12.17 | Chief alone in his wheelchair at the mirror. Lonely, hurt.
+
+## 13
+13.2 | Chief's bedroom: Chief sits in his wheelchair on the RIGHT with a small table in front of him; Ireti stands on the LEFT beside the table. Chief stays seated. Chief cold and cruel; Ireti bright and patient.
+13.8 | Ireti now kneels at Chief's feet on the LEFT; Chief still seated in his wheelchair on the RIGHT, looking down at her. Chief hard but shaken; Ireti humble and steady.
+13.12 | Night, staff quarters: Ireti alone on a low stool by a bucket, her phone on speaker beside her on the floor. Exhausted and hurt, pretending to be fine.
+
+## 14
+14.2 | Chief's bedroom: Ireti stands at the window on the LEFT holding the curtain; Chief sits in his wheelchair on the RIGHT. Chief angry; Ireti playful and calm.
+14.7 | Ireti stands behind Chief's wheelchair, both hands on the handles, pushing him toward the door. Chief furious; Ireti gentle and determined.
+14.9 | Garden: Chief in his wheelchair in the CENTRE; Ireti stands on his LEFT side, then holds the small umbrella over him. Chief furious; Ireti calm.
+14.14 | Garden in the rain: Chief in his wheelchair in the CENTRE; Ireti stands on his LEFT holding the umbrella over him, soaked; Femi arrives from the RIGHT and stands on Chief's RIGHT side. Chief hurt and scared; Femi worried; Ireti steady.
+14.20 | Evening, Chief's bedroom: Chief in his wheelchair on the RIGHT; Ronke stands on the LEFT holding the silver tray; Ireti stands far back in the doorway. Ronke cold and watchful; Chief tired; Ireti suspicious.
+
+## 15
+15.2 | Dark corridor: Ireti runs alone toward the study door. Frightened.
+15.3 | The study: Chief sits in his wheelchair at the desk on the RIGHT; Ireti stands close at his LEFT side, bending over him. The glass frame with the burnt shirt hangs on the wall behind the desk. Chief terrified, lost in a nightmare; Ireti calm and caring.
+15.6 | Ireti has stepped away from Chief toward the frame on the wall (centre-left); Chief still sits at the desk on the RIGHT. Ireti curious; Chief guarded and pained.
+15.12 | Dark corridor: Ireti alone. Thoughtful, unsettled.
+
+## 16
+16.2 | Gatehouse bench: Ireti sits on the LEFT end of the wooden bench; Mallam Audu sits on the RIGHT end; both turned slightly toward each other, tea in their hands. They stay seated. Audu gentle and sad; Ireti moved, close to tears.
+16.10 | Chief's bedroom: Chief sits in his wheelchair at the window on the RIGHT, in side profile, looking down at the gate; Ireti enters at the door behind him on the LEFT. Chief lonely and proud; Ireti soft.
+16.13 | Ireti sits on a stool at Chief's LEFT side; Chief in his wheelchair on the RIGHT; both look out of the window at the gate. Quiet, tender, lonely together.
+
+## 17
+17.2 | Chief's bedroom: Chief sits in his wheelchair on the RIGHT facing the TV; Ireti kneels at his feet on the LEFT, massaging his legs. Chief guarded, then softening; Ireti playful and warm.
+17.12 | Outside the concert hall at night.
+17.13 | Ireti stands behind Chief's wheelchair pushing him up the ramp. Chief nervous and grumpy; Ireti excited.
+17.15 | On stage: Commander Ajala stands at the microphone. Joyful showman.
+17.16 | In the crowd: Chief in his wheelchair in the CENTRE, Ireti standing behind him holding the handles, the crowd around them. Chief overwhelmed; Ireti joyful.
+17.19 | Back seat of the car at night: Chief sits on the RIGHT side of the back seat; Ireti sits on the LEFT side by the window. Both stay seated. Quiet, tender, moved.
+
+## 18
+18.2 | The dark kitchen: Ireti alone at the medicine cabinet and pantry. Tense, secretive.
+18.5 | Ireti stands at the open cabinet on the LEFT; Ronke stands in the dark doorway on the RIGHT, then steps closer. Both standing. Ronke cold and threatening; Ireti calm on the outside, scared inside.
+18.10 | Ronke alone at the cabinet, then in the dark pantry on the phone. Cold, worried, plotting.
+
+## 19
+19.2 | Chief's bedroom: the scan lightbox stands on the LEFT with Dr. Hassan beside it and Femi next to him (both standing); Chief sits in his wheelchair on the RIGHT facing them, arms folded; Ireti stands by the far wall in the background between them. Hassan hopeful; Femi eager; Chief closed and cold; Ireti hopeful.
+19.15 | Chief has turned his wheelchair to face the mirror on the RIGHT, his back half to the room; Femi stands behind him on the LEFT. Chief bitter and broken; Femi desperate.
+19.18 | Upstairs corridor: Femi alone. Frustrated, heartbroken.
+19.19 | Top of the staircase: Ireti stands on the LEFT; Dr. Hassan stands on the RIGHT facing her, holding his bag. Both standing. Secretive, urgent, serious.
+
+## 20
+20.2 | Night, Chief's bedroom: Chief sits in his wheelchair on the RIGHT facing the tall mirror; Ireti sits on the floor at his LEFT side, looking up at him. Both stay where they are for the whole scene. Chief broken and bitter; Ireti gentle, honest and brave.
+
+## 21
+21.2 | Recovery room: Chief lies in the bed on the RIGHT; Ireti sits on a chair at the bedside on the LEFT, leaning close to his face. Exhausted, tender, joyful.
+21.5 | Femi stands in the doorway on the far LEFT holding two coffees, looking at them. Amazed, moved.
+
+## 22
+22.2 | Rehab room: Chief strapped in the standing frame in the CENTRE; the physiotherapist on the RIGHT; Ireti standing on the LEFT cheering. Chief straining; Ireti encouraging.
+22.5 | Grand hall: the easel on the LEFT with Ireti beside it; Chief in his wheelchair on the RIGHT. Ireti amazed; Chief gruff, then curious.
+22.8 | Garden driveway: Chief in his wheelchair on the RIGHT; Ireti walks up from the LEFT carrying the puppy. Chief shocked, then softening; Ireti delighted.
+22.13 | Garden: Chief at the easel; later Ireti and Mallam Audu at the fountain in front of him. Peaceful, joyful.
+
+## 23
+23.1 | Living room a week earlier: Chief in his wheelchair on the RIGHT; Ireti sits on the sofa on the LEFT; the TV in front of them. Chief grumpy, then wistful; Ireti thoughtful.
+23.4 | Garden path: Chief in his wheelchair on the RIGHT, Ireti standing at his LEFT; Mallam Audu runs up toward them from the gate in the background. Audu excited; Chief stunned; Ireti innocent.
+23.8 | The lawn: Chief in his wheelchair at the front, facing the seated crowd; Ireti stands at the LEFT edge of the crowd. Chief nervous, then confident and moved; Ireti proud.
+23.13 | The driveway: Lekan arrives from the RIGHT and stands at Chief's RIGHT side. Lekan fake-friendly, cold underneath; Chief happy and alive.
+
+## 24
+24.2 | Behind the gazebo: Ireti alone with her phone. Shock growing into horror.
+24.8 | The grand hall: Femi, Ronke and two security men stand in a group on the RIGHT around Ireti's open bag on the floor; Ireti stands in the doorway on the LEFT. Cold, suspicious, tense.
+
+## 25
+25.2 | The grand hall: Femi, Ronke and two security men stand on the RIGHT around the open bag; Ireti stands in the doorway on the LEFT. Ronke triumphant and cruel; Femi cold and hurt; Ireti shocked.
+25.9 | The lift opens on the far RIGHT: Chief rolls out in his wheelchair and stays on the RIGHT near Femi; Ireti still on the LEFT. Chief happy, then devastated.
+25.12 | Ireti now kneels beside Chief's wheelchair on his LEFT side; Chief seated on the RIGHT; Femi and Ronke stand behind Chief on the RIGHT. Ireti desperate; Chief torn and hurt.
+25.16 | Ireti stands and walks back to the doorway on the LEFT; Chief stays in his wheelchair on the RIGHT with his face turned away. Ireti heartbroken but dignified; Chief broken.
+25.18 | Front steps: Ireti alone with her phone. Panic.
+25.19 | The long driveway: Ireti runs away from the camera toward the gate; the puppy chases her; Mallam Audu at the gate. Desperate.
+25.20 | The grand hall: Ronke on the LEFT by the portrait; Chief in his wheelchair on the RIGHT, face turned to the wall. Ronke victorious; Chief silently crying.
+
+## 26
+26.2 | Night, Chief's bedroom: Chief sits in his wheelchair CENTRE-RIGHT; Ronke stands on the LEFT holding the silver tray. Chief suspicious, cold; Ronke calm on the outside.
+26.4 | Mallam Audu stands in the doorway on the far LEFT, cap in his hands; Ronke on the LEFT near the tray; Chief in his wheelchair on the RIGHT. Audu humble and brave; Ronke alarmed; Chief listening hard.
+26.9 | Dr. Hassan steps in beside Audu in the doorway on the LEFT. Grave, serious.
+26.12 | Chief in his wheelchair on the RIGHT holds out the tablet; Ronke stands on the LEFT facing him. Chief cold fire; Ronke terrified.
+26.15 | Ronke is now on her knees on the floor on the LEFT, in front of Chief; Chief still in his wheelchair on the RIGHT. Ronke sobbing and broken; Chief cold and calm.
+26.17 | Femi rushes in to the doorway on the LEFT and stays there; Ronke on her knees; Chief on the RIGHT. Femi shocked and ashamed; Chief determined.
+26.25 | En-suite bathroom: Chief alone at the toilet; Audu in the doorway. Resolved.
+
+## 27
+27.2 | Night ward: Mama Funmi lies in the last bed on the RIGHT by the window with an oxygen mask; Ireti sits on the floor at the LEFT side of the bed holding her hand; Dayo asleep against the wall on the far LEFT. Exhausted, grieving.
+27.3 | Femi pushes Chief's wheelchair down the aisle toward the camera; patients in beds on both sides. Chief humble and determined.
+27.4 | Ireti now stands on the LEFT side of the bed; Chief's wheelchair stops at the foot of the bed facing her, Femi standing behind it; Mama Funmi in the bed on the RIGHT. Everyone stays in these places for the rest of the scene unless written. Deeply emotional, shocked, then overwhelmed.
+27.13 | Flashback on the dark highway (separate place and time).
+27.14 | Back in the ward: same places as before (Mama Funmi in bed on the RIGHT, Ireti on the LEFT side of the bed, Chief at the foot of the bed, Femi behind him). Overwhelmed, tearful, holy.
+27.25 | Ireti kneels with her head in Chief's lap at the foot of the bed; Femi stands behind the wheelchair; Mama Funmi on the RIGHT; Dayo now awake by the wall on the far LEFT. Tears of relief.
+
+## 28
+28.2 | Segun's office: Segun sits behind his desk on the RIGHT; Ireti sits in the chair across the desk on the LEFT; Femi stands by the window behind Ireti; the big wall screen with Kunle and Lola is on the wall behind Segun. Everyone seated stays seated. Segun busy and dismissive, then shaken; Ireti calm and firm; Femi tense.
+28.19 | Segun now stands up behind his desk on the RIGHT; Ireti still seated on the LEFT; Femi by the window. Segun guilty and determined.
+28.21 | Outside the tower: Ireti and Femi walk side by side toward the camera, Ireti on the LEFT, Femi on the RIGHT. Femi amazed; Ireti calm and kind.
+
+## 29
+29.2 | Rehab room: the parallel bars run across the frame; Chief stands at the LEFT end gripping the bars; Ireti stands at the RIGHT end with her arms open; Dr. Hassan and the physiotherapist stand beside the bars in the middle background. Chief walks from LEFT to RIGHT toward Ireti. Tense, hopeful, then overjoyed.
+29.15 | Ireti on the mat at the RIGHT end holding her phone; Chief still holding the bars, coming toward her from the LEFT. Pure joy.
+
+## 30
+30.2 | Boardroom: the long table runs across the room; Lekan stands at the head of the table on the RIGHT end; Femi sits at the far LEFT end; board members seated along both sides; the wooden double doors are behind Femi at the LEFT end. Lekan smug and confident; Femi angry and trapped.
+30.9 | The double doors at the LEFT end open: Chief stands in the doorway with Ireti on his LEFT arm; Gabriel, Dr. Hassan, two police officers and Ronke in handcuffs behind them. Stunned silence.
+30.10 | Chief walks alone from the doors on the LEFT along the table toward Lekan at the head on the RIGHT; Ireti, Gabriel, Hassan and the police stay by the doors on the LEFT. Chief powerful and calm; the board amazed; Lekan terrified.
+30.13 | Chief now stands at the head of the table on the RIGHT beside Lekan, both hands on his cane; Femi standing at the far LEFT end; Gabriel and Hassan come forward to the table. Chief commanding; Lekan cornered and desperate.
+30.21 | Two police officers lead Lekan out toward the doors on the LEFT. Lekan defeated.
+30.22 | Chief at the head of the table on the RIGHT; board members standing; Femi comes around the table to hug him; Ireti by the doors on the LEFT. Triumph and tears.
+
+## 31
+31.2 | Chief's bedroom: Chief stands at the window on the RIGHT with his cane; Ireti stands beside him on the LEFT with the tea. Both looking down at the gate. Calm, a little sad, then overwhelmed.
+31.6 | The driveway below: the families stand by the three cars looking up at the window. Joyful, nervous, sorry.
+31.9 | Top of the staircase: Chief stands at the top holding the banister; Ireti one step behind him; the family gathers at the bottom below the portrait. Overwhelmed, tearful.
+31.13 | Dining hall: Chief sits at the head of the long table in the CENTRE; the empty chair at his right hand is on the LEFT of the frame; Segun sits on the LEFT side of the table further down, Lola and Kunle on the RIGHT side; Ireti stands serving at the far LEFT edge. Everyone stays seated except Ireti until she sits. Warm, joyful, emotional.
+31.17 | Ireti now sits in the chair at Chief's right hand (LEFT of the frame, next to him). Warm, moved, belonging.
+
+## 32
+32.2 | The new house gate: Chief stands at the gate on the RIGHT holding out keys; Mama Funmi and Dayo stand by the black car on the LEFT; Ireti beside her mother; Femi leans on the car behind them. Joyful, tearful, grateful.
+32.9 | University gate: Ireti walks through the gate; Chief and Femi in the car on the RIGHT waving. Proud, happy.
+32.10 | The mansion garden: Chief stands at the microphone in front of the crowd, the puppy at his feet. Strong, joyful.
+32.12 | Sunset at the fountain: Ireti sits on the LEFT on the edge of the fountain; Chief sits on the RIGHT beside her, both with tea. Both stay seated. Peaceful, wise, loving.

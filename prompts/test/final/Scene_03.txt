@@ -97,7 +97,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Hot afternoon in an old government hospital. Tired, hopeful, then heartbreaking. Soft dusty daylight through louvre windows, the slow turn of a ceiling fan casting gentle moving shadows, worn green walls. Natural, real, never glossy.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
-8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a ceiling fan whirring, soft murmurs in the ward, distant traffic. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
 
@@ -136,7 +136,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Hot afternoon in an old government hospital. Tired, hopeful, then heartbreaking. Soft dusty daylight through louvre windows, the slow turn of a ceiling fan casting gentle moving shadows, worn green walls. Natural, real, never glossy.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
-8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a ceiling fan whirring, soft murmurs in the ward, distant traffic. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
 
@@ -175,7 +175,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Hot afternoon in an old government hospital. Tired, hopeful, then heartbreaking. Soft dusty daylight through louvre windows, the slow turn of a ceiling fan casting gentle moving shadows, worn green walls. Natural, real, never glossy.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
-8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a ceiling fan whirring, soft murmurs in the ward, distant traffic. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
 
@@ -215,7 +215,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Hot afternoon in an old government hospital. Tired, hopeful, then heartbreaking. Soft dusty daylight through louvre windows, the slow turn of a ceiling fan casting gentle moving shadows, worn green walls. Natural, real, never glossy.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
-8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a ceiling fan whirring, soft murmurs in the ward, distant traffic. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
 
@@ -253,7 +253,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Hot afternoon in an old government hospital. Tired, hopeful, then heartbreaking. Soft dusty daylight through louvre windows, the slow turn of a ceiling fan casting gentle moving shadows, worn green walls. Natural, real, never glossy.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
-8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a ceiling fan whirring, soft murmurs in the ward, distant traffic. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
 
@@ -290,7 +290,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 5. CAMERA: Static, then a slight pan as he walks away. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Hot afternoon in an old government hospital. Tired, hopeful, then heartbreaking. Soft dusty daylight through louvre windows, the slow turn of a ceiling fan casting gentle moving shadows, worn green walls. Natural, real, never glossy.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
-8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a ceiling fan whirring, soft murmurs in the ward, distant traffic. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
 
@@ -362,7 +362,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Hot afternoon in an old government hospital. Tired, hopeful, then heartbreaking. Soft dusty daylight through louvre windows, the slow turn of a ceiling fan casting gentle moving shadows, worn green walls. Natural, real, never glossy.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
-8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a ceiling fan whirring, soft murmurs in the ward, distant traffic. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
 
@@ -434,7 +434,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Hot afternoon in an old government hospital. Tired, hopeful, then heartbreaking. Soft dusty daylight through louvre windows, the slow turn of a ceiling fan casting gentle moving shadows, worn green walls. Natural, real, never glossy.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
-8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a ceiling fan whirring, soft murmurs in the ward, distant traffic. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
 
@@ -472,7 +472,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 5. CAMERA: Very slow push-in. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Hot afternoon in an old government hospital. Tired, hopeful, then heartbreaking. Soft dusty daylight through louvre windows, the slow turn of a ceiling fan casting gentle moving shadows, worn green walls. Natural, real, never glossy.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
-8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a ceiling fan whirring, soft murmurs in the ward, distant traffic. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
 
@@ -509,7 +509,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 5. CAMERA: Static close-up. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Hot afternoon in an old government hospital. Tired, hopeful, then heartbreaking. Soft dusty daylight through louvre windows, the slow turn of a ceiling fan casting gentle moving shadows, worn green walls. Natural, real, never glossy.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
-8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a ceiling fan whirring, soft murmurs in the ward, distant traffic. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
 
@@ -547,7 +547,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Hot afternoon in an old government hospital. Tired, hopeful, then heartbreaking. Soft dusty daylight through louvre windows, the slow turn of a ceiling fan casting gentle moving shadows, worn green walls. Natural, real, never glossy.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
-8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a ceiling fan whirring, soft murmurs in the ward, distant traffic. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
 
@@ -584,7 +584,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 5. CAMERA: Static close-up. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Hot afternoon in an old government hospital. Tired, hopeful, then heartbreaking. Soft dusty daylight through louvre windows, the slow turn of a ceiling fan casting gentle moving shadows, worn green walls. Natural, real, never glossy.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
-8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a ceiling fan whirring, soft murmurs in the ward, distant traffic. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
 
@@ -623,7 +623,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 5. CAMERA: Static wide. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Hot afternoon in an old government hospital. Tired, hopeful, then heartbreaking. Soft dusty daylight through louvre windows, the slow turn of a ceiling fan casting gentle moving shadows, worn green walls. Natural, real, never glossy.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
-8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a ceiling fan whirring, soft murmurs in the ward, distant traffic. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
 
@@ -694,7 +694,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Hot afternoon in an old government hospital. Tired, hopeful, then heartbreaking. Soft dusty daylight through louvre windows, the slow turn of a ceiling fan casting gentle moving shadows, worn green walls. Natural, real, never glossy.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
-8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a ceiling fan whirring, soft murmurs in the ward, distant traffic. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
 
@@ -732,7 +732,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Hot afternoon in an old government hospital. Tired, hopeful, then heartbreaking. Soft dusty daylight through louvre windows, the slow turn of a ceiling fan casting gentle moving shadows, worn green walls. Natural, real, never glossy.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
-8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a ceiling fan whirring, soft murmurs in the ward, distant traffic. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
 
@@ -770,7 +770,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 5. CAMERA: Static close-up. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Hot afternoon in an old government hospital. Tired, hopeful, then heartbreaking. Soft dusty daylight through louvre windows, the slow turn of a ceiling fan casting gentle moving shadows, worn green walls. Natural, real, never glossy.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
-8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a ceiling fan whirring, soft murmurs in the ward, distant traffic. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
 
@@ -808,7 +808,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Hot afternoon in an old government hospital. Tired, hopeful, then heartbreaking. Soft dusty daylight through louvre windows, the slow turn of a ceiling fan casting gentle moving shadows, worn green walls. Natural, real, never glossy.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
-8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.
+8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a ceiling fan whirring, soft murmurs in the ward, distant traffic. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
 

@@ -59,10 +59,24 @@ def parse_owner(o):
 def onscreen_speakers(s):
     return [parse_owner(o)[1] for _, o, _ in s["dialogue"] if parse_owner(o)[0] == "on"]
 
-def plan_continuity(shots):
+BLOCK = {}
+_cur = None
+for _l in (HERE / "blocking.txt").read_text().splitlines():
+    _l = _l.strip()
+    if not _l or _l.startswith("# "): continue
+    if _l.startswith("## "): _cur = _l[3:].strip(); BLOCK[_cur] = []; continue
+    _id, _t = [x.strip() for x in _l.split("|", 1)]; BLOCK[_cur].append((_id, _t))
+
+def plan_continuity(shots, scn="0"):
     """Give every shot its previous shot, its conversation partner and eyeline notes."""
+    order = {sh["id"]: i for i, sh in enumerate(shots)}
+    for _id, _t in BLOCK.get(scn, []):
+        assert _id in order, ("blocking id not found", scn, _id)
     for i, s in enumerate(shots):
+        s["_scn"] = scn
         s["_prev"] = shots[i - 1] if i > 0 else None
+        blk = [t for _id, t in BLOCK.get(scn, []) if order[_id] <= i]
+        s["_block"] = blk[-1] if blk else None
         sp = list(dict.fromkeys(onscreen_speakers(s)))
         s["_speaker"] = sp[0] if sp else None
         partner = None
@@ -126,13 +140,20 @@ def video(scn, s):
         L.append(f"2B. EYE CONTACT: {ey}")
     if who:
         L.append(f"2C. EMOTION: faces and bodies show exactly what this moment means: {s['scene']} Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.")
+    if s.get("_block"):
+        L.append(f"2D. STAGING (exactly the same as the previous shot unless the timestamps say someone moves): {s['_block']} Sitting people stay sitting, standing people stay standing, and nobody changes side of the frame. The camera stays on the same side of the action, so left stays left and right stays right in every shot.")
+    if who and int(scn) >= 6:
+        L.append("2E. REACTIONS: every listener reacts with their whole body to what they hear, as real people do. Bad news: shoulders drop, faces fall, eyes fill, breathing catches, hands go to the mouth or chest. Insults: the body stiffens, the jaw tightens, the eyes flash. Good news: the face opens, eyes shine, breath rushes out. Never a neutral face, never a smile at bad news.")
     if s["dialogue"]:
         d = ["3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):"]
         voiced, speakers_on, voices_off = set(), set(), set()
         for t, o, line in s["dialogue"]:
             kind, k, look = parse_owner(o)
             if kind == "on":
-                d.append(f'   {t} - {name(k).upper()} ({ident(scn, k)}) says: "{line}"')
+                if int(scn) >= 6:
+                    d.append(f'   {t} - {name(k).upper()} ({ident(scn, k)}) says EXACTLY these words and NOTHING else: "{line}" Then {she(k)} stops talking.')
+                else:
+                    d.append(f'   {t} - {name(k).upper()} ({ident(scn, k)}) says: "{line}"')
                 if k not in voiced:
                     d.append(f"   {name(k)}'s voice: {C[k][2].split(':',1)[-1].strip()}. These words come ONLY from {name(k)}'s mouth.")
                 voiced.add(k); speakers_on.add(k)
@@ -160,12 +181,18 @@ def video(scn, s):
                 d.append(f"   {name(w).upper()} ({ident(scn, w)}) does NOT talk: mouth closed the whole time, only reacting.")
         if speakers_on and not voices_off:
             d.append("   No phone, TV or off-screen voice is heard. Nobody else says these lines.")
+        if int(scn) >= 6:
+            d.append("   STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.")
         L += d
     else:
         L.append("3. DIALOGUE: NONE. Nobody speaks. Every mouth stays closed. No voices at all.")
     L.append("4. TIMESTAMPS:")
+    def _sec(x): 
+        m, sec = x.split(":"); return int(m) * 60 + int(sec)
+    last_line = max([_sec(t.split("-")[1]) for t, _, _ in s["dialogue"]] or [-1])
     for t, a in s["timeline"]:
-        L.append(f"   {t} - {a}")
+        silent = int(scn) >= 6 and s["dialogue"] and _sec(t.split("-")[0]) >= last_line
+        L.append(f"   {t} - {a}" + (" (in complete silence, no words)" if silent else ""))
     if who:
         L.append(f"4A. CONTINUITY OUT: end on: {s['timeline'][-1][1]} Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.")
         L.append("4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.")
@@ -174,7 +201,7 @@ def video(scn, s):
     L.append(f"7. LOOK / EFFECT: {LOOK}" + (f" {s['extra_look']}" if s.get('extra_look') else ""))
     on_talk = any(parse_owner(o)[0] in ("on", "x") for _, o, _ in s["dialogue"])
     if on_talk:
-        L.append("8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts only with their faces.")
+        L.append(("8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed." if int(scn) >= 6 else "8. LIP-SYNC & BODY: the speaker's lips match every word exactly, with natural breaths and pauses.") + " Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.")
     else:
         L.append("8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.")
     snd = s.get("sound") or build.AMBIENCE.get(scn, "quiet room tone")
@@ -199,6 +226,8 @@ def image(scn, s):
     prev = s.get("_prev")
     cont = (f"\nCONTINUITY: this frame comes straight after: {prev['timeline'][-1][1]} Same positions, same eyelines, same props in their hands, same wardrobe and light." if prev and who and prev.get("timeline") else "")
     eyes = f"\nEYES: {ey}" if ey else ""
+    if s.get("_block"):
+        eyes += f"\nSTAGING (keep exactly; this wins over anything above if different): {s['_block']} The camera is on the same side of the action as the other shots of this scene, so everyone stays on the same side of the frame."
     return (f"{head}\nCreate one image, highest resolution, sharp and clear.\nFRAME: {frame}{face}{cont}{eyes}\nSETTING (identical in every shot of this scene): {sc['set']}"
             + (f"\nCHARACTERS: {look}" if look else "") + f"\n{build.IMAGE_LOCK}")
 
@@ -254,7 +283,7 @@ def main():
     out = HERE / "final"; out.mkdir(exist_ok=True)
     total = 0
     for scn in sorted(ALL, key=int):
-        sc = SCENES[scn]; shots = plan_continuity(ALL[scn])
+        sc = SCENES[scn]; shots = plan_continuity(ALL[scn], scn)
         ups = []
         for s in shots:
             check(scn, s)
