@@ -101,7 +101,7 @@ def plan_continuity(shots, scn="0"):
         plan_coverage(shots)
     return shots
 
-PHONE_RE = re.compile(r"phone (?:held|to)|on the phone|phone up|holding (?:his|her) phone|phone in (?:his|her) hand|phone call|phone low|phone to (?:his|her) ear|phone screen|video call|wall screen", re.I)
+PHONE_RE = re.compile(r"phone (?:held|to)|on the phone|phone up|holding (?:his|her) phone|phone in (?:his|her) hand|phone call|phone low|phone to (?:his|her) ear|phone at (?:his|her) ear|phone screen|video call|wall screen", re.I)
 
 def plan_coverage(shots):
     """Film-style coverage: wide two-shot to open a conversation and after a long speech,
@@ -147,7 +147,7 @@ def eyeline(scn, s):
     if s.get("_speaker"):
         S, P = s["_speaker"], s.get("_partner")
         fr = s["frame"].lower()
-        if re.search(r"phone (?:held|to)|on the phone|phone up|holding (?:his|her) phone|phone in (?:his|her) hand|phone call|phone low", fr):
+        if re.search(r"phone (?:held|to|at)|on the phone|phone up|holding (?:his|her) phone|phone in (?:his|her) hand|phone call|phone low", fr):
             if scn != "1" and not re.search(r"video call|screen", fr + " " + s["scene"].lower()):
                 return f"{name(S)} speaks into the phone at {pro(S)} ear, eyes looking ahead or down into the distance as people do on a call. Nobody looks into the camera lens at any moment."
             return f"{name(S)} keeps {pro(S)} eyes on the phone screen, talking to the face on the video call. Nobody looks into the camera lens at any moment."
@@ -162,7 +162,14 @@ def eyeline(scn, s):
         return "Everyone keeps looking where they were looking in the first frame (at each other, or at the action), and only changes when the timestamps say so. Nobody looks into the camera lens at any moment."
     return f"{name(who[0])}'s eyes follow the action exactly as written; {she(who[0])} never looks into the camera lens."
 
+VOICE_KINDS = ("phone", "screen", "tv", "pa", "off", "memory")
+
+def voice_only(scn, s):
+    return int(scn) >= 7 and s["dialogue"] and all(parse_owner(o)[0] in VOICE_KINDS for _, o, _ in s["dialogue"])
+
 def video(scn, s):
+    if voice_only(scn, s):
+        return video_listen(scn, s)
     who = s["who"]; L = []
     if s.get("ref"):
         refs = " ".join(f"IMAGE {i+2} is the face of {name(k).upper()} ({ident(scn, k)}): {name(k)}'s face MUST be exactly the face in image {i+2} in every frame, the same person, not a lookalike, especially when the camera shows the face." for i, k in enumerate(s["ref"]))
@@ -295,6 +302,48 @@ def video(scn, s):
         L.append(f"FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; {voice_chk}; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; {eyes_chk}; faces stay the same people; the light and mood stay exactly as in the image.")
     return "\n".join(L)
 
+def video_listen(scn, s):
+    """A listening clip: Grok makes NO voice at all; the off-screen voice is added in CapCut."""
+    who = s["who"]; L = []
+    src = {"phone": "a phone call", "screen": "a video call on the screen", "tv": "the TV", "pa": "the stage speakers", "off": "someone off-screen", "memory": "a memory"}
+    kind = parse_owner(s["dialogue"][0][1])[0]
+    L.append("THIS CLIP IS SILENT. NOBODY TALKS. NO VOICES AT ALL. Only the background sounds below. Do not make anyone speak.")
+    L.append(f"1. SCENE: {s['scene']}")
+    L.append(f"2. STAR & FOCUS: {s.get('focus') or (name(who[0]) + chr(39) + 's face, listening') if who else 'the place'}")
+    for w in who:
+        L.append(f"   {name(w).upper()} = {ident(scn, w)}. {name(w).upper()} does NOT talk: lips pressed together for the whole clip, no mouth movement at all.")
+    L.append(f"3. WHAT IS HAPPENING: {', '.join(name(w) for w in who) or 'Everyone'} {'is' if len(who) < 2 else 'are'} listening to {src[kind]} in silence. The voice they hear is NOT in this video. Nobody on screen speaks, whispers or mouths words.")
+    if s.get("_block"):
+        L.append(f"4. STAGING: {s['_block']} Nobody changes position, side or posture.")
+    L.append("5. TIMESTAMPS:")
+    for t, a in s["timeline"]:
+        L.append(f"   {t} - {a} (mouth closed, silent)")
+    L.append("6. EYES: eyes on the phone or screen, or looking down in thought. Nobody looks into the camera lens.")
+    L.append(f"7. EMOTION: {s['scene']} Show it only through the eyes, the jaw, the breathing and the body.")
+    L.append(f"8. CAMERA: {s['camera']} No shake, no zoom.")
+    L.append(f"9. MOOD & LIGHTING: {s.get('mood') or MOODS[scn]}")
+    L.append("10. LOOK: Photorealistic 35mm feature film, highest resolution, sharp, soft film grain, matte natural skin. Faces stay exactly the same people as in the image.")
+    L.append(f"11. SOUND: only {s.get('sound') or build.AMBIENCE.get(scn, 'quiet room tone')}. NO VOICES. No music.")
+    end = max(int(t.split("-")[1].split(":")[1]) for t, _ in s["timeline"])
+    dur = s.get("dur") or max(5, min(10, end))
+    L.append(f"12. DURATION: exactly {dur} seconds, one continuous shot.")
+    L.append("FINAL CHECK: nobody on screen talks or moves their lips at any moment; this is a silent listening shot.")
+    return "\n".join(L)
+
+def capcut_voice(scn, s):
+    FX = {"phone": "Telephone", "screen": "Telephone (lighter)", "tv": "Radio or Telephone", "pa": "Megaphone, or Hall reverb", "off": "no effect; lower the volume a little", "memory": "Echo"}
+    out = []
+    for t, o, line in s["dialogue"]:
+        kind, k, _ = parse_owner(o)
+        who = name(k).upper() if k in C else k.upper()
+        out.append(f"VOICE TO ADD IN CAPCUT at {t}: {who}: \"{line}\"")
+        if k in C:
+            out.append(f"  Step 1 - make the voice in Grok: upload {who}'s approved image and paste: \"Static close-up. {VIS[k][0].upper() + VIS[k][1:]} speaks, facing slightly off-camera: '{line}' Voice: {C[k][2].split(':', 1)[-1].strip()}. Only these words. Sound: clear voice only, no music. 10 seconds.\" Keep only the audio.")
+        else:
+            out.append("  Step 1 - make the voice with CapCut text-to-speech (a clear Nigerian news voice) or record it.")
+        out.append(f"  Step 2 - in CapCut: Extract audio, place it under this clip at {t}, then Audio > Voice effects > {FX[kind]}.")
+    return "\n".join(out)
+
 def image(scn, s):
     sc = SCENES[scn]; who = s["who"]
     names = ", ".join([C[k][0] for k in who] + ([s["photo"]] if s.get("photo") else []))
@@ -386,7 +435,9 @@ def main():
         for s in shots:
             txt.append(f"\n{'='*70}\nSHOT {s['id']} | {s['title']} | Start: {s['start']}\n{'='*70}\n"
                        f"\n[IMAGE PROMPT - ChatGPT]\n{image(scn, s)}\n\n[VIDEO PROMPT - Grok]\n{video(scn, s)}\n")
-            if any(parse_owner(o)[0] in ("phone", "screen", "tv") for _, o, _ in s["dialogue"]):
+            if voice_only(scn, s):
+                txt.append("\n" + capcut_voice(scn, s) + "\n")
+            elif any(parse_owner(o)[0] in ("phone", "screen", "tv") for _, o, _ in s["dialogue"]):
                 txt.append("\nBACKUP if Grok still moves the listener's mouth: regenerate once. If it happens again, make this clip with DIALOGUE: NONE and add the line in CapCut (Audio > Voice effects > Telephone).\n")
         (out / f"Scene_{int(scn):02d}.txt").write_text("".join(txt))
         total += len(shots)

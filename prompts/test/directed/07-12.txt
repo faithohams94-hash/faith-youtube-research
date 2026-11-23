@@ -440,17 +440,28 @@ T: 0:01-0:06 | He repeats her words quietly.
 T: 0:06-0:10 | Femi goes quiet at the edge of the frame.
 C: Static.
 
-# 9.12 | The call from Lekan | who: femi, gabriel
-F: Medium shot at the rooftop table: Femi sitting on the LEFT, holding his phone to his ear, face clearly visible in three-quarter view, troubled; Gabriel sitting across the table on the RIGHT, watching him in silence; plates between them, the lagoon behind Femi.
-S: A phone conversation at lunch: Lekan speaks first through the phone with a threat dressed as concern, then Femi answers him firmly; Gabriel only watches.
-X: Femi's face, the phone at his ear; Gabriel silent across the table.
-D: 0:00-0:05 | phone:lekan | Femi, my son. The board is worried. If Chief is incapacitated, the AGM must discuss the chairmanship.
-D: 0:06-0:09 | femi | He's not incapacitated, Uncle Lekan. He's injured.
-T: 0:00-0:05 | Lekan's voice comes from the phone at Femi's ear. Femi listens with his mouth closed, frowning; Gabriel watches.
-T: 0:05-0:06 | Femi's jaw tightens; he straightens in his chair.
-T: 0:06-0:09 | Femi answers into the phone, firm; the phone is silent while he speaks.
-T: 0:09-0:10 | Femi lowers the phone from his ear and puts it face down on the table; Gabriel watches him.
+# 9.12 | Lekan's call: Femi listens | who: femi, gabriel
+F: Medium shot at the rooftop table: Femi sitting on the LEFT in his navy three-piece suit, holding his phone to his ear, face clearly visible in three-quarter view, mouth closed, troubled; Gabriel sitting across the table on the RIGHT in his grey suit, watching him in silence; plates between them, the lagoon behind Femi.
+S: Femi listens on the phone to Lekan, whose words hide a threat; he says nothing.
+X: Femi's face as he listens to the phone, mouth closed; Gabriel silent across the table.
+D: 0:00-0:06 | phone:lekan | Femi, my son. The board is worried. If Chief is incapacitated, the AGM must discuss the chairmanship.
+T: 0:00-0:02 | Femi holds the phone to his ear and listens, mouth closed.
+T: 0:02-0:05 | His frown deepens; his eyes drop to the table.
+T: 0:05-0:06 | His jaw tightens and he sits up straight, mouth still closed.
 C: Static medium shot.
+M: Bright day on a luxury rooftop above the lagoon, soft daylight under a canopy, clean natural colour.
+
+# 9.13 | Femi answers: "He's injured." | who: femi, gabriel
+F: Same medium shot at the rooftop table: Femi on the LEFT in his navy three-piece suit, phone at his ear, sitting up straight, firm; Gabriel on the RIGHT in his grey suit, watching.
+S: Femi firmly answers Lekan on the phone, then ends the call.
+X: Femi's face as he speaks into the phone.
+D: 0:01-0:05 | femi | He's not incapacitated, Uncle Lekan. He's injured.
+T: 0:00-0:01 | Femi takes a breath, the phone still at his ear.
+T: 0:01-0:05 | He says it firmly into the phone.
+T: 0:05-0:08 | He lowers the phone from his ear and puts it face down on the table.
+T: 0:08-0:10 | He stares at the phone, troubled; Gabriel watches him.
+C: Static medium shot.
+start: Last frame of 9.12
 
 # 9.14 | "Hire the waitress." | who: femi, gabriel
 F: Medium shot of Femi sliding the folder across the table toward Gabriel, facing the camera.

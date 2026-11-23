@@ -477,14 +477,54 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
-SHOT 9.12 | The call from Lekan | Start: New image
+SHOT 9.12 | Lekan's call: Femi listens | Start: New image
 ======================================================================
 
 [IMAGE PROMPT - ChatGPT]
 CHARACTERS IN THIS IMAGE: FEMI (33), GABRIEL (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
-FRAME: Medium shot at the rooftop table: Femi sitting on the LEFT, holding his phone to his ear, face clearly visible in three-quarter view, troubled; Gabriel sitting across the table on the RIGHT, watching him in silence; plates between them, the lagoon behind Femi. The face of FEMI is clearly visible in three-quarter view with the mouth in view.
+FRAME: Medium shot at the rooftop table: Femi sitting on the LEFT in his navy three-piece suit, holding his phone to his ear, face clearly visible in three-quarter view, mouth closed, troubled; Gabriel sitting across the table on the RIGHT in his grey suit, watching him in silence; plates between them, the lagoon behind Femi.
 CONTINUITY: this frame comes straight after: Femi goes quiet at the edge of the frame. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: Everyone in the frame keeps their eyes on the phone or screen they are listening to, or looks down in thought. Nobody looks into the camera lens at any moment.
+STAGING (keep exactly; this wins over anything above if different): Rooftop table: Femi sits on the LEFT side of the table facing RIGHT; Gabriel sits on the RIGHT side facing LEFT; the table and plates between them; the lagoon behind Femi. Both stay seated the whole scene. Femi tired and troubled; Gabriel calm, warm and confident. The camera is on the same side of the action as the other shots of this scene, so everyone stays on the same side of the frame.
+SETTING (identical in every shot of this scene): An elegant rooftop restaurant in Ikoyi in bright daytime: white tablecloths, glassware, potted palms, the lagoon below with Banana Island in the distance, a waiter in a white jacket, soft natural daylight under a canopy. Femi and Gabriel sit at one table by the railing with a thick folder of CVs beside Femi's untouched plate.
+CHARACTERS: FEMI (33): tall well-built Nigerian man, dark skin, sharp low-cut fade, short neat black beard, rimless gold-framed glasses; wearing a navy three-piece suit, gold cufflinks. GABRIEL (33): Nigerian man, light brown skin, short curly hair with a fade, full thick black beard, clear aviator-shaped glasses, big friendly smile; wearing a grey suit with a white open-collar shirt.
+DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
+
+[VIDEO PROMPT - Grok]
+THIS CLIP IS SILENT. NOBODY TALKS. NO VOICES AT ALL. Only the background sounds below. Do not make anyone speak.
+1. SCENE: Femi listens on the phone to Lekan, whose words hide a threat; he says nothing.
+2. STAR & FOCUS: Femi's face as he listens to the phone, mouth closed; Gabriel silent across the table.
+   FEMI = the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit. FEMI does NOT talk: lips pressed together for the whole clip, no mouth movement at all.
+   GABRIEL = the man with curly hair, a full thick beard and clear aviator glasses, wearing a grey suit with a white open-collar shirt. GABRIEL does NOT talk: lips pressed together for the whole clip, no mouth movement at all.
+3. WHAT IS HAPPENING: FEMI, GABRIEL are listening to a phone call in silence. The voice they hear is NOT in this video. Nobody on screen speaks, whispers or mouths words.
+4. STAGING: Rooftop table: Femi sits on the LEFT side of the table facing RIGHT; Gabriel sits on the RIGHT side facing LEFT; the table and plates between them; the lagoon behind Femi. Both stay seated the whole scene. Femi tired and troubled; Gabriel calm, warm and confident. Nobody changes position, side or posture.
+5. TIMESTAMPS:
+   0:00-0:02 - Femi holds the phone to his ear and listens, mouth closed. (mouth closed, silent)
+   0:02-0:05 - His frown deepens; his eyes drop to the table. (mouth closed, silent)
+   0:05-0:06 - His jaw tightens and he sits up straight, mouth still closed. (mouth closed, silent)
+6. EYES: eyes on the phone or screen, or looking down in thought. Nobody looks into the camera lens.
+7. EMOTION: Femi listens on the phone to Lekan, whose words hide a threat; he says nothing. Show it only through the eyes, the jaw, the breathing and the body.
+8. CAMERA: Static medium shot. No shake, no zoom.
+9. MOOD & LIGHTING: Bright day on a luxury rooftop above the lagoon, soft daylight under a canopy, clean natural colour.
+10. LOOK: Photorealistic 35mm feature film, highest resolution, sharp, soft film grain, matte natural skin. Faces stay exactly the same people as in the image.
+11. SOUND: only a light breeze, soft restaurant chatter, glasses clinking. NO VOICES. No music.
+12. DURATION: exactly 6 seconds, one continuous shot.
+FINAL CHECK: nobody on screen talks or moves their lips at any moment; this is a silent listening shot.
+
+VOICE TO ADD IN CAPCUT at 0:00-0:06: MR. LEKAN: "Femi, my son. The board is worried. If Chief is incapacitated, the AGM must discuss the chairmanship."
+  Step 1 - make the voice in Grok: upload MR. LEKAN's approved image and paste: "Static close-up. The heavy-set man with gold-rimmed glasses and a thin moustache speaks, facing slightly off-camera: 'Femi, my son. The board is worried. If Chief is incapacitated, the AGM must discuss the chairmanship.' Voice: rich, oily, booming baritone, Yoruba-Nigerian accent, over-friendly and theatrical. Only these words. Sound: clear voice only, no music. 10 seconds." Keep only the audio.
+  Step 2 - in CapCut: Extract audio, place it under this clip at 0:00-0:06, then Audio > Voice effects > Telephone.
+
+======================================================================
+SHOT 9.13 | Femi answers: "He's injured." | Start: Last frame of 9.12
+======================================================================
+
+[IMAGE PROMPT - ChatGPT]
+CHARACTERS IN THIS IMAGE: FEMI (33), GABRIEL (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
+Create one image, highest resolution, sharp and clear.
+FRAME: Same medium shot at the rooftop table: Femi on the LEFT in his navy three-piece suit, phone at his ear, sitting up straight, firm; Gabriel on the RIGHT in his grey suit, watching. The face of FEMI is clearly visible in three-quarter view with the mouth in view.
+CONTINUITY: this frame comes straight after: His jaw tightens and he sits up straight, mouth still closed. Same positions, same eyelines, same props in their hands, same wardrobe and light.
 EYES: FEMI speaks into the phone at his ear, eyes looking ahead or down into the distance as people do on a call. Nobody looks into the camera lens at any moment.
 STAGING (keep exactly; this wins over anything above if different): Rooftop table: Femi sits on the LEFT side of the table facing RIGHT; Gabriel sits on the RIGHT side facing LEFT; the table and plates between them; the lagoon behind Femi. Both stay seated the whole scene. Femi tired and troubled; Gabriel calm, warm and confident. The camera is on the same side of the action as the other shots of this scene, so everyone stays on the same side of the frame.
 SETTING (identical in every shot of this scene): An elegant rooftop restaurant in Ikoyi in bright daytime: white tablecloths, glassware, potted palms, the lagoon below with Banana Island in the distance, a waiter in a white jacket, soft natural daylight under a canopy. Femi and Gabriel sit at one table by the railing with a thick folder of CVs beside Femi's untouched plate.
@@ -493,40 +533,36 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 
 [VIDEO PROMPT - Grok]
 ORDER TO GROK: generate this video ONLY with every item below in it: the exact dialogue and nothing more, every mandatory action clearly shown, everyone in their staging positions, the eye contact and the emotions. Do not leave anything out, do not add anything, do not change anything.
-1. SCENE: A phone conversation at lunch: Lekan speaks first through the phone with a threat dressed as concern, then Femi answers him firmly; Gabriel only watches.
-2. STAR & FOCUS: Femi's face, the phone at his ear; Gabriel silent across the table.
-2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: Femi goes quiet at the edge of the frame. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+1. SCENE: Femi firmly answers Lekan on the phone, then ends the call.
+2. STAR & FOCUS: Femi's face as he speaks into the phone.
+2A. CONTINUITY IN: this clip begins on the exact last frame of the previous clip (His jaw tightens and he sits up straight, mouth still closed.) and carries straight on: same positions, same eyelines, same emotion, same things in their hands.
 2B. EYE CONTACT: FEMI speaks into the phone at his ear, eyes looking ahead or down into the distance as people do on a call. Nobody looks into the camera lens at any moment.
-2C. EMOTION: faces and bodies show exactly what this moment means: A phone conversation at lunch: Lekan speaks first through the phone with a threat dressed as concern, then Femi answers him firmly; Gabriel only watches. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
+2C. EMOTION: faces and bodies show exactly what this moment means: Femi firmly answers Lekan on the phone, then ends the call. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 2D. STAGING (exactly the same as the previous shot unless the timestamps say someone moves): Rooftop table: Femi sits on the LEFT side of the table facing RIGHT; Gabriel sits on the RIGHT side facing LEFT; the table and plates between them; the lagoon behind Femi. Both stay seated the whole scene. Femi tired and troubled; Gabriel calm, warm and confident. Sitting people stay sitting, standing people stay standing, and nobody changes side of the frame. The camera stays on the same side of the action, so left stays left and right stays right in every shot.
 2E. REACTIONS: every listener reacts with their whole body to what they hear, as real people do. Bad news: shoulders drop, faces fall, eyes fill, breathing catches, hands go to the mouth or chest. Insults: the body stiffens, the jaw tightens, the eyes flash. Good news: the face opens, eyes shine, breath rushes out. Never a neutral face, never a smile at bad news.
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
-   0:00-0:05 - VOICE FROM THE PHONE (MR. LEKAN): "Femi, my son. The board is worried. If Chief is incapacitated, the AGM must discuss the chairmanship."
-   This voice comes ONLY out of the phone's speaker and must sound like a real phone line: thin, slightly tinny and compressed, a little crackle, as heard through a phone. Mr. Lekan's voice: rich, oily, booming baritone, Yoruba-Nigerian accent, over-friendly and theatrical.
-   0:06-0:09 - FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit) says EXACTLY these words and NOTHING else: "He's not incapacitated, Uncle Lekan. He's injured." Then he stops talking.
+   0:01-0:05 - FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit) says EXACTLY these words and NOTHING else: "He's not incapacitated, Uncle Lekan. He's injured." Then he stops talking.
    FEMI's voice: smooth, clear baritone, polished Lagos-Nigerian accent with a light British-educated touch, quick and precise. These words come ONLY from FEMI's mouth.
    GABRIEL (the man with curly hair, a full thick beard and clear aviator glasses, wearing a grey suit with a white open-collar shirt) does NOT talk: mouth closed the whole time, only reacting.
-   TURN-TAKING (this is a real conversation with sound, NOT a silent video): 0:00-0:05 the voice from the phone (MR. LEKAN); then 0:06-0:09 FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit). Only one voice at a time.
-   While the phone voice is speaking, FEMI keeps his mouth closed and listens; FEMI opens his mouth ONLY at his own time above. While FEMI speaks, the phone is silent.
+   No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
-   0:00-0:05 - Lekan's voice comes from the phone at Femi's ear. Femi listens with his mouth closed, frowning; Gabriel watches.
-   0:05-0:06 - Femi's jaw tightens; he straightens in his chair.
-   0:06-0:09 - Femi answers into the phone, firm; the phone is silent while he speaks.
-   0:09-0:10 - Femi lowers the phone from his ear and puts it face down on the table; Gabriel watches him. (in complete silence, no words)
-4A. CONTINUITY OUT: end on: Femi lowers the phone from his ear and puts it face down on the table; Gabriel watches him. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+   0:00-0:01 - Femi takes a breath, the phone still at his ear.
+   0:01-0:05 - He says it firmly into the phone.
+   0:05-0:08 - He lowers the phone from his ear and puts it face down on the table. (in complete silence, no words)
+   0:08-0:10 - He stares at the phone, troubled; Gabriel watches him. (in complete silence, no words)
+4A. CONTINUITY OUT: end on: He stares at the phone, troubled; Gabriel watches him. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 4C. MANDATORY ACTIONS: these MUST happen on screen, fully and clearly, at exactly these times. Show each whole movement from start to finish: a thrown or flicked object really flies through the air and lands on the floor, a door really swings and shuts, a hand really passes an object to another hand, a push really moves the other person. Never skip, shorten, hide or only suggest them:
-   0:09-0:10 - Femi lowers the phone from his ear and puts it face down on the table; Gabriel watches him.
+   0:00-0:01 - Femi takes a breath, the phone still at his ear.
+   0:05-0:08 - He lowers the phone from his ear and puts it face down on the table.
 5. CAMERA: Static medium shot. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Bright day on a luxury rooftop above the lagoon. Elegant and calm on the surface, troubled underneath. Soft daylight under a canopy, sparkling water, clean natural colour.
 7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a light breeze, soft restaurant chatter, glasses clinking. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; the voice comes only from where section 3 says and every mouth in the room stays closed while it plays; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are where section 2B says, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
-
-BACKUP if Grok still moves the listener's mouth: regenerate once. If it happens again, make this clip with DIALOGUE: NONE and add the line in CapCut (Audio > Voice effects > Telephone).
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 9.14 | "Hire the waitress." | Start: New image
@@ -536,7 +572,7 @@ SHOT 9.14 | "Hire the waitress." | Start: New image
 CHARACTERS IN THIS IMAGE: FEMI (33), GABRIEL (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: WIDE TWO-SHOT: the whole moment exactly as the STAGING describes, everyone in their places and on their own side of the frame. FEMI and GABRIEL are both fully visible, faces clearly seen in three-quarter profile, looking at each other; FEMI is speaking to GABRIEL. MOMENT DETAILS (use these details, but the framing above decides the camera): Medium shot of Femi sliding the folder across the table toward Gabriel, face turned three-quarters toward the camera, eyes on GABRIEL, never looking into the lens. The face of FEMI is clearly visible in three-quarter view with the mouth in view.
-CONTINUITY: this frame comes straight after: Femi lowers the phone from his ear and puts it face down on the table; Gabriel watches him. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+CONTINUITY: this frame comes straight after: He stares at the phone, troubled; Gabriel watches him. Same positions, same eyelines, same props in their hands, same wardrobe and light.
 EYES: FEMI looks directly into GABRIEL's eyes while speaking. GABRIEL looks back at FEMI. Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
 STAGING (keep exactly; this wins over anything above if different): Rooftop table: Femi sits on the LEFT side of the table facing RIGHT; Gabriel sits on the RIGHT side facing LEFT; the table and plates between them; the lagoon behind Femi. Both stay seated the whole scene. Femi tired and troubled; Gabriel calm, warm and confident. The camera is on the same side of the action as the other shots of this scene, so everyone stays on the same side of the frame.
 SETTING (identical in every shot of this scene): An elegant rooftop restaurant in Ikoyi in bright daytime: white tablecloths, glassware, potted palms, the lagoon below with Banana Island in the distance, a waiter in a white jacket, soft natural daylight under a canopy. Femi and Gabriel sit at one table by the railing with a thick folder of CVs beside Femi's untouched plate.
@@ -547,7 +583,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 ORDER TO GROK: generate this video ONLY with every item below in it: the exact dialogue and nothing more, every mandatory action clearly shown, everyone in their staging positions, the eye contact and the emotions. Do not leave anything out, do not add anything, do not change anything.
 1. SCENE: Femi gives in.
 2. STAR & FOCUS: Both FEMI and GABRIEL in a wide two-shot; FEMI is the one speaking.
-2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: Femi lowers the phone from his ear and puts it face down on the table; Gabriel watches him. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: He stares at the phone, troubled; Gabriel watches him. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
 2B. EYE CONTACT: FEMI looks directly into GABRIEL's eyes while speaking. GABRIEL looks back at FEMI. Eye contact is held for the whole clip unless the timestamps say someone looks away. Nobody looks into the camera lens at any moment.
 2C. EMOTION: faces and bodies show exactly what this moment means: Femi gives in. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 2D. STAGING (exactly the same as the previous shot unless the timestamps say someone moves): Rooftop table: Femi sits on the LEFT side of the table facing RIGHT; Gabriel sits on the RIGHT side facing LEFT; the table and plates between them; the lagoon behind Femi. Both stay seated the whole scene. Femi tired and troubled; Gabriel calm, warm and confident. Sitting people stay sitting, standing people stay standing, and nobody changes side of the frame. The camera stays on the same side of the action, so left stays left and right stays right in every shot.

@@ -481,34 +481,28 @@ CHARACTERS: IRETI (23): slim young Nigerian woman, dark brown skin, soft round f
 DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. Never slimmer, lighter, younger or more glamorous. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
 
 [VIDEO PROMPT - Grok]
-ORDER TO GROK: generate this video ONLY with every item below in it: the exact dialogue and nothing more, every mandatory action clearly shown, everyone in their staging positions, the eye contact and the emotions. Do not leave anything out, do not add anything, do not change anything.
+THIS CLIP IS SILENT. NOBODY TALKS. NO VOICES AT ALL. Only the background sounds below. Do not make anyone speak.
 1. SCENE: That night her mother calls.
-2. STAR & FOCUS: IRETI's face and body, centre frame.
-2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: He can't feel it, but he watches her, jaw working. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
-2B. EYE CONTACT: Everyone in the frame keeps their eyes on the phone or screen they are listening to, or looks down in thought. Nobody looks into the camera lens at any moment.
-2C. EMOTION: faces and bodies show exactly what this moment means: That night her mother calls. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
-2D. STAGING (exactly the same as the previous shot unless the timestamps say someone moves): Night, staff quarters: Ireti alone on a low stool by a bucket, her phone on speaker beside her on the floor. Exhausted and hurt, pretending to be fine. Sitting people stay sitting, standing people stay standing, and nobody changes side of the frame. The camera stays on the same side of the action, so left stays left and right stays right in every shot.
-2E. REACTIONS: every listener reacts with their whole body to what they hear, as real people do. Bad news: shoulders drop, faces fall, eyes fill, breathing catches, hands go to the mouth or chest. Insults: the body stiffens, the jaw tightens, the eyes flash. Good news: the face opens, eyes shine, breath rushes out. Never a neutral face, never a smile at bad news.
-3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
-   0:01-0:04 - VOICE FROM THE PHONE (MAMA FUNMI): "How is the rich man? Is he kind?"
-   This voice comes ONLY out of the phone's speaker and must sound like a real phone line: thin, slightly tinny and compressed, a little crackle, as heard through a phone. Mama Funmi's voice: soft, low, slightly breathy and weak, Yoruba-Nigerian accent, slow and loving.
-   IRETI (the young woman with long black braids in a low ponytail, wearing a light-blue scrubs top) must NOT open her mouth at any moment: lips pressed together for all 10 seconds, no talking, no mouthing, no lip movement; she only listens.
-   STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
-4. TIMESTAMPS:
-   0:00-0:01 - Ireti scrubs.
-   0:01-0:04 - Her mother's voice plays from the phone on speaker.
-   0:04-0:10 - Ireti looks at her stained uniform. (in complete silence, no words)
-4A. CONTINUITY OUT: end on: Ireti looks at her stained uniform. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
-4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
-5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
-6. MOOD & LIGHTING: Night: one bare bulb in a small staff room, lonely and tired.
-7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
-8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
-9. SOUND: the dialogue above, clean and clear, over kitchen sounds; a quiet bedroom; water in a bucket at night. No music, no extra sounds.
-10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; the voice comes only from where section 3 says and every mouth in the room stays closed while it plays; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are where section 2B says, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
+2. STAR & FOCUS: IRETI's face, listening
+   IRETI = the young woman with long black braids in a low ponytail, wearing a light-blue scrubs top. IRETI does NOT talk: lips pressed together for the whole clip, no mouth movement at all.
+3. WHAT IS HAPPENING: IRETI is listening to a phone call in silence. The voice they hear is NOT in this video. Nobody on screen speaks, whispers or mouths words.
+4. STAGING: Night, staff quarters: Ireti alone on a low stool by a bucket, her phone on speaker beside her on the floor. Exhausted and hurt, pretending to be fine. Nobody changes position, side or posture.
+5. TIMESTAMPS:
+   0:00-0:01 - Ireti scrubs. (mouth closed, silent)
+   0:01-0:04 - Her mother's voice plays from the phone on speaker. (mouth closed, silent)
+   0:04-0:10 - Ireti looks at her stained uniform. (mouth closed, silent)
+6. EYES: eyes on the phone or screen, or looking down in thought. Nobody looks into the camera lens.
+7. EMOTION: That night her mother calls. Show it only through the eyes, the jaw, the breathing and the body.
+8. CAMERA: Static. No shake, no zoom.
+9. MOOD & LIGHTING: Night: one bare bulb in a small staff room, lonely and tired.
+10. LOOK: Photorealistic 35mm feature film, highest resolution, sharp, soft film grain, matte natural skin. Faces stay exactly the same people as in the image.
+11. SOUND: only kitchen sounds; a quiet bedroom; water in a bucket at night. NO VOICES. No music.
+12. DURATION: exactly 10 seconds, one continuous shot.
+FINAL CHECK: nobody on screen talks or moves their lips at any moment; this is a silent listening shot.
 
-BACKUP if Grok still moves the listener's mouth: regenerate once. If it happens again, make this clip with DIALOGUE: NONE and add the line in CapCut (Audio > Voice effects > Telephone).
+VOICE TO ADD IN CAPCUT at 0:01-0:04: MAMA FUNMI: "How is the rich man? Is he kind?"
+  Step 1 - make the voice in Grok: upload MAMA FUNMI's approved image and paste: "Static close-up. The thin woman in a wine-coloured head wrap speaks, facing slightly off-camera: 'How is the rich man? Is he kind?' Voice: soft, low, slightly breathy and weak, Yoruba-Nigerian accent, slow and loving. Only these words. Sound: clear voice only, no music. 10 seconds." Keep only the audio.
+  Step 2 - in CapCut: Extract audio, place it under this clip at 0:01-0:04, then Audio > Voice effects > Telephone.
 
 ======================================================================
 SHOT 13.13 | "He shared his soup with me." | Start: New image
