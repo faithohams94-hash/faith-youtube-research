@@ -405,7 +405,7 @@ def image_flow(scn, s):
 
 FLOW_SOFTEN = [
     (r"burnt at the edges", "frayed and darkened at the edges"), (r"\bburnt\b", "scorched"), (r"\bburn scar\b", "healed scar"),
-    (r"there is fire in them", "there is new determination in them"), (r"fire in (his|her) eyes", r"determination in \1 eyes"), (r"cold fire", "cold determination"),
+    (r"there is fire in them", "there is new determination in them"), (r"opening with fire", "opening with new determination"), (r"fire in (his|her) eyes", r"determination in \1 eyes"), (r"cold fire", "cold determination"),
     (r"with flames rising from its far side", "with a soft orange glow behind it"), (r"flames flicker behind them", "a soft orange glow behind them"),
     (r"\s*No blood, no injuries (shown|visible)\.?", ""), (r",?\s*no injuries visible", ""),
     (r"Aunty Ronke in handcuffs", "Aunty Ronke escorted by two police officers"), (r"Ronke in handcuffs", "Ronke escorted by two police officers"), (r"in handcuffs", "escorted by police"),
