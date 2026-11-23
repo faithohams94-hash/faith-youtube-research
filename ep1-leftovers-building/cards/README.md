@@ -4,17 +4,26 @@
 
 ## Where each card goes
 
-Every card goes **after** a clip, never on top of it. Put it **between** the two clips listed, right after the voice finishes the line shown.
+Every card goes **after** a clip, never on top of it: **between** the two clips listed, right after the voice finishes the line shown, with the voice paused while the card plays.
 
 **Example:** `c01-clock-947.mp4` goes after **clip 004** ("He just doesn't know who he's begging.") and before **clip 005**.
 
 ## How to do it in CapCut
 
-1. Find the end of the "after" clip on your timeline (the timecode below is approximate until your voiceover is recorded; go by the line).
-2. Insert the card on the **main video track** at that point.
-3. **Keep the voiceover running.** The card plays while the voice moves on to the next line.
-4. So the timing doesn't drift, **trim the start of the next clip** by the card's length (for example, cut the first 3.6 seconds off clip 005). The card replaces the beginning of that clip's picture, not its sound.
-5. Add the sound effect for the card (listed in section 2 of the prompt book).
+The voice **pauses** while each card plays, so every scene's narration still plays over that scene's own picture (Beanie does the same with its WATER card).
+
+```
+Clip 004  →  CARD (voice pauses, sound effect)  →  Clip 005 + its voiceover
+```
+
+1. Play to the end of the "after" clip's line (shown in the last column).
+2. **Split the voiceover** at that exact point.
+3. Drag everything after the split (the rest of the voiceover and all later clips) **to the right**, leaving a gap the length of the card.
+4. Put the card in the gap on the main video track.
+5. Add the card's sound effect in the gap (listed in section 2 of the prompt book), and keep the background music running underneath.
+6. If you haven't recorded the voiceover yet, just leave a pause of the card's length at each card spot when you record.
+
+The 20 pauses add about 1 minute 45 seconds, so the video runs about 16 minutes 50 seconds. To stay closer to 15 minutes, speed the longer cards up to 1.5× in CapCut.
 
 | # | Card file | Length | Put it AFTER clip | and BEFORE clip | Around | The voice has just said |
 |---|---|---|---|---|---|---|
