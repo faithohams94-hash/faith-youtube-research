@@ -27,7 +27,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: no voices, only a quiet office air-conditioning hum. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 11.2 | He doesn't offer her a seat | Start: New image
@@ -71,7 +71,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet office air-conditioning hum. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 11.3 | "He'll fire you every day." | Start: New image
@@ -100,6 +100,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:09 - FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit) says EXACTLY these words and NOTHING else: "He'll fire you every day. It's a live-in job, six days a week. Massage, fresh air, medication, meals. Can you do it?" Then he stops talking.
    FEMI's voice: smooth, clear baritone, polished Lagos-Nigerian accent with a light British-educated touch, quick and precise. These words come ONLY from FEMI's mouth.
+   IRETI (the young woman with long black braids in a low ponytail, wearing a faded yellow ankara blouse and black skirt), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -114,7 +115,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet office air-conditioning hum. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 11.4 | "Yes, sir." | Start: New image
@@ -158,7 +159,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet office air-conditioning hum. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 11.5 | "Everyone says yes." | Start: New image
@@ -202,7 +203,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet office air-conditioning hum. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 11.6 | "A month?" | Start: New image
@@ -246,7 +247,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet office air-conditioning hum. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 11.7 | "A week." | Start: New image
@@ -290,7 +291,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet office air-conditioning hum. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 11.8 | After-action: she grips the chair | Start: New image
@@ -330,7 +331,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: no voices, only a quiet office air-conditioning hum. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 11.9 | "Are you all right?" | Start: New image
@@ -374,7 +375,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet office air-conditioning hum. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 11.10 | "Thirty-eight weeks." | Start: New image
@@ -424,7 +425,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet office air-conditioning hum. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 11.11 | "I don't know what that means." | Start: New image
@@ -468,7 +469,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet office air-conditioning hum. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 11.12 | "It means thank you, sir." | Start: New image
@@ -514,7 +515,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet office air-conditioning hum. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 11.13 | "Survive one week first." | Start: New image
@@ -562,7 +563,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet office air-conditioning hum. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 11.14 | "38 weeks?" | Start: New image
@@ -602,4 +603,4 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: no voices, only a quiet office air-conditioning hum. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.

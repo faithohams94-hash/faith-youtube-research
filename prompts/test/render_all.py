@@ -233,6 +233,12 @@ def video(scn, s):
                 d.append(f"   {name(w).upper()} ({ident(scn, w)}) must NOT open {pro(w)} mouth at any moment: lips pressed together for all 10 seconds, no talking, no mouthing, no lip movement; {she(w)} only listens.")
             else:
                 d.append(f"   {name(w).upper()} ({ident(scn, w)}) does NOT talk: mouth closed the whole time, only reacting.")
+        if int(scn) >= 7 and s.get("_block"):
+            shown = set(who) | speakers_on | voices_off
+            for k in C:
+                nm = name(k).split()[-1].lower()
+                if k not in shown and re.search(r"\b" + re.escape(nm) + r"\b", s["_block"].lower()):
+                    d.append(f"   {name(k).upper()} ({ident(scn, k)}), if anywhere in the frame, does NOT talk: mouth closed the whole time.")
         if speakers_on and not voices_off:
             d.append("   No phone, TV or off-screen voice is heard. Nobody else says these lines.")
         if int(scn) >= 6:
@@ -272,7 +278,11 @@ def video(scn, s):
     L.append(f"9. SOUND: {'the dialogue above, clean and clear, over ' if s['dialogue'] else 'no voices, only '}{snd}. No music, no extra sounds.")
     L.append(f"10. DURATION: exactly {s.get('dur', 10)} seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.")
     if int(scn) >= 7:
-        L.append("FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.")
+        call = any(parse_owner(o)[0] in ("phone", "screen", "tv", "pa", "off", "memory") for _, o, _ in s["dialogue"])
+        eyes_chk = "eyes are where section 2B says, never the camera" if call else "eyes are on the other person, never the camera"
+        voice_chk = ("the voice comes only from where section 3 says and every mouth in the room stays closed while it plays" if call
+                     else "each line comes only from the character named for it, and nobody else speaks")
+        L.append(f"FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; {voice_chk}; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; {eyes_chk}; faces stay the same people; the light and mood stay exactly as in the image.")
     return "\n".join(L)
 
 def image(scn, s):

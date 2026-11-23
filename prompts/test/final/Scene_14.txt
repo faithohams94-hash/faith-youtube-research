@@ -27,7 +27,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: no voices, only wind, thunder and rain on an umbrella. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 14.2 | One inch of sun | Start: New image
@@ -68,7 +68,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: no voices, only wind, thunder and rain on an umbrella. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 14.3 | "CLOSE IT!" | Start: New image
@@ -112,7 +112,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over wind, thunder and rain on an umbrella. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 14.4 | "Doctor's orders." | Start: New image
@@ -158,7 +158,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over wind, thunder and rain on an umbrella. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 14.5 | "Which doctor?" | Start: New image
@@ -202,7 +202,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over wind, thunder and rain on an umbrella. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 14.6 | "Dr. Ireti." | Start: New image
@@ -246,7 +246,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over wind, thunder and rain on an umbrella. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 14.7 | "You people from the gutter" | Start: New image
@@ -290,7 +290,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over wind, thunder and rain on an umbrella. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 14.8 | "Let me steal your frown." | Start: New image
@@ -336,7 +336,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over wind, thunder and rain on an umbrella. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 14.9 | Down the ramp | Start: New image
@@ -378,7 +378,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: no voices, only wind, thunder and rain on an umbrella. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 14.10 | The small umbrella | Start: New image
@@ -424,7 +424,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over wind, thunder and rain on an umbrella. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 14.11 | "The ground saying thank you." | Start: New image
@@ -470,7 +470,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over wind, thunder and rain on an umbrella. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 14.12 | "You're FIRED." | Start: New image
@@ -514,7 +514,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over wind, thunder and rain on an umbrella. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 14.13 | After-action: soaked but steady | Start: New image
@@ -554,7 +554,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: no voices, only wind, thunder and rain on an umbrella. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 14.14 | Femi runs up | Start: New image
@@ -584,6 +584,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:03-0:05 - FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit) says EXACTLY these words and NOTHING else: "Grandpa! What's going on?" Then he stops talking.
    FEMI's voice: smooth, clear baritone, polished Lagos-Nigerian accent with a light British-educated touch, quick and precise. These words come ONLY from FEMI's mouth.
    CHIEF ADENUGA (the elderly man with snow-white hair and a full white beard, wearing a grey kaftan) does NOT talk: mouth closed the whole time, only reacting.
+   IRETI (the young woman with long black braids in a low ponytail, wearing a light-blue scrubs top), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -600,7 +601,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over wind, thunder and rain on an umbrella. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 14.15 | "Fire her. Today." | Start: New image
@@ -630,6 +631,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:02-0:04 - CHIEF ADENUGA (the elderly man with snow-white hair and a full white beard, wearing a grey kaftan) says EXACTLY these words and NOTHING else: "Fire her. Today." Then he stops talking.
    CHIEF ADENUGA's voice: very deep, slow, gravelly bass, strong Yoruba-Nigerian accent, long heavy pauses; booming only when angry. These words come ONLY from CHIEF ADENUGA's mouth.
    FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit) does NOT talk: mouth closed the whole time, only reacting.
+   IRETI (the young woman with long black braids in a low ponytail, wearing a light-blue scrubs top), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -644,7 +646,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over wind, thunder and rain on an umbrella. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 14.16 | "That's a record." | Start: New image
@@ -689,7 +691,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over wind, thunder and rain on an umbrella. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 14.17 | "Nine days too many." | Start: New image
@@ -719,6 +721,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:02-0:04 - CHIEF ADENUGA (the elderly man with snow-white hair and a full white beard, wearing a grey kaftan) says EXACTLY these words and NOTHING else: "Nine days too many." Then he stops talking.
    CHIEF ADENUGA's voice: very deep, slow, gravelly bass, strong Yoruba-Nigerian accent, long heavy pauses; booming only when angry. These words come ONLY from CHIEF ADENUGA's mouth.
    FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit) does NOT talk: mouth closed the whole time, only reacting.
+   IRETI (the young woman with long black braids in a low ponytail, wearing a light-blue scrubs top), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -733,7 +736,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over wind, thunder and rain on an umbrella. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 14.18 | "One more week. For me." | Start: New image
@@ -763,6 +766,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:01-0:04 - FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit) says EXACTLY these words and NOTHING else: "One more week. Please. For me." Then he stops talking.
    FEMI's voice: smooth, clear baritone, polished Lagos-Nigerian accent with a light British-educated touch, quick and precise. These words come ONLY from FEMI's mouth.
    CHIEF ADENUGA (the elderly man with snow-white hair and a full white beard, wearing a grey kaftan) does NOT talk: mouth closed the whole time, only reacting.
+   IRETI (the young woman with long black braids in a low ponytail, wearing a light-blue scrubs top), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -777,7 +781,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over wind, thunder and rain on an umbrella. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 14.19 | He turns his face away | Start: New image
@@ -815,7 +819,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: no voices, only wind, thunder and rain on an umbrella. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 14.20 | The evening tablet | Start: New image
@@ -857,7 +861,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: no voices, only wind, thunder and rain on an umbrella. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 14.21 | He slumps | Start: New image
@@ -896,4 +900,4 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: no voices, only wind, thunder and rain on an umbrella. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.

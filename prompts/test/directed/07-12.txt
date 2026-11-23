@@ -440,22 +440,24 @@ T: 0:01-0:06 | He repeats her words quietly.
 T: 0:06-0:10 | Femi goes quiet at the edge of the frame.
 C: Static.
 
-# 9.12 | Lekan calls | who: femi
-F: Close shot of Femi answering his phone, facing the camera, troubled, the lagoon blurred behind him.
-S: Lekan calls with a warning dressed as concern.
+# 9.12 | Lekan calls | who: femi, gabriel
+F: Medium shot at the rooftop table: Femi sitting on the LEFT, holding his phone to his ear, face clearly visible in three-quarter view, troubled; Gabriel sitting across the table on the RIGHT, watching him in silence; plates between them, the lagoon behind Femi.
+S: At lunch, Femi gets a phone call from Lekan, who hides a threat inside fake concern; Femi listens in silence while Gabriel watches.
+X: Femi's face as he listens to the phone; Gabriel silent across the table.
 D: 0:01-0:09 | phone:lekan | Femi, my son. The board is worried. If Chief is… incapacitated… the AGM must discuss the chairmanship. Just procedure.
-T: 0:00-0:01 | Femi answers the phone.
-T: 0:01-0:09 | Lekan's voice plays from the phone; Femi listens, frowning.
-T: 0:09-0:10 | His jaw tightens.
-C: Static.
+T: 0:00-0:01 | Femi already holds the phone to his ear, listening.
+T: 0:01-0:09 | Lekan's voice plays from the phone at Femi's ear. Femi listens without a word, his frown deepening; Gabriel watches him across the table, silent.
+T: 0:09-0:10 | Femi's jaw tightens and his eyes harden.
+C: Static medium shot.
 
-# 9.13 | "He's injured." | who: femi
-F: Same close shot of Femi on the phone, firm.
-S: Femi defends his grandfather.
+# 9.13 | "He's injured." | who: femi, gabriel
+F: Same medium shot at the rooftop table: Femi on the LEFT with the phone at his ear, firm now; Gabriel on the RIGHT watching him.
+S: Femi firmly defends his grandfather to Lekan on the phone.
+X: Femi's face as he speaks into the phone.
 D: 0:01-0:05 | femi | He's not incapacitated, Uncle Lekan. He's injured.
-T: 0:00-0:01 | Femi straightens.
+T: 0:00-0:01 | Femi straightens in his chair.
 T: 0:01-0:05 | He says it firmly into the phone.
-T: 0:05-0:10 | He hangs up, troubled.
+T: 0:05-0:10 | He lowers the phone, ends the call and puts it face down on the table, troubled; Gabriel watches.
 C: Static.
 start: Last frame of 9.12
 

@@ -27,7 +27,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: no voices, only a boardroom hush, a cane tapping on marble. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 30.2 | "Permanently incapacitated." | Start: New image
@@ -71,7 +71,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a boardroom hush, a cane tapping on marble. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 30.3 | "Not the man we knew." | Start: New image
@@ -100,6 +100,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:09 - MR. LEKAN (the heavy-set man with gold-rimmed glasses and a thin moustache, wearing a black agbada with silver embroidery) says EXACTLY these words and NOTHING else: "Paralysed, depressed, mentally unstable. He smashes phones. He took a waitress to a concert. He is not the man we knew." Then he stops talking.
    MR. LEKAN's voice: rich, oily, booming baritone, Yoruba-Nigerian accent, over-friendly and theatrical. These words come ONLY from MR. LEKAN's mouth.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -114,7 +115,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a boardroom hush, a cane tapping on marble. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 30.4 | "That doctor never examined him!" | Start: New image
@@ -160,7 +161,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a boardroom hush, a cane tapping on marble. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 30.5 | "Sit down, Femi." | Start: New image
@@ -189,6 +190,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:07 - MR. LEKAN (the heavy-set man with gold-rimmed glasses and a thin moustache, wearing a black agbada with silver embroidery) says EXACTLY these words and NOTHING else: "Sit down, Femi. His own children, Segun, Kunle and Lola, have given me their proxy votes." Then he stops talking.
    MR. LEKAN's voice: rich, oily, booming baritone, Yoruba-Nigerian accent, over-friendly and theatrical. These words come ONLY from MR. LEKAN's mouth.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -203,7 +205,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a boardroom hush, a cane tapping on marble. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 30.6 | The motion | Start: New image
@@ -232,6 +234,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:09 - MR. LEKAN (the heavy-set man with gold-rimmed glasses and a thin moustache, wearing a black agbada with silver embroidery) says EXACTLY these words and NOTHING else: "I move that Chief's fifty-one percent be placed in a board trust under the Vice-Chairman's control. And no confidence in our young CEO." Then he stops talking.
    MR. LEKAN's voice: rich, oily, booming baritone, Yoruba-Nigerian accent, over-friendly and theatrical. These words come ONLY from MR. LEKAN's mouth.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -246,7 +249,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a boardroom hush, a cane tapping on marble. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 30.7 | "He'll never walk again." | Start: New image
@@ -292,7 +295,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a boardroom hush, a cane tapping on marble. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 30.8 | TAP. | Start: New image
@@ -322,7 +325,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: no voices, only a boardroom hush, a cane tapping on marble. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 30.9 | The doors open | Start: New image
@@ -365,7 +368,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: no voices, only a boardroom hush, a cane tapping on marble. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 30.10 | He walks alone | Start: New image
@@ -403,7 +406,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: no voices, only a boardroom hush, a cane tapping on marble. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 30.11 | After-action: Lekan's face drains | Start: New image
@@ -444,7 +447,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: no voices, only a boardroom hush, a cane tapping on marble. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 30.12 | Femi is speechless | Start: New image
@@ -474,6 +477,9 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:07-0:09 - FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit) says EXACTLY these words and NOTHING else: "…Grandpa." Then he stops talking.
    FEMI's voice: smooth, clear baritone, polished Lagos-Nigerian accent with a light British-educated touch, quick and precise. These words come ONLY from FEMI's mouth.
    CHIEF ADENUGA (the elderly man with snow-white hair and a full white beard, wearing a cream agbada) does NOT talk: mouth closed the whole time, only reacting.
+   IRETI (the young woman with long black braids in a low ponytail, wearing a simple neat navy dress), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   GABRIEL (the man with curly hair, a full thick beard and clear aviator glasses, wearing a grey suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   MR. LEKAN (the heavy-set man with gold-rimmed glasses and a thin moustache, wearing a black agbada with silver embroidery), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -492,7 +498,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a boardroom hush, a cane tapping on marble. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 30.13 | "About my legs?" | Start: New image
@@ -522,6 +528,8 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:02-0:06 - CHIEF ADENUGA (the elderly man with snow-white hair and a full white beard, wearing a cream agbada) says EXACTLY these words and NOTHING else: "Lekan. You were saying something… about my legs?" Then he stops talking.
    CHIEF ADENUGA's voice: very deep, slow, gravelly bass, strong Yoruba-Nigerian accent, long heavy pauses; booming only when angry. These words come ONLY from CHIEF ADENUGA's mouth.
    MR. LEKAN (the heavy-set man with gold-rimmed glasses and a thin moustache, wearing a black agbada with silver embroidery) does NOT talk: mouth closed the whole time, only reacting.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   GABRIEL (the man with curly hair, a full thick beard and clear aviator glasses, wearing a grey suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -538,7 +546,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a boardroom hush, a cane tapping on marble. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 30.14 | "This is a miracle!" | Start: New image
@@ -568,6 +576,8 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:01-0:05 - MR. LEKAN (the heavy-set man with gold-rimmed glasses and a thin moustache, wearing a black agbada with silver embroidery) says EXACTLY these words and NOTHING else: "Chief… Chief, God is great, this is a miracle! I was only…" Then he stops talking.
    MR. LEKAN's voice: rich, oily, booming baritone, Yoruba-Nigerian accent, over-friendly and theatrical. These words come ONLY from MR. LEKAN's mouth.
    CHIEF ADENUGA (the elderly man with snow-white hair and a full white beard, wearing a cream agbada) does NOT talk: mouth closed the whole time, only reacting.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   GABRIEL (the man with curly hair, a full thick beard and clear aviator glasses, wearing a grey suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -582,7 +592,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a boardroom hush, a cane tapping on marble. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 30.15 | "Putting me to sleep." | Start: New image
@@ -612,6 +622,8 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:01-0:05 - CHIEF ADENUGA (the elderly man with snow-white hair and a full white beard, wearing a cream agbada) says EXACTLY these words and NOTHING else: "You were only putting me to sleep. Every evening. For six years." Then he stops talking.
    CHIEF ADENUGA's voice: very deep, slow, gravelly bass, strong Yoruba-Nigerian accent, long heavy pauses; booming only when angry. These words come ONLY from CHIEF ADENUGA's mouth.
    MR. LEKAN (the heavy-set man with gold-rimmed glasses and a thin moustache, wearing a black agbada with silver embroidery) does NOT talk: mouth closed the whole time, only reacting.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   GABRIEL (the man with curly hair, a full thick beard and clear aviator glasses, wearing a grey suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -626,7 +638,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a boardroom hush, a cane tapping on marble. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 30.16 | The proxy revocations | Start: New image
@@ -656,6 +668,8 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:01-0:07 - GABRIEL (the man with curly hair, a full thick beard and clear aviator glasses, wearing a grey suit) says EXACTLY these words and NOTHING else: "Proxy revocations, signed last night by Segun, Kunle and Lola Adenuga. And this…" Then he stops talking.
    GABRIEL's voice: bright, warm tenor, relaxed Igbo-Nigerian accent, easy smiling delivery with a light laugh in his voice. These words come ONLY from GABRIEL's mouth.
    CHIEF ADENUGA (the elderly man with snow-white hair and a full white beard, wearing a cream agbada) does NOT talk: mouth closed the whole time, only reacting.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   MR. LEKAN (the heavy-set man with gold-rimmed glasses and a thin moustache, wearing a black agbada with silver embroidery), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -673,7 +687,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a boardroom hush, a cane tapping on marble. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 30.17 | The recording | Start: New image
@@ -703,6 +717,9 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:01-0:07 - VOICE FROM THE PHONE (AUNTY RONKE): "It was Mr. Lekan! He said keep you weak, keep you sad, until the AGM…"
    This voice comes ONLY out of the phone's speaker and must sound like a real phone line: thin, slightly tinny and compressed, a little crackle, as heard through a phone. Aunty Ronke's voice: low, crisp, cold alto, clipped Yoruba-Nigerian accent, every word precise and controlled.
    DR. HASSAN BELLO (the doctor with greying hair and a salt-and-pepper beard, wearing a dark suit with a white shirt) must NOT open his mouth at any moment: lips pressed together for all 10 seconds, no talking, no mouthing, no lip movement; he only listens.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   GABRIEL (the man with curly hair, a full thick beard and clear aviator glasses, wearing a grey suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   MR. LEKAN (the heavy-set man with gold-rimmed glasses and a thin moustache, wearing a black agbada with silver embroidery), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
    0:00-0:01 - The phone plays.
@@ -716,7 +733,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: the dialogue above, clean and clear, over a boardroom hush, a cane tapping on marble. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; the voice comes only from where section 3 says and every mouth in the room stays closed while it plays; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are where section 2B says, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 BACKUP if Grok still moves the listener's mouth: regenerate once. If it happens again, make this clip with DIALOGUE: NONE and add the line in CapCut (Audio > Voice effects > Telephone).
 
@@ -748,6 +765,8 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:01-0:05 - DR. HASSAN BELLO (the doctor with greying hair and a salt-and-pepper beard, wearing a dark suit with a white shirt) says EXACTLY these words and NOTHING else: "And the lab report on the tablets. The police have a copy." Then he stops talking.
    DR. HASSAN BELLO's voice: calm, even, mid-low baritone, northern (Hausa) Nigerian accent, measured and never rushed. These words come ONLY from DR. HASSAN BELLO's mouth.
    GABRIEL (the man with curly hair, a full thick beard and clear aviator glasses, wearing a grey suit) does NOT talk: mouth closed the whole time, only reacting.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   MR. LEKAN (the heavy-set man with gold-rimmed glasses and a thin moustache, wearing a black agbada with silver embroidery), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -764,7 +783,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a boardroom hush, a cane tapping on marble. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 30.19 | "Twenty years!" | Start: New image
@@ -794,6 +813,8 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:01-0:05 - MR. LEKAN (the heavy-set man with gold-rimmed glasses and a thin moustache, wearing a black agbada with silver embroidery) says EXACTLY these words and NOTHING else: "Chief, twenty years! Twenty years I stood by you!" Then he stops talking.
    MR. LEKAN's voice: rich, oily, booming baritone, Yoruba-Nigerian accent, over-friendly and theatrical. These words come ONLY from MR. LEKAN's mouth.
    DR. HASSAN BELLO (the doctor with greying hair and a salt-and-pepper beard, wearing a dark suit with a white shirt) does NOT talk: mouth closed the whole time, only reacting.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   GABRIEL (the man with curly hair, a full thick beard and clear aviator glasses, wearing a grey suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -808,7 +829,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a boardroom hush, a cane tapping on marble. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 30.20 | "A waitress picked me up." | Start: New image
@@ -838,6 +859,8 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:01-0:08 - CHIEF ADENUGA (the elderly man with snow-white hair and a full white beard, wearing a cream agbada) says EXACTLY these words and NOTHING else: "Twenty years you stood by me, Lekan. Waiting for me to fall. And when I fell, a waitress picked me up." Then he stops talking.
    CHIEF ADENUGA's voice: very deep, slow, gravelly bass, strong Yoruba-Nigerian accent, long heavy pauses; booming only when angry. These words come ONLY from CHIEF ADENUGA's mouth.
    MR. LEKAN (the heavy-set man with gold-rimmed glasses and a thin moustache, wearing a black agbada with silver embroidery) does NOT talk: mouth closed the whole time, only reacting.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   GABRIEL (the man with curly hair, a full thick beard and clear aviator glasses, wearing a grey suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -854,7 +877,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a boardroom hush, a cane tapping on marble. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 30.21 | Led away | Start: New image
@@ -894,7 +917,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: no voices, only a boardroom hush, a cane tapping on marble. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 30.22 | "All in favour?" | Start: New image
@@ -923,6 +946,8 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:08 - CHIEF ADENUGA (the elderly man with snow-white hair and a full white beard, wearing a cream agbada) says EXACTLY these words and NOTHING else: "I have a motion. Femi Adenuga remains CEO. And Babatunde Adenuga remains alive. All in favour?" Then he stops talking.
    CHIEF ADENUGA's voice: very deep, slow, gravelly bass, strong Yoruba-Nigerian accent, long heavy pauses; booming only when angry. These words come ONLY from CHIEF ADENUGA's mouth.
+   IRETI (the young woman with long black braids in a low ponytail, wearing a simple neat navy dress), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -939,7 +964,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a boardroom hush, a cane tapping on marble. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 30.23 | Applause | Start: New image
@@ -967,7 +992,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: no voices, only a boardroom hush, a cane tapping on marble. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 30.24 | "You WALKED." | Start: New image
@@ -997,6 +1022,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:02-0:05 - FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit) says EXACTLY these words and NOTHING else: "You walked. You WALKED." Then he stops talking.
    FEMI's voice: smooth, clear baritone, polished Lagos-Nigerian accent with a light British-educated touch, quick and precise. These words come ONLY from FEMI's mouth.
    CHIEF ADENUGA (the elderly man with snow-white hair and a full white beard, wearing a cream agbada) does NOT talk: mouth closed the whole time, only reacting.
+   IRETI (the young woman with long black braids in a low ponytail, wearing a simple neat navy dress), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -1013,7 +1039,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a boardroom hush, a cane tapping on marble. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 30.25 | "She walked me." | Start: New image
@@ -1043,6 +1069,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:02-0:05 - CHIEF ADENUGA (the elderly man with snow-white hair and a full white beard, wearing a cream agbada) says EXACTLY these words and NOTHING else: "No, my son. She walked me." Then he stops talking.
    CHIEF ADENUGA's voice: very deep, slow, gravelly bass, strong Yoruba-Nigerian accent, long heavy pauses; booming only when angry. These words come ONLY from CHIEF ADENUGA's mouth.
    IRETI (the young woman with long black braids in a low ponytail, wearing a simple neat navy dress) does NOT talk: mouth closed the whole time, only reacting.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -1059,4 +1086,4 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a boardroom hush, a cane tapping on marble. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.

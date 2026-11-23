@@ -26,7 +26,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: no voices, only a quiet night house, a puppy whining. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 26.2 | The tablet in his palm | Start: New image
@@ -70,7 +70,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet night house, a puppy whining. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 26.3 | Ireti's words echo | Start: New image
@@ -100,6 +100,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:02-0:06 - REMEMBERED VOICE (IRETI): "Take your medicine from someone else tonight."
    This voice comes as a soft, echoing memory, gentle and distant, like a remembered voice in his head; nobody in the room says it. Ireti's voice: soft, clear, medium-high pitch, warm Yoruba-Nigerian accent, gentle steady pace; she gets quieter, not louder, when hurt.
    CHIEF ADENUGA (the elderly man with snow-white hair and a full white beard, wearing a grey kaftan) must NOT open his mouth at any moment: lips pressed together for all 10 seconds, no talking, no mouthing, no lip movement; he only listens.
+   AUNTY RONKE (the woman in a tight black head wrap and white collar, wearing a black housekeeper's dress with white collar), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
    0:00-0:02 - Chief stares at the tablet.
@@ -113,7 +114,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: the dialogue above, clean and clear, over a quiet night house, a puppy whining. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; the voice comes only from where section 3 says and every mouth in the room stays closed while it plays; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are where section 2B says, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 26.4 | Mallam Audu comes upstairs | Start: New image
@@ -157,7 +158,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet night house, a puppy whining. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 26.5 | "Go back to your gate!" | Start: New image
@@ -201,7 +202,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet night house, a puppy whining. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 26.6 | What Audu saw | Start: New image
@@ -231,6 +232,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:01-0:08 - MALLAM AUDU (the older man with a grey-white beard and a white cap, wearing a white kaftan) says EXACTLY these words and NOTHING else: "At noon today, I saw Madam Ronke go into the staff quarters with a velvet box. She came out without it." Then he stops talking.
    MALLAM AUDU's voice: soft, warm, husky, strong Hausa-Nigerian accent, slow and gentle. These words come ONLY from MALLAM AUDU's mouth.
    CHIEF ADENUGA (the elderly man with snow-white hair and a full white beard, wearing a grey kaftan) does NOT talk: mouth closed the whole time, only reacting.
+   AUNTY RONKE (the woman in a tight black head wrap and white collar, wearing a black housekeeper's dress with white collar), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -245,7 +247,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet night house, a puppy whining. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 26.7 | The brown envelopes | Start: Last frame of 26.6
@@ -289,7 +291,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet night house, a puppy whining. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 26.8 | After-action: Ronke freezes | Start: New image
@@ -327,7 +329,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: no voices, only a quiet night house, a puppy whining. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 26.9 | Dr. Hassan's envelope | Start: New image
@@ -357,6 +359,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:01-0:06 - DR. HASSAN BELLO (the doctor with greying hair and a salt-and-pepper beard, wearing a white coat over a light blue shirt) says EXACTLY these words and NOTHING else: "Chief. Miss Alade asked me to give you this if anything ever happened to her." Then he stops talking.
    DR. HASSAN BELLO's voice: calm, even, mid-low baritone, northern (Hausa) Nigerian accent, measured and never rushed. These words come ONLY from DR. HASSAN BELLO's mouth.
    CHIEF ADENUGA (the elderly man with snow-white hair and a full white beard, wearing a grey kaftan) does NOT talk: mouth closed the whole time, only reacting.
+   MALLAM AUDU (the older man with a grey-white beard and a white cap, wearing a white kaftan), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -373,7 +376,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet night house, a puppy whining. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 26.10 | "It's why you fell." | Start: New image
@@ -403,6 +406,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:01-0:09 - DR. HASSAN BELLO (the doctor with greying hair and a salt-and-pepper beard, wearing a white coat over a light blue shirt) says EXACTLY these words and NOTHING else: "The blue tablet is a sedative and a blood-pressure crash drug. Not prescribed. It's why you were dizzy. It's why you fell." Then he stops talking.
    DR. HASSAN BELLO's voice: calm, even, mid-low baritone, northern (Hausa) Nigerian accent, measured and never rushed. These words come ONLY from DR. HASSAN BELLO's mouth.
    CHIEF ADENUGA (the elderly man with snow-white hair and a full white beard, wearing a grey kaftan) does NOT talk: mouth closed the whole time, only reacting.
+   MALLAM AUDU (the older man with a grey-white beard and a white cap, wearing a white kaftan), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -417,7 +421,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet night house, a puppy whining. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 26.11 | Reading the report | Start: New image
@@ -457,7 +461,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: no voices, only a quiet night house, a puppy whining. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 26.12 | "Swallow it." | Start: New image
@@ -501,7 +505,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet night house, a puppy whining. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 26.13 | "Sir…" | Start: New image
@@ -547,7 +551,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet night house, a puppy whining. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 26.14 | "Swallow one." | Start: New image
@@ -591,7 +595,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet night house, a puppy whining. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 26.15 | She drops to her knees | Start: New image
@@ -636,7 +640,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet night house, a puppy whining. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 26.16 | "A house in Lekki" | Start: Last frame of 26.15
@@ -679,7 +683,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet night house, a puppy whining. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 26.17 | Femi hears it | Start: New image
@@ -723,7 +727,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet night house, a puppy whining. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 26.18 | "Let Lekan think he's winning." | Start: New image
@@ -753,6 +757,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:01-0:05 - CHIEF ADENUGA (the elderly man with snow-white hair and a full white beard, wearing a grey kaftan) says EXACTLY these words and NOTHING else: "Don't call the police yet. Let Lekan think he's winning." Then he stops talking.
    CHIEF ADENUGA's voice: very deep, slow, gravelly bass, strong Yoruba-Nigerian accent, long heavy pauses; booming only when angry. These words come ONLY from CHIEF ADENUGA's mouth.
    FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy suit) does NOT talk: mouth closed the whole time, only reacting.
+   AUNTY RONKE (the woman in a tight black head wrap and white collar, wearing a black housekeeper's dress with white collar), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -767,7 +772,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet night house, a puppy whining. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 26.19 | "Where's Ireti?" | Start: New image
@@ -797,6 +802,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:02-0:04 - CHIEF ADENUGA (the elderly man with snow-white hair and a full white beard, wearing a grey kaftan) says EXACTLY these words and NOTHING else: "Femi. Where's Ireti?" Then he stops talking.
    CHIEF ADENUGA's voice: very deep, slow, gravelly bass, strong Yoruba-Nigerian accent, long heavy pauses; booming only when angry. These words come ONLY from CHIEF ADENUGA's mouth.
    FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy suit) does NOT talk: mouth closed the whole time, only reacting.
+   AUNTY RONKE (the woman in a tight black head wrap and white collar, wearing a black housekeeper's dress with white collar), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -811,7 +817,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet night house, a puppy whining. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 26.20 | "I threw her out." | Start: New image
@@ -841,6 +847,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:01-0:07 - FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy suit) says EXACTLY these words and NOTHING else: "I threw her out, Grandpa. Her mother collapsed. She ran barefoot." Then he stops talking.
    FEMI's voice: smooth, clear baritone, polished Lagos-Nigerian accent with a light British-educated touch, quick and precise. These words come ONLY from FEMI's mouth.
    CHIEF ADENUGA (the elderly man with snow-white hair and a full white beard, wearing a grey kaftan) does NOT talk: mouth closed the whole time, only reacting.
+   AUNTY RONKE (the woman in a tight black head wrap and white collar, wearing a black housekeeper's dress with white collar), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -857,7 +864,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet night house, a puppy whining. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 26.21 | Fire in his eyes | Start: New image
@@ -898,7 +905,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: no voices, only a quiet night house, a puppy whining. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 26.22 | "We're going to Mushin." | Start: Last frame of 26.21
@@ -928,6 +935,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:01-0:05 - CHIEF ADENUGA (the elderly man with snow-white hair and a full white beard, wearing a grey kaftan) says EXACTLY these words and NOTHING else: "Bring my blue agbada. We're going to Mushin." Then he stops talking.
    CHIEF ADENUGA's voice: very deep, slow, gravelly bass, strong Yoruba-Nigerian accent, long heavy pauses; booming only when angry. These words come ONLY from CHIEF ADENUGA's mouth.
    FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy suit) does NOT talk: mouth closed the whole time, only reacting.
+   AUNTY RONKE (the woman in a tight black head wrap and white collar, wearing a black housekeeper's dress with white collar), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -942,7 +950,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet night house, a puppy whining. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 26.23 | "You haven't left this house" | Start: New image
@@ -972,6 +980,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:01-0:05 - FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy suit) says EXACTLY these words and NOTHING else: "Grandpa, you haven't left this house without her in months…" Then he stops talking.
    FEMI's voice: smooth, clear baritone, polished Lagos-Nigerian accent with a light British-educated touch, quick and precise. These words come ONLY from FEMI's mouth.
    CHIEF ADENUGA (the elderly man with snow-white hair and a full white beard, wearing a grey kaftan) does NOT talk: mouth closed the whole time, only reacting.
+   AUNTY RONKE (the woman in a tight black head wrap and white collar, wearing a black housekeeper's dress with white collar), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -986,7 +995,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet night house, a puppy whining. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 26.24 | "Time I went to find her." | Start: New image
@@ -1016,6 +1025,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:01-0:04 - CHIEF ADENUGA (the elderly man with snow-white hair and a full white beard, wearing a grey kaftan) says EXACTLY these words and NOTHING else: "Then it's time I went to find her." Then he stops talking.
    CHIEF ADENUGA's voice: very deep, slow, gravelly bass, strong Yoruba-Nigerian accent, long heavy pauses; booming only when angry. These words come ONLY from CHIEF ADENUGA's mouth.
    FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy suit) does NOT talk: mouth closed the whole time, only reacting.
+   AUNTY RONKE (the woman in a tight black head wrap and white collar, wearing a black housekeeper's dress with white collar), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -1030,7 +1040,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over a quiet night house, a puppy whining. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 26.25 | Flushed away | Start: New image
@@ -1072,4 +1082,4 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: no voices, only a quiet night house, a puppy whining. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.

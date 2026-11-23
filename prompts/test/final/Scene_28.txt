@@ -26,7 +26,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: no voices, only an office hum, faint traffic outside. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 28.2 | "Is he okay?" | Start: New image
@@ -57,6 +57,8 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    SEGUN's voice: deep, hurried corporate baritone, polished Nigerian accent, always rushing. These words come ONLY from SEGUN's mouth.
    IRETI (the young woman with long black braids in a low ponytail, wearing her one good dress) does NOT talk: mouth closed the whole time, only reacting.
    FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit) does NOT talk: mouth closed the whole time, only reacting.
+   KUNLE (the bald man with dark rectangular glasses and a goatee, wearing a dark pinstripe suit and blue tie), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   LOLA (the woman with big voluminous wavy hair and gold earrings, wearing a burgundy blazer), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -71,7 +73,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over an office hum, faint traffic outside. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 28.3 | "Not okay for ten years." | Start: New image
@@ -101,6 +103,9 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:01-0:05 - IRETI (the young woman with long black braids in a low ponytail, wearing her one good dress) says EXACTLY these words and NOTHING else: "He's not okay, sir. He hasn't been okay for ten years." Then she stops talking.
    IRETI's voice: soft, clear, medium-high pitch, warm Yoruba-Nigerian accent, gentle steady pace; she gets quieter, not louder, when hurt. These words come ONLY from IRETI's mouth.
    SEGUN (the man with a grey-flecked full beard in a charcoal suit, wearing a charcoal suit and brown paisley tie) does NOT talk: mouth closed the whole time, only reacting.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   KUNLE (the bald man with dark rectangular glasses and a goatee, wearing a dark pinstripe suit and blue tie), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   LOLA (the woman with big voluminous wavy hair and gold earrings, wearing a burgundy blazer), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -115,7 +120,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over an office hum, faint traffic outside. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 28.4 | Kunle: "He's just old." | Start: New image
@@ -145,6 +150,10 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:01-0:06 - VOICE FROM THE SCREEN (KUNLE): "Daddy's fine. He's just… old. He's grumpy. He pushes everyone away."
    This voice comes ONLY out of the big wall screen's speakers, like a real video call: slightly compressed and digital. Kunle's voice: flat, low, monotone bass, Nigerian accent, slow banker's delivery.
    Only KUNLE's face on the screen may move its lips. Nobody in the room talks.
+   IRETI (the young woman with long black braids in a low ponytail, wearing her one good dress), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   SEGUN (the man with a grey-flecked full beard in a charcoal suit, wearing a charcoal suit and brown paisley tie), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   LOLA (the woman with big voluminous wavy hair and gold earrings, wearing a burgundy blazer), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
    0:00-0:01 - Kunle shrugs on the screen.
@@ -158,7 +167,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: the dialogue above, clean and clear, over an office hum, faint traffic outside. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; the voice comes only from where section 3 says and every mouth in the room stays closed while it plays; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are where section 2B says, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 BACKUP if Grok still moves the listener's mouth: regenerate once. If it happens again, make this clip with DIALOGUE: NONE and add the line in CapCut (Audio > Voice effects > Telephone).
 
@@ -189,6 +198,10 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:07 - IRETI (the young woman with long black braids in a low ponytail, wearing her one good dress) says EXACTLY these words and NOTHING else: "With respect, sir, he pushes you away first, so you won't be the one who leaves." Then she stops talking.
    IRETI's voice: soft, clear, medium-high pitch, warm Yoruba-Nigerian accent, gentle steady pace; she gets quieter, not louder, when hurt. These words come ONLY from IRETI's mouth.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   SEGUN (the man with a grey-flecked full beard in a charcoal suit, wearing a charcoal suit and brown paisley tie), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   KUNLE (the bald man with dark rectangular glasses and a goatee, wearing a dark pinstripe suit and blue tie), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   LOLA (the woman with big voluminous wavy hair and gold earrings, wearing a burgundy blazer), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -203,7 +216,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over an office hum, faint traffic outside. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 28.6 | "Every Sunday for ten years" | Start: New image
@@ -233,6 +246,9 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:01-0:08 - IRETI (the young woman with long black braids in a low ponytail, wearing her one good dress) says EXACTLY these words and NOTHING else: "Every Sunday for ten years he wears his blue agbada and sits at the window, watching the gate. Waiting for you." Then she stops talking.
    IRETI's voice: soft, clear, medium-high pitch, warm Yoruba-Nigerian accent, gentle steady pace; she gets quieter, not louder, when hurt. These words come ONLY from IRETI's mouth.
    KUNLE (the bald man with dark rectangular glasses and a goatee, wearing a dark pinstripe suit and blue tie) does NOT talk: mouth closed the whole time, only reacting.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   SEGUN (the man with a grey-flecked full beard in a charcoal suit, wearing a charcoal suit and brown paisley tie), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   LOLA (the woman with big voluminous wavy hair and gold earrings, wearing a burgundy blazer), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -247,7 +263,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over an office hum, faint traffic outside. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 28.7 | Lola: "Every Sunday?" | Start: New image
@@ -277,6 +293,10 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:03-0:05 - VOICE FROM THE SCREEN (LOLA): "Every Sunday?"
    This voice comes ONLY out of the big wall screen's speakers, like a real video call: slightly compressed and digital. Lola's voice: soft, refined, British-Nigerian (London) accent, gentle.
    Only LOLA's face on the screen may move its lips. Nobody in the room talks.
+   IRETI (the young woman with long black braids in a low ponytail, wearing her one good dress), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   SEGUN (the man with a grey-flecked full beard in a charcoal suit, wearing a charcoal suit and brown paisley tie), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   KUNLE (the bald man with dark rectangular glasses and a goatee, wearing a dark pinstripe suit and blue tie), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
    0:00-0:03 - Lola's hand goes to her mouth.
@@ -292,7 +312,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: the dialogue above, clean and clear, over an office hum, faint traffic outside. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; the voice comes only from where section 3 says and every mouth in the room stays closed while it plays; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are where section 2B says, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 BACKUP if Grok still moves the listener's mouth: regenerate once. If it happens again, make this clip with DIALOGUE: NONE and add the line in CapCut (Audio > Voice effects > Telephone).
 
@@ -324,6 +344,9 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:01-0:08 - IRETI (the young woman with long black braids in a low ponytail, wearing her one good dress) says EXACTLY these words and NOTHING else: "Every Sunday, ma. And every Sunday, nobody comes. On his seventy-fifth birthday, he waited with a cake and one candle." Then she stops talking.
    IRETI's voice: soft, clear, medium-high pitch, warm Yoruba-Nigerian accent, gentle steady pace; she gets quieter, not louder, when hurt. These words come ONLY from IRETI's mouth.
    SEGUN (the man with a grey-flecked full beard in a charcoal suit, wearing a charcoal suit and brown paisley tie) does NOT talk: mouth closed the whole time, only reacting.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   KUNLE (the bald man with dark rectangular glasses and a goatee, wearing a dark pinstripe suit and blue tie), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   LOLA (the woman with big voluminous wavy hair and gold earrings, wearing a burgundy blazer), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -338,7 +361,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over an office hum, faint traffic outside. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 28.9 | "One minute and twelve seconds." | Start: New image
@@ -368,6 +391,9 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:01-0:08 - IRETI (the young woman with long black braids in a low ponytail, wearing her one good dress) says EXACTLY these words and NOTHING else: "Then Mr. Segun called for one minute and twelve seconds. That night, he fell down twenty-two steps." Then she stops talking.
    IRETI's voice: soft, clear, medium-high pitch, warm Yoruba-Nigerian accent, gentle steady pace; she gets quieter, not louder, when hurt. These words come ONLY from IRETI's mouth.
    SEGUN (the man with a grey-flecked full beard in a charcoal suit, wearing a charcoal suit and brown paisley tie) does NOT talk: mouth closed the whole time, only reacting.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   KUNLE (the bald man with dark rectangular glasses and a goatee, wearing a dark pinstripe suit and blue tie), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   LOLA (the woman with big voluminous wavy hair and gold earrings, wearing a burgundy blazer), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -382,7 +408,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over an office hum, faint traffic outside. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 28.10 | After-action: Segun sits back | Start: New image
@@ -423,7 +449,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: no voices, only an office hum, faint traffic outside. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 28.11 | "We thought he was just old." | Start: New image
@@ -453,6 +479,9 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:02-0:05 - SEGUN (the man with a grey-flecked full beard in a charcoal suit, wearing a charcoal suit and brown paisley tie) says EXACTLY these words and NOTHING else: "We thought… we thought he was just old." Then he stops talking.
    SEGUN's voice: deep, hurried corporate baritone, polished Nigerian accent, always rushing. These words come ONLY from SEGUN's mouth.
    IRETI (the young woman with long black braids in a low ponytail, wearing her one good dress) does NOT talk: mouth closed the whole time, only reacting.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   KUNLE (the bald man with dark rectangular glasses and a goatee, wearing a dark pinstripe suit and blue tie), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   LOLA (the woman with big voluminous wavy hair and gold earrings, wearing a burgundy blazer), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -469,7 +498,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over an office hum, faint traffic outside. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 28.12 | "He's waiting." | Start: New image
@@ -499,6 +528,9 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:02-0:04 - IRETI (the young woman with long black braids in a low ponytail, wearing her one good dress) says EXACTLY these words and NOTHING else: "He's not old, sir. He's waiting." Then she stops talking.
    IRETI's voice: soft, clear, medium-high pitch, warm Yoruba-Nigerian accent, gentle steady pace; she gets quieter, not louder, when hurt. These words come ONLY from IRETI's mouth.
    SEGUN (the man with a grey-flecked full beard in a charcoal suit, wearing a charcoal suit and brown paisley tie) does NOT talk: mouth closed the whole time, only reacting.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   KUNLE (the bald man with dark rectangular glasses and a goatee, wearing a dark pinstripe suit and blue tie), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   LOLA (the woman with big voluminous wavy hair and gold earrings, wearing a burgundy blazer), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -513,7 +545,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over an office hum, faint traffic outside. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 28.13 | "…Oh." | Start: New image
@@ -543,6 +575,9 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:03-0:04 - SEGUN (the man with a grey-flecked full beard in a charcoal suit, wearing a charcoal suit and brown paisley tie) says EXACTLY these words and NOTHING else: "…Oh." Then he stops talking.
    SEGUN's voice: deep, hurried corporate baritone, polished Nigerian accent, always rushing. These words come ONLY from SEGUN's mouth.
    IRETI (the young woman with long black braids in a low ponytail, wearing her one good dress) does NOT talk: mouth closed the whole time, only reacting.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   KUNLE (the bald man with dark rectangular glasses and a goatee, wearing a dark pinstripe suit and blue tie), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   LOLA (the woman with big voluminous wavy hair and gold earrings, wearing a burgundy blazer), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -557,7 +592,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over an office hum, faint traffic outside. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 28.14 | The plot | Start: New image
@@ -586,6 +621,10 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):
    0:01-0:09 - IRETI (the young woman with long black braids in a low ponytail, wearing her one good dress) says EXACTLY these words and NOTHING else: "And there's one more thing. Mr. Lekan has been drugging your father to keep him weak until Thursday's AGM, to take control of his shares." Then she stops talking.
    IRETI's voice: soft, clear, medium-high pitch, warm Yoruba-Nigerian accent, gentle steady pace; she gets quieter, not louder, when hurt. These words come ONLY from IRETI's mouth.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   SEGUN (the man with a grey-flecked full beard in a charcoal suit, wearing a charcoal suit and brown paisley tie), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   KUNLE (the bald man with dark rectangular glasses and a goatee, wearing a dark pinstripe suit and blue tie), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   LOLA (the woman with big voluminous wavy hair and gold earrings, wearing a burgundy blazer), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -600,7 +639,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over an office hum, faint traffic outside. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 28.15 | Kunle: "Proxy forms" | Start: New image
@@ -630,6 +669,10 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:01-0:07 - VOICE FROM THE SCREEN (KUNLE): "Lekan? Wait. Lekan sent us proxy forms last month. He said it was routine paperwork…"
    This voice comes ONLY out of the big wall screen's speakers, like a real video call: slightly compressed and digital. Kunle's voice: flat, low, monotone bass, Nigerian accent, slow banker's delivery.
    Only KUNLE's face on the screen may move its lips. Nobody in the room talks.
+   IRETI (the young woman with long black braids in a low ponytail, wearing her one good dress), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   SEGUN (the man with a grey-flecked full beard in a charcoal suit, wearing a charcoal suit and brown paisley tie), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   LOLA (the woman with big voluminous wavy hair and gold earrings, wearing a burgundy blazer), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
    0:00-0:01 - Kunle sits up.
@@ -645,7 +688,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: the dialogue above, clean and clear, over an office hum, faint traffic outside. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; the voice comes only from where section 3 says and every mouth in the room stays closed while it plays; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are where section 2B says, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 BACKUP if Grok still moves the listener's mouth: regenerate once. If it happens again, make this clip with DIALOGUE: NONE and add the line in CapCut (Audio > Voice effects > Telephone).
 
@@ -677,6 +720,10 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:01-0:04 - VOICE FROM THE SCREEN (LOLA): "I signed it. I didn't even read it."
    This voice comes ONLY out of the big wall screen's speakers, like a real video call: slightly compressed and digital. Lola's voice: soft, refined, British-Nigerian (London) accent, gentle.
    Only LOLA's face on the screen may move its lips. Nobody in the room talks.
+   IRETI (the young woman with long black braids in a low ponytail, wearing her one good dress), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   SEGUN (the man with a grey-flecked full beard in a charcoal suit, wearing a charcoal suit and brown paisley tie), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   KUNLE (the bald man with dark rectangular glasses and a goatee, wearing a dark pinstripe suit and blue tie), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
    0:00-0:01 - Lola covers her face.
@@ -690,7 +737,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
 9. SOUND: the dialogue above, clean and clear, over an office hum, faint traffic outside. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; the voice comes only from where section 3 says and every mouth in the room stays closed while it plays; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are where section 2B says, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 BACKUP if Grok still moves the listener's mouth: regenerate once. If it happens again, make this clip with DIALOGUE: NONE and add the line in CapCut (Audio > Voice effects > Telephone).
 
@@ -722,6 +769,9 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:02-0:04 - SEGUN (the man with a grey-flecked full beard in a charcoal suit, wearing a charcoal suit and brown paisley tie) says EXACTLY these words and NOTHING else: "We all signed it." Then he stops talking.
    SEGUN's voice: deep, hurried corporate baritone, polished Nigerian accent, always rushing. These words come ONLY from SEGUN's mouth.
    IRETI (the young woman with long black braids in a low ponytail, wearing her one good dress) does NOT talk: mouth closed the whole time, only reacting.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   KUNLE (the bald man with dark rectangular glasses and a goatee, wearing a dark pinstripe suit and blue tie), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   LOLA (the woman with big voluminous wavy hair and gold earrings, wearing a burgundy blazer), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -739,7 +789,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over an office hum, faint traffic outside. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 28.18 | "Sign the revocation." | Start: New image
@@ -769,6 +819,9 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:01-0:05 - FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit) says EXACTLY these words and NOTHING else: "Then sign the revocation. Tonight. Gabriel has the papers." Then he stops talking.
    FEMI's voice: smooth, clear baritone, polished Lagos-Nigerian accent with a light British-educated touch, quick and precise. These words come ONLY from FEMI's mouth.
    SEGUN (the man with a grey-flecked full beard in a charcoal suit, wearing a charcoal suit and brown paisley tie) does NOT talk: mouth closed the whole time, only reacting.
+   IRETI (the young woman with long black braids in a low ponytail, wearing her one good dress), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   KUNLE (the bald man with dark rectangular glasses and a goatee, wearing a dark pinstripe suit and blue tie), if anywhere in the frame, does NOT talk: mouth closed the whole time.
+   LOLA (the woman with big voluminous wavy hair and gold earrings, wearing a burgundy blazer), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -783,7 +836,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over an office hum, faint traffic outside. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 28.19 | "We'll sign." | Start: New image
@@ -813,6 +866,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:02-0:03 - SEGUN (the man with a grey-flecked full beard in a charcoal suit, wearing a charcoal suit and brown paisley tie) says EXACTLY these words and NOTHING else: "We'll sign." Then he stops talking.
    SEGUN's voice: deep, hurried corporate baritone, polished Nigerian accent, always rushing. These words come ONLY from SEGUN's mouth.
    FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit) does NOT talk: mouth closed the whole time, only reacting.
+   IRETI (the young woman with long black braids in a low ponytail, wearing her one good dress), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -829,7 +883,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over an office hum, faint traffic outside. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 28.20 | "Let us come ourselves." | Start: New image
@@ -859,6 +913,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:01-0:08 - SEGUN (the man with a grey-flecked full beard in a charcoal suit, wearing a charcoal suit and brown paisley tie) says EXACTLY these words and NOTHING else: "And… don't tell Daddy. Let us come ourselves. For once, let us be the ones walking toward him." Then he stops talking.
    SEGUN's voice: deep, hurried corporate baritone, polished Nigerian accent, always rushing. These words come ONLY from SEGUN's mouth.
    IRETI (the young woman with long black braids in a low ponytail, wearing her one good dress) does NOT talk: mouth closed the whole time, only reacting.
+   FEMI (the man with a low fade, short black beard and rimless gold glasses, wearing a navy three-piece suit), if anywhere in the frame, does NOT talk: mouth closed the whole time.
    No phone, TV or off-screen voice is heard. Nobody else says these lines.
    STRICT SCRIPT: these are the ONLY words spoken in this whole clip. Not one extra word before, between or after them: no goodbyes, no thank-yous, no 'take care', no added sentences, no humming or mumbling. Outside the times above, every mouth is closed. Any action in the timestamps after the last line (standing, leaving, paying, turning) happens in complete silence.
 4. TIMESTAMPS:
@@ -873,7 +928,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over an office hum, faint traffic outside. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 28.21 | Into the Abuja sun | Start: New image
@@ -919,7 +974,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over an office hum, faint traffic outside. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
 SHOT 28.22 | "Every family needs one." | Start: New image
@@ -963,4 +1018,4 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 8. LIP-SYNC & BODY: the speaker's lips move ONLY during the written words and match every word exactly; before and after them the mouth stays closed. Powerful, truthful acting: real emotion in the eyes, natural head and hand movements, body language that matches the words. Everyone else reacts with their faces and bodies, mouths closed.
 9. SOUND: the dialogue above, clean and clear, over an office hum, faint traffic outside. No music, no extra sounds.
 10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
-FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
