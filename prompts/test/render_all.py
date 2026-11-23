@@ -239,6 +239,16 @@ def video(scn, s):
                 nm = name(k).split()[-1].lower()
                 if k not in shown and re.search(r"\b" + re.escape(nm) + r"\b", s["_block"].lower()):
                     d.append(f"   {name(k).upper()} ({ident(scn, k)}), if anywhere in the frame, does NOT talk: mouth closed the whole time.")
+        if speakers_on and voices_off:
+            order = []
+            for t, o, line in s["dialogue"]:
+                kind, k, _ = parse_owner(o)
+                who_txt = f"the voice from the {'phone' if kind == 'phone' else 'screen' if kind == 'screen' else 'TV' if kind == 'tv' else 'off-screen'} ({name(k) if k in C else k})" if kind not in ("on", "x") else f"{name(k)} ({ident(scn, k)})"
+                order.append(f"{t} {who_txt}")
+            d.append("   TURN-TAKING (this is a real conversation with sound, NOT a silent video): " + "; then ".join(order) + ". Only one voice at a time.")
+            for k in speakers_on:
+                if k in C:
+                    d.append(f"   While the phone voice is speaking, {name(k).upper()} keeps {pro(k)} mouth closed and listens; {name(k).upper()} opens {pro(k)} mouth ONLY at {pro(k)} own time above. While {name(k).upper()} speaks, the phone is silent.")
         if speakers_on and not voices_off:
             d.append("   No phone, TV or off-screen voice is heard. Nobody else says these lines.")
         if int(scn) >= 6:
