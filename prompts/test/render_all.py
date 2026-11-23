@@ -56,6 +56,8 @@ def parse_owner(o):
     return ("on", o.strip(), None)
 
 
+ACTION_RE = re.compile(r"\b(throws?|threw|flicks?|slaps?|push(?:es)?|pushed|hits?|punch(?:es)?|drops?|closes?|shuts?|opens?|hands?\b|gives?|snatch(?:es)?|grabs?|picks? (?:it |the \w+ )?up|puts? (?:it |the \w+ )?down|places?|sets? (?:it )?down|lays?|hugs?|kneels?|stands?\b|sits?\b|walks? (?:out|away|in)|leaves?|storms? off|runs?|pours?|writes?|takes?|tears?|bangs?|kicks?|wipes?|lifts?|lowers?|swallows?|flush(?:es)?|presses?|unlocks?|locks?|falls?|catches?|slides?|rolls?|waves?|points?|taps?|squeezes?|turns? away|pulls?|rocks?)\b", re.I)
+
 def onscreen_speakers(s):
     return [parse_owner(o)[1] for _, o, _ in s["dialogue"] if parse_owner(o)[0] == "on"]
 
@@ -85,13 +87,57 @@ def plan_continuity(shots, scn="0"):
             if others:
                 partner = others[0]
             else:
-                for j in list(range(i - 1, max(-1, i - 4), -1)) + list(range(i + 1, min(len(shots), i + 4))):
-                    for k in onscreen_speakers(shots[j]) + shots[j]["who"]:
-                        if k != s["_speaker"] and k in C:
-                            partner = k; break
+                near = list(range(i - 1, max(-1, i - 4), -1)) + list(range(i + 1, min(len(shots), i + 4)))
+                for pool in ("speakers", "who"):          # someone who actually speaks nearby comes first
+                    for j in near:
+                        cands = onscreen_speakers(shots[j]) if pool == "speakers" else shots[j]["who"]
+                        for k in cands:
+                            if k != s["_speaker"] and k in C:
+                                partner = k; break
+                        if partner: break
                     if partner: break
         s["_partner"] = partner
+    if int(scn) >= 7:
+        plan_coverage(shots)
     return shots
+
+PHONE_RE = re.compile(r"phone (?:held|to)|on the phone|phone up|holding (?:his|her) phone|phone in (?:his|her) hand|phone call|phone low|phone to (?:his|her) ear|phone screen|video call|wall screen", re.I)
+
+def plan_coverage(shots):
+    """Film-style coverage: wide two-shot to open a conversation and after a long speech,
+    a close-up on whoever gives a longer opinion, and over-the-shoulder shots for quick replies."""
+    prev_pair, prev_cov, prev_spk = None, None, None
+    for s in shots:
+        S, P = s.get("_speaker"), s.get("_partner")
+        is_call = bool(PHONE_RE.search(s["frame"])) or any(parse_owner(o)[0] in ("phone", "screen", "tv", "pa") for _, o, _ in s["dialogue"])
+        if S and P and P in C and not is_call:
+            pair = frozenset((S, P))
+            words = len(" ".join(l for _, o, l in s["dialogue"]).split())
+            chained = s["start"].lower().startswith("last frame")
+            if chained and pair == prev_pair and prev_cov: cov = prev_cov          # same frame continues: keep the framing
+            elif pair != prev_pair: cov = "WIDE"                                 # a conversation opens wide
+            elif words >= 14: cov = "CLOSE"                                      # a longer opinion: close on the speaker
+            elif prev_cov == "CLOSE" and S != prev_spk: cov = "WIDE"             # after someone's speech, back to wide
+            elif prev_cov == "OTS": cov = "WIDE"
+            else: cov = "OTS"
+            s["_cover"] = cov
+            if cov in ("WIDE", "OTS") and P not in s["who"]:
+                s["who"] = list(s["who"]) + [P]
+            prev_pair, prev_cov, prev_spk = pair, cov, S
+        elif not s["who"]:
+            prev_pair, prev_cov, prev_spk = None, None, None
+
+def cover_frame(s):
+    S, P, cov = s["_speaker"], s["_partner"], s["_cover"]
+    nS, nP = name(S), name(P)
+    if cov == "WIDE":
+        return (f"WIDE TWO-SHOT: the whole moment exactly as the STAGING describes, everyone in their places and on their own side of the frame. "
+                f"{nS} and {nP} are both fully visible, faces clearly seen in three-quarter profile, looking at each other; {nS} is speaking to {nP}.")
+    if cov == "CLOSE":
+        return (f"MEDIUM CLOSE-UP on {nS} while {she(S)} speaks, filmed from the same side of the room as the wide shot, so {nS} is on the same side of the frame as in the wide shot; "
+                f"{nP} is just out of frame, and {nS}'s eyes are on {nP}.")
+    return (f"OVER-THE-SHOULDER SHOT: over {nP}'s shoulder onto {nS}'s face. The back of {nP}'s head and shoulder are soft in the foreground on {nP}'s own side of the frame; "
+            f"{nS} is in sharp focus, eyes on {nP}.")
 
 def eyeline(scn, s):
     who = s["who"]
@@ -121,12 +167,20 @@ def video(scn, s):
     if s.get("ref"):
         refs = " ".join(f"IMAGE {i+2} is the face of {name(k).upper()} ({ident(scn, k)}): {name(k)}'s face MUST be exactly the face in image {i+2} in every frame, the same person, not a lookalike, especially when the camera shows the face." for i, k in enumerate(s["ref"]))
         L.append(f"0. REFERENCE IMAGES: IMAGE 1 is the first frame of the video. {refs}")
+    if int(scn) >= 7:
+        L.append("ORDER TO GROK: generate this video ONLY with every item below in it: the exact dialogue and nothing more, every mandatory action clearly shown, everyone in their staging positions, the eye contact and the emotions. Do not leave anything out, do not add anything, do not change anything.")
     L.append(f"1. SCENE: {s['scene']}")
     focus = s.get("focus")
     if not focus:
         on = [parse_owner(o)[1] for _, o, _ in s["dialogue"] if parse_owner(o)[0] == "on"]
         focus = (f"{name(on[0])}'s face, centre frame." if on and on[0] in C else
                  f"{name(who[0])}'s face and body, centre frame." if who else "The place itself, centre frame.")
+    if s.get("_cover") == "WIDE":
+        focus = f"Both {name(s['_speaker'])} and {name(s['_partner'])} in a wide two-shot; {name(s['_speaker'])} is the one speaking."
+    elif s.get("_cover") == "CLOSE":
+        focus = f"{name(s['_speaker'])}'s face in a medium close-up while {she(s['_speaker'])} speaks."
+    elif s.get("_cover") == "OTS":
+        focus = f"{name(s['_speaker'])}'s face, seen over {name(s['_partner'])}'s shoulder."
     L.append(f"2. STAR & FOCUS: {focus}")
     prev = s.get("_prev")
     if prev and who:
@@ -196,7 +250,17 @@ def video(scn, s):
     if who:
         L.append(f"4A. CONTINUITY OUT: end on: {s['timeline'][-1][1]} Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.")
         L.append("4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.")
-    L.append(f"5. CAMERA: {s['camera']} Smooth and steady, no shake, no sudden zoom.")
+    if int(scn) >= 7 and who:
+        acts = [(t, a) for t, a in s["timeline"] if ACTION_RE.search(a)]
+        if acts:
+            L.append("4C. MANDATORY ACTIONS: these MUST happen on screen, fully and clearly, at exactly these times. Show each whole movement from start to finish: a thrown or flicked object really flies through the air and lands on the floor, a door really swings and shuts, a hand really passes an object to another hand, a push really moves the other person. Never skip, shorten, hide or only suggest them:")
+            for t, a in acts:
+                L.append(f"   {t} - {a}")
+    cam = s['camera']
+    if s.get("_cover") == "WIDE": cam = "Static wide two-shot showing both people, with a very slow, gentle push-in."
+    elif s.get("_cover") == "CLOSE": cam = "Static medium close-up on the speaker, with a very slow push-in."
+    elif s.get("_cover") == "OTS": cam = "Static over-the-shoulder shot."
+    L.append(f"5. CAMERA: {cam} Smooth and steady, no shake, no sudden zoom.")
     L.append(f"6. MOOD & LIGHTING: {s.get('mood') or MOODS[scn]}")
     L.append(f"7. LOOK / EFFECT: {LOOK}" + (f" {s['extra_look']}" if s.get('extra_look') else ""))
     on_talk = any(parse_owner(o)[0] in ("on", "x") for _, o, _ in s["dialogue"])
@@ -207,6 +271,8 @@ def video(scn, s):
     snd = s.get("sound") or build.AMBIENCE.get(scn, "quiet room tone")
     L.append(f"9. SOUND: {'the dialogue above, clean and clear, over ' if s['dialogue'] else 'no voices, only '}{snd}. No music, no extra sounds.")
     L.append(f"10. DURATION: exactly {s.get('dur', 10)} seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.")
+    if int(scn) >= 7:
+        L.append("FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light stays exactly as dark as the image.")
     return "\n".join(L)
 
 def image(scn, s):
@@ -220,6 +286,8 @@ def image(scn, s):
     face = (" The face of " + " and ".join(name(k) for k in speak) + " is clearly visible in three-quarter view with the mouth in view." if speak else "")
     ey = eyeline(scn, s)
     frame = s["frame"]
+    if s.get("_cover"):
+        frame = cover_frame(s) + f" MOMENT DETAILS (use these details, but the framing above decides the camera): {frame}"
     P = s.get("_partner")
     look_at = f"eyes on {name(P)}" if P else "eyes on the other person or the action"
     frame = re.sub(r"facing the camera(?: at three-quarters)?", f"face turned three-quarters toward the camera, {look_at}, never looking into the lens", frame)

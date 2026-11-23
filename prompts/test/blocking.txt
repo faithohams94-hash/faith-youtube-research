@@ -1,6 +1,16 @@
 # Staging (blocking) for each scene from Scene 8 on. Each line applies from that shot until the next line.
 # The camera always stays on the same side of the action, so people never swap sides of the frame.
 
+## 7
+7.2 | Corner table in the bukka: Gabriel sits at the corner table on the RIGHT of the frame, facing LEFT; Chioma stands right beside the table on the LEFT, close to him, looking down at him. Gabriel stays seated the whole scene. Gabriel polite and patient; Chioma rude and impatient.
+7.9 | Across the room: Ireti stands holding a tray, watching the corner table. Concerned.
+7.10 | Corner table: Gabriel still sits on the RIGHT; Ireti now stands beside the table on the LEFT, close to him, exactly where Chioma stood. Gabriel touched, then curious; Ireti warm and humble.
+7.11 | Kitchen hatch: Ireti at the hatch with the cook. Quietly generous.
+7.12 | Corner table: Gabriel seated on the RIGHT; Ireti standing on the LEFT beside the table. Warm, growing respect.
+7.22 | Corner table: Gabriel stands up from his chair on the RIGHT; Ireti still standing on the LEFT. Gabriel kind and mysterious; Ireti surprised.
+7.23 | Near the counter: Ireti stands on the LEFT holding the gold card; Mr. Jide stands on the RIGHT, right next to her. Jide mocking and cruel; Ireti hurt but dignified.
+7.25 | Ireti alone, bending down to the floor where the card fell. Determined.
+
 ## 8
 8.2 | Outside the tower in the queue: Ireti stands at the end of the queue on the LEFT of the frame; the woman in the sharp grey suit stands just in front of her on the RIGHT, half-turned back toward Ireti. Both standing. Ireti calm and dignified; the woman mocking and superior.
 8.5 | At the gate: Ireti stands on the LEFT of the frame holding the gold card; the security man stands on the RIGHT in front of the gate, facing her. Both standing. Ireti hopeful but nervous; the security man stern, then confused.
