@@ -306,7 +306,7 @@ Okay, baby. We'll pray on it.
 
 And that's it. That's the whole trial. By the end of the week, the verdict is everywhere.
 
-At your nephew's birthday party, your aunt squeezes your hand too long and says, We're all thinking about you. Your cousin Tasha stops texting you memes. Kayla, Danny's wife, sends you a link to a budgeting app with no message attached.
+At church that Sunday, your aunt squeezes your hand too long and says, We're all thinking about you. Your cousin Tasha stops texting you memes. Kayla, Danny's wife, sends you a link to a budgeting app with no message attached.
 
 At your nephew's fifth birthday, you bring a present wrapped in dinosaur paper. A remote-control truck, the good one, eighty dollars. You watch him tear it open, and his whole face lights up.
 
@@ -452,7 +452,7 @@ You don't go in.
 
 Through the glass of the lobby across the street, you can see the waiting room. Danny is standing in the middle of it, phone held up, filming himself. Kayla is next to him with her arm around your mother. Your mother looks so small in that plastic chair. She's still wearing her slippers.
 
-You know who's up there. Danny, holding court in the waiting room. Kayla, filming a video update. Your mother, who told you to sit Christmas out. You imagine walking in, the broke one, empty-handed, and every head in that room turning toward you at once.
+You imagine walking in. The broke one. Empty-handed. In front of the mother who told you to sit Christmas out. Every head in that room turning toward you at once.
 
 So you sit in the dark and listen to the garage fans hum. And then you drive home.
 
@@ -600,7 +600,7 @@ Tasha: Dinner this weekend??? My treat lol
 
 Your uncle: Proud of you nephew. Always knew you had a head on your shoulders.
 
-You scroll up. And up. Past three years of photos you weren't in. Past the lake cabin. Past the Christmas crowns. All the way up to the gray line of text where Danny removed you.
+You scroll up. And up. Past eight years of photos you weren't in. Past the lake cabin. Past the Christmas crowns. All the way up to the gray line of text where Danny removed you.
 
 They didn't delete it. They just added you back underneath it.
 
