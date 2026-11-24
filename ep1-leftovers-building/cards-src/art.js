@@ -45,6 +45,34 @@ function hairShortBrown() {
   return `<path d="M62 132 Q58 54 150 46 Q242 54 238 132 Q222 90 186 92 Q160 74 130 92 Q82 90 62 132 Z" fill="#7a5233" stroke="${INK}" stroke-width="${SW}" stroke-linejoin="round"/>`;
 }
 
+function hairFade() {
+  // Danny: short dark top, faded sides
+  return `<path d="M66 128 Q62 62 150 54 Q238 62 234 128 Q222 98 150 94 Q78 98 66 128 Z" fill="#2a1d14" stroke="${INK}" stroke-width="${SW}" stroke-linejoin="round"/>
+    <path d="M60 150 Q60 126 72 116 M240 150 Q240 126 228 116" stroke="#6b5a4c" stroke-width="10" fill="none" stroke-linecap="round"/>`;
+}
+function hairGrayCurls() {
+  const c = [[78, 108], [100, 80], [130, 64], [166, 62], [198, 76], [222, 102], [70, 140], [230, 138], [116, 90], [182, 90]];
+  return `<g fill="#cfcfcf" stroke="${INK}" stroke-width="4">${c.map(([x, y]) => `<circle cx="${x}" cy="${y}" r="24"/>`).join("")}</g>`;
+}
+function hairBaldGray() {
+  return `<path d="M58 170 Q54 120 76 98 M242 170 Q246 120 224 98" stroke="#d6d6d6" stroke-width="18" fill="none" stroke-linecap="round"/>
+    <path d="M58 170 Q54 120 76 98 M242 170 Q246 120 224 98" stroke="${INK}" stroke-width="3" fill="none" opacity=".35"/>`;
+}
+function hairPonytail() {
+  return `<path d="M200 40 Q270 30 262 120 Q250 90 222 76 Z" fill="#e8c35a" stroke="${INK}" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M60 140 Q56 60 150 52 Q244 60 240 140 Q226 98 150 94 Q74 98 60 140 Z" fill="#f0cd65" stroke="${INK}" stroke-width="${SW}" stroke-linejoin="round"/>
+    <circle cx="206" cy="58" r="10" fill="#e5484d" stroke="${INK}" stroke-width="4"/>`;
+}
+function hairShortGray() {
+  return `<path d="M64 132 Q62 62 150 56 Q238 62 236 132 Q224 100 150 96 Q76 100 64 132 Z" fill="#d9d9d9" stroke="${INK}" stroke-width="${SW}" stroke-linejoin="round"/>
+    <g fill="#b0b0b0">${Array.from({ length: 22 }, (_, i) => `<circle cx="${84 + (i * 29) % 132}" cy="${70 + (i * 11) % 28}" r="3"/>`).join("")}</g>`;
+}
+function hairBraids() {
+  const c = [];
+  for (const x of [62, 74, 226, 238]) for (const y of [150, 180, 210, 240]) c.push([x, y]);
+  return `<g fill="#1e1410" stroke="${INK}" stroke-width="3">${c.map(([x, y]) => `<ellipse cx="${x}" cy="${y}" rx="11" ry="16"/>`).join("")}</g>`;
+}
+
 function eyes(kind, glasses) {
   const L = 112, R = 188, Y = 152;
   let e = "";
@@ -108,6 +136,19 @@ function outfit(kind, extra = {}) {
     case "blazer_gray": return `${body("#8b8f94")}<path d="M124 268 L150 312 L176 268" fill="#f4f4f4" stroke="${INK}" stroke-width="4"/>`;
     case "flannel": return `${body("#c9a76a")}<path d="M118 268 L150 380 L182 268 Z" fill="#b8423a" stroke="${INK}" stroke-width="4"/>
       <path d="M134 290 L166 290 M128 320 L172 320 M124 350 L176 350 M140 276 L140 380 M160 276 L160 380" stroke="#7d2a24" stroke-width="3"/>`;
+    case "polo": return `${body("#1f8a8a")}<path d="M128 266 L150 300 L172 266" fill="#176b6b" stroke="${INK}" stroke-width="4"/>
+      <path d="M140 300 L140 330 M160 300 L160 330" stroke="#fff" stroke-width="5"/><rect x="196" y="300" width="40" height="24" rx="4" fill="#E3B341" stroke="${INK}" stroke-width="3"/>`;
+    case "cardigan": return `${body("#7a2c3a")}<path d="M124 268 L150 380 L176 268 Z" fill="#efe4d0" stroke="${INK}" stroke-width="4"/>
+      ${[300, 330, 360].map((y) => `<circle cx="168" cy="${y}" r="5" fill="#E3B341" stroke="${INK}" stroke-width="2"/>`).join("")}`;
+    case "workshirt": return `${body("#2f4a6b")}<path d="M124 266 L150 296 L176 266" fill="#3c5c82" stroke="${INK}" stroke-width="4"/>
+      <rect x="182" y="300" width="58" height="26" rx="5" fill="#fff" stroke="${INK}" stroke-width="3"/><text x="211" y="319" font-family="Arial" font-weight="700" font-size="16" text-anchor="middle" fill="#2f4a6b">RAY</text>`;
+    case "top_pink": return `${body("#e98bb0")}<path d="M120 268 Q150 300 180 268" fill="none" stroke="${INK}" stroke-width="4"/>`;
+    case "suit_navy": return `${body("#1f2f55")}<path d="M124 268 L150 314 L176 268" fill="#f4f4f4" stroke="${INK}" stroke-width="4"/>
+      <path d="M118 268 L140 340 L100 304 Z M182 268 L160 340 L200 304 Z" fill="#18264a" stroke="${INK}" stroke-width="4" stroke-linejoin="round"/>`;
+    case "scrubs": return `${body("#4fa3b8")}<path d="M124 266 L150 312 L176 266" fill="#3d8aa0" stroke="${INK}" stroke-width="4"/>`;
+    case "worn_jacket": return `${body("#5b6146")}<path d="M150 270 L150 380" stroke="${INK}" stroke-width="4"/><path d="M126 268 L150 296 L174 268" fill="#2c2c2c" stroke="${INK}" stroke-width="4"/>
+      <path d="M40 350 q14 -10 28 0 M232 350 q14 -10 28 0" stroke="#7a805f" stroke-width="5" fill="none"/>`;
+    case "hoodie_red": return `<path d="M70 300 Q64 246 104 244 L196 244 Q236 246 230 300 Z" fill="#a8282b" stroke="${INK}" stroke-width="${SW}"/>${body("#c0302f")}`;
     case "suit_gray": return `${body("#b7bcc2")}<path d="M124 268 L150 300 L176 268" fill="#fff" stroke="${INK}" stroke-width="4"/>`;
     default: return body("#444");
   }
@@ -119,12 +160,15 @@ const SKIN = { pale: "#ecebe6", light: "#f1d2b6", tan: "#e3b48c", brown: "#8d5a3
 function bust(p) {
   const skin = SKIN[p.skin] || p.skin;
   const hair = { curly: hairCurlyBlack, slicked: () => hairSlicked("#5a3a22", false), slickedGray: () => hairSlicked("#5a3a22", true),
-    puff: hairPuff, shoulder: hairShoulderCurls, buzz: hairBuzzWhite, bob: hairBob, short: hairShortBrown }[p.hair]();
-  const backHair = p.hair === "shoulder" ? hair : p.hair === "bob" ? hair : "";
+    puff: hairPuff, shoulder: hairShoulderCurls, buzz: hairBuzzWhite, bob: hairBob, short: hairShortBrown,
+    fade: hairFade, grayCurls: hairGrayCurls, baldGray: hairBaldGray, ponytail: hairPonytail, shortGray: hairShortGray, braids: hairBraids }[p.hair]();
+  const backHair = p.hair === "shoulder" ? hair : p.hair === "bob" ? hair : p.hair === "braids" ? hair : "";
   const frontHair = p.hair === "shoulder"
     ? `<path d="M68 132 Q66 70 150 64 Q234 70 232 132 Q212 96 150 94 Q88 96 68 132 Z" fill="#2b1a12" stroke="${INK}" stroke-width="${SW}" stroke-linejoin="round"/>`
     : p.hair === "bob"
     ? `<path d="M58 140 Q56 58 150 52 Q244 58 242 140 Q232 104 196 100 L178 120 L170 100 Q150 98 104 100 Q70 104 58 140 Z" fill="#121212" stroke="${INK}" stroke-width="${SW}" stroke-linejoin="round"/>`
+    : p.hair === "braids"
+    ? `<path d="M64 136 Q62 62 150 56 Q238 62 236 136 Q222 98 150 94 Q78 98 64 136 Z" fill="#1e1410" stroke="${INK}" stroke-width="${SW}" stroke-linejoin="round"/>`
     : hair;
   const ex = p.extras || {};
   return `<svg viewBox="0 0 300 380" xmlns="http://www.w3.org/2000/svg" style="--skin:${skin}">
@@ -143,11 +187,28 @@ function bust(p) {
     ${ex.sweat ? `<path d="M236 112 q10 18 0 26 q-10 -8 0 -26 Z" fill="#9fd3ff" stroke="${INK}" stroke-width="3"/><path d="M70 128 q8 14 0 20 q-8 -6 0 -20 Z" fill="#9fd3ff" stroke="${INK}" stroke-width="3"/>` : ""}
     ${ex.pencil ? `<path d="M226 104 L262 84" stroke="#E3B341" stroke-width="10" stroke-linecap="round"/><path d="M262 84 L272 79" stroke="${INK}" stroke-width="6" stroke-linecap="round"/>` : ""}
     ${ex.santa ? `<path d="M64 92 Q150 -40 238 92 Z" fill="#c62828" stroke="${INK}" stroke-width="${SW}"/><rect x="56" y="80" width="190" height="26" rx="13" fill="#fff" stroke="${INK}" stroke-width="5"/><circle cx="236" cy="0" r="0"/><circle cx="96" cy="18" r="16" fill="#fff" stroke="${INK}" stroke-width="5"/>` : ""}
+    ${ex.goatee ? `<path d="M132 226 Q150 250 168 226 Q160 238 150 238 Q140 238 132 226 Z" fill="#2a1d14" stroke="${INK}" stroke-width="4"/>` : ""}
+    ${ex.mustache ? `<path d="M118 200 Q150 186 182 200 Q166 210 150 204 Q134 210 118 200 Z" fill="#d6d6d6" stroke="${INK}" stroke-width="4"/>` : ""}
+    ${ex.chain ? `<path d="M98 160 Q80 230 120 262 M202 160 Q220 230 180 262" fill="none" stroke="#E3B341" stroke-width="3" stroke-dasharray="4 4"/>` : ""}
     ${ex.blush ? `<ellipse cx="96" cy="190" rx="14" ry="7" fill="rgba(229,72,77,.35)"/><ellipse cx="204" cy="190" rx="14" ry="7" fill="rgba(229,72,77,.35)"/>` : ""}
   </svg>`;
 }
 
 const PEOPLE = {
+  me_now: { label: "YOU", hair: "curly", skin: "pale", glasses: true, outfit: "worn_jacket", expr: "calm", mouth: "flat" },
+  me_now_calm: { label: "YOU", hair: "curly", skin: "pale", glasses: true, outfit: "worn_jacket", expr: "calm", mouth: "halfsmile" },
+  me_sad: { label: "YOU", hair: "curly", skin: "pale", glasses: true, outfit: "hoodie", expr: "sad" },
+  danny: { label: "DANNY", hair: "fade", skin: "tan", glasses: false, outfit: "polo", expr: "smug", extras: { goatee: true } },
+  danny_worried: { label: "DANNY", hair: "fade", skin: "tan", glasses: false, outfit: "polo", expr: "worried", extras: { goatee: true, sweat: true } },
+  danny_shock: { label: "DANNY", hair: "fade", skin: "tan", glasses: false, outfit: "polo", expr: "shocked", extras: { goatee: true } },
+  mom: { label: "MOM", hair: "grayCurls", skin: "tan", glasses: false, outfit: "cardigan", expr: "kind" },
+  mom_sad: { label: "MOM", hair: "grayCurls", skin: "tan", glasses: false, outfit: "cardigan", expr: "sad" },
+  dad: { label: "DAD", hair: "baldGray", skin: "tan", glasses: false, outfit: "workshirt", expr: "calm", mouth: "flat", extras: { mustache: true } },
+  dad_sad: { label: "DAD", hair: "baldGray", skin: "tan", glasses: false, outfit: "workshirt", expr: "sad", extras: { mustache: true } },
+  kayla: { label: "KAYLA", hair: "ponytail", skin: "light", glasses: false, outfit: "top_pink", expr: "smug", mouth: "kind" },
+  okafor: { label: "MS. OKAFOR", hair: "shortGray", skin: "brown", glasses: true, outfit: "suit_navy", expr: "calm", mouth: "flat", extras: { chain: true } },
+  gloria: { label: "GLORIA", hair: "braids", skin: "brown", glasses: false, outfit: "scrubs", expr: "kind" },
+  nephew: { label: "NEPHEW", hair: "short", skin: "tan", glasses: false, outfit: "hoodie_red", expr: "kind" },
   me_owner: { label: "YOU", hair: "curly", skin: "pale", glasses: true, outfit: "jacket", expr: "calm", mouth: "halfsmile" },
   me_past: { label: "YOU", hair: "curly", skin: "pale", glasses: true, outfit: "crewneck", outfitExtra: { lanyard: true }, expr: "calm", mouth: "flat" },
   me_home: { label: "YOU", hair: "curly", skin: "pale", glasses: true, outfit: "hoodie", expr: "calm", mouth: "flat" },

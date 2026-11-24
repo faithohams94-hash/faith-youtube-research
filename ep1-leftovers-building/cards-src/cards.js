@@ -266,16 +266,16 @@ window.render=function(t){
   document.querySelectorAll('[data-dim]').forEach(el=>el.classList.toggle('dimmed',t>=+el.dataset.dim));
 };`;
 
-function page(c) {
+function page(c, extraCss = "") {
   const blobs = c.dark
     ? `<div class="blob" style="left:-100px;top:-120px;width:700px;height:500px;background:#ff7a1a"></div><div class="blob" style="right:-120px;bottom:-140px;width:800px;height:500px;background:#8a2a10"></div>`
     : `<div class="blob" style="left:-120px;top:-140px;width:760px;height:520px;background:#3d6b4f"></div><div class="blob" style="right:-140px;top:-80px;width:700px;height:480px;background:#7a5a22"></div>
        <div class="blob" style="left:30%;bottom:-260px;width:900px;height:420px;background:#2c4a5a"></div>`;
-  return `<!doctype html><html><head><meta charset="utf-8"><style>${CSS}</style></head>
+  return `<!doctype html><html><head><meta charset="utf-8"><style>${CSS}${extraCss}</style></head>
   <body${c.shake ? ` data-shake="${c.shake}"` : ""}>${blobs}
-  <div class="hdr"><div class="ep" ${at("fade", 0, 0.3)}>EPISODE 1</div><div class="sub" ${at("up", 0.05, 0.4)}>${c.sub}</div></div>
+  <div class="hdr"><div class="ep" ${at("fade", 0, 0.3)}>${c.ep || "EPISODE 1"}</div><div class="sub" ${at("up", 0.05, 0.4)}>${c.sub}</div></div>
   <div class="band${c.dark ? " dark" : ""}">${c.body}</div>
   <script>${ENGINE}</script></body></html>`;
 }
 
-module.exports = { CARDS, page };
+module.exports = { CARDS, page, at, person, people, count, icon, clock, ICONS };

@@ -4,7 +4,8 @@ const fs = require("fs");
 const path = require("path");
 const { spawn } = require("child_process");
 const { chromium } = require("playwright");
-const { CARDS, page } = require("./cards");
+// CARDS_MODULE picks another episode's card list (it must export CARDS and page); default is Episode 1.
+const { CARDS, page } = require(process.env.CARDS_MODULE || "./cards");
 
 const outDir = path.resolve(process.argv[2] || "out");
 const FPS = +(process.argv[3] || 30);
