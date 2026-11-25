@@ -1,0 +1,388 @@
+#H1 Overview
+
+#H3 Logline
+On the night of Adunni's birthday, a jealous elder sister watches her younger sister receive the biggest car in Abuja and decides to destroy her marriage. She succeeds, and then marries the husband herself. But every lie she tells is recorded somewhere, and years later the sister she threw into the rain owns his mansions.
+
+#H3 Synopsis
+Adunni Ogundele-Adebisi is married to Tunde Adebisi, the owner of the biggest auto company in Abuja. Their marriage is loving, but after five years there is still no child. Years ago Adunni quietly told the doctor, and then the whole family, that the fault was hers. The truth is that Tunde has a low sperm count. She took the blame to protect his pride, and she never told him otherwise.
+
+At Adunni's birthday party, Tunde surprises her with the newest car in Abuja. Her older sister, Morenike, unmarried and consumed by envy, watches from the lawn and decides that night to take the marriage apart and take Tunde for herself. She plants a charming stranger, Bayo, as Tunde's personal assistant, and hides a camera in the house. Bayo makes a move on Adunni. Morenike edits the footage so it looks like Adunni did not resist, and shows it to Tunde. Tunde jails Bayo. When Bayo threatens to expose Morenike, she pays corrupt policemen to silence him, and he dies in custody.
+
+Morenike then uses the weapon Adunni handed her. In front of Tunde and his mother, she says that Adunni cannot give a child. Tunde throws Adunni out into the rain. Adunni drives to a mansion, a workshop and a house her late grandmother secretly left her. Her grandmother raised both sisters, and she left everything to Adunni because she had seen Morenike's nature when Morenike was a child. Within a few years Adunni builds a luxury aso-oke empire. Morenike marries Tunde.
+
+The marriage poisons itself. A blackmailing policeman drains Morenike. Her lover, Michael, swindles Tunde and then swindles Morenike. A prisoner Bayo befriended spends his freedom hunting the truth, and an investigator finds Bayo's secret phone. Tunde's collapsing company takes a rescue loan from Adunni's company, not knowing whose it is. When he cannot repay, Adunni buys out his creditors and becomes the owner of his mansions. While packing, Tunde finds a cassette in Morenike's suitcase. It shows him everything he got wrong.
+
+#H3 Format and Tone
+Feature-length drama written for YouTube release. Target runtime 95 to 105 minutes. Dialogue is in English with short Yoruba phrases (translated in the script). The tone is Nollywood melodrama with a thriller engine: big emotions, heavy silences, cliffhangers before every ad break, and reversals that arrive just after the audience feels certain.
+
+#H3 Setting
+Abuja, Nigeria, present day, covering roughly five years. The Location Bible in this document describes every principal location in detail.
+
+#H3 Directing Rule for Shocks
+Each time the audience believes it knows what happens next, give it something else. The script does this by building a clear expectation, letting it settle, and then breaking it with a fact that has been quietly planted earlier. No twist arrives without a plant. The Shock Map in the next section lists them.
+
+#H1 The Shock Map
+
+#P Each entry lists what the audience expects, what actually happens, and where the reveal was planted. Scenes are named, not numbered, so the list stays correct if scenes move.
+
+#B SHOCK 1 (the birthday party). Expect: the biggest night of Adunni's life is a celebration. Get: it is the night her sister decides to destroy her. The camera finds Morenike's reflection in the car door, smiling and then not smiling.
+#B SHOCK 2 (the edited clip). Expect: Tunde sees the whole truth. Get: he sees twelve silent seconds in which Adunni appears to freeze, and the lie takes hold. Plant: Morenike tucks the original cassette into her suitcase lining.
+#B SHOCK 3 (the toilet block). Expect: Morenike's accomplice will blackmail her later. Get: she has him killed within days, and the order is a single quiet sentence.
+#B SHOCK 4 (the hidden mansion). Expect: Adunni, thrown out of her home, is poor and alone. Get: she owns a mansion with staff, a workshop and a house. Plant: the phone call to Baba Sule in the garden.
+#B SHOCK 5 (the flashback in the hall). Expect: Adunni cannot have children. Get: Adunni is fertile. Tunde is the one who cannot. She took the blame. Plant: the sealed envelope in her jewellery box.
+#B SHOCK 6 (the blackmail and the swindle). Expect: Morenike has won. Get: the policeman who killed Bayo now owns her, and then her lover robs her too.
+#B SHOCK 7 (the loan). Expect: Adunni will forgive Tunde and rescue him for free. Get: she grants the loan on a sixty-day clause.
+#B SHOCK 8 (Bayo's old room). Expect: the evidence is a recording Morenike can destroy. Get: Bayo hid a phone in a wall of his room before he died, and it recorded her.
+#B SHOCK 9 (the arrest). Expect: Tunde catches Morenike stealing and the story ends in a fraud arrest. Get: the police arrive for murder, and Tunde learns for the first time that Bayo is dead.
+#B SHOCK 10 (the boardroom). Expect: Tunde knows who is lending him money. Get: he has been begging his own ex-wife, and she has bought out every creditor he has.
+#B SHOCK 11 (the suitcase). Expect: the story is over once Morenike is jailed. Get: Tunde finds the original cassette and learns he threw out an innocent wife. Payoff: the tucked-away cassette from the edit scene.
+#B SHOCK 12 (the TV in the shop). Expect: Adunni lives alone with her grief. Get: she has a husband, Dr. Dawson, and triplets, and Tunde realises in one second that it was never her.
+#B SHOCK 13 (the courtroom). Expect: Morenike's lawyer will find a loophole. Get: Michael turns state witness, and Bayo's own phone speaks from the grave.
+#B SHOCK 14 (the post-credit scene). Expect: the story is closed. Get: the grandmother left a second sealed letter, addressed to Morenike.
+
+#H1 How to Use This Script for Visuals
+
+#P This edition is written for people and tools that will turn each scene into video or still images. Every scene is built from the same layers, so nothing has to be guessed.
+
+#B SETTING blocks (grey panel): the physical world of the scene. Where it is, the time of day, the light, the colors, the textures, the weather, the sounds in the background and the mood.
+#B ACTION lines: what the camera sees, in order. Each line describes movement, props, facial expression and body language, not just plot.
+#B DIALOGUE with delivery notes: who speaks, and in the parenthesis, how. Delivery covers pace, volume, pitch, breath and the expression on the speaker's face.
+#B REACTION blocks (indented, italic): what happens in the seconds after a line or an action. Faces falling, hands stopping, the room changing. These are the beats most tools skip, so they are written out.
+#B DIRECTOR'S NOTES: plants and payoffs for the twists. These are for the editor and director, not the camera.
+
+#H3 Visual Continuity Rules
+#B Light follows the story. The Adebisi mansion is warm gold while the marriage is happy, then turns cool blue and grey after the eviction. Adunni's new world is deep indigo with warm lantern light. Morenike's world is sodium orange and harsh fluorescent.
+#B Each main character keeps one signature color. Adunni: champagne and indigo. Morenike: mustard and gold. Tunde: charcoal and white, then oil-stained grey. Chief Mrs. Adebisi: deep red and coral.
+#B Rain only appears twice: the eviction and the last scene. It is the film's rhyme.
+#B Keep the same face for each actor and the same wardrobe for each timeline stage. The Character Bible lists the stages.
+
+#H3 Recurring Props and Motifs
+#B The white SUV with the plate ADUNNI ONE and the red ribbon. It returns, ribbon gone, when Adunni arrives as the new owner of the Adebisi mansion.
+#B The crystal vase on the foyer console, with the tiny red light inside it.
+#B The Ankara cloth hung over the nursery door handle. It stays there through the whole marriage. Adunni lifts it herself in Act Three, after she owns the house.
+#B The sealed hospital envelope in Adunni's jewellery box.
+#B The mini-DV cassette with a handwritten date. It is the center of the film's biggest reveal.
+#B The words "Smile, my sister." Heard four times: whispered at the vase, played on the tape in the CCTV shop, thrown back at Morenike by Tunde in prison, and played in court.
+#B Indigo thread. It appears in the workshop, in Adunni's ring, in the triplets' outfits and in Iya Agba's portrait.
+#B The toothpick in Sergeant Ajinibu's mouth.
+#B Iya Agba's portrait. It is always lit from the same side. At the end, the light changes slightly.
+
+#H1 Location Bible
+
+#P Each location has a ready-to-paste image prompt. Add the same style line used in the Character Bible: Photorealistic cinematic still, Nigerian feature film, natural skin texture, shallow depth of field, soft film grain, 35mm lens, warm Abuja color grade, 16:9.
+
+#LOC ADEBISI MANSION, MAITAMA
+where: A walled estate in Maitama, Abuja's wealthiest district. Seen at night during the party, in daylight during the marriage, and in cold rain at the eviction.
+look: Cream stucco two-storey house with tall white columns and a wide front porch. A double-curved marble staircase rises from a grand foyer with a black-and-white chequered floor. A crystal chandelier hangs over the foyer. A console table by the door holds a crystal vase. A small white CCTV dome sits in the ceiling corner. The living room has gold-trimmed cream sofas, heavy drapes and a large framed wedding photo. The garden has manicured hibiscus hedges, frangipani trees, a long driveway with a fountain and a tall black iron gate with gold spear tips. A closed nursery door with an Ankara cloth hangs on its handle on the upper corridor.
+light: Warm gold lamps and fairy lights while the marriage is happy. After the eviction, the same rooms are lit cool blue-white, with grey rain on the windows. By the end it is Adunni's, lit warm again.
+sound: Distant generator hum, crickets, a fountain trickle, marble echoes, a slow grandfather clock.
+mood: Luxurious and warm, then cold, then reclaimed.
+prompt: Wide establishing shot of a cream-colored Nigerian mansion in Maitama, Abuja, tall white columns, wide porch, manicured hibiscus hedges, long driveway with a fountain, black iron gate with gold spear tips, warm lamps glowing in every window, fairy lights in the trees, dusk, a white SUV parked in front.
+
+#LOC MORENIKE'S FLAT, WUSE
+where: A one-bedroom rented flat on the second floor of an ageing block in Wuse. Seen at night.
+look: Peeling cream paint with water stains in the corners, a wobbling ceiling fan, a faded floral sofa with a lump in one cushion, a plastic dining table with two mismatched chairs, a small wardrobe with a broken mirror. On the wall, a framed photo of Iya Agba and two small girls. An old brown suitcase under the bed. A landlord's notice on the floor. A louvred window overlooks a dark street.
+light: Sodium orange from the street through the louvres, a single weak bulb, the blue flicker of a laptop.
+sound: A generator next door, a neighbour's loud gospel music, the wobble of the fan, traffic.
+mood: Cramped, resentful, airless.
+prompt: Interior of a small cramped Nigerian one-bedroom flat at night, peeling cream paint with water stains, wobbling ceiling fan, faded floral sofa, plastic dining table with two mismatched chairs, framed photo of a grandmother with two little girls, sodium orange street light through louvre windows, an old brown suitcase half visible under the bed.
+
+#LOC OGUNDELE MANSION, ASOKORO
+where: Iya Agba's hidden mansion in Asokoro, left to Adunni. Seen at night during Adunni's arrival and later in daylight.
+look: A white colonial-meets-modern house, three times the size of the Adebisi mansion, wide curved steps, tall arched windows and rows of lanterns along a long gravel driveway. The hall has polished cream marble, a huge oil portrait of Iya Agba in a white gele and blue aso-oke, fresh flowers on a round table, and a quiet air of care. Staff wear indigo uniforms with white aprons and line the steps in two rows.
+light: Warm amber lanterns outside, soft golden lamps inside, the portrait lit from the left.
+sound: Rain on the gravel, the soft click of heels on marble, a distant gate motor.
+mood: Quiet, ancestral, dignified, a place that waited.
+prompt: Night exterior of a large white Nigerian mansion in Asokoro, wide curved steps, tall arched windows, rows of lanterns along a long gravel drive, staff in indigo uniforms standing in two lines on the steps, warm amber light, rain falling softly, a black SUV arriving.
+
+#LOC THE WORKSHOP AND AGBA ASO-OKE INDUSTRIES
+where: The old family workshop in Abeokuta, which grows into the factory and showroom of Agba Aso-Oke Industries in Abuja.
+look: The old workshop is a long tin-roofed hall with wooden looms under dust sheets, shelves of indigo, gold and wine thread, a concrete floor and sunbeams through louvred windows. The later factory has rows of working looms with weavers in indigo smocks, glass offices above, and a showroom with mannequins in tailored aso-oke. A bolt of cloth is draped over every surface. Iya Agba's portrait hangs in the main hall.
+light: Dusty slanting sunlight in the old workshop, clean white daylight and warm spot lights in the later showroom.
+sound: The clack and swish of looms, a radio playing old juju music, soft footsteps, later the hum of air conditioning.
+mood: Memory turning into power.
+prompt: Interior of a long Nigerian aso-oke weaving workshop, wooden looms with indigo, gold and wine threads, dust sheets being pulled off, sunbeams through louvre windows, concrete floor, an elderly master weaver in a small cap, dust floating in the light.
+
+#LOC AGBA ASO-OKE BOARDROOM
+where: A glass boardroom on the top floor of Agba Aso-Oke Industries.
+look: A long dark wood table with eighteen chairs, floor-to-ceiling glass looking over Abuja, silk samples framed on the walls, a framed portrait of Iya Agba at the head, a jug of water and a stack of folders. A white orchid on the table.
+light: Cool clear daylight, with the room slightly colder than comfortable.
+sound: A faint air-conditioning hum, a ticking wall clock, heels on marble.
+mood: Calm power. The air is thin.
+prompt: Modern glass boardroom on a top floor overlooking Abuja, long dark wood table, eighteen chairs, framed indigo silk samples on the walls, portrait of an elderly Nigerian grandmother at the head of the table, white orchid, cool daylight, an empty seat at the head.
+
+#LOC GWAGWALADA POLICE STATION
+where: A local divisional police station and its cells and toilet block, on the edge of Abuja.
+look: A low concrete building with peeling blue paint, a charge desk under a caged bulb, and a cell with a single barred window, a bucket, two thin mattresses and a tin cup. The toilet block is a damp concrete room with a cracked sink and exposed pipes, one with a detachable section.
+light: A flickering tube light, yellow in the corridor, grey-blue in the cell, a thin line of dawn through the bars.
+sound: Dripping water, a distant radio, boots on concrete, keys on a belt.
+mood: Grim, airless, indifferent.
+prompt: Interior of a damp Nigerian police station cell, peeling blue paint, concrete floor, a single barred window, a bucket in the corner, two thin mattresses, a tin cup, flickering tube light overhead, a man sitting on the floor against the wall.
+
+#LOC FCT POLICE COMMAND AND KUJE
+where: The bigger police station in Abuja where Ajinibu is interrogated, Morenike is held, and the Kuje visiting room where the sisters talk.
+look: A modern but worn interrogation room: a steel table bolted to the floor, three chairs, a one-way mirror. The women's cell has a thin mattress and a barred door. The Kuje visiting room is a long grey space divided by a thick glass panel and wire mesh, with a metal stool on each side and a hand-held intercom phone.
+light: Flat white fluorescent light, no shadows. Grey daylight in the visiting room.
+sound: Echoing footsteps, a buzzer, muffled voices, an intercom hiss.
+mood: Cold and procedural.
+prompt: Long grey prison visiting room divided by thick glass and wire mesh, a metal stool on each side, hand-held intercom phone, flat white fluorescent light, a woman in a plain grey wrapper seated behind the glass, a woman in an indigo suit seated opposite.
+
+#LOC MALLAM GARBA'S CAR-PARTS SHOP, UTAKO
+where: A cramped car-parts shop on a busy road in Utako.
+look: Shelves of brake pads, alternators, oil filters and fan belts, hand-lettered price tags, a calendar from a tyre company, an old TV bolted high in a corner, an oil-stained concrete floor and a rolled-down shutter with a gap. A counter with a notebook of debts and a calculator.
+light: Harsh daylight through the door, a bare bulb inside, dusky orange at closing.
+sound: Traffic, horns, a generator, the TV, the clang of metal parts, rain on tin.
+mood: Humbled, dusty, small.
+prompt: Interior of a crowded Nigerian car-parts shop, shelves of brake pads, alternators and oil filters, hand-lettered price tags, an old TV on a high shelf, oil-stained concrete floor, a man in an oil-stained polo shirt wrapping a headlight in newspaper, harsh daylight at the door.
+
+#LOC CCTV REPAIR SHOP, WUSE
+where: A tiny electronics and CCTV repair shop in Wuse.
+look: A cluttered workbench covered in old cameras, monitors, cables and soldering irons, shelves of tapes, a faded football poster, and a stool facing a grey monitor.
+light: Cool blue from monitors, a desk lamp, a dusty window.
+sound: A buzzing fluorescent tube, tape clicking, a soldering iron hiss.
+mood: Intimate, anxious, still.
+prompt: Cluttered Nigerian electronics repair shop, workbench covered in old camcorders, monitors, cables and a soldering iron, shelves of tapes, faded football poster, a technician in a jersey, cool blue monitor light on a man's face, dusty window.
+
+#LOC ABUJA HIGH COURT, COURTROOM 4
+where: A packed courtroom in Abuja.
+look: Dark wood panelling, a raised bench with the Nigerian coat of arms, a witness stand, a long wooden dock, rows of wooden benches, a ceiling fan turning slowly, a TV monitor on a trolley for exhibits.
+light: Grey daylight through high windows, warm overhead lights.
+sound: Murmuring crowd, the creak of benches, a gavel, the ceiling fan.
+mood: Heavy and attentive.
+prompt: Nigerian high court interior, dark wood panelling, raised bench with the national coat of arms, wooden dock, rows of packed benches, ceiling fan turning, a TV monitor on a trolley, a woman judge in black robe and white bands.
+
+#LOC DAWSON HOME AND NURSERY
+where: Adunni and Dr. Dawson's family home.
+look: A soft cream living room, a nursery with indigo aso-oke curtains, three wooden cots in a row, a round blue rug, a mobile of paper stars, framed baby photos, and a rocking chair.
+light: Warm lamp light, a soft night light shaped like a moon.
+sound: Gentle breathing, a distant lullaby, a ticking clock.
+mood: Safe and quiet.
+prompt: Warm nursery with indigo aso-oke curtains, three wooden cots in a row, a round blue rug, paper star mobile, soft moon-shaped night light, rocking chair, three sleeping toddlers, a woman in a nightdress watching from the doorway.
+
+#H1 Character Bible
+
+#P How to use the prompts. Each character has an image prompt and a voice prompt. To keep faces consistent across shots, generate one hero portrait per character first, then use it as the reference image for every later prompt. Add this style line to the end of every image prompt:
+
+#P STYLE LINE: Photorealistic cinematic still, Nigerian feature film, natural skin texture with visible pores, shallow depth of field, soft film grain, 35mm lens, warm Abuja color grade, 16:9.
+
+#P VOICE PROMPTS are written for text-to-speech or voice-cloning tools. Each describes pitch, pace, accent, breath and emotion. Dialogue lines in the screenplay carry their own delivery notes in brackets, and those override the base voice for that line.
+
+#H2 Principal Characters
+
+#CHAR ADUNNI OGUNDELE-ADEBISI
+role: Protagonist. Wife of Tunde, younger sister of Morenike, secret heiress, later founder of Agba Aso-Oke Industries.
+age: 30 at the start. 35 at the end.
+look: Slim, graceful, dark-brown skin, soft round face with a gap-toothed smile, long neck, hair in neat braids or under a gele. Wardrobe stages: (1) the marriage, pastel lace, champagne gowns, simple gold studs; (2) the eviction, a soaked lace wrapper and bare feet; (3) the empire, sharp deep-indigo aso-oke suits, a wine gele, a single heavy ring; (4) the new family, soft cream knitwear and a simple headscarf.
+body: She walks with a straight spine and small, quick steps when happy, and slows to a glide when hurt. She touches people when she speaks: a hand on an arm, a squeeze of a wrist. She laughs with her whole shoulders and covers her mouth with both hands when moved. When she is wounded she goes very still, her lower lip trembles once, and she swallows before speaking. Her eyes fill without a sound. In the empire years her stillness becomes a weapon: a level gaze, hands folded, a very slight lift of the chin.
+voice: Soft mezzo, warm and unhurried, with a gentle Yoruba lilt. She rises at the end of a sentence when teasing, and drops lower and slower when she is hurt. She never shouts. She says "Ah, Tunde" and "Mama" with affection. Her laughter is breathy and short. In the boardroom her voice becomes flat and calm, each word placed like a coin.
+nature: Warm, humble, proud in a quiet way. She will give up her reputation for love, and then be unmovable once trust is gone. She never uses the word revenge.
+prompt: Portrait of a 30-year-old Nigerian woman, dark brown skin, soft oval face, small gap between her front teeth, slender neck, hair in neat box braids, wearing a champagne lace gown and simple gold stud earrings, gentle warm smile with glistening eyes, fairy lights glowing behind her at a garden party, hands lightly clasped at her chest.
+vprompt: Warm soft Nigerian female voice, early thirties, gentle Yoruba-accented English, unhurried pace, slight musical lilt, breathy laugh, drops lower and slower when hurt, never shouts, calm and flat when commanding.
+
+#CHAR MORENIKE OGUNDELE
+role: Antagonist. Elder sister of Adunni. Unmarried. Later Tunde's second wife and then a convicted murderer.
+age: 37 at the start. 42 at the end.
+look: Taller than Adunni, striking rather than soft, high cheekbones, defined brows, lips usually pressed into a polite smile. Wardrobe stages: (1) the party and the flat, a mustard dress, a sleek bob wig, gold hoops, a handbag with a worn corner; (2) the wife, real designer wear that does not suit her, too many bangles; (3) the prison, a plain grey wrapper, hair tied under a faded headtie.
+body: She stands very upright with her shoulders back and her handbag held against her stomach like a shield. Her smile appears fast and disappears fast, like a light switched on and off. Her eyes stay still when her mouth smiles. She claps late. She tilts her head to listen and never interrupts. When she lies, she blinks slowly and touches her collarbone. When she is angry, she goes quieter, not louder. In prison she becomes stone: hands folded, spine straight, no blink.
+voice: Crisp alto, controlled and polite, with careful diction. In public she is sweet: "my dear", "Sister", "Mama", with a bright rising tone. In private she is flat and dry, almost bored. She uses long pauses to make others fill the silence. She never raises her voice, even when ordering a killing. Her laugh is a single dry breath.
+nature: Intelligent, patient, charming in public. She believes she is owed a life.
+prompt: Portrait of a 37-year-old Nigerian woman, medium-brown skin, high cheekbones, sharp defined eyebrows, polite tight smile that does not reach her still eyes, hair in a sleek bob wig, wearing a tailored mustard dress and gold hoop earrings, handbag held tight against her stomach, watching a party from the edge of a lawn at night, fairy lights reflecting in her eyes.
+vprompt: Crisp controlled Nigerian female alto, late thirties, careful diction, sweet and bright in public, flat and dry in private, slow pauses, never raises her voice, quiet single-breath laugh, chillingly calm when giving orders.
+
+#CHAR TUNDE ADEBISI
+role: Adunni's husband, the only son of the Adebisi family, founder and CEO of Adebisi Motors.
+age: 34 at the start. 39 at the end.
+look: Tall, broad-shouldered, clean-shaven, a confident jaw and tired eyes. Wardrobe stages: (1) the marriage, tailored dark suits, crisp white shirts, an embroidered navy agbada at the party; (2) the fall, a rumpled suit and loosened tie, thin face, shadows under the eyes; (3) the shop, an oil-stained polo shirt and plastic sandals.
+body: He takes up space: wide stance, hands on hips, a big open laugh. When moved he looks up and blinks fast. When angry his jaw locks and a vein shows at the temple, and he points with a straight arm. When ashamed he turns his body away, rubs the back of his neck and cannot hold eye contact. In the shop his shoulders curve inward and his hands, once clean, are black with oil.
+voice: Rich baritone, confident and generous, a deep laugh. He says "Aya mi" (my wife) tenderly. In anger he speaks in short, hard commands and his voice cracks upward at the end. When he breaks, the voice becomes a hoarse whisper. In the shop his pitch is lower and slower, a man who has stopped giving orders.
+nature: Generous and proud. He loves Adunni sincerely but cannot bear to be seen as less than a man, and that pride is his tragedy.
+prompt: Portrait of a 34-year-old Nigerian man, tall, broad shoulders, clean-shaven, strong jaw, wearing an embroidered navy agbada with gold thread, a wide proud smile that crinkles his eyes, standing on a garden stage under fairy lights.
+vprompt: Rich warm Nigerian male baritone, mid-thirties, confident and generous, deep laugh, tender on endearments, short hard commands when angry with a voice that cracks at the end, hoarse whisper when broken.
+
+#CHAR CHIEF MRS. FOLASADE ADEBISI
+role: Tunde's mother. A matriarch who wants grandchildren and believes the wrong sister.
+age: 63.
+look: Small, upright, formidable. A stiff gele in deep red, heavy coral beads, rimless glasses on a chain, a wine lace buba and wrapper, a beaded fan she keeps in one hand.
+body: She moves slowly and never hurries. She folds her arms when displeased and taps one finger against the opposite elbow. She rarely blinks. She looks over her glasses when she is judging. When she is wrong, she takes the glasses off and holds them in both hands. In the ending her shoulders sag and the fan finally rests in her lap.
+voice: Low and dry, slow, each sentence ending like a closing door. She speaks formal English with Yoruba proverbs and calls people "my daughter" or by their full name. She never raises her voice because she never needs to.
+nature: Protective and old-fashioned. She is not a villain. She is wrong, and when she learns how wrong she was, it breaks her.
+prompt: Portrait of a 63-year-old Nigerian matriarch, small and upright, deep red gele headtie, heavy coral bead necklace, rimless glasses on a chain, wine lace buba, beaded hand fan, stern dignified expression with raised eyebrows, seated in an ornate gold-and-cream living room.
+vprompt: Low dry Nigerian elderly female voice, sixties, slow formal cadence, Yoruba proverb rhythm, no hurry, quiet authority, every sentence final, softens and cracks only when ashamed.
+
+#CHAR BAYO ADELEKE
+role: The planted personal assistant. Morenike's tool and her first victim.
+age: 28.
+look: Lean, handsome, quick smile, one chipped front tooth, sleek short hair. He wears a borrowed navy suit that fits slightly wrong and a thin tie. In the cell he wears a torn white shirt and has a swollen left eye and a split lip.
+body: He is always moving, shifting weight, tapping a foot, adjusting a cuff. He smiles first and thinks second. He leans in when he talks, with a head tilt that feels like friendliness. When scared his smile stays but his eyes widen and his hands shake. In the cell he curls against the wall and his bravado drains out of him.
+voice: A quick bright tenor with street charm, sprinkled with Pidgin: "Madam, ah!", "No wahala." He laughs in short bursts. When afraid his voice thins and speeds up. By the cell he is hoarse and slow.
+nature: Charming and desperate. He supports a sick mother and thinks the job is easy money. He is not evil, only greedy and weak, and that costs him everything.
+prompt: Portrait of a 28-year-old Nigerian man, lean, handsome, charming smile with one slightly chipped front tooth, wearing a slightly ill-fitting navy suit and thin tie, head tilted in a friendly way, eager bright eyes, standing in a glass-walled office lobby.
+vprompt: Quick bright Nigerian male tenor, late twenties, street-smart charm, light Pidgin phrases, short laughs, thin and fast when scared, hoarse and slow when beaten.
+
+#CHAR DR. DANIEL DAWSON
+role: Cardiologist, later Adunni's husband.
+age: 41.
+look: Calm, short neat beard, thin wire glasses, a soft voice and steady hands. White coat at work, a plain grey knit sweater at home.
+body: He stands still and listens with his whole face. He takes his glasses off to rub the bridge of his nose when he is moved. His hand finds the small of Adunni's back without being asked. He never hurries toward a crying person. He sits near them and waits.
+voice: Deep soft baritone, measured, with a faint British-trained edge on a Nigerian base. Each sentence lands slowly. He pauses before the kind thing.
+nature: Patient and grounded. He does not rescue Adunni. He stays beside her while she rescues herself.
+prompt: Portrait of a 41-year-old Black man, short neat beard, thin wire-rimmed glasses, white doctor's coat over a pale blue shirt, stethoscope around his neck, kind steady expression with soft eyes, bright modern clinic behind him.
+vprompt: Deep soft Nigerian male baritone, early forties, faint British-trained polish, measured and slow, long kind pauses, reassuring.
+
+#H2 Supporting Characters
+
+#CHAR MR. OBINNA NWOSU ("OBI")
+role: Wealthy businessman jailed on a false fake-alert charge. Befriends Bayo, is released the day Bayo dies, and spends his freedom pursuing justice.
+age: 52.
+look: Heavy-set, silver at the temples, tired kind eyes, a faded prison undershirt in the cells and a crisp navy agbada afterwards with a thick gold watch.
+body: A big man who moves like a tired bear. He sits with his knees apart and his hands loose between them. He rubs his thumb across his knuckles when thinking. When he is moved he looks at the floor and breathes through his nose. After his release he stands straighter and walks with purpose.
+voice: Gravelly, slow, Igbo-inflected English, with proverbs and the words "my brother" and "nna". Calm in every situation, with a low hum when thinking.
+prompt: Portrait of a 52-year-old Nigerian man, heavy-set, silver at the temples, tired kind eyes, wearing a faded white prison undershirt in a dim concrete cell, a thoughtful gaze, then a second portrait in a crisp navy agbada and thick gold watch.
+vprompt: Gravelly slow Nigerian male voice, early fifties, Igbo-inflected English, warm and steady, proverbs, low thoughtful hum, never rushes.
+
+#CHAR SERGEANT AJINIBU
+role: The corrupt policeman who kills Bayo and later blackmails Morenike.
+age: 45.
+look: Thick-necked, small mean eyes, a uniform stretched at the buttons, a toothpick in the corner of his mouth, a belt buckled one notch too tight.
+body: He moves slowly and quietly for a heavy man. He leans on door frames. The toothpick travels from one side of his mouth to the other when he is thinking. He smiles with his teeth and not his eyes. After violence he wipes his hands on a handkerchief with great care.
+voice: A slow lazy drawl, Pidgin-flavored, with a sinister politeness: "Madam", "no wahala". He chews his words. He never raises his voice.
+prompt: Portrait of a 45-year-old Nigerian police sergeant, thick neck, small narrow eyes, uniform shirt strained at the buttons, toothpick in the corner of his mouth, a slow sly smile, standing in a dim police station corridor under a flickering tube light.
+vprompt: Slow lazy Nigerian male voice, mid-forties, Pidgin-flavored, drawling, falsely polite, chewing his words, dangerous calm.
+
+#CHAR MICHAEL OKPARA
+role: Morenike's lover and fake-contract contractor. He double-crosses her and later turns state witness.
+age: 40.
+look: Slick fade haircut, neat beard, expensive cologne, a fitted pinstripe suit worn with white sneakers, a gold chain.
+body: He is always leaning on something: a door, a table, a car. He opens his hands like a salesman. He laughs at his own jokes before they land. He touches people's shoulders to charm them. When he cheats he looks straight into your eyes.
+voice: Smooth tenor, salesman patter, "baby", "sweetheart", a mix of Lagos and Igbo cadence. His laugh is easy and a little too loud.
+prompt: Portrait of a 40-year-old Nigerian man, slick fade haircut, neatly trimmed beard, fitted pinstripe suit worn with white sneakers, gold chain, easy confident grin, leaning back in a chair in a trendy Abuja restaurant.
+vprompt: Smooth Nigerian male tenor, around forty, salesman patter, easy loud laugh, pet names, warm and slippery.
+
+#CHAR SEGUN ALADE
+role: Private investigator hired by Obi.
+age: 48.
+look: Wiry, patient, a battered leather satchel, a cheap watch and an expensive camera. He looks forgettable on purpose.
+body: He is still and observant, and crouches to look at floors and walls. He holds objects by the edges. He rarely makes eye contact, then holds it a beat too long.
+voice: Soft, dry, matter-of-fact. Short precise sentences. He never raises his voice.
+prompt: Portrait of a 48-year-old Nigerian man, wiry build, plain short-sleeved shirt, battered leather satchel on his shoulder, cheap watch, calm forgettable face, crouching in a grimy concrete toilet block with a small torch pointed at a pipe.
+vprompt: Soft dry Nigerian male voice, late forties, short precise sentences, calm, matter-of-fact.
+
+#CHAR IYA AGBA (GRANDMOTHER OGUNDELE)
+role: Raised both sisters after their mother died. Saw Morenike's nature when Morenike was a child, and left the mansion, the workshop and the house to Adunni alone, with a condition. Appears in flashback, in portrait and in her letters.
+age: 78 in flashback.
+look: Frail and bright-eyed, white gele, deep-blue aso-oke wrapper, a walking stick with a carved handle. She sits in a cane chair beside a loom.
+body: She sits with both hands folded on her stick. She watches children without blinking. When she smiles, the whole face folds. In the portrait her gaze follows the viewer, slightly amused, slightly sad.
+voice: An old cracked voice, clear and unhurried, with Yoruba proverbs and a patient cadence. Heard mostly as voiceover.
+nature: Wise, watchful, loving and unsentimental. She loved both girls and protected the one who needed protecting.
+prompt: Portrait of a 78-year-old Nigerian grandmother, frail but bright-eyed, white gele, deep-blue aso-oke wrapper, carved wooden walking stick, seated on a cane chair beside a wooden loom, warm afternoon light, a slight knowing smile.
+vprompt: Old cracked Nigerian female voice, late seventies, clear and unhurried, Yoruba proverb cadence, patient, amused and sad.
+
+#CHAR TEMITOPE ("TEMI")
+role: Adunni's personal assistant and gatekeeper. She buys out Tunde's creditors.
+age: 29.
+look: Crisp white blouse, neat natural hair, a clipboard she never puts down, low black heels.
+body: She stands half a step behind Adunni with her clipboard against her chest. She reads Adunni's face and moves before being asked. She never fidgets.
+voice: Crisp, quick, polite, formal. A professional office tone with a warm undertone for Adunni.
+prompt: Portrait of a 29-year-old Nigerian woman, neat natural hair, crisp white blouse and black skirt, clipboard held against her chest, composed and attentive, in a modern fashion-house office.
+vprompt: Crisp polite Nigerian female voice, late twenties, quick and professional, warm when speaking to her boss.
+
+#CHAR MAMA BAYO
+role: Bayo's mother. Her son's old room holds his secret phone.
+age: 65.
+look: Thin, bent, a faded wrapper and headtie, hands scarred from farm work.
+body: She sits on a low stool with her hands busy: shelling beans, folding cloth, wringing a wrapper. When grief arrives she presses her hands to her chest and rocks.
+voice: A thin quavering voice, Yoruba mixed with English, with pauses where she swallows.
+prompt: Portrait of a 65-year-old Nigerian woman, thin, slightly bent, faded cotton wrapper and plain headtie, work-worn hands holding a small wristband, sorrowful dignified expression, standing in a mud-brick doorway in a village at dusk.
+vprompt: Thin quavering Nigerian elderly female voice, mid-sixties, Yoruba-accented, broken by grief, soft and slow.
+
+#H2 One-Scene Characters
+
+#CHAR BABA SULE
+role: Master weaver and manager of the Ogundele workshop. The only person who knows the deed.
+age: 71.
+look: Thin, white stubble, a small cap, ink-stained fingers.
+body: He bows slightly when he speaks to Adunni, hands cupped. He touches the looms like animals he loves.
+voice: Raspy, respectful, calls her "Ma". Slow and gentle.
+prompt: Portrait of a 71-year-old Nigerian man, thin, white stubble, small cap, ink-stained fingers resting on a wooden loom, gentle look, workshop with colored threads behind him.
+vprompt: Raspy gentle Nigerian elderly male voice, seventies, respectful, slow.
+
+#CHAR MR. KUNLE (DRIVER) AND MR. HASSAN (SECURITY)
+role: Adunni's loyal driver and security man who collect her from the gate.
+age: 50 and 42.
+look: Kunle wears a grey driver's cap and a neat uniform. Hassan is tall, broad, in a black security uniform with a torch.
+body: Kunle holds the umbrella with both hands, tilted so Adunni stays dry while he gets wet. Hassan stands like a wall and never takes his eyes off the street.
+voice: Kunle is warm and anxious. Hassan is deep and brief.
+prompt: Two Nigerian men standing beside a black SUV in heavy rain, left a 50-year-old driver in a grey cap and neat uniform holding an umbrella with a worried face, right a tall 42-year-old security guard in a black uniform holding a torch, night street.
+vprompt: Kunle: warm anxious Nigerian male voice, fifties. Hassan: deep brief Nigerian male voice, forties.
+
+#CHAR DR. IBIDUN COKER
+role: Adunni's doctor. Appears only in one short flashback.
+age: 50.
+look: Neat grey-streaked hair, round glasses, a pressed white coat.
+body: She holds a folder with both hands and speaks directly. She takes off her glasses when she says something difficult.
+voice: A very steady, kind, formal voice.
+prompt: Portrait of a 50-year-old Nigerian woman doctor, grey-streaked hair in a neat bun, round glasses, pressed white coat, calm serious expression, seated behind a consulting desk with a folder in front of her.
+vprompt: Steady formal Nigerian female voice, fifties, kind and clear.
+
+#CHAR MR. SEUN (CCTV TECHNICIAN)
+role: Plays the old cassette for Tunde.
+age: 36.
+look: A faded football jersey, glasses pushed up on his forehead, a soldering iron.
+body: He fidgets with tools, then goes completely still when he understands what the tape is.
+voice: Chatty, then quiet.
+prompt: Portrait of a 36-year-old Nigerian electronics technician, glasses pushed up on his forehead, faded football jersey, soldering iron in hand, standing at a cluttered workbench full of old cameras and monitors.
+vprompt: Chatty relaxed Nigerian male voice, mid-thirties, goes quiet and low.
+
+#CHAR LEKAN (WAITER)
+role: The restaurant waiter whom Tunde pays to eavesdrop.
+age: 24.
+look: A black waistcoat, a name tag, an order notebook in his apron.
+body: He moves with careful politeness and tries not to look at the table he is spying on.
+voice: Polite, soft, nervous.
+prompt: Portrait of a 24-year-old Nigerian waiter, black waistcoat and bow tie, name tag, order notebook in his apron pocket, alert polite expression, standing at a restaurant table.
+vprompt: Polite soft nervous Nigerian male voice, early twenties.
+
+#CHAR MR. OKAFOR (NEIGHBOUR)
+role: The neighbour who lends Tunde a parking space and a car.
+age: 58.
+look: A round man in a loose cream kaftan and slippers, holding a newspaper.
+body: He rocks on his heels, curious and gossipy.
+voice: Jolly, curious, a little loud.
+prompt: Portrait of a 58-year-old Nigerian man, round face, loose cream kaftan and slippers, holding a folded newspaper, standing at the gate of a neat bungalow, friendly puzzled expression.
+vprompt: Jolly curious Nigerian male voice, late fifties, a little loud.
+
+#CHAR MALLAM GARBA
+role: Owner of the car-parts shop where Tunde ends up working.
+age: 55.
+look: Wide shoulders, a white prayer cap, a plain grey kaftan, a notebook of debts under one arm.
+body: He counts coins with one hand and points with the other. He never stops moving.
+voice: Gruff, fast, impatient but not unkind.
+prompt: Portrait of a 55-year-old Nigerian man, wide shoulders, white prayer cap, plain grey kaftan, notebook tucked under his arm, standing among shelves of car parts in a crowded shop.
+vprompt: Gruff fast impatient Nigerian male voice, mid-fifties, not unkind.
+
+#CHAR HON. JUSTICE AMINAT BELLO
+role: The judge who sentences Morenike.
+age: 58.
+look: Black judicial robe, white collar bands, reading glasses low on her nose.
+body: She sits very still and looks over her glasses. She lays her pen down before she speaks.
+voice: Low, clear, measured.
+prompt: Portrait of a 58-year-old Nigerian woman judge in black robe and white collar bands, reading glasses low on her nose, severe composed expression, seated on a raised wooden bench in a courtroom.
+vprompt: Low clear measured Nigerian female voice, late fifties, authoritative.
+
+#CHAR BARRISTER IBE
+role: The defence lawyer Adunni hires for Morenike.
+age: 47.
+look: A sharp navy suit, a wig tucked under one arm, a heavy file.
+body: He paces slowly and turns to the gallery when he makes a point. His confidence cracks with each damning exhibit.
+voice: Smooth, theatrical, then strained.
+prompt: Portrait of a 47-year-old Nigerian lawyer, sharp navy suit, white shirt with bands, barrister's wig tucked under his arm, heavy case file in his other hand, confident expression, courthouse corridor.
+vprompt: Smooth theatrical Nigerian male voice, late forties, strained under pressure.
+
+#CHAR THE TRIPLETS
+role: Adunni and Dr. Dawson's children.
+age: 1 year.
+look: Three identical toddlers, two girls and a boy, matching tiny indigo aso-oke outfits.
+body: They tumble, crawl and laugh at once. One always holds a toy.
+voice: Giggles and babble.
+prompt: Three one-year-old Nigerian triplet toddlers, two girls and one boy, in matching tiny indigo aso-oke outfits, sitting on a soft rug in a bright nursery, laughing, warm daylight.
+vprompt: Toddler giggles and babble, three overlapping voices.

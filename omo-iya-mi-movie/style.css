@@ -48,3 +48,12 @@ p.action { font-family: "Liberation Mono", monospace; font-size: 10.4pt; line-he
 .titlecard { text-align: center; font-weight: 700; font-size: 17pt; letter-spacing: .15em; margin: 12mm 0; break-inside: avoid; }
 
 h1.pb + h2.pb { break-before: auto; }
+
+/* Setting and reaction blocks */
+.set { font-size: 9.8pt; line-height: 1.5; background: #f4f4f4; border-left: 2.5pt solid #444; padding: 2.5mm 3.5mm; margin: 0 0 4mm; break-inside: avoid-page; }
+.set b { text-transform: uppercase; letter-spacing: .08em; font-size: 8.8pt; }
+p.rx { font-family: "Liberation Mono", monospace; font-size: 10pt; line-height: 1.5; font-style: italic; margin: 0 0 3.5mm 8mm; padding-left: 3mm; border-left: 1.2pt solid #999; }
+p.rx b { font-style: normal; text-transform: uppercase; letter-spacing: .06em; font-size: 9pt; }
+
+.titlecard { break-before: avoid; }
+.note + .titlecard { break-before: avoid; }

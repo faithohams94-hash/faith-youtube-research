@@ -1,0 +1,418 @@
+#H2 Act Three: Landlord
+
+#SC | INT. WOMEN'S CELL, FCT POLICE COMMAND | NIGHT
+#SET Night, the first night after the arrest. A narrow women's cell at the FCT Police Command: concrete walls painted institutional green, a barred door, a thin mattress on a concrete shelf, a covered bucket, a single caged bulb. Cold and dim. Footsteps echo in a distant corridor. A woman coughs in another cell. The light is flat and yellow-grey.
+MORENIKE sits on the edge of the shelf in her ruined cream suit, her wig gone and her hair flat and bare, her makeup cried off by nobody. She sits upright, ankles crossed, hands folded in her lap. She is looking at the opposite wall with a perfectly calm face.
+A WARDER, a stout woman in uniform, slides a tin plate of rice and beans through a slot in the bars. It clatters on the concrete.
+
+@WARDER (gruff, not unkind)
+Madam, you must eat.
+
+@MORENIKE (very quiet, not turning her head)
+I need nothing from you.
+
+#RX The warder studies her for a long moment, shakes her head slowly, and walks away, her keys jingling. Morenike does not move. The tin plate sits on the floor with the steam rising from it and slowly thinning. After a long time, a single tear slides down her cheek. She does not wipe it. She does not blink. It falls onto her folded hands.
+
+#SC | INT. AGBA ASO-OKE INDUSTRIES, BOARDROOM | DAY
+#SET Mid-morning on the top floor of the Agba tower. A long dark wood boardroom table with eighteen chairs, floor-to-ceiling glass over Abuja, framed indigo silk samples, a white orchid in the centre, and at the head of the table a framed portrait of Iya Agba lit from the left. The room is bright and cool. A wall clock ticks. The light is the colour of fresh paper.
+TUNDE sits at the long table in a worn grey suit, hands clasped, the picture of a man who has not slept. Beside him sit two CHIEFS, Balogun and Okoro, and a thin BANK LAWYER with a briefcase. A jug of water sits untouched. The sixty days are over. Every one of them looks at the door.
+Heels on marble, approaching down the corridor, steady and unhurried. They all freeze. The door handle turns. The door swings open.
+ADUNNI enters. She wears a deep-indigo suit cut sharp at the shoulder, a wine gele in a tall crown, and a single heavy ring. Her face is composed and unhurried. TEMI follows a step behind with a folder.
+TUNDE looks up. His face goes empty. He does not blink. His hands unclasp.
+
+@TUNDE (a whisper, barely voiced)
+Adunni.
+
+#RX The chiefs look from Tunde to Adunni and back, mouths slightly open. The bank lawyer glances at his watch and straightens his tie. Chief Balogun slowly lowers the handkerchief from his forehead. Nobody speaks. Adunni walks the length of the room, places a hand on the back of the chair at the head of the table, and sits beneath her grandmother's portrait.
+
+@ADUNNI (calm, level, folding her hands)
+Good morning, Mr. Adebisi.
+
+@TUNDE (rising unsteadily, gripping the edge of the table, his voice shaking)
+Adunni, please. I know what I did. Please sit with me for one minute, as a human being, not as a creditor.
+
+@ADUNNI (not moving, even)
+Sixty days have passed. You have not repaid.
+
+@TUNDE (hoarse)
+I cannot repay. The money was stolen.
+
+@ADUNNI (quietly)
+I know.
+
+@TUNDE (staring at her, his mouth working)
+Then why did you give me the loan?
+
+#RX She looks at him for the first time. It is a long, level, unreadable look. Something moves behind her eyes, an old tenderness and a colder thing growing over it. Her voice, when it comes, is very quiet.
+
+@ADUNNI (steady, each word placed)
+Because the night you threw me out in the rain, nobody gave me a second chance either. I wanted to see what you would do with yours.
+
+#RX Tunde's face crumples. He sags back into the chair with his hand over his mouth. The chiefs look at the floor. The lawyer studies his briefcase. Adunni nods once at Temi. Temi steps forward and slides a bound document across the table. It stops in front of Tunde with a soft whisper of paper.
+
+@TEMI (crisp, professional)
+Mr. Adebisi, your other creditors accepted Madam's offer last week. Every loan against your properties now belongs to Agba Aso-Oke Industries.
+
+@ADUNNI (calmly, not looking at the paper)
+The company, the properties, the mansions. They are forfeit under the terms you signed. They are mine now.
+
+@TUNDE (lifting his head, desperate)
+Not the house. My mother is in the house.
+
+@ADUNNI (gently, with something almost like pity)
+Your mother may keep the guest wing as long as she lives. I am not cruel.
+
+#RX Tunde lowers his head and puts it in his hands. His shoulders shake without a sound. Chief Okoro stares out of the glass wall at the city. Chief Balogun looks at his hands. Adunni rises, rests her fingertips on the table for one second, and walks out with Temi behind her. The door closes softly. Nobody moves. The clock ticks. On the wall, the portrait of Iya Agba gazes at the empty chair.
+
+#TW PAYOFF: Tunde did not know whose money he was begging for. She bought his debts, and with them, his mansions.
+
+#SC | EXT. ADEBISI MANSION GATE | DAY
+#SET Bright afternoon at the mansion gate, a few days later. The iron gate stands open. The driveway and fountain are still, the hibiscus hedges overgrown. A pile of cardboard boxes, suitcases and wrapped paintings lies on the pavement beside a hired pick-up. The sky is high and pale blue. A nervous bird sings in a frangipani. A sign on the gate reads PROPERTY OF AGBA ASO-OKE INDUSTRIES.
+CHIEF MRS. ADEBISI stands beside the boxes in a plain wrapper, her red gele a little crooked, her handbag clutched on her arm, her glasses in her hand. She looks smaller than before. TUNDE hauls a heavy box onto the pick-up, shirt stained with dust, not looking up.
+A gleaming white SUV glides up the road and slows at the gate. The red ribbon is gone, but the plate is the same: ADUNNI ONE. It stops. The driver steps out and opens the rear door. ADUNNI steps out in a soft cream dress and headscarf, TEMI behind her. She stands for a moment, looking at the house she once left in the rain.
+
+@CHIEF MRS. ADEBISI (barely audible, a breath)
+Adunni.
+
+#RX The older woman's hand rises to her mouth. Her glasses slip from her fingers and fall into the dust. Adunni crosses the drive and bends to pick them up. She wipes them on her sleeve and hands them back, and then she takes both of the old woman's hands in hers.
+
+@ADUNNI (warm, low)
+Mama.
+
+@CHIEF MRS. ADEBISI (her voice cracking, shoulders beginning to shake)
+My child. Forgive an old fool.
+
+@ADUNNI (gentle, holding her hands tightly)
+There is nothing to forgive between us, Mama. Come inside. I will show you the guest wing.
+
+@CHIEF MRS. ADEBISI (wiping her face with her wrapper, looking at the house, bewildered)
+You own this house?
+
+@ADUNNI (quietly)
+I bought his debts. That is all.
+
+#RX The old woman looks at her for a long moment, then nods slowly and lets herself be led. They walk up the drive together arm in arm. Tunde stands by the pick-up with a box in his arms, watching, his mouth slightly open. The sun is on his face. He is a visitor now. When the two women reach the porch, Adunni glances back over her shoulder at him once, a clear, level look with no anger in it and no welcome either. Then the front door closes behind them, and he is left alone on the drive with the boxes.
+
+#SC | INT. ADEBISI MANSION, UPPER CORRIDOR | DAY
+#SET The upper corridor in afternoon light. The curtains are drawn back, and sun pours across the carpet. Dust turns in the beams. The house is quiet. A grandfather clock chimes four from below. The air smells faintly of floor polish and old perfume.
+ADUNNI walks slowly along the corridor with one hand trailing along the wall. She stops at the white door at the far end. The Ankara cloth in blue and yellow still hangs over its brass handle, sun-bleached now and a little frayed. She stands before it for a long time with her hands at her sides.
+She lifts the cloth from the handle. She does not hurry. She folds it carefully into a small square, running her thumb along the crease, and holds it against her chest for a moment. Then she opens the door.
+The room beyond is empty and bright, with bare floorboards and a window full of sky. No cot. No toys. Dust on the sill. She stands in the doorway, and her face moves through grief, acceptance, and something like peace.
+She walks to the window and lays the folded cloth on the sill, in the light. She touches it once. She turns and leaves the door open behind her.
+
+#SC | INT. ADEBISI MANSION, MORENIKE'S OLD BEDROOM | DAY
+#SET Afternoon, a few hours later. Morenike's bedroom, half-emptied. Wardrobe doors hang open on rows of dresses. Shoe boxes, perfume bottles and jewellery cases are stacked on the bed. A hot, still light through half-drawn curtains. The air smells of stale perfume. A fly circles the window. In the corridor, boxes thump.
+TUNDE enters with an empty cardboard box and a roll of tape, face grey, eyes red-rimmed, a dust smear on his cheek. He crosses the room without looking at the wedding photograph on the dresser. He opens the wardrobe, takes down dresses by the armful, and drops them into the box without folding them. His movements are mechanical. He drags a stack of shoeboxes across the bed.
+He drops to a crouch, reaches under the bed, and pulls out an old brown suitcase to clear the floor. It is heavy. He drags it across the room. The lining catches the corner of the bed frame with a ripping sound, and a seam gives way. Something falls out of the torn lining and clatters across the floorboards: a small black cassette with a handwritten date on its label.
+Tunde freezes. He stares at it. He kneels and picks it up. He turns it over in his hand. His thumb rubs the label. He reads the date aloud, slowly.
+
+@TUNDE (hoarse, reading, a crease deepening between his eyes)
+Camera. Foyer.
+
+#RX He knows the date. It is the week of Adunni's birthday. He sits back on his heels. His face goes through a slow series of changes: puzzlement, suspicion, and then a dawning dread. His hand closes around the cassette. He looks at the torn lining. He looks at the cassette. He stands very slowly, holding it in both hands as if it might burn him.
+
+#SC | INT. CCTV REPAIR SHOP, WUSE | DAY
+#SET Afternoon in a tiny cluttered electronics shop in Wuse. A workbench covered in old camcorders, monitors, tangles of cable and soldering irons. Shelves of dusty tapes up the walls. A faded football poster. A rotating fan pushes warm air across the room. Sunlight comes through a dirty window in a slanting bar. A grey monitor in the middle of the bench has a flicker in its picture. The room smells of hot solder and dust.
+MR. SEUN, in a faded football jersey with glasses pushed up on his forehead, turns the cassette in his fingers and peers at it. Tunde stands very still behind a stool, hands clasped, sweat on his lip.
+
+@SEUN (chatty, squinting)
+Oga, this is a mini-DV tape. Nobody uses these anymore. I will need to connect an old camcorder.
+
+@TUNDE (quietly)
+Whatever it takes.
+
+#RX Seun glances at him, sees his face, and stops chattering. He digs an old camcorder from a drawer, plugs in cables, feeds in the cassette. It whirs and clicks. The monitor flickers and hisses. Tunde pulls the stool back and sits in front of it, his hands clasped between his knees, his eyes fixed on the screen.
+The picture resolves. A huge face fills the screen, close to the lens, out of focus, then in focus. MORENIKE. She is adjusting the angle with a finger. She settles back. She smiles at herself in the glass of the vase. Then she leans toward the camera again, and whispers, her breath fogging the lens.
+
+@MORENIKE (on tape, whispering, almost tender)
+Smile, my sister.
+
+#RX Tunde stops breathing. His hands tighten between his knees. A sound leaves his throat, small and strangled. Seun turns his head and looks at the screen, then at Tunde. He says nothing. He leans against the bench and folds his arms.
+
+The tape plays on. The empty living room. Adunni's footsteps on the stairs. A cut. The foyer, three days later. The door. Bayo, grinning, in a navy suit. Adunni with a glass of water. The kitchen. Bayo's hand closing around her wrist. We hear every word now, clear and loud from the small speaker.
+
+@ADUNNI (on tape, thin, shaking)
+What are you doing? Let go of my hand.
+
+On the monitor, Adunni wrenches her arm free. The plate shatters. Bayo laughs, a short, ugly laugh.
+
+@ADUNNI (on tape, furious, trembling)
+Get out of my house.
+
+#RX Tunde's face collapses. His mouth opens. His eyes squeeze shut, and tears fall. He presses his fists against his mouth. A low, awful sound comes out of him.
+Bayo steps back with his hands raised, still smiling. On screen, he walks out of frame. Adunni slides down the cabinet to the floor, shaking. Seconds of silence. Then the tape continues. The next morning. The foyer in grey light. MORENIKE enters alone, closes the door softly. She crosses to the console, lifts the camcorder from the vase, turns it toward her face, and looks straight into the lens. She smiles with only her mouth.
+
+@MORENIKE (on tape, quietly, with immense satisfaction)
+Perfect.
+
+#RX The screen goes to snow. Tunde sits motionless with his hands over his mouth. Then his knees fold, and he slides off the stool onto the floor of the little shop and sits against the workbench, his face in his hands, shoulders heaving.
+
+@TUNDE (broken, over and over)
+I threw her out. I threw her out in the rain.
+
+Seun crouches a distance away. He does not touch him. He gently reaches up and turns off the monitor, and the room goes quiet except for the fan and Tunde's ragged breathing.
+
+#TW PAYOFF: the cassette from the suitcase lining. The edited clip is proven false, and so is every word Morenike spoke after it.
+
+#SC | INT. MALLAM GARBA'S CAR-PARTS SHOP, UTAKO | DAY
+#SET A cramped car-parts shop on a noisy road in Utako, weeks later. Shelves up to the ceiling of brake pads, alternators, oil filters, fan belts. Hand-lettered price tags in marker. An oil-stained concrete floor with a flattened cardboard path. A calendar from a tyre company. The shutter is half rolled up, and white daylight and horn noise pour in. A small old TV is bolted high in a corner and plays loudly. The air smells of grease, rubber and hot metal.
+TUNDE stands behind the counter in an oil-stained polo shirt and plastic sandals, his hands black to the wrists, wrapping a headlight in newspaper for a customer. He is thinner, his face lined, his eyes dull. He works with careful slowness. MALLAM GARBA, wide-shouldered in a grey kaftan and white cap, counts coins at the till, his notebook under one arm.
+
+@GARBA (gruff, impatient, not looking up)
+Oga Tunde, you must lift faster. People are waiting.
+
+@TUNDE (quietly, not looking up)
+Yes, sir.
+
+#RX The customer takes the headlight and leaves. Tunde wipes his hands on a rag, a slow, tired gesture. His gaze drifts upward, unfocused, toward the old TV.
+On the screen, an afternoon health show in a bright studio. A cheerful ANCHOR in a pink blazer smiles into the camera.
+
+@TV ANCHOR (V.O., bright, bubbly)
+Today we welcome Dr. Daniel Dawson, who has just opened a cardiology chamber in Abuja.
+
+@DR. DAWSON (on TV, modest, warm)
+I am honoured. My wife is here as well.
+
+The camera pans across the studio and lands on ADUNNI, composed and radiant, seated on a pale sofa in a cream silk blouse. On her lap sits a laughing toddler in a tiny indigo aso-oke outfit. Two more toddlers, identical, tumble across the studio rug, chasing a toy.
+
+@TV ANCHOR (V.O., delighted)
+And these are your triplets?
+
+@DR. DAWSON (on TV, laughing, shaking his head)
+Three at once. We were not prepared.
+
+#RX The headlight slips from Tunde's hands and shatters on the floor. He does not look down. He stands completely still, staring at the screen. His gaze moves from one toddler to the next, to the second, to the third, and back to Adunni's face. His lips part.
+No child with her. No child with Morenike. Three children, at once, with a stranger. Every old doubt, every cold night, every sentence in the doctor's office he never attended, assembles in his face. His eyes widen. His hand rises slowly and rests against his chest. He takes one step back and bumps into the counter.
+
+@TUNDE (a whisper, hollow, almost wondering)
+It was never her.
+
+#RX Mallam Garba comes round the counter, annoyed, a coin in his hand, and sees his face. He stops. The annoyance goes out of him. He looks at the screen, at Tunde, and at the shattered glass on the floor. He puts the coin in his pocket, takes a broom from behind the counter, and, without a word, begins to sweep. Tunde does not move.
+
+#TW PAYOFF: Adunni has a husband and three children, and Tunde understands in a single second what she carried for him.
+
+#SC | INT. DAWSON HOME, NURSERY | NIGHT
+#SET Night in the nursery. Indigo aso-oke curtains drawn, three wooden cots in a row, a round blue rug, a mobile of paper stars turning slowly overhead. A soft moon-shaped night light glows on the wall. A rocking chair stands in the corner with a folded blanket over its arm. The air smells of baby lotion. The only sound is the quiet breathing of three sleeping children and the far-off tick of a clock.
+ADUNNI stands at the foot of the middle cot in a cream nightdress with a shawl over her shoulders, one hand resting on the rail. She looks at the three small faces. Her lips tremble. She turns toward the doorway with wet eyes.
+DR. DAWSON stands in the doorway in his grey knit sweater, one shoulder against the frame, watching her with a soft, steady gaze.
+
+@ADUNNI (low, hoarse)
+My sister. I keep thinking, we shared one mother.
+
+@DR. DAWSON (gently, stepping inside)
+You did nothing wrong.
+
+@ADUNNI (shaking her head, a small broken laugh)
+I know. It does not stop it from hurting.
+
+@DR. DAWSON (reaching her, voice low and certain)
+She is paying for her sins. You do not have to carry them.
+
+@ADUNNI (whisper)
+Thank you.
+
+#RX He takes her hand. She turns to him and leans her whole weight against his chest. He wraps his arms around her and rests his chin on her head. Behind them, in the middle cot, one of the babies stirs and makes a small sleepy sound. They both turn, and Adunni laughs through her tears.
+
+@DR. DAWSON (softly, over her head)
+You have me. You have them. You have us.
+
+#RX She closes her eyes and breathes. The paper stars turn slowly above the cots. In the quiet, three small chests rise and fall.
+
+#SC | INT. VISITING ROOM, KUJE CORRECTIONAL CENTRE | DAY
+#SET A long grey visiting room divided down the middle by a thick glass panel and wire mesh. A metal stool bolted to the floor on each side and a hand-held intercom phone on a short cord. Flat white fluorescent light, no shadows. Grey daylight through a high barred window. A guard stands at the end of the room with arms folded. Faint voices murmur from other booths. The air is cold and smells of disinfectant.
+MORENIKE sits behind the glass in a plain grey wrapper, her hair tied under a faded headtie, her face bare and pale. She sits very straight, hands folded on the narrow counter. ADUNNI sits opposite in a deep-indigo suit, her handbag on her lap, her face composed. They look at each other for a long time. Neither lifts the phone. Then Adunni raises the receiver. Morenike lifts hers slowly.
+
+@ADUNNI (low, steady)
+Why, Morenike?
+
+@MORENIKE (flat, dry, almost bored)
+You want a reason that will make it hurt less. There is none.
+
+@ADUNNI (not moving)
+Try.
+
+#RX Morenike's gaze drops to her folded hands, then lifts. For the first time, something stirs behind the stillness: a crack, not of remorse, of old pain. Her voice drops lower.
+
+@MORENIKE
+You had everything. A husband who loved you. A car with your name on the plate. And Iya Agba. Iya Agba left you everything.
+
+@ADUNNI (quietly)
+You knew about the house?
+
+@MORENIKE (a dry breath of a laugh)
+I did not know about the house. I knew she loved you more. I always knew. I watched it from the corner of every room for thirty years.
+
+@ADUNNI (very gently)
+She loved you too.
+
+@MORENIKE (turning her head to the grey window, voice cold and thin)
+Then why did she leave me a plot of land in a village that does not exist on any map?
+
+#RX Adunni closes her eyes briefly. She draws a slow breath. Her fingers tighten on the receiver. When she speaks, her voice does not shake.
+
+@ADUNNI
+You are my sister. I still love you. I always will. But I will not save you.
+
+She stands. She takes her handbag and holds it against her stomach.
+
+@ADUNNI (steady, final)
+I have hired the best lawyer in Abuja. He will make sure you get a fair trial. Nothing more.
+
+@MORENIKE (turning her head back, almost smiling, a glint in her flat eyes)
+A fair trial. For a murderer.
+
+@ADUNNI (a long pause, then very softly)
+Ọmọ ìyá mi. My mother's child. Good luck.
+
+#RX She hangs up the receiver carefully. She holds Morenike's gaze for one more second, then turns and walks to the door. The guard opens it. Adunni does not look back. Behind the glass, Morenike sits motionless with the receiver in her hand. The smile has gone. She does not blink. After a long moment she lowers the phone to the counter. Her hands are shaking. She presses them flat against the cold surface and holds them there until they are still.
+
+#SC | INT. VISITING ROOM, KUJE CORRECTIONAL CENTRE | DAY
+#SET Another day in the same grey room. The light through the barred window is colder, and a thin rain streaks the glass. The guard at the end of the room is a different man. The intercom phones hang on their cords. The glass between the two sides is smeared with old fingerprints.
+TUNDE sits where Adunni sat, in a worn grey shirt and plastic sandals, hair uncombed, hands trembling on the counter. MORENIKE sits opposite in her grey wrapper, her face still and pale. A long silence stretches. Neither lifts a phone. Then Tunde picks up his receiver. After a long pause, Morenike lifts hers.
+
+@TUNDE (hoarse, low)
+I found the tape.
+
+#RX Morenike's eyes flicker, once, and are still. A fraction of a second only. Her breathing does not change.
+
+@TUNDE (his voice shaking, his hand tightening on the phone)
+Smile, my sister. That is what you said to her.
+
+@MORENIKE (flat, cold, tilting her head)
+You were always a fool, Tunde.
+
+@TUNDE (raw, rising)
+You are a wicked woman. You will die in this prison.
+
+@MORENIKE (quietly, her eyes steady)
+Then I will die as the woman you chose.
+
+#RX The words hit him. His face contorts. He slams the receiver down onto the counter, and it clatters. He stands up so fast the stool scrapes. He grips the edge of the counter with both hands, his whole body shaking, tears running down his face. He opens his mouth, closes it, and finds he has nothing left to say. Morenike watches him through the glass without moving, without remorse, her hand still holding the phone. When he finally turns and stumbles toward the door, she does not look away first. She watches him all the way out.
+
+#SC | INT. ABUJA HIGH COURT, COURTROOM 4 | DAY
+#SET A packed courtroom, mid-morning. Dark wood panelling, a raised bench with the national coat of arms, a witness stand to one side, a long wooden dock, rows of crowded benches. A ceiling fan turns slowly. A TV monitor on a trolley stands to one side for exhibits. Grey light falls through high windows; warm lamps pool over the bench. The gallery is full: reporters, relatives, curious onlookers, Obi in his navy agbada, Mama Bayo in a clean wrapper, Segun with his satchel on his knee, and in the last row, ADUNNI in a deep-indigo suit with DR. DAWSON beside her. A low murmur runs through the room.
+HON. JUSTICE AMINAT BELLO presides, in a black robe and white collar bands, reading glasses low on her nose. MORENIKE sits in the dock in a plain dress, her hair neatly tied, her back straight, her face composed into a polite blank. BARRISTER IBE stands to cross-examine, a file in one hand.
+
+@BARRISTER IBE (smooth, theatrical, pacing)
+Sergeant Ajinibu, you admit you were in debt?
+
+@AJINIBU (hunched in the witness stand, hoarse)
+Yes.
+
+@BARRISTER IBE (turning to the gallery, one finger raised)
+So you would say anything to protect yourself?
+
+@AJINIBU (lifting his head, almost pleading)
+I recorded her voice, my lord. I recorded every call.
+
+A recording plays through the court speakers, thin and distorted. We hear Morenike's voice, low, cold and unmistakable: "He talks too much. Make him quiet."
+
+#RX A gasp ripples across the gallery. Heads turn. A woman puts her hand over her mouth. Barrister Ibe stops pacing. He turns to Morenike and bends to whisper. She shrugs without looking at him. Her face does not change.
+
+The prosecutor, a tall man in a grey suit, rises.
+
+@PROSECUTOR (formal, ringing)
+The state calls Mr. Michael Okpara.
+
+The double doors open. MICHAEL walks in, groomed and calm, in a dark suit and polished shoes. He walks to the witness stand without looking at the dock. He takes the oath. His voice is smooth.
+MORENIKE half rises from the dock. For the first time, her composure splits. Her eyes blaze.
+
+@MORENIKE (standing, loud, shaking)
+You rat!
+
+@JUDGE (sharp, striking the bench)
+Order!
+
+#RX A bailiff touches Morenike's shoulder. She sits slowly, breathing hard, her eyes fixed on Michael with pure venom. He does not look at her.
+
+@MICHAEL (turning to the court, easy, regretful)
+My lord, I was Madam Adebisi's contractor and her partner. I am here under an immunity agreement. She ordered the killing. She told me, in bed, three times. She laughed about it.
+
+He produces a small voice recorder and a bound ledger and hands them to the clerk. A long hour passes in quick cuts: Barrister Ibe cross-examines, his tone sharper, then more desperate, loosening his collar. Michael answers each question in the same calm voice. Barrister Ibe's confidence cracks and fades. He finally sits.
+The prosecutor lifts a small black cassette in a clear evidence bag.
+
+@PROSECUTOR (to the bench)
+My lord, Exhibit Nine. A cassette recovered by the accused's own husband.
+
+The cassette plays on the monitor. The whole courtroom watches the same image Tunde watched: Morenike's face filling the screen, leaning toward the lens.
+
+@MORENIKE (on tape, whispering)
+Smile, my sister.
+
+#RX The gallery turns as one to the dock. Morenike does not move. Her face is carved from stone. In the last row, Adunni's hand finds Dr. Dawson's and grips it.
+
+The prosecutor lifts Bayo's cracked phone in its bag.
+
+@PROSECUTOR (quiet, weighty)
+Exhibit Ten. Recovered from the victim's room by Mr. Segun Alade, with a warrant.
+
+The phone is played in open court. A young voice, bright and a little nervous, fills the room.
+
+@BAYO (V.O., recording)
+If something happens to me, the woman's name is Morenike Ogundele.
+
+#RX In the gallery, MAMA BAYO closes her eyes. Her lips move. Obi puts one big hand on her shoulder. In the dock, Morenike's composure finally cracks. Her mouth moves. No sound comes out. Her hands, folded in her lap, begin to tremble, and she presses them hard against her knees.
+
+@JUDGE (laying down her pen, looking over her glasses, grave and clear)
+The accused is found guilty on all counts. The court sentences Morenike Ogundele to life imprisonment.
+
+#RX A sound rolls through the courtroom, part gasp, part sob, part relief. Two WARDERS step to the dock and take Morenike by the arms. She stands. She does not resist. At the rail of the dock she turns, scanning the faces, searching. She finds Adunni in the last row. Their eyes meet across the whole length of the room. Morenike's lips shape two words, silently.
+
+@MORENIKE (mouthing)
+Ọmọ ìyá.
+
+#RX Adunni does not look away. She does not nod. She does not answer. Her eyes fill and a single tear runs down her cheek, but her face remains still. Morenike is led out through the side door. It closes behind her.
+
+#TW PAYOFF: Michael turns on Morenike, the cassette plays, and Bayo speaks from beyond his death.
+
+#SC | EXT. COURTHOUSE STEPS | DAY
+#SET Midday on the wide stone steps of the Abuja High Court. The sky is bright and high with a few white clouds after the morning's grey. Crowds of reporters and onlookers drift down the steps. Camera flashes pop. A street vendor sells bottled water at the bottom. Warm sun, the wind lifting dust and scraps of paper across the plaza. A pigeon walks along a railing.
+ADUNNI stands alone at the top of the steps, one hand resting on the stone railing, her face turned toward the sun. DR. DAWSON comes up behind her and wraps one arm around her shoulders. She leans her head against him.
+
+@ADUNNI (quiet, looking out over the plaza)
+I wanted her to ask for forgiveness.
+
+@DR. DAWSON (gently)
+Maybe one day she will.
+
+@ADUNNI (turning her head to look at him)
+And if she does?
+
+@DR. DAWSON (steadily, holding her gaze)
+Then you will decide that day. Not today.
+
+#RX She looks at him for a moment and nods. She lays her head on his shoulder and closes her eyes. Behind them, the crowd breaks and flows. The sun comes out fully from behind the building and lights the two of them in warm gold. A breeze lifts the edge of her headscarf. She breathes out a long, slow breath.
+
+#SC | INT. MALLAM GARBA'S CAR-PARTS SHOP | DUSK
+#SET Closing time at the car-parts shop. Orange dusk light slants through the half-closed shutter. The shelves are cast in long shadows. The old TV is off. The air smells of oil and dust. Outside, horns fade as the road empties. A moth circles the bare bulb. The sound of the city is soft and far.
+TUNDE sweeps the oil-stained floor alone, slowly, in long tired strokes. He is thin and stooped. His polo shirt hangs loose on his shoulders. A first drop of rain patters against the tin roof. Then another. He stops sweeping. He lifts his head, listening. The rain thickens, drumming across the roof.
+He walks to the shutter and peers through the gap. In the street, a woman with a cloth bag in her hand walks quickly through the rain with her head down. For one second, his heart stops. He takes a step forward. She passes under a street lamp. It is not her. His shoulders fall.
+He turns and sits on an upturned crate. The bulb flickers. His eyes lose focus. The shop dissolves into warm gold light.
+FLASHBACKS. ADUNNI laughing in the kitchen with soup on his sleeve, shoulders shaking, the sound clear and bright. ADUNNI's face on the night of the birthday car, covering her mouth, eyes shining. ADUNNI standing at the gate, drenched, saying quietly: "I never begged." The flashbacks speed up, overlap, then slow.
+The rain hammers. TUNDE puts his face in his hands. His shoulders shake. A sob breaks out of him, then another, and he cannot stop.
+
+@TUNDE (broken, over and over, barely audible)
+Adunni. I am sorry. I am so sorry.
+
+#RX The only sound is the rain on the tin roof and his crying. The bulb buzzes. Slowly the camera rises through the roof, over the dripping tin, over the wet rooftops, over the lights of Abuja coming on one by one. Far across the city, in a lit window in Asokoro, a woman sits beside a sleeping child, her hand resting lightly on its back. The rain falls between them.
+
+#TR FADE TO BLACK.
+
+#H2 Post-Credit Scene
+
+#SC | INT. AGBA ASO-OKE INDUSTRIES, WORKSHOP | NIGHT
+#SET Night in the old workshop in Abeokuta, preserved beside the new factory. A long tin-roofed hall of wooden looms in rows, spools of indigo, gold and wine thread glowing in the lamplight, the floor swept clean. Moonlight comes in through the louvre windows in silver bars. The air smells of cloth and old wood. A single lamp is lit near the far wall, where a large portrait of Iya Agba hangs. The silence is deep. Far off, a night bird calls.
+ADUNNI walks slowly through the rows of silent looms in a soft cream wrap, trailing her fingertips along the wooden frames. She stops before the portrait of IYA AGBA. The old woman gazes down with bright, patient eyes. The light on the portrait, for the first time, falls from the right side, not the left. Adunni does not notice.
+She turns toward a tall wooden cabinet beside the portrait. She opens its lower door and kneels. She moves aside a bolt of cloth and a basket of spindles. At the back, wedged in a corner, she finds a small tin box she has never seen, rusted at the edges. She sets it on the floor and opens the lid.
+Inside lie a small brass key and a second cream envelope. On the front, in the same shaky handwriting as her own letter, is a single line: For Morenike.
+
+#RX Adunni stares at the envelope. She reads the name once. She reads it a second time. Her hand trembles slightly as she touches the corner of the paper. She does not break the seal.
+
+@ADUNNI (whispering, to the portrait)
+Mama. Even now, you were planning for her.
+
+#RX She holds the letter against her chest for a long moment, looking up at her grandmother's face. Then she slides it carefully into her handbag. She puts the key in her pocket. She rises, brushes dust from her knees, and walks slowly toward the lamp. She turns it off. The workshop goes dark except for the moonlight on the looms. In the dark, the portrait seems, for just a second, to smile.
+
+#TW PAYOFF: the grandmother's second letter and the unfinished story of the sisters. The portrait light has changed.
+
+#TITLE ỌMỌ ÌYÁ MI. My Mother's Child.
