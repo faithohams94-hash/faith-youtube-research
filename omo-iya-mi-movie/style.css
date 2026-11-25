@@ -46,3 +46,5 @@ p.action { font-family: "Liberation Mono", monospace; font-size: 10.4pt; line-he
 .note { break-before: avoid; font-size: 9.6pt; font-style: italic; color: #333; border-left: 2pt solid #777; padding: 1.5mm 3mm; margin: 2mm 0 4mm 12mm; break-inside: avoid; }
 .note b { font-style: normal; }
 .titlecard { text-align: center; font-weight: 700; font-size: 17pt; letter-spacing: .15em; margin: 12mm 0; break-inside: avoid; }
+
+h1.pb + h2.pb { break-before: auto; }

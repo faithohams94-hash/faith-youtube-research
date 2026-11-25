@@ -10,7 +10,7 @@ SRC = HERE / "source.txt"
 OUT = HERE / "index.html"
 
 TITLE = "ỌMỌ ÌYÁ MI"
-SUBTITLE = "Thrown Out For My Sister's Lies, I Came Back as His Landlord"
+SUBTITLE = "My Sister Destroyed My Marriage, Years Later I Bought His Mansion"
 ENGLISH = "My Mother's Child"
 
 esc = html.escape
@@ -23,6 +23,7 @@ def inline(text: str) -> str:
 def parse(lines):
     body = []
     toc = []
+    scene_no = 0
     dlg = None   # [name, paren, [lines]]
     card = None  # (name, {key: value})
 
@@ -84,7 +85,7 @@ def parse(lines):
         elif line.startswith("#H2 "):
             title = line[4:].strip()
             toc.append((2, title))
-            cls = "pb" if title.startswith(("Act ", "Cold Open", "Post-Credit")) else ""
+            cls = "pb" if title.startswith(("Act ", "Post-Credit")) else ""
             body.append(f'<h2 class="{cls}">{inline(title)}</h2>')
         elif line.startswith("#H3 "):
             body.append(f'<h3>{inline(line[4:].strip())}</h3>')
@@ -94,9 +95,10 @@ def parse(lines):
             body.append(f'<p class="bullet">{inline(line[3:].strip())}</p>')
         elif line.startswith("#SC "):
             parts = [p.strip() for p in line[4:].split("|")]
-            num, where, when = parts[0], parts[1], (parts[2] if len(parts) > 2 else "")
+            where, when = parts[1], (parts[2] if len(parts) > 2 else "")
+            scene_no += 1
             heading = where + (f" — {when}" if when else "")
-            body.append(f'<div class="scene"><span class="num">{inline(num)}</span>{inline(heading)}</div>')
+            body.append(f'<div class="scene"><span class="num">{scene_no}</span>{inline(heading)}</div>')
         elif line.startswith("#TR "):
             body.append(f'<div class="trans">{inline(line[4:].strip())}</div>')
         elif line.startswith("#TW "):
