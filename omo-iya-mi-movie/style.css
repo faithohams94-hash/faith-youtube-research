@@ -1,0 +1,48 @@
+@page { size: A4; margin: 24mm 22mm 24mm 28mm; }
+* { box-sizing: border-box; }
+body { font-family: "Liberation Serif", "DejaVu Serif", serif; font-size: 11.5pt; line-height: 1.5; color: #111; margin: 0; }
+
+h1 { font-size: 20pt; font-weight: 700; margin: 0 0 10mm; padding-bottom: 3mm; border-bottom: 1.2pt solid #111; letter-spacing: .02em; }
+h2 { font-size: 14pt; font-weight: 700; margin: 9mm 0 4mm; text-transform: uppercase; letter-spacing: .06em; }
+h3 { font-size: 11.5pt; font-weight: 700; margin: 6mm 0 1.5mm; text-transform: uppercase; letter-spacing: .05em; }
+.pb { break-before: page; }
+h1.pb:first-of-type { break-before: auto; }
+
+p.prose, p.bullet { margin: 0 0 3mm; text-align: left; }
+p.bullet { padding-left: 5mm; text-indent: -5mm; }
+p.bullet::before { content: "\2022\00a0\00a0"; }
+
+/* Cover */
+.cover { height: 235mm; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; break-after: page; }
+.kicker { font-size: 10.5pt; letter-spacing: .3em; text-transform: uppercase; margin-bottom: 14mm; }
+.ctitle { font-size: 46pt; font-weight: 700; letter-spacing: .04em; line-height: 1.1; }
+.cen { font-size: 17pt; font-style: italic; margin-top: 4mm; }
+.rule { width: 40mm; border-top: 1.2pt solid #111; margin: 12mm 0; }
+.csub { font-size: 13pt; max-width: 110mm; line-height: 1.4; }
+.cmeta { font-size: 10pt; margin-top: 22mm; color: #333; line-height: 1.8; }
+
+/* Contents */
+.toc { break-after: page; }
+.toc1 { font-weight: 700; margin-top: 4mm; }
+.toc2 { margin-left: 8mm; color: #333; }
+
+/* Character cards */
+.card { break-inside: avoid; margin: 0 0 6mm; padding: 0 0 4mm; border-bottom: .5pt solid #bbb; }
+.cname { font-weight: 700; font-size: 12pt; letter-spacing: .05em; margin-bottom: 1.5mm; }
+.card p { margin: 0 0 1.5mm; }
+.lab { font-weight: 700; }
+.plab { margin-top: 2.5mm; font-size: 9.5pt; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
+.prompt { font-family: "Liberation Mono", monospace; font-size: 9.2pt; line-height: 1.45; background: #f2f2f2; border-left: 2pt solid #111; padding: 2.5mm 3mm; margin-top: 1mm; }
+
+/* Screenplay */
+.scene { font-family: "Liberation Mono", monospace; font-size: 10.8pt; font-weight: 700; text-transform: uppercase; margin: 9mm 0 3.5mm; padding-top: 2mm; border-top: .5pt solid #999; break-after: avoid; }
+.scene .num { display: inline-block; width: 10mm; }
+p.action { font-family: "Liberation Mono", monospace; font-size: 10.4pt; line-height: 1.5; margin: 0 0 3mm; }
+.dlg { break-inside: avoid; margin: 0 0 3.5mm; font-family: "Liberation Mono", monospace; font-size: 10.4pt; line-height: 1.45; }
+.who { margin-left: 52mm; font-weight: 700; text-transform: uppercase; }
+.paren { margin-left: 44mm; font-style: italic; }
+.said { margin-left: 22mm; margin-right: 18mm; }
+.trans { break-before: avoid; font-family: "Liberation Mono", monospace; font-size: 10.4pt; font-weight: 700; text-align: right; margin: 5mm 0; text-transform: uppercase; }
+.note { break-before: avoid; font-size: 9.6pt; font-style: italic; color: #333; border-left: 2pt solid #777; padding: 1.5mm 3mm; margin: 2mm 0 4mm 12mm; break-inside: avoid; }
+.note b { font-style: normal; }
+.titlecard { text-align: center; font-weight: 700; font-size: 17pt; letter-spacing: .15em; margin: 12mm 0; break-inside: avoid; }

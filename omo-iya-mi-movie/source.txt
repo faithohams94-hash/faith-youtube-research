@@ -1,0 +1,1280 @@
+#H1 Overview
+
+#H3 Logline
+A jealous elder sister engineers the destruction of her younger sister's marriage, and then marries the husband herself. She does not know that the younger sister has been hiding a fortune, a medical secret and a grandmother's last condition. Every lie she tells is recorded somewhere, and every person she silences leaves a witness behind.
+
+#H3 Synopsis
+Adunni Ogundele-Adebisi has a loving marriage to Tunde Adebisi, owner of the largest auto company in Abuja. After five childless years, she has told the world and her husband that the fault is hers. The truth, which only she and a doctor know, is that Tunde has a low sperm count. She took the blame to protect his pride.
+
+Her older sister, Morenike, unmarried and consumed by envy, learns the real result through a bribed nurse. She decides to take the marriage apart and replace Adunni at Tunde's side. She plants a handsome stranger, Bayo, as Tunde's personal assistant. She hides a camera in the house. The plan backfires when Tunde watches the raw footage and sees that his wife is innocent. Bayo is jailed, and when he threatens to expose Morenike, she pays corrupt policemen to silence him. He dies in custody.
+
+Morenike then uses the one weapon that cannot be disproved. In front of Tunde and his mother, she says that Adunni cannot give him a child. Tunde throws Adunni out into the rain. Adunni, who could save herself with one sentence of truth, chooses silence. She drives to a mansion, a workshop and a house that her late grandmother secretly left her. Within three years she builds a luxury aso-oke empire. Morenike marries Tunde.
+
+The marriage poisons itself. A blackmailing policeman drains Morenike. A lover-contractor, Michael, swindles Tunde and then swindles Morenike. A hospital reveals to Tunde that he was the one who could not father a child. A prisoner whom Bayo befriended spends his freedom hunting the truth. When Tunde's collapsing company begs a rescue loan from Adunni's company, he does not know whose signature he is asking for.
+
+#H3 Format and Tone
+Feature-length drama written for YouTube release. Target runtime 95 to 105 minutes. Dialogue is in English with short Yoruba phrases (translated in the script). The tone is Nollywood melodrama with a thriller engine: big emotions, heavy silences, cliffhangers before every ad break, and reversals that arrive just after the audience feels certain.
+
+#H3 Setting
+Abuja, Nigeria, present day, covering roughly five years. Principal locations: the Adebisi mansion in Maitama; Adebisi Motors headquarters; the Ogundele family mansion and Agba Aso-Oke Industries; a divisional police station in Gwagwalada; the FCT Police Command; a private hospital; a car-parts shop in Utako.
+
+#H3 Directing Rule for Shocks
+Each time the audience believes it knows what happens next, give it something else. The script does this by building a clear expectation, letting it settle, and then breaking it with a fact that has been quietly planted earlier. No twist arrives without a plant. The Shock Map in the next section lists them.
+
+#H1 The Shock Map
+
+#P Each entry lists what the audience expects, what actually happens, and where the reveal was planted. Use it as a checklist when directing and editing.
+
+#B SHOCK 1 (Cold Open). Expect: the boardroom flash-forward gives away the ending, so the story is a simple revenge tale. Get: the flash-forward shows only the middle of the story. The real ending involves a murder trial that nobody sees coming. Plant: the open does not show Morenike's fate.
+#B SHOCK 2 (Scene 15). Expect: Tunde believes the doctored clip and doubts Adunni. Get: Tunde demands the raw footage, sees the truth, and destroys Bayo instead. The plan backfires on the schemer.
+#B SHOCK 3 (Scenes 17 and 18). Expect: Morenike's accomplice will blackmail her later. Get: she has him killed within days, and the order is a single quiet sentence.
+#B SHOCK 4 (Scene 22). Expect: Adunni, thrown out of her home, is poor and alone. Get: she owns a mansion with staff, a workshop and a house. Plant: the phone call to Baba Sule in Scene 5.
+#B SHOCK 5 (Scene 23). Expect: Adunni cannot have children. Get: Adunni is fertile. Tunde is the one who cannot. She took the blame. Plant: the envelope in her jewellery box, Scene 4.
+#B SHOCK 6 (Scene 21). Expect: Adunni will tell the truth to save herself. Get: she stays silent to protect Tunde's dignity.
+#B SHOCK 7 (Scenes 25, 26 and 32). Expect: Morenike has won. Get: the policeman who killed Bayo now owns her, and then her lover robs her too.
+#B SHOCK 8 (Scene 28). Expect: Morenike will be exposed by the murder inquiry. Get: she is nearly exposed first by a hospital, because the nurse she bribed years ago was fired and the doctor mentions it aloud.
+#B SHOCK 9 (Scene 31). Expect: Adunni will forgive Tunde and rescue him for free. Get: she grants the loan on a sixty-day trap clause.
+#B SHOCK 10 (Scene 36). Expect: Tunde catches Morenike stealing and the story ends in a fraud arrest. Get: the police arrive for murder, and Tunde learns for the first time that Bayo is dead.
+#B SHOCK 11 (Scene 40). Expect: Adunni lives alone with her grief. Get: she has a husband, Dr. Dawson, and triplets.
+#B SHOCK 12 (Scene 43). Expect: Morenike's lawyer will find a loophole. Get: Michael turns state witness, and Bayo's own phone speaks from the grave.
+#B SHOCK 13 (Scene 46, post-credit). Expect: the story is closed. Get: the grandmother left a second sealed letter, addressed to Morenike.
+
+#H1 Character Bible
+
+#P How to use the prompts. Each character below has a ready-to-paste image prompt. To keep faces consistent across shots, generate one hero portrait per character first, then use it as the reference image for every later prompt. Add this style line to the end of every prompt:
+
+#P STYLE LINE: Photorealistic cinematic still, Nigerian feature film, natural skin texture with visible pores, shallow depth of field, soft film grain, 35mm lens, warm Abuja color grade, 16:9.
+
+#H2 Principal Characters
+
+#CHAR ADUNNI OGUNDELE-ADEBISI
+role: Protagonist. Wife of Tunde, younger sister of Morenike, secret heiress, later founder of Agba Aso-Oke Industries.
+age: 30 at the start. 35 at the end.
+look: Slim, graceful, dark-brown skin, soft round face with a gap-toothed smile, long neck, hair in neat braids or a gele. In the marriage she wears gentle pastel lace and simple gold studs. After the exile she wears sharp, deep-colored aso-oke tailoring and a single heavy ring. In the boardroom she is composed and rarely raises her voice.
+nature: Warm, humble, proud in a quiet way. She will sacrifice reputation for love, and then be unmovable once trust is gone. She never uses the word revenge.
+prompt: Portrait of a 30-year-old Nigerian woman, dark brown skin, soft oval face, small gap between her front teeth, slender neck, hair in neat box braids, wearing pastel lace blouse and simple gold stud earrings, gentle warm smile, soft window light in a luxurious living room.
+
+#CHAR MORENIKE OGUNDELE
+role: Antagonist. Elder sister of Adunni. Unmarried. Later Tunde's second wife and then a convicted murderer.
+age: 37 at the start. 42 at the end.
+look: Taller than Adunni, striking rather than soft, high cheekbones, defined brows, lips usually pressed in a polite smile. Her clothes are expensive imitations at the start (well-cut but a little too tight, a handbag with a worn corner). As Mrs. Adebisi she wears real designer wear that does not suit her. In prison she wears a plain grey wrapper and her expression never changes.
+nature: Intelligent, patient, charming in public. She believes she is owed a life. She never raises her voice, even when she orders a killing.
+prompt: Portrait of a 37-year-old Nigerian woman, medium-brown skin, high cheekbones, sharp defined eyebrows, polite tight smile that does not reach her eyes, hair in a sleek bob wig, wearing a tailored mustard dress and gold hoop earrings, cold overhead light, a small cramped apartment behind her.
+
+#CHAR TUNDE ADEBISI
+role: Adunni's husband, the only son of the Adebisi family, founder and CEO of Adebisi Motors.
+age: 34 at the start. 39 at the end.
+look: Tall, broad-shouldered, clean-shaven, a confident jaw and tired eyes. Tailored dark suits and crisp white shirts at the start. By the end he wears an oil-stained polo shirt and plastic sandals.
+nature: Generous and proud. He loves Adunni sincerely but cannot bear to be seen as less than a man, and that pride is his tragedy. He believes whoever speaks last and loudest.
+prompt: Portrait of a 34-year-old Nigerian man, tall, broad shoulders, clean-shaven, strong jaw, wearing a tailored charcoal suit and crisp white shirt, confident expression with tired eyes, standing in a glass-walled corner office overlooking Abuja at dusk.
+
+#CHAR CHIEF MRS. FOLASADE ADEBISI
+role: Tunde's mother. A matriarch who wants grandchildren and believes the wrong sister.
+age: 63.
+look: Small, upright, formidable. A stiff gele in deep red, heavy coral beads, rimless glasses on a chain. Her voice is the quietest in the room and the one everyone listens to.
+nature: Protective and old-fashioned. She is not a villain. She is wrong, and when she learns how wrong she was, it breaks her.
+prompt: Portrait of a 63-year-old Nigerian matriarch, small and upright, deep red gele headtie, heavy coral bead necklace, rimless glasses on a chain, stern but dignified expression, seated in an ornate living room with gold furniture.
+
+#CHAR BAYO ADELEKE
+role: The planted personal assistant. Morenike's tool and her first victim.
+age: 28.
+look: Lean, handsome, quick smile, one chipped front tooth. He wears a borrowed suit that fits slightly wrong. In the cell he wears a torn white shirt and a swollen eye.
+nature: Charming and desperate. He supports a sick mother and thinks the job is easy money. He is not evil, only greedy and weak, and that costs him everything.
+prompt: Portrait of a 28-year-old Nigerian man, lean, handsome, charming smile with one slightly chipped front tooth, wearing a slightly ill-fitting navy suit and thin tie, eager expression, standing in a glass-walled office lobby.
+
+#CHAR DR. DANIEL DAWSON
+role: Cardiologist, later Adunni's husband.
+age: 41.
+look: Calm, bearded, wire glasses, a soft voice and steady hands. White coat at work and a plain knit sweater at home.
+nature: Patient and grounded. He does not rescue Adunni. He stays beside her while she rescues herself.
+prompt: Portrait of a 41-year-old Black man, short neat beard, thin wire-rimmed glasses, white doctor's coat over a pale blue shirt, stethoscope around his neck, kind steady expression, bright modern clinic behind him.
+
+#H2 Supporting Characters
+
+#CHAR MR. OBINNA NWOSU ("OBI")
+role: Wealthy businessman jailed on a false fake-alert charge. Befriends Bayo, is released the day Bayo dies, and spends his freedom pursuing justice.
+age: 52.
+look: Heavy-set, silver at the temples, tired eyes, a faded prison shirt in the cells and a crisp agbada afterwards. He wears a thick gold watch only after his release.
+nature: Decent and stubborn. Bayo's small kindness in a miserable week becomes the reason Obi makes the whole case.
+prompt: Portrait of a 52-year-old Nigerian man, heavy-set, silver at the temples, tired kind eyes, wearing a faded white prison undershirt in a dim concrete cell, then a second portrait wearing a crisp navy agbada and thick gold watch.
+
+#CHAR SERGEANT AJINIBU
+role: The corrupt policeman who kills Bayo and later blackmails Morenike.
+age: 45.
+look: Thick-necked, small mean eyes, uniform stretched at the buttons, a toothpick in his mouth. A heavy man who moves quietly.
+nature: Lazy and cruel. He records every call he makes, which becomes his downfall.
+prompt: Portrait of a 45-year-old Nigerian police sergeant, thick neck, small narrow eyes, uniform shirt strained at the buttons, toothpick in the corner of his mouth, standing in a dim police station corridor under a flickering tube light.
+
+#CHAR MICHAEL OKPARA
+role: Morenike's lover and fake-contract contractor. He double-crosses her and later turns state witness.
+age: 40.
+look: Slick, a sharp haircut, expensive cologne, white sneakers with a suit. His smile is the first thing and the last thing you notice.
+nature: A pure opportunist. He loves whoever pays him last.
+prompt: Portrait of a 40-year-old Nigerian man, slick fade haircut, neatly trimmed beard, fitted pinstripe suit worn with white sneakers, gold chain, easy confident grin, sitting in a trendy Abuja restaurant.
+
+#CHAR SEGUN ALADE
+role: Private investigator hired by Obi.
+age: 48.
+look: Wiry, patient, a battered leather satchel, a cheap watch and an expensive camera. He looks forgettable on purpose.
+nature: Methodical. He finds the blood on a detachable pipe in a toilet block and builds the whole case from it.
+prompt: Portrait of a 48-year-old Nigerian man, wiry build, plain short-sleeved shirt, battered leather satchel on his shoulder, cheap watch, calm forgettable face, crouching in a grimy concrete toilet block with a small torch.
+
+#CHAR IYA AGBA (GRANDMOTHER OGUNDELE)
+role: Raised both sisters. Left the mansion, the workshop and the house to Adunni with a condition. Appears in flashback and in her letters.
+age: 78 in flashback.
+look: Frail and bright-eyed, white gele, deep-blue aso-oke wrapper, a walking stick with a carved handle. She sits in a cane chair beside a loom.
+nature: Wise, watchful, loving and unsentimental. She saw Morenike's nature in childhood and planned for it.
+prompt: Portrait of a 78-year-old Nigerian grandmother, frail but bright-eyed, white gele, deep-blue aso-oke wrapper, carved wooden walking stick, seated on a cane chair beside a wooden loom, warm afternoon light.
+
+#CHAR TEMITOPE ("TEMI")
+role: Adunni's personal assistant and gatekeeper.
+age: 29.
+look: Crisp white blouse, neat natural hair, a clipboard she never puts down.
+nature: Efficient and loyal. She reads Adunni's face better than anyone.
+prompt: Portrait of a 29-year-old Nigerian woman, neat natural hair, crisp white blouse and black skirt, clipboard held against her chest, composed and attentive, in a modern fashion-house office.
+
+#CHAR MAMA BAYO
+role: Bayo's mother. She keeps his old phone.
+age: 65.
+look: Thin, bent, a faded wrapper and headtie, hands scarred from years of farm work.
+nature: Gentle and broken. Her grief becomes the final piece of evidence.
+prompt: Portrait of a 65-year-old Nigerian woman, thin, slightly bent, faded cotton wrapper and plain headtie, work-worn hands, sorrowful dignified expression, standing in a mud-brick doorway in a village at dusk.
+
+#H2 One-Scene Characters
+
+#CHAR BABA SULE
+role: Master weaver and manager of the Ogundele workshop. The only person who knows the deed.
+age: 71.
+look: Thin, white stubble, a cap, ink-stained fingers.
+prompt: Portrait of a 71-year-old Nigerian man, thin, white stubble, small cap, ink-stained fingers resting on a wooden loom, gentle look, workshop with colored threads behind him.
+
+#CHAR MR. KUNLE (DRIVER) AND MR. HASSAN (SECURITY)
+role: Adunni's loyal driver and security man who collect her from the gate.
+age: 50 and 42.
+look: Kunle wears a grey driver's cap and a neat uniform. Hassan is tall, broad, in a black security uniform with a torch.
+prompt: Two Nigerian men standing beside a black SUV in heavy rain, left a 50-year-old driver in a grey cap and neat uniform holding an umbrella, right a tall 42-year-old security guard in a black uniform holding a torch, night street.
+
+#CHAR NURSE CHIOMA
+role: The nurse Morenike bribed to leak Tunde's results. Fired later.
+age: 33.
+look: Light-blue scrubs, tired eyes, a hospital lanyard.
+prompt: Portrait of a 33-year-old Nigerian nurse in light-blue scrubs with a hospital lanyard, tired nervous eyes, standing in a dim hospital corridor holding a sealed envelope.
+
+#CHAR DR. IBIDUN COKER
+role: Fertility consultant who delivers the truth to Tunde.
+age: 50.
+look: Neat grey-streaked hair, round glasses, a pressed white coat and a very steady voice.
+prompt: Portrait of a 50-year-old Nigerian woman doctor, grey-streaked hair in a neat bun, round glasses, pressed white coat, calm serious expression, seated behind a consulting desk with a folder in front of her.
+
+#CHAR LEKAN (WAITER)
+role: The restaurant waiter whom Tunde pays to eavesdrop.
+age: 24.
+look: A black waistcoat, a name tag and a notebook in his apron.
+prompt: Portrait of a 24-year-old Nigerian waiter, black waistcoat and bow tie, name tag, order notebook in his apron pocket, alert polite expression, standing at a restaurant table.
+
+#CHAR MR. OKAFOR (NEIGHBOUR)
+role: The neighbour who lends Tunde a parking space and a car.
+age: 58.
+look: A round man in a loose kaftan and slippers, always holding a newspaper.
+prompt: Portrait of a 58-year-old Nigerian man, round face, loose cream kaftan and slippers, holding a folded newspaper, standing at the gate of a neat bungalow, friendly puzzled expression.
+
+#CHAR MALLAM GARBA
+role: Owner of the car-parts shop where Tunde ends up working.
+age: 55.
+look: Wide shoulders, a white cap, a plain grey kaftan and a notebook of debts.
+prompt: Portrait of a 55-year-old Nigerian man, wide shoulders, white prayer cap, plain grey kaftan, notebook tucked under his arm, standing among shelves of car parts in a crowded shop.
+
+#CHAR HON. JUSTICE AMINAT BELLO
+role: The judge who sentences Morenike.
+age: 58.
+look: Black judicial robe, white collar bands, reading glasses low on her nose.
+prompt: Portrait of a 58-year-old Nigerian woman judge in black robe and white collar bands, reading glasses low on her nose, severe composed expression, seated on a raised wooden bench in a courtroom.
+
+#CHAR BARRISTER IBE
+role: The defence lawyer Adunni hires for Morenike.
+age: 47.
+look: A sharp navy suit, a wig tucked under one arm, a heavy file.
+prompt: Portrait of a 47-year-old Nigerian lawyer, sharp navy suit, white shirt with bands, barrister's wig tucked under his arm, heavy case file in his other hand, confident expression, courthouse corridor.
+
+#CHAR THE TRIPLETS
+role: Adunni and Dr. Dawson's children.
+age: 1 year.
+look: Three identical toddlers, two girls and a boy, matching tiny aso-oke outfits in indigo.
+prompt: Three one-year-old Nigerian triplet toddlers, two girls and one boy, in matching tiny indigo aso-oke outfits, sitting on a soft rug in a bright nursery, laughing, warm daylight.
+
+#H1 Screenplay
+
+#H2 Cold Open
+
+#SC 1 | EXT. ADEBISI MANSION, MAITAMA, ABUJA | NIGHT, HEAVY RAIN
+Black screen. Thunder. A heavy iron gate slams.
+ADUNNI stands outside in a soaked lace wrapper, one cloth bag in her hand. Behind the bars, the mansion glows warm and gold.
+TUNDE stands on the porch steps, his face wet with rain he is refusing to wipe.
+
+@TUNDE (voice cracking)
+Take your things and go.
+
+@ADUNNI
+Five years, Tunde. Five years, and you listen to one night?
+
+@TUNDE
+Do not say another word.
+
+Adunni grips the gate bars. Behind Tunde, CHIEF MRS. ADEBISI stands in the doorway with her arms folded, unmoving.
+
+@ADUNNI (quietly)
+You will find out one day who did this. And when you do, I want you to remember I never begged.
+
+A pair of headlights cut through the rain. A black SUV stops at the curb.
+
+#TR SMASH CUT TO:
+
+#SC 2 | INT. AGBA ASO-OKE INDUSTRIES, BOARDROOM | DAY (THREE YEARS LATER)
+A glass boardroom on the top floor. Indigo silk samples line the walls. A framed portrait of an old woman hangs at the head of the table.
+TUNDE sits at the long table in a worn suit, hands shaking. Beside him, two chiefs in expensive agbada sweat in the air-conditioning.
+Heels on marble, approaching. The door handle turns.
+Tunde looks up. We do not see who he sees. We see only his face go empty.
+
+@TUNDE (whispering)
+Adunni.
+
+A document slides into frame across the table. We read one line: ASSET FORECLOSURE NOTICE. The Adebisi mansion.
+
+@ADUNNI (O.S., calm)
+Good morning, Mr. Adebisi. This house is mine now.
+
+#TR CUT TO BLACK.
+
+#TITLE ỌMỌ ÌYÁ MI. My Mother's Child.
+
+#H2 Act One: The Perfect Marriage
+
+#SC 3 | INT. ADEBISI MANSION, KITCHEN | MORNING (THREE YEARS EARLIER)
+Bright, spacious, warm. ADUNNI stirs a pot while the cook watches helplessly. TUNDE comes in adjusting his cufflinks and kisses the top of her head.
+
+@TUNDE
+You are cooking again. We have staff for this.
+
+@ADUNNI
+A wife should know her husband's food.
+
+@TUNDE
+Aya mi. My wife. You are the queen of this house.
+
+She laughs and flicks soup at his sleeve. He pretends outrage. They are happy, and the camera lets us enjoy it.
+CHIEF MRS. ADEBISI appears at the door with her handbag over her arm. The laughter thins.
+
+@CHIEF MRS. ADEBISI
+Five years. My friends carry grandchildren to church. I carry only my prayers.
+
+@TUNDE
+Mama.
+
+@CHIEF MRS. ADEBISI
+I say nothing against your wife. I only say the clock does not stop.
+
+Adunni keeps stirring. Her hand is steady. Her eyes are not.
+
+#SC 4 | INT. ADEBISI MANSION, MASTER BEDROOM | NIGHT
+Tunde sleeps. ADUNNI sits at the dressing table. From the bottom of her jewellery box she lifts a sealed hospital envelope, soft with age. She does not open it. She holds it to her chest, then puts it back and covers it with gold.
+Across the corridor, a door with an Ankara cloth hung over the handle. A nursery that has never been used. She touches the cloth and walks past.
+
+#TW PLANT: the envelope (Shock 5). Do not show its contents.
+
+#SC 5 | EXT. ADEBISI MANSION, GARDEN | DAY
+ADUNNI walks among the hibiscus with a phone to her ear.
+
+@ADUNNI (into phone)
+Baba Sule, pay the weavers first. Always the weavers first.
+
+@BABA SULE (V.O.)
+Ma, the bank is asking whose name is on the deed.
+
+@ADUNNI
+Nobody's name is to be spoken. Mama said so. Not until the day comes.
+
+A shadow in the hedge. MORENIKE has arrived early and has heard the last words. She steps out smiling.
+
+@MORENIKE
+Which deed?
+
+@ADUNNI
+My tailor. He is behind on rent.
+
+@MORENIKE
+You and your charity cases.
+
+She kisses Adunni's cheek. Adunni does not see her sister's smile freeze and then recover.
+
+#TW PLANT: the deed, the weavers, the name nobody speaks (Shock 4).
+
+#SC 6 | INT. MORENIKE'S FLAT | NIGHT
+A cramped one-bedroom flat, a ceiling fan that wobbles. MORENIKE in a faded work blouse eats cold rice alone. A knock. She opens the door to MICHAEL, who leans in the frame with a bag of suya and a smile that is too smooth.
+
+@MICHAEL
+Why are you eating cold rice at midnight?
+
+@MORENIKE
+Because the world has plenty to give and none of it is for me.
+
+@MICHAEL
+Then take it, baby. Take it. Who is stopping you?
+
+She looks at him for a long moment. When he goes to the bathroom, she takes a folded photocopy from inside a Bible and holds it to the lamp. We see only a hospital logo and a name: T. ADEBISI. A single line is highlighted yellow. We do not read it.
+
+#TW PLANT: the photocopy (Shocks 5 and 8).
+
+#SC 7 | EXT. ADEBISI MANSION, DRIVEWAY | DAY
+Balloons. Staff in matching uniforms. ADUNNI is led out blindfolded by TUNDE. A white SUV sits under a red ribbon. The number plate reads ADUNNI 1.
+
+@TUNDE
+Open your eyes.
+
+She gasps. Both hands over her mouth. She hugs him and spins him around while the staff cheer.
+MORENIKE stands by the gate and applauds one beat too late. In her handbag, her phone buzzes. The screen reads LANDLORD. She declines the call and keeps clapping.
+
+#SC 8 | INT. MORENIKE'S FLAT | NIGHT
+Dark. MORENIKE sits on the floor with the photocopy in her lap and a candle between her knees.
+
+@MORENIKE (to herself)
+A man with this cannot give his mother a grandchild. And a woman who cannot give a child can be sent away.
+
+Her thumb finds a number. She hesitates once, then presses call.
+
+@MORENIKE (into phone)
+Bayo. Do you still want that job?
+
+#SC 9 | INT. BUKA CANTEEN | NIGHT
+A cheap canteen, plastic chairs, the sound of a TV. BAYO eats beans with a spoon bent from use. MORENIKE slides a CV and a paper bag of folded clothes across the table. Inside the bag is a navy suit.
+
+@BAYO
+Madam, why are you doing this for me?
+
+@MORENIKE
+Tunde Adebisi needs a personal assistant. You will be very good at it.
+
+@BAYO
+And what do I do for you?
+
+@MORENIKE (smiling)
+Be kind to my sister. Very kind.
+
+Bayo laughs, thinking he understands. He does not.
+
+#SC 10 | INT. ADEBISI MANSION, KITCHEN | DAY
+MORENIKE sits at the kitchen island. ADUNNI chops vegetables.
+
+@MORENIKE
+There is a boy. Bayo. His father is dead. He has five siblings and a mother who cannot walk.
+
+@ADUNNI
+Ah. God.
+
+@MORENIKE
+Tunde needs an assistant. Just a word from you.
+
+@ADUNNI (soft)
+I will speak to him tonight.
+
+Cut to the bedroom. Tunde, in bed, yields in two sentences to his wife's pleading voice.
+
+@TUNDE
+For you, Adunni. Anything for you.
+
+#SC 11 | INT. ADEBISI MOTORS, HEADQUARTERS | DAY (MONTAGE)
+BAYO in his navy suit: fast, polite, always smiling. He stands when TUNDE enters. He knows every client's name. He brings coffee. He brings good news.
+Whenever ADUNNI visits her husband's office, BAYO is there. A door held. A joke told. A sweet bought from the canteen "just because."
+TUNDE watches, grateful. ADUNNI laughs. Neither notices that Bayo's eyes never leave her.
+
+#SC 12 | INT. ADEBISI MANSION, LIVING ROOM | DAY
+MORENIKE visits with a gift of kola nuts.
+
+@MORENIKE
+Adunni, that fabric I asked you about, the green one with the gold thread. Is it upstairs?
+
+@ADUNNI
+In the wardrobe. Wait here.
+
+Adunni goes up. The moment her footsteps fade, Morenike pulls a small camera from her bag. She sets it into a crystal vase on the console, angled at the doorway. A red light blinks once and goes still. She is sitting calmly when Adunni returns.
+
+#TW PLANT: the camera.
+
+#SC 13 | INT. ADEBISI MANSION, FOYER AND KITCHEN | DAY
+A knock. ADUNNI opens the door. BAYO stands holding a folder.
+
+@BAYO
+Madam, Oga asked me to drop these documents.
+
+@ADUNNI
+Come in. Wait, let me give you something.
+
+She hands him a glass of water. He drinks too slowly.
+
+@BAYO
+Madam, you are too kind. Many people would not do this.
+
+@ADUNNI
+Are you hungry? I have food.
+
+She serves a plate. As she sets it down, he catches her wrist.
+
+@BAYO (soft)
+Do you know you are very beautiful?
+
+She freezes.
+
+@ADUNNI
+What are you doing? Let go of my hand.
+
+@BAYO
+Madam, you are lonely in this house. I can see it.
+
+@ADUNNI
+What are you doing? What do you think you are doing?
+
+She pulls free and throws the plate at his feet. It shatters.
+
+@ADUNNI (shaking)
+Get out of my house.
+
+He backs off, smiling, as though he has lost nothing. The vase on the console shows a tiny red light.
+
+#SC 14 | INT. MORENIKE'S FLAT | NIGHT
+MORENIKE watches the footage on a laptop, headphones on. She pauses on the frame where Adunni stands frozen, her wrist in Bayo's hand. She trims the clip: twelve seconds, no sound.
+On screen it looks like consent. Morenike exports the file with a small satisfied click.
+
+#SC 15 | INT. ADEBISI MOTORS, TUNDE'S OFFICE | DAY
+TUNDE stands at his desk. MORENIKE sits across from him, hands folded, eyes wet.
+
+@MORENIKE
+I did not want to be the one to show you this.
+
+She plays the clip on her phone. TUNDE watches. His jaw sets. He watches it again. He sets the phone down very gently.
+
+@TUNDE
+Play it again.
+
+@MORENIKE
+Tunde, why torture yourself?
+
+@TUNDE
+Where is the full video?
+
+@MORENIKE
+It is... this is all I could...
+
+@TUNDE
+Our foyer has its own CCTV. It records sound. I installed that system myself.
+
+His phone is already at his ear.
+
+@TUNDE (into phone)
+Send me yesterday's footage from the foyer. All of it. Now.
+
+The file arrives. He plays it with the sound up. We hear Adunni's voice: "Let go of my hand." We hear the plate shatter. We hear Bayo laugh.
+Morenike stares at the screen. She had trusted the silent clip. She never thought about the dome in the ceiling.
+Tunde rises. His chair falls behind him.
+
+@TUNDE
+That dog.
+
+@MORENIKE (too fast)
+Tunde, maybe we should think before...
+
+@TUNDE
+Think? He put his hands on my wife!
+
+He storms out. Morenike remains in the chair. For the first time, her face drops. Plan broken.
+
+#TW SHOCK 2: the clip was supposed to condemn Adunni. It cleared her.
+
+#SC 16 | INT. GWAGWALADA DIVISIONAL POLICE STATION, CELL | NIGHT
+Concrete walls. One flickering tube light. BAYO sits on the floor with a split lip. In the corner, MR. OBI, in a faded prison shirt, watches him over a tin cup of water.
+
+@OBI
+Young man, what did you do?
+
+@BAYO
+I only did what I was paid for.
+
+@OBI
+Paid by who?
+
+Bayo says nothing. A POLICEMAN taps the bars and passes a phone through for a note.
+
+@POLICEMAN
+Two minutes. Do not make me regret it.
+
+Bayo dials. We hear Morenike answer.
+
+@BAYO (into phone, low)
+Madam. You promised me. You said the woman would be blamed, not me. Now I am in a cell.
+
+@MORENIKE (V.O.)
+Bayo, listen...
+
+@BAYO
+No, you listen. Get me out by tomorrow, or I tell Mr. Adebisi everything. The camera, the clip, all of it.
+
+Click. Morenike stands alone in her kitchen, phone pressed against her mouth. Her hand is shaking.
+
+#TR CUT TO BLACK. (END OF ACT ONE. ADVERT BREAK.)
+
+#H2 Act Two: The Lies
+
+#SC 17 | INT. A BAR BEHIND THE POLICE BARRACKS | NIGHT
+MORENIKE in dark glasses sits across from SERGEANT AJINIBU. She slides a thick envelope across the table.
+
+@AJINIBU
+Madam, I do not know you.
+
+@MORENIKE
+There is a young man in your cell. He talks too much. Make him quiet.
+
+@AJINIBU
+Quiet? How?
+
+@MORENIKE
+However you like.
+
+He lifts the envelope, weighs it with his thumb. A toothpick moves from one side of his mouth to the other.
+
+#SC 18 | INT. POLICE STATION, TOILET BLOCK AND CELL | DAY AND NIGHT
+DAY. BAYO and OBI are on cleaning duty, a bucket between them. Water on the floor. They joke. Bayo laughs for the first time.
+
+@BAYO
+Chief, when you leave tomorrow, go and see my mother. Tell her I am sorry for everything.
+
+@OBI
+You will tell her yourself.
+
+NIGHT. AJINIBU opens the cell.
+
+@AJINIBU
+You. Come and clean the other toilet.
+
+Bayo goes. The door closes. Obi sits upright in the dark. The camera stays on his face. We hear two sets of boots, a third. A muffled voice. A heavy impact. Another. A long silence.
+MORNING. Ajinibu walks past the cell, wiping his hands with a handkerchief.
+
+@AJINIBU (flat)
+The boy fell. It happens.
+
+Obi stares at him with something worse than anger. Then the gate opens for Obi. He is free today.
+At the gate, a guard hands him a small bundle: Bayo's wristband and a torn scrap of paper with an address.
+
+@OBI (quietly, to the empty cell)
+Bayo. I will find them.
+
+#TW SHOCK 3: Morenike's accomplice is dead within days.
+
+#SC 19 | EXT. A VILLAGE NEAR GWAGWALADA | DUSK
+A mud-brick house. OBI, in a clean agbada now, stands in the doorway with the wristband. MAMA BAYO sits on a stool shelling beans.
+
+@OBI
+Mama, I was with your son in the cell.
+
+She does not speak. She takes the wristband. Her face folds around it.
+
+@OBI
+He asked me to find you. And I must ask you something. Did he leave anything?
+
+She stands slowly and goes inside. She returns with a cracked old phone wrapped in cloth.
+
+@MAMA BAYO
+He left this with me. He said, Mama, if anything happens, keep it safe. I do not know how to open it.
+
+Obi holds the phone like a sleeping animal.
+
+#SC 20 | INT. ADEBISI MANSION, SITTING ROOM | NIGHT
+TUNDE sits alone, a drink untouched. ADUNNI enters.
+
+@ADUNNI
+He will pay for what he did.
+
+@TUNDE
+He is in a cell. I do not care about him anymore. I care that you let him inside.
+
+@ADUNNI
+I opened a door to give a man water!
+
+@TUNDE
+Your door. My house.
+
+@ADUNNI
+You saw the video, Tunde.
+
+@TUNDE (breaking)
+I saw. But my mother keeps asking for a child. And every night I think, what if it is true? What if everything about us is a mistake?
+
+Adunni's lips part. For one moment the truth is there, on her tongue. The envelope in her jewellery box. The doctor's name. She closes her mouth.
+
+@ADUNNI
+Let me bring Morenike. She will help us speak to Mama.
+
+#TW SHOCK 6 setup: she will not say it.
+
+#SC 21 | INT. ADEBISI MANSION, LIVING ROOM | NIGHT, RAIN
+TUNDE, CHIEF MRS. ADEBISI, ADUNNI and MORENIKE sit in a tense circle. Thunder.
+
+@ADUNNI (to Morenike)
+Sister, please. Tell them I am not what they think.
+
+@MORENIKE (rising slowly, performing)
+Mama. Tunde. I know she is my sister. I love her with all my heart.
+
+@CHIEF MRS. ADEBISI
+Say it.
+
+@MORENIKE
+Why are you still with her, Tunde? She cannot give you a child. I say this with tears. Five years. You are the only son. The family name is dying in this house.
+
+@ADUNNI
+Morenike...
+
+@MORENIKE
+I am not a wicked person. I am only telling the truth. Look at the facts. Is she able?
+
+Silence. Tunde looks at his mother. His mother looks at the floor. Adunni stands.
+She could say it. Everyone can see she could say it. Her eyes find Tunde's.
+
+@ADUNNI (steady)
+I never betrayed you.
+
+@TUNDE (not meeting her eyes)
+Take your things and go.
+
+@ADUNNI
+Tunde...
+
+@TUNDE
+Go!
+
+Adunni nods once. She picks up one cloth bag. She walks out into the storm.
+
+#TW SHOCK 6: the audience expects the truth. She protects his pride instead.
+
+#SC 22 | EXT. ADEBISI MANSION GATE / INT. SUV / EXT. OGUNDELE MANSION | NIGHT
+(Continuation of Scene 1. We now see what happened after the gate slammed.)
+The black SUV door opens. MR. KUNLE the driver holds an umbrella. MR. HASSAN the guard lifts her bag.
+
+@KUNLE
+Madam, we heard on the radio. We came at once.
+
+@ADUNNI
+Take me to Asokoro.
+
+@HASSAN
+To the big house?
+
+@ADUNNI
+To my house.
+
+From a window upstairs, MORENIKE watches the tail-lights shrink. She smiles.
+The SUV crosses the city and stops before a pair of towering cast-iron gates. They open automatically. A long drive, lit by lanterns. A white mansion beyond it, three times the size of Tunde's. Staff in matching uniforms line the entrance in two rows.
+
+@HOUSEKEEPER
+Welcome home, Madam.
+
+Adunni stands in the rain and does not move. Then she walks slowly up the steps. In the hallway, a huge oil portrait of IYA AGBA, her grandmother, stares down.
+On a small table beneath it lies a sealed letter, her name on the front in shaky handwriting.
+
+@IYA AGBA (V.O., reading)
+My Adunni. If you read this, then someone has hurt you. Do not be bitter. Be useful. This house, the workshop in Abeokuta, and the house in Wuse are yours. I left them quietly because your sister's heart has a hole in it. When she proves she is a sister, share what I left. Until then, keep your peace.
+
+Adunni sinks to the floor. The staff look away, giving her the dignity of privacy.
+She opens her jewellery box, brought in her bag. She takes out the sealed envelope. This time she opens it.
+
+#TW SHOCK 4: the hidden fortune.
+
+#SC 23 | INT. PRIVATE HOSPITAL, CONSULTING ROOM | DAY (FLASHBACK, SIX MONTHS EARLIER)
+ADUNNI sits opposite DR. IBIDUN COKER. A folder lies between them.
+
+@DR. COKER
+Mrs. Adebisi, your husband's results are low. His count is very low. You, on the other hand, are completely healthy.
+
+@ADUNNI
+Does he know?
+
+@DR. COKER
+Not yet. He asked me to give the report to you first, as his wife. He is too busy to attend.
+
+Adunni reads the folder. She thinks of a proud man who builds cars, who buys her birthday gifts, who cannot bear to be small.
+
+@ADUNNI
+Doctor, when he comes, tell him the problem is mine.
+
+@DR. COKER
+Mrs. Adebisi, that is not true.
+
+@ADUNNI
+Please. He will break. He is a good man. I would rather be blamed than watch him break.
+
+Dr. Coker closes the folder slowly and nods.
+BACK TO PRESENT. Adunni, on the floor of the hall, holds the opened result.
+In her hand: her own report. FERTILITY: NORMAL. She presses it to her mouth and weeps without a sound.
+
+#TW SHOCK 5: Adunni is fertile. Tunde is the one. She took the blame.
+
+#SC 24 | VARIOUS | MONTAGE (ONE YEAR)
+MORENIKE brings soup to the Adebisi mansion. She sits with Chief Mrs. Adebisi in the church pew. She holds Tunde's hand at his father's memorial. A month later, she wears a small gold bracelet he gave her. Then a ring.
+CHURCH. The wedding. TUNDE in white agbada. MORENIKE in lace, smiling at the congregation, wiping a tear.
+INTERCUT: LONDON. A hospital window, grey rain. ADUNNI in a bed, an ECG patch on her chest. DR. DAWSON adjusts a monitor and says nothing. She watches a TV screen in the corner, Nigerian news, a clip of the Adebisi wedding.
+
+@ADUNNI (whisper)
+Mama, I hope you can see.
+
+#SC 25 | INT. ADEBISI MANSION, NEW MASTER BEDROOM | NIGHT
+MORENIKE in a silk robe admires herself in a mirror. A knock. She opens the door a crack. SERGEANT AJINIBU stands on the porch with a toothpick in his mouth.
+
+@AJINIBU
+Madam Adebisi. Congratulations.
+
+@MORENIKE (whispering)
+How dare you come here?
+
+@AJINIBU
+The police are beginning to talk. People ask who ordered the quiet. A man with my duties must prepare for questions.
+
+@MORENIKE
+How much?
+
+@AJINIBU
+Ten million. Monthly.
+
+#SC 26 | INT. ADEBISI MOTORS, TUNDE'S OFFICE | DAY
+TUNDE reads a thick document. MORENIKE leans against his desk. MICHAEL sits opposite them, groomed, charming, professional.
+
+@MORENIKE
+Tunde, this is my old school friend. Michael is a contractor with government links. He can give us a supply contract that will triple the company.
+
+@TUNDE
+Why have I never heard his name?
+
+@MICHAEL
+Because the best deals are not announced, sir.
+
+Tunde reads. Michael keeps talking about margins, timelines, logistics. Tunde turns pages. On page seven he stops.
+
+@TUNDE
+Six hundred million as an advance.
+
+@MICHAEL
+For materials, sir. Fully refundable.
+
+Tunde signs. Morenike exhales. Michael and Morenike exchange a look that is a little too long. A look between lovers.
+
+#TW SHOCK 7: Michael is not just a contractor. He is her lover. And he has his own plan.
+
+#SC 27 | INT. ADEBISI MOTORS | DAY (MONTAGE)
+Empty parking lots. Workers waiting outside the gate. Chiefs murmuring in the corridor. TUNDE tears a letter from the bank, then another, then another. In the next office, a young accountant stares at a spreadsheet that bleeds red.
+
+@ACCOUNTANT (whispering)
+Sir, six hundred million has left, and I cannot trace where it went.
+
+#SC 28 | INT. PRIVATE HOSPITAL, CONSULTING ROOM | DAY
+TUNDE and MORENIKE sit before DR. IBIDUN COKER. Tunde is thinner now.
+
+@TUNDE
+Doctor, a year and a half. We are doing everything. Why is she not conceiving?
+
+@DR. COKER (carefully)
+Mr. Adebisi, I would like to ask you a question. When you came here the first time, years ago, were you told your own result?
+
+@TUNDE
+My own result?
+
+@DR. COKER
+Your wife, the first Mrs. Adebisi, did not tell you?
+
+Silence. The ceiling fan turns.
+
+@TUNDE
+Tell me what?
+
+@DR. COKER
+Your sperm count was very low. That has not changed. It is the reason you have not had a child. In the first marriage, Mrs. Adebisi asked me to tell you the problem was hers. She was fully fertile. I am so sorry, I assumed you knew.
+
+TUNDE stands. His mouth opens. Nothing comes out.
+
+@MORENIKE (too quickly)
+But she lied! She lied to you, Tunde. She hid it. She was not honest.
+
+@DR. COKER (turning to Morenike, polite, puzzled)
+Madam, one more thing. Years ago, one of our nurses was dismissed for leaking patient files to a family member. A nurse named Chioma. I only mention it because the leak was for this exact folder.
+
+Morenike's face drains. Tunde does not notice. He is staring at the floor.
+
+#TW SHOCK 8: the nurse Morenike bribed has been fired. The doctor says it aloud and does not realise what she has said.
+
+#SC 29 | INT. ADEBISI MANSION, SITTING ROOM | NIGHT
+TUNDE has told his mother. CHIEF MRS. ADEBISI sits in a hard chair with her hand on her chest.
+
+@CHIEF MRS. ADEBISI
+I sent her out. In the rain.
+
+@TUNDE
+Mama...
+
+@CHIEF MRS. ADEBISI
+She took the blame so you would not be shamed. And I called her barren in my own house.
+
+@TUNDE
+I will find her. I will beg.
+
+@CHIEF MRS. ADEBISI (hollow)
+Where? Nobody knows where she is.
+
+Behind them in the doorway, MORENIKE stands silent. She says nothing. For once, she has no story ready.
+
+#SC 30 | INT. ADEBISI MOTORS, BOARDROOM | DAY
+TUNDE and two CHIEFS in the auto industry. Documents everywhere.
+
+@CHIEF BALOGUN
+The banks will not move. We need a partner with cash.
+
+@CHIEF OKORO
+Agba Aso-Oke Industries funds distressed partners. Their founder is a woman, and nobody has ever met her.
+
+@TUNDE
+Aso-oke for a car company?
+
+@CHIEF OKORO
+Cash has no tribe, Mr. Adebisi.
+
+#SC 31 | INT. AGBA ASO-OKE INDUSTRIES, ADUNNI'S OFFICE | DAY
+ADUNNI at a vast desk. TEMI stands with a clipboard.
+
+@TEMI
+Madam, a partnership request. Adebisi Motors. They are asking for a six-hundred-million-naira bridge.
+
+Adunni does not look up. She turns a pen once between her fingers.
+
+@ADUNNI
+Who signs for them?
+
+@TEMI
+Mr. Tunde Adebisi.
+
+A long silence. The portrait of Iya Agba watches from the wall.
+
+@ADUNNI
+Give him the loan.
+
+@TEMI
+Madam?
+
+@ADUNNI
+No interest. But he repays in sixty days or the company and every asset he has pledged become ours. Put it in writing.
+
+@TEMI
+That is very harsh.
+
+@ADUNNI
+It is exactly fair.
+
+#TW SHOCK 9: she does not rescue him. She sets a clock.
+
+#SC 32 | INT. ADEBISI MANSION, STUDY | NIGHT
+MORENIKE and MICHAEL stand close together. MICHAEL fans a stack of bank slips.
+
+@MICHAEL
+Your husband is a bad businessman, sweetheart. And you are a worse thief.
+
+@MORENIKE
+What have you done?
+
+@MICHAEL
+The bridge loan. Six hundred million. It left your account this evening and landed in mine.
+
+@MORENIKE
+That is Tunde's money! He signed it for the company!
+
+@MICHAEL
+Report me.
+
+She cannot. She knows she cannot. Michael kisses her forehead like a parent leaving a child, and goes.
+
+#SC 33 | INT. FCT POLICE COMMAND, INTERROGATION ROOM | NIGHT
+SEGUN ALADE sets a clear plastic bag on a steel table. Inside it, a short length of grey pipe. Brown stains.
+
+@SEGUN
+Detachable. The cell block's toilet pipe. The officers took it out, used it and put it back. But they did not wipe the thread.
+
+Across from him, SERGEANT AJINIBU sits cuffed to the table. Three Abuja detectives stand behind Segun.
+
+@DETECTIVE
+Sergeant, you are looking at life. You can protect nobody. Name everyone.
+
+@AJINIBU (breaking)
+It was not my idea! A woman paid us. She came to the bar. We have her voice. I record everything I do, I am not a fool.
+
+He gives the name. Segun sits back. Behind him, a detective is already dialing the commissioner.
+
+#SC 34 | INT. ADEBISI MANSION, SITTING ROOM | NIGHT
+TUNDE and MORENIKE on the couch. Morenike's phone buzzes on the arm. The screen lights up: MICHAEL (CONTRACTOR). She flips it face down, a half-second too late.
+
+@TUNDE
+Who is that?
+
+@MORENIKE
+A friend.
+
+@TUNDE
+At midnight?
+
+@MORENIKE
+It is nothing.
+
+Tunde says nothing. His eyes follow the phone as she leaves the room.
+
+#SC 35 | EXT. ADEBISI MANSION AND RESTAURANT | DAY
+MORNING. TUNDE walks next door and shakes hands with MR. OKAFOR.
+
+@TUNDE
+Please, Mr. Okafor, may I park in your compound for a day? My wife must not see my car.
+
+@MR. OKAFOR
+She is hiding something from you?
+
+@TUNDE
+I hope not.
+
+He borrows Okafor's old Toyota and parks it across the road.
+LATER. MORENIKE leaves in her own car. Tunde follows her at a distance through Abuja traffic.
+INT. RESTAURANT. MORENIKE and MICHAEL at a corner table, heads close. At the next table TUNDE sits with his back to them, a menu in front of his face. He waves over LEKAN, the waiter, and presses folded notes into his hand.
+
+@TUNDE (low)
+Stand at that table. Fill their water slowly. Listen to every word.
+
+LEKAN nods. He tips water into a glass. Behind him, Morenike's voice carries.
+
+@MORENIKE (O.S.)
+...You swapped the page. Tunde thinks it is a refundable advance. The clause says it is a gift to your company. If he ever reads it...
+
+@MICHAEL (O.S.)
+He will not read. People do not read what they trust.
+
+Tunde does not move. A single tear drops onto the menu.
+
+#SC 36 | INT. ADEBISI MANSION, LIVING ROOM | NIGHT
+MORENIKE enters. TUNDE sits in the dark, a folder on his lap.
+
+@TUNDE
+Who is Michael?
+
+@MORENIKE
+A school friend. I told you.
+
+@TUNDE
+I want to read the contract again. And I want to call him.
+
+@MORENIKE
+You do not need to call.
+
+@TUNDE
+Do you think I am a fool?
+
+@MORENIKE (stammering)
+I... I...
+
+@TUNDE
+Six hundred million. From my own wife.
+
+A hard knock at the door. Another. Then a voice: "Police. Open up."
+Tunde opens it. Six officers in tactical vests. A DETECTIVE steps forward with a warrant.
+
+@DETECTIVE
+Morenike Adebisi, you are under arrest for the murder of Bayo Adeleke.
+
+@TUNDE (dazed)
+Murder? Who is Bayo Adeleke?
+
+@DETECTIVE
+Sir, your former personal assistant. He died in custody three years ago.
+
+@TUNDE
+I put him in that cell. I only wanted him punished.
+
+Morenike turns slowly to look at Tunde as she is handcuffed. Her expression is not fear. It is contempt.
+
+#TW SHOCK 10: Tunde learns, in the same breath, that his wife is a killer and that his rage killed a man.
+
+#TR CUT TO BLACK. (END OF ACT TWO. ADVERT BREAK.)
+
+#H2 Act Three: Landlord
+
+#SC 37 | INT. WOMEN'S CELL, FCT POLICE COMMAND | NIGHT
+MORENIKE on a thin mattress, hands folded. A WARDER passes a plate through the bars. Morenike does not take it. She sits upright and still, a queen with no throne.
+
+@WARDER
+Madam, you must eat.
+
+@MORENIKE
+I need nothing from you.
+
+#SC 38 | INT. AGBA ASO-OKE INDUSTRIES, BOARDROOM | DAY
+(This is the scene from the Cold Open, now played in full.)
+TUNDE, two CHIEFS, and a bank lawyer sit at the table. The door opens. ADUNNI enters in a deep-indigo suit and a single heavy ring. TEMI follows with a folder.
+
+@TUNDE
+Adunni.
+
+@ADUNNI
+Good morning, Mr. Adebisi.
+
+@TUNDE (rising)
+Adunni, please. I know what I did. I was blind. The doctor told me everything. Please sit with me for one minute, as a human being, not as a creditor.
+
+@ADUNNI
+Sixty days have passed. You have not repaid.
+
+@TUNDE
+I cannot repay. The money was stolen.
+
+@ADUNNI
+I know.
+
+@TUNDE
+Then why did you give me the loan?
+
+She meets his eyes at last.
+
+@ADUNNI
+Because the night you threw me out in the rain, nobody gave me a second chance either. I wanted to see what you would do with yours.
+
+She nods to Temi. A foreclosure notice slides across the table.
+
+@ADUNNI
+The company, the properties, the mansion. They are forfeit under the terms you signed. This house is mine now.
+
+@TUNDE
+Not the house. My mother is in the house.
+
+@ADUNNI
+Your mother may keep the guest wing as long as she lives. I am not cruel.
+
+Tunde sinks into the chair. The chiefs look at the floor.
+
+#SC 39 | EXT. ADEBISI MANSION GATE | DAY
+Boxes on the pavement. CHIEF MRS. ADEBISI stands with her handbag on her arm. A black car glides up and stops. ADUNNI steps out, TEMI behind her.
+
+@CHIEF MRS. ADEBISI (barely audible)
+Adunni.
+
+Adunni walks to her and takes both of the older woman's hands.
+
+@ADUNNI
+Mama.
+
+@CHIEF MRS. ADEBISI
+My child. Forgive an old fool.
+
+@ADUNNI
+There is nothing to forgive between us, Mama. Come inside. I will show you the guest wing.
+
+@CHIEF MRS. ADEBISI
+You bought this house?
+
+@ADUNNI
+I bought a house. That is all.
+
+Tunde watches from the gate, speechless, as the two women walk in together.
+
+#TW The landlord twist from the title. The audience learns that the forgiveness is real. That is the shock inside the shock.
+
+#SC 40 | INT. MALLAM GARBA'S CAR-PARTS SHOP, UTAKO | DAY
+Shelves of brake pads, alternators, oil filters. TUNDE in an oil-stained polo shirt wraps a headlight in newspaper for a customer. MALLAM GARBA counts coins.
+
+@GARBA
+Oga Tunde, you must lift faster. People are waiting.
+
+@TUNDE
+Yes, sir.
+
+On a small TV behind the counter, an afternoon health show. The anchor smiles.
+
+@TV ANCHOR (V.O.)
+Today we welcome Dr. Daniel Dawson, who has just opened a cardiology chamber in Abuja.
+
+@DR. DAWSON (on TV)
+I am honoured. My wife is here as well.
+
+The camera finds ADUNNI on the TV set, composed and radiant, holding one of three toddlers on her lap while two others tumble across the studio rug.
+
+@TV ANCHOR (V.O.)
+And these are your triplets?
+
+@DR. DAWSON (on TV, laughing)
+Three at once. We were not prepared.
+
+The headlight slips from Tunde's hands and breaks on the floor. He does not move.
+
+#TW SHOCK 11: Adunni has a husband and three children.
+
+#SC 41 | INT. DAWSON HOME, NURSERY | NIGHT
+ADUNNI watches her TRIPLETS sleep. DR. DAWSON stands in the doorway. She turns to him with wet eyes.
+
+@ADUNNI
+My sister. I keep thinking, we shared one mother.
+
+@DR. DAWSON
+You did nothing wrong.
+
+@ADUNNI
+I know. It does not stop it from hurting.
+
+@DR. DAWSON
+She is paying for her sins. You do not have to carry them.
+
+@ADUNNI
+Thank you.
+
+He takes her hand. She leans against him.
+
+@DR. DAWSON
+You have me. You have them. You have us.
+
+#SC 42 | INT. VISITING ROOM, KUJE CORRECTIONAL CENTRE | DAY
+A grey room divided by wire mesh. MORENIKE in a plain grey wrapper sits behind the glass. ADUNNI sits on the other side. They look at each other for a long time.
+
+@ADUNNI
+Why, Morenike?
+
+@MORENIKE (flat)
+You want a reason that will make it hurt less. There is none.
+
+@ADUNNI
+Try.
+
+@MORENIKE
+You had everything. A husband who loved you. A car with your name on the plate. And Iya Agba. Iya Agba left you everything.
+
+@ADUNNI
+You knew about the house?
+
+@MORENIKE
+I did not know about the house. I knew she loved you more. I always knew. I watched it from the corner of every room for thirty years.
+
+@ADUNNI
+She loved you too.
+
+@MORENIKE
+Then why did she leave me a plot of land in a village that does not exist on any map?
+
+Adunni takes a long breath. When she speaks, her voice does not shake.
+
+@ADUNNI
+You are my sister. I still love you. I always will. But I will not save you.
+
+She stands.
+
+@ADUNNI
+I have hired the best lawyer in Abuja. He will make sure you get a fair trial. Nothing more.
+
+@MORENIKE (almost smiling)
+A fair trial. For a murderer.
+
+@ADUNNI
+Ọmọ ìyá mi. My mother's child. Good luck.
+
+Adunni leaves. Morenike stays behind the glass, her expression unreadable.
+
+#SC 43 | INT. ABUJA HIGH COURT, COURTROOM 4 | DAY
+A packed gallery. HON. JUSTICE AMINAT BELLO presides. MORENIKE sits in the dock, composed and upright. BARRISTER IBE stands to cross-examine.
+
+@BARRISTER IBE
+Sergeant Ajinibu, you admit you were in debt?
+
+@AJINIBU
+Yes.
+
+@BARRISTER IBE
+So you would say anything to protect yourself?
+
+@AJINIBU
+I recorded her voice, my lord. I recorded every call.
+
+A recording plays. We hear Morenike: "He talks too much. Make him quiet." The gallery gasps.
+Barrister Ibe turns to Morenike, whispers. She shrugs.
+The prosecutor calls the next witness.
+
+@PROSECUTOR
+The state calls Mr. Michael Okpara.
+
+MICHAEL walks in, groomed and calm. He does not look at Morenike.
+
+@MORENIKE (standing, loud)
+You rat!
+
+@JUDGE
+Order!
+
+@MICHAEL (to the court)
+My lord, I was Madam Adebisi's contractor and her partner. I am here under an immunity agreement. She ordered the killing. She told me, in bed, three times. She laughed about it.
+
+He produces a small voice recorder and a ledger. A long hour of cross-examination, and Barrister Ibe cannot move him.
+The prosecutor lifts Bayo's cracked phone.
+
+@PROSECUTOR
+My lord, Mr. Obinna Nwosu will tell the court how this phone reached us.
+
+OBI testifies. Then MAMA BAYO, on the stand, shaking. The phone is unlocked in open court. We hear Bayo's own voice, recorded on the day he took the job: "If something happens to me, the woman's name is Morenike Ogundele."
+Morenike's composure finally cracks. Her mouth moves. No sound.
+
+@JUDGE
+The accused is found guilty on all counts. The court sentences Morenike Ogundele to life imprisonment.
+
+A warder takes her arm. At the gallery rail she turns to look for Adunni. Adunni is seated in the last row. Morenike mouths two words.
+
+@MORENIKE (mouthing)
+Ọmọ ìyá.
+
+Adunni does not look away. She does not answer.
+
+#TW SHOCK 12: Michael turns on Morenike, and Bayo speaks from beyond his death.
+
+#SC 44 | EXT. COURTHOUSE STEPS | DAY
+ADUNNI stands on the steps with her hand on the railing. DR. DAWSON comes up behind her and wraps his arm around her.
+
+@ADUNNI
+I wanted her to ask for forgiveness.
+
+@DR. DAWSON
+Maybe one day she will.
+
+@ADUNNI
+And if she does?
+
+@DR. DAWSON
+Then you will decide that day. Not today.
+
+She leans her head against his shoulder. The sun comes out behind the courthouse.
+
+#SC 45 | INT. MALLAM GARBA'S CAR-PARTS SHOP | DUSK
+Closing time. TUNDE sweeps the floor alone. Rain begins to patter against the tin roof. He stops sweeping.
+He sees the street through a gap in the shutter: a woman carrying a cloth bag, head down. For one second he thinks it is her. It is not.
+He sits on an upturned crate. Flashbacks, in warm gold light:
+ADUNNI laughing in the kitchen with soup on his sleeve. ADUNNI's face on the night of the birthday car. ADUNNI standing at the gate, wet, saying: "I never begged."
+The tin roof drums. TUNDE puts his face in his hands and sobs.
+
+@TUNDE (broken)
+Adunni. I am sorry. I am so sorry.
+
+The camera rises slowly through the roof, over the rain, over the lights of Abuja. Far across the city, in a lit window in Asokoro, a woman sits beside a sleeping child.
+
+#TR FADE TO BLACK.
+
+#H2 Post-Credit Scene
+
+#SC 46 | INT. AGBA ASO-OKE INDUSTRIES, WORKSHOP | NIGHT
+The looms are silent. ADUNNI stands alone before IYA AGBA's portrait. From the back of a cabinet, behind a bolt of cloth, she finds a small tin box she has never opened. Inside: a key, and a second letter. On the envelope, in shaky handwriting: For Morenike.
+She reads the name twice. She does not open it.
+
+@ADUNNI (whispering)
+Mama. Even now, you were planning for her.
+
+She slides the letter into her handbag and turns off the lights.
+
+#TW SHOCK 13: the grandmother's second letter and the unfinished story of the sisters.
+
+#TITLE ỌMỌ ÌYÁ MI. My Mother's Child.
