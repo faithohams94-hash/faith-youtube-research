@@ -172,6 +172,7 @@ function bust(p) {
     : hair;
   const ex = p.extras || {};
   return `<svg viewBox="0 0 300 380" xmlns="http://www.w3.org/2000/svg" style="--skin:${skin}">
+    ${ex.hood ? `<path d="M26 310 Q14 120 78 46 Q150 -16 222 46 Q286 120 274 310 Z" fill="#46494d" stroke="${INK}" stroke-width="${SW}" stroke-linejoin="round"/><path d="M60 250 Q52 140 96 80 M240 250 Q248 140 204 80" fill="none" stroke="#55595d" stroke-width="7" stroke-linecap="round"/>` : ""}
     ${backHair}
     ${outfit(p.outfit, p.outfitExtra || {})}
     <rect x="124" y="226" width="52" height="50" fill="${skin}" stroke="${INK}" stroke-width="${SW}"/>
@@ -181,6 +182,8 @@ function bust(p) {
     ${ex.earrings ? `<circle cx="56" cy="186" r="9" fill="none" stroke="#E3B341" stroke-width="5"/><circle cx="244" cy="186" r="9" fill="none" stroke="#E3B341" stroke-width="5"/>` : ""}
     ${ex.stubble ? `<g fill="#bdbdbd">${Array.from({ length: 40 }, (_, i) => `<circle cx="${96 + (i * 37) % 110}" cy="${198 + (i * 13) % 40}" r="2.2"/>`).join("")}</g>` : ""}
     ${frontHair}
+    ${ex.hood ? `<path d="M40 190 Q30 40 150 22 Q270 40 260 190 Q246 120 212 100 Q150 84 88 100 Q54 120 40 190 Z" fill="#46494d" stroke="${INK}" stroke-width="${SW}" stroke-linejoin="round"/>
+      <path d="M62 170 Q60 110 96 82 M238 170 Q240 110 204 82" fill="none" stroke="#5d6166" stroke-width="6" stroke-linecap="round"/>` : ""}
     ${eyes(p.expr, p.glasses)}
     <path d="M150 168 Q144 188 156 192" fill="none" stroke="${INK}" stroke-width="4" stroke-linecap="round"/>
     ${mouth(p.mouth || p.expr)}
@@ -211,6 +214,7 @@ const PEOPLE = {
   nephew: { label: "NEPHEW", hair: "short", skin: "tan", glasses: false, outfit: "hoodie_red", expr: "kind" },
   me_owner: { label: "YOU", hair: "curly", skin: "pale", glasses: true, outfit: "jacket", expr: "calm", mouth: "halfsmile" },
   me_past: { label: "YOU", hair: "curly", skin: "pale", glasses: true, outfit: "crewneck", outfitExtra: { lanyard: true }, expr: "calm", mouth: "flat" },
+  me_hood: { label: "YOU", hair: "curly", skin: "pale", glasses: true, outfit: "hoodie", expr: "calm", mouth: "flat", extras: { hood: true } },
   me_home: { label: "YOU", hair: "curly", skin: "pale", glasses: true, outfit: "hoodie", expr: "calm", mouth: "flat" },
   marcus_past: { label: "MARCUS", hair: "slicked", skin: "light", glasses: false, outfit: "shirt_tie", expr: "smug" },
   marcus_broke: { label: "MARCUS", hair: "slicked", skin: "light", glasses: false, outfit: "shirt_tie", expr: "worried", extras: { sweat: true } },
