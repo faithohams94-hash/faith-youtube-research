@@ -120,14 +120,33 @@ T: 0:01-0:08 | He says it playfully.
 T: 0:08-0:10 | He winks.
 C: Static.
 
-# 29.15 | "She'll LIVE!" | who: ireti, dayo
-F: Ireti holding her phone on a video call: Dayo on the screen in a hospital corridor in India, crying with joy.
-S: Dayo calls from India with the news.
-D: 0:01-0:08 | phone:dayo | Sister! Mummy is awake! The surgery was successful! The doctor said she'll live! She'll LIVE!
-T: 0:00-0:01 | Ireti answers the call.
-T: 0:01-0:08 | Dayo's voice plays from the phone.
-T: 0:08-0:10 | Ireti collapses onto the mat, sobbing with joy.
-C: Static.
+# 29.15 | Dayo is calling | who: ireti
+F: Close-up of Ireti's phone on the rehab mat, the screen lit up and ringing with an incoming video call, the caller name "DAYO" in clear white letters.
+S: A video call comes in from India.
+X: The phone screen showing "DAYO".
+N: the phone's ringtone, rain on the glass
+T: 0:00-0:04 | The phone rings on the mat, the screen clearly showing "DAYO".
+T: 0:04-0:07 | Ireti's hand grabs it.
+T: 0:07-0:10 | She answers and holds it up in front of her face.
+C: Static close-up on the phone, then a smooth tilt up to her face.
+
+# 29.15b | Dayo: "She'll LIVE!" | who: ireti, dayo | split
+F: LEFT half: Ireti kneeling on the rehab mat at night, holding the phone up in front of her face on a video call, face visible, breathless. RIGHT half: Dayo in a bright hospital corridor in India, holding his phone up on the video call, crying with joy, speaking.
+S: Dayo tells his sister their mother survived the surgery.
+X: Dayo speaking on the RIGHT; Ireti on the LEFT.
+D: 0:01-0:08 | dayo | Sister! Mummy is awake! The surgery was successful! The doctor said she'll live! She'll LIVE!
+T: 0:00-0:01 | Dayo laughs through tears.
+T: 0:01-0:08 | He shouts the news; Ireti's hand flies to her mouth.
+T: 0:08-0:10 | Ireti breaks into sobs of joy.
+C: Static split screen.
+
+# 29.15c | After the call | who: ireti, dayo | split
+F: Same split screen: LEFT half Ireti collapsed on the mat, sobbing with joy, holding the phone to her chest; RIGHT half Dayo hugging a nurse in the corridor, laughing and crying.
+S: Brother and sister celebrate, far apart.
+X: Both faces.
+T: 0:00-0:05 | Ireti collapses onto the mat, sobbing with joy.
+T: 0:05-0:10 | Dayo hugs a nurse, laughing and crying.
+C: Static split screen.
 
 # 29.16 | Nine steps | who: chief, ireti
 F: Chief, still holding the bars, taking wobbly steps toward Ireti's phone on the mat, smiling through tears, facing the camera.

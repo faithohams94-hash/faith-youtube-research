@@ -6,7 +6,7 @@ PASTE THE CHATGPT SETUP MESSAGE FIRST. In Grok: highest quality, 10 seconds, pas
 SHOT 7.1 | The lunch rush | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: none (scenery only, no main characters in focus).
 Create one image, highest resolution, sharp and clear.
 FRAME: Wide shot of the packed bukka at lunchtime: steam over big pots, customers eating, a woman serving behind the counter, ceiling fans turning.
@@ -34,7 +34,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 7.2 | Gabriel orders | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: GABRIEL (33), CHIOMA (24). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium shot of Gabriel at the corner table on a phone call, face turned three-quarters toward the camera, eyes on CHIOMA, never looking into the lens; Chioma standing over him chewing gum, at the edge of the frame. The face of GABRIEL is clearly visible in three-quarter view with the mouth in view.
@@ -81,7 +81,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 7.3 | The wrong plate | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: GABRIEL (33), CHIOMA (24). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: WIDE TWO-SHOT: the whole moment exactly as the STAGING describes, everyone in their places and on their own side of the frame. GABRIEL and CHIOMA are both fully visible, faces clearly seen in three-quarter profile, looking at each other; GABRIEL is speaking to CHIOMA. MOMENT DETAILS (use these details, but the framing above decides the camera): Medium close-up of Gabriel at the table looking down at a plate of eba with ewedu and meats, face turned three-quarters toward the camera, eyes on CHIOMA, never looking into the lens; Chioma beside him. The face of GABRIEL is clearly visible in three-quarter view with the mouth in view.
@@ -125,7 +125,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 7.4 | Chioma: "You said eba." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIOMA (24), GABRIEL (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: OVER-THE-SHOULDER SHOT: over GABRIEL's shoulder onto CHIOMA's face. The back of GABRIEL's head and shoulder are soft in the foreground on GABRIEL's own side of the frame; CHIOMA is in sharp focus, eyes on GABRIEL. MOMENT DETAILS (use these details, but the framing above decides the camera): Close-up of Chioma face turned three-quarters toward the camera, eyes on GABRIEL, never looking into the lens, hand on hip, chewing gum. The face of CHIOMA is clearly visible in three-quarter view with the mouth in view.
@@ -169,7 +169,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 7.5 | Gabriel: "Please, just change it" | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: GABRIEL (33), CHIOMA (24). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: MEDIUM CLOSE-UP on GABRIEL while he speaks, filmed from the same side of the room as the wide shot, so GABRIEL is on the same side of the frame as in the wide shot; CHIOMA is just out of frame, and GABRIEL's eyes are on CHIOMA. MOMENT DETAILS (use these details, but the framing above decides the camera): Medium close-up of Gabriel face turned three-quarters toward the camera, eyes on CHIOMA, never looking into the lens, still polite. The face of GABRIEL is clearly visible in three-quarter view with the mouth in view.
@@ -213,7 +213,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 7.6 | Chioma: "My madam will kill me." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIOMA (24), GABRIEL (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: MEDIUM CLOSE-UP on CHIOMA while she speaks, filmed from the same side of the room as the wide shot, so CHIOMA is on the same side of the frame as in the wide shot; GABRIEL is just out of frame, and CHIOMA's eyes are on GABRIEL. MOMENT DETAILS (use these details, but the framing above decides the camera): Medium shot of Chioma face turned three-quarters toward the camera, eyes on GABRIEL, never looking into the lens, arms folded. The face of CHIOMA is clearly visible in three-quarter view with the mouth in view.
@@ -257,7 +257,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 7.7 | Gabriel: "I'll pay for both." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: GABRIEL (33), CHIOMA (24). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: WIDE TWO-SHOT: the whole moment exactly as the STAGING describes, everyone in their places and on their own side of the frame. GABRIEL and CHIOMA are both fully visible, faces clearly seen in three-quarter profile, looking at each other; GABRIEL is speaking to CHIOMA. MOMENT DETAILS (use these details, but the framing above decides the camera): Close-up of Gabriel face turned three-quarters toward the camera, eyes on CHIOMA, never looking into the lens, reasonable. The face of GABRIEL is clearly visible in three-quarter view with the mouth in view.
@@ -303,7 +303,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 7.8 | Chioma storms off | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIOMA (24), GABRIEL (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: OVER-THE-SHOULDER SHOT: over GABRIEL's shoulder onto CHIOMA's face. The back of GABRIEL's head and shoulder are soft in the foreground on GABRIEL's own side of the frame; CHIOMA is in sharp focus, eyes on GABRIEL. MOMENT DETAILS (use these details, but the framing above decides the camera): Medium shot of Chioma face turned three-quarters toward the camera, eyes on GABRIEL, never looking into the lens, irritated, turning away toward the kitchen. The face of CHIOMA is clearly visible in three-quarter view with the mouth in view.
@@ -350,7 +350,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 7.9 | Ireti saw everything | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: From across the room: Ireti holding a tray, face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens, watching with concern.
@@ -388,7 +388,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 7.10 | Ireti apologises | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23), GABRIEL (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: WIDE TWO-SHOT: the whole moment exactly as the STAGING describes, everyone in their places and on their own side of the frame. IRETI and GABRIEL are both fully visible, faces clearly seen in three-quarter profile, looking at each other; IRETI is speaking to GABRIEL. MOMENT DETAILS (use these details, but the framing above decides the camera): Medium shot of Ireti at Gabriel's table, face turned three-quarters toward the camera, eyes on GABRIEL, never looking into the lens, warm and polite; Gabriel in profile. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -435,7 +435,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 7.11 | Paying from her own pocket | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Through the kitchen hatch: Ireti talking to the cook and pulling a few small naira notes from her apron pocket.
@@ -475,7 +475,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 7.12 | "On the house." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23), GABRIEL (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: OVER-THE-SHOULDER SHOT: over GABRIEL's shoulder onto IRETI's face. The back of GABRIEL's head and shoulder are soft in the foreground on GABRIEL's own side of the frame; IRETI is in sharp focus, eyes on GABRIEL. MOMENT DETAILS (use these details, but the framing above decides the camera): Medium shot of Ireti placing a perfect plate of amala with ewedu, gbegiri and five meats in front of Gabriel, face turned three-quarters toward the camera, eyes on GABRIEL, never looking into the lens. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -521,7 +521,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 7.13 | Gabriel: "Did your manager approve that?" | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: GABRIEL (33), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: WIDE TWO-SHOT: the whole moment exactly as the STAGING describes, everyone in their places and on their own side of the frame. GABRIEL and IRETI are both fully visible, faces clearly seen in three-quarter profile, looking at each other; GABRIEL is speaking to IRETI. MOMENT DETAILS (use these details, but the framing above decides the camera): Close-up of Gabriel face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, touched and surprised. The face of GABRIEL is clearly visible in three-quarter view with the mouth in view.
@@ -565,7 +565,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 7.14 | "Let's keep it that way." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23), GABRIEL (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: OVER-THE-SHOULDER SHOT: over GABRIEL's shoulder onto IRETI's face. The back of GABRIEL's head and shoulder are soft in the foreground on GABRIEL's own side of the frame; IRETI is in sharp focus, eyes on GABRIEL. MOMENT DETAILS (use these details, but the framing above decides the camera): Close-up of Ireti face turned three-quarters toward the camera, eyes on GABRIEL, never looking into the lens, a cheeky smile. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -609,7 +609,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 7.15 | "What's your name?" | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: GABRIEL (33), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: WIDE TWO-SHOT: the whole moment exactly as the STAGING describes, everyone in their places and on their own side of the frame. GABRIEL and IRETI are both fully visible, faces clearly seen in three-quarter profile, looking at each other; GABRIEL is speaking to IRETI. MOMENT DETAILS (use these details, but the framing above decides the camera): Medium close-up of Gabriel face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, laughing. The face of GABRIEL is clearly visible in three-quarter view with the mouth in view.
@@ -653,7 +653,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 7.16 | "Ireti, sir." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23), GABRIEL (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: OVER-THE-SHOULDER SHOT: over GABRIEL's shoulder onto IRETI's face. The back of GABRIEL's head and shoulder are soft in the foreground on GABRIEL's own side of the frame; IRETI is in sharp focus, eyes on GABRIEL. MOMENT DETAILS (use these details, but the framing above decides the camera): Close-up of Ireti face turned three-quarters toward the camera, eyes on GABRIEL, never looking into the lens, shy. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -697,7 +697,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 7.17 | "Ireti. Hope." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: GABRIEL (33), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: MEDIUM CLOSE-UP on GABRIEL while he speaks, filmed from the same side of the room as the wide shot, so GABRIEL is on the same side of the frame as in the wide shot; IRETI is just out of frame, and GABRIEL's eyes are on IRETI. MOMENT DETAILS (use these details, but the framing above decides the camera): Close-up of Gabriel face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, studying her. The face of GABRIEL is clearly visible in three-quarter view with the mouth in view.
@@ -741,7 +741,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 7.18 | "Now I nurse plates." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23), GABRIEL (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: MEDIUM CLOSE-UP on IRETI while she speaks, filmed from the same side of the room as the wide shot, so IRETI is on the same side of the frame as in the wide shot; GABRIEL is just out of frame, and IRETI's eyes are on GABRIEL. MOMENT DETAILS (use these details, but the framing above decides the camera): Close-up of Ireti face turned three-quarters toward the camera, eyes on GABRIEL, never looking into the lens, a small brave smile. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -785,7 +785,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 7.19 | The gold card | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: GABRIEL (33), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: WIDE TWO-SHOT: the whole moment exactly as the STAGING describes, everyone in their places and on their own side of the frame. GABRIEL and IRETI are both fully visible, faces clearly seen in three-quarter profile, looking at each other; GABRIEL is speaking to IRETI. MOMENT DETAILS (use these details, but the framing above decides the camera): Close shot of Gabriel taking out a gold-edged business card and writing on the back, face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens. The face of GABRIEL is clearly visible in three-quarter view with the mouth in view.
@@ -831,7 +831,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 7.20 | "Tell them Gabriel sent you." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: GABRIEL (33), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: OVER-THE-SHOULDER SHOT: over IRETI's shoulder onto GABRIEL's face. The back of IRETI's head and shoulder are soft in the foreground on IRETI's own side of the frame; GABRIEL is in sharp focus, eyes on IRETI. MOMENT DETAILS (use these details, but the framing above decides the camera): Medium shot of Gabriel holding out the gold card to Ireti, face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens. The face of GABRIEL is clearly visible in three-quarter view with the mouth in view.
@@ -877,7 +877,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 7.21 | "What is it for?" | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23), GABRIEL (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: WIDE TWO-SHOT: the whole moment exactly as the STAGING describes, everyone in their places and on their own side of the frame. IRETI and GABRIEL are both fully visible, faces clearly seen in three-quarter profile, looking at each other; IRETI is speaking to GABRIEL. MOMENT DETAILS (use these details, but the framing above decides the camera): Close-up of Ireti face turned three-quarters toward the camera, eyes on GABRIEL, never looking into the lens, reading the gold card. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -921,7 +921,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 7.22 | "A job nobody can keep." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: GABRIEL (33), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: OVER-THE-SHOULDER SHOT: over IRETI's shoulder onto GABRIEL's face. The back of IRETI's head and shoulder are soft in the foreground on IRETI's own side of the frame; GABRIEL is in sharp focus, eyes on IRETI. MOMENT DETAILS (use these details, but the framing above decides the camera): Medium shot of Gabriel standing up from the table, face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, putting money down. The face of GABRIEL is clearly visible in three-quarter view with the mouth in view.
@@ -968,7 +968,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 7.23 | Mr. Jide snatches the card | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: MR. JIDE (45), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: WIDE TWO-SHOT: the whole moment exactly as the STAGING describes, everyone in their places and on their own side of the frame. MR. JIDE and IRETI are both fully visible, faces clearly seen in three-quarter profile, looking at each other; MR. JIDE is speaking to IRETI. MOMENT DETAILS (use these details, but the framing above decides the camera): Medium shot of Mr. Jide snatching the card from Ireti's hand and reading it, face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, mocking. The face of MR. JIDE is clearly visible in three-quarter view with the mouth in view.
@@ -1014,7 +1014,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 7.24 | "Don't bother coming back" | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: MR. JIDE (45), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: OVER-THE-SHOULDER SHOT: over IRETI's shoulder onto MR. JIDE's face. The back of IRETI's head and shoulder are soft in the foreground on IRETI's own side of the frame; MR. JIDE is in sharp focus, eyes on IRETI. MOMENT DETAILS (use these details, but the framing above decides the camera): Close-up of Mr. Jide face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, flicking the card away. The face of MR. JIDE is clearly visible in three-quarter view with the mouth in view.
@@ -1061,7 +1061,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 7.25 | She wipes it clean | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close shot of Ireti bending to pick the gold card up off the floor.

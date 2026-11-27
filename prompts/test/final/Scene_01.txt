@@ -6,7 +6,7 @@ PASTE THE CHATGPT SETUP MESSAGE FIRST. In Grok: highest quality, 10 seconds, pas
 SHOT 1.1 | The lagoon and the closed mansion | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: none (scenery only, no main characters in focus).
 Create one image, highest resolution, sharp and clear.
 FRAME: High aerial view over the Lagos lagoon at dusk, dark storm clouds rolling in, a large white three-storey mansion on the water's edge with every curtain closed and one dim lit window.
@@ -33,7 +33,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 1.2 | Segun on the phone: 'Happy birthday, Daddy!' | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium shot from the side of the dim bedroom: Chief stands at the rainy window in side profile, his face clearly visible and lit by the warm lamp, holding his phone up in front of him on a video call; the untouched birthday cake on a silver tray soft in the foreground.
@@ -73,7 +73,7 @@ BACKUP if Grok still moves the listener's mouth: regenerate once. If it happens 
 SHOT 1.3 | Chief: 'My son did not.' | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium close-up of Chief at the rainy window, facing three-quarters toward the camera, the phone held up near his face, lamp light on one side of his face, cold window light on the other. The face of CHIEF ADENUGA is clearly visible in three-quarter view with the mouth in view.
@@ -113,7 +113,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 1.4 | Segun laughs it off | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75), SEGUN (52). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up over Chief's shoulder onto the phone screen in his hand: Segun in a busy glass office in Abuja, adjusting his tie and laughing; Chief's white beard and cheek soft in the foreground.
@@ -153,7 +153,7 @@ BACKUP if Grok still moves the listener's mouth: regenerate once. If it happens 
 SHOT 1.5 | Chief: the twins | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Chief's face, side-lit by the lamp, the phone held low in his hand, eyes wet but hard, rain streaks on the window behind him. The face of CHIEF ADENUGA is clearly visible in three-quarter view with the mouth in view.
@@ -190,7 +190,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 1.6 | Chief: 'Strangers in a newspaper' | Start: Last frame of 1.5
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Same close-up of Chief's face by the rainy window, lamp light on his cheek, phone low in his hand. The face of CHIEF ADENUGA is clearly visible in three-quarter view with the mouth in view.
@@ -227,7 +227,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 1.7 | Segun: 'It's a bad month' | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75), SEGUN (52). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up over Chief's shoulder onto the phone screen: Segun in his office, distracted, glancing off to the side; Chief's white beard soft in the foreground.
@@ -267,7 +267,7 @@ BACKUP if Grok still moves the listener's mouth: regenerate once. If it happens 
 SHOT 1.8 | Chief: 'Every month is a bad month.' | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium close-up of Chief facing three-quarters toward the camera at the window, phone up, flat cold expression. The face of CHIEF ADENUGA is clearly visible in three-quarter view with the mouth in view.
@@ -304,7 +304,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 1.9 | Segun: 'Christmas. I promise.' | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75), SEGUN (52). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up over Chief's shoulder onto the phone screen: Segun smiling quickly, someone calling him off-screen in his office.
@@ -344,7 +344,7 @@ BACKUP if Grok still moves the listener's mouth: regenerate once. If it happens 
 SHOT 1.10 | Chief: 'You promised last Christmas.' | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Chief's face by the window, eyes wet, lamp light on his cheek. The face of CHIEF ADENUGA is clearly visible in three-quarter view with the mouth in view.
@@ -381,7 +381,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 1.11 | Segun hangs up | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75), SEGUN (52). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up over Chief's shoulder onto the phone screen: Segun waving quickly, already turning away.
@@ -422,7 +422,7 @@ BACKUP if Grok still moves the listener's mouth: regenerate once. If it happens 
 SHOT 1.12 | The phone hits the marble | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Low-angle medium shot of Chief by the window raising the phone in anger, lamp light behind him, rain on the window.
@@ -457,7 +457,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 1.13 | After-action: the broken phone | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Low close-up on the marble floor: the cracked phone among small pieces of glass, Chief's feet and the tip of his ivory cane softly blurred behind it.
@@ -491,7 +491,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 1.14 | Nurse Grace rushes in | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: NURSE GRACE (30), CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium shot from inside the bedroom: Nurse Grace has just stepped through the open door, worried, face turned three-quarters toward the camera, eyes on CHIEF ADENUGA, never looking into the lens; Chief by the window at the edge of the frame with his back half turned; the broken phone on the floor between them. The face of NURSE GRACE is clearly visible in three-quarter view with the mouth in view.
@@ -529,7 +529,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 1.15 | Chief: 'Leave my room.' | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75), NURSE GRACE (30). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium close-up of Chief by the window in three-quarter view, not looking at her, jaw tight; Grace soft in the background by the door. The face of CHIEF ADENUGA is clearly visible in three-quarter view with the mouth in view.
@@ -567,7 +567,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 1.16 | Grace: 'Let me help you' | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: NURSE GRACE (30), CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium two-shot: Grace beside Chief by the window, face turned three-quarters toward the camera, eyes on CHIEF ADENUGA, never looking into the lens, gently reaching for his elbow; Chief in profile. The face of NURSE GRACE is clearly visible in three-quarter view with the mouth in view.
@@ -605,7 +605,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 1.17 | Chief: 'Don't touch me!' | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75), NURSE GRACE (30). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium two-shot: Chief turning on Grace with fury, face turned three-quarters toward the camera, eyes on NURSE GRACE, never looking into the lens; Grace at the edge of the frame by the dark wood dresser. The face of CHIEF ADENUGA is clearly visible in three-quarter view with the mouth in view.
@@ -643,7 +643,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 1.18 | Chief: 'Paid to forget me' | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75), NURSE GRACE (30). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium shot of Chief pointing his ivory cane toward Grace (at the edge of the frame), lamp light hard on his face. The face of CHIEF ADENUGA is clearly visible in three-quarter view with the mouth in view.
@@ -681,7 +681,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 1.19 | Chief: 'Go home to your own father' | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75), NURSE GRACE (30). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Chief with the cane still raised, breathing hard; Grace blurred by the dresser behind. The face of CHIEF ADENUGA is clearly visible in three-quarter view with the mouth in view.
@@ -719,7 +719,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 1.20 | Grace: 'My father is dead, sir.' | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: NURSE GRACE (30), CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Grace against the dresser, straightening slowly, tears in her eyes, face turned three-quarters toward the camera, eyes on CHIEF ADENUGA, never looking into the lens; Chief soft in the background. The face of NURSE GRACE is clearly visible in three-quarter view with the mouth in view.
@@ -757,7 +757,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 1.21 | The badge on the dresser | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: NURSE GRACE (30), CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close shot of Grace's hands unpinning the small name badge from the chest of her navy scrubs, just above the dark wood dresser top, her chin and the lower part of her face softly visible at the top of the frame, warm lamp light on her hands.
@@ -793,7 +793,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 1.22 | Aunty Ronke and the blue tablet | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: AUNTY RONKE (52), CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Aunty Ronke standing in the open doorway face turned three-quarters toward the camera, eyes on CHIEF ADENUGA, never looking into the lens, holding a silver tray with a glass of water and one small blue tablet; Chief in the foreground in profile. The face of AUNTY RONKE is clearly visible in three-quarter view with the mouth in view.
@@ -831,7 +831,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 1.23 | She watches him swallow | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: AUNTY RONKE (52), CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Over Chief's shoulder onto Ronke's face as he drinks from the glass; her eyes fixed on him.
@@ -865,7 +865,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 1.24 | Grace, come back | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Chief alone at the dresser in three-quarter view, looking down at Grace's name badge in his hand; his face softening.
@@ -899,7 +899,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 1.25 | Top of the twenty-two steps | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Wide shot from halfway down the grand curved marble staircase looking up: Chief at the top, one hand on the banister, cane in the other, facing down toward the camera, the dim chandelier above him. The face of CHIEF ADENUGA is clearly visible in three-quarter view with the mouth in view.
@@ -936,7 +936,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 1.26 | His vision blurs | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: none (scenery only, no main characters in focus).
 Create one image, highest resolution, sharp and clear.
 FRAME: Point-of-view shot from the top of the staircase looking down the 22 marble steps, the chandelier glowing at the top of frame, slightly soft focus.
@@ -962,7 +962,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 1.27 | The fall (5 seconds) | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Wide shot from the bottom of the grand curved white marble staircase looking up: Chief at the top step caught at the exact moment he loses his balance, his ivory cane sliding out from under him on the polished marble, his body tipping forward and sideways, one hand reaching for the banister and missing, his face visible with shock in his eyes; the dim chandelier above him, the huge portrait at the bottom of the frame. The face of CHIEF ADENUGA is clearly visible in three-quarter view with the mouth in view.
@@ -1000,7 +1000,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 1.28 | Beneath Mama Abike's portrait | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Low close shot along the marble floor: Chief lying still at the foot of the staircase, eyes half closed, the huge portrait of the smiling woman in the gold gele above him.
@@ -1034,7 +1034,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 1.29 | She waits | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: AUNTY RONKE (52). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Looking up from the bottom of the stairs into the dark upstairs corridor: a door opened a crack, half of Aunty Ronke's face visible, watching.

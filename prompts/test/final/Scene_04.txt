@@ -6,7 +6,7 @@ PASTE THE CHATGPT SETUP MESSAGE FIRST. In Grok: highest quality, 10 seconds, pas
 SHOT 4.1 | Ikeja street | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: none (scenery only, no main characters in focus).
 Create one image, highest resolution, sharp and clear.
 FRAME: A busy Ikeja street in daylight: yellow danfo buses, a hawker with snacks on a tray, smoke from a roadside grill, the front of a small busy local restaurant with plastic chairs.
@@ -32,7 +32,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 4.2 | Four plates on one arm | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Inside the busy bukka: Ireti carrying four plates on one arm between tables, face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens, focused.
@@ -66,7 +66,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 4.3 | Mr. Jide: "From your salary." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: MR. JIDE (45), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium shot of Mr. Jide at the counter face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, sweaty, pointing; Ireti approaching at the edge of the frame. The face of MR. JIDE is clearly visible in three-quarter view with the mouth in view.
@@ -104,7 +104,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 4.4 | Ireti: "Chioma dropped it" | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23), MR. JIDE (45). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium close-up of Ireti at the counter face turned three-quarters toward the camera, eyes on MR. JIDE, never looking into the lens, polite but firm; Mr. Jide soft in the foreground. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -142,7 +142,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 4.5 | "Did Chioma's name appear on the plate?" | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: MR. JIDE (45), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Mr. Jide face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, grinning at his own joke. The face of MR. JIDE is clearly visible in three-quarter view with the mouth in view.
@@ -180,7 +180,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 4.6 | Ireti asks for an advance | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23), MR. JIDE (45). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Ireti face turned three-quarters toward the camera, eyes on MR. JIDE, never looking into the lens, swallowing her pride. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -218,7 +218,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 4.7 | "Am I a bank?" | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: MR. JIDE (45), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium shot of Mr. Jide face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, throwing his hands up. The face of MR. JIDE is clearly visible in three-quarter view with the mouth in view.
@@ -256,7 +256,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 4.8 | Chioma: "Everybody has a mother." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIOMA (24), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Chioma leaning on the counter face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, chewing gum, sunglasses on her head; Ireti soft beside her. The face of CHIOMA is clearly visible in three-quarter view with the mouth in view.
@@ -294,7 +294,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 4.9 | After-action: Ireti swallows it | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Ireti face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens, her jaw set, eyes shining.
@@ -327,7 +327,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 4.10 | Dayo calls | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close shot of Ireti stepping aside by the kitchen hatch, phone to her ear, eyes closed.
@@ -366,7 +366,7 @@ BACKUP if Grok still moves the listener's mouth: regenerate once. If it happens 
 SHOT 4.11 | Ireti: "I'll find it." | Start: Last frame of 4.10
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Same close shot of Ireti with the phone to her ear, eyes closed. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -403,7 +403,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 4.12 | Dayo: "You said that last week." | Start: Last frame of 4.11
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Same close shot of Ireti on the phone, eyes opening.
@@ -442,7 +442,7 @@ BACKUP if Grok still moves the listener's mouth: regenerate once. If it happens 
 SHOT 4.13 | "And I'm saying it again" | Start: Last frame of 4.12
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Same close shot of Ireti on the phone, firm now. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -479,7 +479,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 4.14 | Counting money on the danfo | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Evening inside a packed yellow danfo bus: Ireti by the window counting a few small naira notes from her purse, tired passengers around her, golden light.
@@ -513,7 +513,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 4.15 | The billboard | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Over Ireti's shoulder through the danfo window: a giant roadside billboard of an elderly man with snow-white hair and a white beard smiling proudly in a dark suit, with no readable text.

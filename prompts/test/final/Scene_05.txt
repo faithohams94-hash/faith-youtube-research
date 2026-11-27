@@ -6,7 +6,7 @@ PASTE THE CHATGPT SETUP MESSAGE FIRST. In Grok: highest quality, 10 seconds, pas
 SHOT 5.1 | The compound at dusk | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: none (scenery only, no main characters in focus).
 Create one image, highest resolution, sharp and clear.
 FRAME: A crowded face-me-I-face-you compound in Mushin at dusk: barefoot children playing, a woman frying puff-puff over a small fire, washing lines, one bulb glowing.
@@ -32,7 +32,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 5.2 | Mama Funmi at the stove | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23), MAMA FUNMI (48), DAYO (17). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Ireti pushing open the door of the small room and stopping in the doorway, face turned three-quarters toward the camera, eyes on MAMA FUNMI, never looking into the lens; Mama Funmi in a shawl at the kerosene stove stirring jollof rice in the foreground; Dayo eating on the mat. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -71,7 +71,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 5.3 | Dayo: "This food is SWEET." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: DAYO (17), IRETI (23), MAMA FUNMI (48). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium shot of Dayo on the mat with a plate, mouth full, face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, grinning. The face of DAYO is clearly visible in three-quarter view with the mouth in view.
@@ -110,7 +110,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 5.4 | "Where did the money come from?" | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23), MAMA FUNMI (48), DAYO (17). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium close-up of Ireti standing, face turned three-quarters toward the camera, eyes on MAMA FUNMI, never looking into the lens, suspicious, looking at the fried fish. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -149,7 +149,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 5.5 | The look | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: MAMA FUNMI (48), DAYO (17). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Two-shot: Mama Funmi at the stove and Dayo on the mat exchanging a guilty look.
@@ -182,7 +182,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 5.6 | Dayo confesses proudly | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: DAYO (17). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Dayo face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, proud. The face of DAYO is clearly visible in three-quarter view with the mouth in view.
@@ -219,7 +219,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 5.7 | "You did WHAT?" | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23), DAYO (17). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium close-up of Ireti face turned three-quarters toward the camera, eyes on DAYO, never looking into the lens, angry. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -257,7 +257,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 5.8 | Dayo: "You think I'm blind?" | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: DAYO (17), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium shot of Dayo standing up from the mat, face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, hurt. The face of DAYO is clearly visible in three-quarter view with the mouth in view.
@@ -295,7 +295,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 5.9 | "It's my responsibility" | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23), DAYO (17). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Ireti face turned three-quarters toward the camera, eyes on DAYO, never looking into the lens, softer now but firm. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -333,7 +333,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 5.10 | Dayo: "No problem." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: DAYO (17). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Dayo face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, hurt, shoulders dropping. The face of DAYO is clearly visible in three-quarter view with the mouth in view.
@@ -370,7 +370,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 5.11 | Mama Funmi: "Thank your brother." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: MAMA FUNMI (48), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium close-up of Mama Funmi at the stove face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, stirring calmly. The face of MAMA FUNMI is clearly visible in three-quarter view with the mouth in view.
@@ -408,7 +408,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 5.12 | Ireti: "You're not supposed to be standing" | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23), MAMA FUNMI (48). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium close-up of Ireti face turned three-quarters toward the camera, eyes on MAMA FUNMI, never looking into the lens, worried. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -446,7 +446,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 5.13 | "That's exactly why I'm cooking." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: MAMA FUNMI (48). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Mama Funmi face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, calm and loving, the stove glow on her face. The face of MAMA FUNMI is clearly visible in three-quarter view with the mouth in view.
@@ -483,7 +483,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 5.14 | Dayo: "The time you have?" | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: DAYO (17), MAMA FUNMI (48). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close shot of Dayo slowly lowering his plate, face turned three-quarters toward the camera, eyes on MAMA FUNMI, never looking into the lens, confused. The face of DAYO is clearly visible in three-quarter view with the mouth in view.
@@ -521,7 +521,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 5.15 | "Nothing." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: MAMA FUNMI (48), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium shot of Mama Funmi face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, answering too quickly; Ireti at the edge of the frame. The face of MAMA FUNMI is clearly visible in three-quarter view with the mouth in view.
@@ -559,7 +559,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 5.16 | The news on TV | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23), MAMA FUNMI (48), DAYO (17). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: All three sitting on the mat eating, faces lit by the small TV; the TV shows a photo of an elderly man with snow-white hair and a white beard.
@@ -600,7 +600,7 @@ BACKUP if Grok still moves the listener's mouth: regenerate once. If it happens 
 SHOT 5.17 | Dayo: "This man is rich o!" | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: DAYO (17), IRETI (23), MAMA FUNMI (48). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Dayo face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, open-mouthed, TV light on his face. The face of DAYO is clearly visible in three-quarter view with the mouth in view.
@@ -639,7 +639,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 5.18 | "Money can't buy legs." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: MAMA FUNMI (48), IRETI (23), DAYO (17). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Mama Funmi face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, TV light on her face, wise. The face of MAMA FUNMI is clearly visible in three-quarter view with the mouth in view.
@@ -678,7 +678,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 5.19 | "His eyes are sad." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23), MAMA FUNMI (48). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Ireti face turned three-quarters toward the camera, eyes on MAMA FUNMI, never looking into the lens, watching the TV thoughtfully. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -716,7 +716,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 5.20 | Dayo: "Sad in a jet." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: DAYO (17), IRETI (23), MAMA FUNMI (48). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Wide shot of all three on the mat, Dayo face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens grinning. The face of DAYO is clearly visible in three-quarter view with the mouth in view.
@@ -755,7 +755,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 5.21 | Crying under the bulb | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Night in the yard: Ireti alone on an upturned bucket under the single bulb, crying into her wrapper.
@@ -788,7 +788,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 5.22 | "Ireti. Come." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Ireti on the bucket under the bulb, wiping her face, looking toward the door.

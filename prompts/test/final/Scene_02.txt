@@ -6,7 +6,7 @@ PASTE THE CHATGPT SETUP MESSAGE FIRST. In Grok: highest quality, 10 seconds, pas
 SHOT 2.1 | Ambulance in the rain | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: none (scenery only, no main characters in focus).
 Create one image, highest resolution, sharp and clear.
 FRAME: Exterior of a sleek private hospital in Ikoyi at night, rain falling, an ambulance at the entrance with its blue light flashing softly on the wet ground.
@@ -32,7 +32,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 2.2 | Femi bursts in | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: FEMI (33), CHIEF ADENUGA (75), GABRIEL (33), DR. HASSAN BELLO (50). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium shot inside the VIP suite: Femi has just come through the door face turned three-quarters toward the camera, eyes on CHIEF ADENUGA, never looking into the lens, tie loose, two phones in his hand; Gabriel behind him; Dr. Hassan by the lightbox; Chief unconscious in the bed in the foreground. The face of FEMI is clearly visible in three-quarter view with the mouth in view.
@@ -72,7 +72,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 2.3 | The X-ray | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: DR. HASSAN BELLO (50), FEMI (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium two-shot: Dr. Hassan face turned three-quarters toward the camera, eyes on FEMI, never looking into the lens, pointing at an X-ray on the lightbox; Femi beside him in profile, tense. The face of DR. HASSAN BELLO is clearly visible in three-quarter view with the mouth in view.
@@ -110,7 +110,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 2.4 | 'Your grandfather will not walk again.' | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: DR. HASSAN BELLO (50), FEMI (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Dr. Hassan facing Femi, three-quarters to the camera, grave and honest; Femi soft at the edge of the frame. The face of DR. HASSAN BELLO is clearly visible in three-quarter view with the mouth in view.
@@ -148,7 +148,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 2.5 | After-action: Femi hears it | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: FEMI (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Femi's face, stunned, the two phones in his hand below frame.
@@ -182,7 +182,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 2.6 | Femi: 'Germany. America.' | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: FEMI (33), DR. HASSAN BELLO (50). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium close-up of Femi face turned three-quarters toward the camera, eyes on DR. HASSAN BELLO, never looking into the lens, pleading; Dr. Hassan soft at the edge of the frame. The face of FEMI is clearly visible in three-quarter view with the mouth in view.
@@ -220,7 +220,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 2.7 | Dr. Hassan: 'The spine doesn't read passports.' | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: DR. HASSAN BELLO (50), FEMI (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium close-up of Dr. Hassan face turned three-quarters toward the camera, eyes on FEMI, never looking into the lens, kind but firm; Femi soft at the edge of the frame. The face of DR. HASSAN BELLO is clearly visible in three-quarter view with the mouth in view.
@@ -258,7 +258,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 2.8 | Chief has heard everything | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Chief in the hospital bed, his eyes slowly opening, monitor light on his face.
@@ -292,7 +292,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 2.9 | Femi: 'I'm here.' | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: FEMI (33), CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium shot: Femi sitting on the edge of the bed face turned three-quarters toward the camera, eyes on CHIEF ADENUGA, never looking into the lens, holding his grandfather's hand in both of his; Chief in the bed in profile. The face of FEMI is clearly visible in three-quarter view with the mouth in view.
@@ -330,7 +330,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 2.10 | He turns his face to the wall | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75), FEMI (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close shot over Femi's shoulder onto Chief's face on the pillow.
@@ -364,7 +364,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 2.11 | Lekan arrives with lilies | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: MR. LEKAN (58), CHIEF ADENUGA (75), AUNTY RONKE (52). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium shot: Lekan entering through the door with a huge bouquet of white lilies, face turned three-quarters toward the camera, eyes on CHIEF ADENUGA, never looking into the lens; Aunty Ronke in the corner holding an overnight bag; the bed in the foreground. The face of MR. LEKAN is clearly visible in three-quarter view with the mouth in view.
@@ -403,7 +403,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 2.12 | The secret nod | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: MR. LEKAN (58), AUNTY RONKE (52). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium shot across the room: Lekan by the bed and Aunty Ronke in the corner, their eyes meeting.
@@ -437,7 +437,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 2.13 | Femi calls his father | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: FEMI (33), GABRIEL (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Hospital corridor: Femi face turned three-quarters toward the camera, eyes on GABRIEL, never looking into the lens with a phone to his ear, Gabriel leaning against the wall behind him; through the glass wall, Chief in bed facing the wall. The face of FEMI is clearly visible in three-quarter view with the mouth in view.
@@ -475,7 +475,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 2.14 | Segun on the phone: 'Money is not the problem.' | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: FEMI (33), GABRIEL (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Femi with the phone to his ear, listening, face hardening; Gabriel soft behind him.
@@ -515,7 +515,7 @@ BACKUP if Grok still moves the listener's mouth: regenerate once. If it happens 
 SHOT 2.15 | Femi: 'Money is the only thing…' | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: FEMI (33), GABRIEL (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Two-shot in the corridor: Femi face turned three-quarters toward the camera, eyes on GABRIEL, never looking into the lens, bitter; Gabriel beside him in three-quarter view. The face of FEMI is clearly visible in three-quarter view with the mouth in view.
@@ -553,7 +553,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 2.16 | Through the glass | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: CHIEF ADENUGA (75). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: View through the glass wall of the hospital room: Chief in the bed, staring at the wall, small and alone.

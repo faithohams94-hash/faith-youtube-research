@@ -6,7 +6,7 @@ PASTE THE CHATGPT SETUP MESSAGE FIRST. In Grok: highest quality, 10 seconds, pas
 SHOT 10.1 | Rain on the zinc roof | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: none (scenery only, no main characters in focus).
 Create one image, highest resolution, sharp and clear.
 FRAME: Night in the Mushin compound: rain falling on rusty zinc roofs, water dripping into a plastic bucket, one bulb glowing in the yard.
@@ -33,7 +33,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 10.2 | Stitching her slipper | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Ireti sitting on the mat stitching her broken slipper with needle and thread under the bulb, face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens; her cracked phone beside her.
@@ -75,7 +75,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 10.3 | She screams | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23), DAYO (17), MAMA FUNMI (48). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Wide shot of the room: Ireti on her feet holding the phone up, face turned three-quarters toward the camera, eyes on DAYO, never looking into the lens; Dayo jumping up from sleep; Mama Funmi sitting up. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -122,7 +122,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 10.4 | Dayo: "Armed robbers?!" | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: DAYO (17), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: WIDE TWO-SHOT: the whole moment exactly as the STAGING describes, everyone in their places and on their own side of the frame. DAYO and IRETI are both fully visible, faces clearly seen in three-quarter profile, looking at each other; DAYO is speaking to IRETI. MOMENT DETAILS (use these details, but the framing above decides the camera): Close-up of Dayo just woken, face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, alarmed, in his singlet. The face of DAYO is clearly visible in three-quarter view with the mouth in view.
@@ -169,7 +169,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 10.5 | Mama Funmi: "Which job?" | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: MAMA FUNMI (48), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: WIDE TWO-SHOT: the whole moment exactly as the STAGING describes, everyone in their places and on their own side of the frame. MAMA FUNMI and IRETI are both fully visible, faces clearly seen in three-quarter profile, looking at each other; MAMA FUNMI is speaking to IRETI. MOMENT DETAILS (use these details, but the framing above decides the camera): Close two-shot: Mama Funmi hugging Ireti, face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, laughing and crying. The face of MAMA FUNMI is clearly visible in three-quarter view with the mouth in view.
@@ -216,7 +216,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 10.6 | "The man on TV!" | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23), MAMA FUNMI (48). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: OVER-THE-SHOULDER SHOT: over MAMA FUNMI's shoulder onto IRETI's face. The back of MAMA FUNMI's head and shoulder are soft in the foreground on MAMA FUNMI's own side of the frame; IRETI is in sharp focus, eyes on MAMA FUNMI. MOMENT DETAILS (use these details, but the framing above decides the camera): Close-up of Ireti face turned three-quarters toward the camera, eyes on MAMA FUNMI, never looking into the lens, glowing with joy. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -261,7 +261,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 10.7 | "The sad-eyes man?" | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: DAYO (17), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: WIDE TWO-SHOT: the whole moment exactly as the STAGING describes, everyone in their places and on their own side of the frame. DAYO and IRETI are both fully visible, faces clearly seen in three-quarter profile, looking at each other; DAYO is speaking to IRETI. MOMENT DETAILS (use these details, but the framing above decides the camera): Medium shot of Dayo frozen mid-dance in his singlet, face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens. The face of DAYO is clearly visible in three-quarter view with the mouth in view.
@@ -305,7 +305,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 10.8 | The blessing | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: MAMA FUNMI (48), IRETI (23), DAYO (17). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: WIDE TWO-SHOT: the whole moment exactly as the STAGING describes, everyone in their places and on their own side of the frame. MAMA FUNMI and IRETI are both fully visible, faces clearly seen in three-quarter profile, looking at each other; MAMA FUNMI is speaking to IRETI. MOMENT DETAILS (use these details, but the framing above decides the camera): Morning at the open door: Mama Funmi laying both hands on Ireti's head, face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens; Ireti holding a small nylon bag; Dayo beside them. The face of MAMA FUNMI is clearly visible in three-quarter view with the mouth in view.
@@ -352,7 +352,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 10.9 | "In Jesus' name." | Start: Last frame of 10.8
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: MAMA FUNMI (48), IRETI (23), DAYO (17). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: WIDE TWO-SHOT: the whole moment exactly as the STAGING describes, everyone in their places and on their own side of the frame. MAMA FUNMI and IRETI are both fully visible, faces clearly seen in three-quarter profile, looking at each other; MAMA FUNMI is speaking to IRETI. MOMENT DETAILS (use these details, but the framing above decides the camera): Same shot at the door: Mama Funmi finishing the prayer, Ireti and Dayo with eyes closed. The face of MAMA FUNMI is clearly visible in three-quarter view with the mouth in view.
@@ -399,7 +399,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 10.10 | "Bring me small." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: DAYO (17), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: WIDE TWO-SHOT: the whole moment exactly as the STAGING describes, everyone in their places and on their own side of the frame. DAYO and IRETI are both fully visible, faces clearly seen in three-quarter profile, looking at each other; DAYO is speaking to IRETI. MOMENT DETAILS (use these details, but the framing above decides the camera): Close-up of Dayo grinning at his sister in the doorway, face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, morning light. The face of DAYO is clearly visible in three-quarter view with the mouth in view.
@@ -446,7 +446,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 10.11 | The blood on the wrapper | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: MAMA FUNMI (48), DAYO (17). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close shot of Mama Funmi at the doorway coughing into her wrapper, face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens; Dayo turned away in the background.

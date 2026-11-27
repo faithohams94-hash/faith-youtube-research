@@ -95,25 +95,44 @@ T: 0:00-0:05 | Ireti massages his legs slowly.
 T: 0:05-0:10 | He can't feel it, but he watches her, jaw working.
 C: Static.
 
-# 13.12 | "Is he kind?" | who: ireti
-F: Night, staff quarters: Ireti scrubbing pepper soup out of her uniform in a bucket, phone on speaker beside her, facing the camera.
-S: That night her mother calls.
-M: Night: one bare bulb in a small staff room, lonely and tired.
-D: 0:01-0:04 | phone:funmi | How is the rich man? Is he kind?
-T: 0:00-0:01 | Ireti scrubs.
-T: 0:01-0:04 | Her mother's voice plays from the phone on speaker.
-T: 0:04-0:10 | Ireti looks at her stained uniform.
-C: Static.
+# 13.12 | Mummy is calling | who: ireti
+F: Close-up of Ireti's cracked phone lying on the concrete floor beside the bucket, its screen lit up and ringing, the caller name "MUMMY" in clear white letters on the screen; Ireti's wet hand reaching for it.
+S: Late at night, Ireti's phone rings: it is her mother.
+X: The phone screen showing the caller name "MUMMY".
+N: the phone's ringtone and vibration buzzing on the concrete, water dripping into the bucket
+T: 0:00-0:04 | The phone rings and vibrates on the floor, the screen clearly showing "MUMMY".
+T: 0:04-0:07 | Ireti's wet hand smoothly picks it up.
+T: 0:07-0:10 | She lifts it toward her ear and the ringing stops.
+C: Static close-up on the phone, then a smooth tilt following her hand up.
 
-# 13.13 | "He shared his soup with me." | who: ireti
-F: Close-up of Ireti facing the camera, smiling bravely, the stained uniform in her hands.
-S: Ireti protects her mother from the truth.
+# 13.12b | Mama Funmi: "Is he kind?" | who: ireti, funmi | split
+F: LEFT half: Ireti in the small staff room at night under one bare bulb, sitting on a low stool beside a bucket, her stained uniform in her lap, the phone at her ear, face visible, listening. RIGHT half: Mama Funmi at home in the small Mushin room at night, sitting on her thin mattress in her wine head wrap and faded blue wrapper, the phone at her ear, a warm, tired smile, speaking.
+S: A phone call between mother and daughter: Mama Funmi asks how the rich man is treating her.
+X: Mama Funmi speaking on the RIGHT; Ireti listening on the LEFT.
+D: 0:01-0:04 | funmi | How is the rich man? Is he kind?
+T: 0:00-0:01 | Both hold their phones to their ears.
+T: 0:01-0:04 | Mama Funmi asks, warm and hopeful; Ireti listens, her eyes dropping to her stained uniform.
+T: 0:04-0:10 | Mama Funmi waits for the answer, smiling; Ireti swallows and takes a breath.
+C: Static split screen.
+
+# 13.13 | Ireti: "He shared his soup with me." | who: ireti, funmi | split
+F: Same split screen: LEFT half Ireti in the staff room, phone at her ear, forcing a brave smile, the stained uniform in her hand; RIGHT half Mama Funmi on her mattress at home, phone at her ear, listening.
+S: Ireti lies to her mother to protect her.
+X: Ireti speaking on the LEFT; Mama Funmi listening on the RIGHT.
 D: 0:01-0:06 | ireti | He's… very generous, Mummy. He even shared his soup with me.
-M: Night: one bare bulb, lonely.
 T: 0:00-0:01 | Ireti forces a smile.
-T: 0:01-0:06 | She says it, laughing.
-T: 0:06-0:10 | The smile holds a moment too long.
-C: Static.
+T: 0:01-0:06 | She says it with a little laugh, looking at the soup stain; Mama Funmi listens and smiles.
+T: 0:06-0:10 | Ireti's smile holds a moment too long; Mama Funmi nods, relieved.
+C: Static split screen.
+
+# 13.13b | After the call | who: ireti, funmi | split
+F: Same split screen: LEFT half Ireti slowly lowering the phone from her ear, her smile fading; RIGHT half Mama Funmi lowering her phone, smiling peacefully.
+S: After the call: the mother is comforted, the daughter is breaking.
+X: Both faces after the call.
+T: 0:00-0:04 | Both slowly lower their phones.
+T: 0:04-0:07 | Mama Funmi smiles peacefully and lies back.
+T: 0:07-0:10 | Ireti's brave smile collapses; her lips tremble.
+C: Static split screen.
 
 # 13.14 | Crying silently | who: ireti
 F: Close-up of Ireti pressing the phone to her chest under the single bulb.
@@ -320,14 +339,22 @@ T: 0:05-0:07 | Lightning lights the façade for a moment.
 T: 0:07-0:10 | Thunder rolls.
 C: Slow push-in.
 
-# 15.2 | The shout | who: ireti
-F: Ireti running barefoot down a dark corridor toward a door at the end, facing the camera.
-S: Ireti hears Chief screaming and runs.
-D: 0:01-0:04 | off:chief | Kehinde! KEHINDE! Don't let go!
-T: 0:00-0:01 | Ireti runs.
-T: 0:01-0:04 | A man's shout comes from behind the door at the end of the corridor.
-T: 0:04-0:10 | She reaches the door and pushes it open.
-C: Slow tracking backward in front of her.
+# 15.2 | The nightmare shout | who: chief
+F: The dark study at 3 a.m.: Chief asleep in his wheelchair at the desk, twisting in a nightmare, his face lit by a flash of lightning, sweat on his brow, mouth open as he cries out.
+S: In a nightmare, Chief shouts the name of the man who saved him.
+X: Chief's tormented face.
+D: 0:01-0:05 | chief | Kehinde! KEHINDE! Don't let go!
+T: 0:00-0:01 | Chief twists in his sleep, breathing hard.
+T: 0:01-0:05 | He shouts out in his sleep, eyes squeezed shut, hands gripping the armrests.
+T: 0:05-0:10 | He keeps twisting, still asleep, breathing fast.
+C: Slow push-in.
+
+# 15.2b | Ireti runs | who: ireti
+F: Ireti running barefoot down a dark corridor toward the study door at the end, frightened, her face lit softly by lightning from a window.
+S: Ireti hears the shout and runs to him.
+T: 0:00-0:07 | Ireti runs barefoot down the corridor, smoothly and fast.
+T: 0:07-0:10 | She reaches the study door and pushes it open.
+C: Smooth tracking backward in front of her.
 
 # 15.3 | The nightmare | who: chief, ireti
 F: The dark study: Chief asleep in his wheelchair at the desk, twisting in a nightmare, facing the camera; Ireti rushing to his side.
@@ -683,15 +710,23 @@ T: 0:02-0:06 | He shouts into the microphone.
 T: 0:06-0:10 | A spotlight swings toward the crowd.
 C: Static.
 
-# 17.16 | The spotlight | who: chief, ireti
-F: Chief in his wheelchair caught in a warm spotlight in the crowd, facing the camera; Ireti behind him holding the handles.
-S: The crowd cheers for Chief.
-M: Warm golden spotlight, festive.
-D: 0:01-0:08 | pa:ajala | Baba Abike! The man who danced to my first record before I had shoes! This one is for you, Chief!
-T: 0:00-0:01 | The crowd turns.
-T: 0:01-0:08 | Ajala's voice booms through the hall speakers; the crowd cheers.
-T: 0:08-0:10 | Chief's chin trembles.
-C: Static.
+# 17.16 | Commander Ajala's dedication | who: ajala
+F: On stage under warm golden lights: Commander Ajala in his cream suit and fedora at the microphone, one arm stretched out pointing into the crowd, a huge joyful smile, the brass band behind him.
+S: The legendary musician dedicates the song to Chief.
+X: Ajala at the microphone.
+D: 0:01-0:08 | ajala | Baba Abike! The man who danced to my first record before I had shoes! This one is for you, Chief!
+T: 0:00-0:01 | Ajala leans into the microphone, pointing.
+T: 0:01-0:08 | He shouts it joyfully into the microphone, his whole body alive.
+T: 0:08-0:10 | He laughs and lifts his gold guitar; the crowd cheers.
+C: Static, then a slow push-in.
+
+# 17.16b | Chief in the spotlight | who: chief, ireti
+F: Chief in his wheelchair caught in a warm spotlight in the crowd; Ireti behind him holding the handles.
+S: Chief is overwhelmed as the crowd cheers for him.
+T: 0:00-0:04 | The crowd turns toward Chief and cheers.
+T: 0:04-0:08 | Chief's chin trembles; his eyes fill.
+T: 0:08-0:10 | Ireti squeezes his shoulder, smiling.
+C: Slow push-in.
 
 # 17.17 | Dancing the wheelchair | who: ireti, chief
 F: Ireti holding the wheelchair handles, rocking it gently side to side to the beat, the crowd dancing around them.

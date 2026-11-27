@@ -6,7 +6,7 @@ PASTE THE CHATGPT SETUP MESSAGE FIRST. In Grok: highest quality, 10 seconds, pas
 SHOT 9.1 | The rooftop | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: none (scenery only, no main characters in focus).
 Create one image, highest resolution, sharp and clear.
 FRAME: Wide view of an elegant rooftop restaurant above the Lagos lagoon in daylight, white tablecloths, a waiter pouring sparkling water, the water and distant mansions beyond the railing.
@@ -33,7 +33,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 9.2 | Femi isn't eating | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: FEMI (33), GABRIEL (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: WIDE TWO-SHOT: the whole moment exactly as the STAGING describes, everyone in their places and on their own side of the frame. FEMI and GABRIEL are both fully visible, faces clearly seen in three-quarter profile, looking at each other; FEMI is speaking to GABRIEL. MOMENT DETAILS (use these details, but the framing above decides the camera): Medium shot of Femi at the table face turned three-quarters toward the camera, eyes on GABRIEL, never looking into the lens, not eating, rubbing his eyes; a thick folder of CVs beside his plate; Gabriel opposite in profile. The face of FEMI is clearly visible in three-quarter view with the mouth in view.
@@ -79,7 +79,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 9.3 | "He throws it." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: FEMI (33), GABRIEL (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: OVER-THE-SHOULDER SHOT: over GABRIEL's shoulder onto FEMI's face. The back of GABRIEL's head and shoulder are soft in the foreground on GABRIEL's own side of the frame; FEMI is in sharp focus, eyes on GABRIEL. MOMENT DETAILS (use these details, but the framing above decides the camera): Close-up of Femi face turned three-quarters toward the camera, eyes on GABRIEL, never looking into the lens, frustrated. The face of FEMI is clearly visible in three-quarter view with the mouth in view.
@@ -123,7 +123,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 9.4 | Gabriel: "And the shortlist?" | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: GABRIEL (33), FEMI (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: WIDE TWO-SHOT: the whole moment exactly as the STAGING describes, everyone in their places and on their own side of the frame. GABRIEL and FEMI are both fully visible, faces clearly seen in three-quarter profile, looking at each other; GABRIEL is speaking to FEMI. MOMENT DETAILS (use these details, but the framing above decides the camera): Medium close-up of Gabriel face turned three-quarters toward the camera, eyes on FEMI, never looking into the lens, calm, eating. The face of GABRIEL is clearly visible in three-quarter view with the mouth in view.
@@ -167,7 +167,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 9.5 | "They'll all quit by Friday." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: FEMI (33), GABRIEL (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: OVER-THE-SHOULDER SHOT: over GABRIEL's shoulder onto FEMI's face. The back of GABRIEL's head and shoulder are soft in the foreground on GABRIEL's own side of the frame; FEMI is in sharp focus, eyes on GABRIEL. MOMENT DETAILS (use these details, but the framing above decides the camera): Close shot of Femi slapping his hand on the thick folder of CVs, face turned three-quarters toward the camera, eyes on GABRIEL, never looking into the lens. The face of FEMI is clearly visible in three-quarter view with the mouth in view.
@@ -214,7 +214,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 9.6 | "I know someone." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: GABRIEL (33), FEMI (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: WIDE TWO-SHOT: the whole moment exactly as the STAGING describes, everyone in their places and on their own side of the frame. GABRIEL and FEMI are both fully visible, faces clearly seen in three-quarter profile, looking at each other; GABRIEL is speaking to FEMI. MOMENT DETAILS (use these details, but the framing above decides the camera): Close-up of Gabriel face turned three-quarters toward the camera, eyes on FEMI, never looking into the lens, a small smile. The face of GABRIEL is clearly visible in three-quarter view with the mouth in view.
@@ -258,7 +258,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 9.7 | Femi: "Who?" | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: FEMI (33), GABRIEL (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: OVER-THE-SHOULDER SHOT: over GABRIEL's shoulder onto FEMI's face. The back of GABRIEL's head and shoulder are soft in the foreground on GABRIEL's own side of the frame; FEMI is in sharp focus, eyes on GABRIEL. MOMENT DETAILS (use these details, but the framing above decides the camera): Close-up of Femi face turned three-quarters toward the camera, eyes on GABRIEL, never looking into the lens, sceptical. The face of FEMI is clearly visible in three-quarter view with the mouth in view.
@@ -302,7 +302,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 9.8 | Gabriel describes Ireti | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: GABRIEL (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: MEDIUM CLOSE-UP on GABRIEL while he speaks, filmed from the same side of the room as the wide shot, so GABRIEL is on the same side of the frame as in the wide shot; FEMI is just out of frame, and GABRIEL's eyes are on FEMI. MOMENT DETAILS (use these details, but the framing above decides the camera): Medium close-up of Gabriel face turned three-quarters toward the camera, eyes on FEMI, never looking into the lens, warm and sincere. The face of GABRIEL is clearly visible in three-quarter view with the mouth in view.
@@ -346,7 +346,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 9.9 | "Being nice doesn't mean she'll survive" | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: FEMI (33), GABRIEL (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: WIDE TWO-SHOT: the whole moment exactly as the STAGING describes, everyone in their places and on their own side of the frame. FEMI and GABRIEL are both fully visible, faces clearly seen in three-quarter profile, looking at each other; FEMI is speaking to GABRIEL. MOMENT DETAILS (use these details, but the framing above decides the camera): Close-up of Femi face turned three-quarters toward the camera, eyes on GABRIEL, never looking into the lens, unimpressed. The face of FEMI is clearly visible in three-quarter view with the mouth in view.
@@ -392,7 +392,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 9.10 | "I hire people for a living." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: GABRIEL (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: MEDIUM CLOSE-UP on GABRIEL while he speaks, filmed from the same side of the room as the wide shot, so GABRIEL is on the same side of the frame as in the wide shot; FEMI is just out of frame, and GABRIEL's eyes are on FEMI. MOMENT DETAILS (use these details, but the framing above decides the camera): Close-up of Gabriel face turned three-quarters toward the camera, eyes on FEMI, never looking into the lens, firm. The face of GABRIEL is clearly visible in three-quarter view with the mouth in view.
@@ -436,7 +436,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 9.11 | "I don't." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: GABRIEL (33), FEMI (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: MEDIUM CLOSE-UP on GABRIEL while he speaks, filmed from the same side of the room as the wide shot, so GABRIEL is on the same side of the frame as in the wide shot; FEMI is just out of frame, and GABRIEL's eyes are on FEMI. MOMENT DETAILS (use these details, but the framing above decides the camera): Medium close-up of Gabriel face turned three-quarters toward the camera, eyes on FEMI, never looking into the lens, quoting her. The face of GABRIEL is clearly visible in three-quarter view with the mouth in view.
@@ -480,7 +480,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 9.12 | Lekan's call: Femi listens | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: FEMI (33), GABRIEL (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium shot at the rooftop table: Femi sitting on the LEFT in his navy three-piece suit, holding his phone to his ear, face clearly visible in three-quarter view, mouth closed, troubled; Gabriel sitting across the table on the RIGHT in his grey suit, watching him in silence; plates between them, the lagoon behind Femi.
@@ -520,7 +520,7 @@ VOICE TO ADD IN CAPCUT at 0:00-0:06: MR. LEKAN: "Femi, my son. The board is worr
 SHOT 9.13 | Femi answers: "He's injured." | Start: Last frame of 9.12
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: FEMI (33), GABRIEL (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Same medium shot at the rooftop table: Femi on the LEFT in his navy three-piece suit, phone at his ear, sitting up straight, firm; Gabriel on the RIGHT in his grey suit, watching. The face of FEMI is clearly visible in three-quarter view with the mouth in view.
@@ -568,7 +568,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 9.14 | "Hire the waitress." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: FEMI (33), GABRIEL (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: WIDE TWO-SHOT: the whole moment exactly as the STAGING describes, everyone in their places and on their own side of the frame. FEMI and GABRIEL are both fully visible, faces clearly seen in three-quarter profile, looking at each other; FEMI is speaking to GABRIEL. MOMENT DETAILS (use these details, but the framing above decides the camera): Medium shot of Femi sliding the folder across the table toward Gabriel, face turned three-quarters toward the camera, eyes on GABRIEL, never looking into the lens. The face of FEMI is clearly visible in three-quarter view with the mouth in view.
@@ -614,7 +614,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 9.15 | Toward Banana Island | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: FEMI (33). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Over Femi's shoulder: the lagoon and, far across the water, a white mansion with all its curtains closed.

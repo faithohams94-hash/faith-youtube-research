@@ -147,14 +147,34 @@ T: 0:01-0:06 | She says it gently.
 T: 0:06-0:10 | Her phone rings; she answers as she walks out.
 C: Static.
 
-# 25.18 | "Mummy collapsed!" | who: ireti
-F: Close-up of Ireti on the front steps with the phone to her ear, facing the camera, her face breaking.
-S: Her brother calls: their mother has collapsed.
-D: 0:01-0:08 | phone:dayo | Sister! Sister, Mummy collapsed! They've taken her to the emergency… Sister, she's not waking up!
-T: 0:00-0:01 | Ireti answers.
-T: 0:01-0:08 | Dayo's sobbing voice plays from the phone.
-T: 0:08-0:10 | Ireti drops her bag.
-C: Static.
+# 25.18 | Dayo is calling | who: ireti
+F: Close-up of Ireti's cracked phone in her hand on the front steps of the mansion, the screen lit up and ringing, the caller name "DAYO" in clear white letters.
+S: As she leaves, her phone rings: it is her brother.
+X: The phone screen showing "DAYO".
+N: the phone's ringtone, birds, a breeze
+T: 0:00-0:04 | The phone rings in her hand, the screen clearly showing "DAYO".
+T: 0:04-0:07 | Ireti answers it.
+T: 0:07-0:10 | She lifts it to her ear.
+C: Static close-up on the phone, then a smooth tilt up to her face.
+
+# 25.18b | Dayo: "Mummy collapsed!" | who: ireti, dayo | split
+F: LEFT half: Ireti on the front steps of the white mansion, phone at her ear, face visible, her face starting to break. RIGHT half: Dayo in a busy, bright hospital emergency corridor in his green school shirt, crying, phone at his ear, speaking, nurses blurred behind him.
+S: Dayo tells his sister their mother has collapsed.
+X: Dayo speaking on the RIGHT; Ireti's face breaking on the LEFT.
+D: 0:01-0:08 | dayo | Sister! Sister, Mummy collapsed! They've taken her to the emergency… Sister, she's not waking up!
+T: 0:00-0:01 | Dayo grips the phone, crying.
+T: 0:01-0:08 | He sobs the words into the phone; Ireti's face breaks as she listens.
+T: 0:08-0:10 | Ireti's bag slips from her hand and drops onto the steps.
+C: Static split screen.
+
+# 25.18c | After the call | who: ireti, dayo | split
+F: Same split screen: LEFT half Ireti on the steps lowering the phone, devastated, her bag on the ground; RIGHT half Dayo sliding down the hospital wall, crying into his phone.
+S: Both siblings are devastated.
+X: Both faces.
+T: 0:00-0:04 | Ireti lowers the phone, breathing hard.
+T: 0:04-0:07 | Dayo slides down the wall, crying.
+T: 0:07-0:10 | Ireti kicks off her slippers to run.
+C: Static split screen.
 
 # 25.19 | Barefoot down the driveway | who: ireti
 F: Wide shot down the long palm-lined driveway: Ireti running barefoot toward the gate, her slippers left behind, the brown puppy chasing her.
@@ -654,12 +674,12 @@ T: 0:05-0:10 | She holds his gaze.
 C: Static.
 
 # 28.4 | Kunle: "He's just old." | who: kunle
-F: The wall screen: Kunle in a Port Harcourt bank office on the video call, facing the camera.
-S: Kunle dismisses it.
-D: 0:01-0:06 | screen:kunle | Daddy's fine. He's just… old. He's grumpy. He pushes everyone away.
-T: 0:00-0:01 | Kunle shrugs on the screen.
-T: 0:01-0:06 | His voice plays from the wall screen's speakers.
-T: 0:06-0:10 | He looks away.
+F: Kunle in his bank office in Port Harcourt, sitting at his desk in his dark pinstripe suit, talking to the laptop on his desk on a video call, face clearly visible.
+S: On the video call, Kunle dismisses his father's loneliness.
+D: 0:01-0:06 | kunle | Daddy's fine. He's just… old. He's grumpy. He pushes everyone away.
+T: 0:00-0:01 | Kunle shrugs at the laptop.
+T: 0:01-0:06 | He says it flatly.
+T: 0:06-0:10 | He looks away from the screen.
 C: Static.
 
 # 28.5 | "He pushes you away first." | who: ireti
@@ -681,12 +701,12 @@ T: 0:08-0:10 | She looks at each of them.
 C: Very slow push-in.
 
 # 28.7 | Lola: "Every Sunday?" | who: lola
-F: The wall screen: Lola in a London living room, facing the camera, her hand going to her mouth.
-S: Lola is shaken.
-D: 0:03-0:05 | screen:lola | Every Sunday?
-T: 0:00-0:03 | Lola's hand goes to her mouth.
-T: 0:03-0:05 | Her voice plays from the screen, quiet.
-T: 0:05-0:10 | Her eyes fill.
+F: Lola in her London living room, sitting on a sofa in her burgundy blazer, talking to a laptop on a video call, her hand going to her mouth, face clearly visible.
+S: Lola is shaken by what she hears.
+D: 0:03-0:05 | lola | Every Sunday?
+T: 0:00-0:03 | Lola's hand goes slowly to her mouth.
+T: 0:03-0:05 | She says it quietly.
+T: 0:05-0:10 | Her eyes fill with tears.
 C: Static.
 
 # 28.8 | "Every Sunday, nobody comes." | who: ireti
@@ -751,21 +771,21 @@ T: 0:09-0:10 | Silence.
 C: Static.
 
 # 28.15 | Kunle: "Proxy forms" | who: kunle
-F: The wall screen: Kunle sitting up in his office, facing the camera.
+F: Kunle in his bank office, sitting up sharply at his desk, talking to his laptop on the video call, face clearly visible.
 S: Kunle realises they were tricked.
-D: 0:01-0:07 | screen:kunle | Lekan? Wait. Lekan sent us proxy forms last month. He said it was routine paperwork…
+D: 0:01-0:07 | kunle | Lekan? Wait. Lekan sent us proxy forms last month. He said it was routine paperwork…
 T: 0:00-0:01 | Kunle sits up.
-T: 0:01-0:07 | His voice plays from the screen.
+T: 0:01-0:07 | He speaks, slowly realising.
 T: 0:07-0:10 | He looks horrified.
 C: Static.
 
 # 28.16 | Lola: "I signed it." | who: lola
-F: The wall screen: Lola in London, facing the camera, horrified.
+F: Lola in her London living room, talking to her laptop on the video call, horrified, face clearly visible.
 S: Lola admits she signed.
-D: 0:01-0:04 | screen:lola | I signed it. I didn't even read it.
-T: 0:00-0:01 | Lola covers her face.
-T: 0:01-0:04 | Her voice plays from the screen.
-T: 0:04-0:10 | She shakes her head.
+D: 0:01-0:04 | lola | I signed it. I didn't even read it.
+T: 0:00-0:01 | Lola presses her fingers to her forehead.
+T: 0:01-0:04 | She admits it.
+T: 0:04-0:10 | She shakes her head, ashamed.
 C: Static.
 
 # 28.17 | "We all signed it." | who: segun

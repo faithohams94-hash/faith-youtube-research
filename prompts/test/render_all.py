@@ -162,6 +162,35 @@ def eyeline(scn, s):
         return "Everyone keeps looking where they were looking in the first frame (at each other, or at the action), and only changes when the timestamps say so. Nobody looks into the camera lens at any moment."
     return f"{name(who[0])}'s eyes follow the action exactly as written; {she(who[0])} never looks into the camera lens."
 
+ACT_RULES = [
+ (("angry", "anger", "fury", "furious", "rage", "roar", "shout", "cruel", "threat", "glare", "snap", "storm", "bitter", "mock"),
+  "anger lives in the body: jaw clenched, the veins on the neck and temples standing out, nostrils flaring, eyes hard, chest heaving, a pointing finger or tightening fists"),
+ (("cry", "tears", "sob", "grie", "sad", "broken", "devastat", "heartbr", "weep", "hurt", "pain", "lonely"),
+  "sadness lives in the body: the eyes turning red and wet, lips trembling, chin quivering, shoulders sinking, the breath catching, a hand wiping tears away"),
+ (("shock", "stunned", "freez", "horror", "realis", "gasp", "widen", "pale", "trap"),
+  "shock lives in the body: eyes widening, the breath stopping, the mouth falling slightly open, a hand rising to the mouth or chest, the whole body going still"),
+ (("fear", "afraid", "nervous", "terrif", "panic", "scared", "trembl", "frighten", "desperate"),
+  "fear lives in the body: quick shallow breathing, eyes darting, swallowing hard, trembling hands"),
+ (("joy", "laugh", "happy", "grin", "celebrat", "proud", "delight", "overjoy"),
+  "joy lives in the body: eyes crinkling, a smile that reaches the eyes, shoulders lifting, light open gestures"),
+ (("tender", "gentle", "loving", "bless", "hug", "comfort", "warm"),
+  "tenderness lives in the body: soft eyes, a slow careful touch, leaning in, a gentle breath"),
+ (("firm", "determin", "steady", "resolv", "dignity", "brave", "commanding", "calm"),
+  "determination lives in the body: chin lifted, steady eyes that do not blink away, one slow deep breath, a still, upright posture"),
+]
+
+def acting(scn, s):
+    txt = " ".join([s["scene"], s.get("_block") or ""] + [a for _, a in s["timeline"]]).lower()
+    tells = [t for keys, t in ACT_RULES if any(k in txt for k in keys)][:3]
+    base = "Play it like a real person living this moment, not like an AI: every word and every movement matches the feeling. Each line is spoken the way a real person would say it in this situation, with real breathing and natural pauses."
+    return base + (" " + " ".join(t[0].upper() + t[1:] + "." for t in tells) if tells else "")
+
+SMOOTH = ("Every movement is smooth, continuous and natural, like a real actor on a film set: no jerks, no robotic or sudden moves, no frozen bodies. "
+          "Each action starts gently, carries through with real weight and finishes gently: sitting down, standing up, walking in, walking out and closing the door, "
+          "picking things up and putting them down, touching, hugging, pushing, throwing.")
+DETAILS = ("Hands and faces are alive like a real person's: hands hold, adjust, rest in a pocket or on the table, touch the face or glasses while thinking, then settle back smoothly. "
+           "Small details (a breath before speaking, a glance down, fingers tightening, a hand going into a pocket and coming back out) give the moment life, but never distract from the main action.")
+
 VOICE_KINDS = ("phone", "screen", "tv", "pa", "off", "memory")
 
 def voice_only(scn, s):
@@ -205,6 +234,12 @@ def video(scn, s):
         L.append(f"2D. STAGING (exactly the same as the previous shot unless the timestamps say someone moves): {s['_block']} Sitting people stay sitting, standing people stay standing, and nobody changes side of the frame. The camera stays on the same side of the action, so left stays left and right stays right in every shot.")
     if who and int(scn) >= 6:
         L.append("2E. REACTIONS: every listener reacts with their whole body to what they hear, as real people do. Bad news: shoulders drop, faces fall, eyes fill, breathing catches, hands go to the mouth or chest. Insults: the body stiffens, the jaw tightens, the eyes flash. Good news: the face opens, eyes shine, breath rushes out. Never a neutral face, never a smile at bad news.")
+    if int(scn) >= 11 and who:
+        L.append(f"2F. ACTING: {acting(scn, s)}")
+        L.append(f"2G. SMOOTH HUMAN MOVEMENT: {SMOOTH}")
+        L.append(f"2H. HANDS & SMALL DETAILS: {DETAILS}")
+    if s.get("split") and len(who) >= 2:
+        L.append(f"2I. SPLIT SCREEN PHONE CALL: the frame is split down the middle into two halves, two different places at the same moment. LEFT half = {name(who[0]).upper()} ({ident(scn, who[0])}). RIGHT half = {name(who[1]).upper()} ({ident(scn, who[1])}). Each person stays in their own half, in their own place, holding their phone. Each person speaks ONLY their own line in their own half; while one talks, the other listens with mouth closed. The two halves never swap, merge or move.")
     if s["dialogue"]:
         d = ["3. DIALOGUE (exact words, word for word, nothing added, nothing changed, nothing left out):"]
         voiced, speakers_on, voices_off = set(), set(), set()
@@ -412,6 +447,18 @@ FLOW_SOFTEN = [
     (r"\bslapping\b", "brushing"), (r"\bslaps\b", "brushes"), (r"\bpoisonous\b", "cold"),
 ]
 
+def policy_safe(scn, txt):
+    """From Scene 11: same picture and look, but wording that suits ChatGPT and Google Flow policies."""
+    if int(scn) < 11:
+        return txt
+    txt = re.sub(r"\s*\((\d{2})\)", "", txt)                                   # no ages
+    txt = txt.replace("Never slimmer, lighter, younger or more glamorous. ", "")
+    txt = txt.replace("DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS.", "Please follow these rules:")
+    txt = txt.replace("NO gloss, NO shine, NO glow, NO HDR, NO airbrushing, NO plastic skin, NO bloom.", "Natural matte skin, no glossy or airbrushed look.")
+    for a, b in FLOW_SOFTEN:
+        txt = re.sub(a, b, txt, flags=re.I)
+    return txt
+
 def image(scn, s):
     sc = SCENES[scn]; who = s["who"]
     names = ", ".join([C[k][0] for k in who] + ([s["photo"]] if s.get("photo") else []))
@@ -433,6 +480,8 @@ def image(scn, s):
     eyes = f"\nEYES: {ey}" if ey else ""
     if s.get("_block"):
         eyes += f"\nSTAGING (keep exactly; this wins over anything above if different): {s['_block']} The camera is on the same side of the action as the other shots of this scene, so everyone stays on the same side of the frame."
+    if s.get("split"):
+        frame = ("SPLIT SCREEN for a phone call: the 16:9 frame is divided down the middle by a thin, clean vertical line into two halves, two different places at the same moment, each half lit by its own real light. " + frame)
     return (f"{head}\nCreate one image, highest resolution, sharp and clear.\nFRAME: {frame}{face}{cont}{eyes}\nSETTING (identical in every shot of this scene): {sc['set']}"
             + (f"\nCHARACTERS: {look}" if look else "") + f"\n{build.IMAGE_LOCK}")
 
@@ -452,6 +501,7 @@ def parse_dsl(text):
                 if p.startswith("who:"): cur["who"] = [w.strip() for w in p[4:].split(",") if w.strip()]
                 elif p.startswith("start:"): cur["start"] = p[6:].strip()
                 elif p.startswith("photo:"): cur["photo"] = p[6:].strip()
+                elif p.strip() == "split": cur["split"] = True
             out[scn]["shots"].append(cur)
         elif cur is not None and l.startswith("start:"):
             cur["start"] = l[6:].strip()
@@ -462,6 +512,7 @@ def parse_dsl(text):
             elif key == "X:": cur["focus"] = val
             elif key == "C:": cur["camera"] = val
             elif key == "M:": cur["mood"] = val
+            elif key == "N:": cur["sound"] = val
             elif key == "D:":
                 t, o, line = [x.strip() for x in val.split("|", 2)]; cur["dialogue"].append((t, o, line.strip('"')))
             elif key == "T:":
@@ -502,7 +553,7 @@ def main():
                f"PASTE THE CHATGPT SETUP MESSAGE FIRST. In Grok: highest quality, 10 seconds, paste the whole video prompt.\n"]
         for s in shots:
             txt.append(f"\n{'='*70}\nSHOT {s['id']} | {s['title']} | Start: {s['start']}\n{'='*70}\n"
-                       + f"\n[IMAGE PROMPT - ChatGPT]\n{image(scn, s)}\n"
+                       + f"\n[IMAGE PROMPT - ChatGPT or Google Flow]\n{policy_safe(scn, image(scn, s))}\n"
                        + f"\n[VIDEO PROMPT - Grok]\n{video(scn, s)}\n")
             if voice_only(scn, s):
                 txt.append("\n" + capcut_voice(scn, s) + "\n")

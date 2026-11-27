@@ -712,41 +712,64 @@ X: The puppy.
 T: 0:00-0:10 | The puppy bounds after the butterfly across the grass.
 C: Slow pan following the puppy.
 
-# 24.2 | Behind the gazebo | who: ireti
-F: Ireti stepping behind the vine-covered gazebo with her phone to her ear, facing the camera.
-S: Dr. Hassan calls with the lab result.
-D: 0:01-0:08 | phone:hassan | Ireti. That tablet. It's not for blood pressure. It's a strong sedative, mixed with a drug that crashes blood pressure.
-T: 0:00-0:01 | Ireti answers quietly.
-T: 0:01-0:08 | Dr. Hassan's voice plays from the phone.
-T: 0:08-0:10 | Ireti's face goes still.
-C: Static.
+# 24.2 | Dr. Hassan is calling | who: ireti
+F: Close-up of Ireti's phone in her hand behind the gazebo, the screen lit up and ringing, the caller name "DR. HASSAN" in clear white letters.
+S: Ireti's phone rings: it is Dr. Hassan with the lab result.
+X: The phone screen showing "DR. HASSAN".
+N: the phone's ringtone, birds, hot afternoon insects
+T: 0:00-0:04 | The phone rings in her hand, the screen clearly showing "DR. HASSAN".
+T: 0:04-0:07 | Ireti's thumb answers it.
+T: 0:07-0:10 | She lifts it smoothly to her ear.
+C: Static close-up on the phone, then a smooth tilt up to her face.
 
-# 24.3 | "And he'll fall." | who: ireti
-F: Close-up of Ireti with the phone to her ear, facing the camera, her hand slowly covering her mouth.
-S: Ireti realises what it did.
-D: 0:01-0:08 | phone:hassan | Give it to a seventy-five-year-old man every evening, and he'll be dizzy, confused and depressed. And he'll fall.
-T: 0:00-0:01 | Ireti listens.
-T: 0:01-0:08 | The voice plays from the phone; her hand rises to her mouth.
-T: 0:08-0:10 | Her eyes widen.
-C: Static.
+# 24.2b | Dr. Hassan: "That tablet." | who: ireti, hassan | split
+F: LEFT half: Ireti behind the vine-covered gazebo in the sunny garden, the phone at her ear, face visible, listening. RIGHT half: Dr. Hassan in his quiet hospital office in his white coat over a light blue shirt, sitting at his desk with a lab report in front of him, the phone at his ear, grave, speaking.
+S: The doctor tells Ireti what the blue tablet really is.
+X: Dr. Hassan speaking on the RIGHT; Ireti listening on the LEFT.
+D: 0:01-0:08 | hassan | Ireti. That tablet. It's not for blood pressure. It's a strong sedative, mixed with a drug that crashes blood pressure.
+T: 0:00-0:01 | Dr. Hassan looks down at the lab report.
+T: 0:01-0:08 | He speaks gravely into the phone; Ireti listens, her face going still.
+T: 0:08-0:10 | Ireti's breath stops.
+C: Static split screen.
 
-# 24.4 | "The stairs." | who: ireti
-F: Close-up of Ireti facing the camera, hand over her mouth.
-S: Ireti connects it to the fall.
+# 24.3 | Dr. Hassan: "And he'll fall." | who: ireti, hassan | split
+F: Same split screen: LEFT half Ireti behind the gazebo, phone at her ear, her free hand rising to her mouth; RIGHT half Dr. Hassan at his desk, phone at his ear, serious.
+S: The doctor explains what the tablet does to an old man.
+X: Dr. Hassan speaking on the RIGHT; Ireti's horror on the LEFT.
+D: 0:01-0:08 | hassan | Give it to a seventy-five-year-old man every evening, and he'll be dizzy, confused and depressed. And he'll fall.
+T: 0:00-0:01 | Dr. Hassan leans forward.
+T: 0:01-0:08 | He explains slowly; Ireti's hand rises to cover her mouth.
+T: 0:08-0:10 | Ireti's eyes widen.
+C: Static split screen.
+
+# 24.4 | Ireti: "The stairs." | who: ireti, hassan | split
+F: Same split screen: LEFT half Ireti behind the gazebo lowering her hand from her mouth, phone at her ear, stunned; RIGHT half Dr. Hassan at his desk listening.
+S: Ireti realises the tablet caused the fall.
+X: Ireti speaking on the LEFT.
 D: 0:02-0:04 | ireti | The stairs.
-T: 0:00-0:02 | Ireti lowers her hand.
-T: 0:02-0:04 | She whispers.
-T: 0:04-0:10 | She stares at the house.
-C: Static.
+T: 0:00-0:02 | Ireti lowers her hand slowly.
+T: 0:02-0:04 | She whispers it.
+T: 0:04-0:10 | Dr. Hassan nods slowly, grim.
+C: Static split screen.
 
-# 24.5 | "Tell Femi. Today." | who: ireti
-F: Same close-up of Ireti with the phone at her ear, pale.
+# 24.5 | Dr. Hassan: "Tell Femi. Today." | who: ireti, hassan | split
+F: Same split screen: LEFT half Ireti pale, phone at her ear; RIGHT half Dr. Hassan at his desk, phone at his ear, urgent.
 S: The doctor tells her to act now.
-D: 0:01-0:06 | phone:hassan | Somebody has been putting him to sleep for a long time. Tell Femi. Today.
-T: 0:00-0:01 | Ireti listens.
-T: 0:01-0:06 | The voice plays from the phone.
-T: 0:06-0:10 | Ireti nods, pale.
-C: Static.
+X: Dr. Hassan speaking on the RIGHT.
+D: 0:01-0:06 | hassan | Somebody has been putting him to sleep for a long time. Tell Femi. Today.
+T: 0:00-0:01 | Dr. Hassan sits up.
+T: 0:01-0:06 | He says it urgently; Ireti listens, pale.
+T: 0:06-0:10 | Ireti nods, already turning toward the house.
+C: Static split screen.
+
+# 24.5b | After the call | who: ireti, hassan | split
+F: Same split screen: LEFT half Ireti lowering the phone, staring toward the house in shock; RIGHT half Dr. Hassan lowering his phone and looking down at the lab report, troubled.
+S: After the call, both are shaken.
+X: Both faces after the call.
+T: 0:00-0:04 | Both lower their phones slowly.
+T: 0:04-0:07 | Dr. Hassan rubs his forehead, looking at the report.
+T: 0:07-0:10 | Ireti stares toward the house, breathing fast.
+C: Static split screen.
 
 # 24.6 | "Without ever touching him." | who: ireti
 F: Close-up of Ireti lowering the phone, facing the camera.

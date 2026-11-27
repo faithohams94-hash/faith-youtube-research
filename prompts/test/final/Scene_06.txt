@@ -6,7 +6,7 @@ PASTE THE CHATGPT SETUP MESSAGE FIRST. In Grok: highest quality, 10 seconds, pas
 SHOT 6.1 | One candle | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: DAYO (17), KEHINDE photo (in a small frame on the wall). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Wide shot of the dark room lit by one candle; Dayo asleep on the mat; a small framed photo on the wall of a smiling man waving with a burn scar on his right palm (use the Kehinde photo).
@@ -38,7 +38,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 6.2 | "Hospital walls are thin." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: MAMA FUNMI (48), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close two-shot: Ireti kneeling beside her mother's mattress in candlelight; Mama Funmi face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, whispering. The face of MAMA FUNMI is clearly visible in three-quarter view with the mouth in view.
@@ -78,7 +78,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 6.3 | "I'm not afraid." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: MAMA FUNMI (48), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Mama Funmi face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, calm, taking Ireti's face in her hands. The face of MAMA FUNMI is clearly visible in three-quarter view with the mouth in view.
@@ -118,7 +118,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 6.4 | "Promise me." | Start: Last frame of 6.3
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: MAMA FUNMI (48), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Same close-up of Mama Funmi holding Ireti's face. The face of MAMA FUNMI is clearly visible in three-quarter view with the mouth in view.
@@ -158,7 +158,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 6.5 | Ireti: "No." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23), MAMA FUNMI (48). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Ireti face turned three-quarters toward the camera, eyes on MAMA FUNMI, never looking into the lens, her mother's hands on her face, tears falling. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -201,7 +201,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 6.6 | "Thirty-eight thousand." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: MAMA FUNMI (48), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Mama Funmi face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, a sad small smile. The face of MAMA FUNMI is clearly visible in three-quarter view with the mouth in view.
@@ -241,7 +241,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 6.7 | "I'll find a way." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Ireti face turned three-quarters toward the camera, eyes on MAMA FUNMI, never looking into the lens, firm, tears falling in the candlelight. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -280,7 +280,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 6.8 | The father's photo | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: MAMA FUNMI (48), KEHINDE photo (in a small frame on the wall). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Mama Funmi looking up at the framed photo on the wall, smiling faintly, candlelight on her face. The face of MAMA FUNMI is clearly visible in three-quarter view with the mouth in view.
@@ -319,7 +319,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 6.9 | "Somebody has to put their hand in." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Ireti face turned three-quarters toward the camera, eyes on MAMA FUNMI, never looking into the lens, a wet laugh through tears. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -358,7 +358,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 6.10 | The scar | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: MAMA FUNMI (48), IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close shot of Mama Funmi drifting toward sleep on the pillow, face turned three-quarters toward the camera, eyes on IRETI, never looking into the lens, Ireti leaning in. The face of MAMA FUNMI is clearly visible in three-quarter view with the mouth in view.
@@ -398,7 +398,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 6.11 | "Tell me now." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23), MAMA FUNMI (48). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Ireti face turned three-quarters toward the camera, eyes on MAMA FUNMI, never looking into the lens, leaning over her sleeping mother. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -438,7 +438,7 @@ DIRECTOR'S LOCK — FOLLOW EVERY RULE, NO EXCEPTIONS. 1) Create ONLY what this p
 SHOT 6.12 | "Show me the fire." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23), KEHINDE photo (in a small frame on the wall). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Ireti standing at the wall in candlelight, face turned three-quarters toward the camera, eyes on MAMA FUNMI, never looking into the lens, her right palm pressed flat against the glass of her father's photo. The face of IRETI is clearly visible in three-quarter view with the mouth in view.

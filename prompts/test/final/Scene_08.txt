@@ -6,7 +6,7 @@ PASTE THE CHATGPT SETUP MESSAGE FIRST. In Grok: highest quality, 10 seconds, pas
 SHOT 8.1 | The gold tower | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: none (scenery only, no main characters in focus).
 Create one image, highest resolution, sharp and clear.
 FRAME: Low-angle view of a 40-floor glass tower in Victoria Island with a gold "AC" logo near the top, a huge queue of people around the block in morning sun.
@@ -33,7 +33,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 8.2 | The end of the queue | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium shot of Ireti joining the end of the queue in her faded blouse and taped slippers, face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens; smartly dressed applicants around her.
@@ -71,7 +71,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 8.3 | "Is this the cleaners' line?" | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium close-up of a woman in a sharp grey suit in the queue face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens, smirking at Ireti, who is at the edge of the frame.
@@ -115,7 +115,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 8.4 | "Is it?" | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Ireti face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens, polite and calm. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -158,7 +158,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 8.5 | The security gate | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium shot at the gate: a security man in uniform face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens, blocking the way; Ireti in front of him.
@@ -204,7 +204,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 8.6 | "Gabriel Okafor sent me." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Ireti face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens, holding out the gold card. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -247,7 +247,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 8.7 | The security man steps aside | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium shot of the security man reading the card, face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens, his face changing; Ireti at the edge of the frame.
@@ -286,7 +286,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 8.8 | The panel | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Inside a plain interview hall: three panelists at a long table, a female panelist in the middle face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens; Ireti sitting alone in a chair that's too big for her in the foreground.
@@ -330,7 +330,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 8.9 | "Because I won't leave." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Ireti in the big chair, face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens, calm. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -373,7 +373,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 8.10 | "That's what all twelve said." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Medium shot of the female panelist laughing with the panel, face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens.
@@ -417,7 +417,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 8.11 | "I don't." | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close-up of Ireti face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens, quiet and steady. The face of IRETI is clearly visible in three-quarter view with the mouth in view.
@@ -463,7 +463,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 8.12 | After-action: the panel goes silent | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: none (scenery only, no main characters in focus).
 Create one image, highest resolution, sharp and clear.
 FRAME: The three panelists at the long table, frozen, looking at each other.
@@ -492,7 +492,7 @@ FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above a
 SHOT 8.13 | The long walk home | Start: New image
 ======================================================================
 
-[IMAGE PROMPT - ChatGPT]
+[IMAGE PROMPT - ChatGPT or Google Flow]
 CHARACTERS IN THIS IMAGE: IRETI (23). I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Afternoon heat on a long Lagos expressway: Ireti walking on the roadside barefoot with her slippers in her hand, the gold tower far behind her.

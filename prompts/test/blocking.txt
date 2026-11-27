@@ -42,7 +42,9 @@
 ## 13
 13.2 | Chief's bedroom: Chief sits in his wheelchair on the RIGHT with a small table in front of him; Ireti stands on the LEFT beside the table. Chief stays seated. Chief cold and cruel; Ireti bright and patient.
 13.8 | Ireti now kneels at Chief's feet on the LEFT; Chief still seated in his wheelchair on the RIGHT, looking down at her. Chief hard but shaken; Ireti humble and steady.
-13.12 | Night, staff quarters: Ireti alone on a low stool by a bucket, her phone on speaker beside her on the floor. Exhausted and hurt, pretending to be fine.
+13.12 | Night, staff quarters: Ireti alone on a low stool by a bucket, her phone on the floor beside her. Exhausted and hurt.
+13.12b | SPLIT SCREEN phone call: LEFT half Ireti on the low stool in the staff room; RIGHT half Mama Funmi sitting on her mattress at home in Mushin. Ireti hurt but pretending to be fine; Mama Funmi warm and hopeful.
+13.14 | Night, staff quarters: Ireti alone on the low stool. Breaking down.
 
 ## 14
 14.2 | Chief's bedroom: Ireti stands at the window on the LEFT holding the curtain; Chief sits in his wheelchair on the RIGHT. Chief angry; Ireti playful and calm.
@@ -52,7 +54,8 @@
 14.20 | Evening, Chief's bedroom: Chief in his wheelchair on the RIGHT; Ronke stands on the LEFT holding the silver tray; Ireti stands far back in the doorway. Ronke cold and watchful; Chief tired; Ireti suspicious.
 
 ## 15
-15.2 | Dark corridor: Ireti runs alone toward the study door. Frightened.
+15.2 | The dark study: Chief alone, asleep in his wheelchair at the desk, in a nightmare. Terrified.
+15.2b | Dark corridor: Ireti runs alone toward the study door. Frightened.
 15.3 | The study: Chief sits in his wheelchair at the desk on the RIGHT; Ireti stands close at his LEFT side, bending over him. The glass frame with the burnt shirt hangs on the wall behind the desk. Chief terrified, lost in a nightmare; Ireti calm and caring.
 15.6 | Ireti has stepped away from Chief toward the frame on the wall (centre-left); Chief still sits at the desk on the RIGHT. Ireti curious; Chief guarded and pained.
 15.12 | Dark corridor: Ireti alone. Thoughtful, unsettled.
@@ -67,7 +70,8 @@
 17.12 | Outside the concert hall at night.
 17.13 | Ireti stands behind Chief's wheelchair pushing him up the ramp. Chief nervous and grumpy; Ireti excited.
 17.15 | On stage: Commander Ajala stands at the microphone. Joyful showman.
-17.16 | In the crowd: Chief in his wheelchair in the CENTRE, Ireti standing behind him holding the handles, the crowd around them. Chief overwhelmed; Ireti joyful.
+17.16 | On stage: Commander Ajala at the microphone, pointing into the crowd. Joyful.
+17.16b | In the crowd: Chief in his wheelchair in the CENTRE, Ireti standing behind him holding the handles, the crowd around them. Chief overwhelmed; Ireti joyful.
 17.19 | Back seat of the car at night: Chief sits on the RIGHT side of the back seat; Ireti sits on the LEFT side by the window. Both stay seated. Quiet, tender, moved.
 
 ## 18
@@ -101,7 +105,9 @@
 23.13 | The driveway: Lekan arrives from the RIGHT and stands at Chief's RIGHT side. Lekan fake-friendly, cold underneath; Chief happy and alive.
 
 ## 24
-24.2 | Behind the gazebo: Ireti alone with her phone. Shock growing into horror.
+24.2 | Behind the gazebo: Ireti alone with her phone. Uneasy.
+24.2b | SPLIT SCREEN phone call: LEFT half Ireti standing behind the gazebo in the garden; RIGHT half Dr. Hassan sitting at his desk in his hospital office. Hassan grave; Ireti shock growing into horror.
+24.6 | Behind the gazebo: Ireti alone, the phone lowered. Horrified, then determined.
 24.8 | The grand hall: Femi, Ronke and two security men stand in a group on the RIGHT around Ireti's open bag on the floor; Ireti stands in the doorway on the LEFT. Cold, suspicious, tense.
 
 ## 25
@@ -109,7 +115,8 @@
 25.9 | The lift opens on the far RIGHT: Chief rolls out in his wheelchair and stays on the RIGHT near Femi; Ireti still on the LEFT. Chief happy, then devastated.
 25.12 | Ireti now kneels beside Chief's wheelchair on his LEFT side; Chief seated on the RIGHT; Femi and Ronke stand behind Chief on the RIGHT. Ireti desperate; Chief torn and hurt.
 25.16 | Ireti stands and walks back to the doorway on the LEFT; Chief stays in his wheelchair on the RIGHT with his face turned away. Ireti heartbroken but dignified; Chief broken.
-25.18 | Front steps: Ireti alone with her phone. Panic.
+25.18 | Front steps: Ireti alone with her phone. Numb.
+25.18b | SPLIT SCREEN phone call: LEFT half Ireti standing on the mansion's front steps; RIGHT half Dayo standing in a hospital emergency corridor. Dayo sobbing; Ireti breaking.
 25.19 | The long driveway: Ireti runs away from the camera toward the gate; the puppy chases her; Mallam Audu at the gate. Desperate.
 25.20 | The grand hall: Ronke on the LEFT by the portrait; Chief in his wheelchair on the RIGHT, face turned to the wall. Ronke victorious; Chief silently crying.
 
@@ -132,12 +139,21 @@
 
 ## 28
 28.2 | Segun's office: Segun sits behind his desk on the RIGHT; Ireti sits in the chair across the desk on the LEFT; Femi stands by the window behind Ireti; the big wall screen with Kunle and Lola is on the wall behind Segun. Everyone seated stays seated. Segun busy and dismissive, then shaken; Ireti calm and firm; Femi tense.
+28.4 | Cut to Kunle alone at his desk in his Port Harcourt bank office, on a video call with his laptop. Flat, dismissive.
+28.5 | Segun's office again: Segun behind his desk on the RIGHT; Ireti in the chair on the LEFT; Femi by the window behind Ireti. Segun shaken; Ireti calm and firm.
+28.7 | Cut to Lola alone on her sofa in her London living room, on a video call with her laptop. Shaken.
+28.8 | Segun's office again: Segun behind his desk on the RIGHT; Ireti in the chair on the LEFT; Femi by the window. Ireti emotional; Segun guilty.
+28.15 | Cut to Kunle alone at his desk in his bank office, on the video call. Horrified.
+28.16 | Cut to Lola alone on her sofa in London, on the video call. Ashamed.
+28.17 | Segun's office again: Segun behind his desk on the RIGHT; Ireti in the chair on the LEFT; Femi by the window. Guilty, then determined.
 28.19 | Segun now stands up behind his desk on the RIGHT; Ireti still seated on the LEFT; Femi by the window. Segun guilty and determined.
 28.21 | Outside the tower: Ireti and Femi walk side by side toward the camera, Ireti on the LEFT, Femi on the RIGHT. Femi amazed; Ireti calm and kind.
 
 ## 29
 29.2 | Rehab room: the parallel bars run across the frame; Chief stands at the LEFT end gripping the bars; Ireti stands at the RIGHT end with her arms open; Dr. Hassan and the physiotherapist stand beside the bars in the middle background. Chief walks from LEFT to RIGHT toward Ireti. Tense, hopeful, then overjoyed.
-29.15 | Ireti on the mat at the RIGHT end holding her phone; Chief still holding the bars, coming toward her from the LEFT. Pure joy.
+29.15 | Ireti kneeling on the mat at the RIGHT end of the bars with her phone. Breathless.
+29.15b | SPLIT SCREEN video call: LEFT half Ireti kneeling on the rehab mat; RIGHT half Dayo in a hospital corridor in India. Pure joy.
+29.16 | Ireti on the mat at the RIGHT end holding her phone; Chief still holding the bars, coming toward her from the LEFT. Pure joy.
 
 ## 30
 30.2 | Boardroom: the long table runs across the room; Lekan stands at the head of the table on the RIGHT end; Femi sits at the far LEFT end; board members seated along both sides; the wooden double doors are behind Femi at the LEFT end. Lekan smug and confident; Femi angry and trapped.
