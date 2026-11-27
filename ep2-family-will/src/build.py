@@ -8,6 +8,15 @@ from shots import SHOTS
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 WPS = 2.6
+DROPPED = []
+# 14-minute version: anchors that would now match the wrong line, and clips turned into stills to keep video near 15%
+SKIP_ANCHORS = {"I know."}
+TO_IMAGE = {"By the end of that week,", "At 9:12 this morning,",
+            "You grew up in a house where money was weather.", "Here's the deal, he says,", "It's raining the way it only rains in November.",
+            "You watch his face change.", "And then, one night in December,", "You spend Christmas Day in the apartment",
+            "You raise your automatic transfer", "You close the app.", "You drive to Mercy General that night",
+            "The hospital bill, she says.", "One million dollars.", "By seven o'clock,", "And you hang up.",
+            "Your father pulls out the chair next to him.", "And the ones who weren't"}
 TITLE = 'POV: Your Family Cut You Off Because You Were "Broke"... Then They Saw Your Will'
 
 STYLE = ("Flat 2D cartoon webcomic illustration in the Somber Journal style, bold clean black outlines, flat cel shading, "
@@ -169,19 +178,28 @@ def cards():
 
 def assign():
     full, sections, cues, pauses = narration()
-    pos, starts = 0, []
+    # shots whose line was cut from this version of the script are skipped
+    pos, starts, kept, dropped = 0, [], [], []
     for s in SHOTS:
+        if s["a"] in SKIP_ANCHORS:
+            continue
+        if s["a"] in TO_IMAGE:
+            s = dict(s, k="I")
         i = full.find(s["a"], pos)
         if i < 0:
-            sys.exit("anchor not found in order: " + s["a"])
+            dropped.append(s["a"])
+            continue
         starts.append(i)
+        kept.append(s)
         pos = i + 1
+    global DROPPED
+    DROPPED = dropped
     if starts[0] != 0:
         sys.exit("first shot must start at the first word")
     card = cards()
     shots, t = [], 0.0
-    for n, s in enumerate(SHOTS):
-        a, b = starts[n], (starts[n + 1] if n + 1 < len(SHOTS) else len(full))
+    for n, s in enumerate(kept):
+        a, b = starts[n], (starts[n + 1] if n + 1 < len(kept) else len(full))
         seg = full[a:b].strip()
         words = len(seg.split())
         dur = words / WPS + sum(1 for p in pauses if a < p <= b)
