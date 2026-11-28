@@ -69,6 +69,47 @@ for _l in (HERE / "blocking.txt").read_text().splitlines():
     if _l.startswith("## "): _cur = _l[3:].strip(); BLOCK[_cur] = []; continue
     _id, _t = [x.strip() for x in _l.split("|", 1)]; BLOCK[_cur].append((_id, _t))
 
+STATE = {}
+_cur = None
+for _l in (HERE / "state.txt").read_text().splitlines():
+    _l = _l.strip()
+    if not _l or _l.startswith("# "): continue
+    if _l.startswith("## "): _cur = _l[3:].strip(); STATE[_cur] = []; continue
+    _id, _t = [x.strip() for x in _l.split("|", 1)]; STATE[_cur].append((_id, _t))
+
+def add_reactions(shots, scn):
+    """From Scene 12: after a strong line that the listener does not answer on screen, add a 5-second reaction shot."""
+    cands = []
+    for i, s in enumerate(shots):
+        if int(scn) < 12 or s.get("split"): continue
+        S, P = s.get("_speaker"), s.get("_partner")
+        if not (S and P and P in C) or PHONE_RE.search(s["frame"]): continue
+        present = P in s["who"] or re.search(r"\b" + re.escape(name(P).split()[-1].lower()) + r"\b", (s.get("_block") or "").lower())
+        if not present: continue                                                # only someone who is really in the room
+        line = " ".join(l for _, o, l in s["dialogue"] if parse_owner(o)[0] == "on")
+        if len(line.split()) < 8: continue
+        nxt = shots[i + 1] if i + 1 < len(shots) else None
+        if nxt and (nxt.get("_speaker") == P or (P in nxt["who"] and not nxt["dialogue"])): continue
+        if nxt and nxt["start"].lower().startswith("last frame"): continue     # never break a chained take
+        if nxt and nxt.get("_speaker") == S: continue                           # same person keeps talking: react after they finish
+        tells = [t for keys, t in ACT_RULES if any(k in (s["scene"] + " " + " ".join(a for _, a in s["timeline"])).lower() for k in keys)]
+        tell = tells[0].split(":", 1)[1].strip() if tells else "a visible change in the eyes, a breath, a small movement of the head"
+        short = line if len(line) < 90 else line[:87].rsplit(" ", 1)[0] + "…"
+        cands.append((len(line.split()), i, {"id": s["id"] + "r", "title": f"Reaction: {name(P)}", "who": [P], "dur": 5, "start": "New image",
+                    "frame": f"Close-up of {name(P)} reacting to what {name(S)} just said, face clearly visible in three-quarter view, eyes on {name(S)} just out of frame, in exactly the same place, posture and clothes as in the previous shot.",
+                    "scene": f"{name(P)} reacts to {name(S)}'s words: \"{short}\"",
+                    "focus": f"{name(P)}'s face reacting.",
+                    "dialogue": [], "camera": "Static close-up.",
+                    "timeline": [("0:00-0:02", f"{name(P)} hears the last words and takes them in, eyes on {name(S)}."),
+                                 ("0:02-0:05", f"{name(P)}'s face and body react: {tell}.")]}))
+    budget = max(0, 30 - len(shots))                      # never more than 30 shots in a scene
+    keep = {i: r for _, i, r in sorted(cands, key=lambda c: -c[0])[:budget]}
+    out = []
+    for i, s in enumerate(shots):
+        out.append(s)
+        if i in keep: out.append(keep[i])
+    return out
+
 def plan_continuity(shots, scn="0"):
     """Give every shot its previous shot, its conversation partner and eyeline notes."""
     order = {sh["id"]: i for i, sh in enumerate(shots)}
@@ -79,6 +120,8 @@ def plan_continuity(shots, scn="0"):
         s["_prev"] = shots[i - 1] if i > 0 else None
         blk = [t for _id, t in BLOCK.get(scn, []) if order[_id] <= i]
         s["_block"] = blk[-1] if blk else None
+        st = [t for _id, t in STATE.get(scn, []) if _id in order and order[_id] <= i]
+        s["_state"] = st[-1] if (st and int(scn) >= 12) else None
         sp = list(dict.fromkeys(onscreen_speakers(s)))
         s["_speaker"] = sp[0] if sp else None
         partner = None
@@ -110,7 +153,8 @@ def plan_coverage(shots):
     for s in shots:
         S, P = s.get("_speaker"), s.get("_partner")
         is_call = bool(PHONE_RE.search(s["frame"])) or any(parse_owner(o)[0] in ("phone", "screen", "tv", "pa") for _, o, _ in s["dialogue"])
-        if S and P and P in C and not is_call:
+        present = bool(P) and P in C and (P in s["who"] or (s.get("_block") and re.search(r"\b" + re.escape(name(P).split()[-1].lower()) + r"\b", s["_block"].lower())) or not s.get("_block"))
+        if S and P and P in C and not is_call and present:
             pair = frozenset((S, P))
             words = len(" ".join(l for _, o, l in s["dialogue"]).split())
             chained = s["start"].lower().startswith("last frame")
@@ -238,6 +282,13 @@ def video(scn, s):
         L.append(f"2F. ACTING: {acting(scn, s)}")
         L.append(f"2G. SMOOTH HUMAN MOVEMENT: {SMOOTH}")
         L.append(f"2H. HANDS & SMALL DETAILS: {DETAILS}")
+    if int(scn) >= 12 and who:
+        if s.get("_state"):
+            L.append(f"2J. CARRIED-OVER LOOK & PROPS (from the earlier clips; keep exactly, do not undo): {s['_state']} Whatever was changed earlier stays changed: a removed jacket stays off, a stain stays, wet clothes stay wet, objects stay in the same hands or places.")
+        L.append("2K. ONE CONTINUOUS FILM: this clip must look like it was filmed in the same take as the clips before and after it: same lens, same colour, same light direction, same time of day, same clothes, hair, sweat, tears and props; any movement already happening keeps going at the same speed. Nobody should be able to tell where one clip ends and the next begins.")
+        listeners = [w for w in who if w != s.get("_speaker")]
+        if s.get("_speaker") and listeners and not s.get("split"):
+            L.append(f"2L. LISTENER REACTION: while {name(s['_speaker'])} speaks, " + " and ".join(name(w) for w in listeners) + (" react" if len(listeners) > 1 else " reacts") + " visibly to the words, mouths closed: the eyes change, the breath catches or slows, the head moves slightly, the hands tighten or relax. In the last second, their reaction to what was said is clear on their face.")
     if s.get("split") and len(who) >= 2:
         L.append(f"2I. SPLIT SCREEN PHONE CALL: the frame is split down the middle into two halves, two different places at the same moment. LEFT half = {name(who[0]).upper()} ({ident(scn, who[0])}). RIGHT half = {name(who[1]).upper()} ({ident(scn, who[1])}). Each person stays in their own half, in their own place, holding their phone. Each person speaks ONLY their own line in their own half; while one talks, the other listens with mouth closed. The two halves never swap, merge or move.")
     if s["dialogue"]:
@@ -480,6 +531,8 @@ def image(scn, s):
     eyes = f"\nEYES: {ey}" if ey else ""
     if s.get("_block"):
         eyes += f"\nSTAGING (keep exactly; this wins over anything above if different): {s['_block']} The camera is on the same side of the action as the other shots of this scene, so everyone stays on the same side of the frame."
+    if s.get("_state"):
+        eyes += f"\nCARRIED-OVER LOOK & PROPS (keep exactly from the earlier shots): {s['_state']}"
     if s.get("split"):
         frame = ("SPLIT SCREEN for a phone call: the 16:9 frame is divided down the middle by a thin, clean vertical line into two halves, two different places at the same moment, each half lit by its own real light. " + frame)
     return (f"{head}\nCreate one image, highest resolution, sharp and clear.\nFRAME: {frame}{face}{cont}{eyes}\nSETTING (identical in every shot of this scene): {sc['set']}"
@@ -539,7 +592,12 @@ def main():
     out = HERE / "final"; out.mkdir(exist_ok=True)
     total = 0
     for scn in sorted(ALL, key=int):
-        sc = SCENES[scn]; shots = plan_continuity(ALL[scn], scn)
+        sc = SCENES[scn]
+        shots = plan_continuity([dict(x, who=list(x["who"])) for x in ALL[scn]], scn)
+        if int(scn) >= 12:
+            shots = plan_continuity([dict(x, who=list(x["who"])) for x in add_reactions(shots, scn)], scn)
+        for _id, _t in STATE.get(scn, []):
+            assert any(x["id"] == _id for x in shots), ("state id not found", scn, _id)
         ups = []
         for s in shots:
             check(scn, s)
