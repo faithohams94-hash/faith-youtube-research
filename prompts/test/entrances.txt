@@ -1,0 +1,130 @@
+# Entrances and exits added from Scene 12. "@after X" puts the shot straight after shot X.
+
+@after 12.15
+# 12.15x | Ireti leaves the room | who: ireti, chief
+F: Chief's dark bedroom: Ireti at the doorway on the LEFT, turning to leave, her small nylon bag in her hand; Chief in his wheelchair on the RIGHT, his back to her, facing the mirror.
+S: Dismissed, Ireti quietly leaves Chief's room.
+T: 0:00-0:03 | Ireti looks at Chief's back for a moment.
+T: 0:03-0:07 | She turns and walks out through the doorway, smoothly, without a word.
+T: 0:07-0:10 | She closes the door softly behind her; the room is dark again.
+C: Static.
+B: Ireti stands at the doorway on the LEFT, then walks out; Chief stays seated in his wheelchair on the RIGHT, his back to her, facing the mirror. Ireti hurt but dignified; Chief cold and alone.
+P: Ireti holds her small faded nylon bag; Chief sits in his wheelchair with a wool blanket over his knees.
+
+@after 13.1
+# 13.1x | Ireti brings the tray in | who: ireti, chief
+F: Chief's dim bedroom: the door opening as Ireti walks in from the LEFT carrying the breakfast tray with pepper soup, bread and tea; Chief in his wheelchair on the RIGHT.
+S: Ireti walks into Chief's room with his breakfast.
+T: 0:00-0:03 | Ireti pushes the door open with her shoulder, the tray steady in both hands.
+T: 0:03-0:07 | She walks in carefully toward Chief, the soup not spilling.
+T: 0:07-0:10 | She reaches the small table in front of him.
+C: Static, then a gentle pan following her in.
+B: Ireti walks in through the door on the LEFT toward Chief; Chief sits in his wheelchair on the RIGHT, the small table in front of him. Ireti bright and hopeful; Chief cold.
+P: Ireti's light-blue scrubs are clean; she carries the breakfast tray with pepper soup, bread and tea in both hands.
+
+@after 13.11
+# 13.11x | Ireti leaves with the tray | who: ireti, chief
+F: Chief's bedroom: Ireti, her scrubs top still stained with pepper soup, picking up the tray from the small table on the LEFT; Chief in his wheelchair on the RIGHT watching her.
+S: Ireti finishes and quietly leaves the room.
+T: 0:00-0:03 | Ireti picks up the tray with the empty bowl.
+T: 0:03-0:07 | She walks to the door; Chief's eyes follow her.
+T: 0:07-0:10 | She steps out and closes the door gently behind her.
+C: Static.
+B: Ireti stands up from Chief's feet on the LEFT, picks up the tray and walks out through the door; Chief stays seated in his wheelchair on the RIGHT, watching her go. Ireti humble and steady; Chief hard but shaken.
+P: Ireti's scrubs top still has the big pepper-soup stain across the front; she carries the tray with the empty bowl.
+
+@after 14.19
+# 14.19x | Back into the house | who: ireti, chief, femi
+F: The garden in the rain: Ireti, soaked, pushing Chief's wheelchair back up the ramp toward the house, still holding the umbrella over him; Femi walking beside them, his jacket over his head.
+S: They go back inside out of the rain.
+T: 0:00-0:05 | Ireti pushes the wheelchair up the ramp, keeping the umbrella over Chief.
+T: 0:05-0:08 | Femi holds the door open.
+T: 0:08-0:10 | They go in through the door; Femi follows and closes it behind them.
+C: Static wide.
+B: Ireti pushes the wheelchair from behind, Chief seated in it; Femi walks on the RIGHT beside them and holds the door. Ireti tired but warm; Chief quiet and touched; Femi surprised.
+P: Ireti is soaked; Chief is dry under the umbrella Ireti holds over him; Femi's charcoal suit jacket is held over his head and his shoulders and trousers are wet with rain.
+
+@after 16.1
+# 16.1x | Ireti joins Mallam Audu | who: ireti, audu
+F: The gatehouse at sunset: Ireti walking down the driveway toward the gatehouse; Mallam Audu sitting on the wooden bench, two cups of tea beside him.
+S: At sunset, Ireti walks down to the gatehouse to sit with Mallam Audu.
+T: 0:00-0:05 | Ireti walks down the driveway toward the gatehouse.
+T: 0:05-0:08 | Mallam Audu smiles and holds out a cup of tea to her.
+T: 0:08-0:10 | She takes it and sits down on the bench beside him.
+C: Static wide.
+B: Ireti walks in from the LEFT down the driveway; Mallam Audu sits on the bench on the RIGHT, then Ireti sits beside him on his left. Both warm and relaxed.
+P: Mallam Audu has two cups of steaming tea beside him, then Ireti holds one.
+
+@after 17.18
+# 17.18x | Leaving the concert | who: ireti, chief
+F: The concert hall doorway at night: Ireti pushing Chief's wheelchair out of the hall into the warm night, people clapping and smiling at them as they pass.
+S: After the concert, Ireti wheels Chief out into the night.
+T: 0:00-0:05 | Ireti pushes the wheelchair out through the doors; people nod and clap.
+T: 0:05-0:10 | They roll down the ramp toward a waiting car; Chief is still smiling.
+C: Smooth tracking alongside them.
+B: Ireti walks behind the wheelchair, pushing it; Chief sits in it, facing forward. Both happy and glowing.
+P: Concert night: Ireti wears her simple neat dress; Chief wears his royal-blue agbada and fila.
+
+@after 18.1
+# 18.1x | Into the dark kitchen | who: ireti
+F: The dark mansion kitchen after midnight: Ireti tiptoeing in through the doorway, barefoot, holding hospital papers, looking around carefully.
+S: Ireti quietly sneaks into the kitchen at night.
+T: 0:00-0:04 | Ireti steps in quietly, glancing over her shoulder.
+T: 0:04-0:08 | She walks carefully across the dark kitchen to the light over the sink.
+T: 0:08-0:10 | She stops under the light and unfolds the papers.
+C: Static wide.
+B: Ireti walks in alone from the doorway on the LEFT to the sink on the RIGHT. Ireti nervous and alert.
+P: Ireti holds the hospital discharge papers.
+
+@after 19.21
+# 19.21x | Dr. Hassan leaves | who: hassan, ireti
+F: The grand staircase: Dr. Hassan walking down the curved marble stairs with his bag, the tablet closed in his hand; Ireti at the top of the stairs watching him go.
+S: Dr. Hassan leaves with the secret tablet.
+T: 0:00-0:06 | Dr. Hassan walks down the stairs, smoothly and steadily, without looking back.
+T: 0:06-0:10 | At the top, Ireti watches him go, worried.
+C: Static wide from the top of the stairs.
+B: Dr. Hassan walks down the stairs away from the camera; Ireti stands still at the top of the stairs in the foreground on the LEFT. Dr. Hassan calm and secretive; Ireti worried.
+P: Femi's sleeves are rolled up; Dr. Hassan holds the small blue tablet closed in his hand and carries his bag.
+
+@after 23.16
+# 23.16x | Lekan leaves | who: lekan
+F: The mansion driveway: Lekan walking back to his black car, his false smile dropping from his face.
+S: Lekan leaves, angry inside.
+T: 0:00-0:05 | Lekan walks to his car; his smile drops into a cold, hard face.
+T: 0:05-0:08 | His driver opens the door; he gets in.
+T: 0:08-0:10 | The door closes and the car pulls away.
+C: Static.
+B: Lekan walks alone to his black car on the RIGHT; his driver stands at the car door. Lekan angry and cold inside.
+P: Lekan's hands are empty; the bouquet of white lilies is left behind.
+
+@after 26.24
+# 26.24x | Femi goes for the agbada | who: femi, chief
+F: Chief's bedroom: Femi turning toward the door; Chief in his wheelchair on the RIGHT, determined.
+S: Femi hurries out to fetch his grandfather's blue agbada.
+T: 0:00-0:03 | Femi nods at his grandfather.
+T: 0:03-0:07 | He hurries out of the room.
+T: 0:07-0:10 | The door closes behind him; Chief grips the armrests, ready.
+C: Static.
+B: Femi stands, turns and walks out through the door on the LEFT; Chief stays seated in his wheelchair on the RIGHT. Femi urgent; Chief determined.
+P: Chief still holds the small blue tablet closed in one hand.
+
+@after 27.27
+# 27.27x | Chief leaves the ward | who: femi, chief, ireti
+F: The dim hospital ward: Femi slowly wheeling Chief back down the aisle toward the door; Ireti on the LEFT side of her mother's bed, watching them go, holding her mother's hand.
+S: Chief and Femi leave the ward to arrange everything.
+T: 0:00-0:06 | Femi wheels Chief slowly down the aisle; the patients watch.
+T: 0:06-0:10 | At the door, Chief looks back at Ireti and nods; she nods back through her tears.
+C: Static wide.
+B: Femi walks behind the wheelchair pushing it down the aisle; Chief seated in it; Ireti stays on the LEFT side of her mother's bed. Chief grateful and determined; Ireti emotional.
+P: Chief's sleeve is pulled back showing the scar; Ireti is barefoot with swollen eyes; Mama Funmi's mask is under her chin.
+
+@after 28.1
+# 28.1x | Ireti walks into Segun's office | who: ireti, femi, segun
+F: Segun's office in Abuja: Femi leading Ireti in through the door; Segun at his desk on the RIGHT, looking up; a chair waiting across the desk.
+S: Femi brings Ireti into his father's office.
+T: 0:00-0:04 | Femi opens the door and Ireti walks in, nervous but upright.
+T: 0:04-0:07 | Segun looks up from his desk.
+T: 0:07-0:10 | Ireti sits down in the chair across the desk; Femi goes to stand by the window.
+C: Static wide.
+B: Femi opens the door on the LEFT and Ireti walks in; Segun sits behind his desk on the RIGHT; Ireti sits in the chair across the desk; Femi stands by the window. Ireti nervous but upright; Segun curious; Femi encouraging.
+P: Ireti wears her one good navy dress; Segun's watch is on his wrist.

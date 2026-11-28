@@ -1,3 +1,4 @@
+import re
 """Renders ALL scenes into image + video prompts in the director format that passed the Scene 1-2 test.
 Scenes 1-2 come from shots_s1_s2.py; scenes 3-32 come from directed/*.txt (compact format below).
 
@@ -24,6 +25,11 @@ SCENES = {}
 for f in sorted((HERE.parent / "scenes").glob("*.txt")):
     for s in build.parse(f.read_text()):
         SCENES[s["num"]] = s
+
+for _l in (HERE / "wardrobe.txt").read_text().splitlines():
+    if _l.strip() and not _l.startswith("#"):
+        _s, _k, _w = [x.strip() for x in _l.split("|", 2)]
+        SCENES[_s]["wear"][_k] = _w
 
 SRC = {
  "phone": "ONLY out of the phone's speaker and must sound like a real phone line: thin, slightly tinny and compressed, a little crackle, as heard through a phone",
@@ -122,6 +128,8 @@ def plan_continuity(shots, scn="0"):
         s["_block"] = blk[-1] if blk else None
         st = [t for _id, t in STATE.get(scn, []) if _id in order and order[_id] <= i]
         s["_state"] = st[-1] if (st and int(scn) >= 12) else None
+        if s.get("block"): s["_block"] = s["block"]
+        if s.get("props"): s["_state"] = s["props"]
         sp = list(dict.fromkeys(onscreen_speakers(s)))
         s["_speaker"] = sp[0] if sp else None
         partner = None
@@ -628,6 +636,8 @@ def parse_dsl(text):
             elif key == "C:": cur["camera"] = val
             elif key == "M:": cur["mood"] = val
             elif key == "N:": cur["sound"] = val
+            elif key == "B:": cur["block"] = val
+            elif key == "P:": cur["props"] = val
             elif key == "D:":
                 t, o, line = [x.strip() for x in val.split("|", 2)]; cur["dialogue"].append((t, o, line.strip('"')))
             elif key == "T:":
@@ -639,6 +649,17 @@ ALL = {"1": S12.S["1"], "2": S12.S["2"]}
 for f in sorted((HERE / "directed").glob("*.txt")):
     for scn, v in parse_dsl(f.read_text()).items():
         MOODS[scn] = v["mood"]; ALL[scn] = v["shots"]
+
+# Entrances and exits (scene 12+): each "@after X" block is a full shot inserted straight after shot X.
+for _chunk in re.split(r"(?m)^@after ", (HERE / "entrances.txt").read_text())[1:]:
+    _anchor, _body = _chunk.split("\n", 1)
+    _anchor = _anchor.strip(); _scn = _anchor.split(".")[0]
+    _new = parse_dsl(f"## {_scn}\n" + _body)[_scn]["shots"][0]
+    _new["block"] = ("ENTRANCE / EXIT SHOT: the character is seen walking in or walking out completely, smoothly, at a normal human pace, exactly as the timestamps say. "
+                     + _new.get("block", ""))
+    _ids = [x["id"] for x in ALL[_scn]]
+    assert _anchor in _ids, ("entrance anchor not found", _anchor)
+    ALL[_scn].insert(_ids.index(_anchor) + 1, _new)
 
 def check(scn, s):
     keys = set(C)

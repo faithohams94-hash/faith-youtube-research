@@ -1,0 +1,23 @@
+# Outfit changes from Scene 12 (scene | character | outfit). Same day = same outfit. Uniforms stay.
+14 | femi | a charcoal-grey two-piece suit with a white shirt and no tie, his jacket held over his head in the rain
+19 | femi | a light grey shirt with the sleeves rolled up to the elbows and charcoal trousers (his jacket is off)
+21 | femi | a dark green polo shirt and beige chinos (he came straight to the hospital at dawn), holding two coffees
+24 | femi | a tailored black suit with a light blue shirt and a dark blue tie
+25 | femi | a tailored black suit with a light blue shirt and a dark blue tie
+26 | femi | the same tailored black suit and light blue shirt, his dark blue tie pulled loose and the top button open
+27 | femi | the same tailored black suit and light blue shirt, his tie pulled loose, the jacket open
+28 | femi | a slim charcoal pinstripe suit with a white shirt and a burgundy tie
+32 | femi | a white linen shirt with the sleeves rolled up and dark trousers
+30 | gabriel | a sharp navy suit with a crisp white shirt and no tie, holding papers
+13 | funmi | a faded green wrapper and blouse with her wine-coloured head wrap
+16 | audu | a light brown kaftan and his white embroidered cap
+22 | audu | a faded blue kaftan and his white embroidered cap
+23 | audu | a cream kaftan, holding his white cap in his hand
+22 | chief | an orange-and-green ankara shirt and dark trousers
+23 | chief | a blue-and-yellow ankara shirt and dark trousers, in his wheelchair
+25 | chief | a red-and-black ankara shirt, sweaty from rehab, in his wheelchair with the brown puppy on his lap
+23 | lekan | a wine-coloured agbada with gold embroidery, holding a bouquet of white lilies
+29 | dayo | a plain grey T-shirt and jeans
+31 | segun | a sky-blue senator kaftan and trousers
+31 | kunle | a dark green senator kaftan and trousers
+31 | lola | an elegant emerald-green dress with gold earrings

@@ -13,7 +13,7 @@
 ## 14
 14.2 | Ireti's scrubs are clean and dry; Chief has a wool blanket over his knees.
 14.10 | It is raining: Ireti's braids, face and the back of her scrubs are soaked and stay soaked; Chief stays dry under the small umbrella Ireti holds over him.
-14.14 | Ireti is soaked; Chief is dry under the umbrella; Femi's navy jacket is held over his head and his shoulders and trousers are wet with rain.
+14.14 | Ireti is soaked; Chief is dry under the umbrella; Femi's charcoal suit jacket is held over his head and his shoulders and trousers are wet with rain.
 14.20 | Evening: Ireti has changed into clean, dry scrubs; Chief is dry, the blanket over his knees.
 
 ## 15
@@ -35,7 +35,7 @@
 18.10 | The medicine cabinet is locked again; Ronke holds the brown bottle of blue tablets.
 
 ## 19
-19.2 | Femi's suit jacket is off and his white shirt sleeves are rolled up to the elbows; the blue tablet is still hidden in Ireti's scrubs pocket.
+19.2 | Femi's jacket is off and his light grey shirt sleeves are rolled up to the elbows; the blue tablet is still hidden in Ireti's scrubs pocket.
 19.19 | Femi's sleeves are rolled up; Ireti presses the small blue tablet into Dr. Hassan's palm and from then on he holds it closed in his hand.
 
 ## 20

@@ -29,6 +29,53 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
 
 ======================================================================
+SHOT 18.1x | Into the dark kitchen | Start: New image
+======================================================================
+
+[IMAGE PROMPT - ChatGPT or Google Flow]
+CHARACTERS IN THIS IMAGE: IRETI. I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
+Create one image, highest resolution, sharp and clear.
+FRAME: The dark mansion kitchen after midnight: Ireti tiptoeing in through the doorway, barefoot, holding hospital papers, looking around carefully.
+CONTINUITY: this frame comes straight after: Very slow push into the dark kitchen; nothing moves. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+EYES: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
+STAGING (keep exactly; this wins over anything above if different): ENTRANCE / EXIT SHOT: the character is seen walking in or walking out completely, smoothly, at a normal human pace, exactly as the timestamps say. Ireti walks in alone from the doorway on the LEFT to the sink on the RIGHT. Ireti nervous and alert. The camera is on the same side of the action as the other shots of this scene, so everyone stays on the same side of the frame.
+CARRIED-OVER LOOK & PROPS (keep exactly from the earlier shots): Ireti holds the hospital discharge papers.
+SETTING (identical in every shot of this scene): The mansion kitchen after midnight: one small light over the sink, the rest in deep shadow, a big fridge humming, a locked wooden medicine cabinet on the wall, a pantry door with a key hanging on a nail inside it. The pantry: shelves and sacks of rice, very dim.
+CHARACTERS: IRETI: slim young Nigerian woman, dark brown skin, soft round face, big expressive eyes, long black box braids pulled back into a low ponytail, small silver stud earrings, no makeup; wearing a light-blue scrubs top and white trousers.
+Please follow these rules: 1) Create ONLY what this prompt describes. Add nothing else: no extra people, objects, signs or decorations. 2) FORMAT: one photorealistic still frame from a high-budget Nigerian drama feature film, wide 16:9 landscape, 35mm cinema lens, shallow depth of field. Never an illustration, painting or 3D render. 3) CHARACTERS: the same people as in the attached approved images and character sheets, not lookalikes. Copy each face, hairline, hairstyle, beard, skin tone, age, height, weight and body build exactly. 4) LIGHT: only from real sources in the scene (windows, lamps, sun, bulbs, candles). Match the warm, natural cinematic light and colour of the approved character images. 5) GRADE: muted, slightly desaturated, low-contrast feature-film look, soft natural light, deep but soft shadows, never oversaturated, never glossy. Matte natural skin with visible pores and texture, fine film grain. Natural matte skin, no glossy or airbrushed look. 6) CONTINUITY: the setting, props, wardrobe, weather and time of day are exactly as described for this scene, identical to the other shots of the scene. 7) Hands have five fingers and hold objects naturally. Bodies and faces are anatomically correct. 8) No readable text, logos, captions or watermarks anywhere unless this prompt gives the exact words. 9) All people are fictional adults unless stated. Ordinary, respectful, non-graphic drama.
+
+[VIDEO PROMPT - Grok]
+ORDER TO GROK: generate this video ONLY with every item below in it: the exact dialogue and nothing more, every mandatory action clearly shown, everyone in their staging positions, the eye contact and the emotions. Do not leave anything out, do not add anything, do not change anything.
+1. SCENE: Ireti quietly sneaks into the kitchen at night.
+2. STAR & FOCUS: IRETI's face and body, centre frame.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: Very slow push into the dark kitchen; nothing moves. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2B. EYE CONTACT: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
+2C. EMOTION: faces and bodies show exactly what this moment means: Ireti quietly sneaks into the kitchen at night. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
+2D. STAGING (exactly the same as the previous shot unless the timestamps say someone moves): ENTRANCE / EXIT SHOT: the character is seen walking in or walking out completely, smoothly, at a normal human pace, exactly as the timestamps say. Ireti walks in alone from the doorway on the LEFT to the sink on the RIGHT. Ireti nervous and alert. Sitting people stay sitting, standing people stay standing, and nobody changes side of the frame. The camera stays on the same side of the action, so left stays left and right stays right in every shot.
+2E. REACTIONS: every listener reacts with their whole body to what they hear, as real people do. Bad news: shoulders drop, faces fall, eyes fill, breathing catches, hands go to the mouth or chest. Insults: the body stiffens, the jaw tightens, the eyes flash. Good news: the face opens, eyes shine, breath rushes out. Never a neutral face, never a smile at bad news.
+2F. ACTING: Play it like a real person living this moment, not like an AI: every word and every movement matches the feeling. Each line is spoken the way a real person would say it in this situation, with real breathing and natural pauses. Fear lives in the body: quick shallow breathing, eyes darting, swallowing hard, trembling hands.
+2G. SMOOTH HUMAN MOVEMENT: Every movement is smooth, continuous and natural, like a real actor on a film set: no jerks, no robotic or sudden moves, no frozen bodies. Each action starts gently, carries through with real weight and finishes gently: sitting down, standing up, walking in, walking out and closing the door, picking things up and putting them down, touching, hugging, pushing, throwing.
+2H. HANDS & SMALL DETAILS: Hands and faces are alive like a real person's: hands hold, adjust, rest in a pocket or on the table, touch the face or glasses while thinking, then settle back smoothly. Small details (a breath before speaking, a glance down, fingers tightening, a hand going into a pocket and coming back out) give the moment life, but never distract from the main action.
+2J. CARRIED-OVER LOOK & PROPS (from the earlier clips; keep exactly, do not undo): Ireti holds the hospital discharge papers. Whatever was changed earlier stays changed: a removed jacket stays off, a stain stays, wet clothes stay wet, objects stay in the same hands or places.
+2K. ONE CONTINUOUS FILM: this clip must look like it was filmed in the same take as the clips before and after it: same lens, same colour, same light direction, same time of day, same clothes, hair, sweat, tears and props; any movement already happening keeps going at the same speed. Nobody should be able to tell where one clip ends and the next begins.
+2N. FACIAL EXPRESSION BOX: IRETI (feeling nervous and alert): while listening, the face reacts to every word; quick shallow breathing, eyes darting, swallowing hard, trembling hands; the head turns and tilts naturally toward the person they are with.
+2O. BEHAVIOUR BOX (small natural actions; use one or two that fit this moment, done smoothly and finished naturally, never all of them): IRETI: folds her hands in front of her, tucks a loose braid behind her ear, wipes a tear away fast, smooths the front of her clothes. Whatever a hand does, it finishes it: a hand that goes into a pocket comes back out or stays there calmly, a hand on the head comes down smoothly.
+3. DIALOGUE: NONE. Nobody speaks. Every mouth stays closed. No voices at all.
+4. TIMESTAMPS:
+   0:00-0:04 - Ireti steps in quietly, glancing over her shoulder.
+   0:04-0:08 - She walks carefully across the dark kitchen to the light over the sink.
+   0:08-0:10 - She stops under the light and unfolds the papers.
+4A. CONTINUITY OUT: end on: She stops under the light and unfolds the papers. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
+5. CAMERA: Static wide. Smooth and steady, no shake, no sudden zoom.
+6. MOOD & LIGHTING: After midnight in the kitchen. Tense, secret, thriller. One small light over the sink, everything else in deep shadow, the hum of the fridge.
+7. LOOK / EFFECT: Photorealistic cinematic feature film, shot on 35mm cinema camera, highest resolution, razor-sharp and crystal clear, faces well exposed so every detail shows, shallow depth of field, rich but natural colour with a soft film grade, soft film grain, matte natural skin with real texture. No shine, no glow, no bloom, no HDR, no plastic skin. Every face stays exactly the same person as in the image in every frame: no morphing, no new faces, no new people. No text on screen.
+8. LIP-SYNC & BODY: no lip movement from anyone in the room. Powerful, truthful acting through the eyes, face, breathing and body only.
+9. SOUND: no voices, only a fridge humming, a clock ticking, near silence. No music, no extra sounds.
+10. DURATION: exactly 10 seconds, one continuous shot, no cuts, no transitions. Start from the uploaded image. Highest quality.
+FINAL CHECK BEFORE GENERATING: the words spoken are exactly the dialogue above and nothing else; each line comes only from the character named for it, and nobody else speaks; every mandatory action is clearly visible; nobody changes position, side or posture unless the timestamps say so; eyes are on the other person, never the camera; faces stay the same people; the light and mood stay exactly as in the image.
+
+======================================================================
 SHOT 18.2 | The prescription list | Start: New image
 ======================================================================
 
@@ -36,7 +83,7 @@ SHOT 18.2 | The prescription list | Start: New image
 CHARACTERS IN THIS IMAGE: IRETI. I have uploaded their approved images and character sheets; they must be the same people with the same faces and body builds, not lookalikes.
 Create one image, highest resolution, sharp and clear.
 FRAME: Close shot of Ireti under the sink light reading hospital discharge papers, face turned three-quarters toward the camera, eyes on the other person or the action, never looking into the lens, her finger running down a printed list.
-CONTINUITY: this frame comes straight after: Very slow push into the dark kitchen; nothing moves. Same positions, same eyelines, same props in their hands, same wardrobe and light.
+CONTINUITY: this frame comes straight after: She stops under the light and unfolds the papers. Same positions, same eyelines, same props in their hands, same wardrobe and light.
 EYES: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
 STAGING (keep exactly; this wins over anything above if different): The dark kitchen: Ireti alone at the medicine cabinet and pantry. Tense, secretive. The camera is on the same side of the action as the other shots of this scene, so everyone stays on the same side of the frame.
 CARRIED-OVER LOOK & PROPS (keep exactly from the earlier shots): Ireti holds the hospital discharge papers.
@@ -48,7 +95,7 @@ Please follow these rules: 1) Create ONLY what this prompt describes. Add nothin
 ORDER TO GROK: generate this video ONLY with every item below in it: the exact dialogue and nothing more, every mandatory action clearly shown, everyone in their staging positions, the eye contact and the emotions. Do not leave anything out, do not add anything, do not change anything.
 1. SCENE: Ireti checks his prescriptions.
 2. STAR & FOCUS: IRETI's face and body, centre frame.
-2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: Very slow push into the dark kitchen; nothing moves. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
+2A. CONTINUITY IN: this is the next angle of the SAME moment, straight after: She stops under the light and unfolds the papers. At 0:00 everyone is already in that position, with that eyeline and that emotion. No reset, no fresh pose, nobody turns to the camera first.
 2B. EYE CONTACT: IRETI's eyes follow the action exactly as written; she never looks into the camera lens.
 2C. EMOTION: faces and bodies show exactly what this moment means: Ireti checks his prescriptions. Bad news brings worry, shock or grief; anger brings tension; nobody smiles or laughs unless the timestamps say so. Strong, truthful facial expression and body language.
 2D. STAGING (exactly the same as the previous shot unless the timestamps say someone moves): The dark kitchen: Ireti alone at the medicine cabinet and pantry. Tense, secretive. Sitting people stay sitting, standing people stay standing, and nobody changes side of the frame. The camera stays on the same side of the action, so left stays left and right stays right in every shot.
