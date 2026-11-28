@@ -207,13 +207,17 @@ def eyeline(scn, s):
     return f"{name(who[0])}'s eyes follow the action exactly as written; {she(who[0])} never looks into the camera lens."
 
 ACT_RULES = [
+ (("cold", "smug", "superior", "satisfied", "victorious", "triumphant and cruel", "fake", "oily", "watchful"),
+  "coldness lives in the face: a very still face, narrowed eyes, a small tight smile that never reaches the eyes, the chin slightly raised"),
+ (("curious", "intrigued", "puzzled", "thoughtful", "suspicious"),
+  "curiosity lives in the face: the eyebrows lift slightly, the head tilts, the eyes narrow in thought"),
  (("angry", "anger", "fury", "furious", "rage", "roar", "shout", "cruel", "threat", "glare", "snap", "storm", "bitter", "mock"),
   "anger lives in the body: jaw clenched, the veins on the neck and temples standing out, nostrils flaring, eyes hard, chest heaving, a pointing finger or tightening fists"),
  (("cry", "tears", "sob", "grie", "sad", "broken", "devastat", "heartbr", "weep", "hurt", "pain", "lonely"),
   "sadness lives in the body: the eyes turning red and wet, lips trembling, chin quivering, shoulders sinking, the breath catching, a hand wiping tears away"),
  (("shock", "stunned", "freez", "horror", "realis", "gasp", "widen", "pale", "trap"),
   "shock lives in the body: eyes widening, the breath stopping, the mouth falling slightly open, a hand rising to the mouth or chest, the whole body going still"),
- (("fear", "afraid", "nervous", "terrif", "panic", "scared", "trembl", "frighten", "desperate"),
+ (("fear", "afraid", "nervous", "terrif", "panic", "scared", "trembl", "frighten", "desperate", "worr", "anxious", "troubled", "concern", "tense", "uneasy"),
   "fear lives in the body: quick shallow breathing, eyes darting, swallowing hard, trembling hands"),
  (("joy", "laugh", "happy", "grin", "celebrat", "proud", "delight", "overjoy"),
   "joy lives in the body: eyes crinkling, a smile that reaches the eyes, shoulders lifting, light open gestures"),
@@ -234,6 +238,54 @@ SMOOTH = ("Every movement is smooth, continuous and natural, like a real actor o
           "picking things up and putting them down, touching, hugging, pushing, throwing.")
 DETAILS = ("Hands and faces are alive like a real person's: hands hold, adjust, rest in a pocket or on the table, touch the face or glasses while thinking, then settle back smoothly. "
            "Small details (a breath before speaking, a glance down, fingers tightening, a hand going into a pocket and coming back out) give the moment life, but never distract from the main action.")
+
+ACCENT = {
+ "ireti": "a pure Yoruba-Nigerian accent of a young Lagos woman", "chief": "a pure, heavy Yoruba-Nigerian accent of an elderly Lagos chief",
+ "femi": "an educated Lagos Nigerian accent (clearly Nigerian, not American or British)", "gabriel": "a pure Igbo-Nigerian accent",
+ "funmi": "a pure Yoruba-Nigerian accent of a Lagos mother", "dayo": "a Lagos street Nigerian accent of a young man",
+ "ronke": "a crisp Yoruba-Nigerian accent", "audu": "a pure Hausa-Nigerian accent", "hassan": "a northern Hausa-Nigerian accent",
+ "lekan": "a smooth Yoruba-Nigerian accent", "grace": "a soft Nigerian accent", "okoro": "a pure Igbo-Nigerian accent",
+ "jide": "a heavy Lagos Nigerian accent with a pidgin flavour", "chioma": "a pure Igbo-Nigerian accent of a young Lagos woman",
+ "segun": "a polished Yoruba-Nigerian accent", "kunle": "a Yoruba-Nigerian accent", "lola": "a Nigerian accent softened by years in London, still clearly Nigerian",
+ "ajala": "a pure Yoruba-Nigerian accent"}
+GESTURES = {
+ "ireti": "folds her hands in front of her, tucks a loose braid behind her ear, wipes a tear away fast, smooths the front of her clothes",
+ "chief": "drums his fingers on the armrest or the top of his cane, rubs his white beard slowly, grips the armrest, turns his face away when hurt",
+ "femi": "pushes his glasses up, glances at his watch, slips a hand into his trouser pocket and takes it back out, rubs his eyes, straightens his cufflink",
+ "gabriel": "leans in with his forearms on the table, adjusts his glasses, rests a gentle hand on a friend's shoulder, opens his palms when explaining",
+ "funmi": "presses a hand to her chest, adjusts her head wrap, strokes her child's hand, clasps her hands in her lap",
+ "dayo": "scratches the back of his head, fidgets with his bag strap, waves his hands when excited, drops his shoulders when hurt",
+ "ronke": "keeps her hands folded at her waist, smooths her dress, straightens her white collar, holds her chin a little too high",
+ "audu": "holds his cap in both hands, strokes his beard, nods slowly, rests his hands on his knees",
+ "hassan": "clasps his hands calmly, holds a file or pen, touches the stethoscope around his neck, gives one slow nod",
+ "lekan": "pats people on the arm or shoulder, adjusts his gold watch, touches his gold-rimmed glasses, spreads his hands wide",
+ "grace": "clasps her hands, touches her name badge, straightens her scrubs",
+ "okoro": "closes his file before bad news, rubs the back of his neck, rests a hand gently on a shoulder",
+ "jide": "wipes sweat off his forehead with his hand, points his finger, slaps the counter, puts his hands on his hips",
+ "chioma": "puts a hand on her hip, chews gum, rolls her eyes, flicks her hand dismissively",
+ "segun": "checks his watch, adjusts his tie, rubs his forehead, leans back in his chair",
+ "kunle": "pushes his glasses up his nose, folds his arms, taps a pen",
+ "lola": "presses her fingers to her lips, touches her earring, wraps her arms around herself",
+ "ajala": "points into the crowd, lifts his gold guitar, shades his eyes, throws his head back laughing"}
+
+def own_feeling(s, k):
+    """The character's own feeling from the last sentence of the staging map, e.g. 'Femi worried; Ireti steady'."""
+    blk = (s.get("_block") or "").strip()
+    if not blk: return None
+    last = re.split(r"(?<=\.)\s+", blk)[-1]
+    first = name(k).split()[-1] if k in ("ronke", "audu", "hassan", "okoro", "jide", "lekan", "grace") else name(k).split()[0]
+    m = re.search(r"\b" + re.escape(first) + r"\b\s+([^;.]+)", last, re.I)
+    return m.group(1).strip() if m else None
+
+def face_box(scn, s, k):
+    feel = own_feeling(s, k)
+    src = (feel or " ".join([s["scene"]] + [a for _, a in s["timeline"]])).lower()
+    tells = [t.split(":", 1)[1].strip() for keys, t in ACT_RULES if any(x in src for x in keys)][:2]
+    speaking = k == s.get("_speaker") or any(parse_owner(o)[1] == k and parse_owner(o)[0] == "on" for _, o, _ in s["dialogue"])
+    role = "while speaking, the face carries every word" if speaking else "while listening, the face reacts to every word"
+    mood = f"feeling {feel}" if feel else "feeling what this moment means"
+    return (f"{name(k).upper()} ({mood}): {role}; " + ("; ".join(tells) if tells else "small, real changes in the eyes and mouth")
+            + "; the head turns and tilts naturally toward the person they are with.")
 
 VOICE_KINDS = ("phone", "screen", "tv", "pa", "off", "memory")
 
@@ -289,6 +341,16 @@ def video(scn, s):
         listeners = [w for w in who if w != s.get("_speaker")]
         if s.get("_speaker") and listeners and not s.get("split"):
             L.append(f"2L. LISTENER REACTION: while {name(s['_speaker'])} speaks, " + " and ".join(name(w) for w in listeners) + (" react" if len(listeners) > 1 else " reacts") + " visibly to the words, mouths closed: the eyes change, the breath catches or slows, the head moves slightly, the hands tighten or relax. In the last second, their reaction to what was said is clear on their face.")
+    if int(scn) >= 12 and who:
+        talkers = [parse_owner(o)[1] for _, o, _ in s["dialogue"] if parse_owner(o)[0] == "on" and parse_owner(o)[1] in C]
+        talkers = list(dict.fromkeys(talkers))
+        if talkers:
+            L.append("2M. VOICE & ACCENT BOX: " + " ".join(f"{name(k).upper()} speaks with {ACCENT[k]}; voice: {C[k][2].split(':', 1)[-1].strip()}." for k in talkers)
+                     + " Every voice is genuinely Nigerian. Never an American, British or any other foreign accent. Each character keeps exactly this same voice in every clip.")
+        L.append("2N. FACIAL EXPRESSION BOX: " + " ".join(face_box(scn, s, k) for k in who))
+        L.append("2O. BEHAVIOUR BOX (small natural actions; use one or two that fit this moment, done smoothly and finished naturally, never all of them): "
+                 + " ".join(f"{name(k).upper()}: {GESTURES[k]}." for k in who if k in GESTURES)
+                 + " Whatever a hand does, it finishes it: a hand that goes into a pocket comes back out or stays there calmly, a hand on the head comes down smoothly.")
     if s.get("split") and len(who) >= 2:
         L.append(f"2I. SPLIT SCREEN PHONE CALL: the frame is split down the middle into two halves, two different places at the same moment. LEFT half = {name(who[0]).upper()} ({ident(scn, who[0])}). RIGHT half = {name(who[1]).upper()} ({ident(scn, who[1])}). Each person stays in their own half, in their own place, holding their phone. Each person speaks ONLY their own line in their own half; while one talks, the other listens with mouth closed. The two halves never swap, merge or move.")
     if s["dialogue"]:
