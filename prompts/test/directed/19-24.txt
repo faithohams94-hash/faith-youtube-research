@@ -230,7 +230,7 @@ T: 0:00-0:01 | Chief continues.
 T: 0:01-0:09 | He speaks slowly.
 T: 0:09-0:10 | He pauses.
 C: Static.
-start: Last frame of 20.4
+start: New image
 
 # 20.6 | "Like a question mark." | who: chief
 F: Same close-up of Chief, eyes wet.
@@ -240,7 +240,7 @@ T: 0:00-0:01 | Chief's voice cracks.
 T: 0:01-0:09 | He speaks with pain.
 T: 0:09-0:10 | He presses his lips together.
 C: Static.
-start: Last frame of 20.5
+start: New image
 
 # 20.7 | "Nobody is walking toward me." | who: chief, ireti
 F: Close-up of Chief finally turning to look at Ireti on the floor beside him, facing the camera.
@@ -275,7 +275,7 @@ T: 0:00-0:01 | Ireti continues.
 T: 0:01-0:08 | She speaks quietly.
 T: 0:08-0:10 | A tear falls.
 C: Static.
-start: Last frame of 20.9
+start: New image
 
 # 20.11 | "But I stay for you." | who: ireti, chief
 F: Close-up of Ireti facing the camera, a small brave smile through tears.
@@ -347,7 +347,7 @@ T: 0:00-0:01 | Ireti smiles slightly.
 T: 0:01-0:05 | She says it.
 T: 0:05-0:10 | She waits.
 C: Static.
-start: Last frame of 20.17
+start: New image
 
 # 20.19 | "Fine. I'll do the surgery." | who: chief
 F: Close-up of Chief facing the camera, looking at her as if hearing a forgotten language.

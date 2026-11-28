@@ -350,7 +350,7 @@ def video(scn, s):
         L.append("2K. ONE CONTINUOUS FILM: this clip must look like it was filmed in the same take as the clips before and after it: same lens, same colour, same light direction, same time of day, same clothes, hair, sweat, tears and props; any movement already happening keeps going at the same speed. Nobody should be able to tell where one clip ends and the next begins.")
         listeners = [w for w in who if w != s.get("_speaker")]
         if s.get("_speaker") and listeners and not s.get("split"):
-            L.append(f"2L. LISTENER REACTION: while {name(s['_speaker'])} speaks, " + " and ".join(name(w) for w in listeners) + (" react" if len(listeners) > 1 else " reacts") + " visibly to the words, mouths closed: the eyes change, the breath catches or slows, the head moves slightly, the hands tighten or relax. In the last second, their reaction to what was said is clear on their face.")
+            L.append(f"2L. LISTENER REACTION: while {name(s['_speaker'])} speaks, " + " and ".join(name(w) for w in listeners) + (" react" if len(listeners) > 1 else " reacts") + " visibly to the words, mouths closed: the eyes change, the breath catches or slows, the head moves slightly, the hands tighten or relax. By the end of the clip, their reaction to what was said is clear on their face, and they keep moving naturally.")
     if int(scn) >= 12 and who:
         talkers = [parse_owner(o)[1] for _, o, _ in s["dialogue"] if parse_owner(o)[0] == "on" and parse_owner(o)[1] in C]
         talkers = list(dict.fromkeys(talkers))
@@ -429,7 +429,10 @@ def video(scn, s):
         silent = int(scn) >= 6 and s["dialogue"] and _sec(t.split("-")[0]) >= last_line
         L.append(f"   {t} - {a}" + (" (in complete silence, no words)" if silent else ""))
     if who:
-        L.append(f"4A. CONTINUITY OUT: end on: {s['timeline'][-1][1]} Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.")
+        if int(scn) >= 12:
+            L.append(f"4A. ENDING: the clip ends while this is still happening: {s['timeline'][-1][1]} Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.")
+        else:
+            L.append(f"4A. CONTINUITY OUT: end on: {s['timeline'][-1][1]} Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.")
         L.append("4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.")
     if int(scn) >= 7 and who:
         acts = [(t, a) for t, a in s["timeline"] if ACTION_RE.search(a)]

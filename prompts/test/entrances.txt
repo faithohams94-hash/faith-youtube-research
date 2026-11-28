@@ -1,7 +1,7 @@
 # Entrances and exits added from Scene 12. "@after X" puts the shot straight after shot X.
 
 @after 12.15
-# 12.15x | Ireti leaves the room | who: chief | start: NO NEW IMAGE - use the LAST FRAME of the shot 12.15 clip
+# 12.15x | Ireti leaves the room | who: chief | start: NO NEW IMAGE - use the image you already made for shot 12.15
 F: Chief in his wheelchair in profile, facing the tall mirror in his dark bedroom; behind him, the thin blade of light from the open doorway.
 S: Dismissed, Ireti quietly leaves Chief's room; we only see it on his face and in the light.
 T: 0:00-0:04 | Chief stares into the mirror, jaw tight, completely still.
@@ -13,7 +13,7 @@ B: Chief alone in his wheelchair facing the mirror; Ireti is out of frame behind
 P: Chief sits in his wheelchair with a wool blanket over his knees.
 
 @after 13.11
-# 13.11x | Ireti leaves with the tray | who: ireti, chief | start: NO NEW IMAGE - use the LAST FRAME of the shot 13.11 clip
+# 13.11x | Ireti leaves with the tray | who: ireti, chief | start: NO NEW IMAGE - use the image you already made for shot 13.11
 F: Chief's bedroom: Ireti kneeling at Chief's feet, her scrubs top still stained with pepper soup; Chief in his wheelchair watching her.
 S: Ireti finishes and quietly leaves the room.
 T: 0:00-0:03 | Ireti finishes the massage, stands up slowly and picks up the tray with the empty bowl from the small table.

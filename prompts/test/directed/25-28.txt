@@ -253,7 +253,7 @@ T: 0:00-0:01 | Mallam Audu continues.
 T: 0:01-0:07 | He speaks calmly.
 T: 0:07-0:10 | He bows his head.
 C: Static.
-start: Last frame of 26.6
+start: New image
 
 # 26.8 | After-action: Ronke freezes | who: ronke
 F: Close-up of Ronke facing the camera, her face freezing.
@@ -331,7 +331,7 @@ T: 0:00-0:01 | Ronke sobs.
 T: 0:01-0:04 | She says it, broken.
 T: 0:04-0:10 | She covers her face.
 C: Static.
-start: Last frame of 26.15
+start: New image
 
 # 26.17 | Femi hears it | who: femi
 F: Femi rushing in through the doorway, facing the camera, going pale.
@@ -384,7 +384,7 @@ T: 0:00-0:01 | Chief straightens.
 T: 0:01-0:05 | He orders it.
 T: 0:05-0:10 | He grips the armrests.
 C: Static.
-start: Last frame of 26.21
+start: New image
 
 # 26.23 | "You haven't left this house" | who: femi
 F: Close-up of Femi facing the camera, surprised.
@@ -507,7 +507,7 @@ T: 0:00-0:01 | Mama Funmi's eyes drift to the memory.
 T: 0:01-0:07 | She speaks slowly.
 T: 0:07-0:10 | She pauses.
 C: Static.
-start: Last frame of 27.10
+start: New image
 
 # 27.12 | After-action: Chief goes still | who: chief
 F: Close-up of Chief facing the camera, frozen.

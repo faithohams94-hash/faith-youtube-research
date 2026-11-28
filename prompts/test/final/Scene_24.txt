@@ -65,7 +65,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:00-0:04 - The phone rings in her hand, the screen clearly showing "DR. HASSAN".
    0:04-0:07 - Ireti's thumb answers it.
    0:07-0:10 - She lifts it smoothly to her ear.
-4A. CONTINUITY OUT: end on: She lifts it smoothly to her ear. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: She lifts it smoothly to her ear. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 4C. MANDATORY ACTIONS: these MUST happen on screen, fully and clearly, at exactly these times. Show each whole movement from start to finish: a thrown or flicked object really flies through the air and lands on the floor, a door really swings and shuts, a hand really passes an object to another hand, a push really moves the other person. Never skip, shorten, hide or only suggest them:
    0:00-0:04 - The phone rings in her hand, the screen clearly showing "DR. HASSAN".
@@ -122,7 +122,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:00-0:01 - Dr. Hassan looks down at the lab report.
    0:01-0:08 - He speaks gravely into the phone; Ireti listens, her face going still.
    0:08-0:10 - Ireti's breath stops. (in complete silence, no words)
-4A. CONTINUITY OUT: end on: Ireti's breath stops. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: Ireti's breath stops. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static split screen. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: A hot afternoon. Bright and still outside, then shock. Strong sun, heat haze, deep shade behind the gazebo; inside, the bright grand hall suddenly cold.
@@ -176,7 +176,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:00-0:01 - Dr. Hassan leans forward.
    0:01-0:08 - He explains slowly; Ireti's hand rises to cover her mouth.
    0:08-0:10 - Ireti's eyes widen. (in complete silence, no words)
-4A. CONTINUITY OUT: end on: Ireti's eyes widen. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: Ireti's eyes widen. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 4C. MANDATORY ACTIONS: these MUST happen on screen, fully and clearly, at exactly these times. Show each whole movement from start to finish: a thrown or flicked object really flies through the air and lands on the floor, a door really swings and shuts, a hand really passes an object to another hand, a push really moves the other person. Never skip, shorten, hide or only suggest them:
    0:01-0:08 - He explains slowly; Ireti's hand rises to cover her mouth.
@@ -232,7 +232,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:00-0:02 - Ireti lowers her hand slowly.
    0:02-0:04 - She whispers it.
    0:04-0:10 - Dr. Hassan nods slowly, grim. (in complete silence, no words)
-4A. CONTINUITY OUT: end on: Dr. Hassan nods slowly, grim. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: Dr. Hassan nods slowly, grim. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 4C. MANDATORY ACTIONS: these MUST happen on screen, fully and clearly, at exactly these times. Show each whole movement from start to finish: a thrown or flicked object really flies through the air and lands on the floor, a door really swings and shuts, a hand really passes an object to another hand, a push really moves the other person. Never skip, shorten, hide or only suggest them:
    0:00-0:02 - Ireti lowers her hand slowly.
@@ -288,7 +288,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:00-0:01 - Dr. Hassan sits up.
    0:01-0:06 - He says it urgently; Ireti listens, pale.
    0:06-0:10 - Ireti nods, already turning toward the house. (in complete silence, no words)
-4A. CONTINUITY OUT: end on: Ireti nods, already turning toward the house. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: Ireti nods, already turning toward the house. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 4C. MANDATORY ACTIONS: these MUST happen on screen, fully and clearly, at exactly these times. Show each whole movement from start to finish: a thrown or flicked object really flies through the air and lands on the floor, a door really swings and shuts, a hand really passes an object to another hand, a push really moves the other person. Never skip, shorten, hide or only suggest them:
    0:00-0:01 - Dr. Hassan sits up.
@@ -338,7 +338,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:00-0:04 - Both lower their phones slowly.
    0:04-0:07 - Dr. Hassan rubs his forehead, looking at the report.
    0:07-0:10 - Ireti stares toward the house, breathing fast.
-4A. CONTINUITY OUT: end on: Ireti stares toward the house, breathing fast. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: Ireti stares toward the house, breathing fast. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 4C. MANDATORY ACTIONS: these MUST happen on screen, fully and clearly, at exactly these times. Show each whole movement from start to finish: a thrown or flicked object really flies through the air and lands on the floor, a door really swings and shuts, a hand really passes an object to another hand, a push really moves the other person. Never skip, shorten, hide or only suggest them:
    0:00-0:04 - Both lower their phones slowly.
@@ -392,7 +392,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:00-0:01 - Ireti lowers the phone.
    0:01-0:06 - She whispers.
    0:06-0:10 - She turns and starts running. (in complete silence, no words)
-4A. CONTINUITY OUT: end on: She turns and starts running. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: She turns and starts running. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 4C. MANDATORY ACTIONS: these MUST happen on screen, fully and clearly, at exactly these times. Show each whole movement from start to finish: a thrown or flicked object really flies through the air and lands on the floor, a door really swings and shuts, a hand really passes an object to another hand, a push really moves the other person. Never skip, shorten, hide or only suggest them:
    0:00-0:01 - Ireti lowers the phone.
@@ -439,7 +439,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 3. DIALOGUE: NONE. Nobody speaks. Every mouth stays closed. No voices at all.
 4. TIMESTAMPS:
    0:00-0:10 - Ireti runs across the lawn toward the house.
-4A. CONTINUITY OUT: end on: Ireti runs across the lawn toward the house. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: Ireti runs across the lawn toward the house. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 4C. MANDATORY ACTIONS: these MUST happen on screen, fully and clearly, at exactly these times. Show each whole movement from start to finish: a thrown or flicked object really flies through the air and lands on the floor, a door really swings and shuts, a hand really passes an object to another hand, a push really moves the other person. Never skip, shorten, hide or only suggest them:
    0:00-0:10 - Ireti runs across the lawn toward the house.
@@ -487,7 +487,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 4. TIMESTAMPS:
    0:00-0:04 - Ireti stops dead in the doorway, out of breath.
    0:04-0:10 - Everyone turns to look at her. Silence. Slow fade.
-4A. CONTINUITY OUT: end on: Everyone turns to look at her. Silence. Slow fade. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: Everyone turns to look at her. Silence. Slow fade. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: A hot afternoon. Bright and still outside, then shock. Strong sun, heat haze, deep shade behind the gazebo; inside, the bright grand hall suddenly cold.

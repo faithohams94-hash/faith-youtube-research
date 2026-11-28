@@ -72,7 +72,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:00-0:01 - The physio steps back from the frame.
    0:01-0:04 - He says it.
    0:04-0:10 - Chief grips the bars, breathing hard. (in complete silence, no words)
-4A. CONTINUITY OUT: end on: Chief grips the bars, breathing hard. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: Chief grips the bars, breathing hard. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static wide. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Night, rain on the glass, every light in the house on. Triumphant and tearful. Warm practical lights in the rehab room, rain streaks on the window, faces glowing with sweat and tears.
@@ -112,7 +112,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 2H. HANDS & SMALL DETAILS: Hands and faces are alive like a real person's: hands hold, adjust, rest in a pocket or on the table, touch the face or glasses while thinking, then settle back smoothly. Small details (a breath before speaking, a glance down, fingers tightening, a hand going into a pocket and coming back out) give the moment life, but never distract from the main action.
 2J. CARRIED-OVER LOOK & PROPS (from the earlier clips; keep exactly, do not undo): Chief wears a white vest and grey track trousers, sweat pouring down his face. Whatever was changed earlier stays changed: a removed jacket stays off, a stain stays, wet clothes stay wet, objects stay in the same hands or places.
 2K. ONE CONTINUOUS FILM: this clip must look like it was filmed in the same take as the clips before and after it: same lens, same colour, same light direction, same time of day, same clothes, hair, sweat, tears and props; any movement already happening keeps going at the same speed. Nobody should be able to tell where one clip ends and the next begins.
-2L. LISTENER REACTION: while CHIEF ADENUGA speaks, IRETI reacts visibly to the words, mouths closed: the eyes change, the breath catches or slows, the head moves slightly, the hands tighten or relax. In the last second, their reaction to what was said is clear on their face.
+2L. LISTENER REACTION: while CHIEF ADENUGA speaks, IRETI reacts visibly to the words, mouths closed: the eyes change, the breath catches or slows, the head moves slightly, the hands tighten or relax. By the end of the clip, their reaction to what was said is clear on their face, and they keep moving naturally.
 2M. VOICE & ACCENT BOX: CHIEF ADENUGA speaks with a pure, heavy Yoruba-Nigerian accent of an elderly Lagos chief; voice: very deep, slow, gravelly bass, strong Yoruba-Nigerian accent, long heavy pauses; booming only when angry. Every voice is genuinely Nigerian. Never an American, British or any other foreign accent. Each character keeps exactly this same voice in every clip.
 2N. FACIAL EXPRESSION BOX: CHIEF ADENUGA (feeling what this moment means): while speaking, the face carries every word; quick shallow breathing, eyes darting, swallowing hard, trembling hands; the head turns and tilts naturally toward the person they are with. IRETI (feeling what this moment means): while listening, the face reacts to every word; quick shallow breathing, eyes darting, swallowing hard, trembling hands; the head turns and tilts naturally toward the person they are with.
 2O. BEHAVIOUR BOX (small natural actions; use one or two that fit this moment, done smoothly and finished naturally, never all of them): CHIEF ADENUGA: drums his fingers on the armrest or the top of his cane, rubs his white beard slowly, grips the armrest, turns his face away when hurt. IRETI: folds her hands in front of her, tucks a loose braid behind her ear, wipes a tear away fast, smooths the front of her clothes. Whatever a hand does, it finishes it: a hand that goes into a pocket comes back out or stays there calmly, a hand on the head comes down smoothly.
@@ -126,7 +126,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:00-0:01 - Chief grits his teeth.
    0:01-0:04 - He says it through gritted teeth.
    0:04-0:10 - He tightens his grip. (in complete silence, no words)
-4A. CONTINUITY OUT: end on: He tightens his grip. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: He tightens his grip. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static wide two-shot showing both people, with a very slow, gentle push-in. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Night, rain on the glass, every light in the house on. Triumphant and tearful. Warm practical lights in the rehab room, rain streaks on the window, faces glowing with sweat and tears.
@@ -178,7 +178,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:00-0:01 - Ireti opens her arms wider.
    0:01-0:05 - She says it softly.
    0:05-0:10 - She waits, eyes shining. (in complete silence, no words)
-4A. CONTINUITY OUT: end on: She waits, eyes shining. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: She waits, eyes shining. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 4C. MANDATORY ACTIONS: these MUST happen on screen, fully and clearly, at exactly these times. Show each whole movement from start to finish: a thrown or flicked object really flies through the air and lands on the floor, a door really swings and shuts, a hand really passes an object to another hand, a push really moves the other person. Never skip, shorten, hide or only suggest them:
    0:00-0:01 - Ireti opens her arms wider.
@@ -227,7 +227,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:00-0:05 - Chief pushes up; his legs shake violently.
    0:05-0:08 - He STANDS, fully upright, trembling.
    0:08-0:10 - The puppy barks wildly.
-4A. CONTINUITY OUT: end on: The puppy barks wildly. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: The puppy barks wildly. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 4C. MANDATORY ACTIONS: these MUST happen on screen, fully and clearly, at exactly these times. Show each whole movement from start to finish: a thrown or flicked object really flies through the air and lands on the floor, a door really swings and shuts, a hand really passes an object to another hand, a push really moves the other person. Never skip, shorten, hide or only suggest them:
    0:00-0:05 - Chief pushes up; his legs shake violently.
@@ -276,7 +276,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 4. TIMESTAMPS:
    0:00-0:05 - Ireti's hands cover her mouth as tears rise.
    0:05-0:10 - Dr. Hassan tightens his grip on the physio's arm.
-4A. CONTINUITY OUT: end on: Dr. Hassan tightens his grip on the physio's arm. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: Dr. Hassan tightens his grip on the physio's arm. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 4C. MANDATORY ACTIONS: these MUST happen on screen, fully and clearly, at exactly these times. Show each whole movement from start to finish: a thrown or flicked object really flies through the air and lands on the floor, a door really swings and shuts, a hand really passes an object to another hand, a push really moves the other person. Never skip, shorten, hide or only suggest them:
    0:00-0:05 - Ireti's hands cover her mouth as tears rise.
@@ -330,7 +330,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:00-0:02 - Ireti breathes.
    0:02-0:05 - She whispers.
    0:05-0:10 - She holds out her hands. (in complete silence, no words)
-4A. CONTINUITY OUT: end on: She holds out her hands. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: She holds out her hands. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 4C. MANDATORY ACTIONS: these MUST happen on screen, fully and clearly, at exactly these times. Show each whole movement from start to finish: a thrown or flicked object really flies through the air and lands on the floor, a door really swings and shuts, a hand really passes an object to another hand, a push really moves the other person. Never skip, shorten, hide or only suggest them:
    0:05-0:10 - She holds out her hands.
@@ -379,7 +379,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:00-0:03 - His right foot slides forward an inch, then a full step.
    0:03-0:06 - Then the left.
    0:06-0:10 - Three. Four. He is crying.
-4A. CONTINUITY OUT: end on: Three. Four. He is crying. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: Three. Four. He is crying. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 4C. MANDATORY ACTIONS: these MUST happen on screen, fully and clearly, at exactly these times. Show each whole movement from start to finish: a thrown or flicked object really flies through the air and lands on the floor, a door really swings and shuts, a hand really passes an object to another hand, a push really moves the other person. Never skip, shorten, hide or only suggest them:
    0:00-0:03 - His right foot slides forward an inch, then a full step.
@@ -428,7 +428,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:00-0:04 - Five. Six. His knees wobble.
    0:04-0:07 - On seven, his knees buckle and he lunges forward.
    0:07-0:10 - Ireti catches and holds him up; both laughing and sobbing.
-4A. CONTINUITY OUT: end on: Ireti catches and holds him up; both laughing and sobbing. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: Ireti catches and holds him up; both laughing and sobbing. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 4C. MANDATORY ACTIONS: these MUST happen on screen, fully and clearly, at exactly these times. Show each whole movement from start to finish: a thrown or flicked object really flies through the air and lands on the floor, a door really swings and shuts, a hand really passes an object to another hand, a push really moves the other person. Never skip, shorten, hide or only suggest them:
    0:07-0:10 - Ireti catches and holds him up; both laughing and sobbing.
@@ -470,7 +470,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 2H. HANDS & SMALL DETAILS: Hands and faces are alive like a real person's: hands hold, adjust, rest in a pocket or on the table, touch the face or glasses while thinking, then settle back smoothly. Small details (a breath before speaking, a glance down, fingers tightening, a hand going into a pocket and coming back out) give the moment life, but never distract from the main action.
 2J. CARRIED-OVER LOOK & PROPS (from the earlier clips; keep exactly, do not undo): Chief wears a white vest and grey track trousers, sweat pouring down his face. Whatever was changed earlier stays changed: a removed jacket stays off, a stain stays, wet clothes stay wet, objects stay in the same hands or places.
 2K. ONE CONTINUOUS FILM: this clip must look like it was filmed in the same take as the clips before and after it: same lens, same colour, same light direction, same time of day, same clothes, hair, sweat, tears and props; any movement already happening keeps going at the same speed. Nobody should be able to tell where one clip ends and the next begins.
-2L. LISTENER REACTION: while CHIEF ADENUGA speaks, IRETI reacts visibly to the words, mouths closed: the eyes change, the breath catches or slows, the head moves slightly, the hands tighten or relax. In the last second, their reaction to what was said is clear on their face.
+2L. LISTENER REACTION: while CHIEF ADENUGA speaks, IRETI reacts visibly to the words, mouths closed: the eyes change, the breath catches or slows, the head moves slightly, the hands tighten or relax. By the end of the clip, their reaction to what was said is clear on their face, and they keep moving naturally.
 2M. VOICE & ACCENT BOX: CHIEF ADENUGA speaks with a pure, heavy Yoruba-Nigerian accent of an elderly Lagos chief; voice: very deep, slow, gravelly bass, strong Yoruba-Nigerian accent, long heavy pauses; booming only when angry. Every voice is genuinely Nigerian. Never an American, British or any other foreign accent. Each character keeps exactly this same voice in every clip.
 2N. FACIAL EXPRESSION BOX: CHIEF ADENUGA (feeling what this moment means): while speaking, the face carries every word; the eyes turning red and wet, lips trembling, chin quivering, shoulders sinking, the breath catching, a hand wiping tears away; eyes widening, the breath stopping, the mouth falling slightly open, a hand rising to the mouth or chest, the whole body going still; the head turns and tilts naturally toward the person they are with. IRETI (feeling what this moment means): while listening, the face reacts to every word; the eyes turning red and wet, lips trembling, chin quivering, shoulders sinking, the breath catching, a hand wiping tears away; eyes widening, the breath stopping, the mouth falling slightly open, a hand rising to the mouth or chest, the whole body going still; the head turns and tilts naturally toward the person they are with.
 2O. BEHAVIOUR BOX (small natural actions; use one or two that fit this moment, done smoothly and finished naturally, never all of them): CHIEF ADENUGA: drums his fingers on the armrest or the top of his cane, rubs his white beard slowly, grips the armrest, turns his face away when hurt. IRETI: folds her hands in front of her, tucks a loose braid behind her ear, wipes a tear away fast, smooths the front of her clothes. Whatever a hand does, it finishes it: a hand that goes into a pocket comes back out or stays there calmly, a hand on the head comes down smoothly.
@@ -484,7 +484,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:00-0:02 - Chief gasps for breath.
    0:02-0:03 - He says it.
    0:03-0:10 - He laughs through tears. (in complete silence, no words)
-4A. CONTINUITY OUT: end on: He laughs through tears. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: He laughs through tears. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 4C. MANDATORY ACTIONS: these MUST happen on screen, fully and clearly, at exactly these times. Show each whole movement from start to finish: a thrown or flicked object really flies through the air and lands on the floor, a door really swings and shuts, a hand really passes an object to another hand, a push really moves the other person. Never skip, shorten, hide or only suggest them:
    0:03-0:10 - He laughs through tears.
@@ -526,7 +526,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 2H. HANDS & SMALL DETAILS: Hands and faces are alive like a real person's: hands hold, adjust, rest in a pocket or on the table, touch the face or glasses while thinking, then settle back smoothly. Small details (a breath before speaking, a glance down, fingers tightening, a hand going into a pocket and coming back out) give the moment life, but never distract from the main action.
 2J. CARRIED-OVER LOOK & PROPS (from the earlier clips; keep exactly, do not undo): Chief wears a white vest and grey track trousers, sweat pouring down his face. Whatever was changed earlier stays changed: a removed jacket stays off, a stain stays, wet clothes stay wet, objects stay in the same hands or places.
 2K. ONE CONTINUOUS FILM: this clip must look like it was filmed in the same take as the clips before and after it: same lens, same colour, same light direction, same time of day, same clothes, hair, sweat, tears and props; any movement already happening keeps going at the same speed. Nobody should be able to tell where one clip ends and the next begins.
-2L. LISTENER REACTION: while IRETI speaks, CHIEF ADENUGA reacts visibly to the words, mouths closed: the eyes change, the breath catches or slows, the head moves slightly, the hands tighten or relax. In the last second, their reaction to what was said is clear on their face.
+2L. LISTENER REACTION: while IRETI speaks, CHIEF ADENUGA reacts visibly to the words, mouths closed: the eyes change, the breath catches or slows, the head moves slightly, the hands tighten or relax. By the end of the clip, their reaction to what was said is clear on their face, and they keep moving naturally.
 2M. VOICE & ACCENT BOX: IRETI speaks with a pure Yoruba-Nigerian accent of a young Lagos woman; voice: soft, clear, medium-high pitch, warm Yoruba-Nigerian accent, gentle steady pace; she gets quieter, not louder, when hurt. Every voice is genuinely Nigerian. Never an American, British or any other foreign accent. Each character keeps exactly this same voice in every clip.
 2N. FACIAL EXPRESSION BOX: IRETI (feeling what this moment means): while speaking, the face carries every word; jaw clenched, the veins on the neck and temples standing out, nostrils flaring, eyes hard, chest heaving, a pointing finger or tightening fists; eyes crinkling, a smile that reaches the eyes, shoulders lifting, light open gestures; the head turns and tilts naturally toward the person they are with. CHIEF ADENUGA (feeling what this moment means): while listening, the face reacts to every word; jaw clenched, the veins on the neck and temples standing out, nostrils flaring, eyes hard, chest heaving, a pointing finger or tightening fists; eyes crinkling, a smile that reaches the eyes, shoulders lifting, light open gestures; the head turns and tilts naturally toward the person they are with.
 2O. BEHAVIOUR BOX (small natural actions; use one or two that fit this moment, done smoothly and finished naturally, never all of them): IRETI: folds her hands in front of her, tucks a loose braid behind her ear, wipes a tear away fast, smooths the front of her clothes. CHIEF ADENUGA: drums his fingers on the armrest or the top of his cane, rubs his white beard slowly, grips the armrest, turns his face away when hurt. Whatever a hand does, it finishes it: a hand that goes into a pocket comes back out or stays there calmly, a hand on the head comes down smoothly.
@@ -540,7 +540,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:00-0:01 - Ireti laughs.
    0:01-0:03 - She shouts with joy.
    0:03-0:10 - She holds him tight. (in complete silence, no words)
-4A. CONTINUITY OUT: end on: She holds him tight. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: She holds him tight. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static wide two-shot showing both people, with a very slow, gentle push-in. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Night, rain on the glass, every light in the house on. Triumphant and tearful. Warm practical lights in the rehab room, rain streaks on the window, faces glowing with sweat and tears.
@@ -580,7 +580,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 2H. HANDS & SMALL DETAILS: Hands and faces are alive like a real person's: hands hold, adjust, rest in a pocket or on the table, touch the face or glasses while thinking, then settle back smoothly. Small details (a breath before speaking, a glance down, fingers tightening, a hand going into a pocket and coming back out) give the moment life, but never distract from the main action.
 2J. CARRIED-OVER LOOK & PROPS (from the earlier clips; keep exactly, do not undo): Chief wears a white vest and grey track trousers, sweat pouring down his face. Whatever was changed earlier stays changed: a removed jacket stays off, a stain stays, wet clothes stay wet, objects stay in the same hands or places.
 2K. ONE CONTINUOUS FILM: this clip must look like it was filmed in the same take as the clips before and after it: same lens, same colour, same light direction, same time of day, same clothes, hair, sweat, tears and props; any movement already happening keeps going at the same speed. Nobody should be able to tell where one clip ends and the next begins.
-2L. LISTENER REACTION: while CHIEF ADENUGA speaks, IRETI reacts visibly to the words, mouths closed: the eyes change, the breath catches or slows, the head moves slightly, the hands tighten or relax. In the last second, their reaction to what was said is clear on their face.
+2L. LISTENER REACTION: while CHIEF ADENUGA speaks, IRETI reacts visibly to the words, mouths closed: the eyes change, the breath catches or slows, the head moves slightly, the hands tighten or relax. By the end of the clip, their reaction to what was said is clear on their face, and they keep moving naturally.
 2M. VOICE & ACCENT BOX: CHIEF ADENUGA speaks with a pure, heavy Yoruba-Nigerian accent of an elderly Lagos chief; voice: very deep, slow, gravelly bass, strong Yoruba-Nigerian accent, long heavy pauses; booming only when angry. Every voice is genuinely Nigerian. Never an American, British or any other foreign accent. Each character keeps exactly this same voice in every clip.
 2N. FACIAL EXPRESSION BOX: CHIEF ADENUGA (feeling what this moment means): while speaking, the face carries every word; small, real changes in the eyes and mouth; the head turns and tilts naturally toward the person they are with. IRETI (feeling what this moment means): while listening, the face reacts to every word; small, real changes in the eyes and mouth; the head turns and tilts naturally toward the person they are with.
 2O. BEHAVIOUR BOX (small natural actions; use one or two that fit this moment, done smoothly and finished naturally, never all of them): CHIEF ADENUGA: drums his fingers on the armrest or the top of his cane, rubs his white beard slowly, grips the armrest, turns his face away when hurt. IRETI: folds her hands in front of her, tucks a loose braid behind her ear, wipes a tear away fast, smooths the front of her clothes. Whatever a hand does, it finishes it: a hand that goes into a pocket comes back out or stays there calmly, a hand on the head comes down smoothly.
@@ -594,7 +594,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:00-0:02 - A glint appears in his eye.
    0:02-0:03 - He says it.
    0:03-0:10 - He smiles slyly. (in complete silence, no words)
-4A. CONTINUITY OUT: end on: He smiles slyly. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: He smiles slyly. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static over-the-shoulder shot. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Night, rain on the glass, every light in the house on. Triumphant and tearful. Warm practical lights in the rehab room, rain streaks on the window, faces glowing with sweat and tears.
@@ -646,7 +646,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:00-0:02 - Ireti pulls back.
    0:02-0:03 - She exclaims.
    0:03-0:10 - She stares at him. (in complete silence, no words)
-4A. CONTINUITY OUT: end on: She stares at him. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: She stares at him. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 4C. MANDATORY ACTIONS: these MUST happen on screen, fully and clearly, at exactly these times. Show each whole movement from start to finish: a thrown or flicked object really flies through the air and lands on the floor, a door really swings and shuts, a hand really passes an object to another hand, a push really moves the other person. Never skip, shorten, hide or only suggest them:
    0:00-0:02 - Ireti pulls back.
@@ -701,7 +701,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:00-0:01 - Chief grins.
    0:01-0:08 - He says it playfully.
    0:08-0:10 - He winks. (in complete silence, no words)
-4A. CONTINUITY OUT: end on: He winks. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: He winks. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 5. CAMERA: Static medium close-up on the speaker, with a very slow push-in. Smooth and steady, no shake, no sudden zoom.
 6. MOOD & LIGHTING: Night, rain on the glass, every light in the house on. Triumphant and tearful. Warm practical lights in the rehab room, rain streaks on the window, faces glowing with sweat and tears.
@@ -748,7 +748,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:00-0:04 - The phone rings on the mat, the screen clearly showing "DAYO".
    0:04-0:07 - Ireti's hand grabs it.
    0:07-0:10 - She answers and holds it up in front of her face.
-4A. CONTINUITY OUT: end on: She answers and holds it up in front of her face. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: She answers and holds it up in front of her face. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 4C. MANDATORY ACTIONS: these MUST happen on screen, fully and clearly, at exactly these times. Show each whole movement from start to finish: a thrown or flicked object really flies through the air and lands on the floor, a door really swings and shuts, a hand really passes an object to another hand, a push really moves the other person. Never skip, shorten, hide or only suggest them:
    0:04-0:07 - Ireti's hand grabs it.
@@ -804,7 +804,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
    0:00-0:01 - Dayo laughs through tears.
    0:01-0:08 - He shouts the news; Ireti's hand flies to her mouth.
    0:08-0:10 - Ireti breaks into sobs of joy. (in complete silence, no words)
-4A. CONTINUITY OUT: end on: Ireti breaks into sobs of joy. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: Ireti breaks into sobs of joy. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 4C. MANDATORY ACTIONS: these MUST happen on screen, fully and clearly, at exactly these times. Show each whole movement from start to finish: a thrown or flicked object really flies through the air and lands on the floor, a door really swings and shuts, a hand really passes an object to another hand, a push really moves the other person. Never skip, shorten, hide or only suggest them:
    0:00-0:01 - Dayo laughs through tears.
@@ -854,7 +854,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 4. TIMESTAMPS:
    0:00-0:05 - Ireti collapses onto the mat, sobbing with joy.
    0:05-0:10 - Dayo hugs a nurse, laughing and crying.
-4A. CONTINUITY OUT: end on: Dayo hugs a nurse, laughing and crying. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: Dayo hugs a nurse, laughing and crying. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 4C. MANDATORY ACTIONS: these MUST happen on screen, fully and clearly, at exactly these times. Show each whole movement from start to finish: a thrown or flicked object really flies through the air and lands on the floor, a door really swings and shuts, a hand really passes an object to another hand, a push really moves the other person. Never skip, shorten, hide or only suggest them:
    0:05-0:10 - Dayo hugs a nurse, laughing and crying.
@@ -902,7 +902,7 @@ ORDER TO GROK: generate this video ONLY with every item below in it: the exact d
 4. TIMESTAMPS:
    0:00-0:06 - Chief takes two more wobbly steps toward the phone.
    0:06-0:10 - Nine steps; he smiles through tears. Slow fade.
-4A. CONTINUITY OUT: end on: Nine steps; he smiles through tears. Slow fade. Hold that exact position, eyeline and emotion in the final second, so the next clip continues from it.
+4A. ENDING: the clip ends while this is still happening: Nine steps; he smiles through tears. Slow fade. Everyone keeps moving, breathing and acting naturally right up to the very last moment. Do NOT freeze, do NOT pause, do NOT hold a still pose, do NOT slow down or stop at the end. No still last frame.
 4B. DETAILS: finish every physical action fully and naturally. Anyone who leaves a room walks out and closes the door behind them, unless told otherwise. When a phone call ends, the phone is lowered or put down. Objects are set down properly and never vanish. Hands always hold things naturally.
 4C. MANDATORY ACTIONS: these MUST happen on screen, fully and clearly, at exactly these times. Show each whole movement from start to finish: a thrown or flicked object really flies through the air and lands on the floor, a door really swings and shuts, a hand really passes an object to another hand, a push really moves the other person. Never skip, shorten, hide or only suggest them:
    0:00-0:06 - Chief takes two more wobbly steps toward the phone.

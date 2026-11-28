@@ -514,7 +514,7 @@ T: 0:00-0:01 | Mallam Audu lowers his voice.
 T: 0:01-0:09 | He speaks slowly.
 T: 0:09-0:10 | He looks down.
 C: Static.
-start: Last frame of 16.6
+start: New image
 
 # 16.8 | "He's lonely." | who: ireti
 F: Close-up of Ireti facing the camera, eyes filling.
@@ -948,4 +948,4 @@ T: 0:00-0:01 | Ronke listens.
 T: 0:01-0:07 | She whispers.
 T: 0:07-0:10 | She hangs up and looks up toward Chief's room. Slow fade.
 C: Static.
-start: Last frame of 18.11
+start: New image
