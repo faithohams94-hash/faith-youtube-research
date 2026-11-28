@@ -1,5 +1,4 @@
 # Outfit changes from Scene 12 (scene | character | outfit). Same day = same outfit. Uniforms stay.
-14 | femi | a charcoal-grey two-piece suit with a white shirt and no tie, his jacket held over his head in the rain
 19 | femi | a light grey shirt with the sleeves rolled up to the elbows and charcoal trousers (his jacket is off)
 21 | femi | a dark green polo shirt and beige chinos (he came straight to the hospital at dawn), holding two coffees
 24 | femi | a tailored black suit with a light blue shirt and a dark blue tie

@@ -1,48 +1,38 @@
 # Entrances and exits added from Scene 12. "@after X" puts the shot straight after shot X.
 
 @after 12.15
-# 12.15x | Ireti leaves the room | who: ireti, chief
-F: Chief's dark bedroom: Ireti at the doorway on the LEFT, turning to leave, her small nylon bag in her hand; Chief in his wheelchair on the RIGHT, his back to her, facing the mirror.
-S: Dismissed, Ireti quietly leaves Chief's room.
-T: 0:00-0:03 | Ireti looks at Chief's back for a moment.
-T: 0:03-0:07 | She turns and walks out through the doorway, smoothly, without a word.
-T: 0:07-0:10 | She closes the door softly behind her; the room is dark again.
+# 12.15x | Ireti leaves the room | who: chief | start: NO NEW IMAGE - use the LAST FRAME of the shot 12.15 clip
+F: Chief in his wheelchair in profile, facing the tall mirror in his dark bedroom; behind him, the thin blade of light from the open doorway.
+S: Dismissed, Ireti quietly leaves Chief's room; we only see it on his face and in the light.
+T: 0:00-0:04 | Chief stares into the mirror, jaw tight, completely still.
+T: 0:04-0:07 | Soft footsteps walk away behind him; a shadow passes across the blade of light on the wall.
+T: 0:07-0:10 | The door closes softly; the blade of light disappears and the room goes dark; Chief closes his eyes.
 C: Static.
-B: Ireti stands at the doorway on the LEFT, then walks out; Chief stays seated in his wheelchair on the RIGHT, his back to her, facing the mirror. Ireti hurt but dignified; Chief cold and alone.
-P: Ireti holds her small faded nylon bag; Chief sits in his wheelchair with a wool blanket over his knees.
-
-@after 13.1
-# 13.1x | Ireti brings the tray in | who: ireti, chief
-F: Chief's dim bedroom: the door opening as Ireti walks in from the LEFT carrying the breakfast tray with pepper soup, bread and tea; Chief in his wheelchair on the RIGHT.
-S: Ireti walks into Chief's room with his breakfast.
-T: 0:00-0:03 | Ireti pushes the door open with her shoulder, the tray steady in both hands.
-T: 0:03-0:07 | She walks in carefully toward Chief, the soup not spilling.
-T: 0:07-0:10 | She reaches the small table in front of him.
-C: Static, then a gentle pan following her in.
-B: Ireti walks in through the door on the LEFT toward Chief; Chief sits in his wheelchair on the RIGHT, the small table in front of him. Ireti bright and hopeful; Chief cold.
-P: Ireti's light-blue scrubs are clean; she carries the breakfast tray with pepper soup, bread and tea in both hands.
+N: Soft footsteps on the floor, then a door closing softly. No voices, no music.
+B: Chief alone in his wheelchair facing the mirror; Ireti is out of frame behind him, near the door. Chief cold and alone.
+P: Chief sits in his wheelchair with a wool blanket over his knees.
 
 @after 13.11
-# 13.11x | Ireti leaves with the tray | who: ireti, chief
-F: Chief's bedroom: Ireti, her scrubs top still stained with pepper soup, picking up the tray from the small table on the LEFT; Chief in his wheelchair on the RIGHT watching her.
+# 13.11x | Ireti leaves with the tray | who: ireti, chief | start: NO NEW IMAGE - use the LAST FRAME of the shot 13.11 clip
+F: Chief's bedroom: Ireti kneeling at Chief's feet, her scrubs top still stained with pepper soup; Chief in his wheelchair watching her.
 S: Ireti finishes and quietly leaves the room.
-T: 0:00-0:03 | Ireti picks up the tray with the empty bowl.
+T: 0:00-0:03 | Ireti finishes the massage, stands up slowly and picks up the tray with the empty bowl from the small table.
 T: 0:03-0:07 | She walks to the door; Chief's eyes follow her.
-T: 0:07-0:10 | She steps out and closes the door gently behind her.
+T: 0:07-0:10 | She steps out and closes the door gently behind her; Chief keeps looking at the closed door.
 C: Static.
-B: Ireti stands up from Chief's feet on the LEFT, picks up the tray and walks out through the door; Chief stays seated in his wheelchair on the RIGHT, watching her go. Ireti humble and steady; Chief hard but shaken.
+B: Ireti starts kneeling at Chief's feet, then stands and walks out through the door; Chief stays seated in his wheelchair, watching her go. Ireti humble and steady; Chief hard but shaken.
 P: Ireti's scrubs top still has the big pepper-soup stain across the front; she carries the tray with the empty bowl.
 
 @after 14.19
-# 14.19x | Back into the house | who: ireti, chief, femi
-F: The garden in the rain: Ireti, soaked, pushing Chief's wheelchair back up the ramp toward the house, still holding the umbrella over him; Femi walking beside them, his jacket over his head.
-S: They go back inside out of the rain.
-T: 0:00-0:05 | Ireti pushes the wheelchair up the ramp, keeping the umbrella over Chief.
-T: 0:05-0:08 | Femi holds the door open.
-T: 0:08-0:10 | They go in through the door; Femi follows and closes it behind them.
+# 14.19x | Back into the house | who: ireti, chief | start: NO NEW IMAGE - use the image you already made for shot 14.10
+F: In the rain: Ireti holding the small umbrella over Chief in his wheelchair, her own back soaked, both faces visible.
+S: Ireti takes Chief back inside out of the rain.
+T: 0:00-0:05 | Ireti moves behind the wheelchair and pushes it toward the house, still holding the umbrella over Chief.
+T: 0:05-0:08 | She pushes him up the ramp to the open door.
+T: 0:08-0:10 | They go in through the door, and it closes behind them.
 C: Static wide.
-B: Ireti pushes the wheelchair from behind, Chief seated in it; Femi walks on the RIGHT beside them and holds the door. Ireti tired but warm; Chief quiet and touched; Femi surprised.
-P: Ireti is soaked; Chief is dry under the umbrella Ireti holds over him; Femi's charcoal suit jacket is held over his head and his shoulders and trousers are wet with rain.
+B: Ireti walks behind the wheelchair, pushing it; Chief sits in it under the umbrella. Femi has already gone inside and is not in the shot. Ireti tired but warm; Chief quiet.
+P: Ireti is soaked; Chief is dry under the umbrella Ireti holds over him.
 
 @after 16.1
 # 16.1x | Ireti joins Mallam Audu | who: ireti, audu

@@ -108,6 +108,8 @@ def add_reactions(shots, scn):
                     "dialogue": [], "camera": "Static close-up.",
                     "timeline": [("0:00-0:02", f"{name(P)} hears the last words and takes them in, eyes on {name(S)}."),
                                  ("0:02-0:05", f"{name(P)}'s face and body react: {tell}.")]}))
+    if scn in FROZEN:                                      # images already made: keep exactly the reaction shots that have images
+        cands = [c for c in cands if c[2]["id"] in FROZEN[scn]]
     budget = max(0, 30 - len(shots))                      # never more than 30 shots in a scene
     keep = {i: r for _, i, r in sorted(cands, key=lambda c: -c[0])[:budget]}
     out = []
@@ -671,6 +673,13 @@ def check(scn, s):
         if kind not in ("x",): assert k in keys or kind in ("tv",), (s["id"], k)
     assert s["frame"] and s["scene"] and s["timeline"], (s["id"], "missing field")
 
+# Scenes 12-14: images were already generated, so their image prompts stay exactly as they were (frozen_images/).
+# Only the video prompts of 12-14 get the newer corrections. From scene 15 on, both are updated.
+FROZEN = {}
+for _n in ("12", "13", "14"):
+    _txt = (HERE / "frozen_images" / f"Scene_{_n}.txt").read_text()
+    FROZEN[_n] = dict(re.findall(r"\nSHOT (\S+) \|.*?\[IMAGE PROMPT[^\]]*\]\n(.*?)\n\n\[VIDEO PROMPT", _txt, re.S))
+
 def main():
     out = HERE / "final"; out.mkdir(exist_ok=True)
     total = 0
@@ -692,9 +701,21 @@ def main():
         extra = " + KEHINDE photo" if any(s.get("photo") for s in shots) else ""
         txt = [f"SCENE {scn}: {sc['title']}\nUPLOAD THESE CHARACTER SHEETS: {', '.join(C[k][0] for k in ups) or 'none'}{extra}\n"
                f"PASTE THE CHATGPT SETUP MESSAGE FIRST. In Grok: highest quality, 10 seconds, paste the whole video prompt.\n"]
+        frozen = FROZEN.get(scn)
+        if frozen is not None:
+            ids = [x["id"] for x in shots]
+            missing = [i for i in ids if i not in frozen and "NO NEW IMAGE" not in next(x for x in shots if x["id"] == i)["start"]]
+            assert not missing, ("scene with locked images got a shot that needs a new image", scn, missing)
+            print("   locked images; old shots no longer used:", [i for i in frozen if i not in ids])
         for s in shots:
+            if frozen is not None:
+                img = (f"\n[IMAGE PROMPT - LOCKED: same as before, do NOT make a new image if you already have it]\n{frozen[s['id']]}\n"
+                       if s["id"] in frozen else
+                       f"\n[IMAGE - NO NEW IMAGE FOR THIS SHOT]\n{s['start']}. Upload that frame/image to Grok as the start image.\n")
+            else:
+                img = f"\n[IMAGE PROMPT - ChatGPT or Google Flow]\n{policy_safe(scn, image(scn, s))}\n"
             txt.append(f"\n{'='*70}\nSHOT {s['id']} | {s['title']} | Start: {s['start']}\n{'='*70}\n"
-                       + f"\n[IMAGE PROMPT - ChatGPT or Google Flow]\n{policy_safe(scn, image(scn, s))}\n"
+                       + img
                        + f"\n[VIDEO PROMPT - Grok]\n{video(scn, s)}\n")
             if voice_only(scn, s):
                 txt.append("\n" + capcut_voice(scn, s) + "\n")
